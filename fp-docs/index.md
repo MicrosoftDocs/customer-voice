@@ -1,8 +1,8 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Dynamics 365 Enterprise Survey documentation
-description: Dynamics 365 Enterprise Survey documentation
+title: Dynamics 365 Forms Pro documentation
+description: Dynamics 365 Forms Pro documentation
 ms.service: dynamics-365-cross-app
 ms.author: bigoswam
 ms.topic: hub-page
@@ -10,7 +10,7 @@ ms:date: 10/29/2018
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Dynamics 365 Enterprise Survey documentation</h1>
+        <h1>Dynamics 365 Forms Pro documentation</h1>
         <p style="font-size: 1.12rem;margin-bottom: 1rem;">[Add a short description]</p>
         <ul class="pivots">
             <li>
