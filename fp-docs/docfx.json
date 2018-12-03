@@ -36,6 +36,15 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "contributors_to_exclude": [
+        "buck1ey",
+        "bishalgoswami",
+        "kathleenmcgrath",
+        "marycc",
+        "tinaburden",
+        "almostdunh"
+      ],
       "breadcrumb_path": "/dynamics365/forms-pro/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None"
