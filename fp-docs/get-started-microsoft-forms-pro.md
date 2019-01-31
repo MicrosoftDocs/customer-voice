@@ -26,7 +26,7 @@ ms.custom:
 
 [Create a survey 3](create-survey.md)  
 
-[Create a survey 3](create-survey.md-1)  
+[Create a survey 3](create-survey.md)  
 
 [Apply a theme 3](apply-theme.md)  
 
