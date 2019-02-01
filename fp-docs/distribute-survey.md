@@ -28,5 +28,6 @@ After your survey is ready, you can distribute it to the required respondents an
 
 Respondents can submit their responses using their desktop or mobile web browser. You can also choose options to allow anyone to submit responses or restrict responses to only people within your organization.
 
-**Note**: Since Forms Pro is in private preview, it is recommended to distribute the survey to yourself or to participants in the preview program only.
+> [!NOTE]
+> Since Forms Pro is in private preview, it is recommended to distribute the survey to yourself or to participants in the preview program only.
 

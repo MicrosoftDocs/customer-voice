@@ -20,9 +20,7 @@ Microsoft Forms Pro allows you to create and send survey forms to your customers
 
 The first step is to [sign in](sign-in.md) using any web browser or even mobile devices.  
 
-**Notes**:
-
--   In this preview, Forms Pro is supported in English locale only. Please ensure that your browser language is set to English. More languages will be added in the subsequent releases.
-
--   You might see forms that are created by using Office Forms. It is recommended to use Office Forms to work with your previous forms.
+> [!NOTE]
+> - In this preview, Forms Pro is supported in English locale only. Please ensure that your browser language is set to English. More languages will be added in the subsequent releases.
+> - You might see forms that are created by using Office Forms. It is recommended to use Office Forms to work with your previous forms.
 

@@ -20,5 +20,5 @@ If you don’t have the email addresses of the people you want to view your surv
 
 2.  Select **Copy** and then paste this link wherever your intended audience can see and click it to gain access to your survey.
 
- ![get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")  
+    ![get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")  
 

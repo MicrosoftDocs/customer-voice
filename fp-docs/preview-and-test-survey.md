@@ -20,7 +20,7 @@ After you have created and edited a survey, you can preview and test the survey 
 
 2.  In the **Create Questions** tab, select **Preview** from the toolbar at the top to see how your survey will look on a computer.
 
- ![preview a survey](media/preview-survey.png "Preview a survey")  
+    ![preview a survey](media/preview-survey.png "Preview a survey")  
 
 3.  To test your survey, enter responses for the questions in preview mode and then select **Submit**.
 

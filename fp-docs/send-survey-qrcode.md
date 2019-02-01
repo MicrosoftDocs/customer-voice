@@ -18,5 +18,5 @@ ms.custom:
 
 2.  Select **Download** and then share the QR code wherever your intended audience can scan it with a QR code scanner, such as a mobile device, to gain access to your survey.
 
- ![get the survey qr code for sharing](media/survey-qrcode.png "Get the survey QR code for sharing")  
+    ![get the survey qr code for sharing](media/survey-qrcode.png "Get the survey QR code for sharing")  
 

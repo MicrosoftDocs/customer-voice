@@ -22,15 +22,15 @@ Microsoft Forms also displays contributor icons next to each section currently b
 
 2.  In the **Create Questions** tab, select **Share** from the toolbar at the top.
 
- ![share the survey](media/share-survey.png "Share the survey")  
+    ![share the survey](media/share-survey.png "Share the survey")  
 
 3.  Select **Get a link to view and edit**.
 
- ![get the link to share the survey for collaboration](media/get-survey-share-link.png "Get the link to share the survey for collaboration")  
+    ![get the link to share the survey for collaboration](media/get-survey-share-link.png "Get the link to share the survey for collaboration")  
 
 4.  Select **Copy** next to the text box that displays a survey URL.
 
- ![link to share the survey for collaboration](media/survey-share-link.png "Link to share the survey for collaboration")  
+    ![link to share the survey for collaboration](media/survey-share-link.png "Link to share the survey for collaboration")  
 
 5.  Share this link with your intended audience.
 
