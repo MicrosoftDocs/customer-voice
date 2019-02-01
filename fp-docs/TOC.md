@@ -1,9 +1,11 @@
 # [Get started with Microsoft Forms Pro](get-started-microsoft-forms-pro.md)  
 ## [Plan to create a survey](plan-to-create-a-survey.md)  
 ## [Best practices to create a survey](best-practices-to-create-a-survey.md)  
-## [Sign in](sign-in.md)  
 
-# [Create a survey](create-survey.md)  
+# [Sign in](sign-in.md)  
+
+# [Create a survey](create-survey.md)
+## [Create a new survey](create-new-survey.md)
 ## [Apply a theme](apply-theme.md)  
 ## [Preview and test a survey](preview-and-test-survey.md)  
 
