@@ -50,7 +50,7 @@ ms:date: 10/29/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Create a survey</h3>
-                                                    <p>[Add a short description here]</p>
+                                                    <p>Learn to create a survey by adding questions and enhance it by adding picture to header and questions.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -58,7 +58,7 @@ ms:date: 10/29/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="index.md">
+                                <a href="distribute-survey.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -68,8 +68,8 @@ ms:date: 10/29/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Distribute a form</h3>
-                                                    <p>[Add a short description here]</p>
+                                                    <h3>Distribute a survey</h3>
+                                                    <p>Created a survey? Learn how to distribute a survey to your recipients and collect their feedback.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,7 +77,7 @@ ms:date: 10/29/2018
                                 </a>
                             </li>
                             <li>
-                                <a href="index.md">
+                                <a href="collaborate-on-survey.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -87,8 +87,8 @@ ms:date: 10/29/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Collaborate on a form</h3>
-                                                    <p>[Add a short description here]</p>
+                                                    <h3>Share a survey</h3>
+                                                    <p>Want to collaborate with others or creata a template? Learn how you can invite others to collaborate on your survey or share your survey as a template.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -106,8 +106,8 @@ ms:date: 10/29/2018
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Analyze responses and invites</h3>
-                                                    <p>[Add a short description here]</p>
+                                                    <h3>Analyze responses and invitations</h3>
+                                                    <p>Get real-time analytics from Power BI that provides summary information and individual results for surveys.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -126,7 +126,7 @@ ms:date: 10/29/2018
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Training and videos</h3>
-                                                    <p>[Add a short description here]</p>
+                                                    <p>Start your learning journey through Forms Pro with this collection of videos.</p>
                                                 </div>
                                             </div>
                                         </div>
