@@ -11,13 +11,7 @@ ms:date: 10/29/2018
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Forms Pro documentation</h1>
-        <p style="font-size: 1.12rem;margin-bottom: 1rem;">Use Microsoft Forms Pro to quickly create and send surveys to your recipients. Gather their responses and opinions in real-time. Analyze the responses by using powerful Power BI reports and take effective decisions accordingly. With Forms Pro documentation, you get expert information and answers to address your needs.</p>
-        <ul class="pivots">
-            <li>
-                <a href="#home"></a>
-                <ul id="home">
-                    <li>
-                        <a href="#home-all"></a>
+        <p style="font-size: 1.12rem;margin-bottom: 1rem;">Use Microsoft Forms Pro to quickly create and send surveys to your recipients. Gather their responses and opinions in real-time. Analyze the responses by using powerful Power BI reports and take effective decisions accordingly. With Forms Pro documentation, you get expert information and answers to address your needs.</p>            
                         <ul id="home-all" class="cardsC">
                             <li>
                                 <a href="get-started-microsoft-forms-pro.md">
@@ -26,7 +20,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/get-started.svg" alt="" />
+                                                        <img src="media/get-started.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -45,7 +39,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/form.svg" alt="" />
+                                                        <img src="media/form.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -64,7 +58,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/multi-connect.svg" alt="" />
+                                                        <img src="media/multi-connect.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -83,7 +77,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/share.svg" alt="" />
+                                                        <img src="media/share.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -102,7 +96,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/tasks.svg" alt="" />
+                                                        <img src="media/tasks.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -121,7 +115,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/library.svg" alt="" />
+                                                        <img src="media/library.png" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -133,10 +127,6 @@ ms:date: 10/29/2018
                                     </div>
                                 </a>
                             </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+                        </ul>                        
     </div>
 </div>
