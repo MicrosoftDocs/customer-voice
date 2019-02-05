@@ -18,7 +18,7 @@ ms:date: 10/29/2018
                 <ul id="home">
                     <li>
                         <a href="#home-all"></a>
-                        <ul id="home-all" class="cardsA">
+                        <ul id="home-all" class="cardsC">
                             <li>
                                 <a href="get-started-microsoft-forms-pro.md">
                                     <div class="cardSize">
