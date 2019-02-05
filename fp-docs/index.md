@@ -26,7 +26,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/get-started.png" alt="" />
+                                                        <img src="media/get-started.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -45,7 +45,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/form.png" alt="" />
+                                                        <img src="media/form.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -64,7 +64,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/multi-connect.png" alt="" />
+                                                        <img src="media/multi-connect.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -83,7 +83,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/share.png" alt="" />
+                                                        <img src="media/share.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -102,7 +102,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/tasks.png" alt="" />
+                                                        <img src="media/tasks.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -121,7 +121,7 @@ ms:date: 10/29/2018
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="media/library.png" alt="" />
+                                                        <img src="media/library.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
