@@ -18,7 +18,8 @@ ms.custom:
 
 2.  In the **To** field, enter the recipient’s name or email addresses. You can also upload a CSV file by selecting **Import recipients** to populate recipients in the **To** field.
 
- **Note**: The **Import recipients** functionality does not work on the Microsoft Edge browser.
+    > [!NOTE]
+    > The **Import recipients** functionality does not work on the Microsoft Edge browser.
 
 3.  To insert the survey link in your email message, see [Insert survey link](#insert-survey-link).  
 
@@ -60,5 +61,6 @@ An email template is a pre-formatted email message that allows you to quickly cr
 
 - **Rename**: Rename to the current email template.
 
-**Note**: You can save up to 10 email templates only.
+> [!NOTE]
+> You can save up to 10 email templates only.
 

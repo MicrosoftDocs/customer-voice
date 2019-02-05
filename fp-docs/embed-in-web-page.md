@@ -42,11 +42,11 @@ If a response contains embed parameters, they are displayed on the **Embed param
 
 5.  Select **Copy** and then paste this embed code into a web page to embed your survey. You must then update the web page’s source code to render the survey on the web page. For information on how to update the source code, see [Update web page’s source code](#update-web-pages-source-code).  
 
- ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
+    ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
 
 ## Update web page’s source code
 
-After generating the embed code, you must add it into your web page’s source code and create a method that calls the renderSurvey function to render the survey on the web page. You must ensure that values in the renderSurvey function are passed in the same order as parameters defined in the renderSurvey function in embed code.
+After generating the embed code, you must add it into your web page’s source code and create a method that calls the renderSurvey` function to render the survey on the web page. You must ensure that values in the `renderSurvey` function are passed in the same order as parameters defined in the `renderSurvey` function in embed code.
 
 For an inline survey, a parent div container must be defined for the survey to be displayed.
 
@@ -54,21 +54,22 @@ For an inline survey, a parent div container must be defined for the survey to b
 
 Let’s say you want to embed an inline survey into your web page, and you select three out-of-the-box context parameters (First Name, Last Name, and Email) and create one custom context parameter (PageTitle). The embed code is generated as follows:
 
-&lt;script src="https://www.contoso.com/Embed.js" type="text/javascript"&gt;&lt;/script&gt;&lt;link rel="stylesheet" type="text/css" href="https://www.contoso.com/Embed.css" /&gt;&lt;script type = "text/javascript" &gt;function renderSurvey(parentElementId, FirstName, LastName, Email, PageTitle){var se = new SurveyEmbed("JtSG9ha000000000020pTSB1AovM\_5u8bQH1UQjlNQjZRWV0000000000","https://www.contoso.com/");var context = {"FirstName": FirstName,"LastName": LastName,"Email": Email,"PageTitle": PageTitle,};se.renderInline(parentElementId, context);}&lt;/script&gt;
+```
+<script src="https://www.contoso.com/Embed.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="https://www.contoso.com/Embed.css" /><script type = "text/javascript" >function renderSurvey(parentElementId, FirstName, LastName, Email, PageTitle){var se = new SurveyEmbed("JtSG9ha000000000020pTSB1AovM_5u8bQH1UQjlNQjZRWV0000000000","https://www.contoso.com/");var context = {"FirstName": FirstName,"LastName": LastName,"Email": Email,"PageTitle": PageTitle,};se.renderInline(parentElementId, context);}</script>
+```
 
-In the above embed code, the renderSurvey function contains the parentElementId parameter in addition to the selected parameters. The parentElementId parameter receives the div container id when it is called.
+In the above embed code, the `renderSurvey` function contains the `parentElementId` parameter in addition to the selected parameters. The `parentElementId` parameter receives the div container id when it is called.
 
-You created a div container with the id as surveyDiv on the web page where you want to display the survey. This div container will display the survey statically in a designated area on the web page. You want to load the survey when the page loads, so you create a method as follows:
+You created a div container with the id as `surveyDiv` on the web page where you want to display the survey. This div container will display the survey statically in a designated area on the web page. You want to load the survey when the page loads, so you create a method as follows:
 
-&lt;script&gt;
+```
+<script>
+	 window.addEventListener('load', function () {
+            renderSurvey("surveyDiv", "Bert", "Hair", "bert.hair@contoso.com", "Product Overview");
+        }, false);
+</script>
 
-window.addEventListener('load', function () {
-
-renderSurvey("surveyDiv", "Bert", "Hair", "bert.hair@contoso.com", "Product Overview");
-
-}, false);
-
-&lt;/script&gt;
+```
 
 The above method calls the renderSurvey function and passes the required values accordingly. In the above method, static user details are passed, but you can provide a function that retrieves the logged-in user details.
 

@@ -26,8 +26,6 @@ The following statistics are displayed:
 
 - **NPS**: NPS score of the survey.
 
-<!-- -->
-
 - **Sentiment**: Average sentiment of the respondents: positive, neutral, or negative.
 
 - **Latest insights**: Correlation and sentiment are displayed based on the survey responses.

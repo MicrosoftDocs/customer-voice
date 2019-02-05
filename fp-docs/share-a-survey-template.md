@@ -20,15 +20,15 @@ You can easily share a survey as a template so that other people in your organiz
 
 2.  In the **Create Questions** tab, select **Share** from the toolbar at the top.
 
- ![share the survey](media/share-survey.png "Share the survey")  
+    ![share the survey](media/share-survey.png "Share the survey")  
 
 3.  Select **Get a link to duplicate**.
 
- ![get the link to share the survey as template](media/get-survey-duplicate-link.png "Get the link to share the survey as template")  
+    ![get the link to share the survey as template](media/get-survey-duplicate-link.png "Get the link to share the survey as template")  
 
 4.  Select **Copy** next to the text box that displays a survey URL.
 
- ![link to share the survey as template](media/survey-duplicate-link.png "Link to share the survey as template")  
+    ![link to share the survey as template](media/survey-duplicate-link.png "Link to share the survey as template")  
 
 5.  Share this link with your intended audience.
 

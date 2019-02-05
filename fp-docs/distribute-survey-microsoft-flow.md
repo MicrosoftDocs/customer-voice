@@ -24,7 +24,8 @@ After creating a survey, you can choose to send it to respondents based on a bus
 
 4.  Select a built-in template or choose to create a flow from blank. For information on how to work with Microsoft Flow, see [here](https://docs.microsoft.com/en-us/flow/get-started-logic-template).  
 
- **Note**: While configuring a flow, the template page might display duplicate templates. To resolve this issue, you must navigate out of the **Send Survey** tab, and then come back to create the flow again.
+> [!NOTE]
+> While configuring a flow, the template page might display duplicate templates. To resolve this issue, you must navigate out of the **Send Survey** tab, and then come back to create the flow again.
 
 5.  Select **Create Flow**.
 
@@ -56,9 +57,9 @@ To view flow history:
 
 2.  Select **Flow history** from the toolbar at the top.
 
- ![view flow history](media/view-flow-history.png "View flow history")  
+    ![view flow history](media/view-flow-history.png "View flow history")  
 
     A grid with the configured flows is displayed.
 
- ![flow history details](media/flow-history-details.png "Flow history details")  
+    ![flow history details](media/flow-history-details.png "Flow history details")  
 

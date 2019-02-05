@@ -24,11 +24,8 @@ For internal surveys, where you only want the people in your organization to res
 
 To get responses from a wider audience outside of your organization, such as customers or partners, select **Anyone with the link can respond.**
 
-**Notes**:
-
--   Currently for this preview, you can’t change the settings for Anyone with the link can respond. It is always set to record the respondent's name.
-
--   You can modify the authentication settings anytime, even after distributing the survey by email or other channels.
-
--   Anyone with the link address will be able to see and complete your survey. Be sure you're comfortable sharing the contents before changing this default option.
+> [!NOTE]
+> - Currently for this preview, you can’t change the settings for Anyone with the link can respond. It is always set to record the respondent's name.
+> - You can modify the authentication settings anytime, even after distributing the survey by email or other channels.
+> - Anyone with the link address will be able to see and complete your survey. Be sure you're comfortable sharing the contents before changing this default option.
 
