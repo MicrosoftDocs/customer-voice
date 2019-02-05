@@ -4,7 +4,7 @@
 
 # [Sign in](sign-in.md)  
 
-# [Admin tasks]
+# Admin tasks
 
 # [Create a survey](create-survey.md)
 ## [Create a new survey](create-new-survey.md)
