@@ -14,5 +14,5 @@ ms.custom:
 ---
 # Create a survey
 
-You've decided the types of questions you want to include in your survey, and now it's time to create it. This topic covers the basics of creating a survey and applying a theme to it. You can enhance a survey by adding pictures to headers and questions. You can also add video to questions.
+You've decided the types of questions you want to include in your survey, and now it's time to create it. The next few topics cover the basics of creating a survey and applying a theme to it. You can enhance a survey by adding pictures to headers and questions. You can also add video to questions.
 
