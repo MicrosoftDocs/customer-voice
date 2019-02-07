@@ -95,7 +95,7 @@ ms:date: 2/7/2019
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Share a survey</h3>
-                                                    <p>Want to collaborate with others or creata a template? Learn how you can invite others to collaborate on your survey or share your survey as a template.</p>
+                                                    <p>Want to collaborate with others or create a template? Learn how you can invite others to collaborate on your survey or share your survey as a template.</p>
                                                 </div>
                                             </div>
                                         </div>
