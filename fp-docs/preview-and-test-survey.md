@@ -18,7 +18,7 @@ ms.custom:
 
 <!--note from editor:  List item #2: add "of the screen" after "at the top" if that is accurate-->
 
-After you have created and edited a survey, preview and test it before distributing it to respondents.
+After you have created and edited a survey, preview and test it before distributing it to respondents:
 
 1.  Open the survey you want to preview.
 
