@@ -103,7 +103,7 @@ ms:date: 2/7/2019
                                 </a>
                             </li>
                             <li>
-                                <a href="index.md">
+                                <a href="analyze-responses-invites.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -122,7 +122,7 @@ ms:date: 2/7/2019
                                 </a>
                             </li>
                             <li>
-                                <a href="index.md">
+                                <a href="https://go.microsoft.com/fwlink/p/?linkid=2070687">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
