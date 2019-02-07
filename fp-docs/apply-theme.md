@@ -16,14 +16,14 @@ ms.custom:
 
 After creating questions for your survey, you can change the background design and color by:
 
--   Using out-of-the-box available themes
+-   Using out-of-the-box available themes.
 
--   Uploading a customized image
+-   Uploading a customized image.
 
--   Customizing color
+-   Customizing color.
 
 To apply a theme:
-<!--note from editor: In list item #3, suggest changing "select the **Customize theme** icon" to "select **Customize theme**" followed by a graphic of the icon -->
+<!--note from editor: In list item #3, suggest changing "select the **Customize theme** icon" to "select **Customize theme**" followed by a graphic of the icon, and delete the screen shot showing the three different icons. Example, where "[]" is the "Customize theme" icon graphic: "....select **Customize theme** [], and then select one of the following:" -->
 
 <!--note from editor: For last list item, how does user know the proper hex code? -->
 
