@@ -4,7 +4,7 @@
 
 # [Sign in](sign-in.md)  
 
-# Admin tasks
+# Administrator tasks
 
 # [Create a survey](create-survey.md)
 ## [Create a new survey](create-new-survey.md)
@@ -30,4 +30,4 @@
 ## [Analyze survey responses](analyze-survey-responses.md)  
 ## [Analyze survey insights](analyze-survey-insights.md)  
 
-# [Got feedback on Forms Pro?](got-feedback-on-forms-pro.md) 
+# [Provide feedback on Forms Pro](got-feedback-on-forms-pro.md) 
