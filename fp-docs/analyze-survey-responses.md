@@ -26,7 +26,7 @@ The following statistics are displayed across the top:
 
 - **Responses trend**: Number of survey responses received per day.
 
-- **NPS distribution**: Distribution of NPS (Net Promoter Score), which shows the number of promoters, detractors, and passive supporters.
+- **NPS distribution**: Distribution of the Net Promoter Score (NPS), which shows the number of promoters, detractors, and passive supporters.
 
 The list of survey responses is displayed in grid format.
 
