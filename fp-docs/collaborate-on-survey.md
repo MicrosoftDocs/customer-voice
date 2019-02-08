@@ -1,6 +1,6 @@
 ---
 title: "Collaborate on a survey | MicrosoftDocs"
-description: "Instructions to collaborate on a survey"
+description: "Instructions for collaborating on a survey"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -14,5 +14,5 @@ ms.custom:
 ---
 # Collaborate on a survey
 
-You can have multiple people collaborate on the structure and layout of surveys. When you share a survey to collaborate, you create a special link which allows others to view and make changes to the design of a survey you started. All contributors to your survey can also view, edit, and delete responses. Contributors can also share the survey with others by sending them the survey collaborate link. Contributors can also distribute surveys via survey email.
+Multiple people can collaborate on the structure and layout of a survey. To share a survey with others to collaborate on, you create a special link that allows others to view and make changes to the design of a survey you started. All contributors to your survey can also view, edit, and delete responses. Contributors can also share the survey with others by sending them the survey collaborate link. Contributors can also distribute surveys via survey email.
 
