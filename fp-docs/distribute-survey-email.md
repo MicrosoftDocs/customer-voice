@@ -39,7 +39,7 @@ The survey link is added to your email message by default. If required, you can 
 
 ## Unsubscribe from a survey
 
-You can configure your email message to include a link that allows a respondent to unsubscribe from the survey. To insert the unsubscribe link in the email message, place the cursor at the required location, and then select **Insert unsubscribe link**. You can also select text and then select **Insert unsubscribe link** to display the text as the unsubscribe link. By default, the unsubscribe link is added to all email message templates.
+You can configure your email message to include a link that allows a respondent to unsubscribe from the survey. To insert the unsubscribe link in the email message, place the cursor at the required location, and then select **Insert unsubscribe link**. You can also select text, and then select **Insert unsubscribe link** to display the text as the unsubscribe link. By default, the unsubscribe link is added to all email message templates.
 
 ## Personalize an email
 
