@@ -36,7 +36,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "uhfHeaderId": "MSDocsHeader-FormsPro",
       "contributors_to_exclude": [
         "buck1ey",
         "bishalgoswami",
@@ -45,8 +45,11 @@
         "tinaburden",
         "almostdunh"
       ],
-      "breadcrumb_path": "/dynamics365/forms-pro/breadcrumb/toc.json",
+      "breadcrumb_path": "breadcrumb/toc.yml",
       "extendBreadcrumb": true,
+      "searchScope": [
+        "Forms Pro"
+      ],
       "feedback_system": "None"
     },
     "fileMetadata": {},
