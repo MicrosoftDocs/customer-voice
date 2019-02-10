@@ -14,5 +14,7 @@ ms.custom:
 ---
 # Collaborate on a survey
 
-Multiple people can collaborate on the structure and layout of a survey. To share a survey with others to collaborate on, you create a special link that allows others to view and make changes to the design of a survey you started. All contributors to your survey can also view, edit, and delete responses. Contributors can also share the survey with others by sending them the survey collaborate link. Contributors can also distribute surveys via survey email.
+<!--note from editor: In the phrase below, "sending them the survey collaborate link"--change to something like "sending them the collaborate version of the survey link?  -->
+
+Multiple people can collaborate on the structure and layout of a survey. To share a survey with others to collaborate on, you create a special link that allows others to view and make changes to the design of a survey you started. All contributors to your survey can also view, edit, and delete responses and share the survey with others by sending them the survey collaborate link. Contributors can also distribute surveys via survey email.
 
