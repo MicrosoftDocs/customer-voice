@@ -18,11 +18,16 @@ ms.custom:
 
 <!--note from editor:  In below sentence, is "home page" referring to Forms Pro home page?-->
 
-When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through that collaborate URL. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it is available in the **Shared with me** section on the home page.
+When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through the collaborate URL. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it is available in the **Shared with me** section on the home page.
 
 <!--note from editor:  In below sentence, change "Microsoft Forms" to "Forms Pro" if that is accurate. -->
 
 Microsoft Forms also displays contributor icons next to each section currently being edited.
+
+<!--In list item #2, suggest changing the sentence to the following, where "[]" is the arrow "share" icon:
+"On the **Create Questions** tab, select **Share** [] from the toolbar at the top of the page."
+If agree with above change, remove the graphic that shows all three icons.
+-->
 
 1.  Open the survey you want to share for collaboration.
 
