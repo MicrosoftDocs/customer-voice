@@ -33,7 +33,7 @@ ms:date: 2/7/2019
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="media/get-started.png" alt="" />
+                                                        <img src="media/get-started.png" alt="get-started" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -52,7 +52,7 @@ ms:date: 2/7/2019
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="media/form.png" alt="" />
+                                                        <img src="media/form.png" alt="create-survey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -71,7 +71,7 @@ ms:date: 2/7/2019
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="media/multi-connect.png" alt="" />
+                                                        <img src="media/multi-connect.png" alt="distribute-survey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -90,7 +90,7 @@ ms:date: 2/7/2019
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="media/share.png" alt="" />
+                                                        <img src="media/share.png" alt="share-survey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -109,7 +109,7 @@ ms:date: 2/7/2019
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="media/tasks.png" alt="" />
+                                                        <img src="media/tasks.png" alt="analyze-survey" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -128,7 +128,7 @@ ms:date: 2/7/2019
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img src="media/library.png" alt="" />
+                                                        <img src="media/library.png" alt="learn" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
