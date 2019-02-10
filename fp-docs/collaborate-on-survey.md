@@ -14,7 +14,10 @@ ms.custom:
 ---
 # Collaborate on a survey
 
-<!--note from editor: In the phrase below, "sending them the survey collaborate link"--change to something like "sending them the collaborate version of the survey link?  -->
+<!--note from editor: The phrase "collaborate link" is a bit awkward. Suggest something like "collaborators link". If this suggestion works, make these changes:
+Change "you create a special link" to "you create a special collaborators link"...
+Change "by sending them the survey collaborate link" to "by sending them the survey collaborators link."
+-->
 
 Multiple people can collaborate on the structure and layout of a survey. To share a survey with others to collaborate on, you create a special link that allows others to view and make changes to the design of a survey you started. All contributors to your survey can also view, edit, and delete responses and share the survey with others by sending them the survey collaborate link. Contributors can also distribute surveys via survey email.
 
