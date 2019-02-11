@@ -20,6 +20,10 @@ You can create two types of surveys:
 
 -   External surveys to get responses from customers on things like case resolutions or order closures
 
+<!--note from editor: Confirming below paragraph--that it is correct that respondents sign in with Office credentials -->
+
+<!--note from editor: In paragraph below, is "in the settings" referring to an actual Settings option? -->
+
 For internal surveys, where you want only the people in your organization to respond, in the settings, select **Only people in my organization can respond.** This is the default option. When you select **Only people in my organization can respond**, respondents are required to sign in with their Office sign-in credentials. You can also select whether the respondent’s name must be tracked and whether a respondent can respond multiple times.
 
 To get responses from a wider audience outside of your organization, such as customers or partners, select **Anyone with the link can respond.**
