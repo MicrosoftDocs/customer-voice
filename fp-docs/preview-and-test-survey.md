@@ -16,7 +16,7 @@ ms.custom:
 
 <!--note from editor:  List item #2: Suggest adding the graphic of the Preview icon after the word **Preview** in the sentence, and removing the screen shot that shows the other icons-->
 
-<!--note from editor:  List item #2: add "of the screen" after "at the top" if that is accurate-->
+<!--note from editor:  List item #2: add "of the page" after "at the top" if that is accurate-->
 
 After you have created and edited a survey, preview and test it before distributing it to respondents:
 
