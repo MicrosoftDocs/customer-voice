@@ -6,7 +6,7 @@ description: Microsoft Forms Pro documentation
 ms.service: dynamics-365-cross-app
 ms.author: bigoswam
 ms.topic: hub-page
-ms:date: 2/7/2019
+ms:date: 02/21/2019
 ---
 <div id="main" class="v2">
     <div class="container">
