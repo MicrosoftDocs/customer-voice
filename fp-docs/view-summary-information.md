@@ -16,7 +16,7 @@ ms.custom:
 
 After you create your survey, adjust its settings, and share your survey with others, it’s time to view the results and insights. Open the survey that you want to review, and then select the **View Responses** tab.
 
-On the **Overview** tab, you’ll see summary information data about your survey, such as number of invitations sent, number of responses received, Net Promoter Score, sentiment, and survey insights. You can select **Invitations** and **Responses** to analyze them in detail.
+On the **Overview** tab, you’ll see summary data about your survey, such as number of invitations sent, number of responses received, Net Promoter Score (NPS), respondent sentiment, and survey insights. You can select **Invitations** or **Responses** to get more details.
 
 The following statistics are displayed:
 
