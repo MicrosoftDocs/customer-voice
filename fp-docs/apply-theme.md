@@ -16,7 +16,7 @@ ms.custom:
 
 After creating questions for your survey, you can change the background design and color by:
 
--   Using out-of-the-box available themes.
+-   Using themes available in Forms Pro out of the box.
 
 -   Uploading a customized image.
 
