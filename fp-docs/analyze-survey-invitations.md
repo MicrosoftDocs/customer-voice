@@ -14,13 +14,13 @@ ms.custom:
 ---
 # Analyze survey invitations
 
-A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see survey invitations of a survey, go to **View Responses** &gt; **Overview**, and then select **Invitations** from the summary information. The survey invitation statistics and the list of survey invitations sent for a survey are displayed.
+A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **View Responses** &gt; **Overview**, and then select **Invitations** from the summary information. Survey invitation statistics and a list of survey invitations that were sent for a survey are displayed.
 
 <!--note from editor--in sentence below, is "across the top" referring to "across the top of the screen"?-->
 
 The following statistics are displayed across the top:
 
-<!--note from editor: In list below: 1) What ddoes "failed invitation" mean? That the email got bounced back? 2)What is "invitation status"--does that refer to "responded to, sent, failed, in-progress? 3) Unclear to me what "Invitation trend" is measuring. -->
+<!--note from editor: In list below: 1) What does "failed invitation" mean? That the email got bounced back? 2)What is "invitation status"--does that refer to "responded to, sent, failed, in-progress? 3) Unclear to me what "Invitation trend" is measuring. -->
 
 - **Average turnaround time**: Average time between sending a survey invitation and receiving a survey response. The unanswered survey invites are ignored for this.
 
