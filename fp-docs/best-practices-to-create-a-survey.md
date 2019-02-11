@@ -1,5 +1,5 @@
 ---
-title: "Best practices to create a survey | MicrosoftDocs"
+title: "Best practices for creating a survey | MicrosoftDocs"
 description: "Best practices for creating a survey"
 keywords: ""
 author: sbmjais
@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 888b9f2f-83ca-4188-92a7-113f196c759e
 ms.custom: 
 ---
-# Best practices to create a survey
+# Best practices for creating a survey
 
 A few best practices enable you to create a meaningful survey and gather good responses from your customers. You can then analyze those responses and act on them in a way that best suits your organization. Some of the best practices for creating a survey are:
 
