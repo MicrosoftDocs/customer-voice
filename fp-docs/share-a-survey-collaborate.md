@@ -14,11 +14,11 @@ ms.custom:
 ---
 # Share a survey for collaborating
 
-<!--note from editor:  In below sentence, suggest changing "view and edit it through that collaborate URL." to "view and edit it through the collaborators URL." -->
+<!--note from editor:  Is the word "collaborate" actually present in the URL? If so, note that, and perhaps say how that URL differs from the actual survey URL.  -->
 
 <!--note from editor:  In below sentence, is "home page" referring to Forms Pro home page?-->
 
-When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through the collaborate URL. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it is available in the **Shared with me** section on the home page.
+When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through a special URL created for collaborators. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it is available in the **Shared with me** section on the home page.
 
 <!--note from editor:  In below sentence, change "Microsoft Forms" to "Forms Pro" if that is accurate. -->
 
