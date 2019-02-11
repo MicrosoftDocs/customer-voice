@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 2/21/2019
+ms.date: 02/21/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
