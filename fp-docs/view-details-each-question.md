@@ -14,5 +14,5 @@ ms.custom:
 ---
 # View details for each question
 
-You can view details for each question in the survey by going to **View Responses** &gt; **Question responses**. A graphical representation of the responses is displayed. To see the name of each respondent and his or her responses to each question, select the **More details** link.
+You can view details for each question in the survey by going to **View Responses** &gt; **Question responses**. A graphical representation of the responses is displayed. To see the name of each respondent and his or her responses to each question, select **More details**.
 
