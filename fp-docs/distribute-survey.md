@@ -20,7 +20,7 @@ After your survey is ready, distribute it to your respondents and collect their 
 
 - **Microsoft Flow**: Configure a business trigger by using [Microsoft Flow](https://flow.microsoft.com/) to send the email.  
 
-- **Embed**: Embed the survey in a web page.
+- **Embed**: Embed the survey onto a web page.
 
 - **Link**: Copy a link to the survey that you created, and paste it into a shared area.
 
