@@ -14,7 +14,7 @@ ms.custom:
 ---
 # Distribute a survey by using Microsoft Flow
 
-After creating a survey, you can send it to respondents based on a business trigger--resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Microsoft Flow:
+After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Microsoft Flow:
 
 1.  Open the survey you want to distribute, and go to **Send Survey** &gt; **Microsoft Flow**.
 
@@ -23,6 +23,9 @@ After creating a survey, you can send it to respondents based on a business trig
 3.  Select **Configure Flow**.
 
 4.  Select a built-in template, or create a flow from scratch. For more information, see [Create a flow from a template in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-template).  
+
+
+<!--note from editor: In 2nd sentence in "Note", give more specific instructions--specific UI elements they will select to navigate out and back again? -->
 
 > [!NOTE]
 > While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the **Send Survey** tab, and then come back to create the flow again.
