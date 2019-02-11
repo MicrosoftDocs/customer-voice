@@ -1,12 +1,12 @@
 ---
 title: "Best practices to create a survey | MicrosoftDocs"
-description: "Best practices to create a survey"
+description: "Best practices for creating a survey"
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/31/2019
+ms.date: 02/11/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 888b9f2f-83ca-4188-92a7-113f196c759e
