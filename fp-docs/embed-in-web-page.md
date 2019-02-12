@@ -28,6 +28,8 @@ If a response contains embed parameters, they are displayed on the **Embed param
 
 To embed your survey:
 
+<!--note from editor: The screen shot for list item #5 has a typo: "parameteres" should be "parameters" in option "Select parameteres to add in embed code" -->
+
 1.  Open the survey you want to embed, and go to **Send Survey** &gt;**Embed**.
 
 2.  Under **Select the embed type for your survey**, select one of the following options:
