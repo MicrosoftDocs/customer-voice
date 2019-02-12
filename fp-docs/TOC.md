@@ -12,7 +12,7 @@
 ## [Preview and test a survey](preview-and-test-survey.md)  
 
 # [Distribute a survey to get responses](distribute-survey.md)  
-## [Define who can respond to a survey](define-who-can-respond-to-a-survey.md)  
+## [Define who can respond to a survey](define-who-can-respond-to-survey.md)  
 ## [Distribute a survey by using email](distribute-survey-email.md)  
 ## [Distribute a survey by using Microsoft Flow](distribute-survey-microsoft-flow.md)  
 ## [Embed in a web page](embed-in-web-page.md)  
