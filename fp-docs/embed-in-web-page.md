@@ -48,9 +48,9 @@ To embed your survey:
 
     ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
 
-## Update webpage’s source code
+## Update a webpage’s source code
 
-After generating the embed code, you must add it into your web page’s source code. Then create a method that calls the **renderSurvey** function to render the survey on the webpage. You must ensure that the values in the **renderSurvey** function are passed in the same order as the parameters that are defined in the **renderSurvey** function in the embed code.
+After generating the embed code, you must add it into your webpage’s source code. Then create a method that calls the **renderSurvey** function to render the survey on the webpage. You must ensure that the values in the **renderSurvey** function are passed in the same order as the parameters that are defined in the **renderSurvey** function in the embed code.
 
 For an inline survey, a parent **div** container must be defined for the survey to be displayed.
 
