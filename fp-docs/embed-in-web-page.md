@@ -44,7 +44,7 @@ To embed your survey:
 
 4.  Select **Generate code**. The embed code is generated as per the selected options.
 
-5.  Select **Copy**, and then paste the embed code into a webpage to embed your survey. You must then update the webpage’s source code to render the survey on the webpage. For information on how to update the source code, see [Update webpage’s source code](#update-webpages-source-code).  
+5.  Select **Copy**, and then paste the embed code into a webpage to embed your survey. You must then update the webpage’s source code to render the survey on the webpage. For information on how to update the source code, see [Update a webpage’s source code](#update-webpages-source-code).  
 
     ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
 
