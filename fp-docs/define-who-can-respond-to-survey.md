@@ -16,9 +16,9 @@ ms.custom:
 
 You can create two types of surveys:
 
--   Internal surveys to get responses about internal organization events such as an outing
+-   Internal surveys to get responses about internal organization events such as an outing.
 
--   External surveys to get responses from customers on things like case resolutions or order closures
+-   External surveys to get responses from customers on things like case resolutions or order closures.
 
 <!--note from editor: Confirming below paragraph--that it is correct that respondents sign in with Office credentials -->
 
