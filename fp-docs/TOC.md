@@ -1,6 +1,6 @@
 # [Get started with Microsoft Forms Pro](get-started-microsoft-forms-pro.md)  
 ## [Plan to create a survey](plan-to-create-a-survey.md)  
-## [Best practices to create a survey](best-practices-to-create-a-survey.md)  
+## [Best practices for creating a survey](best-practices-to-create-a-survey.md)  
 
 # [Sign in](sign-in.md)  
 
@@ -12,7 +12,7 @@
 ## [Preview and test a survey](preview-and-test-survey.md)  
 
 # [Distribute a survey to get responses](distribute-survey.md)  
-## [Define who can respond to survey](define-who-can-respond-to-survey.md)  
+## [Define who can respond to a survey](define-who-can-respond-to-survey.md)  
 ## [Distribute a survey by using email](distribute-survey-email.md)  
 ## [Distribute a survey by using Microsoft Flow](distribute-survey-microsoft-flow.md)  
 ## [Embed in a web page](embed-in-web-page.md)  
@@ -20,7 +20,7 @@
 ## [Send a survey QR code](send-survey-qrcode.md)  
 
 # [Collaborate on a survey](collaborate-on-survey.md)  
-## [Share a survey to collaborate](share-a-survey-collaborate.md)  
+## [Share a survey for collaborating](share-a-survey-collaborate.md)  
 ## [Share a survey as a template](share-a-survey-template.md)  
 
 # [Analyze responses and invitations](analyze-responses-invites.md)  
