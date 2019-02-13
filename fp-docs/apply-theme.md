@@ -12,7 +12,7 @@ ms.topic: article
 ms.assetid: 4b8910fa-a7b3-485d-9128-0e66b4acd9c1
 ms.custom: 
 ---
-# Apply a theme
+# Apply theme to a survey
 
 After creating questions for your survey, you can change the background design and color by:
 

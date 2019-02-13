@@ -1,12 +1,13 @@
 # [Get started with Microsoft Forms Pro](get-started-microsoft-forms-pro.md) 
 ## [Try Microsoft Forms Pro preview](try-preview.md) 
 
-# [Admin tasks]
+# Admin tasks 
 
 # [Create a survey](create-survey.md)
 ## [Create a new survey](create-new-survey.md)
-## [Apply a theme](apply-theme.md)  
-## [Preview and test a survey](preview-and-test-survey.md)  
+## [Apply theme to a survey](apply-theme.md)  
+## [Preview and test a survey](preview-and-test-survey.md) 
+## [Create a branching rule](create-branching-rule.md) 
 
 # [Distribute a survey to get responses](distribute-survey.md)  
 ## [Define who can respond to a survey](define-who-can-respond-to-survey.md)  

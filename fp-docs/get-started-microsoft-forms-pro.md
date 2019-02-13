@@ -23,7 +23,7 @@ You can create and send surveys to your customers and collect their valuable fee
 
 > [!NOTE]
 > - In this preview, Forms Pro is available only in an English-language version. Please ensure that your browser language is set to English. More languages will be supported in subsequent releases.
-> - If you have existing documents that were created with Microsoft Forms, we recommend that you do not make any updates to them using Forms Pro.
+> - If you have existing surveys that were created with Microsoft Forms, we recommend that you do not make any updates to them using Forms Pro.
 
 ## Plan to create a survey
 
