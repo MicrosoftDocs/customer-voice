@@ -1,10 +1,7 @@
-# [Get started with Microsoft Forms Pro](get-started-microsoft-forms-pro.md)  
-## [Plan to create a survey](plan-to-create-a-survey.md)  
-## [Best practices for creating a survey](best-practices-to-create-a-survey.md)  
+# [Get started with Microsoft Forms Pro](get-started-microsoft-forms-pro.md) 
+## [Try Microsoft Forms Pro preview](try-preview.md) 
 
-# [Sign in](sign-in.md)  
-
-# Admin tasks
+# [Admin tasks]
 
 # [Create a survey](create-survey.md)
 ## [Create a new survey](create-new-survey.md)

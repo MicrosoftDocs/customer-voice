@@ -14,13 +14,4 @@ ms.custom:
 ---
 # Got feedback on Forms Pro?
 
-<!--note from editor: Suggest these changes:
-1. Delete "the" and "icon" so sentence reads "Please submit your feedback by selecting **Feedback** in the upper-right corner of the page.
-2. Insert the "give feedback" icon .png after "**Feedback**" in above sentence, so sentence looks like this (where "[]" is the icon .png): 
-Please submit your feedback by selecting **Feedback** [] in the upper-right corner of the page.
--->
-
-
-We'd love to hear from you! Please submit your feedback by selecting the **Feedback** icon in the upper-right corner of the page.
-
-![give feedback](media/feedback.png "Give feedback")  
+We'd love to hear from you! Please submit your feedback by selecting **Feedback** ![give feedback](media/feedback.png "Give feedback") in the upper-right corner of the page.  
