@@ -1,6 +1,6 @@
 ---
 layout: HubPage
-hide_bc: true
+hide_bc: false
 title: Microsoft Forms Pro documentation
 description: Microsoft Forms Pro documentation
 ms.service: dynamics-365-cross-app
