@@ -18,9 +18,7 @@ A survey response record is created after a respondent submits a survey. To see 
 
 ![Survey responses](media/survey-responses.png "Survey responses")
 
-<!--note from editor:  In below sentence, does "across the top" refer to "across the top of the screen"? -->
-
-The following survey response statistics are displayed across the top and the list of survey responses received for a survey is displayed below the statistics in the grid format.
+The following survey response statistics are displayed in a summary pane at the top of the page and the list of survey responses received for a survey is displayed below the statistics in the grid format.
 
 - **Average completion time**: Average time taken by a respondent, from opening a survey to submitting the survey.
 

@@ -18,9 +18,10 @@ You've decided the types of questions you want to include in your survey, and no
 
 In this section, you will learn how to:
 
-[Create a new survey](create-new-survey.md)
-[Apply theme to a survey](apply-theme.md)  
-[Preview and test a survey](preview-and-test-survey.md)
-[Create a branching rule](create-branching-rule.md)
+- [Create a new survey](create-new-survey.md)
+- [Apply theme to a survey](apply-theme.md)  
+- [Preview and test a survey](preview-and-test-survey.md)
+- [Create a branching rule](create-branching-rule.md)
+- [Create custom data](create-custom-data.md)
 
 

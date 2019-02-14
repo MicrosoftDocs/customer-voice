@@ -18,9 +18,7 @@ A survey invitation record is created for each survey email that is sent, either
 
 ![Survey invitations](media/survey-invites.png "Survey invitations")
 
-<!--note from editor--in sentence below, is "across the top" referring to "across the top of the screen"?-->
-
-The following survey invitation statistics are displayed across the top and the list of survey invitations sent for a survey is displayed below the statistics in the grid format.
+The following survey invitation statistics are displayed in a summary pane at the top of the page and the list of survey invitations sent for a survey is displayed below the statistics in the grid format.
 
 <!--note from editor: In list below: 1) What does "failed invitation" mean? That the email got bounced back? 2)What is "invitation status"--does that refer to "responded to, sent, failed, in-progress? 3) Unclear to me what "Invitation trend" is measuring. -->
 
