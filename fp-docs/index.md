@@ -11,7 +11,7 @@ ms.date: 02/21/2019
 <div id="main" class="v2">
     <div class="container">
         <div style="background-color:#008570;height:auto">
-            <img src="media/forms-logo-white.svg" style="display:inline;vertical-align:middle" height="96" width="96"/>
+            <img src="media/forms-logo-white.svg" style="display:inline;vertical-align:middle" alt="forms-logo" height="96" width="96"/>
             <h1 style="display:inline;vertical-align:middle;color:white">Microsoft Forms Pro documentation</h1>
             <div class="container intro">
                 <p style="color:white;margin:-15px 20px 20px 20px">Use Microsoft Forms Pro to quickly create and send surveys to your recipients. Gather their responses and opinions in real-time. Analyze the responses by using powerful Power BI reports and take effective decisions accordingly. With Forms Pro documentation, you get expert information and answers to address your needs.</p>
