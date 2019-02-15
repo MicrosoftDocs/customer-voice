@@ -4,7 +4,7 @@
 # [Create a survey](create-survey.md)
 ## [Create a new survey](create-new-survey.md)
 ## [Apply theme to a survey](apply-theme.md)  
-## [Preview and test a survey](preview-and-test-survey.md) 
+## [Preview and test a survey](preview-test-survey.md) 
 ## [Create a branching rule](create-branching-rule.md) 
 ## [Create custom data](create-custom-data.md)
 
