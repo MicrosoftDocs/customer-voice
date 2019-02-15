@@ -20,7 +20,7 @@ In this section, you will learn how to:
 
 - [Create a new survey](create-new-survey.md)
 - [Apply theme to a survey](apply-theme.md)  
-- [Preview and test a survey](preview-and-test-survey.md)
+- [Preview and test a survey](preview-test-survey.md)
 - [Create a branching rule](create-branching-rule.md)
 
 
