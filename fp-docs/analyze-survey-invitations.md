@@ -20,8 +20,6 @@ A survey invitation record is created for each survey email that is sent, either
 
 The following survey invitation statistics are displayed in a summary pane at the top of the page and the list of survey invitations sent for a survey is displayed below the statistics in the grid format.
 
-<!--note from editor: In list below: 1) What does "failed invitation" mean? That the email got bounced back? 2)What is "invitation status"--does that refer to "responded to, sent, failed, in-progress? 3) Unclear to me what "Invitation trend" is measuring. -->
-
 - **Average turnaround time**: Average time between sending a survey invitation and receiving a survey response. The unanswered survey invites are ignored for this.
 
 - **Failed invitations**: Number of failed invitations in the last week.

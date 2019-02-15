@@ -25,8 +25,6 @@ After creating a survey, you can send it to respondents based on a business trig
 4.  Select a built-in template, or create a flow from scratch. For more information, see [Create a flow from a template in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-template).  
 
 
-<!--note from editor: In 2nd sentence in "Note", give more specific instructions--specific UI elements they will select to navigate out and back again? -->
-
 > [!NOTE]
 > While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the **Send Survey** tab, and then come back to create the flow again.
 
@@ -56,18 +54,9 @@ If required, you can also edit a flow by selecting the **Edit** symbol. The flow
 
 To view flow history:
 
-<!--note from editor: In List item #2, add "of the screen" so instruction reads "Select **Flow history** from the toolbar at the top of the screen" ? -->
-
-<!--note from editor: In List item #2, suggest changing sentence to this, where "[]" is the "view flow history" icon: 
-Select **Flow history** [] from the toolbar at the top of the screen."
-If make change above, delete the standalone icon that appears after list item #2? -->
-
-
 1.  Open the survey for which you want to view flow history, and go to **Send Survey** &gt; **Microsoft Flow**.
 
-2.  Select **Flow history** from the toolbar at the top.
-
-    ![view flow history](media/view-flow-history.png "View flow history")  
+2.  On the **Send Survey** tab, select **Flow history** ![view flow history](media/view-flow-history.png "View flow history")  from the toolbar at the top of the page.
 
     A grid with the configured flows is displayed.
 

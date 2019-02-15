@@ -20,16 +20,9 @@ Also, when you share a survey as a template, only the structure of the survey is
 
 To share a survey as a template:
 
-<!--note from editor:  In list item #2 below, for sentence "In the **Create Questions** tab, select **Share** from the toolbar at the top of the page." I suggest changing the sentence to the following, where "[]" is the .png for the share/arrow icon: 
-On the **Create Questions** tab, select **Share** [] from the toolbar at the top of the page."
-If you agree with the above change, delete the current screen shot following list item #2.
--->
-
 1.  Open the survey you want to share.
 
-2.  On the **Create Questions** tab, select **Share** from the toolbar at the top of the page.
-
-    ![share the survey](media/share-survey.png "Share the survey")  
+2.  On the **Create Questions** tab, select **Share** ![share the survey](media/share-survey.png "Share the survey") from the toolbar at the top of the page.
 
 3.  Select **Get a link to duplicate**.
 

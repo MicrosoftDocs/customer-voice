@@ -43,13 +43,7 @@ You can configure your email message to include a link that allows a respondent 
 
 ## Personalize an email
 
-<!--note from editor: Does selecting **First name** or **Last name** create the placeholder for you, or do you have to enter that yourself?
-Revise paragraph below to be more specific--something along these lines?  
-"Personalize your survey email by using placeholders. For example, place the cursor where you want a first name to appear. Select **Personalize**, and then select **First name** from the variables drop-down list. The correct first name of the respondent will be automatically inserted. 
--->
-
-
-Use placeholders to automatically insert contact information into your email by using variables. For example, you can use a variable to automatically insert a customer's first name into your email message. To insert a variable into the email message, select **Personalize**, and then select a variable from the drop-down list.
+Personalize your survey email by using placeholders. For example, place the cursor where you want a first name to appear. Select **Personalize**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. 
 
 The following variables are available:
 
@@ -58,14 +52,11 @@ The following variables are available:
 - **Last name**: Inserts last name of the recipient.
 
 
-
 ## Use email templates
 
 An email template is a preformatted email message that allows you to quickly create and send email messages. You can modify the text, and then save your changes to the current email template or save the changes to a new email template. Unless you make another selection, **Default Template** is selected for use in an email message. 
 
 You can perform these actions on an email template:
-
-<!--note from editor:  For **Rename** below: Is the "to" correct?-->
 
 - **Save**: Save your changes to the current email template.
 
@@ -73,7 +64,7 @@ You can perform these actions on an email template:
 
 - **Delete**: Delete the current email template.
 
-- **Rename**: Rename to the current email template.
+- **Rename**: Rename the current email template.
 
 > [!NOTE]
 > You can save a maximum of 10 email templates.

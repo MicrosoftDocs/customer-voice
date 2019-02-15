@@ -23,17 +23,12 @@ After creating questions for your survey, you can change the background design a
 -   Customizing color.
 
 To apply a theme:
-<!--note from editor: In list item #3, suggest changing "select the **Customize theme** icon" to "select **Customize theme**" followed by a graphic of the icon, and delete the screen shot showing the three different icons. Example, where "[]" is the "Customize theme" icon graphic: "....select **Customize theme** [], and then select one of the following:" -->
-
-<!--note from editor: For last list item, how does user know the proper hex code? -->
 
 1.  Open the survey for which you want to change the theme.
 
-2.  On the **Create Questions** tab, select **Theme** from the toolbar at the top, and choose the color or background you want.
+2.  On the **Create Questions** tab, select **Theme** ![apply a theme to the survey](media/apply-theme.png "Apply a theme to the survey") from the toolbar at the top of the page, and choose the color or background you want.
 
-    ![apply a theme to the survey](media/apply-theme.png "Apply a theme to the survey")  
-
-3.  If you want to select another background image or change the color of the survey, select the **Customize theme** icon, and then select one of the following:
+3.  If you want to select another background image or change the color of the survey, select **Customize theme** ![Customize theme of the survey](media/customize-theme.png "Customize theme of the survey"), and then select one of the following:
 
 - **Upload image**: Select one of the following options to upload an image of your choice:
 

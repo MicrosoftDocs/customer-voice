@@ -47,8 +47,6 @@ You'll see the time taken by the respondent to complete the survey, Net Promoter
 
 ![View details of the selected response](media/response-details.png "View details of the selected response")
 
-<!--note from editor: In below paragraph, describe what "sentiment" refers to ? -->
-
 ## Export survey responses
 
 You can export a single survey response or multiple survey responses to Microsoft Excel. To export survey response(s), select the required response(s), and then select **Export** in the **Response details** section.

@@ -14,17 +14,11 @@ ms.custom:
 ---
 # Preview and test a survey
 
-<!--note from editor:  List item #2: Suggest adding the graphic of the Preview icon after the word **Preview** in the sentence, and removing the screen shot that shows the other icons-->
-
-<!--note from editor:  List item #2: add "of the page" after "at the top" if that is accurate-->
-
 After you have created and edited a survey, preview and test it before distributing it to respondents:
 
 1.  Open the survey you want to preview.
 
-2.  On the **Create Questions** tab, select **Preview** from the toolbar at the top to see how your survey will look on a computer.
-
-    ![preview a survey](media/preview-survey.png "Preview a survey")  
+2.  On the **Create Questions** tab, select **Preview** ![preview a survey](media/preview-survey.png "Preview a survey") from the toolbar at the top of the page to see how your survey will look on a computer.
 
 3.  To test your survey, enter responses for the questions in preview mode, and then select **Submit**.
 

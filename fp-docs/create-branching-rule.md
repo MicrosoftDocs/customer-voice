@@ -21,7 +21,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 1.	Open the survey in which you want to add a branching rule.
 
-2.	On the **Create Questions** tab, select the ellipses button (…) from the toolbar at the top and then select **Branching rules**.
+2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
 
     ![Branching rules option](media/branching-rules.png "Branching rules option")
     

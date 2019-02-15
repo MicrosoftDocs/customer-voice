@@ -20,8 +20,6 @@ When there are sufficient responses to a survey, insights are generated to show 
 
 To view detailed survey insights, select **View all**. The following insights are displayed:
 
-<!--note from editor: The description of "Association insights" is unclear--is it talking about correlation between questions of a certain theme and positive or negative responses? What is correlated with what? -->
-
 - **Association insights**: Displays the correlation between one or more questions in the survey. This helps an organization detect patterns in the responders. These patterns help organizations get a better understanding of their customers.
 
 - **Sentiment insights**: Displays the average sentiment score and a word cloud for positive and negative feedback of respondents. Sentiment score is calculated based on the sentiment of the responses to the text-based questions. The word cloud is created from key phrases in the feedback.
