@@ -1,6 +1,6 @@
 ---
 title: "Send a survey by using QR code | MicrosoftDocs"
-description: "Instructions to send a survey by using QR code"
+description: "Instructions for sending a survey by using QR code"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -14,9 +14,9 @@ ms.custom:
 ---
 # Send a survey QR code 
 
-1.  Open the survey you want to send and go to **Send Survey** &gt; **QR code**.
+1.  Open the survey you want to send, and go to **Send Survey** &gt; **QR code**.
 
-2.  Select **Download** and then share the QR code wherever your intended audience can scan it with a QR code scanner, such as a mobile device, to gain access to your survey.
+2.  Select **Download**, and then share the QR code wherever your intended audience can scan it with a QR code scanner such as a mobile device.
 
     ![get the survey qr code for sharing](media/survey-qrcode.png "Get the survey QR code for sharing")  
 

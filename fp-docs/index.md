@@ -27,7 +27,7 @@ ms.date: 02/21/2019
                         <ul id="home-all" class="cardsL">
                         <br/>
                             <li>
-                                <a href="get-started-microsoft-forms-pro.md">
+                                <a href="get-started.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -84,7 +84,7 @@ ms.date: 02/21/2019
                                 </a>
                             </li>
                             <li>
-                                <a href="collaborate-on-survey.md">
+                                <a href="collaborate-survey.md">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

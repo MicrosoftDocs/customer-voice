@@ -1,6 +1,6 @@
 ---
 title: "Distribute a survey to your respondents | MicrosoftDocs"
-description: "Instructions to distribute a survey to your respondents"
+description: "Instructions for distributing a survey to your respondents"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -14,20 +14,20 @@ ms.custom:
 ---
 # Distribute a survey to get responses
 
-After your survey is ready, you can distribute it to the required respondents and collect their feedback. You can distribute your survey in either of the following ways:
+After your survey is ready, distribute it to your respondents and collect their feedback. You can distribute your survey in the following ways:
 
 - **Email**: Send the survey link in an email.
 
 - **Microsoft Flow**: Configure a business trigger by using [Microsoft Flow](https://flow.microsoft.com/) to send the email.  
 
-- **Embed**: Embed the survey in a web page.
+- **Embed**: Embed the survey in a webpage.
 
-- **Link**: Copy a link to the survey that you created and paste it into a shared area.
+- **Link**: Copy a link to the survey that you created, and paste it into a shared area.
 
 - **QR code**: Send a QR code for your survey.
 
-Respondents can submit their responses using their desktop or mobile web browser. You can also choose options to allow anyone to submit responses or restrict responses to only people within your organization.
+Respondents can submit responses using a desktop or mobile web browser. You can choose options that allow anyone to submit responses or that restrict responses to only people within your organization.
 
 > [!NOTE]
-> Since Forms Pro is in private preview, it is recommended to distribute the survey to yourself or to participants in the preview program only.
+> Since Microsoft Forms Pro is in private preview, it is recommended that you distribute the survey to yourself or to participants in the preview program only.
 

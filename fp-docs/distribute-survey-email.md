@@ -1,6 +1,6 @@
 ---
 title: "Distribute a survey by using email | MicrosoftDocs"
-description: "Instructions to distribute a survey by using email"
+description: "Instructions for distributing a survey by using email"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -14,44 +14,49 @@ ms.custom:
 ---
 # Distribute a survey by using email
 
-1.  Open the survey you want to distribute and go to **Send Survey** &gt; **Email**. A default subject and message are available for the recipient in the email body along with a link to your survey. You can modify and format the text as per your requirement.
+After creating a survey, you can distribute it through email: 
 
-2.  In the **To** field, enter the recipient’s name or email addresses. You can also upload a CSV file by selecting **Import recipients** to populate recipients in the **To** field.
+1.  Open the survey you want to distribute, and go to **Send Survey** &gt; **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
+
+2.  In the **To** field, enter the recipient’s name or email address. You can also populate the **To** field by uploading a .csv file. To do this, select **Import recipients**.
 
     > [!NOTE]
-    > The **Import recipients** functionality does not work on the Microsoft Edge browser.
+    > The **Import recipients** functionality does not work in the Microsoft Edge browser.
 
-3.  To insert the survey link in your email message, see [Insert survey link](#insert-survey-link).  
+3.  To insert the survey link into your email message, see [Insert survey link](#insert-survey-link).  
 
-4.  To add an unsubscribe link in your email message, see [Unsubscribe from a survey](#unsubscribe-from-a-survey).  
+4.  To add an unsubscribe link to your email message, see [Unsubscribe from a survey](#unsubscribe-from-a-survey).  
 
 5.  To personalize the email by using first and last names of the respondent, see [Personalize an email](#personalize-an-email).  
 
-6.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates)  
+6.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates).  
 
 7.  When you’re ready to send your survey, select **Send**.
 
 ## Insert survey link
 
-The survey link is added to your email message by default. If required, you can add the link at the required location in the email message. To insert the survey link in your email message, place the cursor at the required location and select **Insert survey link**. You can also select a text and then select **Insert survey link** to display it as the survey link.
+The survey link is added to your email message by default. To insert the survey link in a different location in your email message, place the cursor at the required location, and select **Insert survey link**. You can also select text, and then select **Insert survey link** to display that text as the survey link.
 
 ## Unsubscribe from a survey
 
-You can configure your email message to include a link that allows a respondent to unsubscribe from the survey. To insert the unsubscribe link in the email message, place the cursor at the required location, and then select **Insert unsubscribe link**. You can also select a text and then select **Insert unsubscribe link** to display it as the unsubscribe link. By default, the unsubscribe link is added to all email message templates.
+You can configure your email message to include a link that allows a respondent to unsubscribe from the survey. To insert the unsubscribe link in the email message, place the cursor at the required location, and then select **Insert unsubscribe link**. You can also select text, and then select **Insert unsubscribe link** to display that text as the unsubscribe link. By default, the unsubscribe link is added to all email message templates.
 
 ## Personalize an email
 
-Use placeholders to automatically insert contact information into your email by using variables. For example, you can use a variable to automatically insert a customer's first name into the text in your email message. The following variables are available:
+Personalize your survey email by using placeholders. For example, place the cursor where you want a first name to appear. Select **Personalize**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. 
+
+The following variables are available:
 
 - **First name**: Inserts first name of the recipient.
 
 - **Last name**: Inserts last name of the recipient.
 
-To insert a variable in the email message, select **Personalize**, and then select a variable from the drop-down list.
 
 ## Use email templates
 
-An email template is a pre-formatted email message that allows you to quickly create and send email messages. You can modify the text as per your requirement and save your changes to the email template or as a new email template. By default, the **Default Template** email template is selected to be used in the email message. The following actions are available for an email template:
+An email template is a preformatted email message that allows you to quickly create and send email messages. You can modify the text, and then save your changes to the current email template or save the changes to a new email template. Unless you make another selection, **Default Template** is selected for use in an email message. 
+
+You can perform these actions on an email template:
 
 - **Save**: Save your changes to the current email template.
 
@@ -59,8 +64,8 @@ An email template is a pre-formatted email message that allows you to quickly cr
 
 - **Delete**: Delete the current email template.
 
-- **Rename**: Rename to the current email template.
+- **Rename**: Rename the current email template.
 
 > [!NOTE]
-> You can save up to 10 email templates only.
+> You can save a maximum of 10 email templates.
 
