@@ -1,3 +1,7 @@
 - name: Docs
-  tocHref: /
+  href: /
   topicHref: /
+  items:
+  - name: Forms Pro
+    tocHref: /forms-pro/
+    topicHref: /forms-pro/

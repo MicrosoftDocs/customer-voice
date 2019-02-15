@@ -1,34 +1,46 @@
-<svg id="ICONS-64x" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-      .cls-2 {
-        fill: #e5e5e5;
-      }
-
-      .cls-3 {
-        fill: none;
-        stroke: #556a8a;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-4 {
-        fill: #2bc7f4;
-      }
-    </style>
-  </defs>
-  <title>i_tasks</title>
-  <path class="cls-1" d="M53,9H11a2.93,2.93,0,0,0-3,2.84V59.16A2.93,2.93,0,0,0,11,62H53a2.93,2.93,0,0,0,3-2.84V11.84A2.93,2.93,0,0,0,53,9Z"/>
-  <path class="cls-2" d="M55.5,11v8H8.5V11A2.5,2.5,0,0,1,11,8.5H53A2.5,2.5,0,0,1,55.5,11Z"/>
-  <path class="cls-3" d="M53,9H11a2.93,2.93,0,0,0-3,2.84V59.16A2.93,2.93,0,0,0,11,62H53a2.93,2.93,0,0,0,3-2.84V11.84A2.93,2.93,0,0,0,53,9Z"/>
-  <rect class="cls-1" x="18" y="8" width="28" height="7"/>
-  <path class="cls-4" d="M40,8a7.92,7.92,0,0,0-.62-3.11A8.06,8.06,0,0,0,35.11.62a8.11,8.11,0,0,0-6.22,0,8.31,8.31,0,0,0-2.55,1.72,8.13,8.13,0,0,0-1.72,2.55A7.92,7.92,0,0,0,24,8H19v6H45V8ZM32,8a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,32,8Z"/>
-  <polyline class="cls-3" points="15 29 20.5 34.5 33 22"/>
-  <polyline class="cls-3" points="15 45 20.5 50.5 33 38"/>
-  <line class="cls-3" x1="34" y1="30" x2="50" y2="30"/>
-  <line class="cls-3" x1="34" y1="46" x2="50" y2="46"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="ICONS-64x" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E5E5E5;}
+	.st2{fill:#4E4E4E;}
+	.st3{fill:#1A6B5F;}
+	.st4{fill:none;stroke:#4E4E4E;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M79.5,13.7h-63c-2.4-0.1-4.4,1.8-4.5,4.3v71c0.1,2.4,2.1,4.3,4.5,4.3h63c2.4,0.1,4.4-1.8,4.5-4.3V18
+		C83.9,15.6,81.9,13.7,79.5,13.7z"/>
+</g>
+<g>
+	<path class="st1" d="M83.2,16.7v12H12.8v-12c0-2.1,1.7-3.7,3.7-3.7h63C81.6,13,83.2,14.7,83.2,16.7z"/>
+</g>
+<g>
+	<path class="st2" d="M16.4,94.8c-3.1,0-5.8-2.5-5.9-5.7V18c0.1-3.3,2.8-5.9,6-5.8h62.9c3.2-0.1,5.9,2.5,6,5.7v71
+		c-0.1,3.3-2.8,5.9-6,5.8h-63C16.5,94.8,16.4,94.8,16.4,94.8z M16.4,15.2c-1.6,0-2.9,1.2-2.9,2.8V89c0,1.5,1.4,2.8,3,2.8h63
+		c1.7,0,3-1.2,3-2.8V18c0-1.5-1.3-2.8-2.9-2.8c0,0,0,0-0.1,0L16.4,15.2C16.5,15.2,16.5,15.2,16.4,15.2z"/>
+</g>
+<g>
+	<rect x="27" y="12.2" class="st0" width="42" height="10.5"/>
+</g>
+<g>
+	<g>
+		<path class="st3" d="M60,12.2c0-1.6-0.3-3.2-0.9-4.7c-1.2-2.9-3.5-5.2-6.4-6.4c-3-1.2-6.3-1.2-9.3,0c-1.4,0.6-2.7,1.5-3.8,2.6
+			c-1.1,1.1-2,2.4-2.6,3.8c-0.6,1.5-0.9,3.1-0.9,4.7h-7.5v9h39v-9H60z M48,12.2c-2.1,0-3.7-1.7-3.7-3.7s1.7-3.7,3.7-3.7
+			s3.7,1.7,3.7,3.7S50.1,12.2,48,12.2z"/>
+	</g>
+</g>
+<g>
+	<polygon class="st2" points="30.8,54.1 21.4,44.8 23.6,42.7 30.8,49.9 48.4,32.2 50.6,34.3 	"/>
+</g>
+<g>
+	<polygon class="st2" points="30.8,78.1 21.4,68.8 23.6,66.7 30.8,73.9 48.4,56.2 50.6,58.3 	"/>
+</g>
+<g>
+	<rect x="51" y="43.7" class="st2" width="24" height="3"/>
+</g>
+<g>
+	<rect x="51" y="67.7" class="st2" width="24" height="3"/>
+</g>
 </svg>
