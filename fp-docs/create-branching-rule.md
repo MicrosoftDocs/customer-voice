@@ -13,7 +13,7 @@ ms.assetid: 72B81F9F-952B-4A58-83C7-9F68A5EF9B5C
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Create a branching rule
 

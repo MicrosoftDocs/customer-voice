@@ -13,7 +13,7 @@ ms.assetid: c9dba997-e8dc-4e44-bbeb-ff9ba49fa23b
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Create a survey
 

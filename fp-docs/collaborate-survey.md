@@ -13,7 +13,7 @@ ms.assetid: db6ca3b4-0436-435f-97d1-7249e9b6f5d8
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Collaborate on a survey
 

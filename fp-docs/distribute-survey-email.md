@@ -13,7 +13,7 @@ ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Distribute a survey by using email
 

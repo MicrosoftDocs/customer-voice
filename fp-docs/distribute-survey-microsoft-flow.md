@@ -13,7 +13,7 @@ ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Distribute a survey by using Microsoft Flow
 

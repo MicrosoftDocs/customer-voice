@@ -13,7 +13,7 @@ ms.assetid: 145f21c2-4635-4f5d-b7cf-03e90ec4b533
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Analyze survey responses
 

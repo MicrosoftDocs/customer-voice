@@ -13,7 +13,7 @@ ms.assetid: 023a656c-dad6-4dd5-82ed-30dd3f0183ea
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Analyze responses and invitations
 

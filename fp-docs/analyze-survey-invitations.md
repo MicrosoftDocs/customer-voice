@@ -13,7 +13,7 @@ ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Analyze survey invitations
 

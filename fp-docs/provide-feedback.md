@@ -13,7 +13,7 @@ ms.assetid: c9c20ec7-e093-40f6-be09-9d0956787da1
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Provide feedback on Forms Pro
 

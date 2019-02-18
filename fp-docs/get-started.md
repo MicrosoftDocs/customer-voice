@@ -13,11 +13,11 @@ ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
+> - [!INCLUDE[cc-preview-features-definition](includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](includes/cc-preview-features-no-ms-support.md)]
 
 # Get started with Microsoft Forms Pro
 

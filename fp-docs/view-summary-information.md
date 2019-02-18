@@ -13,7 +13,7 @@ ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # View summary information for your survey
 

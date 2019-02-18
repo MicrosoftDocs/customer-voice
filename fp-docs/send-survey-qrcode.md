@@ -13,7 +13,7 @@ ms.assetid: b62a55f6-cb45-4b47-a610-155c7fffa496
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 # Send a survey QR code 
 
