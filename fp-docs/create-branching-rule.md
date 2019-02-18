@@ -73,7 +73,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
     ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
 
-13.	Select **Add “If false”** to add the action that will trigger when the defined condition does not meet the criteria. Then follow Steps 9 through 12. 
+13.	Select **Add “If false”** to add the action that will trigger when the defined condition does not meet the criteria. Then follow Steps 9 through 11. 
 
     ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
 
