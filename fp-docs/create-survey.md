@@ -25,5 +25,6 @@ In this section, you will learn how to:
 - [Apply theme to a survey](apply-theme.md)  
 - [Preview and test a survey](preview-test-survey.md)
 - [Create a branching rule](create-branching-rule.md)
+- [Personalize a survey](personalize-survey.md)
 
 

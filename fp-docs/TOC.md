@@ -6,6 +6,7 @@
 ## [Apply theme to a survey](apply-theme.md)  
 ## [Preview and test a survey](preview-test-survey.md) 
 ## [Create a branching rule](create-branching-rule.md) 
+## [Personalize a survey](personalize-survey.md)
 
 # [Distribute a survey to get responses](distribute-survey.md)  
 ## [Define who can respond to a survey](invite-settings.md)  

@@ -37,3 +37,7 @@ To create a new survey with Forms Pro:
 6.	Enter the question text and its answer options. The survey is saved automatically.
 
     ![Survey](media/survey.png "Survey") 
+
+
+> [!NOTE]
+> You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md).
