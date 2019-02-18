@@ -1,6 +1,6 @@
 ---
-title: "Create a survey with Microsoft Forms Pro | MicrosoftDocs"
-description: "Instructions for creating a survey with Microsoft Forms Pro"
+title: "Personalize a survey with Microsoft Forms Pro | MicrosoftDocs"
+description: "Instructions for personalizing a survey with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais
