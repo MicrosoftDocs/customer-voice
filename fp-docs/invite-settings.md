@@ -41,7 +41,7 @@ For external surveys:
 
 When you've defined who can respond to your survey, you can select the following options:
 
-- **Accept responses**: Specify whether the survey is open and accepting responses. By default, it is selected. If you want to stop your survey, clear the option and specify a message for the recipients.
+- **Accept responses**: Specify whether the survey is open and accepting responses. By default, this option is selected. If you want to stop your survey, clear the option, and specify a message for the recipients.
 - **Start date**: Specify a date when the survey will be open. 
 - **End date**: Specify a date when the survey will be closed.
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
