@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/07/2019
+ms.date: 02/18/2019
 ms.service: 
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -26,7 +26,7 @@ You can create two types of surveys:
 For internal surveys:
 
 1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
-2. Select **Only people in my organization can respond**.  When you select this option, respondents are required to sign in with their credentials. 
+2. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
 3. Optionally, you can select one of the following options:
     - **Record name**: Respondent's name is recorded.
     - **One response per person**: A respondent can submit only one response.
@@ -39,17 +39,17 @@ For external surveys:
     - **Record name**: Respondent's name is recorded.
     - **One response per person**: A respondent can submit only one response. This option is enabled only when **Record name** is selected.
 
-When you've defined who can respond to your survey, you can select the following options as per your requirement:
+When you've defined who can respond to your survey, you can select the following options:
 
-- **Accept responses**: Allows you to specify if the survey is open and accepting responses. By default, it is selected. If you want to stop your survey, clear the option and specify a message for the recipients.
+- **Accept responses**: Specify whether the survey is open and accepting responses. By default, it is selected. If you want to stop your survey, clear the option and specify a message for the recipients.
 - **Start date**: Specify a date when the survey will be open. 
 - **End date**: Specify a date when the survey will be closed.
-- **Shuffle questions**: Allows you to specify if the questions in the survey should be shuffled.
-- **Email notification of each response**: Allows you to specify if email notification is required when a response is submitted.
+- **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
+- **Email notification of each response**: Specify whether email notification is required when a response is submitted.
 
 
 > [!NOTE]
-> - Currently for this preview, you can't change the settings for **Anyone with the link can respond.** It is always set to record the respondent's name.
+> - Currently for this preview, you can't change the settings for **Anyone with the link can respond.** It is always set to **Record name**, which records respondents names.
 > - You can modify the authentication settings at any time, even after distributing the survey by email or other channels.
 > - Anyone with the link address is able to see and complete your survey. Be sure you're comfortable sharing the contents before changing this default option.
 
