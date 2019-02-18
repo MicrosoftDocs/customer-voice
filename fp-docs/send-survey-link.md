@@ -13,9 +13,9 @@ ms.assetid: de861eb8-b373-43b9-a1be-34d43c74349e
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 # Send a survey link to others
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 If you don’t have the email addresses of the people who you want to view your survey, or if you don’t want to use email for this purpose, you can easily copy a custom link that lets you send your survey to others:
 

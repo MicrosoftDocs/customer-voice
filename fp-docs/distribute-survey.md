@@ -12,7 +12,10 @@ ms.topic: article
 ms.assetid: f58130b4-b66f-4c9d-bebd-0649988e4473
 ms.custom: 
 ---
+
 # Distribute a survey to get responses
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 After your survey is ready, distribute it to your respondents and collect their feedback. You can distribute your survey in the following ways:
 

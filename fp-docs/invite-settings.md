@@ -13,9 +13,9 @@ ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 # Define who can respond to a survey 
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 You can create two types of surveys:
 

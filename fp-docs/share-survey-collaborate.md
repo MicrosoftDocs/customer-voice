@@ -13,9 +13,9 @@ ms.assetid: 50d49fc4-7894-4350-98ba-98c1331811fc
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 # Share a survey for collaborating
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through a special URL created for collaborators. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it is available in the **Shared with me** section on the home page.
 

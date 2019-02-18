@@ -13,9 +13,9 @@ ms.assetid: 1AECC69F-B68A-4776-884A-C59770FC5C96
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 # Personalize a survey
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 Use placeholders to automatically insert customer information into your survey by using custom data. For example, you can use custom data to automatically insert a customer's first name into a question to personalize it.
 

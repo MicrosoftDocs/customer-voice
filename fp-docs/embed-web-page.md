@@ -13,9 +13,9 @@ ms.assetid: 649b3390-c3a5-4166-a014-ae3cfd14cc71
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 # Embed survey in a webpage
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 You can embed your survey in a webpage by pasting the survey's embed code into your webpage’s source code. You can choose how you want the survey to appear:
 

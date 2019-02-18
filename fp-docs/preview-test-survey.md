@@ -13,9 +13,9 @@ ms.assetid: 07e97246-0eb2-4474-863b-363bd1a267fd
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 # Preview and test a survey
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 After you have created and edited a survey, preview and test it before distributing it to respondents:
 

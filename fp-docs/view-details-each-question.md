@@ -13,9 +13,9 @@ ms.assetid: 6c936024-24e5-4d76-9eb1-20f27c8c746e
 ms.custom: 
 ---
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
 # View details for each question
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 You can view details for each question in the survey by going to **View Responses** &gt; **Question responses**. A graphical representation of the responses is displayed. 
 

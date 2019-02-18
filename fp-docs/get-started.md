@@ -13,13 +13,13 @@ ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
 ms.custom: 
 ---
 
+# Get started with Microsoft Forms Pro
+
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 > [!IMPORTANT]
 > - [!INCLUDE[cc-preview-features-definition](includes/cc-preview-features-definition.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](includes/cc-preview-features-no-ms-support.md)]
-
-# Get started with Microsoft Forms Pro
 
 Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Microsoft Forms Pro supports businesses seeking to transform customer, product and employee experiences, as well as other survey needs. 
 
