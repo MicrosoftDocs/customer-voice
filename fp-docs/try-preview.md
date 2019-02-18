@@ -13,6 +13,8 @@ ms.assetid: 1BCF1283-90AD-4FA4-A930-431EC7731725
 ms.custom: 
 ---
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 # Microsoft Forms Pro preview
 
 Welcome to Microsoft Forms Pro preview! 

@@ -12,6 +12,9 @@ ms.topic: article
 ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
 ms.custom: 
 ---
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 # Distribute a survey by using Microsoft Flow
 
 After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Microsoft Flow:

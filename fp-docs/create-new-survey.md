@@ -12,6 +12,7 @@ ms.topic: article
 ms.assetid: EA713CA9-6B0B-45A3-A700-22C164465411
 ms.custom: 
 ---
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 # Create a new survey
 
@@ -25,9 +26,13 @@ To create a new survey with Forms Pro:
 
 3.	Select the default survey name, and enter a name for your survey. You can also enter an optional description for it.
 
-4.	Select **Add Question** to view question types that can be added to your survey.
+    ![Add survey title and description](media/survey-title.png "Add survey title and description") 
 
-5.	Select the required question type to be added.
+4.	Select **Add Question** to view question types that can be added to your survey. You can choose from **Choice**, **Text**, **Rating**, or **Date** questions. You can also select **More** (...), and choose **Ranking**, **Likert**, or **Net Promoter Score** questions.
+
+    ![Question types](media/ques-types.png "Question types") 
+
+5.	Select the required question type(s) to be added.
 
 6.	Enter the question text and its answer options. The survey is saved automatically.
 

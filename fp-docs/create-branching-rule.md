@@ -13,6 +13,8 @@ ms.assetid: 72B81F9F-952B-4A58-83C7-9F68A5EF9B5C
 ms.custom: 
 ---
 
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 # Create a branching rule
 
 When you want to ask additional questions based on responses in a survey, create one or more branching rules for the response you want more information about. Branching rules make your surveys interactive and ensures that only the relevant questions are displayed to the responders. You can also choose to navigate to another question, survey, or even open a website based on the response of a question.
@@ -23,7 +25,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
 
-    ![Branching rules option](media/branching-rules.png "Branching rules option")
+    ![Branching rules button](media/branching-rules-button.png "Branching rules button")
     
     If you don't have any rules created yet, the following page is displayed. Select **Create rule**. 
 

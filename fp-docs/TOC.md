@@ -11,7 +11,7 @@
 ## [Define who can respond to a survey](invite-settings.md)  
 ## [Distribute a survey by using email](distribute-survey-email.md)  
 ## [Distribute a survey by using Microsoft Flow](distribute-survey-microsoft-flow.md)  
-## [Embed in a web page](embed-web-page.md)  
+## [Embed survey in a web page](embed-web-page.md)  
 ## [Send a survey link to others](send-survey-link.md)  
 ## [Send a survey QR code](send-survey-qrcode.md)  
 

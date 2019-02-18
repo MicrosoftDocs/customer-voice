@@ -12,6 +12,9 @@ ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
 ms.custom: 
 ---
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 # Distribute a survey by using email
 
 After creating a survey, you can distribute it through email: 
@@ -31,7 +34,7 @@ After creating a survey, you can distribute it through email:
 
 6.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates).  
 
-7.  When you’re ready to send your survey, select **Send**.
+7.  When you're ready to send your survey, select **Send**.
 
 ## Insert survey link
 

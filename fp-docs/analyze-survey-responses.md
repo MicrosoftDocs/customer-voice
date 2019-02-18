@@ -12,6 +12,9 @@ ms.topic: article
 ms.assetid: 145f21c2-4635-4f5d-b7cf-03e90ec4b533
 ms.custom: 
 ---
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 # Analyze survey responses
 
 A survey response record is created after a respondent submits a survey. To see survey responses, go to **View Responses** &gt; **Overview**, and then select **Responses** from the summary information.

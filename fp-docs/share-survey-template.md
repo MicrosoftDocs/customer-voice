@@ -12,6 +12,9 @@ ms.topic: article
 ms.assetid: 984702f4-83ba-4d47-8d3d-ad14d452b211
 ms.custom: 
 ---
+
+[!include[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 # Share a survey as a template
 
 It's easy to share a survey as a template so that other people in your organization can duplicate it and use it as their own. When you make a copy of a survey, the copy exists in your profile. When you share a survey as a template, you create a special link that allows others to duplicate the survey in their own profile, where they can make changes to it. 
