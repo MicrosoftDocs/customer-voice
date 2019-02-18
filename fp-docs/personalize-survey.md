@@ -65,11 +65,12 @@ After selecting or adding the required custom data, you must add them in the que
 
 For example, let's say that you've created custom data named **Product Name** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product Name** custom data from the **Pipes** list. The *{{First Name}}* and *{{Product Name}}* placeholders are inserted at the cursor location.
 
-Let's say the question is: *{{First Name}}***, overall, how would you rate your experience with customer service for** *{{Product Name}}***?*
+Let's say the question is:
+*{{First Name}}*, overall, how would you rate your experience with customer service for *{{Product Name}}*?
 
 That question will look like this when a customer named Bert Hair takes the survey for a product named Contoso Sales:
 
-**Bert, overall, how would you rate your experience with customer service for Contoso Sales?**
+Bert, overall, how would you rate your experience with customer service for Contoso Sales?
 
 ## Specify values for custom data placeholders
 
