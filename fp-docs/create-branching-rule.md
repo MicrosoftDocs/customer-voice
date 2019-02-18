@@ -37,13 +37,13 @@ For example, for the question **How likely is it that you would recommend us to 
  
     ![New rule button](media/branch-new-rule-button.png "New rule button")
 
-4.	In the **Rule name** field, enter a name for the branching rule.
+3.	In the **Rule name** field, enter a name for the branching rule.
 
-5.	In the **Define conditions** area, select **Add condition** to add a response condition.
+4.	In the **Define conditions** area, select **Add condition** to add a response condition.
 
-6.	In the **Select question** list, choose the question for which you want to create a rule.
+5.	In the **Select question** list, choose the question for which you want to create a rule.
 
-7.	Select values from the **Select operator** and **Select response** lists accordingly.
+6.	Select values from the **Select operator** and **Select response** lists accordingly.
 
     ![Branching rules condition](media/branch-condition.png "Branching rules condition")
 
@@ -51,31 +51,31 @@ For example, for the question **How likely is it that you would recommend us to 
 
     ![Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
 
-8.	Select **Add “If true”** to add the action that will trigger when the defined condition meets the criteria.
+7.	Select **Add “If true”** to add the action that will trigger when the defined condition meets the criteria.
 
-9.	Select **Add condition** to add the response action.
+8.	Select **Add condition** to add the response action.
 
-10.	In the **Select action** list, choose one of the following actions:
+9.	In the **Select action** list, choose one of the following actions:
 
     - **Show**: Allows you to select a question to be displayed per the response to a question.
     - **Hide**: Allows you to select a question to be hidden per the response to a question.
     - **Toggle**: Allows you to toggle the state of the selected question per the response to a question.
     - **Navigate to**: Allows you to select a target to which a responder should be navigated.
 
-11.	In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide,** or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
+10.	In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide,** or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
 
     - **Question**: Allows you to skip to a question per the response to a question.
     - **End of survey**: Allows you to end the survey per the response to a question.
     - **Chain survey**: Allows you to open a different survey per the response to a question.
     - **URL**: Allows you to open a website per the response to a question.
 
-12.	In the **Select value** list, enter or choose a value per the target.
+11.	In the **Select value** list, enter or choose a value per the target.
 
     ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
 
-13.	Select **Add “If false”** to add the action that will trigger when the defined condition does not meet the criteria. Then follow Steps 9 through 11. 
+12.	Select **Add “If false”** to add the action that will trigger when the defined condition does not meet the criteria. Then follow Steps 8 through 11. 
 
     ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
 
-14. Select **Save**.
+13. Select **Save**.
 
