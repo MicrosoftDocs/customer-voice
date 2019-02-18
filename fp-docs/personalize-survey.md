@@ -19,7 +19,7 @@ ms.custom:
 
 With placeholders, automatically insert customer information into your survey by using custom data. For example, you can use custom data to automatically insert a customer's first name into a question to personalize it.
 
-By default, the following custom data are available:
+By default, the following custom data options are available:
 
 - First name
 - Last name
