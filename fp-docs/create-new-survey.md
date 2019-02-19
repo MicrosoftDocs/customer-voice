@@ -39,6 +39,8 @@ To create a new survey with Forms Pro:
 
     ![Survey](media/survey.png "Survey") 
 
+7. Optionally, apply formatting to the survey elements, such as survey heading, survey description, question text, and question subtitle. More information: [Format text in a survey](survey-text-format.md).
+
 
 > [!NOTE]
 > You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md).
