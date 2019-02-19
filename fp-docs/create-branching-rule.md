@@ -17,7 +17,9 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-When you want to ask additional questions based on responses in a survey, create one or more branching rules for those responses. Branching rules make your surveys interactive and ensure that only the relevant questions are displayed to the responders. You can also choose to navigate to another question or survey, or even open a website based on the response to a question.
+When you want to ask additional questions based on responses in a survey, create one or more branching rules for those responses. Branching rules make your surveys interactive and ensure that only the relevant questions are displayed to the responders. 
+
+You can also choose to navigate to another question or survey, or even open a website based on the response to a question.
 
 For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a branching rule to ask the reason if someone responds **Not likely**.
 
