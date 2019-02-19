@@ -47,11 +47,7 @@ To select or add a new custom data:
 
 ## Add custom data placeholders to a question
 
-<!--note from editor:  To make a little bit clearer, suggest changing "After selecting or adding the required custom data, you must add them in the questions."
-to
-"After selecting or adding the required custom data, you need to associate that data with placeholders in the question."  -->
-
-After selecting or adding the required custom data, you must add them in the questions. To add custom data placeholders to a question:
+After selecting or adding the required custom data, you need to associate that data with placeholders in the question. To add custom data placeholders to a question:
 
 1.	Open the survey in which you want to add custom data placeholders.
 

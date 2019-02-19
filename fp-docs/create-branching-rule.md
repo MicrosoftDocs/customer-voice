@@ -7,7 +7,7 @@ ms.author: shjais
 manager: shujoshi
 applies_to: 
 ms.date: 02/21/2019
-ms.service: 
+ms.service: forms-pro
 ms.topic: article
 ms.assetid: 72B81F9F-952B-4A58-83C7-9F68A5EF9B5C
 ms.custom: 
@@ -22,8 +22,6 @@ When you want to ask additional questions based on responses in a survey, create
 You can also choose to navigate to another question or survey, or even open a website based on the response to a question.
 
 For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a branching rule to ask the reason if someone responds **Not likely**.
-
-<!--note from editor: In Steps 6 and 11, it's not clear to me how the screen shots relate to the text.-->
 
 1.	Open the survey in which you want to add a branching rule.
 
