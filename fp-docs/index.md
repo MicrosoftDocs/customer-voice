@@ -15,116 +15,116 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="get-started.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/get-started.svg" alt="" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="media/get-started.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Get started</h3>
-                        <p>Get started on documentation with an overview about Microsoft Forms Pro.</p>
+                        <div class="cardText">
+                            <h3>Get started</h3>
+                            <p>Get started on documentation with an overview about Microsoft Forms Pro.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </a>
     </li>
     <li>
         <a href="create-survey.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/form.svg" alt="" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="media/form.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Create a survey</h3>3>
-                        <p>Learn to create a survey by adding questions and enhance it by adding picture to header and questions.</p>
+                        <div class="cardText">
+                            <h3>Create a survey</h3>3>
+                            <p>Learn to create a survey by adding questions and enhance it by adding picture to header and questions.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </a>
     </li>
     <li>
         <a href="distribute-survey.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/multi-connect.svg" alt="" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="media/multi-connect.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Distribute a survey</h3>
-                        <p>Created a survey? Learn how to distribute a survey to your recipients and collect their feedback.</p>
+                        <div class="cardText">
+                            <h3>Distribute a survey</h3>
+                            <p>Created a survey? Learn how to distribute a survey to your recipients and collect their feedback.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </a>
     </li>
     <li>
         <a href="collaborate-survey.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/share.svg" alt="" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="media/share.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Share a survey</h3>
-                        <p>Want to collaborate with others or create a template? Learn how you can invite others to collaborate on your survey or share your survey as a template.</p>
+                        <div class="cardText">
+                            <h3>Share a survey</h3>
+                            <p>Want to collaborate with others or create a template? Learn how you can invite others to collaborate on your survey or share your survey as a template.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </a>
     </li>
     <li>
         <a href="analyze-responses-invites.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/tasks.svg" alt="" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="media/tasks.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Analyze responses and invitations</h3>
-                        <p>Get real-time analytics from Power BI that provides summary information and individual results for surveys.</p>
+                        <div class="cardText">
+                            <h3>Analyze responses and invitations</h3>
+                            <p>Get real-time analytics from Power BI that provides summary information and individual results for surveys.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </a>
     </li>
     <li>
         <a href="https://go.microsoft.com/fwlink/p/?linkid=2070687">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="media/library.svg" alt="" />
+            <div class="cardSize">
+                <div class="cardPadding">
+                    <div class="card">
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="media/library.svg" alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Training and videos</h3>
-                        <p>Start your learning journey through Forms Pro with this collection of videos.</p>
+                        <div class="cardText">
+                            <h3>Training and videos</h3>
+                            <p>Start your learning journey through Forms Pro with this collection of videos.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </a>
     </li>
 </ul>
