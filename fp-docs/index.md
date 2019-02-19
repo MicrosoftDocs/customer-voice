@@ -43,7 +43,7 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Create a survey</h3>3>
+                            <h3>Create a survey</h3>
                             <p>Learn to create a survey by adding questions and enhance it by adding picture to header and questions.</p>
                         </div>
                     </div>
