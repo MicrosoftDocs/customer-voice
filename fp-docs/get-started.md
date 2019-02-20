@@ -29,9 +29,6 @@ You can create and send surveys to your customers and collect their valuable fee
 
 Microsoft Forms Pro is optimized for latest versions of Edge, Chrome, Firefox, and Safari.
 
-
-[Try Microsoft Forms Pro preview](try-preview.md)
-
 ## Plan to create a survey
 
 It's important to have a plan for configuring your surveys. Here are a few things to think about when you are creating questions:
