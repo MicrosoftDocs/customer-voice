@@ -1,5 +1,4 @@
 # [Get started with Microsoft Forms Pro](get-started.md) 
-## [Try Microsoft Forms Pro preview](try-preview.md) 
 
 # [Create a survey](create-survey.md)
 ## [Create a new survey](create-new-survey.md)
@@ -8,6 +7,7 @@
 ## [Create a branching rule](create-branching-rule.md) 
 ## [Personalize a survey](personalize-survey.md)
 ## [Format text in a survey](survey-text-format.md)
+## [Create a new form](create-new-form.md)
 
 # [Distribute a survey to get responses](distribute-survey.md)  
 ## [Define who can respond to a survey](invite-settings.md)  

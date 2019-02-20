@@ -23,7 +23,7 @@ To create a new survey with Forms Pro:
 
 2.	Under **My Forms**, select **New Survey**.
 
-    ![New survey](media/create-new-survey.png "New survey") 
+    ![New survey](media/new-survey-button.png "New survey") 
 
 3.	Select the default survey name, and enter a name for your survey. You can also enter an optional description for it.
 
@@ -44,3 +44,4 @@ To create a new survey with Forms Pro:
 
 > [!NOTE]
 > You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md).
+> You can create a new form within Microsoft Forms Pro. More information: [Create a new form](create-new-form.md).

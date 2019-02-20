@@ -27,5 +27,6 @@ In this section, you will learn how to:
 - [Create a branching rule](create-branching-rule.md)
 - [Personalize a survey](personalize-survey.md)
 - [Format text in a survey](survey-text-format.md)
+- [Create a new form](create-new-form.md)
 
 
