@@ -19,17 +19,9 @@ ms.custom:
 
 You can create two types of surveys:
 
--   Internal surveys to get responses about internal organization events such as an outing.
-
 -   External surveys to get responses from customers on things like case resolutions or order closures.
 
-For internal surveys:
-
-1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
-2. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
-3. Optionally, you can select one of the following options:
-    - **Record name**: Respondent's name is recorded.
-    - **One response per person**: A respondent can submit only one response.
+-   Internal surveys to get responses about internal organization events such as an outing.
 
 For external surveys:
 
@@ -39,6 +31,18 @@ For external surveys:
     - **Record name**: Respondent's name is recorded.
     - **One response per person**: A respondent can submit only one response. This option is enabled only when **Record name** is selected.
 
+    ![Invitation settings for external surveys](media/invite-settings-external.png "Invitation settings for external surveys")
+
+For internal surveys:
+
+1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
+2. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
+3. Optionally, you can select one of the following options:
+    - **Record name**: Respondent's name is recorded.
+    - **One response per person**: A respondent can submit only one response.
+
+    ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
+
 When you've defined who can respond to your survey, you can select the following options:
 
 - **Accept responses**: Specify whether the survey is open and accepting responses. By default, this option is selected. If you want to stop your survey, clear the option, and specify a message for the recipients.
@@ -47,6 +51,7 @@ When you've defined who can respond to your survey, you can select the following
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
 - **Email notification of each response**: Specify whether email notification is required when a response is submitted.
 
+    ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")
 
 > [!NOTE]
 > - Currently for this preview, you can't change the settings for **Anyone with the link can respond.** It is always set to **Record name**, which records respondents names.
