@@ -15,6 +15,8 @@ ms.custom:
 
 # Choose environment for your survey
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 An environment is a space to store, manage, and share your organization’s business data, apps, and flows. They also serve as containers to separate apps that may have different roles, security requirements, or target audiences. More information: [Environments overview](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)
 
 You can create environments for different purpose. For example, you can create an environment each for survey development, testing, and production. After developing and testing the survey, you can copy the survey to the production environment. 
