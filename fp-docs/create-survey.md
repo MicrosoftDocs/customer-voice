@@ -21,7 +21,7 @@ You've decided the types of questions you want to include in your survey, and no
 
 In this section, you will learn how to:
 
-- [Choose environment for your survey](choose-environment.md)
+- [Choose an environment for your survey](choose-environment.md)
 - [Create a new survey](create-new-survey.md)
 - [Apply theme to a survey](apply-theme.md)  
 - [Preview and test a survey](preview-test-survey.md)

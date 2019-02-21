@@ -1,7 +1,7 @@
 # [Get started with Microsoft Forms Pro](get-started.md) 
 
 # [Create a survey](create-survey.md)
-## [Choose environment](choose-environment.md)
+## [Choose an environment](choose-environment.md)
 ## [Create a new survey](create-new-survey.md)
 ## [Apply theme to a survey](apply-theme.md)  
 ## [Preview and test a survey](preview-test-survey.md) 

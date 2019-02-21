@@ -13,7 +13,7 @@ ms.assetid: 90EFF51F-36E3-4973-8768-82F12629B0B3
 ms.custom: 
 ---
 
-# Choose environment for your survey
+# Choose an environment for your survey
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -35,7 +35,7 @@ To change an environment:
 3. A list of environments are displayed under the **Environments** section.
 4. Select the required environment.
 
-## Copy survey to another environment
+## Copy a survey to another environment
 
 You can create a copy of your survey in the same environment or in another environment. To copy a survey to another environment:
 
