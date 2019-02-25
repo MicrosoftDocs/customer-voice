@@ -34,7 +34,7 @@ To format the text:
 
 <!--note from editor:  Change "all applicable elements" to "the text   -->
 
-For example, in this survey, formatting is applied to the elements that you selected earlier:
+For example, in this survey, formatting has been applied to the elements that you selected earlier:
 
 ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
