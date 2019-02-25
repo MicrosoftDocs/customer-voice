@@ -23,6 +23,8 @@ You can also choose to navigate to another question or survey, or even open a we
 
 For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a branching rule to ask the reason if someone responds **Not likely**.
 
+To create a branching rule:
+
 1.	Open the survey in which you want to add a branching rule.
 
 2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
@@ -64,10 +66,10 @@ For example, for the question **How likely is it that you would recommend us to 
 
 10.	In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide,** or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
 
-    - **Question**: Allows you to skip to a question per the response to a question.
+    - **Question**: Allows you to skip to a question per the response to a question. The questions in between the source and target questions are hidden from the responder.
     - **End of survey**: Allows you to end the survey per the response to a question.
-    - **Chain survey**: Allows you to open a different survey per the response to a question.
-    - **URL**: Allows you to open a website per the response to a question.
+    - **Chain survey**: Allows you to open a different survey, created by you, per the response to a question.
+    - **URL**: Allows you to open a website per the response to a question. You must add `http://` to the URL for it work properly.
 
 11.	In the **Select value** list, enter or choose a value per the target.
 
@@ -78,4 +80,9 @@ For example, for the question **How likely is it that you would recommend us to 
     ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
 
 13. Select **Save**.
+
+After creating a branching rule, you can preview the survey and see if the rule is working as expected.
+
+## Manage branching rules
+<<info to be added>>
 
