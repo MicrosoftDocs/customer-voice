@@ -15,7 +15,7 @@ ms.custom:
 
 # Format text in a survey
 
-Format text in a survey to change font style, font color, font name, and font size. You can apply formatting to the following elements in a survey:
+Format text in a survey to change font style, font color, font name, and font size. You can apply formatting to the following elements:
 
 - Survey heading
 - Survey description
