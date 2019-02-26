@@ -15,7 +15,7 @@ ms.custom:
 
 # Format text in a survey
 
-Format text in a survey to change its font style, font color, font name, and font size. You can apply formatting to the following elements in a survey:
+Format text in a survey to change font style, font color, font name, and font size. You can apply formatting to the following elements in a survey:
 
 - Survey heading
 - Survey description
@@ -32,7 +32,6 @@ To format the text:
 
     ![Apply text formatting](media/text-format.png "Apply text formatting")
 
-<!--note from editor:  Change "all applicable elements" to "the text   -->
 
 For example, in this survey, formatting has been applied to the elements that you selected earlier:
 
