@@ -19,9 +19,7 @@ ms.custom:
 
 An environment is a space to store, manage, and share your organization’s business data, apps, and flows. It also serves as a container to separate apps that might have different roles, security requirements, or target audiences. More information: [Environments overview](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview).
 
-<!--note from editor: Is it optional to copy the survey to the production environment or required?   -->
-
-You can create environments for different purposes such as survey development, testing, and production. After developing and testing the survey, you can copy the survey to the production environment. 
+You can create environments for different purposes such as survey development, testing, and production. After developing and testing the survey, you can copy the survey to the production environment.
 
 When you sign in to Microsoft Forms Pro, only the surveys that are available in the selected environment are displayed. When you create a survey, the survey is connected to the selected environment and is not available in other environments. The invitations and responses are stored in the same environment in which the survey is created. 
 
