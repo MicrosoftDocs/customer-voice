@@ -1,17 +1,20 @@
 # [Get started with Microsoft Forms Pro](get-started.md) 
-## [Try Microsoft Forms Pro preview](try-preview.md) 
 
 # [Create a survey](create-survey.md)
+## [Choose an environment](choose-environment.md)
 ## [Create a new survey](create-new-survey.md)
 ## [Apply theme to a survey](apply-theme.md)  
 ## [Preview and test a survey](preview-test-survey.md) 
 ## [Create a branching rule](create-branching-rule.md) 
+## [Personalize a survey](personalize-survey.md)
+## [Format text in a survey](survey-text-format.md)
+## [Create a new form](create-new-form.md)
 
 # [Distribute a survey to get responses](distribute-survey.md)  
 ## [Define who can respond to a survey](invite-settings.md)  
 ## [Distribute a survey by using email](distribute-survey-email.md)  
 ## [Distribute a survey by using Microsoft Flow](distribute-survey-microsoft-flow.md)  
-## [Embed in a web page](embed-web-page.md)  
+## [Embed survey in a web page](embed-web-page.md)  
 ## [Send a survey link to others](send-survey-link.md)  
 ## [Send a survey QR code](send-survey-qrcode.md)  
 

@@ -12,7 +12,10 @@ ms.topic: article
 ms.assetid: b62a55f6-cb45-4b47-a610-155c7fffa496
 ms.custom: 
 ---
+
 # Send a survey QR code 
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 1.  Open the survey you want to send, and go to **Send Survey** &gt; **QR code**.
 

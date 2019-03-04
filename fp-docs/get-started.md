@@ -15,15 +15,19 @@ ms.custom:
 
 # Get started with Microsoft Forms Pro
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
+> [!IMPORTANT]
+> - [!INCLUDE[cc-preview-features-definition](includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](includes/cc-preview-features-no-ms-support.md)]
+
 Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Microsoft Forms Pro supports businesses seeking to transform customer, product and employee experiences, as well as other survey needs. 
 
 You can create and send surveys to your customers and collect their valuable feedback about your products and services. Your customers can respond to the surveys using any web browser, even on mobile devices. As the responses are submitted,  analyze them by using powerful Power BI reports and take effective decisions accordingly.
 
-[Try Microsoft Forms Pro preview](try-preview.md)
+### Web browsers with which Microsoft Forms Pro works
 
-> [!NOTE]
-> - In this preview, Forms Pro is available only in an English-language version. Please ensure that your browser language is set to English. More languages will be supported in subsequent releases.
-> - If you have existing surveys that were created with Microsoft Forms, we recommend that you do not make any updates to them using Forms Pro.
+Microsoft Forms Pro is optimized for latest versions of Edge, Chrome, Firefox, and Safari.
 
 ## Plan to create a survey
 

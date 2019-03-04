@@ -12,7 +12,10 @@ ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
 ms.custom: 
 ---
+
 # Analyze survey invitations
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **View Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
 
@@ -36,12 +39,6 @@ You can filter the invitations by using the following:
 - **Pre-defined filters**: Use the Sent, Responded, In Progress, Failed, and Unsubscribed filters to filter the invitations.
 - **Date range**: Select 30 days, 90 days, or a custom date range.
 - **Recipient's name or email address**: Enter the recipient's name or email address in the search box.
-
-## View invitation details
-
-To view details of a survey invitation, select an invitation in the grid. You'll see the number of responses received for the invitation.
-
-A summary of response details is also displayed for the survey invitation on the invitation details page.
 
 ## Export survey invitations
 

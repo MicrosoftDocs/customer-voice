@@ -12,7 +12,10 @@ ms.topic: article
 ms.assetid: 145f21c2-4635-4f5d-b7cf-03e90ec4b533
 ms.custom: 
 ---
+
 # Analyze survey responses
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 A survey response record is created after a respondent submits a survey. To see survey responses, go to **View Responses** &gt; **Overview**, and then select **Responses** from the summary information.
 
@@ -39,9 +42,7 @@ You can filter the responses by using the following:
 
 ## View response details
 
-To view details of a survey response, select **View more** of the corresponding response in the grid.
-
-![Select View more to see details](media/view-more-response.png "Select View more to see details")
+To view details of a survey response, double-click the response in the grid.
 
 You'll see the time taken by the respondent to complete the survey, Net Promoter Score (NPS) type, and sentiment. Response to each question in the survey is also displayed on the details page. 
 

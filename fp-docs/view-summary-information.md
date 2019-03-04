@@ -12,7 +12,10 @@ ms.topic: article
 ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
 ms.custom: 
 ---
+
 # View summary information for your survey
+
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 After you create your survey, adjust its settings, and share your survey with others, it’s time to view the results and insights. Open the survey that you want to review, and then select the **View Responses** tab.
 
