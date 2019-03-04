@@ -83,6 +83,3 @@ To create a branching rule:
 
 After creating a branching rule, you can preview the survey and see if the rule is working as expected.
 
-## Manage branching rules
-<<info to be added>>
-
