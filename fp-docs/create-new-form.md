@@ -15,10 +15,6 @@ ms.custom:
 
 # Create a new form
 
-<!--note from editor: Explain more about why being able to create a form from within Forms Pro is an advantage--what is the advantage of not having to switch environments? Is this a new feature?  -->
-
-
-
 You can create a new form from within Microsoft Forms Pro. This capability allows you to create the basic form without switching your environment to Microsoft Forms. The forms created from Forms Pro will be displayed in the Microsoft Forms interface and will have all the capabilities of basic forms.
 
 ## Enable creation of classic form
