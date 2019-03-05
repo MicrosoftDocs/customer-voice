@@ -2,7 +2,7 @@
 layout: LandingPage
 author: bigoswam
 ms.author: bigoswam
-ms.date: 02-19-2019
+ms.date: 03/14/2019
 ms.service: dynamics-365-cross-app
 ms.topic: landing-page
 title: Microsoft Forms Pro documentation
@@ -20,7 +20,7 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/get-started.svg" alt="" />
+                                <img src="media/get-started.svg" alt="get-started" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -39,7 +39,7 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/form.svg" alt="" />
+                                <img src="media/form.svg" alt="create-survey" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -58,7 +58,7 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/multi-connect.svg" alt="" />
+                                <img src="media/multi-connect.svg" alt="distribute-survey" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -77,7 +77,7 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/share.svg" alt="" />
+                                <img src="media/share.svg" alt="share-survey" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -96,7 +96,7 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/tasks.svg" alt="" />
+                                <img src="media/tasks.svg" alt="analyze-survey" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -115,7 +115,7 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/library.svg" alt="" />
+                                <img src="media/library.svg" alt="learn" />
                             </div>
                         </div>
                         <div class="cardText">
