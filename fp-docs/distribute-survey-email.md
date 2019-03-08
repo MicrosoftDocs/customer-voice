@@ -1,6 +1,6 @@
 ---
-title: "Distribute a survey by using email | MicrosoftDocs"
-description: "Instructions for distributing a survey by using email"
+title: "Send a survey by using email | MicrosoftDocs"
+description: "Instructions for sending a survey by using email"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -13,13 +13,13 @@ ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
 ms.custom: 
 ---
 
-# Distribute a survey by using email
+# Send a survey by using email
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-After creating a survey, you can distribute it through email: 
+After creating a survey, you can send it through email: 
 
-1.  Open the survey you want to distribute, and go to **Send Survey** &gt; **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
+1.  Open the survey you want to send, and go to **Send Survey** &gt; **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
 
 2.  In the **To** field, enter the recipient’s name or email address. You can also populate the **To** field by uploading a .csv file. To do this, select **Import recipients**.
 

@@ -1,6 +1,6 @@
 ---
-title: "Distribute a survey to your respondents | MicrosoftDocs"
-description: "Instructions for distributing a survey to your respondents"
+title: "Send a survey to your respondents | MicrosoftDocs"
+description: "Instructions for sending a survey to your respondents"
 keywords: ""
 author: sbmjais
 ms.author: shjais

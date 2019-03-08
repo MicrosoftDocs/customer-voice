@@ -1,6 +1,6 @@
 ---
-title: "Distribute a survey by using Microsoft Flow | MicrosoftDocs"
-description: "Instructions for distributing a survey by using Microsoft Flow"
+title: "Send a survey by using Microsoft Flow | MicrosoftDocs"
+description: "Instructions for sending a survey by using Microsoft Flow"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -13,13 +13,13 @@ ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
 ms.custom: 
 ---
 
-# Distribute a survey by using Microsoft Flow
+# Send a survey by using Microsoft Flow
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Microsoft Flow:
 
-1.  Open the survey you want to distribute, and go to **Send Survey** &gt; **Microsoft Flow**.
+1.  Open the survey you want to send, and go to **Send Survey** &gt; **Microsoft Flow**.
 
 2.  Compose the email.
 
