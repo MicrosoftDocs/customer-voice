@@ -15,6 +15,8 @@ ms.custom:
 
 # Format text in a survey
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 Format text in a survey to change font style, font color, font name, and font size. You can apply formatting to the following elements:
 
 - Survey heading

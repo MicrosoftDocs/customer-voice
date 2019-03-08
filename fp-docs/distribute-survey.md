@@ -13,13 +13,13 @@ ms.assetid: f58130b4-b66f-4c9d-bebd-0649988e4473
 ms.custom: 
 ---
 
-# Distribute a survey to get responses
+# Send a survey to get responses
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-After your survey is ready, distribute it to your respondents and collect their feedback. You can distribute your survey in the following ways:
+After your survey is ready, send it to your respondents and collect their feedback. You can send your survey in the following ways:
 
-- **Email**: Send the survey link in an email.
+- **Email**: Send the survey link by using the built-in email capability.
 
 - **Microsoft Flow**: Configure a business trigger by using [Microsoft Flow](https://flow.microsoft.com/) to send the email.  
 

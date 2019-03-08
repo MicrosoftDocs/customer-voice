@@ -13,7 +13,7 @@ ms.assetid: 37CEB9EE-BDD7-493F-B1C9-86F009FEEEC7
 ms.custom: 
 ---
 
-# Create a new form
+# Create a classic form
 
 You can create a new form from within Microsoft Forms Pro. This capability allows you to create the basic form without switching your environment to Microsoft Forms. The forms created from Forms Pro will be displayed in the Microsoft Forms interface and will have all the capabilities of basic forms.
 

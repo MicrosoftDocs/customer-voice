@@ -23,9 +23,9 @@ ms.custom:
 
 Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Microsoft Forms Pro supports businesses seeking to transform customer, product and employee experiences, as well as other survey needs. 
 
-You can create and send surveys to your customers and collect their valuable feedback about your products and services. Your customers can respond to the surveys using any web browser, even on mobile devices. As the responses are submitted,  analyze them by using powerful Power BI reports and take effective decisions accordingly.
+You can create and send surveys to your customers and collect their valuable feedback about your products and services. Your customers can respond to the surveys using any web browser or mobile devices. As the responses are submitted, analyze them by using powerful Power BI reports and take effective decisions accordingly.
 
-### Web browsers with which Microsoft Forms Pro works
+## Web browsers with which Microsoft Forms Pro works
 
 Microsoft Forms Pro is optimized for latest versions of Edge, Chrome, Firefox, and Safari.
 

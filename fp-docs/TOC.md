@@ -1,16 +1,15 @@
 # [Get started with Microsoft Forms Pro](get-started.md) 
 
 # [Create a survey](create-survey.md)
-## [Choose an environment](choose-environment.md)
 ## [Create a new survey](create-new-survey.md)
 ## [Apply theme to a survey](apply-theme.md)  
+## [Format text in a survey](survey-text-format.md)
 ## [Preview and test a survey](preview-test-survey.md) 
 ## [Create a branching rule](create-branching-rule.md) 
 ## [Personalize a survey](personalize-survey.md)
-## [Format text in a survey](survey-text-format.md)
-## [Create a new form](create-new-form.md)
+## [Create a classic form](create-new-form.md)
 
-# [Distribute a survey to get responses](distribute-survey.md)  
+# [Send a survey to get responses](distribute-survey.md)  
 ## [Define who can respond to a survey](invite-settings.md)  
 ## [Distribute a survey by using email](distribute-survey-email.md)  
 ## [Distribute a survey by using Microsoft Flow](distribute-survey-microsoft-flow.md)  
@@ -28,5 +27,9 @@
 ## [Analyze survey invitations](analyze-survey-invitations.md)  
 ## [Analyze survey responses](analyze-survey-responses.md)  
 ## [Analyze survey insights](analyze-survey-insights.md)  
+
+# [Choose an environment](choose-environment.md)
+## [Change an environment](change-environment.md)
+## [Copy a survey to another environment](copy-survey-environment.md)
 
 # [Provide feedback on Forms Pro](provide-feedback.md) 

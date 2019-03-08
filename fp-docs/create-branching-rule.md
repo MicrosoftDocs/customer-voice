@@ -45,9 +45,11 @@ To create a branching rule:
 
 5.	In the **Select question** list, choose the question for which you want to create a rule.
 
+    ![Branching rules condition question](media/branch-condition-question.png "Branching rules condition question")
+
 6.	Select values from the **Select operator** and **Select response** lists accordingly.
 
-    ![Branching rules condition](media/branch-condition.png "Branching rules condition")
+    ![Branching rules complete condition](media/branch-condition.png "Branching rules complete condition")
 
     You can add more conditions with the combination of **AND**/**OR** operators by selecting **Add condition**.
 
@@ -55,7 +57,7 @@ To create a branching rule:
 
 7.	Select **Add “If true”** to add the action that will trigger when the defined condition meets the criteria.
 
-8.	Select **Add condition** to add the response action.
+8.	Select **Add action** to add the response action.
 
 9.	In the **Select action** list, choose one of the following actions:
 
@@ -64,12 +66,16 @@ To create a branching rule:
     - **Toggle**: Allows you to toggle the state of the selected question per the response to a question.
     - **Navigate to**: Allows you to select a target to which a responder should be navigated.
 
+    ![Select an action for true condition](media/branch-true-select-action.png "Select an action for true condition")
+
 10.	In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide,** or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
 
     - **Question**: Allows you to skip to a question per the response to a question. The questions in between the source and target questions are hidden from the responder.
     - **End of survey**: Allows you to end the survey per the response to a question.
     - **Chain survey**: Allows you to open a different survey, created by you, per the response to a question.
-    - **URL**: Allows you to open a website per the response to a question. You must add `http://` to the URL for it work properly.
+    - **URL**: Allows you to open a website per the response to a question. You must add `http://` to the URL for it to work properly.
+
+    ![Select a target for true condition](media/branch-true-select-target.png "Select a target for true condition")
 
 11.	In the **Select value** list, enter or choose a value per the target.
 
@@ -84,5 +90,23 @@ To create a branching rule:
 After creating a branching rule, you can preview the survey and see if the rule is working as expected.
 
 ## Manage branching rules
-<<info to be added>>
+
+Once you have created a branching rule or a set of branching rules, you can edit, delete, or change the order of their execution. The branching rules are executed in the order they are created. 
+
+1. Open the survey in which you want to manage branching rules.
+ 
+2. On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
+
+    ![Branching rules button](media/branching-rules-button.png "Branching rules button")
+
+3. A list of rules is displayed in a grid.
+
+    ![Existing branching rules](media/existing-rules.png "Existing branching rules")
+
+4. To edit a branching rule, select **Edit** ![Edit branching rule](media/edit-rule.png "Edit branching rule") from the corresponding rule row.
+
+5. To delete a branching rule, select **Delete** ![Delete branching rule](media/delete-rule.png "Delete branching rule") from the corresponding rule row.
+
+6. To change the order of execution of a branching rule, you can change the order by moving a rule either up or down. To move a rule up or down, select **Move up** ![Move up](media/move-up-rule.png "Move up") or **Move down** ![Move down](media/move-down-rule.png "Move down") respectively from the corresponding rule row.
+
 
