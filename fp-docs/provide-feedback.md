@@ -17,4 +17,4 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-We'd love to hear from you! Please submit your feedback by selecting **Feedback** ![give feedback](media/feedback.png "Give feedback") in the upper-right corner of the page.  
+We'd love to hear from you! Please submit your feedback by selecting **Feedback** ![give feedback](media/feedback.png "Give feedback") in the upper-right corner of the page in Microsoft Forms Pro.

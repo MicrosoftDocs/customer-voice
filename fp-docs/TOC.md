@@ -28,7 +28,7 @@
 ## [Analyze survey responses](analyze-survey-responses.md)  
 ## [Analyze survey insights](analyze-survey-insights.md)  
 
-# [Choose an environment](choose-environment.md)
+# [Work with environments](choose-environment.md)
 ## [Change an environment](change-environment.md)
 ## [Copy a survey to another environment](copy-survey-environment.md)
 
