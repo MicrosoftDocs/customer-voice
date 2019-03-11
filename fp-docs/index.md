@@ -62,8 +62,8 @@ Use Microsoft Forms Pro to quickly create and send surveys to your recipients. G
                             </div>
                         </div>
                         <div class="cardText">
-                            <h3>Distribute a survey</h3>
-                            <p class="x-hidden-focus">Created a survey? Learn how to distribute a survey to your recipients and collect their feedback.</p>
+                            <h3>Send a survey</h3>
+                            <p class="x-hidden-focus">Created a survey? Learn how to send a survey to your recipients and collect their feedback.</p>
                         </div>
                     </div>
                 </div>

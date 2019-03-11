@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/21/2019
+ms.date: 03/13/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1AECC69F-B68A-4776-884A-C59770FC5C96
@@ -42,7 +42,7 @@ To select or add a new custom data:
 
 > [!NOTE]
 > - You can also personalize survey invitations. More information: [Personalize an email](distribute-survey-email.md#personalize-an-email).
-> - Don't use custom data if you plan to distribute a survey anonymously. Placeholders will not be replaced with actual data in an anonymous survey.
+> - Don't use custom data if you plan to send a survey anonymously. Placeholders will not be replaced with actual data in an anonymous survey.
 > - Custom data placeholders are replaced with the values specified in appropriate fields in a survey email.
 
 ## Add custom data placeholders to a question

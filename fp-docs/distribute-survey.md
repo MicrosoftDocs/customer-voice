@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/21/2019
+ms.date: 03/13/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: f58130b4-b66f-4c9d-bebd-0649988e4473
@@ -32,13 +32,14 @@ After your survey is ready, send it to your respondents and collect their feedba
 Respondents can submit responses using a desktop or mobile web browser. You can choose options that allow anyone to submit responses or that restrict responses to only people within your organization.
 
 > [!NOTE]
-> Since Microsoft Forms Pro is in private preview, it is recommended that you distribute the survey to yourself or to participants in the preview program only.
+> - Since Microsoft Forms Pro is in preview, it is recommended that you send the survey to yourself or to participants in the preview program only.
+> - Since Microsoft Forms Pro is in preview, you can send up to 10000 survey invitations per day.
 
 In this section, you will learn how to:
 
 - [Define who can respond to a survey](invite-settings.md)  
-- [Distribute a survey by using email](distribute-survey-email.md)  
-- [Distribute a survey by using Microsoft Flow](distribute-survey-microsoft-flow.md)  
+- [Send a survey by using email](distribute-survey-email.md)  
+- [Send a survey by using Microsoft Flow](distribute-survey-microsoft-flow.md)  
 - [Embed in a web page](embed-web-page.md)  
 - [Send a survey link to others](send-survey-link.md)  
 - [Send a survey QR code](send-survey-qrcode.md)  
