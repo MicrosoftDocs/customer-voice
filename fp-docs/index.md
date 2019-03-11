@@ -2,7 +2,7 @@
 layout: LandingPage
 author: bigoswam
 ms.author: bigoswam
-ms.date: 02-19-2019
+ms.date: 03/13/2019
 ms.service: dynamics-365-cross-app
 ms.topic: landing-page
 title: Microsoft Forms Pro documentation
@@ -10,7 +10,7 @@ description: Use Microsoft Forms Pro to quickly create and send surveys to your 
 ---
 # Microsoft Forms Pro documentation
 
-Use Microsoft Forms Pro to quickly create and send surveys to your recipients. Gather their responses and opinions in real-time. Analyze the responses by using powerful Power BI reports and take effective decisions accordingly. With Forms Pro documentation, you get expert information and answers to address your needs.
+Microsoft Forms Pro is a simple, yet comprehensive survey solution that builds on the current survey creation experience from Microsoft Forms in Office 365. It offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys using any web browser or mobile devices. As the responses are submitted, analyze them by using powerful Power BI reports and take effective decisions accordingly.
 
 <ul class="panelContent cardsE">
     <li>
