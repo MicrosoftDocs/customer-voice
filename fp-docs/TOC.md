@@ -1,5 +1,9 @@
 # [Get started with Microsoft Forms Pro](get-started.md) 
 
+# [Administer Microsoft Forms Pro](administer.md)
+
+# [Plan a survey](plan-survey.md)
+
 # [Create a survey](create-survey.md)
 ## [Create a new survey](create-new-survey.md)
 ## [Apply theme to a survey](apply-theme.md)  
@@ -7,7 +11,7 @@
 ## [Preview and test a survey](preview-test-survey.md) 
 ## [Create a branching rule](create-branching-rule.md) 
 ## [Personalize a survey](personalize-survey.md)
-## [Create a classic form](create-new-form.md)
+## [Create a classic form](create-classic-form.md)
 
 # [Send a survey to get responses](distribute-survey.md)  
 ## [Define who can respond to a survey](invite-settings.md)  
@@ -31,5 +35,3 @@
 # [Work with environments](choose-environment.md)
 ## [Change an environment](change-environment.md)
 ## [Copy a survey to another environment](copy-survey-environment.md)
-
-# [Provide feedback on Forms Pro](provide-feedback.md) 

@@ -23,6 +23,12 @@ Format text in a survey to change font style, font color, font name, and font si
 - Survey description
 - Question text
 - Question subtitle
+- Question options
+- Left and right labels for Net Promoter Score and Rating questions
+- Statements for Likert question
+
+> [!NOTE]
+> The text formatting capability is not supported for options of Ranking and Likert questions.
 
 To format the text:
 

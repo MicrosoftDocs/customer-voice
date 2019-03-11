@@ -21,7 +21,7 @@ After creating a survey, you can send it through email:
 
 1.  Open the survey you want to send, and go to **Send Survey** &gt; **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
 
-2.  In the **To** field, enter the recipient’s name or email address. You can also populate the **To** field by uploading a .csv file. To do this, select **Import recipients**.
+2.  In the **To** field, enter the recipient's name or email address. You can also populate the **To** field by uploading a .csv file. To do this, select **Import recipients**.
 
     > [!NOTE]
     > The **Import recipients** functionality does not work in the Microsoft Edge browser.
