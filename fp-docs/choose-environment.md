@@ -30,8 +30,7 @@ To work with surveys in an environment, install the Forms Pro app from Microsoft
 ## Privileges required
 
 - Ensure that you have assigned the Survey Owner role to users.
-- Assign all privileges to emailtemplate, question, questionresponse, and survey entities.
-- If you have created any custom entities that you want Forms Pro to interact with, assign the **Append To** privilege to the entity.
+- If you have created any custom entities that you want Forms Pro to interact with, assign the **Append To** privilege to the entities.
 
 In this section, you will learn how to:
 
