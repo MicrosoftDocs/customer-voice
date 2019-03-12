@@ -41,7 +41,7 @@ To select or add a new custom data:
 6.	Select **Add**.
 
 > [!NOTE]
-> - You can also personalize survey invitations. More information: [Personalize an email](distribute-survey-email.md#personalize-an-email).
+> - You can also personalize survey invitations. More information: [Personalize an email](send-survey-email.md#personalize-an-email).
 > - Don't use custom data if you plan to send a survey anonymously. Placeholders will not be replaced with actual data in an anonymous survey.
 > - Custom data placeholders are replaced with the values specified in appropriate fields in a survey email.
 

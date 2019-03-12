@@ -51,7 +51,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
         </a>
     </li>
     <li>
-        <a href="distribute-survey.md">
+        <a href="send-survey.md">
             <div class="cardSize">
                 <div class="cardPadding">
                     <div class="card">

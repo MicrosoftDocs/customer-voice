@@ -23,13 +23,17 @@ You can create two types of surveys:
 
 -   Internal surveys to get responses from internal audiences like an event feedback.
 
+In this topic, you'll learn about selecting survey settings and various response options.
+
 ## Select survey settings
 
 After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option requires a respondent to sign in.
 
-Consider a scenario where you have created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you will select the option **Only people in my organization can respond** in the survey settings.
+Consider a scenario where you have created a survey to collect customer's feedback when a support case is resolved. In this scenario, you will require feedback from the people outside of your organization. To accomplish this, you will select the option **Anyone with the link can respond** in the survey settings. More information: [Anyone with the link can respond](#anyone-with-the-link-can-respond).
 
-Let's now see the options you can select to define who can respond to a survey.
+Let's consider another scenario where you have created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you will select the option **Only people in my organization can respond** in the survey settings. More information: [Only people in my organization can respond](#only-people-in-my-organization-can-respond).
+
+Let's now see the options you can select to define who can respond to a survey and select options whether to record the respondent's name and limit the respondent to submit only one response.
 
 ### Anyone with the link can respond
 
