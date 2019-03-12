@@ -19,7 +19,7 @@ Microsoft Forms Pro allows you to create a classic form from within the Microsof
 
 ## Enable creation of classic form
 
-To enable the capability for creating a new form:
+To enable the capability for creating a classic form:
 
 1. Sign in to Forms Pro.
 
@@ -38,7 +38,7 @@ To enable the capability for creating a new form:
 
 ## Disable creation of classic form
 
-To disable the capability for creating a new form:
+To disable the capability for creating a classic form:
 
 1. Sign in to Forms Pro.
 
