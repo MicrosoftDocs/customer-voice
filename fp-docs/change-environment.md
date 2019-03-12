@@ -15,6 +15,8 @@ ms.custom:
 
 # Change an environment
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 By default, all environments under the tenant you are signed in to are displayed. To change an environment:
 
 1. Sign in to Forms Pro. 

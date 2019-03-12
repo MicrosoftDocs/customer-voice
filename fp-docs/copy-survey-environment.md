@@ -15,6 +15,8 @@ ms.custom:
 
 # Copy a survey to another environment
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 You can create a copy of your survey in the same environment or in another environment. To copy a survey to another environment:
 
 1. Sign in to Forms Pro. 
