@@ -25,9 +25,13 @@ You can create two types of surveys:
 
 ## Select survey settings
 
+After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option requires a respondent to sign in.
 
+Consider a scenario where you have created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you will select the option **Only people in my organization can respond** in the survey settings.
 
-For external surveys:
+Let's now see the options you can select to define who can respond to a survey.
+
+### Anyone with the link can respond
 
 1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
 2. Select **Anyone with the link can respond**. When you select this option, respondents are not required to sign in with their credentials.
@@ -37,12 +41,7 @@ For external surveys:
 
     ![Invitation settings for external surveys](media/invite-settings-external.png "Invitation settings for external surveys")
 
-
-
-<!--note from editor:  Add an H2 heading "Select settings for internal surveys" ?  -->
-
-
-For internal surveys:
+### Only people in my organization can respond
 
 1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
 2. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
@@ -52,8 +51,7 @@ For internal surveys:
 
     ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
 
-<!--note from editor:  Add an H2 heading "Select response options" ?  -->
-
+## Select survey response options
 
 When you've defined who can respond to your survey, you can select the following options:
 
@@ -68,8 +66,6 @@ When you've defined who can respond to your survey, you can select the following
 You can modify the authentication settings at any time, even after distributing the survey by email or other channels.
 
 ## Work with personalized links
-
-<!--note from editor:  Suggested edit: Change  "A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response." to something along the lines of  "A survey link is unique to its recipient and provides you with the information needed to record the respondent's name and determine how many responses the recipient can submit."   -->
 
 Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Microsoft Flow. A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response.
 

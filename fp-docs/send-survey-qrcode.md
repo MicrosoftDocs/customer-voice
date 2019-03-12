@@ -20,7 +20,7 @@ ms.custom:
 You can generate a QR code for your recipients to scan it on a phone or tablet to access the survey.
 
 > [!NOTE]
-> The survey link generated is a non-personalized link. You will not be able to record the respondent's name and whether the respondent has submitted only one response.
+> The survey link generated is a non-personalized link. You will not be able to record the respondent's name and whether the respondent has submitted only one response if you select **Anyone with the link can respond** in [survey settings](invite-settings.md).
 
 1.  Open the survey you want to send, and go to **Send Survey** &gt; **QR code**.
 

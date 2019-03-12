@@ -39,7 +39,7 @@ Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefo
 
     > [!NOTE]
     > - A Microsoft work account is required for trying the Forms Pro preview.
-    > - Forms Pro preview is not available in school accounts.
+    > - Forms Pro preview is not available for school accounts.
     > - If you get an error while signing up for Forms Pro preview, contact your administrator to enable the Forms Pro preview in your tenant. 
 
 ## Provide feedback on Forms Pro
