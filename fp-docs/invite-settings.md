@@ -21,9 +21,11 @@ You can create two types of surveys:
 
 -   External surveys to get responses from customers on things like case resolutions or order closures.
 
--   Internal surveys to get responses about internal organization events such as an outing.
+-   Internal surveys to get responses from internal audiences like an event feedback.
 
-<!--note from editor:  Add an H2 heading "Select settings for external surveys" ?  -->
+## Select survey settings
+
+
 
 For external surveys:
 
@@ -63,16 +65,13 @@ When you've defined who can respond to your survey, you can select the following
 
     ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")
 
-> [!NOTE]
-> - Currently for this preview, you can't change the settings for **Anyone with the link can respond.** It is always set to **Record name**, which records respondents names.
-> - You can modify the authentication settings at any time, even after distributing the survey by email or other channels.
-> - Anyone with the link address is able to see and complete your survey. Be sure you're comfortable sharing the contents before changing this default option.
+You can modify the authentication settings at any time, even after distributing the survey by email or other channels.
 
 ## Work with personalized links
 
 <!--note from editor:  Suggested edit: Change  "A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response." to something along the lines of  "A survey link is unique to its recipient and provides you with the information needed to record the respondent's name and determine how many responses the recipient can submit."   -->
 
-Personalized survey links are generated when a survey is sent by using the built-in email composer and Microsoft Flow. A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response.
+Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Microsoft Flow. A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response.
 
-When you send a survey by generating a link or a QR code, the survey links are not personalized. In these cases, you will not be able to record the respondent's name and whether the respondent has submitted only one response.
+When you send a survey by generating a link or a QR code, the survey links are not personalized. In these cases, you will not be able to record the respondent's name and whether the respondent has submitted only one response if you have selected **Anyone with the link can respond**.
 

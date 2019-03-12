@@ -31,10 +31,6 @@ After your survey is ready, send it to your respondents and collect their feedba
 
 Respondents can submit responses using a desktop or mobile web browser. You can choose options that allow anyone to submit responses or that restrict responses to only people within your organization.
 
-> [!NOTE]
-> - Since Microsoft Forms Pro is in preview, it is recommended that you send the survey to yourself or to participants in the preview program only.
-> - Since Microsoft Forms Pro is in preview, you can send up to 10000 survey invitations per day.
-
 In this section, you will learn how to:
 
 - [Define who can respond to a survey](invite-settings.md)  
