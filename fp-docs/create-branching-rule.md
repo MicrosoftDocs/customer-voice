@@ -77,6 +77,9 @@ To create a branching rule:
 
     ![Select a target for true condition](media/branch-true-select-target.png "Select a target for true condition")
 
+
+
+
 11.	In the **Select value** list, enter or choose a value per the target.
 
     ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
@@ -88,6 +91,12 @@ To create a branching rule:
 13. Select **Save**.
 
 After creating a branching rule, you can preview the survey and see if the rule is working as expected.
+
+
+
+<!--note from editor: In step #11 in list above, confirming that the screen shot is the correct match for the text. Based on the previous steps, I would expect to see a screen shot with a "Select value" drop-down list.   -->
+
+
 
 ## Manage branching rules
 
@@ -107,6 +116,6 @@ Once you have created a branching rule or a set of branching rules, you can edit
 
 5. To delete a branching rule, select **Delete** ![Delete branching rule](media/delete-rule.png "Delete branching rule") from the corresponding rule row.
 
-6. To change the order of execution of a branching rule, you can change the order by moving a rule either up or down. To move a rule up or down, select **Move up** ![Move up](media/move-up-rule.png "Move up") or **Move down** ![Move down](media/move-down-rule.png "Move down") respectively from the corresponding rule row.
+6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, select **Move up** ![Move up](media/move-up-rule.png "Move up") or **Move down** ![Move down](media/move-down-rule.png "Move down") from the corresponding rule row.
 
 
