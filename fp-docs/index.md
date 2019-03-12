@@ -19,7 +19,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/get-started.svg" alt="" />
+                                <img src="media/get-started.svg" alt="get-started" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -38,7 +38,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/form.svg" alt="" />
+                                <img src="media/form.svg" alt="create-survey" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -57,7 +57,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/multi-connect.svg" alt="" />
+                                <img src="media/multi-connect.svg" alt="send-survey" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -76,7 +76,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/share.svg" alt="" />
+                                <img src="media/share.svg" alt="share-survey" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -95,7 +95,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
                     <div class="card">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="media/tasks.svg" alt="" />
+                                <img src="media/tasks.svg" alt="analyze-response" />
                             </div>
                         </div>
                         <div class="cardText">
