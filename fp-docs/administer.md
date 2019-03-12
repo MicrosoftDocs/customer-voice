@@ -27,6 +27,8 @@ Forms Pro allows you to work with classic forms and quizzes, and create new ones
 
 By default, Forms Pro is enabled for all users in your tenant. As an administrator, you can turn off Forms Pro for all users in the tenant. If a few users want to opt out of the preview program, you can advise them to opt out of Forms Pro preview. This will not affect other users in the tenant.
 
+<!--note from editor:  Cloud Style Guide advises that the "preview" should have a capital "P", but I see that the UI has a lowercase "p", so text should match the UI.  -->
+
 ## Opt out of Forms Pro preview
 
 1. Sign in to Forms Pro.
@@ -37,7 +39,7 @@ By default, Forms Pro is enabled for all users in your tenant. As an administrat
 
 4. Select **Yes** in the confirmation message. When you opt out of the preview program, you are redirected to the Microsoft Forms experience and are no longer able to edit surveys.
 
-## Turn Forms Pro off
+## Turn off Forms Pro
 
 <!--note from editor: In step 2: The wording on the icon after "select" doesn't match wording in screen shot.   -->
 
