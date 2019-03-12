@@ -23,6 +23,8 @@ You can create two types of surveys:
 
 -   Internal surveys to get responses about internal organization events such as an outing.
 
+<!--note from editor:  Add an H2 heading "Select settings for external surveys" ?  -->
+
 For external surveys:
 
 1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
@@ -33,6 +35,11 @@ For external surveys:
 
     ![Invitation settings for external surveys](media/invite-settings-external.png "Invitation settings for external surveys")
 
+
+
+<!--note from editor:  Add an H2 heading "Select settings for internal surveys" ?  -->
+
+
 For internal surveys:
 
 1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
@@ -42,6 +49,9 @@ For internal surveys:
     - **One response per person**: A respondent can submit only one response.
 
     ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
+
+<!--note from editor:  Add an H2 heading "Select response options" ?  -->
+
 
 When you've defined who can respond to your survey, you can select the following options:
 
@@ -60,7 +70,9 @@ When you've defined who can respond to your survey, you can select the following
 
 ## Work with personalized links
 
-The personalized survey links are generated when a survey is sent by using the built-in email composer and Microsoft Flow. The survey links are unique to its recipients and help to record the respondent's name and/or whether the respondent must submit only one response.
+<!--note from editor:  Suggested edit: Change  "A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response." to something along the lines of  "A survey link is unique to its recipient and provides you with the information needed to record the respondent's name and determine how many responses the recipient can submit."   -->
 
-When you send a survey by generating a link or a QR code, the survey links that are generated are not personalized. In this case, you will not be able to record the respondent's name and whether the respondent has submitted only one response.
+Personalized survey links are generated when a survey is sent by using the built-in email composer and Microsoft Flow. A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response.
+
+When you send a survey by generating a link or a QR code, the survey links are not personalized. In these cases, you will not be able to record the respondent's name and whether the respondent has submitted only one response.
 

@@ -10,8 +10,7 @@ description: Use Microsoft Forms Pro to quickly create and send surveys to your 
 ---
 # Microsoft Forms Pro documentation
 
-Microsoft Forms Pro is a simple, yet comprehensive survey solution that builds on the current survey creation experience from Microsoft Forms in Office 365. It offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys using any web browser or mobile devices. As the responses are submitted, analyze them by using powerful Power BI reports and take effective decisions accordingly.
-
+Forms Pro is a simple yet comprehensive survey solution that builds on the current survey-creation experience of Microsoft Forms in Office 365. It offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As responses are submitted, use Power BI reports to analyze them and make decisions in real time.  
 <ul class="panelContent cardsE">
     <li>
         <a href="get-started.md">
@@ -25,7 +24,7 @@ Microsoft Forms Pro is a simple, yet comprehensive survey solution that builds o
                         </div>
                         <div class="cardText">
                             <h3>Get started</h3>
-                            <p class="x-hidden-focus">Get started on documentation with an overview about Microsoft Forms Pro.</p>
+                            <p class="x-hidden-focus">Get started with an overview of Forms Pro.</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +43,7 @@ Microsoft Forms Pro is a simple, yet comprehensive survey solution that builds o
                         </div>
                         <div class="cardText">
                             <h3>Create a survey</h3>
-                            <p class="x-hidden-focus">Learn to create a survey by adding questions and enhance it by adding picture to header and questions.</p>
+                            <p class="x-hidden-focus">Learn to create a survey by adding questions, and enhance it by adding pictures to headers and questions.</p>
                         </div>
                     </div>
                 </div>
@@ -101,7 +100,7 @@ Microsoft Forms Pro is a simple, yet comprehensive survey solution that builds o
                         </div>
                         <div class="cardText">
                             <h3>Analyze responses and invitations</h3>
-                            <p class="x-hidden-focus">Get real-time analytics from Power BI that provides summary information and individual results for surveys.</p>
+                            <p class="x-hidden-focus">Get real-time analytics from Power BI, including summary information and individual results for surveys.</p>
                         </div>
                     </div>
                 </div>
