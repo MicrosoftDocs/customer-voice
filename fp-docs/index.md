@@ -107,23 +107,4 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
             </div>
         </a>
     </li>
-    <li>
-        <a href="https://go.microsoft.com/fwlink/p/?linkid=2070687">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="media/library.svg" alt="" />
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Training and videos</h3>
-                            <p class="x-hidden-focus">Start your learning journey through Forms Pro with this collection of videos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
 </ul>
