@@ -1,12 +1,12 @@
 ---
-title: "Format text in a survey created with Microsoft Forms Pro | MicrosoftDocs"
+title: "Format text in a survey | MicrosoftDocs"
 description: "Instructions for formatting text in a survey created with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/21/2019
+ms.date: 03/13/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 55FEBC29-69E8-4046-A1DA-D6701BEC16DD
@@ -15,12 +15,20 @@ ms.custom:
 
 # Format text in a survey
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 Format text in a survey to change font style, font color, font name, and font size. You can apply formatting to the following elements:
 
 - Survey heading
 - Survey description
 - Question text
 - Question subtitle
+- Question options
+- Left and right labels for Net Promoter Score and Rating questions
+- Statements for Likert question
+
+> [!NOTE]
+> The text formatting capability is not supported for options of Ranking and Likert questions.
 
 To format the text:
 

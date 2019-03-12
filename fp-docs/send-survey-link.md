@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/21/2019
+ms.date: 03/13/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: de861eb8-b373-43b9-a1be-34d43c74349e
@@ -17,7 +17,10 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-If you don’t have the email addresses of the people who you want to view your survey, or if you don’t want to use email for this purpose, you can easily copy a custom link that lets you send your survey to others:
+If you don't have the email addresses of the people who you want to view your survey, or if you don't want to use the built-in email composer for this purpose, you can easily copy a custom link that lets you send your survey to others.
+
+> [!NOTE]
+> The survey link generated is a non-personalized link. You will not be able to record the respondent's name and whether the respondent has submitted only one response if you select **Anyone with the link can respond** in [survey settings](invite-settings.md).
 
 1.  Open the survey you want to send, and go to **Send Survey** &gt; **Link**.
 

@@ -1,25 +1,27 @@
 ---
-title: "Create a new form with Microsoft Forms Pro | MicrosoftDocs"
-description: "Instructions for creating a new form with Microsoft Forms Pro"
+title: "Create a classic form | MicrosoftDocs"
+description: "Instructions for creating a classic form with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/21/2019
+ms.date: 03/13/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 37CEB9EE-BDD7-493F-B1C9-86F009FEEEC7
 ms.custom: 
 ---
 
-# Create a new form
+# Create a classic form
 
-You can create a new form from within Microsoft Forms Pro. This capability allows you to create the basic form without switching your environment to Microsoft Forms. The forms created from Forms Pro will be displayed in the Microsoft Forms interface and will have all the capabilities of basic forms.
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
+Microsoft Forms Pro allows you to create a classic form from within the Microsoft Forms Pro environment. This capability allows you to work with surveys and classic forms together. The classic forms created in Microsoft Forms Pro are opened in their interface and will have all the capabilities of basic forms. 
 
 ## Enable creation of classic form
 
-To enable the capability for creating a new form:
+To enable the capability for creating a classic form:
 
 1. Sign in to Forms Pro.
 
@@ -38,7 +40,7 @@ To enable the capability for creating a new form:
 
 ## Disable creation of classic form
 
-To disable the capability for creating a new form:
+To disable the capability for creating a classic form:
 
 1. Sign in to Forms Pro.
 
