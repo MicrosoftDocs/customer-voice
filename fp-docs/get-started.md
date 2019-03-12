@@ -38,7 +38,8 @@ Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefo
 3. Enter your email address and follow the wizard to complete the sign-up process.
 
     > [!NOTE]
-    > A Microsoft account is required for trying the Forms Pro preview.
+    > - A Microsoft account is required for trying the Forms Pro preview.
+    > - If you get an error while signing up for Forms Pro preview, contact your administrator to enable the Azure Active Directory self-service signup. Fpr more information on self-service signup, see [What is self-service signup for Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-self-service-signup).
 
 ## Provide feedback on Forms Pro
 

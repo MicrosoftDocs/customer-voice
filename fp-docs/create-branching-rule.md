@@ -77,9 +77,6 @@ To create a branching rule:
 
     ![Select a target for true condition](media/branch-true-select-target.png "Select a target for true condition")
 
-
-
-
 11.	In the **Select value** list, enter or choose a value per the target.
 
     ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
@@ -91,12 +88,6 @@ To create a branching rule:
 13. Select **Save**.
 
 After creating a branching rule, you can preview the survey and see if the rule is working as expected.
-
-
-
-<!--note from editor: In step #11 in list above, confirming that the screen shot is the correct match for the text. Based on the previous steps, I would expect to see a screen shot with a "Select value" drop-down list.   -->
-
-
 
 ## Manage branching rules
 
