@@ -1,5 +1,5 @@
 ---
-title: "Administer Microsoft Forms Pro | MicrosoftDocs"
+title: "Administer | MicrosoftDocs"
 description: "Instructions for administering Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

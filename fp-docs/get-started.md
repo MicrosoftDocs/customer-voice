@@ -1,5 +1,5 @@
 ---
-title: "Get started with Microsoft Forms Pro | MicrosoftDocs"
+title: "Get started | MicrosoftDocs"
 description: "Get started with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

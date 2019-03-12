@@ -1,5 +1,5 @@
 ---
-title: "Personalize a survey with Microsoft Forms Pro | MicrosoftDocs"
+title: "Personalize a survey | MicrosoftDocs"
 description: "Instructions for personalizing a survey with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

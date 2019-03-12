@@ -1,5 +1,5 @@
 ---
-title: "Format text in a survey created with Microsoft Forms Pro | MicrosoftDocs"
+title: "Format text in a survey | MicrosoftDocs"
 description: "Instructions for formatting text in a survey created with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

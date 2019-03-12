@@ -1,6 +1,6 @@
 ---
-title: "Create a new form with Microsoft Forms Pro | MicrosoftDocs"
-description: "Instructions for creating a new form with Microsoft Forms Pro"
+title: "Create a classic form | MicrosoftDocs"
+description: "Instructions for creating a classic form with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais

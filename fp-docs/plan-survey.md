@@ -1,5 +1,5 @@
 ---
-title: "Plan a survey with Microsoft Forms Pro | MicrosoftDocs"
+title: "Plan a survey | MicrosoftDocs"
 description: "Instructions for planning a survey with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

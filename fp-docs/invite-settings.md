@@ -1,5 +1,5 @@
 ---
-title: "Survey invitation settings in Microsoft Forms Pro | MicrosoftDocs"
+title: "Survey invitation settings | MicrosoftDocs"
 description: "Instructions for updating survey invitation settings in Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

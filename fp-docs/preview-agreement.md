@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Forms Pro Preview Agreement | MicrosoftDocs"
+title: "Preview Agreement | MicrosoftDocs"
 description: "Microsoft Forms Pro Preview Agreement"
 keywords: ""
 author: sbmjais

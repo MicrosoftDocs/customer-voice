@@ -1,6 +1,6 @@
 ---
-title: "Choose an environment for working with Microsoft Forms Pro | MicrosoftDocs"
-description: "Instructions for choosing an environment for working with Microsoft Forms Pro"
+title: "Work with environments | MicrosoftDocs"
+description: "Learn about working with environments in Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais

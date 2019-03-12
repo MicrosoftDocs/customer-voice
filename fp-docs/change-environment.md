@@ -1,5 +1,5 @@
 ---
-title: "Change an environment for working with Microsoft Forms Pro | MicrosoftDocs"
+title: "Change an environment for working | MicrosoftDocs"
 description: "Instructions for changing an environment for working with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

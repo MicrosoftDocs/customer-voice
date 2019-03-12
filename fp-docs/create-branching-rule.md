@@ -1,5 +1,5 @@
 ---
-title: "Create a branching rule for a survey with Microsoft Forms Pro | MicrosoftDocs"
+title: "Create a branching rule for a survey | MicrosoftDocs"
 description: "Instructions for creating a branching rule for a survey with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

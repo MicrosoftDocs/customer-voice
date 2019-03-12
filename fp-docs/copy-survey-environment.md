@@ -1,5 +1,5 @@
 ---
-title: "Copy a survey to another environment in Microsoft Forms Pro | MicrosoftDocs"
+title: "Copy a survey to another environment | MicrosoftDocs"
 description: "Instructions for copying a survey to another environment in Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
