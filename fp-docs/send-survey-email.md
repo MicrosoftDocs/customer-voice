@@ -24,7 +24,7 @@ After creating a survey, you can send it through email:
 2.  In the **To** field, enter the recipient's name or email address. You can populate the **To** field by either of the following ways:
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
-    - Entering a contact or contact list/view from Common Data Services for Apps. The contatcs are populated from the selected environemnt. For more information on working with environments, see: [Work with environments](choose-environment.md). 
+    - Entering a contact or contact list/view from Common Data Services for Apps. The contacts are populated from the selected environment. For more information on working with environments, see: [Work with environments](choose-environment.md). 
     - Uploading a .csv file by selecting **Import recipients**.
 
 3.  To insert the survey link into your email message, see [Insert survey link](#insert-survey-link).  
@@ -38,7 +38,7 @@ After creating a survey, you can send it through email:
 7.  When you're ready to send your survey, select **Send**.
 
 > [!NOTE]
-> In this preview, you can send a survey invitaion to maximum 100 recipients.
+> In this preview, you can send a survey invitation to maximum 100 recipients.
 
 ## Insert survey link
 
