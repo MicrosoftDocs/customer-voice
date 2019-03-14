@@ -38,7 +38,7 @@ After creating a survey, you can send it through email:
 7.  When you're ready to send your survey, select **Send**.
 
 > [!NOTE]
-> In this preview, you can send a survey invitation to maximum 100 recipients.
+> For this preview, you can send a survey invitation to maximum 100 recipients.
 
 ## Insert survey link
 
