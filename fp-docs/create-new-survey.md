@@ -50,3 +50,4 @@ To create a new survey with Forms Pro:
 > [!NOTE]
 > - You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md).
 > - You can create a classic form within Microsoft Forms Pro. More information: [Create a classic form](create-classic-form.md).
+> - You can also create quizzes within Microsoft Forms Pro to get real-time feedback. For steps to create a quiz, see: [Create a quiz with Microsoft Forms](https://support.office.com/en-us/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
