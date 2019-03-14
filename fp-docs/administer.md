@@ -37,15 +37,5 @@ By default, Forms Pro is enabled for all users in your tenant. As an administrat
 
 ## Turn off Forms Pro
 
-1. Sign in to the [Microsoft Power Platform Admin center](https://admin.powerplatform.microsoft.com).
-
-2. On the **Environments** tab, select **Manage Forms Pro** from the toolbar at the top of the page.
-
-    ![Manage Forms Pro](media/manage-forms-pro.png "Manage Forms Pro")
-
-3. Turn off the **Microsoft Forms Pro** toggle. To use Forms Pro again, turn the toggle back on.
-
-    ![Turn off or on Forms Pro](media/admin-screen.png "Turn off or on Forms Pro")
-
-4. Save the changes.
+If you want to turn off Forms Pro in your tenant, disable the Azure Active Directory self-service sign-up. For more information on self-service signup, see [What is self-service signup for Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-self-service-signup).
 
