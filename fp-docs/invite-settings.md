@@ -44,7 +44,7 @@ Let's now see the options you can select to define who can respond to a survey a
     - **One response per person**: A respondent can submit only one response. This option is enabled only when **Record name** is selected and works only if a [personalized survey link](#work-with-personalized-links) is generated.
     
     > [!NOTE]
-    > In this preview, the **One response per person** check box is disabled. 
+    > For this preview, the **One response per person** check box is disabled. 
 
     ![Invitation settings for external surveys](media/invite-settings-external.png "Invitation settings for external surveys")
 
@@ -57,7 +57,7 @@ Let's now see the options you can select to define who can respond to a survey a
     - **One response per person**: A respondent can submit only one response.
     
     > [!NOTE]
-    > In this preview, the **One response per person** check box is disabled. 
+    > For this preview, the **One response per person** check box is disabled. 
 
     ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
 
