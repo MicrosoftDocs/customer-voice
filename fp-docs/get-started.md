@@ -27,7 +27,7 @@ Forms Pro is built on Microsoft Forms, and it offers new capabilities that make 
 
 ## Web browsers that work with Forms Pro
 
-Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, and Firefox.
+Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefox, and Safari.
 
 ## Sign up for Forms Pro preview
 
