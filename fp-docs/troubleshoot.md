@@ -34,11 +34,30 @@ If you have upgraded the CDS and your environment creation is still having issue
 
 If you receive an error stating that you don't have permission to access the environment, you must contact your administrator to verify the following:
 
-- Forms Pro solution is installed.
+- Microsoft Forms Pro solution is installed.
 - An application user is created.
     - The application user has the Survey Services Administrator security role assigned.
-    - The Survey Services Administrator security role has the Organization privileges on the Survey, Survey email template, Survey question, Survey question response, and Unsubscribed recipient entities.
+    - The Survey Services Administrator security role has the Organization privileges as specified in [Survey Services Administrator security role privileges](#survey-services-administrator-security-role-privileges).
 - The system user has the Survey Owner security role assigned.
-    - The Survey Owner security role has the User privileges on the  Survey, Survey email template, Survey question, and Survey question response entities.
+    - The Survey Owner security role has the User privileges as specified in [Survey Owner security role privileges](#survey-owner-security-role-privileges).
 
+### Survey Services Administrator security role privileges
 
+|Entity|Create|Read|Write|Delete|Append|Append To|Assign|Share|
+|------|------|----|-----|------|------|---------|------|-----|
+|Survey|x|x|x|x|x|x|x|x|
+|Survey email template|x|x|x|x|x|x|x|x|
+|Survey question|x|x|x|x|x|x|x|x|
+|Survey question response|x|x|x|x|x|x|x|x|
+|Unsubscribed recipient|x|x|x|x|x|x|x|x|
+||||||||||
+
+### Survey Owner security role privileges
+
+|Entity|Create|Read|Write|Delete|Append|Append To|Assign|Share|
+|------|------|----|-----|------|------|---------|------|-----|
+|Survey|x|x|x|x|x|x|x|x|
+|Survey email template|x|x|x|x|x|x|x|x|
+|Survey question|x|x|x|x|x|x|x|x|
+|Survey question response|x|x|x|x|x|x|x|x|
+||||||||||
