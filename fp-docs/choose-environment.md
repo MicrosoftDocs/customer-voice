@@ -39,8 +39,4 @@ In this section, you will learn how to:
 
 - [Change an environment](change-environment.md)
 - [Copy a survey to another environment](copy-survey-environment.md)
-- [Upgrade to latest Common Data Service for Apps](upgrade-cds.md)
-
-
-
 
