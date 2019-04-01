@@ -25,7 +25,10 @@ When you sign in to Microsoft Forms Pro, only the surveys that are available in 
 
 You can switch the environment at any time and start working in it. You can also copy a survey from one environment to another. When you copy a survey to another environment, only the survey structure and its branching rules are copied—invitations, responses, and associated flows are not.
 
-To work with surveys in an environment, install the Forms Pro app from Microsoft AppSource, and assign the Survey Owner role to users. If you switch to an environment that doesn't have Forms Pro, an error message is displayed.
+To work with surveys in an environment, install the [Forms Pro app from Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.shimla?tab=Overview), and assign the Survey Owner role to users. If you switch to an environment that doesn't have Forms Pro, an error message is displayed.
+
+> [!NOTE]
+> If you have organizations for Dynamics 365 for Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
 
 ## Privileges required
 

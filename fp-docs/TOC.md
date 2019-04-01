@@ -35,4 +35,5 @@
 # [Work with environments](choose-environment.md)
 ## [Change an environment](change-environment.md)
 ## [Copy a survey to another environment](copy-survey-environment.md)
-## [Upgrade to latest Common Data Service for Apps](upgrade-cds.md)
+
+# [Troubleshoot Forms pro](troubleshoot.md)
