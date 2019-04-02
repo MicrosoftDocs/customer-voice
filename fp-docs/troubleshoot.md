@@ -15,7 +15,7 @@ ms.custom:
 
 # Troubleshoot issues in Forms pro
 
-This article provides information about troubleshooting issues in the Forms Pro solution.
+This article provides information about troubleshooting issues in the Microsoft Forms Pro solution.
 
 ## Environment provisioning failure
 
