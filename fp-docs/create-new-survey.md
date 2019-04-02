@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: EA713CA9-6B0B-45A3-A700-22C164465411
@@ -51,3 +51,12 @@ To create a new survey with Forms Pro:
 > - You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md).
 > - You can create a classic form within Microsoft Forms Pro. More information: [Create a classic form](create-classic-form.md).
 > - You can also create quizzes within Microsoft Forms Pro to get real-time feedback. For steps to create a quiz, see: [Create a quiz with Microsoft Forms](https://support.office.com/en-us/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
+
+## See also
+
+[Apply theme to a survey](apply-theme.md)<br>
+[Preview and test a survey](preview-test-survey.md)<br>
+[Create a branching rule](create-branching-rule.md)<br>
+[Personalize a survey](personalize-survey.md)<br>
+[Format text in a survey](survey-text-format.md)<br>
+[Create a classic form](create-classic-form.md)

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: FD23CE2B-B022-4708-BAE8-5CAC8BC75092
@@ -44,3 +44,12 @@ A few best practices enable you to create a meaningful survey and gather good re
 - **Preview the survey**: After creating your survey, always preview it to check the overall flow of the survey and to catch any mistakes.
 
 - **Mention expectations in the survey invitation**: In the survey invitation, be sure to mention the estimated time to complete it and give a brief overview. This will help respondents submit their input within the expected time frame.
+
+## See also
+
+[Create a survey](create-survey.md)<br>
+[Send a survey to get responses](send-survey.md) <br>
+[Collaborate on a survey](collaborate-survey.md) <br>
+[Analyze responses and invitations](analyze-responses-invites.md) <br>
+[Work with environments](choose-environment.md)<br>
+[Troubleshoot Forms pro](troubleshoot.md)

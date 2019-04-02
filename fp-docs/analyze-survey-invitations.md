@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
@@ -56,4 +56,9 @@ To delete survey invitation(s), select the required invitation(s), and then sele
 
 ![Delete survey invitations](media/delete-survey-invite.png "Delete survey invitations")
 
+## See also
 
+[View summary information for your survey](view-summary-information.md)<br>
+[View details for each question](view-details-each-question.md)<br>
+[Analyze survey responses](analyze-survey-responses.md)<br>
+[Analyze survey insights](analyze-survey-insights.md)
