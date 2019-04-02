@@ -17,7 +17,7 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-You can view details for each question in the survey by going to **View Responses** &gt; **Question responses**. A graphical representation of the responses is displayed. The visualizations on the Question responses page are all connected to each other. What this means is that if you select one or more values in one visualization, other visualizations that use that same value will change based on your selection.
+You can view details for each question in the survey by going to **View Responses** &gt; **Question responses**. A graphical representation of the responses is displayed. The visualizations on the **Question responses** page are all connected to each other. What this means is that if you select one or more values in one visualization, other visualizations that use that same value will change based on your selection.
 
 ![Question responses summary](media/ques-responses.png "Question responses summary")
 
