@@ -28,7 +28,7 @@ If your environment provisioning has failed, the provisioning will be retried pe
 If you have upgraded the CDS and your environment creation is still having issues, please contact support.
 
 > [!IMPORTANT]
-> - We intend to discontinue the support for legacy version of CDS on April 15, 2019.
+> - Microsoft intends to discontinue the support for legacy version of CDS on April 15, 2019.
 > - Ensure that you upgrade the CDS in your default environment only.
 
 ## Environment permission failure

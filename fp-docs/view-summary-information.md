@@ -27,7 +27,11 @@ The following statistics are displayed:
 
 - **Responses**: Total number of survey responses received.
 
-- **NPS**: Net Promotor Score of the survey.
+- **NPS**: Net Promoter Score of the survey. The scoring for NPS type question is mostly based on a 0 to 10 scale. The respondents are classified on the NPS scores as:
+    - **Detractors** are those who respond with a score of 0 to 6.
+    - **Passives** are those who respond with a score of 7 to 8.
+    - **Promoters** are those who respond with a score of 9 to 10.
+    NPS is calculated by subtracting the percentage of detractors from the percentage of promoters.
 
 - **Sentiment**: Average sentiment of the respondents: positive, neutral, or negative.
 
