@@ -31,6 +31,7 @@ The following statistics are displayed:
     - **Detractors** are those who respond with a score of 0 to 6.
     - **Passives** are those who respond with a score of 7 to 8.
     - **Promoters** are those who respond with a score of 9 to 10.
+    
     NPS is calculated by subtracting the percentage of detractors from the percentage of promoters.
 
 - **Sentiment**: Average sentiment of the respondents: positive, neutral, or negative.
@@ -39,3 +40,9 @@ The following statistics are displayed:
 
 ![view survey responses](media/view-responses.png "View survey responses")  
 
+## See also
+
+[View details for each question](view-details-each-question.md)<br>
+[Analyze survey invitations](analyze-survey-invitations.md)<br>
+[Analyze survey responses](analyze-survey-responses.md)<br>
+[Analyze survey insights](analyze-survey-insights.md)

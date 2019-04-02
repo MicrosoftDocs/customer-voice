@@ -43,3 +43,12 @@ To apply a theme:
 
 - **Customize color**: Enter the hexadecimal code of the color you want to apply to the survey.
 
+## See also
+
+[Create a new survey](create-new-survey.md)<br>
+[Preview and test a survey](preview-test-survey.md)<br>
+[Create a branching rule](create-branching-rule.md)<br>
+[Personalize a survey](personalize-survey.md)<br>
+[Format text in a survey](survey-text-format.md)<br>
+[Create a classic form](create-classic-form.md)
+

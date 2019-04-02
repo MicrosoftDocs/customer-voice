@@ -81,3 +81,10 @@ Personalized survey links or trackable links are generated when a survey is sent
 
 When you send a survey by generating a link or a QR code, the survey links are not personalized. In these cases, you will not be able to record the respondent's name and whether the respondent has submitted only one response if you have selected **Anyone with the link can respond**.
 
+## See also
+
+[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
+[Embed in a web page](embed-web-page.md)<br>
+[Send a survey link to others](send-survey-link.md)<br>
+[Send a survey QR code](send-survey-qrcode.md)

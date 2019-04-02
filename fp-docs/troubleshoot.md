@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/01/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 97526FE3-7523-48B0-A8F4-7C369AF78DB4
@@ -19,27 +19,23 @@ This article provides information about troubleshooting issues in the Forms Pro 
 
 ## Environment provisioning failure
 
-If you receive an error stating that your environment provisioning has failed, you must check the version of Common Data Service (CDS) you are using. Forms Pro doesn't work with the legacy version of CDS. If your default environment is created with legacy CDS, your environment will not be provisioned and an error message is displayed. You must upgrade the legacy CDS to use the newer version of CDS for Apps. For more information on upgrading to CDS for Apps, see [Upgrade to Common Data Service for Apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+If you receive an error stating that your environment provisioning has failed, you must check the version of Common Data Service you are using. Forms Pro doesn't work with the previous version of Common Data Service. If your default environment is created with the previous version of Common Data Service, your environment will not be provisioned and an error message is displayed. You must upgrade Common Data Service to use the newer version of Common Data Service for Apps. For more information on upgrading to Common Data Service for Apps, see [Upgrade to Common Data Service for Apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
-To delete or upgrade your CDS from previous version to the newer version, contact your Global administrator. 
+To delete or upgrade your Common Data Service from previous version to the newer version, contact your Global administrator. 
 
 If your environment provisioning has failed, the provisioning will be retried periodically. If want to prioritize or submit any other request, please contact support.
 
-If you have upgraded the CDS and your environment creation is still having issues, please contact support.
-
-> [!IMPORTANT]
-> - Microsoft intends to discontinue the support for legacy version of CDS on April 15, 2019.
-> - Ensure that you upgrade the CDS in your default environment only.
+If you have upgraded the Common Data Service and your environment creation is still having issues, please contact support.
 
 ## Environment permission failure
 
 If you receive an error stating that you don't have permission to access the environment, you must contact your administrator to verify the following:
 
 - Microsoft Forms Pro solution is installed.
-- An application user is created.
+- An application user with the name Microsoft Forms Pro is created.
     - The application user has the Survey Services Administrator security role assigned.
     - The Survey Services Administrator security role has the Organization privileges on the survey entities as specified in [Survey Services Administrator security role privileges](#survey-services-administrator-security-role-privileges).
-- The system user has the Survey Owner security role assigned.
+- You have the Survey Owner security role assigned.
     - The Survey Owner security role has the User privileges on the survey entities as specified in [Survey Owner security role privileges](#survey-owner-security-role-privileges).
 
 ### Survey Services Administrator security role privileges

@@ -108,3 +108,12 @@ Once you have created a branching rule or a set of branching rules, you can edit
 5. To delete a branching rule, select **Delete** ![Delete branching rule](media/delete-rule.png "Delete branching rule") from the corresponding rule row.
 
 6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, select **Move up** ![Move up](media/move-up-rule.png "Move up") or **Move down** ![Move down](media/move-down-rule.png "Move down") from the corresponding rule row.
+
+## See also
+
+[Create a new survey](create-new-survey.md)<br>
+[Apply theme to a survey](apply-theme.md)<br>
+[Preview and test a survey](preview-test-survey.md)<br>
+[Personalize a survey](personalize-survey.md)<br>
+[Format text in a survey](survey-text-format.md)<br>
+[Create a classic form](create-classic-form.md)

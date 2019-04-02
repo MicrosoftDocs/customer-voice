@@ -56,4 +56,9 @@ To delete survey invitation(s), select the required invitation(s), and then sele
 
 ![Delete survey invitations](media/delete-survey-invite.png "Delete survey invitations")
 
+## See also
 
+[View summary information for your survey](view-summary-information.md)<br>
+[View details for each question](view-details-each-question.md)<br>
+[Analyze survey responses](analyze-survey-responses.md)<br>
+[Analyze survey insights](analyze-survey-insights.md)

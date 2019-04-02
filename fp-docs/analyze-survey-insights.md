@@ -27,3 +27,9 @@ To view detailed survey insights, select **View all**. The following insights ar
 
 - **Sentiment insights**: Displays the average sentiment score and a word cloud for positive and negative feedback of respondents. Sentiment score is calculated based on the sentiment of the responses to the text-based questions. The word cloud is created from key phrases in the feedback.
 
+## See also
+
+[View summary information for your survey](view-summary-information.md)<br>
+[View details for each question](view-details-each-question.md)<br>
+[Analyze survey invitations](analyze-survey-invitations.md)<br>
+[Analyze survey responses](analyze-survey-responses.md)<br>

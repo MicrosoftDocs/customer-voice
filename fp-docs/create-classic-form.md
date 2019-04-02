@@ -49,3 +49,12 @@ To disable the capability for creating a classic form:
 3. Select **Hide button to create classic Form**.
 
     ![Hide button to create classic Form](media/classic-form-button-hide.png "Hide button to create classic Form") 
+
+## See also
+
+[Create a new survey](create-new-survey.md)<br>
+[Apply theme to a survey](apply-theme.md)<br>
+[Preview and test a survey](preview-test-survey.md)<br>
+[Create a branching rule](create-branching-rule.md)<br>
+[Personalize a survey](personalize-survey.md)<br>
+[Format text in a survey](survey-text-format.md)<br>

@@ -38,3 +38,7 @@ You can create a copy of your survey in the same environment or in another envir
     A list of environments is displayed in a pane on the right side of the screen.
 
 5. Select the environment to which you want to copy the survey.
+
+## See also
+
+[Change an environment](change-environment.md)

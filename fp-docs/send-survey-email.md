@@ -76,3 +76,10 @@ You can perform these actions on an email template:
 > [!NOTE]
 > You can save a maximum of 10 email templates.
 
+## See also
+
+[Define who can respond to a survey](invite-settings.md)<br>
+[Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
+[Embed in a web page](embed-web-page.md)<br>
+[Send a survey link to others](send-survey-link.md)<br>
+[Send a survey QR code](send-survey-qrcode.md)
