@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6f6d60eb-3c67-4e40-9abb-b3016ec16ea0
@@ -27,3 +27,9 @@ To view detailed survey insights, select **View all**. The following insights ar
 
 - **Sentiment insights**: Displays the average sentiment score and a word cloud for positive and negative feedback of respondents. Sentiment score is calculated based on the sentiment of the responses to the text-based questions. The word cloud is created from key phrases in the feedback.
 
+## See also
+
+[View summary information for your survey](view-summary-information.md)<br>
+[View details for each question](view-details-each-question.md)<br>
+[Analyze survey invitations](analyze-survey-invitations.md)<br>
+[Analyze survey responses](analyze-survey-responses.md)<br>

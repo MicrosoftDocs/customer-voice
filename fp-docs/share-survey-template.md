@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 984702f4-83ba-4d47-8d3d-ad14d452b211
@@ -39,3 +39,6 @@ To share a survey as a template:
 
 6.  When another person navigates to that survey URL, they must select **Duplicate it** at the top or bottom of the survey to create a copy of the survey in their own profile, which they can then modify for their own needs.
 
+## See also
+
+[Share a survey for collaborating](share-survey-collaborate.md)

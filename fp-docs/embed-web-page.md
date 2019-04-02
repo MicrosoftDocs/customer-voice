@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 649b3390-c3a5-4166-a014-ae3cfd14cc71
@@ -78,3 +78,10 @@ You created a `div` container with the ID `surveyDiv` on the webpage where you w
 
 The preceding method calls the `renderSurvey` function and passes the required values accordingly. In this method, static user details are passed, but you can provide a function that retrieves the logged-in user details.
 
+## See also
+
+[Define who can respond to a survey](invite-settings.md)<br>
+[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
+[Send a survey link to others](send-survey-link.md)<br>
+[Send a survey QR code](send-survey-qrcode.md)

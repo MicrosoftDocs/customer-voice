@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
@@ -74,3 +74,10 @@ To view flow history:
 
     ![flow history details](media/flow-history-details.png "Flow history details")  
 
+## See also
+
+[Define who can respond to a survey](invite-settings.md)<br>
+[Send a survey by using email](send-survey-email.md)<br>
+[Embed in a web page](embed-web-page.md)<br>
+[Send a survey link to others](send-survey-link.md)<br>
+[Send a survey QR code](send-survey-qrcode.md)

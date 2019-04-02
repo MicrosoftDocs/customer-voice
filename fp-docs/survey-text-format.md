@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 55FEBC29-69E8-4046-A1DA-D6701BEC16DD
@@ -45,3 +45,11 @@ For example, in this survey, formatting has been applied to the elements that yo
 
 ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
+## See also
+
+[Create a new survey](create-new-survey.md)<br>
+[Apply theme to a survey](apply-theme.md)<br>
+[Preview and test a survey](preview-test-survey.md)<br>
+[Create a branching rule](create-branching-rule.md)<br>
+[Personalize a survey](personalize-survey.md)<br>
+[Create a classic form](create-classic-form.md)

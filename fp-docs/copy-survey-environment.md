@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: C617AF1B-9EF4-43EA-93E7-22BD056354AE
@@ -38,3 +38,7 @@ You can create a copy of your survey in the same environment or in another envir
     A list of environments is displayed in a pane on the right side of the screen.
 
 5. Select the environment to which you want to copy the survey.
+
+## See also
+
+[Change an environment](change-environment.md)

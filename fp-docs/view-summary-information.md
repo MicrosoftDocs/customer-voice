@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
@@ -27,7 +27,12 @@ The following statistics are displayed:
 
 - **Responses**: Total number of survey responses received.
 
-- **NPS**: Net Promotor Score of the survey.
+- **NPS**: Net Promoter Score of the survey. The scoring for NPS type question is based on a 0 to 10 scale. The respondents are grouped based on the scores as follows:
+    - **Detractors** are those who respond with a score of 0 to 6.
+    - **Passives** are those who respond with a score of 7 to 8.
+    - **Promoters** are those who respond with a score of 9 to 10.
+    
+    NPS is calculated by subtracting the percentage of detractors from the percentage of promoters.
 
 - **Sentiment**: Average sentiment of the respondents: positive, neutral, or negative.
 
@@ -35,3 +40,9 @@ The following statistics are displayed:
 
 ![view survey responses](media/view-responses.png "View survey responses")  
 
+## See also
+
+[View details for each question](view-details-each-question.md)<br>
+[Analyze survey invitations](analyze-survey-invitations.md)<br>
+[Analyze survey responses](analyze-survey-responses.md)<br>
+[Analyze survey insights](analyze-survey-insights.md)
