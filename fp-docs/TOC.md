@@ -37,3 +37,13 @@
 ## [Copy a survey to another environment](copy-survey-environment.md)
 
 # [Troubleshoot Forms pro](troubleshoot.md)
+
+# [Developer guide](developer/developer-guide.md)
+## [Entity reference](developer/forms-pro-reference.md)
+### [msfp_emailtemplate](developer/reference/entities/msfp_emailtemplate.md)
+### [msfp_question](developer/reference/entities/msfp_question.md)
+### [msfp_questionresponse](developer/reference/entities/msfp_questionresponse.md)
+### [msfp_survey](developer/reference/entities/msfp_survey.md)
+### [msfp_surveyinvite](developer/reference/entities/msfp_surveyinvite.md)
+### [msfp_surveyresponse](developer/reference/entities/msfp_surveyresponse.md)
+### [msfp_unsubscribedrecipient](developer/reference/entities/msfp_unsubscribedrecipient.md)
