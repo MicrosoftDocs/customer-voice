@@ -1951,4 +1951,3 @@ See msfp_surveyinvite Entity [msfp_msfp_surveyinvite_msfp_surveyresponse_surveyi
 [About the Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/about-entity-reference)<br />
 [Programming reference for Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/developer/programming-reference)<br />
 [Web API reference for Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msfp_surveyresponse?text=msfp_surveyresponse EntityType" />
