@@ -16,7 +16,7 @@ search.app:
 ---
 # Entity Reference for Microsoft Forms Pro
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## Entities
 

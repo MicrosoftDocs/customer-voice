@@ -16,13 +16,13 @@ search.app:
 ---
 # Developer guide for Microsoft Forms Pro
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Welcome to the developer guide for Microsoft Forms Pro.
 
 <table>
 <tr><td>
-<li><a href="forms-pro-reference">Entity reference</a></li>
+<li><a href="forms-pro-reference.md">Entity reference</a></li>
 </td></tr>
 </table>
 
