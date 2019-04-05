@@ -18,6 +18,8 @@ search.app:
 
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+Use this reference to understand the available operations that can be performed on specific entities, the default attributes of each entity and the relationship between entities.
+
 ## Entities
 
 |Entity name|Description|
@@ -32,4 +34,5 @@ search.app:
 
 ## See also
 
-[Developer guide for Forms Pro](developer-guide.md)
+[Developer guide for Forms Pro](developer-guide.md)<br />
+[Entity reference for Microsoft Dynamics 365](/dynamics365/customer-engagement/developer/about-entity-reference)

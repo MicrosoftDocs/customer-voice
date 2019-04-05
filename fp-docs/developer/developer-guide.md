@@ -22,7 +22,13 @@ Welcome to the developer guide for Microsoft Forms Pro.
 
 <table>
 <tr><td>
-<li><a href="forms-pro-reference.md">Entity reference</a></li>
+<h2><a href="forms-pro-reference.md">Entity reference</a></h2>
+<li><a href="reference/entities/msfp_emailtemplate.md">msfp_emailtemplate</a></li>
+<li><a href="reference/entities/msfp_question.md">msfp_question</a></li>
+<li><a href="reference/entities/msfp_questionresponse.md">msfp_questionresponse</a></li>
+<li><a href="reference/entities/msfp_survey.md">msfp_survey</a></li>
+<li><a href="reference/entities/msfp_surveyinvite.md">msfp_surveyinvite</a></li>
+<li><a href="reference/entities/msfp_unsubscribedrecipient.md">msfp_unsubscribedrecipient</a></li>
 </td></tr>
 </table>
 
