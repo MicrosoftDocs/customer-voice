@@ -48,11 +48,16 @@ To create a multilingual survey:
 
 ## Step 2: Add translations
 
+
+
+<!--from editor: The screenshot shows an edit icon, not the words "Edit language." Maybe this step should say to select the edit icon instead.-->
+
+
 1.	In the **Multilingual** pane, hover over the language for which you want to add translations, and then select **Edit language**.
 
     ![Edit the language added for the survey](media/edit-lang.png "Edit the language added for the survey") 
 
-2.	Select survey title, its description, questions, and their corresponding options in the survey, and enter the translated text for the question and its options.
+2.	Select the survey title, its description, questions, and their corresponding options in the survey, and enter the translated text for the question and its options.
 
     ![Translated text added in the survey](media/translation-added.png "Translated text added in the survey") 
 
@@ -73,6 +78,12 @@ After adding translations for the required languages in your survey, you can eit
 2.	On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Multilingual**.
 
     ![Multilingual button](media/multilingual-button.png "Multilingual button") 
+
+
+
+<!--from editor: Same issue here as above. The screenshot shows an edit icon. It also shows a delete icon. Steps 3 and 5 should indicate that.-->
+
+
 
 3.	To edit the translations, hover over the language for which you want to edit translations, and then select **Edit language**.
 
