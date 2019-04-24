@@ -12,6 +12,8 @@
 ## [Create a branching rule](create-branching-rule.md) 
 ## [Personalize a survey](personalize-survey.md)
 ## [Create a classic form](create-classic-form.md)
+## [Create a multilingual survey](create-multilingual-survey.md)
+## [Create a multipage survey](create-multipage-survey.md)
 
 # [Send a survey to get responses](send-survey.md)  
 ## [Define who can respond to a survey](invite-settings.md)  

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1AECC69F-B68A-4776-884A-C59770FC5C96
@@ -108,4 +108,6 @@ To specify values for custom data placeholders in a flow:
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-[Create a classic form](create-classic-form.md)
+[Create a classic form](create-classic-form.md)<br>
+[Create a multilingual survey](create-multilingual-survey.md)<br>
+[Create a multipage survey](create-multipage-survey.md)

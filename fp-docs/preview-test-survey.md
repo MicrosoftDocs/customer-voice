@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 07e97246-0eb2-4474-863b-363bd1a267fd
@@ -40,4 +40,6 @@ After you have created and edited a survey, preview and test it before distribut
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-[Create a classic form](create-classic-form.md)
+[Create a classic form](create-classic-form.md)<br>
+[Create a multilingual survey](create-multilingual-survey.md)<br>
+[Create a multipage survey](create-multipage-survey.md)

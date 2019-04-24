@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 72B81F9F-952B-4A58-83C7-9F68A5EF9B5C
@@ -116,4 +116,6 @@ Once you have created a branching rule or a set of branching rules, you can edit
 [Preview and test a survey](preview-test-survey.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-[Create a classic form](create-classic-form.md)
+[Create a classic form](create-classic-form.md)<br>
+[Create a multilingual survey](create-multilingual-survey.md)<br>
+[Create a multipage survey](create-multipage-survey.md)
