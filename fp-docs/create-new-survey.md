@@ -29,7 +29,7 @@ To create a new survey with Forms Pro:
 
     ![Add survey title and description](media/survey-title.png "Add survey title and description") 
 
-4.	Select **Add Question** to view question types that can be added to your survey. You can choose from **Choice**, **Text**, **Rating**, or **Date** questions. You can also select **More** (...), and choose **Ranking**, **Likert**, or **Net Promoter Score** questions.
+4.	Select **Add new** to view question types that can be added to your survey. You can choose from **Choice**, **Text**, **Rating**, or **Date** questions. You can also select **More** (...), and choose **Ranking**, **Likert**, or **Net Promoter Score** questions.
 
     ![Question types](media/ques-types.png "Question types") 
 
