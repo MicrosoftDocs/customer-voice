@@ -23,8 +23,8 @@ When you create a multilingual survey, respondents can choose their preferred la
 
 To create a multilingual survey:
 
-1.	Add survey language
-2.	Add translations
+1.	[Add survey language](#step-1-add-survey-language)
+2.	[Add translations](#step-2-add-translations)
 
 ## Step 1: Add survey language
 
