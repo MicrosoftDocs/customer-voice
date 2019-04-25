@@ -40,7 +40,7 @@ After adding the required sections in your survey, you can duplicate, remove, or
 
 1.	Open the survey in which you want to manage a section.
 
-2.	Select **More settings for section** (...) at the right of the section header you need to manage and then select one of the following options:
+2.	Select the **ellipsis** button (...) at the right of the section header you need to manage and then select one of the following options:
 
     - **Duplicate section**: Create a copy of the section along with its questions.
     - **Remove section**: Select one of the following options:
