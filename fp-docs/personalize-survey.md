@@ -17,16 +17,16 @@ ms.custom:
 
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-With placeholders, automatically insert customer information into your survey by using custom data. For example, you can use custom data to automatically insert a customer's first name into a question to personalize it.
+With placeholders, automatically insert customer information into your survey by using personalized data. For example, you can use personalized data to automatically insert a customer's first name into a question to personalize it.
 
-By default, the following custom data options are available:
+By default, the following personalized data options are available:
 
 - First name
 - Last name
 
-To select or add a new custom data:
+To select or add a new personalized data:
 
-1.	Open the survey in which you want to use custom data.
+1.	Open the survey in which you want to use personalized data.
 
 2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Personalize**.
 
@@ -55,11 +55,11 @@ After selecting or adding the required personalized data, you need to associate 
 
 3.	Place the cursor at the location where you want to add the personalized data placeholder.
 
-4.	From the **Personalized** list in the formatting toolbar, select the personalized data that you want to add. 
+4.	From the **Personalize** list in the formatting toolbar, select the personalized data that you want to add. 
 
     ![Add personalized data](media/add-pipe-data.png "Add personalized data")
 
-For example, let's say that you've created personalized data named **Product Name** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product Name** personalized data from the **Pipes** list. The *{{First Name}}* and *{{Product Name}}* placeholders are inserted at the cursor location.
+For example, let's say that you've created personalized data named **Product Name** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product Name** personalized data from the **Personalize** list. The *{{First Name}}* and *{{Product Name}}* placeholders are inserted at the cursor location.
 
 Let's say the question is:
 *{{First Name}}*, overall, how would you rate your experience with customer service for *{{Product Name}}*?
