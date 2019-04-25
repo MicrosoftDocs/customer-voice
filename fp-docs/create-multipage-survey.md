@@ -15,7 +15,7 @@ ms.custom:
 
 # Create a multipage survey
 
-When you create a survey, the survey created on a single page by default. You can split your survey into multiple pages by adding sections. If your survey is very long and complex, you can use sections to group the questions logically.
+When you create a survey, the survey is created on a single page by default. You can split your survey into multiple pages by adding sections. If your survey is very long and complex, you can use sections to group the questions logically.
 
 > [!NOTE]
 > You can add sections in an existing survey and then move the questions up or down accordingly in the section. If you are creating a new survey, you can add sections while adding questions.
@@ -41,11 +41,13 @@ After adding the required sections in your survey, you can duplicate, remove, or
 1.	Open the survey in which you want to manage a section.
 
 2.	Select **More settings for section** (...) at the right of the section header you need to manage and then select one of the following options:
+
     - **Duplicate section**: Create a copy of the section along with its questions.
     - **Remove section**: Select one of the following options:
         - **Just section**: Delete the section and move the questions to the previous section.
         - **Section and questions**: Delete the section and its questions.
     - **Move section**: Move the section up or down in the survey.
+        
         ![Move a section](media/move-section.png "Move a section")
 
 ## See also

@@ -15,9 +15,9 @@ ms.custom:
 
 # Create a multilingual survey
 
-You can create a multilingual survey by adding multiple languages to a single survey. You can then add translations for each added language. This helps you increase your customer base and allows respondents to take the survey in their preferred language.
+You can create a multilingual survey by adding multiple languages to a single survey. You can then add translations for each language. This helps you increase your customer base and allows respondents to take the survey in their preferred language.
 
-When you create a multilingual survey, respondents can choose their preferred language from the language selector at the top-right corner of the survey.
+When you create a multilingual survey, respondents can choose their preferred language from the language selector at the upper-right corner of the survey.
 
 ![Select language for the survey](media/lang-select.png "Select language for the survey") 
 
@@ -30,7 +30,7 @@ To create a multilingual survey:
 
 1.	Open the survey in which you want to enable multiple languages.
 
-2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Multilingual**.
+2.	On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Multilingual**.
 
     ![Multilingual button](media/multilingual-button.png "Multilingual button") 
 
@@ -48,11 +48,16 @@ To create a multilingual survey:
 
 ## Step 2: Add translations
 
+
+
+<!--from editor: The screenshot shows an edit icon, not the words "Edit language." Maybe this step should say to select the edit icon instead.-->
+
+
 1.	In the **Multilingual** pane, hover over the language for which you want to add translations, and then select **Edit language**.
 
     ![Edit the language added for the survey](media/edit-lang.png "Edit the language added for the survey") 
 
-2.	Select survey title, its description, questions, and their corresponding options in the survey, and enter the translated text for the question and its options.
+2.	Select the survey title, its description, questions, and their corresponding options in the survey, and enter the translated text for the question and its options.
 
     ![Translated text added in the survey](media/translation-added.png "Translated text added in the survey") 
 
@@ -60,7 +65,7 @@ To create a multilingual survey:
 
 4.	Repeat steps 2 - 3 to add translations for other languages.
 
-After adding translations for all languages, you must preview the survey to see if everything is working as expected. Select the language from the language selector at the top-right corner of the survey.
+After adding translations for all languages, you must preview the survey to see if everything works as expected. Select the language from the language selector at the upper-right corner of the survey.
 
 ![Translated survey](media/translated-survey.png "Translated survey") 
 
@@ -70,9 +75,15 @@ After adding translations for the required languages in your survey, you can eit
 
 1.	Open the multilingual survey in which you want to manage translations.
 
-2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Multilingual**.
+2.	On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Multilingual**.
 
     ![Multilingual button](media/multilingual-button.png "Multilingual button") 
+
+
+
+<!--from editor: Same issue here as above. The screenshot shows an edit icon. It also shows a delete icon. Steps 3 and 5 should indicate that.-->
+
+
 
 3.	To edit the translations, hover over the language for which you want to edit translations, and then select **Edit language**.
 
