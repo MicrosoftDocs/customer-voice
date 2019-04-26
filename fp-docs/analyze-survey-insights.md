@@ -19,7 +19,8 @@ ms.custom:
 
 When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. A summary of the insights is displayed on the **Analyze** tab.
 
-![view survey insights](media/survey-insights.png "View survey insights")  
+> [!div class=mx-imgBorder]
+> ![view survey insights](media/survey-insights.png "View survey insights")  
 
 To view detailed survey insights, select **View all**. The following insights are displayed:
 

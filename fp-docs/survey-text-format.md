@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 55FEBC29-69E8-4046-A1DA-D6701BEC16DD
@@ -38,12 +38,14 @@ To format the text:
 
 3. Choose formatting for your survey text.
 
-    ![Apply text formatting](media/text-format.png "Apply text formatting")
+    > [!div class=mx-imgBorder]
+    > ![Apply text formatting](media/text-format.png "Apply text formatting")
 
 
 For example, in this survey, formatting has been applied to the elements that you selected earlier:
 
-![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
+> [!div class=mx-imgBorder]
+> ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 ## See also
 
@@ -52,4 +54,6 @@ For example, in this survey, formatting has been applied to the elements that yo
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
-[Create a classic form](create-classic-form.md)
+[Create a classic form](create-classic-form.md)<br>
+[Create a multilingual survey](create-multilingual-survey.md)<br>
+[Create a multipage survey](create-multipage-survey.md)

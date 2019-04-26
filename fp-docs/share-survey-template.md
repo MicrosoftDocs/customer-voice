@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 984702f4-83ba-4d47-8d3d-ad14d452b211
@@ -29,11 +29,13 @@ To share a survey as a template:
 
 3.  Select **Get a link to duplicate**.
 
-    ![get the link to share the survey as template](media/get-survey-duplicate-link.png "Get the link to share the survey as template")  
+    > [!div class=mx-imgBorder]
+    > ![get the link to share the survey as template](media/get-survey-duplicate-link.png "Get the link to share the survey as template")  
 
 4.  Select **Copy** next to the text box that displays the survey URL.
 
-    ![link to share the survey as template](media/survey-duplicate-link.png "Link to share the survey as template")  
+    > [!div class=mx-imgBorder]
+    > ![link to share the survey as template](media/survey-duplicate-link.png "Link to share the survey as template")  
 
 5.  Share this link with your intended audience.
 

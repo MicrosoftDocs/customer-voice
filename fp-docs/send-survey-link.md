@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: de861eb8-b373-43b9-a1be-34d43c74349e
@@ -26,7 +26,8 @@ If you don't have the email addresses of the people who you want to view your su
 
 2.  Select **Copy**, and then paste the provided link to a place visible to your intended audience. They can select the link to gain access to your survey.
 
-    ![get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")  
+    > [!div class=mx-imgBorder]
+    > ![get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")  
 
 ## See also
 

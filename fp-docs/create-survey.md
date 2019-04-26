@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c9dba997-e8dc-4e44-bbeb-ff9ba49fa23b
@@ -28,5 +28,7 @@ In this section, you will learn how to:
 - [Personalize a survey](personalize-survey.md)
 - [Format text in a survey](survey-text-format.md)
 - [Create a classic form](create-classic-form.md)
+- [Create a multilingual survey](create-multilingual-survey.md)
+- [Create a multipage survey](create-multipage-survey.md)
 
 

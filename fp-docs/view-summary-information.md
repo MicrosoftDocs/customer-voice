@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
@@ -38,7 +38,8 @@ The following statistics are displayed:
 
 - **Latest insights**: Correlation and sentiment are displayed based on the survey responses.
 
-![view survey responses](media/view-responses.png "View survey responses")  
+> [!div class=mx-imgBorder]
+> ![view survey responses](media/view-responses.png "View survey responses")  
 
 ## See also
 
