@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 50d49fc4-7894-4350-98ba-98c1331811fc
@@ -27,11 +27,13 @@ Microsoft Forms Pro also displays contributor icons next to each section current
 
 3.  Select **Get a link to view and edit**.
 
-    ![get the link to share the survey for collaboration](media/get-survey-share-link.png "Get the link to share the survey for collaboration")  
+    > [!div class=mx-imgBorder]
+    > ![get the link to share the survey for collaboration](media/get-survey-share-link.png "Get the link to share the survey for collaboration")  
 
 4.  Select **Copy** next to the text box that displays a survey URL.
 
-    ![link to share the survey for collaboration](media/survey-share-link.png "Link to share the survey for collaboration")  
+    > [!div class=mx-imgBorder]
+    > ![link to share the survey for collaboration](media/survey-share-link.png "Link to share the survey for collaboration")  
 
 5.  Share this link with your intended audience.
 

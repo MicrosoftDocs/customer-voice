@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
@@ -62,7 +62,8 @@ Flow history is displayed in a grid with the following information:
 
 If required, you can also edit a flow by selecting the **Edit** symbol. The flow editor opens in Microsoft Flow, from which you make your changes.
 
-![edit a flow](media/edit-flow.png "Edit a flow")  
+> [!div class=mx-imgBorder]
+> ![edit a flow](media/edit-flow.png "Edit a flow")  
 
 To view flow history:
 
@@ -72,7 +73,8 @@ To view flow history:
 
     A grid with the configured flows is displayed.
 
-    ![flow history details](media/flow-history-details.png "Flow history details")  
+    > [!div class=mx-imgBorder]
+    > ![flow history details](media/flow-history-details.png "Flow history details")  
 
 ## See also
 

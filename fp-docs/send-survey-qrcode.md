@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: b62a55f6-cb45-4b47-a610-155c7fffa496
@@ -26,7 +26,8 @@ You can generate a QR code for your recipients to scan it on a phone or tablet t
 
 2.  Select **Download**, and then share the QR code wherever your intended audience can scan it with a QR code scanner such as a mobile device.
 
-    ![get the survey qr code for sharing](media/survey-qrcode.png "Get the survey QR code for sharing")  
+    > [!div class=mx-imgBorder]
+    > ![get the survey qr code for sharing](media/survey-qrcode.png "Get the survey QR code for sharing")  
 
 ## See also
 
