@@ -30,7 +30,7 @@ To select or add a new personalized data:
 
 2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Personalize**.
 
-    ![Personalized button](media/custom-data-button.png "Personalized button")
+    ![Personalize button](media/custom-data-button.png "Personalize button")
 
 3.	From the list of available personalized data, select the personalized data that you want to use in your survey.
 
