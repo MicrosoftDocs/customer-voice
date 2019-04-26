@@ -38,12 +38,14 @@ To format the text:
 
 3. Choose formatting for your survey text.
 
-    ![Apply text formatting](media/text-format.png "Apply text formatting")
+    > [!div class=mx-imgBorder]
+    > ![Apply text formatting](media/text-format.png "Apply text formatting")
 
 
 For example, in this survey, formatting has been applied to the elements that you selected earlier:
 
-![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
+> [!div class=mx-imgBorder]
+> ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 ## See also
 

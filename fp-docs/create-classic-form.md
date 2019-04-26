@@ -29,11 +29,13 @@ To enable the capability for creating a classic form:
 
 3. Select **Show button to create classic Form**.
 
-    ![Show button to create classic Form](media/classic-form-button-show.png "Show button to create classic Form") 
+    > [!div class=mx-imgBorder]
+    > ![Show button to create classic Form](media/classic-form-button-show.png "Show button to create classic Form") 
 
 4. The **New Form** button is added under **My Forms**.
 
-    ![New Form button](media/new-form-button.png "New Form button") 
+    > [!div class=mx-imgBorder]
+    > ![New Form button](media/new-form-button.png "New Form button") 
 
 5. To create a form, follow the steps in [Create a form with Microsoft Forms](https://support.office.com/en-us/article/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d).
 
@@ -48,7 +50,8 @@ To disable the capability for creating a classic form:
 
 3. Select **Hide button to create classic Form**.
 
-    ![Hide button to create classic Form](media/classic-form-button-hide.png "Hide button to create classic Form") 
+    > [!div class=mx-imgBorder]
+    > ![Hide button to create classic Form](media/classic-form-button-hide.png "Hide button to create classic Form") 
 
 ## See also
 

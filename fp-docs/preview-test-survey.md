@@ -25,7 +25,8 @@ After you have created and edited a survey, preview and test it before distribut
 
 3.  To test your survey, enter responses for the questions in preview mode, and then select **Submit**.
 
-    ![Preview a survey on a computer](media/preview-survey-computer.png "Preview a survey on a computer")
+    > [!div class=mx-imgBorder]
+    > ![Preview a survey on a computer](media/preview-survey-computer.png "Preview a survey on a computer")
 
 4.  To see how your survey will look on a mobile device, select **Mobile**.
 

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 145f21c2-4635-4f5d-b7cf-03e90ec4b533
@@ -19,7 +19,8 @@ ms.custom:
 
 A survey response record is created after a respondent submits a survey. To see survey responses, go to **View Responses** &gt; **Overview**, and then select **Responses** from the summary information.
 
-![Survey responses](media/survey-responses.png "Survey responses")
+> [!div class=mx-imgBorder]
+> ![Survey responses](media/survey-responses.png "Survey responses")
 
 The following survey response statistics are displayed in a summary pane at the top of the page and the list of survey responses received for a survey is displayed below the statistics in the grid format.
 
@@ -31,7 +32,8 @@ The following survey response statistics are displayed in a summary pane at the 
 
 - **NPS distribution**: Distribution of the Net Promoter Score (NPS), which shows the number of promoters, detractors, and passive supporters.
 
-![Survey responses details](media/survey-responses-details.png "Survey responses details")
+> [!div class=mx-imgBorder]
+> ![Survey responses details](media/survey-responses-details.png "Survey responses details")
 
 ## Filter responses
 
@@ -46,7 +48,8 @@ To view details of a survey response, double-click the response in the grid.
 
 You'll see the time taken by the respondent to complete the survey, Net Promoter Score (NPS) type, and sentiment. Response to each question in the survey is also displayed on the details page. 
 
-![View details of the selected response](media/response-details.png "View details of the selected response")
+> [!div class=mx-imgBorder]
+> ![View details of the selected response](media/response-details.png "View details of the selected response")
 
 ## Export survey responses
 
@@ -54,13 +57,15 @@ You can export a single survey response or multiple survey responses to Microsof
 
 Each question in your survey is a column and each response becomes a row in the Excel workbook. 
 
-![Export survey responses](media/export-survey-response.png "Export survey responses")
+> [!div class=mx-imgBorder]
+> ![Export survey responses](media/export-survey-response.png "Export survey responses")
 
 ## Delete survey responses
 
 You can delete a single survey response or multiple survey responses from Forms, CDS, and insights store. To delete survey response(s), select the required response(s), and then select **Delete** in the **Response details** section. Select **Delete** in the confirmation message.
 
-![Delete survey responses](media/delete-survey-invite.png "Delete survey responses")
+> [!div class=mx-imgBorder]
+> ![Delete survey responses](media/delete-survey-invite.png "Delete survey responses")
 
 ## See also
 

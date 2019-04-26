@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 649b3390-c3a5-4166-a014-ae3cfd14cc71
@@ -47,7 +47,8 @@ To embed your survey:
 
 5.  Select **Copy**, and then paste the embed code into a webpage to embed your survey. You must then update the webpage’s source code to render the survey on the webpage. For information on how to update the source code, see [Update a webpage's source code](#update-a-webpages-source-code).  
 
-    ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
+    > [!div class=mx-imgBorder]
+    > ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
 
 ## Update a webpage's source code
 
@@ -57,10 +58,10 @@ For an inline survey, a parent **div** container must be defined for the survey 
 
 ### Scenario to embed an inline survey
 
-Let’s say you want to embed an inline survey into your webpage, and that you select three out-of-the-box context parameters (**First Name**, **Last Name**, and **Email**) and create one custom context parameter (**PageTitle**). The embed code is generated as follows:
+Let's say you want to embed an inline survey into your webpage, and that you select three out-of-the-box context parameters (**First name**, **Last name**, and **Email**) and create one custom context parameter (**PageTitle**). The embed code is generated as follows:
 
 ```JavaScript
-<script src="https://www.contoso.com/Embed.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="https://www.contoso.com/Embed.css" /><script type = "text/javascript" >function renderSurvey(parentElementId, FirstName, LastName, Email, PageTitle){var se = new SurveyEmbed("JtSG9ha000000000020pTSB1AovM_5u8bQH1UQjlNQjZRWV0000000000","https://www.contoso.com/");var context = {"FirstName": FirstName,"LastName": LastName,"Email": Email,"PageTitle": PageTitle,};se.renderInline(parentElementId, context);}</script>
+<script src="https://www.contoso.com/Embed.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="https://www.contoso.com/Embed.css" /><script type = "text/javascript" >function renderSurvey(parentElementId, Firstname, Lastname, Email, PageTitle){var se = new SurveyEmbed("JtSG9ha000000000020pTSB1AovM_5u8bQH1UQjlNQjZRWV0000000000","https://www.contoso.com/");var context = {"Firstname": Firstname,"Lastname": Lastname,"Email": Email,"PageTitle": PageTitle,};se.renderInline(parentElementId, context);}</script>
 ```
 
 In the preceding embed code, the `renderSurvey` function contains the `parentElementId` parameter in addition to the selected parameters. The `parentElementId` parameter receives the `div` container ID when it is called.

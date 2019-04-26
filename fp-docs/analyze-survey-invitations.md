@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/26/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
@@ -19,7 +19,8 @@ ms.custom:
 
 A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **View Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
 
-![Survey invitations](media/survey-invites.png "Survey invitations")
+> [!div class=mx-imgBorder]
+> ![Survey invitations](media/survey-invites.png "Survey invitations")
 
 The following survey invitation statistics are displayed in a summary pane at the top of the page and the list of survey invitations sent for a survey is displayed below the statistics in the grid format.
 
@@ -31,13 +32,17 @@ The following survey invitation statistics are displayed in a summary pane at th
 
 - **Invitation trend**: A line chart showing the distribution of survey invitation trends.
 
-![Survey invitations details](media/survey-invites-details.png "Survey invitations details")
+> [!div class=mx-imgBorder]
+> ![Survey invitations details](media/survey-invites-details.png "Survey invitations details")
 
 ## Filter invitations
 
 You can filter the invitations by using the following:
+
 - **Pre-defined filters**: Use the Sent, Responded, In Progress, Failed, and Unsubscribed filters to filter the invitations.
+
 - **Date range**: Select 30 days, 90 days, or a custom date range.
+
 - **Recipient's name or email address**: Enter the recipient's name or email address in the search box.
 
 ## Export survey invitations
@@ -46,7 +51,8 @@ You can export a single survey invitation or multiple survey invitations to Micr
 
 Each invitation property is a column and each invitation becomes a row in the Excel workbook. 
 
-![Export survey invitations](media/export-survey-invite.png "Export survey invitations")
+> [!div class=mx-imgBorder]
+> ![Export survey invitations](media/export-survey-invite.png "Export survey invitations")
 
 ## Delete survey invitations
 
@@ -54,7 +60,8 @@ You can delete a single survey invitation or multiple survey invitations from Fo
 
 To delete survey invitation(s), select the required invitation(s), and then select **Delete** in the **Invitations details** section. Select **Delete** in the confirmation message.
 
-![Delete survey invitations](media/delete-survey-invite.png "Delete survey invitations")
+> [!div class=mx-imgBorder]
+> ![Delete survey invitations](media/delete-survey-invite.png "Delete survey invitations")
 
 ## See also
 

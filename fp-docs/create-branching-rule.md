@@ -29,15 +29,18 @@ To create a branching rule:
 
 2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
 
-    ![Branching rules button](media/branching-rules-button.png "Branching rules button")
+    > [!div class=mx-imgBorder]
+    > ![Branching rules button](media/branching-rules-button.png "Branching rules button")
     
     If you don't have any rules created yet, the following page is displayed. Select **Create rule**. 
 
-    ![Create new rule button](media/create-rule-button.png "Create new rule button") 
+    > [!div class=mx-imgBorder]
+    > ![Create new rule button](media/create-rule-button.png "Create new rule button") 
 
     If you have at least one rule created, a list of rules is displayed in a grid. Select **New rule**. 
  
-    ![New rule button](media/branch-new-rule-button.png "New rule button")
+    > [!div class=mx-imgBorder]
+    > ![New rule button](media/branch-new-rule-button.png "New rule button")
 
 3.	In the **Rule name** field, enter a name for the branching rule.
 
@@ -45,15 +48,18 @@ To create a branching rule:
 
 5.	In the **Select question** list, choose the question for which you want to create a rule.
 
-    ![Branching rules condition question](media/branch-condition-question.png "Branching rules condition question")
+    > [!div class=mx-imgBorder]
+    > ![Branching rules condition question](media/branch-condition-question.png "Branching rules condition question")
 
 6.	Select values from the **Select operator** and **Select response** lists accordingly.
 
-    ![Branching rules complete condition](media/branch-condition.png "Branching rules complete condition")
+    > [!div class=mx-imgBorder]
+    > ![Branching rules complete condition](media/branch-condition.png "Branching rules complete condition")
 
     You can add more conditions with the combination of **AND**/**OR** operators by selecting **Add condition**.
 
-    ![Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
+    > [!div class=mx-imgBorder]
+    > ![Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
 
 7.	Select **Add “If true”** to add the action that will trigger when the defined condition meets the criteria.
 
@@ -66,7 +72,8 @@ To create a branching rule:
     - **Toggle**: Allows you to toggle the state of the selected question per the response to a question.
     - **Navigate to**: Allows you to select a target to which a responder should be navigated.
 
-    ![Select an action for true condition](media/branch-true-select-action.png "Select an action for true condition")
+    > [!div class=mx-imgBorder]
+    > ![Select an action for true condition](media/branch-true-select-action.png "Select an action for true condition")
 
 10.	In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide,** or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
 
@@ -75,15 +82,18 @@ To create a branching rule:
     - **Chain survey**: Allows you to open a different survey, created by you, per the response to a question.
     - **URL**: Allows you to open a website per the response to a question. You must add `http://` to the URL for it to work properly.
 
-    ![Select a target for true condition](media/branch-true-select-target.png "Select a target for true condition")
+    > [!div class=mx-imgBorder]
+    > ![Select a target for true condition](media/branch-true-select-target.png "Select a target for true condition")
 
 11.	In the **Select value** list, enter or choose a value per the target.
 
-    ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
+    > [!div class=mx-imgBorder]
+    > ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
 
 12.	Select **Add “If false”** to add the action that will trigger when the defined condition does not meet the criteria. Then follow Steps 8 through 11. 
 
-    ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
+    > [!div class=mx-imgBorder]
+    > ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
 
 13. Select **Save**.
 
@@ -97,11 +107,13 @@ Once you have created a branching rule or a set of branching rules, you can edit
  
 2. On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
 
-    ![Branching rules button](media/branching-rules-button.png "Branching rules button")
+    > [!div class=mx-imgBorder]
+    > ![Branching rules button](media/branching-rules-button.png "Branching rules button")
 
 3. A list of rules is displayed in a grid.
 
-    ![Existing branching rules](media/existing-rules.png "Existing branching rules")
+    > [!div class=mx-imgBorder]
+    > ![Existing branching rules](media/existing-rules.png "Existing branching rules")
 
 4. To edit a branching rule, select **Edit** ![Edit branching rule](media/edit-rule.png "Edit branching rule") from the corresponding rule row.
 

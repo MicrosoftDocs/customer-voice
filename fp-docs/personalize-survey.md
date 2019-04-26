@@ -30,7 +30,8 @@ To select or add a new personalized data:
 
 2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Personalize**.
 
-    ![Personalize button](media/custom-data-button.png "Personalize button")
+    > [!div class=mx-imgBorder]
+    > ![Personalize button](media/custom-data-button.png "Personalize button")
 
 3.	From the list of available personalized data, select the personalized data that you want to use in your survey.
 
@@ -57,7 +58,8 @@ After selecting or adding the required personalized data, you need to associate 
 
 4.	From the **Personalize** list in the formatting toolbar, select the personalized data that you want to add. 
 
-    ![Add personalized data](media/add-pipe-data.png "Add personalized data")
+    > [!div class=mx-imgBorder]
+    > ![Add personalized data](media/add-pipe-data.png "Add personalized data")
 
 For example, let's say that you've created personalized data named **Product Name** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product Name** personalized data from the **Personalize** list. The *{{First Name}}* and *{{Product Name}}* placeholders are inserted at the cursor location.
 
@@ -79,7 +81,8 @@ After adding and using personalized data placeholders in a question, specify val
 
 If you've added personalized data placeholders in an email, a section is displayed below the email editor. Select **Define personalized data** to expand the section and specify the values when sending email invitations.
 
-![Specify values for personalized data in an email](media/custom-data-values.png "Specify values for personalized data in an email")
+> [!div class=mx-imgBorder]
+> ![Specify values for personalized data in an email](media/custom-data-values.png "Specify values for personalized data in an email")
 
 ### Specify values in a flow
 
@@ -87,7 +90,8 @@ To specify values for personalized data placeholders in a flow:
 
 1.	While configuring a flow, select **Edit in advanced mode**.
 
-    ![Edit a flow in advanced mode](media/flow-advanced-mode.png "Edit a flow in advanced mode")
+    > [!div class=mx-imgBorder]
+    > ![Edit a flow in advanced mode](media/flow-advanced-mode.png "Edit a flow in advanced mode")
 
 2.	Go to the step that sends the survey, and expand it.
 

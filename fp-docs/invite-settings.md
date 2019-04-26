@@ -46,7 +46,8 @@ Let's now see the options you can select to define who can respond to a survey a
     > [!NOTE]
     > For this preview, the **One response per person** check box is disabled. 
 
-    ![Invitation settings for external surveys](media/invite-settings-external.png "Invitation settings for external surveys")
+    > [!div class=mx-imgBorder]
+    > ![Invitation settings for external surveys](media/invite-settings-external.png "Invitation settings for external surveys")
 
 ### Only people in my organization can respond
 
@@ -59,7 +60,8 @@ Let's now see the options you can select to define who can respond to a survey a
     > [!NOTE]
     > For this preview, the **One response per person** check box is disabled. 
 
-    ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
+    > [!div class=mx-imgBorder]
+    > ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
 
 ## Select survey response options
 
@@ -71,7 +73,8 @@ When you've defined who can respond to your survey, you can select the following
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
 - **Email notification of each response**: Specify whether email notification is required when a response is submitted.
 
-    ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")
+    > [!div class=mx-imgBorder]
+    > ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")
 
 You can modify the authentication settings at any time, even after distributing the survey by email or other channels.
 
