@@ -25,7 +25,7 @@ You can embed your survey in a webpage by pasting the survey's embed code into y
 
 - **Button**: Displays the survey when a button is selected. By default, the button name is **Provide feedback**.
 
-You can also select or define custom context parameters. Context parameters allow you to capture your respondent’s information and the context in which the response was provided and store that data in the survey response. By default, **First name**, **Last Name**, **Email**, and **URL** are available as context parameters. Additionally, you can define 10 custom context parameters.
+You can also select or define custom context parameters. Context parameters allow you to capture your respondent’s information and the context in which the response was provided and store that data in the survey response. By default, **First name**, **Last name**, **Email**, and **URL** are available as context parameters. Additionally, you can define 10 custom context parameters.
 
 If a response contains embed parameters, they are displayed on the **Embed parameters** tab.
 
