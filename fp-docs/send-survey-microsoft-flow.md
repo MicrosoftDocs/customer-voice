@@ -38,7 +38,8 @@ To send a survey by using Microsoft Flow:
 5.  To create a flow from scratch, select **Create from blank**. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
 
 > [!NOTE]
-> While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the **Send Survey** tab, and then come back to create the flow again.
+> - While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the **Send Survey** tab, and then come back to create the flow again.
+> - If you have added personalized data in your survey, you must specify their values in the flow. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 5.  Select **Create Flow**.
 
@@ -75,6 +76,32 @@ To view flow history:
 
     > [!div class=mx-imgBorder]
     > ![flow history details](media/flow-history-details.png "Flow history details")  
+
+## Associate survey invitation and response with Common Data service
+
+While creating a Flow to automate survey emails, you can associate your survey invitation and response with Common Data service. This can be achieved through the **Regarding** and **Recipient** fields in a flow.
+
+Let's say you need to send a survey on every case closure. You can use the **Regarding** field to specify the case record so that when an invitation and response are created on a particular case resolution, they are attached to the specific case. The case manager can then setup reports to show Customer Satisfaction (CSAT) scores by case or reopen a case if the CSAT is very low.
+
+The **Recipient** field allows you associate your survey invitation and response records to the appropriate contact (the recipient). This allows sales personnel or anyone to see the contact record and know the response of the customer. This can help formulate their conversation with the customer accordingly.
+
+To associate survey invitation and response with Common Data service:
+
+1.	While configuring a flow select **Create from blank** to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
+
+    > [!NOTE]
+    > If you choose to create a flow from a template, the **Regarding** and **Recipient** fields are populated accordingly.
+
+2.	In the step that sends the survey, enter the mandatory information.
+
+3.	Select **Show advanced options**.
+
+4.	Specify values in the **Regarding** and **Recipient** fields.
+
+    > [!div class=mx-imgBorder]
+    > ![Populate Regarding and Recipient fields in a flow](media/associate-survey.png "Populate Regarding and Recipient fields in a flow")  
+
+5.	Save the changes.
 
 ## See also
 
