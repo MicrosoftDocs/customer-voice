@@ -79,10 +79,6 @@ To view flow history:
 
 ## Associate survey invitation and response with Common Data Service
 
-
-<!--from editor: The screenshot below shows the field as being "Recipient details," so I made that change in the steps. Please check to make sure this is correct.-->
-
-
 While creating a flow to automate survey emails, you can associate your survey invitation and response with Common Data Service. This can be achieved through the **Regarding** and **Recipient details** fields in a flow.
 
 Let's say you need to send a survey on every case closure. You can use the **Regarding** field to specify the case record so that when an invitation and response are created on a particular case resolution, they are attached to the specific case. The case manager then can set up reports to show customer satisfaction (CSAT) scores by case or reopen a case if the CSAT is very low.
