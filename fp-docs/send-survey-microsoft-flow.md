@@ -68,9 +68,12 @@ If required, you can also edit a flow by selecting the **Edit** symbol. The flow
 
 To view flow history:
 
-1.  Open the survey for which you want to view flow history, and go to **Send Survey** &gt; **Microsoft Flow**.
+1.  Open the survey for which you want to view flow history, and go to **Send Survey** &gt; **Home**.
 
-2.  On the **Send Survey** tab, select **Flow history** ![View flow history](media/view-flow-history.png "View flow history")  from the toolbar at the top of the page.
+2.  On the **Microsoft Flow** tile, select **Flows configured**.
+
+    > [!div class=mx-imgBorder]
+    > ![Flows configured button](media/flows-configured.png "Flows configured button")  
 
     A grid with the configured flows is displayed.
 
