@@ -60,15 +60,22 @@ The **Recipient details** field allows you to associate your survey invitation a
 
 |Name|Description|
 |---|----|
-|To|Email address to send the survey invitation .|
-|Survey|Survey to be sent.|
-|Email template|Email template to be used while sending the invitation.|
+|To|Email address to send the survey invitation.|
+|Survey|Survey to be sent.<br>**Note**: You must select a survey from the list and not enter a custom value.|
+|Email template|Email template to be used while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
 |Regarding|Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.|
-|Recipient details|Contact to associate your survey invitation and response records. This value is stored in the survey invitation's **To** field.|
+|Recipient details|Contact to associate your survey invitation and response records. This value is stored in the survey invitation's **To** field.<br>**Note**: Only Contact record is supported.|
 |||
 
 > [!NOTE]
 > If you've used personalized data placeholders in your survey, those fields will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+
+The values from the **Regarding** and **Recipient details** fields are stored in the survey invitation as shown in the below image.
+
+`<<image to be added>>`
+
+> [!NOTE]
+> The **To** field is not displayed by default on the form. You must edit the form and add the field to see it value on the form.
 
 ## View flow history
 
