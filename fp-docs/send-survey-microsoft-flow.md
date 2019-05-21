@@ -60,7 +60,7 @@ The **Recipient details** field allows you to associate your survey invitation a
 
 |Name|Description|
 |---|----|
-|To|Email address to send the survey invitation.<br>**Note**: The email address should be valid and does not return null.|
+|To|Email address to send the survey invitation.<br>**Note**: The email address should be valid and should not return null.|
 |Survey|Survey to be sent.<br>**Note**: You must select a survey from the list and not enter a custom value.|
 |Email template|Email template to be used while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
 |Regarding|Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.|
@@ -77,6 +77,9 @@ The values from the **Regarding** and **Recipient details** fields are stored in
 
 > [!NOTE]
 > The **To** field is not displayed by default on the form. You must go to **Advanced Find**, search for the invite, and add the required columns to see their values.
+>
+> [!div class=mx-imgBorder]
+> ![Search survey invite using Advanced Find](media/survey-invite-adv-find.png "Search survey invite using Advanced Find") 
 
 ## View flow history
 
