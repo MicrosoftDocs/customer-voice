@@ -39,4 +39,5 @@ In this section, you will learn how to:
 - [Embed in a web page](embed-web-page.md)  
 - [Send a survey link to others](send-survey-link.md)  
 - [Send a survey QR code](send-survey-qrcode.md)  
+- [Create a survey invitation](create-survey-invite.md)
 

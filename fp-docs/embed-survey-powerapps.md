@@ -15,6 +15,8 @@ ms.custom:
 
 # Embed a survey in PowerApps
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 You can embed your surveys in the canvas apps created using PowerApps. This allows users to respond to the surveys directly from the apps.
 
 1.	Sign in to [PowerApps](https://web.powerapps.com/).
