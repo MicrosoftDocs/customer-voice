@@ -35,19 +35,19 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
     > [!div class=mx-imgBorder]
     > ![Select Create an invitation (preview) action](media/select-flow-action.png "Select Create an invitation (preview) action")  
 
-6. In the **Create an invitation** action, enter the following values:
+6. In the **Create an invitation** action, enter or select the following values:
 
     - **Survey**: Select the survey to be sent.
-    - **Email**: Recipient's email address.
+    - **Email**: Enter recipient's email address.
 
-7. Add a new step and select the action to send the email. For this scenario, we have used Outlook to send the survey.
+7. Add a new step and select the action to send the email. In this procedure, we have used Outlook to send the survey.
 
 8. In the **Send an email** action, enter the following values: 
     - **To**: Recipient's email address.
     - **Subject**: Subject of the email.
     - **Body**: Enter the required text and add **Invitation Id** and **Invitation link** dynamic contents.
 
-    After entering the required details, the flow looks as below:
+    After entering the required details, the flow looks as shown in the below image:
 
     > [!div class=mx-imgBorder]
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
