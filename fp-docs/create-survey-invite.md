@@ -15,7 +15,7 @@ ms.custom:
 
 # Create a survey invitation
 
-If you want to use your own survey distribution platform, such as Outlook, Gmail, or SMS, you can create a survey invitation using Microsoft Flow. A survey invitation creates a personalized survey invitation link that you can distributed by using platform of your choice.
+If you want to use your own survey distribution platform, such as Outlook, Gmail, or SMS, you can create a survey invitation using Microsoft Flow and distribute it accordingly. A survey invitation creates a unique survey invitation ID and a personalized link that can be distributed by using platform of your choice.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
@@ -51,5 +51,11 @@ If you want to use your own survey distribution platform, such as Outlook, Gmail
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
 
     You can run the flow as per your required trigger and send the survey.
+
+    In the following example, Gmail is used to send the survey:
+
+    > [!div class=mx-imgBorder]
+    > ![Survey invitation flow using Gmail](media/survey-invite-flow-gmail.png "Survey invitation flow using Gmail")
+
 
 
