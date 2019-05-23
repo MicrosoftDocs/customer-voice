@@ -23,9 +23,17 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
 2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
 
+
+<!--In the step below, do you search for "Microsoft Forms Pro connector," or just "Microsoft Forms Pro"? If "connector" is part of the search term, I think it should be included in bold type.-->
+
+
 3. In the flow editor, add a new step and search for **Microsoft Forms Pro** connector.
 
 4. In search results, select **Microsoft Forms Pro**.
+
+
+<!--The screenshot below shows actual company names, such as Pitney Bowes. Can those non-Microsoft company names and logos be blurred?-->
+
 
     > [!div class=mx-imgBorder]
     > ![Select Microsoft Forms Pro connector](media/search-connector.png "Select Microsoft Forms Pro connector")  
@@ -38,16 +46,17 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 6. In the **Create an invitation** action, enter or select the following information:
 
     - **Survey**: Select the survey to be sent.
-    - **Email**: Enter recipient's email address.
+    - **Email**: Enter the recipient's email address.
 
 7. Add a new step and select the action to send the email. In this procedure, we have used Outlook to send the survey.
 
 8. In the **Send an email** action, enter the following information: 
+
     - **To**: Recipient's email address.
     - **Subject**: Subject of the email.
     - **Body**: Enter the required text and add **Invitation Id** and **Invitation link** dynamic contents.
 
-    After entering the required details, the flow looks as shown in the below image:
+    After entering the required details, the flow looks as shown in the following image:
 
     > [!div class=mx-imgBorder]
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
@@ -65,7 +74,7 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 [Define who can respond to a survey](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed in a web page](embed-web-page.md)<br>
+[Embed survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
 
