@@ -24,12 +24,16 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
 
 
-<!--In the step below, if "connector" is part of the search term, I think it should be included in bold type.-->
+<!--In the step below, do you search for "Microsoft Forms Pro connector," or just "Microsoft Forms Pro"? If "connector" is part of the search term, I think it should be included in bold type.-->
 
 
 3. In the flow editor, add a new step and search for **Microsoft Forms Pro** connector.
 
 4. In search results, select **Microsoft Forms Pro**.
+
+
+<!--The screenshot below shows actual company names, such as Pitney Bowes. Can those non-Microsoft company names and logos be blurred?-->
+
 
     > [!div class=mx-imgBorder]
     > ![Select Microsoft Forms Pro connector](media/search-connector.png "Select Microsoft Forms Pro connector")  
