@@ -23,6 +23,10 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
 2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
 
+
+<!--In the step below, if "connector" is part of the search term, I think it should be included in bold type.-->
+
+
 3. In the flow editor, add a new step and search for **Microsoft Forms Pro** connector.
 
 4. In search results, select **Microsoft Forms Pro**.
@@ -38,16 +42,17 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 6. In the **Create an invitation** action, enter or select the following information:
 
     - **Survey**: Select the survey to be sent.
-    - **Email**: Enter recipient's email address.
+    - **Email**: Enter the recipient's email address.
 
 7. Add a new step and select the action to send the email. In this procedure, we have used Outlook to send the survey.
 
 8. In the **Send an email** action, enter the following information: 
+
     - **To**: Recipient's email address.
     - **Subject**: Subject of the email.
     - **Body**: Enter the required text and add **Invitation Id** and **Invitation link** dynamic contents.
 
-    After entering the required details, the flow looks as shown in the below image:
+    After entering the required details, the flow looks as shown in the following image:
 
     > [!div class=mx-imgBorder]
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
