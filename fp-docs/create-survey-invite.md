@@ -23,17 +23,11 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
 2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
 
+3. In the flow editor, add a trigger to start your flow.
 
-<!--In the step below, do you search for "Microsoft Forms Pro connector," or just "Microsoft Forms Pro"? If "connector" is part of the search term, I think it should be included in bold type.-->
-
-
-3. In the flow editor, add a new step and search for **Microsoft Forms Pro** connector.
+4. After adding the trigger, add a new step and search for the **Microsoft Forms Pro** connector.
 
 4. In search results, select **Microsoft Forms Pro**.
-
-
-<!--The screenshot below shows actual company names, such as Pitney Bowes. Can those non-Microsoft company names and logos be blurred?-->
-
 
     > [!div class=mx-imgBorder]
     > ![Select Microsoft Forms Pro connector](media/search-connector.png "Select Microsoft Forms Pro connector")  
@@ -48,6 +42,10 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
     - **Survey**: Select the survey to be sent.
     - **Email**: Enter the recipient's email address.
 
+    > [!NOTE]
+    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields accordingly.
+    > - If you've used personalized data placeholders in your survey, those fields will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+
 7. Add a new step and select the action to send the email. In this procedure, we have used Outlook to send the survey.
 
 8. In the **Send an email** action, enter the following information: 
@@ -61,8 +59,8 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
     > [!div class=mx-imgBorder]
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
 
-    You can run the flow as per the configured trigger and send the survey.
-
+    The flow runs as per the configured trigger and the sends the survey.
+    
     In the following example, Gmail is used to send the survey:
 
     > [!div class=mx-imgBorder]

@@ -15,7 +15,7 @@
 ## [Create a multilingual survey](create-multilingual-survey.md)
 ## [Create a multipage survey](create-multipage-survey.md)
 
-# [Send a survey to get responses](send-survey.md)  
+# [Send a survey to get responses](send-survey.md)
 ## [Define who can respond to a survey](invite-settings.md)  
 ## [Send a survey by using email](send-survey-email.md)  
 ## [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)  

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/06/2019
+ms.date: 05/23/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: F5543364-ADB8-465D-96A6-81B2C840299F
@@ -49,3 +49,13 @@ You can embed your surveys in the canvas apps created using PowerApps. This allo
 
     > [!div class=mx-imgBorder]
     > ![Add context parameters](media/context-param.png "Add context parameters")  
+
+## See also
+
+[Define who can respond to a survey](invite-settings.md)<br>
+[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
+[Embed survey in a webpage](embed-web-page.md)<br>
+[Send a survey link to others](send-survey-link.md)<br>
+[Send a survey QR code](send-survey-qrcode.md)<br>
+[Create a survey invitation](create-survey-invite.md)
