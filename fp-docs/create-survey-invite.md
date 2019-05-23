@@ -70,7 +70,7 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 [Define who can respond to a survey](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed in a web page](embed-web-page.md)<br>
+[Embed survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
 
