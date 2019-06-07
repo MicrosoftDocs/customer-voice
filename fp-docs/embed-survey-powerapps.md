@@ -54,7 +54,7 @@ You can embed your surveys in the canvas apps created using PowerApps. This allo
     > [!div class=mx-imgBorder]
     > ![Add context parameters](media/context-param.png "Add context parameters")
 
-    If a response contains embed parameters, they are displayed on the **Personalized data** tab. 
+    If a response contains context parameters, they are displayed on the **Personalized data** tab. 
 
     > [!div class=mx-imgBorder]
     > ![Context parameters in a survey response](media/context-param-powerapps.png "Context parameters in a survey response") 
