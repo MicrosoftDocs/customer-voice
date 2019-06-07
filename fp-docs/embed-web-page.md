@@ -27,7 +27,10 @@ You can embed your survey in a webpage by pasting the survey's embed code into y
 
 You can also select or define custom context parameters. Context parameters allow you to capture your respondent’s information and the context in which the response was provided and store that data in the survey response. By default, **First name**, **Last name**, **Email**, and **URL** are available as context parameters. Additionally, you can define 10 custom context parameters.
 
-If a response contains embed parameters, they are displayed on the **Embed parameters** tab.
+If a response contains embed parameters, they are displayed on the **Personalized data** tab.
+
+> [!div class=mx-imgBorder]
+> ![Context parameters in a survey response](media/survey-embed.png "Context parameters in a survey response")
 
 To embed your survey:
 
@@ -48,7 +51,7 @@ To embed your survey:
 5.  Select **Copy**, and then paste the embed code into a webpage to embed your survey. You must then update the webpage’s source code to render the survey on the webpage. For information on how to update the source code, see [Update a webpage's source code](#update-a-webpages-source-code).  
 
     > [!div class=mx-imgBorder]
-    > ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
+    > ![embed a survey in a web page](media/survey-response-context-param.png "Embed a survey in a web page")  
 
 ## Update a webpage's source code
 
