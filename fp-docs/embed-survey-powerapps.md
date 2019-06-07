@@ -48,12 +48,16 @@ You can embed your surveys in the canvas apps created using PowerApps. This allo
 
 6.	To define context parameters, go to the **Advanced** tab in the options pane.
 
-7.	In the **ContextParameters** field, enter context parameters as comma-separated key/value pairs. For example, `{Name:TextInput1.Text, Region:Dropdown1.SelectedText}`. Context parameters allow you to capture your respondent's information and the context in which the response was provided and store that data in the survey response. 
+7.	In the **ContextParameters** field, enter context parameters as comma-separated key/value pairs. For example, `{Name:TextInput1.Text,Email:TextInput2.Text, PageTitle:Label1.Text}`. 
+    Context parameters allow you to capture your respondent's information and the context in which the response was provided and store that data in the survey response. 
 
     > [!div class=mx-imgBorder]
     > ![Add context parameters](media/context-param.png "Add context parameters")
 
-    If a response contains embed parameters, they are displayed on the **Personalized data** tab.  
+    If a response contains embed parameters, they are displayed on the **Personalized data** tab. 
+
+    > [!div class=mx-imgBorder]
+    > ![Context parameters in a survey response](media/context-param-powerapps.png "Context parameters in a survey response") 
 
 ## See also
 
