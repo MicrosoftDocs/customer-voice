@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/23/2019
+ms.date: 06/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: F5543364-ADB8-465D-96A6-81B2C840299F
@@ -18,6 +18,9 @@ ms.custom:
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
 You can embed your surveys in the canvas apps created using PowerApps. This allows users to respond to the surveys directly from the apps.
+
+> [!NOTE]
+> You must have PowerApps Plan 1 to embed your surveys in a canvas app. For more information on purchasing PowerApps, see [Purchase PowerApps for your organization](https://docs.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
 
 1.	Sign in to [PowerApps](https://web.powerapps.com/).
 
@@ -33,7 +36,7 @@ You can embed your surveys in the canvas apps created using PowerApps. This allo
     > [!div class=mx-imgBorder]
     > ![Options pane](media/options-pane.png "Options pane")  
 
-5.	In the **Data** pane, select a survey from the **Select survey** list.
+5.	In the **Data** pane, select the survey you want to embed from the **Select survey** list.
 
     > [!div class=mx-imgBorder]
     > ![Select survey in the Data pane](media/data-pane.png "Select survey in the Data pane") 
@@ -45,10 +48,12 @@ You can embed your surveys in the canvas apps created using PowerApps. This allo
 
 6.	To define context parameters, go to the **Advanced** tab in the options pane.
 
-7.	In the **ContextParameters** field, enter context parameters as comma-separated key/value pairs. For example, `{Name:TextInput1.Text, Region:Dropdown1.SelectedText}`.
+7.	In the **ContextParameters** field, enter context parameters as comma-separated key/value pairs. For example, `{Name:TextInput1.Text, Region:Dropdown1.SelectedText}`. Context parameters allow you to capture your respondent's information and the context in which the response was provided and store that data in the survey response. 
 
     > [!div class=mx-imgBorder]
-    > ![Add context parameters](media/context-param.png "Add context parameters")  
+    > ![Add context parameters](media/context-param.png "Add context parameters")
+
+    If a response contains embed parameters, they are displayed on the **Embed parameters** tab.  
 
 ## See also
 
