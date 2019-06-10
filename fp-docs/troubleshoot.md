@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 06/12/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 97526FE3-7523-48B0-A8F4-7C369AF78DB4
@@ -58,3 +58,11 @@ If you receive an error stating that you don't have permission to access the env
 |Survey question|x|x|x|x|x|x|x|x|
 |Survey question response|x|x|x|x|x|x|x|x|
 ||||||||||
+
+## Connector permission failure error in Flow
+
+If you receive an error that an error that your connection has an issue, you must:
+
+1. Open Microsoft Flow.
+2. In the left pane, select **Data** > **Connections**.
+3. Find the connection having issue, and select **Fix connection**.
