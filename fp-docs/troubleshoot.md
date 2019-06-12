@@ -61,8 +61,26 @@ If you receive an error stating that you don't have permission to access the env
 
 ## Connector permission failure error in Flow
 
-If you receive an error that an error that your connection has an issue, you must:
+If you receive an error stating that your connection is invalid or there is a problem with the flow's trigger, you must:
 
 1. Open Microsoft Flow.
+
 2. In the left pane, select **Data** > **Connections**.
-3. Find the connection having issue, and select **Fix connection**.
+
+3. Search for the **Microsoft Forms Pro** connection and delete it.
+
+    > [!NOTE]
+    > If you have created multiple connections for Microsoft Forms Pro, you must delete all of them.
+
+4. Select **New connection** to create a new connection.
+
+5. From the list of connections, search for **Microsoft Forms Pro** and select it.
+
+6. In the confirmation window, select **Create**, and then enter your credentials.
+
+7. Open the flow in which the error occurred.
+
+8. Go to the action causing the error. The connection you created is displayed.
+
+9. Select the connection from the list. The error will be resolved after selecting the connection and flow will work fine.
+
