@@ -59,7 +59,7 @@ If you receive an error stating that you don't have permission to access the env
 |Survey question response|x|x|x|x|x|x|x|x|
 ||||||||||
 
-## Connector permission failure error in Flow
+## Invalid connection error in Flow
 
 If you receive an error stating that your connection is invalid or there is a problem with the flow's trigger, you must:
 
