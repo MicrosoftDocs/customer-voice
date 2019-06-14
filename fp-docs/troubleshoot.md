@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 06/14/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 97526FE3-7523-48B0-A8F4-7C369AF78DB4
@@ -58,3 +58,29 @@ If you receive an error stating that you don't have permission to access the env
 |Survey question|x|x|x|x|x|x|x|x|
 |Survey question response|x|x|x|x|x|x|x|x|
 ||||||||||
+
+## Invalid connection error in Flow
+
+If you receive an error stating that your connection is invalid or there is a problem with the flow's trigger, you must:
+
+1. Open Microsoft Flow.
+
+2. In the left pane, select **Data** > **Connections**.
+
+3. Search for the **Microsoft Forms Pro** connection and delete it.
+
+    > [!NOTE]
+    > If you have created multiple connections for Microsoft Forms Pro, you must delete all of them.
+
+4. Select **New connection** to create a new connection.
+
+5. From the list of connections, search for **Microsoft Forms Pro** and select it.
+
+6. In the confirmation window, select **Create**, and then enter your credentials.
+
+7. Open the flow in which the error occurred.
+
+8. Go to the action causing the error. The connection you created is displayed.
+
+9. Select the connection from the list. The error will be resolved after selecting the connection and flow will work fine.
+

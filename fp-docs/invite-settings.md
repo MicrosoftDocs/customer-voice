@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 06/14/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -88,6 +88,6 @@ When you send a survey by generating a link or a QR code, the survey links are n
 
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed in a web page](embed-web-page.md)<br>
+[Embed survey in a web page](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)

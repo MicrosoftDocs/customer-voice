@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 06/14/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: de861eb8-b373-43b9-a1be-34d43c74349e
@@ -34,5 +34,5 @@ If you don't have the email addresses of the people who you want to view your su
 [Define who can respond to a survey](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed in a web page](embed-web-page.md)<br>
+[Embed survey in a web page](embed-web-page.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
