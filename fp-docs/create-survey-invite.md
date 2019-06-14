@@ -41,11 +41,11 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
     - **Survey**: Select the survey to be sent.
     - **Email**: Enter the recipient's email address.
-    - **Regarding**: Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.
-    - **Recipient details**: Contact to associate your survey invitation and response records. This value is stored in the survey invitation's **To** field. Only Contact record is supported.
+    - **Regarding**: Specify a record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.
+    - **Recipient details**: Specify a contact to associate your survey invitation and response records. This value is stored in the survey invitation's **To** field. Only Contact record is supported.
 
     > [!NOTE]
-    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields accordingly.
+    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields accordingly. For more information on **Regarding** and **Recipient details** fields and how they are stored in the survey invitation, see [Send a survey action](send-survey-microsoft-flow.md#send-a-survey-action).
     > - If you've used personalized data placeholders in your survey, those fields will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 8. Add a new step and select the action to send the email. You can use providers such as Outlook, Gmail, or SMS; we have used Outlook to send the survey in this procedure.
