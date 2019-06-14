@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/12/2019
+ms.date: 06/13/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 8579EFA2-7734-4516-ACFA-F65999983379
@@ -41,6 +41,8 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
     - **Survey**: Select the survey to be sent.
     - **Email**: Enter the recipient's email address.
+    - **Regarding**: Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.
+    - **Recipient details**: Contact to associate your survey invitation and response records. This value is stored in the survey invitation's **To** field. Only Contact record is supported.
 
     > [!NOTE]
     > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields accordingly.

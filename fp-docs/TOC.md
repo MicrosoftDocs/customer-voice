@@ -42,8 +42,6 @@
 
 # [Troubleshoot Forms pro](troubleshoot.md)
 
-# [Microsoft Forms Pro FAQ](mfp-faq.md)
-
 # [Developer guide](developer/developer-guide.md)
 ## [Entity reference](developer/forms-pro-reference.md)
 ### [msfp_emailtemplate](developer/reference/entities/msfp_emailtemplate.md)
