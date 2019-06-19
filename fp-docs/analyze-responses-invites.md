@@ -15,7 +15,7 @@ ms.custom:
 
 # Analyze responses and invitations
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Forms Pro includes rich real-time analytics from Power BI to provide summary information and individual results for surveys. It also displays survey insights to help you understand response patterns. You have options to export the results to Excel for more in-depth analysis and delete the responses and invitations.
 

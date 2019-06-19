@@ -15,7 +15,7 @@ ms.custom:
 
 # Send a survey link to others
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 If you don't have the email addresses of the people who you want to view your survey, or if you don't want to use the built-in email composer for this purpose, you can easily copy a custom link that lets you send your survey to others.
 

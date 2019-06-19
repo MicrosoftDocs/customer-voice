@@ -15,7 +15,7 @@ ms.custom:
 
 # Create a new survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 To create a new survey with Forms Pro:
 

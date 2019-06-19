@@ -15,7 +15,7 @@ ms.custom:
 
 # Collaborate on a survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Multiple people can collaborate on the structure and layout of a survey. To share a survey with others who you want to collaborate with,  you create a special collaborators link that allows other people to view and make changes to the design of a survey you started. 
 

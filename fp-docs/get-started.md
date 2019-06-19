@@ -15,11 +15,7 @@ ms.custom:
 
 # Get started with Forms Pro
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
 
-> [!IMPORTANT]
-> - [!INCLUDE[cc-preview-features-definition](includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](includes/cc-preview-features-no-ms-support.md)]
 
 Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Forms Pro supports businesses seeking to transform customer, product, and employee experiences. 
 

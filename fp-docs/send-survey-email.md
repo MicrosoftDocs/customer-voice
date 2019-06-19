@@ -15,7 +15,7 @@ ms.custom:
 
 # Send a survey by using email
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 After creating a survey, you can send it through email: 
 

@@ -15,7 +15,7 @@ ms.custom:
 
 # Define who can respond to a survey 
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 You can create two types of surveys:
 

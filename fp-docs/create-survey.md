@@ -15,7 +15,7 @@ ms.custom:
 
 # Create a survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 After you've planned for the survey and defined an objective for it, you are now ready to start creating your survey. The next few topics cover the basics of creating a survey, applying a theme to it, and other actions that you can perform by using Microsoft Forms Pro.
 

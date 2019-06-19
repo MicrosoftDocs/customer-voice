@@ -15,7 +15,7 @@ ms.custom:
 
 # Analyze survey responses
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 A survey response record is created after a respondent submits a survey. To see survey responses, go to **View Responses** &gt; **Overview**, and then select **Responses** from the summary information.
 

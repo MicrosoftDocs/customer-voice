@@ -15,7 +15,7 @@ ms.custom:
 
 # View summary information for your survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 After you create your survey, adjust its settings, and share your survey with others, it’s time to view the results and insights. Open the survey that you want to review, and then select the **View Responses** tab.
 

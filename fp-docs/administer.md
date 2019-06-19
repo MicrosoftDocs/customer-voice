@@ -15,7 +15,7 @@ ms.custom:
 
 # Administer Forms Pro
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Microsoft Forms Pro is a simple yet comprehensive survey solution that builds on the current survey-creation experience of Microsoft Forms in Office 365. It has added functionality that supports businesses seeking to transform customer, product, and employee experiences.
 

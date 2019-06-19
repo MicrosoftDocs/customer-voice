@@ -15,7 +15,7 @@ ms.custom:
 
 # Personalize a survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 With placeholders, automatically insert customer information into your survey by using personalized data. For example, you can use personalized data to automatically insert a customer's first name into a question to personalize it.
 

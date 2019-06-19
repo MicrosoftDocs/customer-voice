@@ -15,7 +15,7 @@ ms.custom:
 
 # Apply theme to a survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 After creating questions for your survey, you can change the background design and color by:
 
