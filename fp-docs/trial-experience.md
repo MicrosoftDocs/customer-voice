@@ -39,6 +39,6 @@ Your trial experience can also be downgraded in the following scenarios:
 - Full license is expired
 - License is removed by an administrator
 
-When your trial experience is downgraded, a message is displayed with and option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license.
+When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license.
 
 If you don't purchase a license, you data is retained for 90 days, and then deleted thereafter.
