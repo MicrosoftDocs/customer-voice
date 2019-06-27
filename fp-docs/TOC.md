@@ -1,6 +1,7 @@
 # [Get started with Microsoft Forms Pro](get-started.md) 
 
 # [Administer Microsoft Forms Pro](administer.md)
+## [Purchase Microsoft Forms Pro](purchase.md)
 
 # [Plan a survey](plan-survey.md)
 
