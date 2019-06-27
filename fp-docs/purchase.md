@@ -15,6 +15,8 @@ ms.custom:
 
 # Purchase Microsoft Forms Pro
 
+[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 Microsoft Forms Pro license is based on number of survey responses received per month. The capacity is measured at the tenant level.
  
 ## Purchase Microsoft Forms Pro for users in Dynamics 365 tenant
