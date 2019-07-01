@@ -31,7 +31,7 @@ By default, Forms Pro is enabled for all users in your tenant. As an administrat
 
 3. Select **Opt out of Forms Pro**. 
 
-4. Select **Yes** in the confirmation message. When you opt out of the preview program, you are redirected to the Microsoft Forms experience and are no longer able to edit surveys.
+4. Select **Yes** in the confirmation message. When you opt out, you are redirected to the Microsoft Forms experience and are no longer able to edit surveys.
 
 ## Turn off Forms Pro
 

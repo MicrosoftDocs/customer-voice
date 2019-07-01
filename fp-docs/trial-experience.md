@@ -1,5 +1,5 @@
 ---
-title: "Get the free trial for Microsoft Forms Pro | MicrosoftDocs"
+title: "Get the free trial | MicrosoftDocs"
 description: "Instructions for how to try Microsoft Forms Pro through a free trial."
 keywords: ""
 author: sbmjais
@@ -15,12 +15,10 @@ ms.custom:
 
 # Sign up for the Microsoft Forms Pro trial
 
-Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, you can sign up for a free 30-day trial. After the trial period, you will need a paid license to continue creating new surveys or receiving survey responses using Microsoft Forms Pro. For information about purchasing Forms Pro, see [Purchase Microsoft Forms Pro](purchase.md).
-<!--note from editor: Could you just say this?    Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro before general availability starts, you can sign up for a free 30-day trial. After the trial period, you will need a paid license to continue using Microsoft Forms Pro.(comment or question here)?-->
+Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, you can sign up for a free 30-day trial. After the trial period, you will need a paid license to continue using Microsoft Forms Pro. For information about purchasing Forms Pro, see [Purchase Microsoft Forms Pro](purchase.md).
 
 > [!NOTE]
 > Users who participated in the Microsoft Forms Pro public preview program are automatically converted into the 30-day trial until July 30, 2019.  
-<!--note from editor: Iis it true they are automatically converted? -->
 
 ## Opt out of trial
 
@@ -34,6 +32,7 @@ Your trial experience may also be downgraded in the following scenarios:
 - Trial license is expired
 - An administrator removed your license
 
-When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license. 
+When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license.
 
-If you don't purchase a license, you data is retained for 90 days, and then deleted.
+> [!NOTE]
+> If you don't purchase a license, you data is retained for 90 days, and then deleted.

@@ -1,5 +1,5 @@
 ---
-title: "Purchase Microsoft Forms Pro | MicrosoftDocs"
+title: "Purchase | MicrosoftDocs"
 description: "Instructions for purchasing Microsoft Forms Pro."
 keywords: ""
 author: sbmjais
@@ -16,20 +16,17 @@ ms.custom:
 # Purchase Microsoft Forms Pro
 
 Microsoft Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
-<!--note from editor: I don't get the point of this first paragraph. It needs more detail and for it to be clearer how it's different from the next section, abut users in a Dynamics 365 tenant. For example, do you mean "The cost of a Microsoft Forms Pro license is based on the number of survey responses received per month."? -->
  
 ## Purchase Microsoft Forms Pro for users in a Dynamics 365 tenant
 
 Microsoft Forms Pro is included as part of the Dynamics 365 enterprise license. A tenant with a Dynamics 365 enterprise license has 2000 responses per month included at the tenant level (irrespective of how many seats the tenant has).
  
 You can purchase more capacity from the Microsoft 365 admin center.
-<!--note from editor: Just checking you mean Microsoft 365 and not Dynamics 365 admin center, right? -->
  
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com/). 
 2.	In the left pane, select **Billing** > **Purchase services**.
 3.	Find **Microsoft Forms Pro Add-on**, and then select **Buy now**.
-4.	Select the number of add-on licenses to purchase and complete the purchase process. (The purchased capacities are added on top of the 2000 responses per month.)
-<!--note from editor: Step 4 seems to contradict the paragraph about 2000 responses per month. How can buying more licenses/seats impact that if you say it's tied to responses, not licenses?-->
+4.	Select the number of add-on licenses to purchase and complete the purchase process. The purchased capacities are added on top of the 2000 responses per month.
  
 ### Disable Microsoft Forms Pro for a user
 
