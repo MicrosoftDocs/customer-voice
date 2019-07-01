@@ -23,18 +23,29 @@ Forms Pro is built on Microsoft Forms, and it offers new capabilities that make 
 
 Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefox, and Safari.
 
-## Sign up for Forms Pro preview
+## Sign up for the Microsoft Forms Pro trial
 
-1. Open [https://formspro.microsoft.com](https://formspro.microsoft.com/en-us/) in a web browser.
-
-2. Select **Try preview**.
-
-3. Enter your email address and follow the wizard to complete the sign-up process.
+Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, you can sign up for a free 30-day trial. After the trial period, you will need a paid license to continue using Microsoft Forms Pro. For information about purchasing Forms Pro, see [Purchase Microsoft Forms Pro](purchase.md).
 
     > [!NOTE]
     > - A Microsoft work account is required for trying the Forms Pro preview.
     > - Forms Pro preview is not available for school accounts.
-    > - If you get an error while signing up for Forms Pro preview, contact your administrator to enable the Forms Pro preview in your tenant. 
+    > - If you get an error while signing up for Forms Pro preview, contact your administrator to enable the Forms Pro preview in your tenant.
+    > - Users who participated in the Microsoft Forms Pro public preview program are automatically converted into the 30-day trial until July 30, 2019.  
+
+### Opt out of trial
+
+You can always opt out of the Microsoft Forms Pro trial manually. For information about opting out, see [Opt out of Forms Pro](administer.md#opt-out-of-forms-pro).
+
+> [!NOTE]
+> If you opt out of the Microsoft Forms Pro trial and sign up again later, your trial end date will be counted from the first date you signed in.
+
+Your trial experience may also be downgraded in the following scenarios:
+
+- Trial license is expired
+- An administrator removed your license
+
+When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license. Your data is retained for 90 days, and then deleted if you don't purchase a license.
 
 ## Provide feedback on Forms Pro
 
