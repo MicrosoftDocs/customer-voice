@@ -16,7 +16,7 @@ search.app:
 ---
 # Developer guide for Microsoft Forms Pro
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Welcome to the developer guide for Microsoft Forms Pro.
 

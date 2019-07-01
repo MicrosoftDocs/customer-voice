@@ -16,7 +16,7 @@ search.app:
 ---
 # msfp_emailtemplate Entity Reference
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Template for an email message that contains the survey invitation link.
 

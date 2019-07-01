@@ -33,7 +33,7 @@ If you receive an error stating that you don't have permission to access the env
 
 - Microsoft Forms Pro solution is installed.
 - An application user with the name Microsoft Forms Pro is created.
-    - The application user has the Survey Services Administrator security role assigned.
+    - The application user has the Survey Services Administrator and System Administrator security roles assigned.
     - The Survey Services Administrator security role has the Organization privileges on the survey entities as specified in [Survey Services Administrator security role privileges](#survey-services-administrator-security-role-privileges).
 - You have the Survey Owner security role assigned.
     - The Survey Owner security role has the User privileges on the survey entities as specified in [Survey Owner security role privileges](#survey-owner-security-role-privileges).

@@ -15,7 +15,7 @@ ms.custom:
 
 # Analyze survey insights
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. A summary of the insights is displayed on the **Analyze** tab.
 

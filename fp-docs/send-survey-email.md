@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/14/2019
+ms.date: 07/01/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -15,7 +15,7 @@ ms.custom:
 
 # Send a survey by using email
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 After creating a survey, you can send it through email: 
 
@@ -38,7 +38,7 @@ After creating a survey, you can send it through email:
 7.  When you're ready to send your survey, select **Send**.
 
 > [!NOTE]
-> For this preview, you can send a survey invitation to maximum 100 recipients.
+> For this release, you can send a survey invitation to maximum 100 recipients.
 
 ## Insert survey link
 

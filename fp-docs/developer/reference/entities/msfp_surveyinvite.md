@@ -16,7 +16,7 @@ search.app:
 ---
 # msfp_surveyinvite Entity Reference
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Activity that tracks a survey invitation sent to a person.
 
