@@ -34,7 +34,7 @@ Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, yo
 3. Enter your email address and follow the wizard to complete the sign-up process.
 
    > [!NOTE]
-   > - A Microsoft work or school account is required for trying the Forms Pro preview.
+   > - A work or school account is required for trying the Forms Pro preview.
    > - If you get an error while signing up for Forms Pro preview, contact your administrator to enable the Forms Pro preview in your tenant.
    > - Users who participated in the Microsoft Forms Pro public preview program are automatically converted into the 30-day trial until July 30, 2019.  
 
