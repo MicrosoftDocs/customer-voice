@@ -15,7 +15,7 @@ ms.custom:
 
 # Send a survey QR code 
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 You can generate a QR code for your recipients to scan it on a phone or tablet to access the survey.
 

@@ -15,7 +15,7 @@ ms.custom:
 
 # Send a survey to get responses
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 After your survey is ready, send it to your respondents and collect their feedback. You can send your survey in the following ways:
 

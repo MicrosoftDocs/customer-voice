@@ -15,7 +15,7 @@ ms.custom:
 
 # Preview and test a survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 After you have created and edited a survey, preview and test it before distributing it to respondents:
 

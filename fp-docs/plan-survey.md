@@ -15,7 +15,7 @@ ms.custom:
 
 # Plan to create a survey
 
-[!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
+
 
 It's important to have a plan for creating your surveys. Here are a few things to think about when you are creating surveys:
 

@@ -16,7 +16,7 @@ search.app:
 ---
 # msfp_surveyresponse Entity Reference
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Response to a survey.
 

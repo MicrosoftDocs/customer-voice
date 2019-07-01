@@ -16,7 +16,7 @@ search.app:
 ---
 # Entity Reference for Microsoft Forms Pro
 
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Use this reference to understand the available operations that can be performed on specific entities, the default attributes of each entity and the relationship between entities.
 

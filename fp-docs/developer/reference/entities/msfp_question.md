@@ -16,7 +16,7 @@ search.app:
 ---
 # msfp_question Entity Reference
 
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
+
 
 Question in a survey to collect feedback.
 
