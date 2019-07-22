@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: 023a656c-dad6-4dd5-82ed-30dd3f0183ea
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Analyze responses and invitations

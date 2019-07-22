@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: EA713CA9-6B0B-45A3-A700-22C164465411
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Create a new survey

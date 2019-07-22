@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: 50d49fc4-7894-4350-98ba-98c1331811fc
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Share a survey for collaborating
