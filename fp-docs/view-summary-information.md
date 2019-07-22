@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # View summary information for your survey

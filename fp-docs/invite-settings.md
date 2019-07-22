@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Define who can respond to a survey 

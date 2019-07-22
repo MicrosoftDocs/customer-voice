@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: 37CEB9EE-BDD7-493F-B1C9-86F009FEEEC7
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Create a classic form

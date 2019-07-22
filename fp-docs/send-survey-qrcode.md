@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: b62a55f6-cb45-4b47-a610-155c7fffa496
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Send a survey QR code 

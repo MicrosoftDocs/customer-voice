@@ -1,18 +1,23 @@
 ---
 title: "msfp_emailtemplate Entity Reference (Microsoft Forms Pro | Dynamics 365 for Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_emailtemplate entity."
+keywords: 
+author: "susikka"
+ms.author: "susikka"
+manager: "shujoshi"
+applies_to: 
 ms.date: 04/29/2019
 ms.service: "crm-online"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "susikka"
-ms.author: "susikka"
-manager: "shujoshi"
+ms.custom: 
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
+search.appverid:
+  - FPR160
 ---
 # msfp_emailtemplate Entity Reference
 

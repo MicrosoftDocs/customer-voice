@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Send a survey by using email
