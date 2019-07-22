@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: 8579EFA2-7734-4516-ACFA-F65999983379
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Create a survey invitation

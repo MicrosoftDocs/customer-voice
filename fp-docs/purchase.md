@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Purchase Microsoft Forms Pro

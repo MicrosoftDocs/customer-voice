@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Analyze survey invitations

@@ -11,6 +11,8 @@ ms.service: forms-pro
 ms.topic: article
 ms.assetid: de861eb8-b373-43b9-a1be-34d43c74349e
 ms.custom: 
+search.appverid:
+  - FPR160
 ---
 
 # Send a survey link to others
