@@ -88,6 +88,8 @@ If you receive an error stating that your connection is invalid or there is a pr
 
 ## Error while setting up a user in default environment
 
+When a user signs in to Microsoft Forms Pro in the default environment, security roles are assigned to the user. If any error occurs during the role assignment, see if you fall under any of the following categories and resolve the error accordingly:
+
 |Error|Resolution|
 |-----|----------|
 |User does not have a license|Assign an appropriate license to the user in Active Directory.|
