@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/14/2019
+ms.date: 08/01/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 97526FE3-7523-48B0-A8F4-7C369AF78DB4
@@ -85,4 +85,18 @@ If you receive an error stating that your connection is invalid or there is a pr
 8. Go to the action causing the error. The connection you created is displayed.
 
 9. Select the connection from the list. The error will be resolved after selecting the connection and flow will work fine.
+
+## Error while setting up a user in default environment
+
+|Error|Resolution|
+|-----|----------|
+|User does not have a license|Assign an appropriate license to the user in Active Directory.|
+|User is not part of the security group|Add the user to the instance's security group.|
+|User is not created in Active Directory|Create the user in Active Directory.|
+|User is not enabled in Active Directory|Enable the user in Active Directory.|
+|Instance not found|Instance details are incorrect or instance is deleted.|
+|Instance is not enabled|Instance is disabled. Enable the instance and try again.|
+|||
+
+If you are not able to resolve the error, contact Microsoft support.
 
