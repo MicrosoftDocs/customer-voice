@@ -90,9 +90,6 @@ If you receive an error stating that your connection is invalid or there is a pr
 
 When you sign in to Microsoft Forms Pro in the default environment, security roles are assigned to you. If any error occurs during the role assignment, see if you fall under any of the following categories and resolve the error accordingly:
 
-> [!NOTE]
-> Ensure that you are working in the default environment. If you are not in the default environment, change your environment to the default environment. More information: [Work with environments](choose-environment.md)
-
 |Error|Resolution|
 |-----|----------|
 |User does not have a license|Assign an appropriate license to the user in Active Directory.|
@@ -102,6 +99,8 @@ When you sign in to Microsoft Forms Pro in the default environment, security rol
 |Instance not found|Instance details are incorrect or instance is deleted.|
 |Instance is not enabled|Instance is disabled. Enable the instance and try again.|
 |||
+
+The above errors are displayed only in the default environment. If you are working in an environment other than the default environment, contact your administrator to assign the roles accordingly. More information: [Work with environments](choose-environment.md)
 
 If you are not able to resolve the error, please contact Microsoft support.
 
