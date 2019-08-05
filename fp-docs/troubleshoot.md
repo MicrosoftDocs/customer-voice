@@ -100,7 +100,8 @@ When you sign in to Microsoft Forms Pro in the default environment, security rol
 |Instance is not enabled|Instance is disabled. Enable the instance and try again.|
 |||
 
-The above errors are displayed only in the default environment. If you are working in an environment other than the default environment, contact your administrator to assign the roles accordingly. More information: [Work with environments](choose-environment.md)
+> [!NOTE]
+> The above errors are displayed only in the default environment. If you are working in an environment other than the default environment, contact your administrator to assign the roles accordingly. More information: [Work with environments](choose-environment.md)
 
 If you are not able to resolve the error, please contact Microsoft support.
 
