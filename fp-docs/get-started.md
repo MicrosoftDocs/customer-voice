@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 08/06/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
@@ -51,7 +51,7 @@ Your trial experience may also be downgraded in the following scenarios:
 - Trial license is expired
 - An administrator removed your license
 
-When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license. Your data is retained for 90 days, and then deleted if you don't purchase a license.
+When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license. Your data is retained for 90 days, and then deleted if you don't purchase a license before the expiry of trial.
 
 ## Provide feedback on Forms Pro
 

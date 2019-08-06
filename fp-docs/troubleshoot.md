@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/14/2019
+ms.date: 08/06/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 97526FE3-7523-48B0-A8F4-7C369AF78DB4
@@ -21,13 +21,13 @@ This article provides information about troubleshooting issues in the Microsoft 
 
 ## Environment provisioning failure
 
-If you receive an error stating that your environment provisioning has failed, you must check the version of Common Data Service you are using. Forms Pro doesn't work with the previous version of Common Data Service. If your default environment is created with the previous version of Common Data Service, your environment will not be provisioned and an error message is displayed. You must upgrade the previous version of Common Data Service to the newer version of Common Data Service for Apps. For more information on upgrading to Common Data Service for Apps, see [Upgrade to Common Data Service for Apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+If you receive an error stating that your environment provisioning has failed, you must check the version of Common Data Service you are using. Forms Pro doesn't work with the previous version of Common Data Service. If your default environment is created with the previous version of Common Data Service, your environment will not be provisioned and an error message is displayed. You must upgrade the previous version of Common Data Service to the newer version of Common Data Service for Apps. For more information on upgrading to Common Data Service for Apps, see [Upgrade to Common Data Service for Apps](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 To delete or upgrade your Common Data Service from previous version to the newer version, contact your Global administrator. 
 
-If your environment provisioning has failed, the provisioning will be retried periodically. If want to prioritize or submit any other request, please contact support.
+If your environment provisioning has failed, the provisioning will be retried periodically. If want to prioritize or submit any other request, please contact Microsoft support.
 
-If you have upgraded the Common Data Service and your environment creation is still having issues, please contact support.
+If you have upgraded the Common Data Service and your environment creation is still having issues, please contact Microsoft support.
 
 ## Environment permission failure
 
@@ -85,4 +85,50 @@ If you receive an error stating that your connection is invalid or there is a pr
 8. Go to the action causing the error. The connection you created is displayed.
 
 9. Select the connection from the list. The error will be resolved after selecting the connection and flow will work fine.
+
+## Error while setting up a user in default environment
+
+When you sign in to Microsoft Forms Pro in the default environment, security roles are assigned to you. If any error occurs during the role assignment, see if you fall under any of the following categories and resolve the error accordingly:
+
+|Error|Resolution|
+|-----|----------|
+|User does not have a license|Assign an appropriate license to the user in Active Directory.|
+|User is not part of the security group|Add the user to the instance's security group.|
+|User is not created in Active Directory|Create the user in Active Directory.|
+|User is not enabled in Active Directory|Enable the user in Active Directory.|
+|Instance not found|Instance details are incorrect or instance is deleted.|
+|Instance is not enabled|Instance is disabled. Enable the instance and try again.|
+|||
+
+> [!NOTE]
+> The above errors are displayed only in the default environment. If you are working in an environment other than the default environment, contact your administrator to assign the roles accordingly. More information: [Work with environments](choose-environment.md)
+
+If you are not able to resolve the error, please contact Microsoft support.
+
+## Azure Active Directory disabled error
+
+If you receive an error stating that Azure Active Directory is disabled, you must verify if:
+
+- The Dynamics CRM Online app is disabled on the tenant.
+- A new app is created with an "https://admin.service.crm4.dynamics.com" audience, which is disabled and Azure Active Directory is giving preference over to that app, instead of Microsoft's first party app.
+
+If a new app is created, you must remove the app or change the audience. If this is not the case, you must contact your tenant administrator to run the following script which will re-enable the Dynamics CRM Online app in the tenant and should resolve the error. 
+
+1. You must download the AzureAD Module from: [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+
+2. Run the following commands in a PowerShell window (run PowerShell as an administrator). When prompted, login with the tenant administrator credentials.
+    ```
+    Install-Module AzureAD
+    Connect-AzureAD
+    $sp = Get-AzureADServicePrincipal -Filter "AppId eq '00000007-0000-0000-c000-000000000000'"
+    Set-AzureADServicePrincipal -ObjectId $sp.ObjectId -AccountEnabled $True
+    ```
+
+3. If the error does not resolve after running the above commands or the above commands throw an error, run the following commands to completely reset the principal on the tenant to make sure it's in a proper state.
+    ```
+    $appId = "00000007-0000-0000-c000-000000000000"
+    Get-AzureADServicePrincipal -Filter "AppId eq '00000007-0000-0000-c000-000000000000'" | Remove-AzureADServicePrincipal
+    New-AzureADServicePrincipal -AppId $appId
+    ```
+
 
