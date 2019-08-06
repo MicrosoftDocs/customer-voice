@@ -45,7 +45,7 @@ To select or add a new personalized data:
 > - You can also personalize survey invitations. More information: [Personalize an email](send-survey-email.md#personalize-an-email).
 > - Don't use personalized data if you plan to send a survey anonymously. Placeholders will not be replaced with actual data in an anonymous survey.
 > - Personalized data placeholders are replaced with the values specified in appropriate fields in a survey email.
-> - You can define a maximum of 15 personalized data in a survey.
+> - You can define a maximum of 15 personalized data placeholders in a survey.
 
 ## Add personalized data placeholders to a question
 
