@@ -17,8 +17,6 @@ search.appverid:
 
 # Create a multilingual survey
 
-
-
 You can create a multilingual survey by adding multiple languages to a single survey. You can then add translations for each language. This helps you increase your customer base and allows respondents to take the survey in their preferred language.
 
 When you create a multilingual survey, respondents can choose their preferred language from the language selector at the upper-right corner of the survey.
