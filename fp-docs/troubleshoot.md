@@ -114,9 +114,9 @@ If you receive an error stating that Azure Active Directory is disabled, you mus
 
 If a new app is created, you must remove the app or change the audience. If this is not the case, you must contact your tenant administrator to run the following script, which will re-enable the Dynamics CRM Online app in the tenant and should resolve the error. 
 
-1. You must download the AzureAD Module from [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)
+1. Download the AzureAD Module from [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
-2. Run the following commands in a PowerShell window (run PowerShell as an administrator). When prompted, login with the tenant administrator credentials.
+2. Run the following commands in a PowerShell window (run PowerShell as an administrator). When prompted, sign in with the tenant administrator credentials.
     ```
     Install-Module AzureAD
     Connect-AzureAD
