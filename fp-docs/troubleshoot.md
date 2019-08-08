@@ -110,7 +110,7 @@ If you are not able to resolve the error, please contact Microsoft support.
 If you receive an error stating that Azure Active Directory is disabled, you must verify whether:
 
 - The Dynamics CRM Online app is disabled on the tenant.
-- A new app is created with an "https://admin.service.crm4.dynamics.com" audience, which is disabled and Azure Active Directory is giving preference over to that app, instead of Microsoft's first-party app.
+- A new app is created with an "https:\\//admin.service.crm4.dynamics.com" audience, which is disabled and Azure Active Directory is giving preference over to that app, instead of Microsoft's first-party app.
 
 If a new app is created, you must remove the app or change the audience. If this is not the case, you must contact your tenant administrator to run the following script, which will re-enable the Dynamics CRM Online app in the tenant and should resolve the error. 
 
