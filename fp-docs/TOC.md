@@ -25,6 +25,7 @@
 ## [Send a survey link to others](send-survey-link.md)  
 ## [Send a survey QR code](send-survey-qrcode.md)  
 ## [Create a survey invitation](create-survey-invite.md)
+## [Embed a survey in PowerApps](embed-survey-powerapps.md)
 
 # [Collaborate on a survey](collaborate-survey.md)  
 ## [Share a survey for collaborating](share-survey-collaborate.md)  
