@@ -10,7 +10,9 @@ ms.date: 08/19/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: F5543364-ADB8-465D-96A6-81B2C840299F
-ms.custom: 
+ms.custom:
+search.appverid:
+  - FPR160
 ---
 
 # Embed a survey in PowerApps
