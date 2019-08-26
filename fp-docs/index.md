@@ -3,7 +3,7 @@ layout: LandingPage
 author: bigoswam
 ms.author: bigoswam
 ms.date: 04/02/2019
-ms.service: dynamics-365-cross-app
+ms.service: forms-pro
 ms.topic: landing-page
 title: Microsoft Forms Pro documentation
 description: Use Microsoft Forms Pro to quickly create and send surveys to your recipients. Gather their responses and opinions in real-time.
