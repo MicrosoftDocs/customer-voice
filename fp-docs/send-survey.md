@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/14/2019
+ms.date: 09/20/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: f58130b4-b66f-4c9d-bebd-0649988e4473
@@ -42,4 +42,5 @@ In this section, you will learn how to:
 - [Send a survey link to others](send-survey-link.md)  
 - [Send a survey QR code](send-survey-qrcode.md)  
 - [Create a survey invitation](create-survey-invite.md)
+- [Embed a survey in PowerApps](embed-survey-powerapps.md)
 

@@ -1,12 +1,12 @@
 ---
-title: "Survey invitation settings | MicrosoftDocs"
-description: "Instructions for updating survey invitation settings in Microsoft Forms Pro"
+title: "Survey settings | MicrosoftDocs"
+description: "Instructions for updating survey settings in Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 09/20/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -15,21 +15,11 @@ search.appverid:
   - FPR160
 ---
 
-# Define who can respond to a survey 
+# Work with survey settings 
 
+After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option requires a respondent to sign in. You can also define various response and notification options.
 
-
-You can create two types of surveys:
-
--   External surveys to get responses from customers on things like case resolutions or order closures.
-
--   Internal surveys to get responses from internal audiences like an event feedback.
-
-In this topic, you'll learn about selecting survey settings and various response options.
-
-## Select survey settings
-
-After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option requires a respondent to sign in.
+## Define who can respond to a survey
 
 Consider a scenario where you have created a survey to collect customer's feedback when a support case is resolved. In this scenario, you will require feedback from the people outside of your organization. To accomplish this, you will select the option **Anyone with the link can respond** in the survey settings. More information: [Anyone with the link can respond](#anyone-with-the-link-can-respond).
 
@@ -39,9 +29,12 @@ Let's now see the options you can select to define who can respond to a survey a
 
 ### Anyone with the link can respond
 
-1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
-2. Select **Anyone with the link can respond**. When you select this option, respondents are not required to sign in with their credentials.
-3. Optionally, you can select one or both the following options:
+1. Open the survey for which you want to change survey settings.
+2. On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
+    > [!div class=mx-imgBorder]
+    > ![Settings](media/settings-icon.png "Settings")
+3. Select **Anyone with the link can respond**. When you select this option, respondents are not required to sign in with their credentials.
+4. Optionally, you can select one or both the following options:
     - **Record name**: Respondent's name is recorded. This option works only if a [personalized survey link](#work-with-personalized-links) is generated.
     - **One response per person**: A respondent can submit only one response. This option is enabled only when **Record name** is selected and works only if a [personalized survey link](#work-with-personalized-links) is generated.
     
@@ -53,9 +46,10 @@ Let's now see the options you can select to define who can respond to a survey a
 
 ### Only people in my organization can respond
 
-1. Select **Settings** ![Settings](media/settings-icon.png "Settings") from the upper-right corner of the page.
-2. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
-3. Optionally, you can select one or both the following options:
+1. Open the survey for which you want to change survey settings.
+2. On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
+3. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
+4. Optionally, you can select one or both the following options:
     - **Record name**: Respondent's name is recorded.
     - **One response per person**: A respondent can submit only one response.
     
@@ -65,14 +59,18 @@ Let's now see the options you can select to define who can respond to a survey a
     > [!div class=mx-imgBorder]
     > ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
 
-## Select survey response options
+## Select survey response and notification options
 
-When you've defined who can respond to your survey, you can select the following options:
+When you've defined who can respond to your survey, you can select or clear the following options:
 
-- **Accept responses**: Specify whether the survey is open and accepting responses. By default, this option is selected. If you want to stop your survey, clear the option, and specify a message for the recipients.
+- **Accept responses**: Specify whether the survey is open and accepting responses. By default, it is selected. If you want to stop your survey, clear the option, and specify a message for the recipients.
 - **Start date**: Specify a date when the survey will be open. 
 - **End date**: Specify a date when the survey will be closed.
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
+- **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, it is selected.
+- **Customize thank you message**: Specify a customized thank you message for your responders.
+- **Customize footer text**: Specify a customized footer text to be displayed for your survey.
+- **Send email receipt to respondents**: Specify if respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. Once your respondent has filled out your survey, the option, **Send me an email receipt of my responses**, is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank you message and link to view their responses.
 - **Email notification of each response**: Specify whether email notification is required when a response is submitted.
 
     > [!div class=mx-imgBorder]

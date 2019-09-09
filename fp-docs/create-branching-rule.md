@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 09/20/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 72B81F9F-952B-4A58-83C7-9F68A5EF9B5C
@@ -29,7 +29,7 @@ To create a branching rule:
 
 1.	Open the survey in which you want to add a branching rule.
 
-2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
+2.	On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Branching rules**. 
 
     > [!div class=mx-imgBorder]
     > ![Branching rules button](media/branching-rules-button.png "Branching rules button")
