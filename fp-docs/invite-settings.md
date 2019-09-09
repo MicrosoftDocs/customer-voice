@@ -48,6 +48,8 @@ Let's now see the options you can select to define who can respond to a survey a
 
 1. Open the survey for which you want to change survey settings.
 2. On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
+    > [!div class=mx-imgBorder]
+    > ![Settings](media/settings-icon.png "Settings")
 3. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
 4. Optionally, you can select one or both the following options:
     - **Record name**: Respondent's name is recorded.
