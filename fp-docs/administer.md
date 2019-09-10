@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/01/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 4744BE88-5FDF-4FE7-A555-0A8D83EC86F0
@@ -31,9 +31,19 @@ By default, Forms Pro is enabled for all users in your tenant. As an administrat
 
 2. Select your username from the upper-right corner of the page.
 
-3. Select **Opt out of Forms Pro**. 
+3. Select **Switch to Forms**. When you switch to Forms, you are redirected to the Microsoft Forms experience and are no longer able to edit surveys.
 
-4. Select **Yes** in the confirmation message. When you opt out, you are redirected to the Microsoft Forms experience and are no longer able to edit surveys.
+## Enable Forms Pro for users with Dynamics 365 enterprise license
+
+Microsoft Forms Pro is included as part of the Dynamics 365 enterprise license. A tenant with a Dynamics 365 enterprise license has 2000 responses per month included at the tenant level (irrespective of how many seats the tenant has). To purchase additional responses, see [Purchase additional responses for Microsoft Forms Pro users in a Dynamics 365 tenant](purchase.md#purchase-additional-responses-for-microsoft-forms-pro-users-in-a-dynamics-365-tenant).
+
+To enable Forms Pro:
+
+1. Sign in to Forms.
+
+2. Select your username from the upper-right corner of the page.
+
+3. Select **Switch to Forms Pro**.
 
 ## Turn off Forms Pro
 
