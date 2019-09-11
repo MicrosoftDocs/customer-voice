@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 08/06/2019
+ms.date: 10/01/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
@@ -55,4 +55,4 @@ When your trial experience is downgraded, a message is displayed with an option 
 
 ## Provide feedback on Forms Pro
 
-We'd love to hear from you! Please submit your feedback by selecting **Feedback** ![give feedback](media/feedback.png "Give feedback") in the upper-right corner of the page in Forms Pro.
+We'd love to hear from you! Please submit your feedback through the [UserVoice](https://microsoftforms.uservoice.com/forums/386451-welcome-to-microsoft-forms-suggestion-box?category_id=357997) site to provide suggestions and vote on ideas others have already submitted.
