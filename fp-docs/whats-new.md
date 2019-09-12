@@ -23,18 +23,18 @@ Welcome to Microsoft Forms Pro. Here's a list of features we added and updated r
 
 Following are the new and updated features in this release:
 
-- **Survey Rewards**: Offering an incentive when filling out a survey has been proven to be an effective way to increase the response rate. Forms Pro now includes an option for you to offer survey incentives for your survey participants to receive a code to enter monthly sweepstakes to win Microsoft Surface Laptop 2. The survey incentives option is available for customers and survey participants in the US.
+- **Survey Rewards**: You can now offer survey incentives to your responders and increase the survey response rates. The survey responders can get a free chance to enter Microsoft Rewards sweepstakes and win Microsoft Surface Laptop 2 plus a pair of Surface Headphones. More information: [Survey incentives](survey-incentives.md)
 
-- **Hide question numbers**:
+- **Power BI app template for customer service**: Provide end-to-end insights report that links customer feedback with product and customer service agent when you are using Forms Pro to send survey following case resolution in Dynamics 365 Customer Service. More information: [Customer satisfaction report](customer-satisfaction-powerbi.md)
 
-- **Skip contact creation**:
+- **Embed survey in email**: You can now embed the first question of the survey in your email invitation, so that your survey respondent can answer directly from the email. More information: [Embed survey in an email](send-survey-email.md#embed-survey-in-an-email)
 
-- **Switch to Forms Pro**: Dynamics 365 enterprise users can now enable Forms Pro through the option when opening account pane after clicking the profile picture on the upper-right corner of the page.
+- **Hide question numbers**: You can now choose to hide question numbers in a survey. This behavior can be changed through survey settings. More information: [Select survey response and notification options](invite-settings.md#select-survey-response-and-notification-options)
+
+- **Skip contact creation**: You can choose whether your respondent should be added as a contact in Common Data Service. This behavior can be changed through survey settings. More information: [Select survey response and notification options](invite-settings.md#select-survey-response-and-notification-options)
+
+- **Switch to Forms Pro**: Dynamics 365 enterprise users can now enable Forms Pro through the option when opening account pane after clicking the profile picture on the upper-right corner of the page. More information: [Enable Forms Pro for users with Dynamics 365 enterprise license](administer.md#enable-forms-pro-for-users-with-dynamics-365-enterprise-license)
  
-- **Power BI app template for customer service**: Provide end-to-end insights report that links customer feedback with product and customer service agent when you are using Forms Pro to send survey following case resolution in Dynamics 365 Customer Service. 
-
-- **Updated Survey Response Form in Dynamics**: View complete information about the survey when opening the survey response from Dynamics 365 activity timeline. The updated form now include sentiment, NPS score and all questions-responses on the main form  without you needing to navigate to different views.
+- **Updated survey response form in Dynamics 365**: View complete information about the survey when opening the survey response from Dynamics 365 activity timeline. The updated form now includes sentiment, NPS, and all questions-responses on the main form without navigating to different views.
  
-- **Embed survey in email**: You can now embed selected survey questions in your email invitation, so that your survey respondent can answer directly from the email. 
-
 - **Support for 11 option scale in Likert question type**: The Likert question type is now extended to support up to 11 scale options to provide you with more flexibility when designing your survey questions.

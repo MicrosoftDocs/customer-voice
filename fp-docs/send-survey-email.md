@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 07/01/2019
+ms.date: 10/01/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -16,8 +16,6 @@ search.appverid:
 ---
 
 # Send a survey by using email
-
-
 
 After creating a survey, you can send it through email: 
 
@@ -33,11 +31,13 @@ After creating a survey, you can send it through email:
 
 4.  To add an unsubscribe link to your email message, see [Unsubscribe from a survey](#unsubscribe-from-a-survey).  
 
-5.  To personalize the email by using first and last names of the respondent, see [Personalize an email](#personalize-an-email).  
+5.  To personalize the email by using first and last names of the respondent, see [Personalize an email](#personalize-an-email).
 
-6.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates).  
+6. To embed first question of the survey your email message, see [Embed survey in an email](#embed-survey-in-an-email)
 
-7.  When you're ready to send your survey, select **Send**.
+7.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates).  
+
+8.  When you're ready to send your survey, select **Send**.
 
 > [!NOTE]
 > For this release, you can send a survey invitation to maximum 100 recipients.
@@ -60,6 +60,9 @@ The following variables are available:
 
 - **Last name**: Inserts last name of the recipient.
 
+## Embed survey in an email
+
+Content to be added here.
 
 ## Use email templates
 
