@@ -15,7 +15,7 @@ search.appverid:
   - FPR160
 ---
 
-# Survey incentives
+# Offer survey incentives to your responders
 
 As a survey owner, when you send surveys to your recipients, you expect to get a high response rate. The more survey responses received, the better insights you could get from the survey. However, survey response rate is typically low - on an average it might be as low as a single digit percentage. One of the best ways for increasing the response rate is by providing incentives for the recipient to respond to the survey. For example, a hotel company offers loyalty points to its guests when they respond to a customer satisfaction survey.
 

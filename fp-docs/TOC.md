@@ -1,5 +1,7 @@
 # [Get started with Microsoft Forms Pro](get-started.md) 
 
+# [What's new](whats-new.md)
+
 # [Purchase Microsoft Forms Pro](purchase.md)
 
 # [Administer Microsoft Forms Pro](administer.md)
@@ -26,6 +28,7 @@
 ## [Send a survey QR code](send-survey-qrcode.md)  
 ## [Create a survey invitation](create-survey-invite.md)
 ## [Embed a survey in PowerApps](embed-survey-powerapps.md)
+## [Offer survey incentives](survey-incentives.md)
 
 # [Collaborate on a survey](collaborate-survey.md)  
 ## [Share a survey for collaborating](share-survey-collaborate.md)  
