@@ -52,12 +52,12 @@ Microsoft Forms Pro is available to all users who have a Dynamics 365 enterprise
 4.	In the **Product licenses** row, select **Edit**.
 
 5.	On the **Product licenses** page, turn the **Microsoft Forms Pro** toggle to **Off** for the following products:
-    - Microsoft Forms Pro for Sales Enterprise
-    - Microsoft Forms Pro for Field Service
-    - Microsoft Forms Pro for Project Service Automation
-    - Microsoft Forms Pro for Customer Service Enterprise
-    - Microsoft Forms Pro for Marketing USL
-    - Microsoft Forms Pro for Talent
+    - Microsoft Forms Pro Sales Enterprise
+    - Microsoft Forms Pro Field Service
+    - Microsoft Forms Pro Project Service Automation
+    - Microsoft Forms Pro Customer Service Enterprise
+    - Microsoft Forms Pro Marketing USL
+    - Microsoft Forms Pro Talent
     - Microsoft Forms Pro for Customer Engagement Plan
 
 ### Enable Microsoft Forms Pro for a user without a Dynamics 365 enterprise license
