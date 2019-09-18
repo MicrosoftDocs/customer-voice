@@ -1,5 +1,5 @@
 ---
-title: "Developer guide for Microsoft Forms Pro (Microsoft Forms Pro | Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Developer guide for Microsoft Forms Pro | MicrosoftDocs"
 description: "Developer documentation for Microsoft Forms Pro."
 keywords: 
 author: "susikka"

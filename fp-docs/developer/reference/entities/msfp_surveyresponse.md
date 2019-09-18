@@ -1,5 +1,5 @@
 ---
-title: "msfp_surveyresponse Entity Reference (Microsoft Forms Pro | Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msfp_surveyresponse Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyresponse entity."
 keywords: 
 author: "susikka"
