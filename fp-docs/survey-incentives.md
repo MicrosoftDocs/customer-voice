@@ -27,5 +27,7 @@ As a survey owner, when you send surveys to your recipients, you expect to get a
 > - Promo codes allow a responder to enter Microsoft Surface book sweepstake and are valid only till the end of the month. For detailed terms and condition, [click here](https://go.microsoft.com/fwlink/p/?linkid=530144).
 > - Microsoft account is required to redeem the promo code. Each account can only redeem one promo code per day.
 
-## Enable survey incentives
+## Enable survey incentives in survey invitation
+
+## Enable survey incentives in a tenant
 
