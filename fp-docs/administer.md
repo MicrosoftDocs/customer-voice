@@ -19,7 +19,7 @@ search.appverid:
 
 Microsoft Forms Pro is a simple yet comprehensive survey solution that builds on the current survey-creation experience of Microsoft Forms in Office 365. It has added functionality that supports businesses seeking to transform customer, product, and employee experiences.
 
-Forms Pro has robust tooling to support deeper analytics and insights with integration across your tools, such as Common Data Service for Apps, Microsoft Power Platform, and Dynamics 365 model-driven applications. With Forms Pro, you can send branded surveys to customers with your company's look and feel. Survey distribution is simpler with the built-in email composer. You can also automate sending surveys with Microsoft Flow and leverage preconfigured Microsoft Flow templates to integrate with the model-driven apps in Dynamics 365.
+Forms Pro has robust tooling to support deeper analytics and insights with integration across your tools, such as Common Data Service for Apps, Microsoft Power Platform, and the model-driven apps in Dynamics 365. With Forms Pro, you can send branded surveys to customers with your company's look and feel. Survey distribution is simpler with the built-in email composer. You can also automate sending surveys with Microsoft Flow and leverage preconfigured Microsoft Flow templates to integrate with the model-driven apps in Dynamics 365.
 
 Forms Pro allows you to work with classic forms and quizzes, and create new ones. The classic forms and quizzes open in their respective interfaces within the Forms Pro environment. This gives you the ability to work with surveys and classic forms together. For information on how to create classic forms in Forms Pro, see [Create a classic form](create-classic-form.md).
 
