@@ -33,7 +33,7 @@ After creating a survey, you can send it through email:
 
 5.  To personalize the email by using first and last names of the respondent, see [Personalize an email](#personalize-an-email).
 
-6. To embed first question of the survey your email message, see [Embed survey in an email](#embed-survey-in-an-email)
+6. To embed first question of the survey into your email message, see [Embed survey in an email](#embed-survey-in-an-email)
 
 7.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates).  
 
@@ -44,11 +44,11 @@ After creating a survey, you can send it through email:
 
 ## Insert survey link
 
-The survey link is added to your email message by default. To insert the survey link in a different location in your email message, place the cursor at the required location, and select **Insert survey link**. You can also select text, and then select **Insert survey link** to display that text as the survey link.
+The survey link is added to your email message by default. To insert the survey link in a different location in your email message, place the cursor at the required location, and select **Insert** > **Survey link**. You can also select text, and then select **Insert** > **Survey link** to display that text as the survey link.
 
 ## Unsubscribe from a survey
 
-You can configure your email message to include a link that allows a respondent to unsubscribe from the survey. To insert the unsubscribe link in the email message, place the cursor at the required location, and then select **Insert unsubscribe link**. You can also select text, and then select **Insert unsubscribe link** to display that text as the unsubscribe link. By default, the unsubscribe link is added to all email message templates.
+You can configure your email message to include a link that allows a respondent to unsubscribe from the survey. To insert the unsubscribe link in the email message, place the cursor at the required location, and then select **Insert** > **Unsubscribe link**. You can also select text, and then select **Insert** > **Unsubscribe link** to display that text as the unsubscribe link. By default, the unsubscribe link is added to all email message templates.
 
 ## Personalize an email
 
@@ -62,7 +62,7 @@ The following variables are available:
 
 ## Embed survey in an email
 
-Content to be added here.
+If you have added a Choice, Rating, or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option in the email, the complete survey is opened in the web browser and the responder can continue with completing the survey.
 
 ## Use email templates
 

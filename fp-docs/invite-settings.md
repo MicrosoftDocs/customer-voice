@@ -72,8 +72,9 @@ When you've defined who can respond to your survey, you can select or clear the 
 - **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, it is selected.
 - **Customize thank you message**: Specify a customized thank you message for your responders.
 - **Customize footer text**: Specify a customized footer text to be displayed for your survey.
+- **Add respondents as**: 
 - **Send email receipt to respondents**: Specify if respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. Once your respondent has filled out your survey, the option, **Send me an email receipt of my responses**, is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank you message and link to view their responses.
-- **Email notification of each response**: Specify whether email notification is required when a response is submitted.
+- **Email notification of each response**: Specify if you need an email notification whenever a response is submitted.
 
     > [!div class=mx-imgBorder]
     > ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")

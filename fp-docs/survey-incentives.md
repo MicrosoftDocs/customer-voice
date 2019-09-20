@@ -15,7 +15,7 @@ search.appverid:
   - FPR160
 ---
 
-# Offer survey incentives to your responders
+# Offer survey incentives to your respondents
 
 As a survey owner, when you send surveys to your recipients, you expect to get a high response rate. The more survey responses received, the better insights you could get from the survey. However, survey response rate is typically low - on an average it might be as low as a single digit percentage. One of the best ways for increasing the response rate is by providing incentives for the recipient to respond to the survey. For example, a hotel company offers loyalty points to its guests when they respond to a customer satisfaction survey.
 
@@ -27,7 +27,19 @@ As a survey owner, when you send surveys to your recipients, you expect to get a
 > - Promo codes allow a responder to enter Microsoft Surface book sweepstake and are valid only till the end of the month. For detailed terms and condition, [click here](https://go.microsoft.com/fwlink/p/?linkid=530144).
 > - Microsoft account is required to redeem the promo code. Each account can only redeem one promo code per day.
 
+## Enable survey incentives in a tenant
+
+As a tenant administrator, you must enable survey incentives in a tenant to allow survey designers to offer survey incentives to their recipients.
+
 ## Enable survey incentives in survey invitation
 
-## Enable survey incentives in a tenant
+When survey incentives are enabled by your administrator in your tenant, you can offer incentives to your respondents. Survey incentives can be enabled only while sending a survey through email. This gives you the control to enable incentives only for the required respondents.
+
+1. Open the survey in which you want to enable survey incentives, and go to **Send survey** &gt; **Email**.
+
+2. Below the email editor, select **Offer survey incentives to respondents (US only)**.
+
+3. Optionally, select **Insert** > **Survey incentives information** to insert additional information about survey incentives in the email message. 
+
+## Experience of a survey respondent
 
