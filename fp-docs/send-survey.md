@@ -35,7 +35,7 @@ Respondents can submit responses using a desktop or mobile web browser. You can 
 
 In this section, you will learn how to:
 
-- [Define who can respond to a survey](invite-settings.md)  
+- [Work with survey settings](invite-settings.md)
 - [Send a survey by using email](send-survey-email.md)  
 - [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)  
 - [Embed survey in a web page](embed-web-page.md)  

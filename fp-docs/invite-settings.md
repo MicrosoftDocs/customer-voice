@@ -72,7 +72,7 @@ When you've defined who can respond to your survey, you can select or clear the 
 - **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, it is selected.
 - **Customize thank you message**: Specify a customized thank you message for your responders.
 - **Customize footer text**: Specify a customized footer text to be displayed for your survey.
-- **Add respondents as**: 
+- **Add respondents as**: Specify if the respondent should be added as a contact in Common Data Service. By default, it is selected.
 - **Send email receipt to respondents**: Specify if respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. Once your respondent has filled out your survey, the option, **Send me an email receipt of my responses**, is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank you message and link to view their responses.
 - **Email notification of each response**: Specify if you need an email notification whenever a response is submitted.
 
@@ -93,4 +93,5 @@ When you send a survey by generating a link or a QR code, the survey links are n
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
 [Embed survey in a web page](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey QR code](send-survey-qrcode.md)<br>
+[Embed a survey in PowerApps](embed-survey-powerapps.md)

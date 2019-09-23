@@ -31,8 +31,9 @@ If you don't have the email addresses of the people who you want to view your su
 
 ## See also
 
-[Define who can respond to a survey](invite-settings.md)<br>
+[Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
 [Embed survey in a web page](embed-web-page.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey QR code](send-survey-qrcode.md)<br>
+[Embed a survey in PowerApps](embed-survey-powerapps.md)

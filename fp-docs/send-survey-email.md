@@ -62,7 +62,10 @@ The following variables are available:
 
 ## Embed survey in an email
 
-If you have added a Choice, Rating, or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option in the email, the complete survey is opened in the web browser and the responder can continue with completing the survey.
+If you have added a Rating or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option in the email, the complete survey is opened in the web browser and the responder can continue with completing the survey.
+
+> [!NOTE]
+> You cannot embed the question in an email if you have added any branching rules or shuffled the questions in a survey.
 
 ## Use email templates
 
@@ -83,8 +86,9 @@ You can perform these actions on an email template:
 
 ## See also
 
-[Define who can respond to a survey](invite-settings.md)<br>
+[Work with survey settings](invite-settings.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
 [Embed survey in a web page](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey QR code](send-survey-qrcode.md)<br>
+[Embed a survey in PowerApps](embed-survey-powerapps.md)
