@@ -53,7 +53,26 @@ When survey incentives are enabled by your administrator in your tenant, you can
 
 3. Optionally, select **Insert** > **Survey incentives information** to insert additional information about survey incentives in the email message. 
 
-When a respondent completes a survey, a promo code is displayed. The respondent can then go to the Microsoft Rewards dashboard to redeem the code and enter sweepstakes.
+After a respondent completes a survey, a promo code is displayed. The respondent can then go to the Microsoft Rewards dashboard to redeem the code and enter sweepstakes.
 
 ## Experience of a survey respondent
+
+If survey incentives are enabled and a respondent completes a survey, a promo code is displayed. The promo code must be redeemed through the Microsoft Rewards dashboard to enter sweepstakes.
+
+To redeem a code:
+
+1. Copy the promo code from the survey completion page.
+
+2. Sign in to your Microsoft Rewards dashboard.
+
+3. On the **Redeem your code** page, enter the promo code, and select **Next**.
+
+4. On the thank you page, select **Redeem**.
+
+5. On the **Promo code validated!** page, select the link to complete the sweepstakes entry.
+
+6. On the **Free Sweepstakes entry** page, verify the displayed information, and select **Enter sweepstakes**.
+
+7. On the **Confirm your reward** page, select **Confirm reward**.
+
 
