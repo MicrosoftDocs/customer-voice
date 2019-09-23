@@ -27,9 +27,21 @@ As a survey owner, when you send surveys to your recipients, you expect to get a
 > - Promo codes allow a responder to enter Microsoft Surface book sweepstake and are valid only till the end of the month. For detailed terms and condition, [click here](https://go.microsoft.com/fwlink/p/?linkid=530144).
 > - Microsoft account is required to redeem the promo code. Each account can only redeem one promo code per day.
 
-## Enable survey incentives in a tenant
+## Disable survey incentives in a tenant
 
-As a tenant administrator, you must enable survey incentives in a tenant to allow survey designers to offer survey incentives to their recipients.
+As a tenant administrator, you can enable or disable survey incentives in a tenant to allow or restrict survey designers to offer survey incentives to their recipients. By default, survey incentives are enabled in a tenant.
+
+To disable survey incentives:
+
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+
+2. In the left pane, select **Settings** > **Services & add-ins**.
+
+3. Select **Microsoft Forms**.
+
+4. Under **Survey incentive**, turn the **Allow incentives to be added for surveys created using Forms Pro** toggle to **Off**.
+
+When the survey incentives are turned off, the option of offer survey incentives in a survey invitation is also disabled. If the invitations are already sent with the survey incentive, a corresponding message is displayed after completing the survey.
 
 ## Enable survey incentives in survey invitation
 
@@ -40,6 +52,8 @@ When survey incentives are enabled by your administrator in your tenant, you can
 2. Below the email editor, select **Offer survey incentives to respondents (US only)**.
 
 3. Optionally, select **Insert** > **Survey incentives information** to insert additional information about survey incentives in the email message. 
+
+When a respondent completes a survey, a promo code is displayed. The respondent can then go to the Microsoft Rewards dashboard to redeem the code and enter sweepstakes.
 
 ## Experience of a survey respondent
 
