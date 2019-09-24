@@ -75,4 +75,15 @@ To redeem a code:
 
 7. On the **Confirm your reward** page, select **Confirm reward**.
 
+You must receive a confirmation email from Microsoft Rewards about your sweepstakes entry. If you do not receive any email confirmation:
+
+1. Sign in to [https://account.microsoft.com/rewards/redeem/](https://account.microsoft.com/rewards/redeem/).
+
+2. Find the **Sweepstakes: Surface Laptop 2 + Surface Headphones** tile. If the **Redeem reward** link is available on the tile, the redeem process is not completed successfully.
+
+    > [!div class=mx-imgBorder]
+    > ![Redeem reward](media/redeem-reward.png "Redeem reward")
+
+3. Select **Redeem reward** and finish the sweepstakes entry. A confirmation email from Microsoft Rewards will be sent.
+
 
