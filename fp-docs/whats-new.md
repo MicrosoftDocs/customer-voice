@@ -25,7 +25,7 @@ Following are the new and updated features in this release:
 
 - **Offer survey incentives**: You can now offer survey incentives to your respondents and increase the survey response rates. The survey responders can get a free chance to enter Microsoft Rewards sweepstakes and win Microsoft Surface Laptop 2 plus a pair of Surface Headphones. More information: [Survey incentives](survey-incentives.md)
 
-- **Power BI app template for customer service**: Provide end-to-end insights report that links customer feedback with product and customer service agent when you are using Forms Pro to send survey following case resolution in Dynamics 365 Customer Service. More information: [Monitor customer satisfaction](customer-satisfaction-app.md)
+- **Power BI app template for customer service**: Provide end-to-end insights report that links customer feedback with the cases when you use Microsoft Forms Pro to send survey after case resolution in Dynamics 365 Customer Service. More information: [Monitor customer satisfaction](customer-satisfaction-app.md)
 
 - **Embed survey in email**: You can now embed the first question of the survey in your email invitation, so that your survey respondent can answer directly from the email. More information: [Embed survey in an email](send-survey-email.md#embed-survey-in-an-email)
 

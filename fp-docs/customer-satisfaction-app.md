@@ -17,7 +17,7 @@ search.appverid:
 
 # Monitor customer satisfaction
 
-Use the Forms Pro Customer Satisfaction app to get insights report that link customer feedback with the cases when you use Microsoft Forms Pro to send survey after case resolution in Dynamics 365 Customer Service. You can view average Net Promoter Score (NPS) as well as your agent's and customer's individual NPS. This app provides you the capability to filter the report by case priority, location, product, and more parameters. Survey metrics such as number of survey invitations sent, number of survey responses received, NPS, sentiment, and key phrases are also displayed in the report. You can also edit the reports and build customized reports as per your requirement.
+Use the Forms Pro Customer Satisfaction app to get insights report that links customer feedback with the cases when you use Microsoft Forms Pro to send survey after case resolution in Dynamics 365 Customer Service. You can view average Net Promoter Score (NPS) as well as your agent's and customer's individual NPS. This app provides you the capability to filter the report by case priority, location, product, and more parameters. Survey metrics such as number of survey invitations sent, number of survey responses received, NPS, sentiment, and key phrases are also displayed in the report. You can also edit the reports and build customized reports as per your requirement.
 
 ## Install the Forms Pro Customer Satisfaction app
 
