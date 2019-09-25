@@ -35,6 +35,6 @@ Following are the new and updated features in this release:
 
 - **Switch to Forms Pro**: Dynamics 365 enterprise users can now enable Forms Pro through the option when opening the account pane after selecting the profile picture on the upper-right corner of the page. More information: [Enable Forms Pro for users with Dynamics 365 enterprise license](administer.md#enable-forms-pro-for-users-with-dynamics-365-enterprise-license)
  
-- **Updated survey response form in Dynamics 365**: View complete information about the survey when opening the survey response from the Dynamics 365 activity timeline. The updated form now includes sentiment, NPS, and all questions-responses on the main form without navigating to different views.
+- **Updated survey response form in Dynamics 365**: View complete information about the survey when opening the survey response from the Dynamics 365 activity timeline. The updated form now includes sentiment, Net Promoter Score (NPS), and all questions-responses on the main form without navigating to different views.
  
 - **Support for 11 option scale in Likert question type**: The Likert question type is now extended to support up to 11 scale options to provide you with more flexibility when designing your survey questions.
