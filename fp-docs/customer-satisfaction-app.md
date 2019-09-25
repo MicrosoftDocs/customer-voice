@@ -21,6 +21,12 @@ Use the Forms Pro Customer Satisfaction app to get insights report that link cus
 
 ## Install the Forms Pro Customer Satisfaction app
 
+The Forms Pro Customer Satisfaction app is a template app built using Power BI. This app helps you to know your customers' satisfaction and your agents' performance. You can connect your Dynamics 365 Customer Service instance to view insights based on your data. This app comes with sample data for you to navigate and explore the app. It also gives you the capability to edit and customize the workspace as per your requirement.
+
+For more information on template apps, see [What are Power BI template apps?](https://docs.microsoft.com/en-us/power-bi/service-template-apps-overview).
+
+For steps to install a template app and get started, see [Install and distribute template apps](https://docs.microsoft.com/en-us/power-bi/service-template-apps-install-distribute).
+
 ## Report
 
 The Forms Pro Customer Satisfaction app displays insights in a report with the following pages:
