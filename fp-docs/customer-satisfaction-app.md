@@ -73,7 +73,7 @@ The Agent Performance page provides the agent centric view of the satisfaction d
 - A bubble chart at the top of the report displaying NPS distribution according to the number of agents.
 - An NPS chart is displaying the trend of average NPS over a period of time.
 - A grid containing top 10 agents' names and their corresponding NPS. You can select an agent's name to see the agent specific data in all other charts.
-- - **Key Phrases**: Displays a word cloud of the key phrases used in sentiment analysis. You can filter to see only the positive or negative key phrases or all key phrases.
+- **Key Phrases**: Displays a word cloud of the key phrases used in sentiment analysis. You can filter to see only the positive or negative key phrases or all key phrases.
 
 ### Customer Satisfaction
 
@@ -83,4 +83,4 @@ The Customer Satisfaction page provides the customer centric view of the satisfa
 - A bubble chart at the top of the report displaying NPS distribution according to the number of customers.
 - An NPS chart is displaying the trend of average NPS over a period of time.
 - A grid containing top 10 satisfied customers and their corresponding NPS. You can select a customer's name to see the customer specific data in all other charts.
-- - **Key Phrases**: Displays a word cloud of the key phrases used in sentiment analysis. You can filter to see only the positive or negative key phrases or all key phrases.
+- **Key Phrases**: Displays a word cloud of the key phrases used in sentiment analysis. You can filter to see only the positive or negative key phrases or all key phrases.
