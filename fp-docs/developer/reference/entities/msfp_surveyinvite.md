@@ -1,5 +1,5 @@
 ---
-title: "msfp_surveyinvite Entity Reference (Microsoft Forms Pro | Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msfp_surveyinvite Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyinvite entity."
 keywords: 
 author: "susikka"

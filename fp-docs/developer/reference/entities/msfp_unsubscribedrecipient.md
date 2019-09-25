@@ -1,5 +1,5 @@
 ---
-title: "msfp_unsubscribedrecipient Entity Reference (Microsoft Forms Pro | Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "msfp_unsubscribedrecipient Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_unsubscribedrecipient entity."
 keywords: 
 author: "susikka"
