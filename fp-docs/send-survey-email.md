@@ -21,10 +21,10 @@ After creating a survey, you can send it through email:
 
 1.  Open the survey you want to send, and go to **Send Survey** &gt; **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
 
-2.  In the **To** field, enter the recipient's name or email address. You can populate the **To** field by either of the following ways:
+2.  In the **To** field, enter the recipient's name or email address. You can populate the **To** field by any of the following ways:
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
-    - Entering a contact or contact list/view from Common Data Services for Apps. The contacts are populated from the selected environment. For more information on working with environments, see: [Work with environments](choose-environment.md). 
+    - Entering a contact or contact list/view from Common Data Services for Apps. The contacts are populated from the selected environment. For more information on working with environments, see [Work with environments](choose-environment.md). 
     - Uploading a .csv file by selecting **Import recipients**.
 
 3.  To insert the survey link into your email message, see [Insert survey link](#insert-survey-link).  
@@ -33,14 +33,14 @@ After creating a survey, you can send it through email:
 
 5.  To personalize the email by using first and last names of the respondent, see [Personalize an email](#personalize-an-email).
 
-6. To embed first question of the survey into your email message, see [Embed survey in an email](#embed-survey-in-an-email)
+6. To embed the first question of the survey into your email message, see [Embed survey in an email](#embed-survey-in-an-email).
 
-7.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates).  
+7.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates)  
 
 8.  When you're ready to send your survey, select **Send**.
 
 > [!NOTE]
-> For this release, you can send a survey invitation to maximum 100 recipients.
+> For this release, you can send a survey invitation to a maximum of 100 recipients.
 
 ## Insert survey link
 
@@ -88,7 +88,7 @@ You can perform these actions on an email template:
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed survey in a web page](embed-web-page.md)<br>
+[Embed survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in PowerApps](embed-survey-powerapps.md)
