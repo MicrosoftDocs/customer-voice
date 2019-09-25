@@ -15,15 +15,20 @@ search.appverid:
   - FPR160
 ---
 
+
+<!--from editor: In the image on line 67, the check box does not look disabled. -->
+
+
+
 # Work with survey settings 
 
-After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option requires a respondent to sign in. You can also define various response and notification options.
+After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option does require a respondent to sign in. You can also define various response and notification options.
 
 ## Define who can respond to a survey
 
-Consider a scenario where you have created a survey to collect customer's feedback when a support case is resolved. In this scenario, you will require feedback from the people outside of your organization. To accomplish this, you will select the option **Anyone with the link can respond** in the survey settings. More information: [Anyone with the link can respond](#anyone-with-the-link-can-respond).
+Consider a scenario where you have created a survey to collect customer feedback when a support case is resolved. In this scenario, you will require feedback from the people outside of your organization. To accomplish this, you will select the option **Anyone with the link can respond** in the survey settings. More information: [Anyone with the link can respond](#anyone-with-the-link-can-respond)
 
-Let's consider another scenario where you have created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you will select the option **Only people in my organization can respond** in the survey settings. More information: [Only people in my organization can respond](#only-people-in-my-organization-can-respond).
+Let's consider another scenario where you have created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you will select the option **Only people in my organization can respond** in the survey settings. More information: [Only people in my organization can respond](#only-people-in-my-organization-can-respond)
 
 Let's now see the options you can select to define who can respond to a survey and select options whether to record the respondent's name and limit the respondent to submit only one response.
 
@@ -34,7 +39,7 @@ Let's now see the options you can select to define who can respond to a survey a
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
 3. Select **Anyone with the link can respond**. When you select this option, respondents are not required to sign in with their credentials.
-4. Optionally, you can select one or both the following options:
+4. Optionally, you can select one or both of the following options:
     - **Record name**: Respondent's name is recorded. This option works only if a [personalized survey link](#work-with-personalized-links) is generated.
     - **One response per person**: A respondent can submit only one response. This option is enabled only when **Record name** is selected and works only if a [personalized survey link](#work-with-personalized-links) is generated.
     
@@ -51,7 +56,7 @@ Let's now see the options you can select to define who can respond to a survey a
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
 3. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
-4. Optionally, you can select one or both the following options:
+4. Optionally, you can select one or both of the following options:
     - **Record name**: Respondent's name is recorded.
     - **One response per person**: A respondent can submit only one response.
     
@@ -91,7 +96,7 @@ When you send a survey by generating a link or a QR code, the survey links are n
 
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed survey in a web page](embed-web-page.md)<br>
+[Embed survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in PowerApps](embed-survey-powerapps.md)
