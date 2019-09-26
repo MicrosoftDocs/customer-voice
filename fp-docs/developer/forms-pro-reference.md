@@ -1,5 +1,5 @@
 ---
-title: "Entity Reference for Microsoft Forms Pro (Microsoft Forms Pro | Dynamics 365 for Customer Engagement)| MicrosoftDocs"
+title: "Entity Reference for Microsoft Forms Pro | MicrosoftDocs"
 description: "Reference documentation for the entities of Microsoft Forms Pro."
 keywords: 
 author: "susikka"
