@@ -16,10 +16,6 @@ search.appverid:
 ---
 
 
-<!--from editor: In the image on line 67, the check box does not look disabled. -->
-
-
-
 # Work with survey settings 
 
 After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option does require a respondent to sign in. You can also define various response and notification options.
@@ -79,7 +75,7 @@ When you've defined who can respond to your survey, you can select or clear the 
 - **Customize footer text**: Specify a customized footer text to be displayed for your survey.
 - **Add respondents as**: Specify if the respondent should be added as a contact in Common Data Service. By default, it is selected. This option works only with surveys sent through email.
 - **Send email receipt to respondents**: Specify if respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. Once your respondent has filled out your survey, the option, **Send me an email receipt of my responses**, is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank you message and link to view their responses.
-- **Email notification of each response**: Specify if you need an email notification whenever a response is submitted.
+- **Get email notification of each response**: Specify if you need an email notification whenever a response is submitted.
 
     > [!div class=mx-imgBorder]
     > ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")

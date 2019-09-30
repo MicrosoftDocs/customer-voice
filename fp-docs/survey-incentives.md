@@ -17,9 +17,9 @@ search.appverid:
 
 # Offer survey incentives to your respondents
 
-As a survey owner, when you send surveys to your recipients, you expect to get a high response rate. The more survey responses received, the better insights you could get from the survey. However, survey response rate is typically low—on an average it might be as low as a single digit percentage. One of the best ways for increasing the response rate is by providing incentives for the recipient to respond to the survey. For example, a hotel company offers loyalty points to its guests when they respond to a customer satisfaction survey.
+As a survey owner, when you send surveys to your recipients, you expect to get a high response rate. The more survey responses received, the better insights you could get from the survey. However, survey response rate is typically low—on an average it might be as low as a single digit percentage. One of the best ways for increasing the response rate is by providing incentives for the recipient to respond to the survey.
 
-[Microsoft Forms Pro](https://formspro.microsoft.com) integrates with [Microsoft Rewards](https://www.microsoft.com/rewards) to provide the capability of incentivizing a survey. When you create a survey and send it to your recipients, you can choose if incentives should be provided on completion of the survey. If survey incentives are enabled, a code is generated on completion of the survey. The code can then be redeemed by the respondent to take part in Microsoft Rewards sweepstakes.
+[Microsoft Forms Pro](https://formspro.microsoft.com) integrates with [Microsoft Rewards](https://www.microsoft.com/rewards) to provide survey incentives. When you enable the survey incentives option, the respondent who complete the survey will be given a promo code to enter monthly sweepstakes to win a Microsoft Surface laptop plus a pair of Surface Headphones.
 
 > [!NOTE]
 > - For this release, survey incentives are available only when a survey invitation is sent through email. More information for sending a survey invitation through email: [Send a survey by using email](send-survey-email.md)
@@ -41,9 +41,9 @@ To disable survey incentives:
 
 4. Under **Survey incentive**, turn the **Allow incentives to be added for surveys created using Forms Pro** toggle to **Off**.
 
-When the survey incentives are turned off, the option of offer survey incentives in a survey invitation is also disabled. If the invitations are already sent with the survey incentive, a corresponding message is displayed after completing the survey.
+When the survey incentives are turned off, the option of offer survey incentives in a survey invitation is also disabled.
 
-## Enable survey incentives in survey invitation
+## Enable survey incentives in survey invitation email
 
 When survey incentives are enabled by your administrator in your tenant, you can offer incentives to your respondents. Survey incentives can be enabled only while sending a survey through email. This gives you the control to enable incentives only for the required respondents.
 
@@ -51,17 +51,20 @@ When survey incentives are enabled by your administrator in your tenant, you can
 
 2. Below the email editor, select **Offer survey incentives to respondents (US only)**.
 
-3. Optionally, select **Insert** > **Survey incentives information** to insert additional information about survey incentives in the email message. 
+3. Optionally, include a text in the email invitation to let the survey respondent know about the survey incentives or insert the sample text by selecting **Insert** > **Survey incentives information**. 
 
 After a respondent completes a survey, a promo code is displayed. The respondent can then go to the Microsoft Rewards dashboard to redeem the code and enter sweepstakes.
 
+> [!NOTE]
+> A disclaimer and a link to the terms and conditions is automatically added at the end of the email message when you send a survey invitation email.
+
 ## Experience of a survey respondent
 
-If survey incentives are enabled and a respondent completes a survey, a promo code is displayed. The promo code must be redeemed through the Microsoft Rewards dashboard to enter sweepstakes.
+If survey incentives are enabled and a respondent, meeting the eligibility criteria for incentives, completes a survey, a promo code is displayed. The promo code must be redeemed through the Microsoft Rewards dashboard to enter sweepstakes.
 
 To redeem a code:
 
-1. Copy the promo code from the survey completion page.
+1. Select **Redeem code** on the thank you page after completing the survey.
 
 2. Sign in to your Microsoft Rewards dashboard.
 
