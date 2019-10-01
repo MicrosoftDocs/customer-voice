@@ -51,7 +51,7 @@ When survey incentives are enabled by your administrator in your tenant, you can
 
 2. Below the email editor, select **Offer survey incentives to respondents (US only)**.
 
-3. Optionally, include a text in the email invitation to let the survey respondent know about the survey incentives or insert the sample text by selecting **Insert** > **Survey incentives information**. 
+3. Optionally, include a text in the email invitation to let the survey respondent know about the survey incentives or insert the sample text by selecting **Insert** > **Incentives information**. 
 
     > [!div class=mx-imgBorder]
     > ![Enable survey incentives](media/enable-survey-incentives.png "Enable survey incentives")
