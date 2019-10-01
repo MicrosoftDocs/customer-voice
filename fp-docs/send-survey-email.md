@@ -64,6 +64,9 @@ The following variables are available:
 
 If you have added a Rating or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option in the email, the complete survey is opened in the web browser and the responder can continue with completing the survey.
 
+> [!div class=mx-imgBorder]
+> ![Embed survey in an email](media/embed-ques-email.png "Embed survey in an email")
+
 > [!NOTE]
 > You cannot embed the question in an email if you have added any branching rules or shuffled the questions in a survey.
 

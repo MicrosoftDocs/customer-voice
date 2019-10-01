@@ -17,8 +17,6 @@ search.appverid:
 
 # Embed survey in a webpage
 
-
-
 You can embed your survey in a webpage by pasting the survey's embed code into your webpage’s source code. You can choose how you want the survey to appear:
 
 - **Inline**: Displays the survey statically on the webpage.

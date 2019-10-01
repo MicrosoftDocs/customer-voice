@@ -53,6 +53,9 @@ When survey incentives are enabled by your administrator in your tenant, you can
 
 3. Optionally, include a text in the email invitation to let the survey respondent know about the survey incentives or insert the sample text by selecting **Insert** > **Survey incentives information**. 
 
+    > [!div class=mx-imgBorder]
+    > ![Enable survey incentives](media/enable-survey-incentives.png "Enable survey incentives")
+
 After a respondent completes a survey, a promo code is displayed. The respondent can then go to the Microsoft Rewards dashboard to redeem the code and enter sweepstakes.
 
 > [!NOTE]
