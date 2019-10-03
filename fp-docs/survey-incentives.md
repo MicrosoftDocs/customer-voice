@@ -25,7 +25,7 @@ As a survey owner, when you send surveys to your recipients, you expect to get a
 > - For this release, survey incentives are available only when a survey invitation is sent through email. More information for sending a survey invitation through email: [Send a survey by using email](send-survey-email.md)
 > - The survey incentives capability is currently available only in the US region. Only the survey responders based in the US region will be able to view, access, and redeem the promo codes. 
 > - Promo codes allow a responder to enter Microsoft Surface book sweepstakes and are valid only until the end of the month. For detailed terms and conditions, see the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/p/?linkid=530144).
-> - A Microsoft account is required to redeem the promo code. Per day, only one promo code can be redeemed using a Microsoft account, up to a maximum of 10 sweepstakes entries in a month.
+> - A Microsoft account is required to redeem the promo code. You can redeem only one promo code per day using a Microsoft account, up to a maximum of 10 promo codes in a month.
 
 ## Disable survey incentives in a tenant
 
