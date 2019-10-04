@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/01/2019
+ms.date: 10/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7771F115-DD60-4084-A8C3-A0DDBC2128A3
@@ -30,6 +30,9 @@ For steps to install a template app and get started, see [Install and distribute
 ### Connect to Dynamics 365 Customer Service data
 
 If you choose to connect to Dynamics 365 Customer Service data, enter the URL associated to your Dynamics 365 Customer Service instance and select **Next**. If prompted, select **oAuth2** as the authentication method, select **Sign in**, and then enter the credentials.
+
+> [!NOTE]
+> It is recommended that you have the latest version of Dynamics 365 Customer Service.
 
 ## Report
 
