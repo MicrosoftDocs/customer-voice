@@ -29,7 +29,7 @@ For steps to install a template app and get started, see [Install and distribute
 
 ### Connect to Dynamics 365 Customer Service data
 
-If you choose to connect to Dynamics 365 Customer Service data, enter the URL associated to your Dynamics 365 Customer Service instance and select **Next**. On the next screen, select **oAuth2** as the authentication method, select **Sign in**, and then enter the credentials.
+If you choose to connect to Dynamics 365 Customer Service data, enter the URL associated to your Dynamics 365 Customer Service instance and select **Next**. If prompted, select **oAuth2** as the authentication method, select **Sign in**, and then enter the credentials.
 
 ## Report
 
