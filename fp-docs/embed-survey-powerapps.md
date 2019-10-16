@@ -63,7 +63,7 @@ You can embed your surveys in the canvas apps created using PowerApps. This allo
 
 ## See also
 
-[Define who can respond to a survey](invite-settings.md)<br>
+[Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
 [Embed survey in a webpage](embed-web-page.md)<br>

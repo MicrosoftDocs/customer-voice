@@ -17,8 +17,6 @@ search.appverid:
 
 # Send a survey link to others
 
-
-
 If you don't have the email addresses of the people who you want to view your survey, or if you don't want to use the built-in email composer for this purpose, you can easily copy a custom link that lets you send your survey to others.
 
 > [!NOTE]
@@ -33,8 +31,9 @@ If you don't have the email addresses of the people who you want to view your su
 
 ## See also
 
-[Define who can respond to a survey](invite-settings.md)<br>
+[Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
 [Embed survey in a web page](embed-web-page.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey QR code](send-survey-qrcode.md)<br>
+[Embed a survey in PowerApps](embed-survey-powerapps.md)
