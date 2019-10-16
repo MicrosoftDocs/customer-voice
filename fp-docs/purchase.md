@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 08/06/2019
+ms.date: 10/01/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
@@ -19,11 +19,11 @@ search.appverid:
 
 Microsoft Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
  
-## Purchase Microsoft Forms Pro for users in a Dynamics 365 tenant
+## Purchase additional responses for Microsoft Forms Pro users in a Dynamics 365 tenant
 
 Microsoft Forms Pro is included as part of the Dynamics 365 enterprise license. A tenant with a Dynamics 365 enterprise license has 2000 responses per month included at the tenant level (irrespective of how many seats the tenant has).
  
-You can purchase more capacity from the Microsoft 365 admin center.
+You can purchase additional responses from the Microsoft 365 admin center.
  
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com/). 
 

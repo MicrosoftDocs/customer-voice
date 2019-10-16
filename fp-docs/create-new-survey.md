@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 10/01/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: EA713CA9-6B0B-45A3-A700-22C164465411
@@ -17,13 +17,11 @@ search.appverid:
 
 # Create a new survey
 
-
-
 To create a new survey with Forms Pro:
 
 1.	Sign in to Forms Pro with your Office 365 credentials.
 
-2.	Under **My Forms**, select **New Survey**.
+2.	Under **My Forms**, select **New Pro Survey**.
 
     > [!div class=mx-imgBorder]
     > ![New survey](media/new-survey-button.png "New survey") 

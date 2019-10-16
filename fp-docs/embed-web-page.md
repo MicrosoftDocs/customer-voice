@@ -17,8 +17,6 @@ search.appverid:
 
 # Embed survey in a webpage
 
-
-
 You can embed your survey in a webpage by pasting the survey's embed code into your webpage’s source code. You can choose how you want the survey to appear:
 
 - **Inline**: Displays the survey statically on the webpage.
@@ -86,8 +84,9 @@ The preceding method calls the `renderSurvey` function and passes the required v
 
 ## See also
 
-[Define who can respond to a survey](invite-settings.md)<br>
+[Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey QR code](send-survey-qrcode.md)<br>
+[Embed a survey in PowerApps](embed-survey-powerapps.md)
