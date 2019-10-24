@@ -57,6 +57,27 @@ To create a new survey with Forms Pro:
 > - You can create a classic form within Microsoft Forms Pro. More information: [Create a classic form](create-classic-form.md).
 > - You can also create quizzes within Microsoft Forms Pro to get real-time feedback. For steps to create a quiz, see: [Create a quiz with Microsoft Forms](https://support.office.com/en-us/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
 
+## Proactive phishing prevention
+
+Phishing attacks attempt to steal sensitive information through emails, websites, text messages, or other forms of electronic communication that often look to be official communication from legitimate companies or individuals. The information that phishers attempt to steal can be passwords or other credentials.
+
+In Microsoft Forms Pro, we enable automated machine reviews to proactively detect malicious password collection in surveys.
+
+If you suspect a survey you've received is attempting to collect passwords or other sensitive information in Microsoft Forms Pro, report it to help prevent yours and other's private information from getting compromised. Below the **Submit** button at the bottom of the suspected survey, select **Report** abuse.
+
+> [!div class=mx-imgBorder]
+> ![Report abuse](media/report-abuse.png "Report abuse")
+
+When the survey is reported as abused, it is sent to the Microsoft Office security team and gets blocked. The administrator receives a notification and an option to unblock the survey.
+
+### Survey designer experience
+
+While designing a survey if you ask any questions that requires a respondent to provide password, account information, or other security information, the survey is automatically blocked and can't be distributed. The administrator receives a notification and an option to unblock the survey. If you want to distribute the survey, you must contact your administrator to unblock it.
+
+### Administrator experience
+
+When a survey is blocked automatically, the administrator receives a notification in **Message center** with an option to unblock the survey. For the surveys reported as abused by a respondent, administrator receives an email from the Microsoft Office security team. For information on how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/en-us/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
+
 ## See also
 
 [Apply theme to a survey](apply-theme.md)<br>
