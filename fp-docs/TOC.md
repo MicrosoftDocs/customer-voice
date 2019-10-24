@@ -23,7 +23,7 @@
 ## [Work with survey settings](invite-settings.md)  
 ## [Send a survey by using email](send-survey-email.md)  
 ## [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)  
-## [Embed survey in a web page](embed-web-page.md)  
+## [Embed survey in a webpage](embed-web-page.md)  
 ## [Send a survey link to others](send-survey-link.md)  
 ## [Send a survey QR code](send-survey-qrcode.md)  
 ## [Create a survey invitation](create-survey-invite.md)

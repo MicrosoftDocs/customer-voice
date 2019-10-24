@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/14/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 649b3390-c3a5-4166-a014-ae3cfd14cc71
@@ -17,13 +17,19 @@ search.appverid:
 
 # Embed survey in a webpage
 
-You can embed your survey in a webpage by pasting the survey's embed code into your webpage’s source code. You can choose how you want the survey to appear:
+You can embed your survey in a webpage by pasting the survey's embed code into your webpage's source code. You can choose one of the following embed styles for your survey:
 
 - **Inline**: Displays the survey statically on the webpage.
 
 - **Pop-up**: Displays the survey in a pop-up window based on the respondent’s action.
 
 - **Button**: Displays the survey when a button is selected. By default, the button name is **Provide feedback**.
+
+You can also select a display density for your survey. The display density controls the amount of white spaces and the size of the elements on the screen. Following options are available for the display density:
+
+- **Standard**: Displays the survey with the standard amount of white spaces and the size of the elements on the screen.
+
+- **Compact**: Displays the survey with the reduced amount of white spaces and the size of the elements on the screen. By default, **Compact** is selected. This display density is useful for displaying the survey on smaller screen devices such as mobile or tablet.
 
 You can also select or define custom context parameters. Context parameters allow you to capture your respondent’s information and the context in which the response was provided and store that data in the survey response. By default, **First name**, **Last name**, **Email**, and **URL** are available as context parameters. Additionally, you can define 10 custom context parameters.
 
@@ -44,14 +50,20 @@ To embed your survey:
 
     -   Button
 
-3.  Optionally, under **Select parameters to add in embed code**, select one or all out-of-the-box parameters, or select **Add custom parameter** to create a new parameter.
+3. Under **Select display density**, select one of the following options:
 
-4.  Select **Generate code**. The embed code is generated as per the selected options.
+    - Standard
 
-5.  Select **Copy**, and then paste the embed code into a webpage to embed your survey. You must then update the webpage’s source code to render the survey on the webpage. For information on how to update the source code, see [Update a webpage's source code](#update-a-webpages-source-code).  
+    - Compact
+
+4.  Optionally, under **Select parameters to add in embed code**, select one or all out-of-the-box parameters, or select **Add custom parameter** to create a new parameter.
+
+5.  Select **Generate code**. The embed code is generated as per the selected options.
+
+6.  Select **Copy**, and then paste the embed code into a webpage to embed your survey. You must then update the webpage’s source code to render the survey on the webpage. For information on how to update the source code, see [Update a webpage's source code](#update-a-webpages-source-code).  
 
     > [!div class=mx-imgBorder]
-    > ![embed a survey in a web page](media/survey-embed.png "Embed a survey in a web page")  
+    > ![embed a survey in a webpage](media/survey-embed.png "Embed a survey in a webpage")  
 
 ## Update a webpage's source code
 
