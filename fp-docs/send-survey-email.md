@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/16/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -31,7 +31,7 @@ After creating a survey, you can send it through email:
 
 4.  To add an unsubscribe link to your email message, see [Unsubscribe from a survey](#unsubscribe-from-a-survey).  
 
-5.  To personalize the email by using first and last names of the respondent, see [Personalize an email](#personalize-an-email).
+5.  To personalize the email by using survey variables, see [Personalize an email](#personalize-an-email).
 
 6. To embed the first question of the survey into your email message, see [Embed survey in an email](#embed-survey-in-an-email).
 
@@ -52,13 +52,11 @@ You can configure your email message to include a link that allows a respondent 
 
 ## Personalize an email
 
-Personalize your survey email by using placeholders. For example, place the cursor where you want a first name to appear. Select **Personalize**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. 
+Personalize your survey email by using placeholders. For example, place the cursor where you want a first name to appear. Select **Variables**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. All the survey variables created in a survey are displayed in the **Variables** menu.
 
-The following variables are available:
+To create a new variable, select **New variable** from the **Variables** menu. For information on creating and providing values to the variables, see [Personalize a survey](personalize-survey.md)
 
-- **First name**: Inserts first name of the recipient.
-
-- **Last name**: Inserts last name of the recipient.
+If the values are not defined for the survey variables, a warning message is displayed at the top of the page.
 
 ## Embed survey in an email
 
@@ -85,7 +83,8 @@ You can perform these actions on an email template:
 - **Rename**: Rename the current email template.
 
 > [!NOTE]
-> You can save a maximum of 10 email templates.
+> - You can save a maximum of 10 email templates.
+> - If you have used survey variables in an email template, which are not part of the survey, an error message is displayed at the top of the page and you are not allowed to send the survey through email or Flow. The survey variables are highlighted in red. You must remove the highlighted survey variables from the email message to send the survey.
 
 ## See also
 
