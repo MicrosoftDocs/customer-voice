@@ -52,11 +52,11 @@ You can configure your email message to include a link that allows a respondent 
 
 ## Personalize an email
 
-Personalize your survey email by using placeholders. For example, place the cursor where you want a first name to appear. Select **Variables**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. All the survey variables created in a survey are displayed in the **Variables** menu.
+Personalize your survey email by using survey variables. For example, place the cursor where you want a first name to appear. Select **Variables**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. All the survey variables created in a survey are displayed in the **Variables** list.
 
-To create a new variable, select **New variable** from the **Variables** menu. For information on creating and providing values to the variables, see [Personalize a survey](personalize-survey.md)
+To create a new variable, select **New variable** from the **Variables** list. For information on creating and providing values to the variables, see [Personalize a survey](personalize-survey.md)
 
-If the values are not defined for the survey variables, a warning message is displayed at the top of the page.
+If the default values are not defined for survey variables, a warning message is displayed at the top of the page.
 
 ## Embed survey in an email
 
