@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/16/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7941BC7A-EAD5-460C-BDCA-A4B1E9BFB401
@@ -69,7 +69,7 @@ To redeem a code:
 
 1. Select **Redeem code** on the thank you page after completing the survey.
 
-2. Sign in to your Microsoft Rewards dashboard.
+2. Sign in to [Microsoft Rewards](https://www.microsoft.com/rewards).
 
 3. On the **Redeem your code** page, enter the promo code, and select **Next**.
 
@@ -81,11 +81,11 @@ To redeem a code:
 
 7. On the **Confirm your reward** page, select **Confirm reward**.
 
-You must receive a confirmation email from Microsoft Rewards about your sweepstakes entry. If you do not receive any email confirmation:
+You will receive a confirmation email from Microsoft Rewards about your sweepstakes entry. If you do not receive an email confirmation:
 
 1. Sign in to [https://account.microsoft.com/rewards/redeem/](https://account.microsoft.com/rewards/redeem/).
 
-2. Find the **Sweepstakes: Surface Laptop 2 + Surface Headphones** tile. If the **Redeem reward** link is available on the tile, the redeem process is not completed successfully.
+2. Find the reward you are claiming. For example, **Sweepstakes: Surface Laptop 2 + Surface Headphones**. If the **Redeem reward** link is available on the tile, the redeem process was not completed successfully.
 
     > [!div class=mx-imgBorder]
     > ![Redeem reward](media/redeem-reward.png "Redeem reward")
