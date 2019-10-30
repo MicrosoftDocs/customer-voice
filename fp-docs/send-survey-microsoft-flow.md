@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 08/06/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
@@ -16,8 +16,6 @@ search.appverid:
 ---
 
 # Send a survey by using Microsoft Flow
-
-
 
 After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Microsoft Flow. The following flow templates are available out of the box in Forms Pro:
 
@@ -29,9 +27,9 @@ After creating a survey, you can send it to respondents based on a business trig
 
 To send a survey by using Microsoft Flow:
 
-1.  Open the survey you want to send, and go to **Send Survey** &gt; **Microsoft Flow**.
+1.  Open the survey you want to send, and select **Send** from the toolbar at the top of the page.
 
-2.  Compose the email.
+2. Select **Microsoft Flow** and compose the email.
 
 3.  Select **Configure Flow**.
 
@@ -40,7 +38,7 @@ To send a survey by using Microsoft Flow:
 5.  To create a flow from scratch, select **Create from blank**. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
 
 > [!NOTE]
-> - While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the **Send Survey** tab, and then come back to create the flow again.
+> - While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the tab, and then come back to create the flow again.
 > - If you have added personalized data in your survey, you must specify their values in the flow. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 5.  Select **Create Flow**.
@@ -108,7 +106,7 @@ If required, you can also edit a flow by selecting the **Edit** symbol. The flow
 
 To view flow history:
 
-1.  Open the survey for which you want to view flow history, and go to **Send Survey** &gt; **Home**.
+1.  Open the survey for which you want to view flow history, and select **Send** from the toolbar at the top of the page.
 
 2.  On the **Microsoft Flow** tile, select **Flows configured**.
 

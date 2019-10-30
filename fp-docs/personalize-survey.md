@@ -29,7 +29,7 @@ To create a new survey variable:
 
 1.	Open the survey in which you want to use survey variables.
 
-2.	On the **Create Questions** tab, select the ellipsis button (…) from the toolbar at the top of the page, and then select **Survey variables**.
+2.	Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Survey variables**.
 
     > [!div class=mx-imgBorder]
     > ![Personalize button](media/custom-data-button.png "Personalize button")
@@ -50,7 +50,7 @@ After creating the required survey variables, you need to add them in the questi
 
 1.	Open the survey in which you want to add survey variables.
 
-2.	On the **Create Questions** tab, select the question text to which you want to add a survey variable. The formatting toolbar appears.
+2.	On the **Questions** tab, select the question text to which you want to add a survey variable. The formatting toolbar appears.
 
 3.	Place the cursor at the location where you want to add the survey variable.
 

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/16/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -31,7 +31,7 @@ Let's now see the options you can select to define who can respond to a survey a
 ### Anyone with the link can respond
 
 1. Open the survey for which you want to change survey settings.
-2. On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
+2. Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
 3. Select **Anyone with the link can respond**. When you select this option, respondents are not required to sign in with their credentials.
@@ -45,7 +45,7 @@ Let's now see the options you can select to define who can respond to a survey a
 ### Only people in my organization can respond
 
 1. Open the survey for which you want to change survey settings.
-2. On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
+2. Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
 3. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 

@@ -19,7 +19,7 @@ search.appverid:
 
 
 
-A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **View Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
+A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
 
 > [!div class=mx-imgBorder]
 > ![Survey invitations](media/survey-invites.png "Survey invitations")

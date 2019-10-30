@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6f6d60eb-3c67-4e40-9abb-b3016ec16ea0
@@ -17,9 +17,7 @@ search.appverid:
 
 # Analyze survey insights
 
-
-
-When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. A summary of the insights is displayed on the **Analyze** tab.
+When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. To see a summary of the insights, **Responses** &gt; **Overview**. The summary is displayed under **Latest insights**.
 
 > [!div class=mx-imgBorder]
 > ![view survey insights](media/survey-insights.png "View survey insights")  

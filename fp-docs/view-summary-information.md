@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
@@ -17,9 +17,7 @@ search.appverid:
 
 # View summary information for your survey
 
-
-
-After you create your survey, adjust its settings, and share your survey with others, it’s time to view the results and insights. Open the survey that you want to review, and then select the **View Responses** tab.
+After you create your survey, adjust its settings, and share your survey with others, it's time to view the results and insights. Open the survey that you want to review, and then select the **Responses** tab.
 
 On the **Overview** tab, you’ll see summary data about your survey, such as number of invitations sent, number of responses received, Net Promoter Score (NPS), respondent sentiment, and survey insights. You can select **Invitations** or **Responses** to get more details.
 

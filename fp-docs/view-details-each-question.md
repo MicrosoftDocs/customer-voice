@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6c936024-24e5-4d76-9eb1-20f27c8c746e
@@ -17,9 +17,7 @@ search.appverid:
 
 # View details for each question
 
-
-
-You can view details for each question in the survey by going to **View Responses** &gt; **Question responses**. A graphical representation of the responses is displayed. The visualizations on the **Question responses** page are all connected to each other. What this means is that if you select one or more values in one visualization, other visualizations that use that same value will change based on your selection.
+You can view details for each question in the survey by going to **Responses** &gt; **Question-wise analysis**. A graphical representation of the responses is displayed. The visualizations on the **Question-wise analysis** page are all connected to each other. What this means is that if you select one or more values in one visualization, other visualizations that use that same value will change based on your selection.
 
 > [!div class=mx-imgBorder]
 > ![Question responses summary](media/ques-responses.png "Question responses summary")

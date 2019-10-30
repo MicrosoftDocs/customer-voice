@@ -47,7 +47,7 @@
 
 # [Monitor customer satisfaction](customer-satisfaction-app.md)
 
-# [Troubleshoot Forms pro](troubleshoot.md)
+# [Troubleshoot Forms Pro](troubleshoot.md)
 
 # [Microsoft Forms Pro FAQ](mfp-faq.md)
 
