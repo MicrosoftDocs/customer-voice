@@ -21,7 +21,7 @@ After you have created and edited a survey, preview and test it before distribut
 
 1.  Open the survey you want to preview.
 
-2.  Select **Preview** ![preview a survey](media/preview-survey.png "Preview a survey") from the toolbar at the top of the page to see how your survey will look on a computer.
+2.  Select **Preview** from the toolbar at the top of the page to see how your survey will look on a computer.
 
 3.  To test your survey, enter responses for the questions in preview mode, and then select **Submit**.
 

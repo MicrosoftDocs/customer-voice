@@ -32,7 +32,7 @@ To create a new survey variable:
 2.	Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Survey variables**.
 
     > [!div class=mx-imgBorder]
-    > ![Personalize button](media/custom-data-button.png "Personalize button")
+    > ![Survey variables button](media/custom-data-button.png "Survey variables button")
 
 3.	Select **New variable**.
 

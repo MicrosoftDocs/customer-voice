@@ -85,11 +85,20 @@ After adding translations for all languages, you must preview the survey to see 
 
 1. In the **Multilingual** pane, select **Edit all**.
 
+    > [!div class=mx-imgBorder]
+    > ![Edit all languages](media/edit-all-lang.png "Edit all languages") 
+
 2. Select **Download this Excel** to download an Excel file containing strings in the primary language and columns for each of the selected language. For example, **es** for Spanish, **fr** for French, and so on.
+
+    > [!div class=mx-imgBorder]
+    > ![Download Excel file to edit all languages](media/download-excel.png "Download Excel file to edit all languages") 
 
 3. Open the Excel file and add translations for each language in its respective column.
 
 4. After adding translations for all languages, go to the **Multilingual > Edit all** pane, and then select **Upload Excel file**.
+
+    > [!div class=mx-imgBorder]
+    > ![Upload Excel file containing translations for all languages](media/upload-excel.png "Upload Excel file containing translations for all languages") 
 
 5. Browse and select the Excel file in which you have added translations.
 

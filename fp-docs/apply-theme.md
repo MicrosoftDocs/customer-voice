@@ -29,7 +29,7 @@ To apply a theme:
 
 1.  Open the survey for which you want to change the theme.
 
-2.  Select **Theme** ![apply a theme to the survey](media/apply-theme.png "Apply a theme to the survey") from the toolbar at the top of the page, and choose the color or background you want.
+2.  Select **Theme** from the toolbar at the top of the page, and choose the color or background you want.
 
 3.  If you want to select another background image or change the color of the survey, select **Customize theme** ![Customize theme of the survey](media/customize-theme.png "Customize theme of the survey"), and then select one of the following:
 
