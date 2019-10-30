@@ -33,9 +33,9 @@ To send a survey by using Microsoft Flow:
 
 3.  Select **Configure Flow**.
 
-4.  To configure a built-in flow, select a template. For information on creating a flow from a template, see [Create a flow from a template in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-template). 
+4.  To configure a built-in flow, select a template. For information on creating a flow from a template, see [Create a flow from a template in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-template). 
 
-5.  To create a flow from scratch, select **Create from blank**. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
+5.  To create a flow from scratch, select **Create from blank**. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-flow).
 
 > [!NOTE]
 > - While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the tab, and then come back to create the flow again.
@@ -97,7 +97,7 @@ Flow history is displayed in a grid with the following information:
 
 - **Failures (last 200 runs)**: Number of times a flow has failed out of the last 200 runs.
 
-- **Status**: Status of the flow: on or off. You can update a flow’s status from Microsoft Flow. For more information, see [Manage a flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow#manage-a-flow).  
+- **Status**: Status of the flow: on or off. You can update a flow’s status from Microsoft Flow. For more information, see [Manage a flow](https://docs.microsoft.com/flow/get-started-logic-flow#manage-a-flow).  
 
 If required, you can also edit a flow by selecting the **Edit** symbol. The flow editor opens in Microsoft Flow, from which you make your changes.
 

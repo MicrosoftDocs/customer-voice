@@ -55,7 +55,7 @@ To create a new survey with Forms Pro:
 > [!NOTE]
 > - You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md).
 > - You can create a classic form within Microsoft Forms Pro. More information: [Create a classic form](create-classic-form.md).
-> - You can also create quizzes within Microsoft Forms Pro to get real-time feedback. For steps to create a quiz, see: [Create a quiz with Microsoft Forms](https://support.office.com/en-us/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
+> - You can also create quizzes within Microsoft Forms Pro to get real-time feedback. For steps to create a quiz, see: [Create a quiz with Microsoft Forms](https://support.office.com/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
 
 ## Proactive phishing prevention
 
@@ -76,7 +76,7 @@ While designing a survey if you ask any questions that requires a respondent to 
 
 ### Administrator experience
 
-When a survey is blocked automatically, the administrator receives a notification in **Message center** with an option to unblock the survey. For the surveys reported as abused by a respondent, administrator receives an email from the Microsoft Office security team. For information on how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/en-us/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
+When a survey is blocked automatically, the administrator receives a notification in **Message center** with an option to unblock the survey. For the surveys reported as abused by a respondent, administrator receives an email from the Microsoft Office security team. For information on how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
 
 ## See also
 

@@ -23,9 +23,9 @@ Use the Forms Pro Customer Satisfaction app to get an insights report that links
 
 The Forms Pro Customer Satisfaction app is a template app built using Power BI. This app helps you to know your customers' satisfaction and your agents' performance. You can connect your Dynamics 365 Customer Service instance to view insights based on your business data. This app comes with sample data for you to navigate and explore the app. It also gives you the capability to edit and customize the workspace as per your requirement.
 
-For more information on template apps, see [What are Power BI template apps?](https://docs.microsoft.com/en-us/power-bi/service-template-apps-overview)
+For more information on template apps, see [What are Power BI template apps?](https://docs.microsoft.com/power-bi/service-template-apps-overview)
 
-For steps to install a template app and get started, see [Install and distribute template apps](https://docs.microsoft.com/en-us/power-bi/service-template-apps-install-distribute).
+For steps to install a template app and get started, see [Install and distribute template apps](https://docs.microsoft.com/power-bi/service-template-apps-install-distribute).
 
 ### Connect to Dynamics 365 Customer Service data
 
@@ -46,9 +46,9 @@ You can filter the data using the **Date** filter at the top of the report. The 
 
 If you would like to select a different survey for displaying insights, you can do it from the **Filters** pane on the right-side of the report. Open the pane and select a survey from the **Survey Name** filter under **Filters on all pages**. 
 
-For more information on working with filters in Power BI reports, see [The new filter experience in Power BI reports](https://docs.microsoft.com/en-us/power-bi/power-bi-report-filter).
+For more information on working with filters in Power BI reports, see [The new filter experience in Power BI reports](https://docs.microsoft.com/power-bi/power-bi-report-filter).
 
-For more information on working with reports, see [Reports in Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-reports).
+For more information on working with reports, see [Reports in Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-reports).
 
 ### Overview
 

@@ -33,7 +33,7 @@ To create a classic form:
     > [!div class=mx-imgBorder]
     > ![New Form button](media/new-form-button.png "New Form button") 
 
-5. To create a form, follow the steps in [Create a form with Microsoft Forms](https://support.office.com/en-us/article/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d).
+5. To create a form, follow the steps in [Create a form with Microsoft Forms](https://support.office.com/article/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d).
 
 
 ## See also

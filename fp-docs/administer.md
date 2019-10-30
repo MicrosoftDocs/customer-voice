@@ -47,5 +47,5 @@ To enable Forms Pro:
 
 ## Turn off Forms Pro
 
-If you want to turn off Forms Pro in your tenant, disable the Azure Active Directory self-service sign-up. For more information on self-service sign-up, see [What is self-service sign-up for Azure Active Directory?](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-self-service-signup).
+If you want to turn off Forms Pro in your tenant, disable the Azure Active Directory self-service sign-up. For more information on self-service sign-up, see [What is self-service sign-up for Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-self-service-signup).
 

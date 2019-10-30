@@ -21,7 +21,7 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
-2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
+2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-flow).
 
 3. In the flow editor, add a trigger to start your flow.
 
