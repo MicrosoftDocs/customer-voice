@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/16/2019
+ms.date: 10/30/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 4744BE88-5FDF-4FE7-A555-0A8D83EC86F0
@@ -35,7 +35,14 @@ By default, Forms Pro is enabled for all users in your tenant. As an administrat
 
 ## Enable Forms Pro for users with Dynamics 365 enterprise licenses
 
-Microsoft Forms Pro is included as part of the Dynamics 365 enterprise license. A tenant with a Dynamics 365 enterprise license has 2,000 responses per month included at the tenant level (irrespective of how many seats the tenant has). To purchase additional responses, see [Purchase additional responses for Microsoft Forms Pro users in a Dynamics 365 tenant](purchase.md#purchase-additional-responses-for-microsoft-forms-pro-users-in-a-dynamics-365-tenant).
+Microsoft Forms Pro, built on top of Microsoft Office Forms, is a paid license and works as below:
+- The license is based on the number of responses.
+- For a Dynamics 365 enterprise licensed tenant, 2000 responses are free and the customer can choose to purchase additional responses in bundles of $100 per 2000 responses.
+- For an Office 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 per 2000 responses.
+- If a tenant has Office 365 license, turning off license for Office Forms will also turn off Microsoft Forms Pro.
+
+
+For details on purchasing additional responses, see [Purchase additional responses for Microsoft Forms Pro users in a Dynamics 365 tenant](purchase.md#purchase-additional-responses-for-microsoft-forms-pro-users-in-a-dynamics-365-tenant).
 
 To enable Forms Pro:
 
