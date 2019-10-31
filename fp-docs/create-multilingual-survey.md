@@ -57,8 +57,8 @@ To create a multilingual survey:
 
 There are two options to add translations:
 
-1. [Translate all languages in bulk](#option-1-add-translation-for-all-languages-together)
-2. [Translate individual languages](#option-2-add-translation-for-individual-languages)
+1. [Translate all languages in bulk](#option-1-translate-all-languages-in-bulk)
+2. [Translate individual languages](#option-2-translate-individual-languages)
 
 ### Option 1: Translate all languages in bulk
 
@@ -130,7 +130,7 @@ After adding translations for the required languages in your survey, you can eit
     > ![Edit the language added for the survey](media/edit-lang.png "Edit the language added for the survey") 
 
     > [!NOTE]
-    > To edit all languages together, select **Edit all** and follow the steps mentioned in [Option 2: Add translation for all languages together](#option-2-add-translation-for-all-languages-together).
+    > To edit all languages together, select **Edit all** and follow the steps mentioned in [Option 1: Translate all languages in bulk](#option-1-translate-all-languages-in-bulk)
 
 4.	Edit the translations as required.
 

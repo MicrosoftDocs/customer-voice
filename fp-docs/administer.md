@@ -41,8 +41,6 @@ Microsoft Forms Pro, built on top of Microsoft Office Forms, is a paid license a
 - For an Office 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 per 2000 responses.
 - If a tenant has Office 365 license, turning off license for Office Forms will also turn off Microsoft Forms Pro.
 
-For details on purchasing additional responses, see [Purchase additional responses for Microsoft Forms Pro users in a Dynamics 365 tenant](purchase.md#purchase-additional-responses-for-microsoft-forms-pro-users-in-a-dynamics-365-tenant).
-
 To enable Forms Pro:
 
 1. Sign in to Forms.
