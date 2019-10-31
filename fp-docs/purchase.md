@@ -17,14 +17,28 @@ search.appverid:
 
 # Purchase Microsoft Forms Pro
 
-Microsoft Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level. 
+Microsoft Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
-As of October 2019, for Dynamics 365 seeded response count and purchase of additional license for $100, the response capacity is counted annually. If the consumed response capacity exceeds the annual capacity responses (for example, 24000 (12 X 2000 per month), or if $200 worth of additional capacity is purchased, then the annual capacity will be 48000) in any given month, then creating new surveys will be disabled. Existing surveys will continue to receive responses.
- 
-## Purchase additional responses for Microsoft Forms Pro users in a Dynamics 365 tenant
+- For a Dynamics 365 enterprise licensed tenant, 2000 responses are free and the customer can choose to purchase additional responses in bundles of $100 per 2000 responses.
+- For an Office 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 per 2000 responses.
+- If a tenant has Office 365 license, turning off license for Office Forms will also turn off Microsoft Forms Pro.
+
+## Enable Forms Pro for users with Dynamics 365 enterprise licenses
 
 Microsoft Forms Pro is included as part of the Dynamics 365 enterprise license. A tenant with a Dynamics 365 enterprise license has 2000 responses per month included at the tenant level (irrespective of how many seats the tenant has).
- 
+
+To enable Forms Pro:
+
+1. Sign in to Forms.
+
+2. Select your username from the upper-right corner of the page.
+
+3. Select **Switch to Forms Pro**.
+
+If the free responses are exhausted, you can purchase additional responses as mentioned in the following section.
+
+### Purchase additional responses
+
 You can purchase additional responses from the Microsoft 365 admin center.
  
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com/). 
@@ -141,4 +155,8 @@ If your tenant does not have Dynamics 365 licenses that include Microsoft Forms 
 4.	In the **Product licenses** row, select **Edit**.
 
 5.	On the **Product licenses** page, turn the **Microsoft Forms Pro USL** toggle to **Off**. 
+
+## Response capacity consumption
+
+When you purchase an additional license for $100, the response capacity is counted annually. If the consumed response capacity exceeds the annual capacity responses (for example, 24000 (12 X 2000 per month), or if $200 worth of additional capacity is purchased, then the annual capacity will be 48000) in any given month, then creating new surveys will be disabled. Existing surveys will continue to receive responses.
 

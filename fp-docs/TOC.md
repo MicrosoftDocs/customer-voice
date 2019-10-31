@@ -4,8 +4,6 @@
 
 # [Purchase Microsoft Forms Pro](purchase.md)
 
-# [Administer Microsoft Forms Pro](administer.md)
-
 # [Plan a survey](plan-survey.md)
 
 # [Create a survey](create-survey.md)
