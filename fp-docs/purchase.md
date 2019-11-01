@@ -106,7 +106,7 @@ If you need to give access to Microsoft Forms Pro for users who do not have a Dy
 
 ## Purchase Microsoft Forms Pro for users in an Office 365 tenant
 
-If your tenant does not have Dynamics 365 licenses that include Microsoft Forms Pro, follow these steps to purchase Microsoft Forms Pro:    
+If your tenant does not have Dynamics 365 enterprise licenses that include Microsoft Forms Pro, follow these steps to purchase Microsoft Forms Pro:    
 
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com/). 
 
