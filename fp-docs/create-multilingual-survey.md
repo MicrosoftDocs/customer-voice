@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7BE3FAAC-79AC-4F8C-8C56-BF9BA3B52C67
@@ -33,7 +33,7 @@ To create a multilingual survey:
 
 1.	Open the survey in which you want to enable multiple languages.
 
-2.	On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Multilingual**.
+2.	Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Multilingual**.
 
     > [!div class=mx-imgBorder]
     > ![Multilingual button](media/multilingual-button.png "Multilingual button") 
@@ -69,7 +69,7 @@ To create a multilingual survey:
 
 4.	Repeat steps 2 - 3 to add translations for other languages.
 
-After adding translations for all languages, you must preview the survey to see if everything works as expected. Select the language from the language selector at the upper-right corner of the survey.
+After adding translations for all languages, you can preview the survey to see if everything works as expected. Select the language from the language selector at the upper-right corner of the survey.
 
 > [!div class=mx-imgBorder]
 > ![Translated survey](media/translated-survey.png "Translated survey") 
@@ -80,7 +80,7 @@ After adding translations for the required languages in your survey, you can eit
 
 1.	Open the multilingual survey in which you want to manage translations.
 
-2.	On the **Create Questions** tab, select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Multilingual**.
+2.	Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Multilingual**.
 
     > [!div class=mx-imgBorder]
     > ![Multilingual button](media/multilingual-button.png "Multilingual button") 

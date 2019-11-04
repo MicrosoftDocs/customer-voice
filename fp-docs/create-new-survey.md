@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/01/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: EA713CA9-6B0B-45A3-A700-22C164465411
@@ -55,7 +55,21 @@ To create a new survey with Forms Pro:
 > [!NOTE]
 > - You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md).
 > - You can create a classic form within Microsoft Forms Pro. More information: [Create a classic form](create-classic-form.md).
-> - You can also create quizzes within Microsoft Forms Pro to get real-time feedback. For steps to create a quiz, see: [Create a quiz with Microsoft Forms](https://support.office.com/en-us/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
+> - You can also create quizzes within Microsoft Forms Pro to get real-time feedback. For steps to create a quiz, see: [Create a quiz with Microsoft Forms](https://support.office.com/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
+
+## Proactive phishing prevention
+
+Phishing attacks attempt to steal sensitive information through emails, websites, text messages, or other forms of electronic communication that often look to be official communication from legitimate companies or individuals. The information that phishers attempt to steal can be passwords or other credentials.
+
+In Microsoft Forms Pro, we enable automated machine reviews to proactively detect malicious password collection in surveys.
+
+### Survey designer experience
+
+While designing a survey if you ask any questions that requires a respondent to provide password, account information, or other security information, the survey is automatically blocked and can't be distributed. The administrator receives a notification and an option to unblock the survey. If you want to distribute the survey, you must contact your administrator to unblock it.
+
+### Administrator experience
+
+When a survey is blocked automatically, the administrator receives a daily notification in **Message center** with an option to unblock the survey. For information on how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
 
 ## See also
 

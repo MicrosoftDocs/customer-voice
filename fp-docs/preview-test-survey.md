@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 07e97246-0eb2-4474-863b-363bd1a267fd
@@ -17,13 +17,11 @@ search.appverid:
 
 # Preview and test a survey
 
-
-
 After you have created and edited a survey, preview and test it before distributing it to respondents:
 
 1.  Open the survey you want to preview.
 
-2.  On the **Create Questions** tab, select **Preview** ![preview a survey](media/preview-survey.png "Preview a survey") from the toolbar at the top of the page to see how your survey will look on a computer.
+2.  Select **Preview** from the toolbar at the top of the page to see how your survey will look on a computer.
 
 3.  To test your survey, enter responses for the questions in preview mode, and then select **Submit**.
 

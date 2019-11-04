@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/16/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7941BC7A-EAD5-460C-BDCA-A4B1E9BFB401
@@ -47,11 +47,13 @@ When the survey incentives are turned off, the option of offer survey incentives
 
 When survey incentives are enabled by your administrator in your tenant, you can offer incentives to your respondents. Survey incentives can be enabled only while sending a survey through email. This gives you the control to enable incentives only for the required respondents.
 
-1. Open the survey in which you want to enable survey incentives, and go to **Send survey** &gt; **Email**.
+1. Open the survey in which you want to enable survey incentives, and select **Send** from the toolbar at the top of the page.
 
-2. Below the email editor, select **Offer survey incentives to respondents (US only)**.
+2. Select **Email** and compose the email message.
 
-3. Optionally, include a text in the email invitation to let the survey respondent know about the survey incentives or insert the sample text by selecting **Insert** > **Incentives information**. 
+3. Below the email editor, select **Offer survey incentives to respondents (US only)**.
+
+4. Optionally, include a text in the email invitation to let the survey respondent know about the survey incentives or insert the sample text by selecting **Insert** > **Incentives information**. 
 
     > [!div class=mx-imgBorder]
     > ![Enable survey incentives](media/enable-survey-incentives.png "Enable survey incentives")
@@ -69,7 +71,7 @@ To redeem a code:
 
 1. Select **Redeem code** on the thank you page after completing the survey.
 
-2. Sign in to your Microsoft Rewards dashboard.
+2. Sign in to [Microsoft Rewards](https://www.microsoft.com/rewards).
 
 3. On the **Redeem your code** page, enter the promo code, and select **Next**.
 
@@ -81,11 +83,11 @@ To redeem a code:
 
 7. On the **Confirm your reward** page, select **Confirm reward**.
 
-You must receive a confirmation email from Microsoft Rewards about your sweepstakes entry. If you do not receive any email confirmation:
+You will receive a confirmation email from Microsoft Rewards about your sweepstakes entry. If you do not receive an email confirmation:
 
 1. Sign in to [https://account.microsoft.com/rewards/redeem/](https://account.microsoft.com/rewards/redeem/).
 
-2. Find the **Sweepstakes: Surface Laptop 2 + Surface Headphones** tile. If the **Redeem reward** link is available on the tile, the redeem process is not completed successfully.
+2. Find the reward you are claiming. For example, **Sweepstakes: Surface Laptop 2 + Surface Headphones**.
 
     > [!div class=mx-imgBorder]
     > ![Redeem reward](media/redeem-reward.png "Redeem reward")

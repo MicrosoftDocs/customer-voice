@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/16/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -19,28 +19,30 @@ search.appverid:
 
 After creating a survey, you can send it through email: 
 
-1.  Open the survey you want to send, and go to **Send Survey** &gt; **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
+1.  Open the survey you want to send, and select **Send** from the toolbar at the top of the page. 
 
-2.  In the **To** field, enter the recipient's name or email address. You can populate the **To** field by any of the following ways:
+2. Select **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
+
+3.  In the **To** field, enter the recipient's name or email address. You can populate the **To** field by any of the following ways:
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
-    - Entering a contact or contact list/view from Common Data Services for Apps. The contacts are populated from the selected environment. For more information on working with environments, see [Work with environments](choose-environment.md). 
-    - Uploading a .csv file by selecting **Import recipients**.
+    - Entering a contact or contact list/view from Common Data Services for Apps. The contacts are populated from the selected environment. For more information on working with environments, see [Work with environments](choose-environment.md).
+    - Uploading a .csv file by selecting **Import recipients**. The CSV file supports importing a maximum of 10000 recipients.
 
-3.  To insert the survey link into your email message, see [Insert survey link](#insert-survey-link).  
+4.  To insert the survey link into your email message, see [Insert survey link](#insert-survey-link).  
 
-4.  To add an unsubscribe link to your email message, see [Unsubscribe from a survey](#unsubscribe-from-a-survey).  
+5.  To add an unsubscribe link to your email message, see [Unsubscribe from a survey](#unsubscribe-from-a-survey).  
 
-5.  To personalize the email by using first and last names of the respondent, see [Personalize an email](#personalize-an-email).
+6.  To personalize the email by using survey variables, see [Personalize an email](#personalize-an-email).
 
-6. To embed the first question of the survey into your email message, see [Embed survey in an email](#embed-survey-in-an-email).
+7. To embed the first question of the survey into your email message, see [Embed survey in an email](#embed-survey-in-an-email).
 
-7.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates)  
+8.  To select an email template, select a template from the **Template** drop-down list. By default, **Default Template** is selected. More information: [Use email templates](#use-email-templates)  
 
-8.  When you're ready to send your survey, select **Send**.
+9.  When you're ready to send your survey, select **Send**.
 
 > [!NOTE]
-> For this release, you can send a survey invitation to a maximum of 100 recipients.
+> You can send a survey invitation to a maximum of 10000 recipients.
 
 ## Insert survey link
 
@@ -52,13 +54,11 @@ You can configure your email message to include a link that allows a respondent 
 
 ## Personalize an email
 
-Personalize your survey email by using placeholders. For example, place the cursor where you want a first name to appear. Select **Personalize**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. 
+Personalize your survey email by using survey variables. For example, place the cursor where you want a first name to appear. Select **Variables**, and then select **First name** from the drop-down list. The first name of the respondent will be automatically inserted. All the survey variables created in a survey are displayed in the **Variables** list.
 
-The following variables are available:
+To create a new variable, select **New variable** from the **Variables** list. For information on creating and providing values to the variables, see [Personalize a survey](personalize-survey.md)
 
-- **First name**: Inserts first name of the recipient.
-
-- **Last name**: Inserts last name of the recipient.
+If the default values are not defined for survey variables, a warning message is displayed at the top of the page.
 
 ## Embed survey in an email
 
@@ -85,7 +85,8 @@ You can perform these actions on an email template:
 - **Rename**: Rename the current email template.
 
 > [!NOTE]
-> You can save a maximum of 10 email templates.
+> - You can save a maximum of 10 email templates.
+> - If you have used survey variables in an email template, which are not part of the survey, an error message is displayed at the top of the page and you are not allowed to send the survey through email or Flow. The survey variables are highlighted in red. You must remove the highlighted survey variables from the email message to send the survey.
 
 ## See also
 

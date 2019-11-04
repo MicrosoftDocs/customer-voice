@@ -22,11 +22,11 @@ search.appverid:
 You can embed your surveys in the canvas apps created using PowerApps. This allows users to respond to the surveys directly from the apps.
 
 > [!NOTE]
-> You must have PowerApps Plan 1 to embed your surveys in a canvas app. For more information on purchasing PowerApps, see [Purchase PowerApps for your organization](https://docs.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
+> You must have PowerApps Plan 1 to embed your surveys in a canvas app. For more information on purchasing PowerApps, see [Purchase PowerApps for your organization](https://docs.microsoft.com/power-platform/admin/signup-for-powerapps-admin).
 
 1.	Sign in to [PowerApps](https://web.powerapps.com/).
 
-2.	Create a blank canvas app or use one of the available templates. For more information on creating a canvas app, see [Create a canvas app from scratch using Common Data Service](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/data-platform-create-app-scratch).
+2.	Create a blank canvas app or use one of the available templates. For more information on creating a canvas app, see [Create a canvas app from scratch using Common Data Service](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch).
 
 3.	On the **Insert** tab, open the **Controls** menu and then add the **Forms Pro survey (Preview)** control.
 

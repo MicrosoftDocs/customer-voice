@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/14/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 8579EFA2-7734-4516-ACFA-F65999983379
@@ -17,13 +17,11 @@ search.appverid:
 
 # Create a survey invitation
 
-
-
 If you want to send a survey using a platform other than Microsoft Forms Pro, such as Outlook, Gmail, or SMS, you can create a survey invitation using Microsoft Flow. The survey invitation creates a personalized link that can be distributed by using a platform of your choice.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
-2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-flow).
+2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-flow).
 
 3. In the flow editor, add a trigger to start your flow.
 
@@ -48,7 +46,7 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
     > [!NOTE]
     > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields accordingly. For more information on **Regarding** and **Recipient details** fields and how they are stored in the survey invitation, see [Send a survey action](send-survey-microsoft-flow.md#send-a-survey-action).
-    > - If you've used personalized data placeholders in your survey, those fields will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+    > - If you've used survey variables in your survey, they will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 8. Add a new step and select the action to send the email. You can use providers such as Outlook, Gmail, or SMS; we have used Outlook to send the survey in this procedure.
 
