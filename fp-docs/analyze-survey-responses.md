@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 145f21c2-4635-4f5d-b7cf-03e90ec4b533
@@ -17,9 +17,7 @@ search.appverid:
 
 # Analyze survey responses
 
-
-
-A survey response record is created after a respondent submits a survey. To see survey responses, go to **View Responses** &gt; **Overview**, and then select **Responses** from the summary information.
+A survey response record is created after a respondent submits a survey. To see survey responses, go to **Responses** &gt; **Overview**, and then select **Responses** from the summary information.
 
 > [!div class=mx-imgBorder]
 > ![Survey responses](media/survey-responses.png "Survey responses")

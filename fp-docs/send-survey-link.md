@@ -22,9 +22,11 @@ If you don't have the email addresses of the people who you want to view your su
 > [!NOTE]
 > The survey link generated is a non-personalized link. You will not be able to record the respondent's name and whether the respondent has submitted only one response if you select **Anyone with the link can respond** in [survey settings](invite-settings.md).
 
-1.  Open the survey you want to send, and go to **Send Survey** &gt; **Link**.
+1. Open the survey you want to send, and select **Send** from the toolbar at the top of the page.
 
-2.  Select **Copy**, and then paste the provided link to a place visible to your intended audience. They can select the link to gain access to your survey.
+2. Select **Link**.
+
+3. Select **Copy**, and then paste the provided link to a place visible to your intended audience. They can select the link to gain access to your survey.
 
     > [!div class=mx-imgBorder]
     > ![get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")  
@@ -34,6 +36,6 @@ If you don't have the email addresses of the people who you want to view your su
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed survey in a web page](embed-web-page.md)<br>
+[Embed survey in a webpage](embed-web-page.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in PowerApps](embed-survey-powerapps.md)

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/26/2019
+ms.date: 11/04/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
@@ -19,7 +19,7 @@ search.appverid:
 
 
 
-A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **View Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
+A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
 
 > [!div class=mx-imgBorder]
 > ![Survey invitations](media/survey-invites.png "Survey invitations")

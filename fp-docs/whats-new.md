@@ -33,7 +33,7 @@ Following are the new and updated features in this release:
 
 - **Skip contact creation**: You can choose whether your respondent should be added as a contact in Common Data Service. This behavior can be changed through survey settings. More information: [Select survey response and notification options](invite-settings.md#select-survey-response-and-notification-options)
 
-- **Switch to Forms Pro**: Dynamics 365 enterprise users can now enable Forms Pro through the option when opening the account pane after selecting the profile picture on the upper-right corner of the page. More information: [Enable Forms Pro for users with Dynamics 365 enterprise licenses](administer.md#enable-forms-pro-for-users-with-dynamics-365-enterprise-licenses)
+- **Switch to Forms Pro**: Dynamics 365 enterprise users can now enable Forms Pro through the option when opening the account pane after selecting the profile picture on the upper-right corner of the page. More information: [Enable Forms Pro for users with Dynamics 365 enterprise licenses](purchase.md#enable-forms-pro-for-users-with-dynamics-365-enterprise-licenses)
  
 - **Updated survey response form in Dynamics 365**: View complete information about the survey when opening the survey response from the Dynamics 365 activity timeline. The updated form now includes sentiment, Net Promoter Score (NPS), and all questions-responses on the main form without navigating to different views.
  
