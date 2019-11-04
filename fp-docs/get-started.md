@@ -45,7 +45,13 @@ Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, yo
 
 ### Opt out of trial
 
-You can always opt out of the Microsoft Forms Pro trial manually. For information about opting out, see [Opt out of Forms Pro](administer.md#opt-out-of-forms-pro).
+You can always opt out of the Microsoft Forms Pro trial manually.
+
+1. Sign in to Forms Pro.
+
+2. Select your username from the upper-right corner of the page.
+
+3. Select **Switch to Forms**. When you switch to Forms, you are redirected to the Microsoft Forms experience and are no longer able to edit surveys.
 
 > [!NOTE]
 > If you opt out of the Microsoft Forms Pro trial and sign up again later, your trial end date will be counted from the first date you signed in.
