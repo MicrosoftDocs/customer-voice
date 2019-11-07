@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/16/2019
+ms.date: 11/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6104FBF8-A032-4155-805B-4B5B5D00B30F
@@ -18,6 +18,19 @@ search.appverid:
 # What's new in Microsoft Forms Pro
 
 Welcome to Microsoft Forms Pro. Here's a list of features we added and updated recently.
+
+## November 2019 update
+
+Following are the new and updated features in this release:
+
+- **Proactive phishing prevention**: Microsoft Forms Pro now includes automated machine reviews to proactively detect malicious password collection in surveys. If you ask any questions that requires a respondent to provide password, account information, or other security information, the survey is automatically blocked and can't be distributed. More information: [Proactive phishing prevention](create-new-survey.md#proactive-phishing-prevention)
+  
+- **Control display density of embedded surveys**: You can now select a display density for your embedded surveys. The display density controls the amount of white spaces and the size of the elements on the screen. More information: [Embed survey in a webpage](embed-web-page.md)
+  
+- **Use survey variables to personalize surveys, email invitation, and collect contextual information**: Survey variables are introduced that will be used to personalize your surveys and email invitations. You can also use them while embedding your surveys to collect contextual information about your recipients. More information: [Personalize a survey](personalize-survey.md), [Personalize an email](send-survey-email.md#personalize-an-email), and [Embed survey in a webpage](embed-web-page.md).
+  
+- **Enhanced recipient import and survey invitation limits**: You can now import up to 10000 recipients using the CSV file and send a survey invitation to a maximum of 10000 recipients. More information: [Send a survey by using email](send-survey-email.md)
+
 
 ## October 2019 update
 
