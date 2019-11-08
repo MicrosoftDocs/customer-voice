@@ -17,7 +17,7 @@ search.appverid:
 
 # What's new in Microsoft Forms Pro
 
-Welcome to Microsoft Forms Pro. Here's a list of features we added and updated recently.
+Welcome to Microsoft Forms Pro. Here's a list of features we added or updated recently.
 
 ## November 2019 update
 
