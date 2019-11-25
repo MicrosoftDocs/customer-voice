@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 10/07/2019
+ms.date: 11/25/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7771F115-DD60-4084-A8C3-A0DDBC2128A3
@@ -72,6 +72,9 @@ The following information is displayed below the survey metrics:
 
 - **Key Phrases**: Displays a word cloud of the key phrases used in sentiment analysis. You can filter to see only the positive or negative key phrases or all key phrases.
 
+  > [!div class=mx-imgBorder]
+  > ![Overview page](media/overview-page.png "Overview page") 
+
 ### Agent Performance
 
 The Agent Performance page provides an agent-centric view of the satisfaction data. This page will help customer service managers to analyze an agent's performance based on the survey responses. The following information is displayed:
@@ -82,6 +85,9 @@ The Agent Performance page provides an agent-centric view of the satisfaction da
 - A grid containing agents' names and their corresponding NPS, sorted by the NPS value in descending order. You can select an agent's name to see the agent-specific data in all other charts.
 - **Key Phrases**: Displays a word cloud of the key phrases used in sentiment analysis. You can filter to see only the positive or negative key phrases or all key phrases.
 
+  > [!div class=mx-imgBorder]
+  > ![Agent Performance page](media/agent-performance-page.png "Agent Performance page")
+
 ### Customer Satisfaction
 
 The Customer Satisfaction page provides the customer-centric view of the satisfaction data. This page will help customer service managers to analyze a customer's satisfaction based on the survey responses. The following information is displayed:
@@ -91,3 +97,6 @@ The Customer Satisfaction page provides the customer-centric view of the satisfa
 - A bar chart displaying the trend of average NPS over a period of time.
 - A grid containing satisfied customers and their corresponding NPS, sorted by the NPS value in descending order. You can select a customer's name to see the customer-specific data in all other charts.
 - **Key Phrases**: Displays a word cloud of the key phrases used in sentiment analysis. You can filter to see only the positive or negative key phrases or all key phrases.
+
+  > [!div class=mx-imgBorder]
+  > ![Customer Satisfaction page](media/customer-satisfaction-page.png "Customer Satisfaction page")
