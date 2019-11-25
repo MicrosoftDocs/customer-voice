@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 12/05/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
@@ -16,8 +16,6 @@ search.appverid:
 ---
 
 # Analyze survey invitations
-
-
 
 A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
 
@@ -30,7 +28,15 @@ The following survey invitation statistics are displayed in a summary pane at th
 
 - **Failed invitations**: Number of failed invitations in the last week.
 
-- **Invitation status**: A pie chart showing the distribution of survey invitations by status.
+- **Invitation status**: A pie chart showing the distribution of survey invitations by status. Following statues are displayed:
+
+  - **Queued**: The survey invitation email is queued to be sent.
+  - **Sent**: The survey invitation email is successfully delivered to the recipient.
+  - **Failed**: The survey invitation email is not delivered to the recipient due to an incorrect email address or any other error.
+  - **Responded**: The recipient has responded to the survey.
+  - **Unsubscribed**: The recipient has unsubscribed from receiving the survey related emails.
+  - **Read**: The survey invitation email is read or opened.
+  - **Delayed**: There is some delay is delivering the survey invitation email and is being retried.
 
 - **Invitation trend**: A line chart showing the distribution of survey invitation trends.
 
