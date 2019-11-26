@@ -90,6 +90,8 @@ You can perform these actions on an email template:
 
 ## Customize the From email address
 
+If you want to customize the email address from which the survey invitation is sent, you can do it as follows:
+
 1.	Contact Microsoft support and ask for the Forms Pro provisioned location.
 
 2.	After you get the location, create two CNAME records on your domain. The CNAME records will be used for DKIM authentication.
