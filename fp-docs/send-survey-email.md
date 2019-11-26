@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 11/29/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -87,6 +87,71 @@ You can perform these actions on an email template:
 > [!NOTE]
 > - You can save a maximum of 10 email templates.
 > - If you have used survey variables in an email template, which are not part of the survey, an error message is displayed at the top of the page and you are not allowed to send the survey through email or Flow. The survey variables are highlighted in red. You must remove the highlighted survey variables from the email message to send the survey.
+
+## Customize the From email address
+
+1.	Contact Microsoft support and ask for the Forms Pro provisioned location.
+
+2.	After you get the location, create two CNAME records on your domain. The CNAME records will be used for DKIM authentication.
+
+    Use the following format for the CNAME records
+
+    > [!IMPORTANT]
+    > If your customized domain is `contoso.com`, your domainGuid will be `contosocom`. You must remove any periods, underscores, and dashes.
+    > The selectors will be as per the Forms Pro provisioned location:
+    > - For North America (NAM), selector will be "fpnamkey1" or " fpnamkey2".
+    > - For Europe (EUR), selector will be "fpeurkey1" or " fpeurkey2".
+  
+    ``` text
+    Host name:                    selector1._domainkey
+    Points to address or value:   selector1<domainGUID>. marketing.dynamics.com
+    TTL:                          3600 
+    Host name:                    selector2._domainkey
+    Points to address or value:	  selector2<domainGUID>. marketing.dynamics.com
+    TTL:                          3600
+    ```
+
+    For example, if your Forms Pro provisioned location is North America (NAM), and you have two custom domains cohovineyard.com  and cohowinery.com, you would need to set up two CNAME records for each additional domain (a total of four CNAME records).
+
+    ``` text
+    Host name:                    fpnamkey1._domainkey
+    Points to address or value:   fpnamkey1cohovineyardcom.marketing.dynamics.com
+    TTL:                          3600 
+    Host name:                    fpnamkey2._domainkey
+    Points to address or value:   fpnamkey1cohovineyardcom.marketing.dynamics.com
+    TTL:                          3600
+    Host name:                    fpnamkey1._domainkey
+    Points to address or value:   fpnamkey1cohowinerycom.marketing.dynamics.com
+    TTL:                          3600 
+    Host name:                    fpnamkey2._domainkey
+    Points to address or value:   fpnamkey1cohowinerycom.marketing.dynamics.com
+    TTL:                          3600
+    ```
+
+3.	Contact Microsoft support to verify the records and create the DKIM keys for signing the emails. You must provide a list of email addresses you want to create, such as support@contoso.com and noreply@contoso.com. You must also provide a list of users who will be sending the survey invitations using the custom email.
+
+4.	After the Microsoft support team confirms that the record verification is complete, sign in to Forms Pro and open the Settings pane. Select the custom email address that should be used for sending email.  
+
+  > [!div class=mx-imgBorder]
+  > ![Custom email setting](media/custom-email-setting.png "Custom email setting")
+
+  When selected, you can use the custom email while sending the survey invitation.
+
+  > [!div class=mx-imgBorder]
+  > ![Custom From email](media/custom-from-email.png "Custom From email")
+
+  > [!NOTE]
+  > In Power Automate, custom email address will be picked from the survey settings.
+
+### Frequently asked questions
+
+#### Should the email account be a functioning account, or can it be a dummy account?
+
+The email account need not be a functioning email account to send the emails. But, if replies are expected to be received on that email account, a mailbox must be configured for that email account. In most cases, the email address from which a customer sends survey emails are unmonitored email accounts and need not receive emails.
+ 
+#### How long does it take for the setup to complete?
+
+It may take up to 24 to 72 hours for the setup to complete. Once the Microsoft support confirms the domain is active, you can start sending survey invitations using the custom email.
 
 ## See also
 
