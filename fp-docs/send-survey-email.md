@@ -132,16 +132,16 @@ You can perform these actions on an email template:
 
 4.	After the Microsoft support team confirms that the record verification is complete, sign in to Forms Pro and open the Settings pane. Select the custom email address that should be used for sending email.  
 
-  > [!div class=mx-imgBorder]
-  > ![Custom email setting](media/custom-email-setting.png "Custom email setting")
+    > [!div class=mx-imgBorder]
+    > ![Custom email setting](media/custom-email-setting.png "Custom email setting")
 
-  When selected, you can use the custom email while sending the survey invitation.
+    When selected, you can use the custom email while sending the survey invitation.
 
-  > [!div class=mx-imgBorder]
-  > ![Custom From email](media/custom-from-email.png "Custom From email")
+    > [!div class=mx-imgBorder]
+    > ![Custom From email](media/custom-from-email.png "Custom From email")
 
-  > [!NOTE]
-  > In Power Automate, custom email address will be picked from the survey settings.
+    > [!NOTE]
+    > In Power Automate, custom email address will be picked from the survey settings.
 
 ### Frequently asked questions
 
