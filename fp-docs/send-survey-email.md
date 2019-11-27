@@ -96,7 +96,7 @@ You can customize the email address from which the survey invitation is sent yo 
 
 2.	After you get the location, create two CNAME records on your domain. The CNAME records will be used for DKIM authentication.
 
-    Use the following format for the CNAME records
+    Use the following format for the CNAME records.
 
     > [!IMPORTANT]
     > If your customized domain is `contoso.com`, your domainGuid will be `contosocom`. You must remove any periods, underscores, and dashes.
