@@ -132,18 +132,18 @@ You can customize the email address from which the survey invitation is sent yo 
 
 3.	Contact Microsoft support to verify the records and create the DKIM keys for signing the emails. You must provide a list of email addresses you want to create, such as support@contoso.com and noreply@contoso.com. You must also provide a list of users who will be sending the survey invitations using the custom email.
 
-4.	After the Microsoft support team confirms that the record verification is complete, sign in to Forms Pro and open the Settings pane. Select the custom email address that should be used for sending email.  
+4.	After the Microsoft support team confirms that the record verification is complete, sign in to Forms Pro and open the **Settings** pane. Select the custom email address that should be used for sending email.  
 
     > [!div class=mx-imgBorder]
     > ![Custom email setting](media/custom-email-setting.png "Custom email setting")
 
-    When selected, you can use the custom email while sending the survey invitation.
+    When the custom email is selected, you can use it while sending the survey invitation.
 
     > [!div class=mx-imgBorder]
     > ![Custom From email](media/custom-from-email.png "Custom From email")
 
     > [!NOTE]
-    > In Power Automate, custom email address will be picked from the survey settings.
+    > In Power Automate, custom email address is picked from the survey settings.
 
 ### Frequently asked questions
 
