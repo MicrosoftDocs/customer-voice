@@ -90,7 +90,7 @@ You can perform these actions on an email template:
 
 ## Customize the From email address
 
-If you want to customize the email address from which the survey invitation is sent, you can do it as follows:
+You can customize the email address from which the survey invitation is sent yo your respondents. Customization helps you to select an email address that matches with your company's brand.
 
 1.	Contact Microsoft support and ask for the Forms Pro provisioned location.
 
@@ -106,10 +106,10 @@ If you want to customize the email address from which the survey invitation is s
   
     ``` text
     Host name:                    selector1._domainkey
-    Points to address or value:   selector1<domainGUID>. marketing.dynamics.com
+    Points to address or value:   selector1<domainGUID>.marketing.dynamics.com
     TTL:                          3600 
     Host name:                    selector2._domainkey
-    Points to address or value:	  selector2<domainGUID>. marketing.dynamics.com
+    Points to address or value:	  selector2<domainGUID>.marketing.dynamics.com
     TTL:                          3600
     ```
 
