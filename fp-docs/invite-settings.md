@@ -68,19 +68,30 @@ Let's now see the options you can select to define who can respond to a survey a
     > [!div class=mx-imgBorder]
     > ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
 
-## Select survey response and notification options
+## Survey response options
 
 When you've defined who can respond to your survey, you can select or clear the following options:
 
 - **Accept responses**: Specify whether the survey is open and accepting responses. By default, it is selected. If you want to stop your survey, clear the option, and specify a message for the recipients.
-- **Start date**: Specify a date when the survey will be open. 
-- **End date**: Specify a date when the survey will be closed.
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
 - **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, it is selected.
 - **Customize thank you message**: Specify a customized thank you message for your responders.
 - **Customize footer text**: Specify a customized footer text to be displayed for your survey.
 - **Add respondents as**: Specify if the respondent should be added as a contact in Common Data Service. By default, it is selected. This option works only with surveys sent through email.
+- **Start date**: Specify a date when the survey will be open. 
+
+## Survey invitation link expiration options
+
+You can specify a date, number of responses, or a time period after which your respondents would not be able to complete the survey.
+
+- **End date**: Specify a date when the survey will be closed.
+- **Responses exceed**: Specify the number of responses after which the survey will be closed. The maximum value that can be entered is 1048576.
+- **Days after delivery exceed**: Specify the number of days after which the survey will be closed after sending the survey invitation. The maximum value that can be entered is 1048576. Respondents will be able to complete the survey through the personalized link from the day of receiving the survey invitation till the specified number of days.
+
+## Survey notification options
+
 - **Send email receipt to respondents**: Specify if respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. Once your respondent has filled out your survey, the option, **Send me an email receipt of my responses**, is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank you message and link to view their responses.
+
 - **Get email notification of each response**: Specify if you need an email notification whenever a response is submitted.
 
     > [!div class=mx-imgBorder]
