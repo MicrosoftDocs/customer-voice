@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 12/05/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
@@ -17,7 +17,9 @@ search.appverid:
 
 # Purchase Microsoft Forms Pro
 
-Microsoft Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
+Microsoft Forms Pro is included with select Microsoft Dynamics 365 subscriptions and is available as an upgrade for Office 365 subscriptions.
+
+Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
 - For a Dynamics 365 enterprise licensed tenant, 2000 responses are free and the customer can choose to purchase additional responses in bundles of $100 per 2000 responses.
 - For an Office 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 per 2000 responses.
@@ -25,7 +27,9 @@ Microsoft Forms Pro license is based on the number of survey responses received 
 
 ## Enable Forms Pro for users with Dynamics 365 enterprise licenses
 
-Microsoft Forms Pro is included as part of the Dynamics 365 enterprise license. A tenant with a Dynamics 365 enterprise license has 2000 responses per month included at the tenant level (irrespective of how many seats the tenant has).
+Forms Pro is included with Dynamics 365 Sales Enterprise, Dynamics 365 Customer Service Enterprise, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Talent, Dynamics 365 Project Service Automation, Dynamics 365 Operations, and Dynamics 365 Relationship Sales. Other Dynamics 365 customers can purchase Forms Pro separately.
+
+A tenant with a Dynamics 365 enterprise license has 2000 responses per month included at the tenant level (irrespective of how many seats the tenant has).
 
 To enable Forms Pro:
 
@@ -69,12 +73,14 @@ Microsoft Forms Pro is available to all users who have a Dynamics 365 enterprise
 
 5.	On the **Product licenses** page, turn the **Microsoft Forms Pro** toggle to **Off** for the following products:
     - Microsoft Forms Pro for Sales Enterprise
-    - Microsoft Forms Pro for Field Service
-    - Microsoft Forms Pro for Project Service Automation
     - Microsoft Forms Pro for Customer Service Enterprise
+    - Microsoft Forms Pro for Field Service
     - Microsoft Forms Pro for Marketing USL
     - Microsoft Forms Pro for Talent
+    - Microsoft Forms Pro for Project Service Automation
     - Microsoft Forms Pro for Customer Engagement Plan
+    - Microsoft Forms Pro for Operations
+    - Microsoft Forms Pro for Relationship Sales
 
 ### Enable Microsoft Forms Pro for a user without a Dynamics 365 enterprise license
 
