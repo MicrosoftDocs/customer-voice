@@ -78,15 +78,15 @@ When you've defined who can respond to your survey, you can select or clear the 
 - **Customize thank you message**: Specify a customized thank you message for your responders.
 - **Customize footer text**: Specify a customized footer text to be displayed for your survey.
 - **Add respondents as**: Specify if the respondent should be added as a contact in Common Data Service. By default, it is selected. This option works only with surveys sent through email.
-- **Start date**: Specify a date when the survey will be open. 
+- **Start date**: Specify a date when the survey will be open for the respondents. 
 
 ### Stop survey
 
-You can specify a date, number of responses, or a time period after which a survey should be stopped and your respondents would not be able to complete the survey.
+You can specify a date, number of responses, or a time period after which a survey will be stopped and your respondents would not be able to complete the survey. If any one of the below condition is met, the survey will be stopped.
 
-- **End date**: Specify a date when the survey will be closed.
-- **Responses exceed**: Specify the number of responses after which the survey will be closed. The maximum value that can be entered is 1048576.
-- **Days after delivery exceed**: Specify the number of days after which the survey will be closed after sending the survey invitation. The maximum value that can be entered is 1048576. Respondents will be able to complete the survey through the personalized link from the day of receiving the survey invitation till the specified number of days.
+- **End date**: Specify a date when the survey will be stopped.
+- **Responses exceed**: Specify the number of responses, after receiving which the survey will be stopped. The maximum value that can be entered is 1048576.
+- **Days after delivery exceed**: Specify the number of days your survey will be open after sending the survey invitation. The maximum value that can be entered is 1095. Respondents will be able to complete the survey through the personalized link from the day of receiving the survey invitation till the specified number of days.
 
 ### Notification
 
