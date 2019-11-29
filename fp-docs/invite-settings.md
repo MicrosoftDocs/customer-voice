@@ -82,7 +82,7 @@ When you've defined who can respond to your survey, you can select or clear the 
 
 ### Stop survey
 
-You can specify a date, number of responses, or a time period after which a survey will be stopped and your respondents would not be able to complete the survey. If any one of the below condition is met, the survey will be stopped.
+You can specify a date, number of responses, or a time period after which a survey will be stopped and your respondents would not be able to complete the survey. If any one of the below condition is true, the survey will be stopped.
 
 - **End date**: Specify a date when the survey will be stopped.
 - **Responses exceed**: Specify the number of responses, after receiving which the survey will be stopped. The maximum value that can be entered is 1048576.

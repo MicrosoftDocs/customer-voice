@@ -35,8 +35,6 @@ The following survey invitation statistics are displayed in a summary pane at th
   - **Failed**: The survey invitation email is not delivered to the recipient due to an incorrect email address or any other error.
   - **Responded**: The recipient has responded to the survey.
   - **Unsubscribed**: The recipient has unsubscribed from receiving the survey related emails.
-  - **Read**: The survey invitation email is read or opened.
-  - **Delayed**: There is some delay is delivering the survey invitation email and is being retried.
 
 - **Invitation trend**: A line chart showing the distribution of survey invitation trends.
 
