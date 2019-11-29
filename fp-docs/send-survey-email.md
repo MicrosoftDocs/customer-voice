@@ -92,7 +92,10 @@ You can perform these actions on an email template:
 
 You can customize the email address from which the survey invitation is sent yo your respondents by contacting Microsoft support and then creating the required CNAME records manually. Customization helps you to select an email address that matches with your company's brand.
 
-1.	Contact Microsoft support and ask for the Forms Pro provisioned location. When contacting Microsoft support, mention the **Issue title** as **Customize the From email address to send survey invitations**. For information on contacting Microsoft support, see [Get Help + Support](https://docs.microsoft.com/power-platform/admin/get-help-support). While creating a new support request, select the **Product** as **Dynamics 365 Customer Engagement**, **Problem type** as **Forms Pro**, and select your Common Data Service environment. 
+1.	Contact Microsoft support and ask for the Forms Pro provisioned location. When contacting Microsoft support, mention the **Issue title** as **Customize the From email address to send survey invitations**. For information on contacting Microsoft support, see [Get Help + Support](https://docs.microsoft.com/power-platform/admin/get-help-support). While creating a new support request, select values as:
+    - **Product**: Dynamics 365 Customer Engagement
+    - **Problem type**: Forms Pro
+    - **Environment**: Enter or select your Common Data Service environment
 
 2.	After you get the location, create two CNAME records on your domain. The CNAME records will be used for DKIM authentication.
 
