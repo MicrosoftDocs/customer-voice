@@ -28,8 +28,8 @@ You cannot change the ownership of a survey in Microsoft Forms Pro. However, if 
 
 1. In the address bar of your browser, enter `https://forms.office.com/FormsPro/Pages/delegatepage.aspx?originalowner=[_Azure Active Directory ID_]`. A page opens containing surveys owned by the user who has left the organization.
 
-  > [!NOTE]
-  > _Azure Active Directory ID_ is the object ID of the user who has left the organization.
+    > [!NOTE]
+    > _Azure Active Directory ID_ is the object ID of the user who has left the organization.
 
 2. On the survey you want to change the ownership, select **More form actions** (...) in the upper-right corner of the survey tile, and then select **Move**.
 
