@@ -40,9 +40,9 @@ Following are the new and updated features in this release:
 
 - **Embed survey in email**: You can now embed the first question of the survey in your email invitation, so that your survey respondent can answer directly from the email. More information: [Embed survey in an email](send-survey-email.md#embed-survey-in-an-email)
 
-- **Hide question numbers**: You can now choose to hide question numbers in a survey. This behavior can be changed through survey settings. More information: [Select survey response and notification options](invite-settings.md#select-survey-response-and-notification-options)
+- **Hide question numbers**: You can now choose to hide question numbers in a survey. This behavior can be changed through survey settings. More information: [Select survey response and notification options](invite-settings.md#survey-response-options)
 
-- **Skip contact creation**: You can choose whether your respondent should be added as a contact in Common Data Service. This behavior can be changed through survey settings. More information: [Select survey response and notification options](invite-settings.md#select-survey-response-and-notification-options)
+- **Skip contact creation**: You can choose whether your respondent should be added as a contact in Common Data Service. This behavior can be changed through survey settings. More information: [Select survey response and notification options](invite-settings.md#survey-response-options)
 
 - **Switch to Forms Pro**: Dynamics 365 enterprise users can now enable Forms Pro through the option when opening the account pane after selecting the profile picture on the upper-right corner of the page. More information: [Enable Forms Pro for users with Dynamics 365 enterprise licenses](purchase.md#enable-forms-pro-for-users-with-dynamics-365-enterprise-licenses)
  
