@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 12/02/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -87,6 +87,96 @@ You can perform these actions on an email template:
 > [!NOTE]
 > - You can save a maximum of 10 email templates.
 > - If you have used survey variables in an email template, which are not part of the survey, an error message is displayed at the top of the page and you are not allowed to send the survey through email or Flow. The survey variables are highlighted in red. You must remove the highlighted survey variables from the email message to send the survey.
+
+## Customize the sender email address
+
+The customization feature helps you select an email address that matches your company's brand. You can contact Microsoft support for the Forms Pro provisioned location, and then create CNAME records manually. The CNAME records will be used for DKIM authentication. Two CNAME records must be created per custom domain. Thereafter, the email address can be customized that will be used to send the survey invitation to your respondents.
+
+1. Sign in to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com/support) with your admin credentials.
+
+2. Select **Help + support** > **New support request**. The support request form is displayed in the right pane.
+
+3. Specify the product details as follows:
+
+    - **Product**: Dynamics 365 Customer Engagement
+    - **Problem type**: Forms Pro
+    - **Environment**: Enter or select your Common Data Service environment
+
+4. Select **See solutions**.
+
+5. Select **Create a support request** and specify details as follows:
+
+    - **Issue title**: Customize the From email address to send survey invitations
+    - **Issue description**: Enter your issue description and ask for Forms Pro provisioned location.
+    - **How severe is this issue?**: Select the severity of the issue.
+
+6. Select **Next**. 
+
+7. Fill your contact information and select **Submit**. A ticket is created with Microsoft support and the support team will contact you with the provisioned location.
+
+8.	After you receive the provisioned location, create two CNAME records in your domain in the following format: 
+
+    ``` text
+    Host name:                    selector1._domainkey
+    Points to address or value:   selector1<domainGUID>.marketing.dynamics.com
+    TTL:                          3600 
+    Host name:                    selector2._domainkey
+    Points to address or value:	  selector2<domainGUID>.marketing.dynamics.com
+    TTL:                          3600
+    ```
+
+    > [!IMPORTANT]
+    > If your customized domain is `contoso.com`, your domainGuid will be `contosocom`. You must remove any periods, underscores, and dashes.
+    > The selectors will be as per the Forms Pro provisioned location:
+    > - For North America (NAM), selector will be "fpnamkey1" or " fpnamkey2".
+    > - For Europe (EUR), selector will be "fpeurkey1" or " fpeurkey2".
+
+    Let's say your Forms Pro provisioned location is North America (NAM), and you have two custom domains: `cohovineyard.com`  and `cohowinery.com`. You would need to set up two CNAME records per domain (a total of four CNAME records) as follows:
+
+    ``` text
+    Host name:                    fpnamkey1._domainkey
+    Points to address or value:   fpnamkey1cohovineyardcom.marketing.dynamics.com
+    TTL:                          3600 
+    Host name:                    fpnamkey2._domainkey
+    Points to address or value:   fpnamkey1cohovineyardcom.marketing.dynamics.com
+    TTL:                          3600
+    Host name:                    fpnamkey1._domainkey
+    Points to address or value:   fpnamkey1cohowinerycom.marketing.dynamics.com
+    TTL:                          3600 
+    Host name:                    fpnamkey2._domainkey
+    Points to address or value:   fpnamkey1cohowinerycom.marketing.dynamics.com
+    TTL:                          3600
+    ```
+
+9.	Contact Microsoft support and provide the following information:
+
+    - A list of email addresses you want to create, such as support@cohovineyard.com and noreply@cohowinery.com.
+    - A list of users who will be sending the survey invitations using the custom email.
+
+    Based on the information provided, Microsoft support will then verify the records and create the DKIM keys for signing the emails. You will get a confirmation from Microsoft support that the record verification is complete.
+
+10.	Sign in to Forms Pro and open the **Settings** pane. Select the custom email address that should be used for sending email.  
+
+    > [!div class=mx-imgBorder]
+    > ![Custom email setting](media/custom-email-setting.png "Custom email setting")
+
+    Use the custom email while sending the survey invitation.
+
+    > [!div class=mx-imgBorder]
+    > ![Custom From email](media/custom-from-email.png "Custom From email")
+
+    > [!NOTE]
+    > In Power Automate, custom email address is picked from the survey settings.
+
+### Frequently asked questions
+
+#### Should the email account be a functioning account, or can it be a dummy account?
+
+The email account need not be a functioning account to send emails. If replies are expected to be received on that email account, a mailbox must be configured. In most cases, the email address from which a customer sends survey emails are unmonitored email accounts and need not receive emails.
+
+#### How long does it take for the setup to complete?
+
+It may take up to 24 to 72 hours for the setup to complete. After the Microsoft support confirms the domain is active, you can start sending survey invitations using the custom email.
 
 ## See also
 
