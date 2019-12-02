@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/25/2019
+ms.date: 12/05/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6104FBF8-A032-4155-805B-4B5B5D00B30F
@@ -18,6 +18,12 @@ search.appverid:
 # What's new in Microsoft Forms Pro
 
 Welcome to Microsoft Forms Pro. Here's a list of features we added or updated recently.
+
+## December 2019 update
+
+Following are the new and updated features in this release:
+
+- **Proactive phishing prevention**: Microsoft Forms Pro now includes automated machine reviews to proactively detect malicious password collection in surveys. If you ask any questions that requires a respondent to provide password, account information, or other security information, the survey is automatically blocked and can't be distributed. More information: [Proactive phishing prevention](create-new-survey.md#proactive-phishing-prevention)
 
 ## November 2019 update
 
