@@ -88,15 +88,20 @@ You can perform these actions on an email template:
 > - You can save a maximum of 10 email templates.
 > - If you have used survey variables in an email template, which are not part of the survey, an error message is displayed at the top of the page and you are not allowed to send the survey through email or Flow. The survey variables are highlighted in red. You must remove the highlighted survey variables from the email message to send the survey.
 
-## Customize the From email address
-
+## Customize the From email address <!--Neeraja: Consider using functional terminology such as "sender" instead of GUI labels. The new heading would be "Customize the sender email address"-->
+<!--Neeraja: In the following, who is going to contact Microsoft support and what does support provide? The user who is customizing or the customer who will respond to the survey? The order of the sentences must be changed to first state a fact that answers the What question, followed by how user can do it. There is a typo as well. Consider writing as follows: Customization helps you select email addresses that match your company brand. You can contact Microsoft support for the Forms Pro provisioned location, and then create CNAME records manually. Thereafter the email address can be customized that will be used to send the survey invitation to your respondents.-->
 You can customize the email address from which the survey invitation is sent yo your respondents by contacting Microsoft support and then creating the required CNAME records manually. Customization helps you to select an email address that matches with your company's brand.
-
+<!--Neeraja: Consider using a procedure heading, such as "To customize the sender email address". A procedure heading does not take any end punctuation and is typically formatted in bold. See examples at https://docs.microsoft.com/en-us/style-guide/procedures-instructions/writing-step-by-step-instructions.
+Also, if you accept my previous suggestion, rewrite step 1 as follows:
+"1. Contact Microsoft support for the Forms Pro provisioned location, and mention the...".-->
 1.	Contact Microsoft support and ask for the Forms Pro provisioned location. When contacting Microsoft support, mention the **Issue title** as **Customize the From email address to send survey invitations**. For information on contacting Microsoft support, see [Get Help + Support](https://docs.microsoft.com/power-platform/admin/get-help-support). While creating a new support request, select values as:
     - **Product**: Dynamics 365 Customer Engagement
     - **Problem type**: Forms Pro
     - **Environment**: Enter or select your Common Data Service environment
-
+<!--Neeraja: 2. After you receive the location information,...records in your domain in the following format:
+...
+...
+The CNAME records will be used for DKIM authentication.-->
 2.	After you get the location, create two CNAME records on your domain. The CNAME records will be used for DKIM authentication.
 
     Use the following format for the CNAME records.
@@ -115,7 +120,7 @@ You can customize the email address from which the survey invitation is sent yo 
     Points to address or value:	  selector2<domainGUID>.marketing.dynamics.com
     TTL:                          3600
     ```
-
+<!--Neeraja: The context for the example should be set. We are not telling that the user has to create as many pairs of CNAME records as the number of domains.-->
     For example, if your Forms Pro provisioned location is North America (NAM), and you have two custom domains cohovineyard.com  and cohowinery.com, you would need to set up two CNAME records for each additional domain (a total of four CNAME records).
 
     ``` text
