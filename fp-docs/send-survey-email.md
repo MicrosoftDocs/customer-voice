@@ -94,7 +94,7 @@ The customization feature helps you select an email address that matches your co
 
 1. Sign in to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com/support) with your admin credentials.
 
-2. Select **Help + support** > **New support request**.
+2. Select **Help + support** > **New support request**. The support request form is displayed in the right pane.
 
 3. Specify the product details as follows:
 
