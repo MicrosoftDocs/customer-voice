@@ -90,7 +90,7 @@ You can perform these actions on an email template:
 
 ## Customize the sender email address
 
-Customization helps you select an email address that matches with your company's brand. You can contact Microsoft support for the Forms Pro provisioned location, and then create CNAME records manually. Two CNAME records must be created per custom domain. Thereafter, the email address can be customized that will be used to send the survey invitation to your respondents.
+The customization feature helps you select an email address that matches your company's brand. You can contact Microsoft support for the Forms Pro provisioned location, and then create CNAME records manually. The CNAME records will be used for DKIM authentication. Two CNAME records must be created per custom domain. Thereafter, the email address can be customized that will be used to send the survey invitation to your respondents.
 
 1. Sign in to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com/support) with your admin credentials.
 
@@ -112,9 +112,9 @@ Customization helps you select an email address that matches with your company's
 
 6. Select **Next**. 
 
-7. Fill your contact information and select **Submit**.
+7. Fill your contact information and select **Submit**. A ticket is created with Microsoft support and the support team will contact you with the provisioned location.
 
-8.	After you receive the location, create two CNAME records in your domain in the following format: 
+8.	After you receive the provisioned location, create two CNAME records in your domain in the following format: 
 
     ``` text
     Host name:                    selector1._domainkey
@@ -125,16 +125,13 @@ Customization helps you select an email address that matches with your company's
     TTL:                          3600
     ```
 
-    The CNAME records will be used for DKIM authentication.
-
     > [!IMPORTANT]
     > If your customized domain is `contoso.com`, your domainGuid will be `contosocom`. You must remove any periods, underscores, and dashes.
     > The selectors will be as per the Forms Pro provisioned location:
     > - For North America (NAM), selector will be "fpnamkey1" or " fpnamkey2".
     > - For Europe (EUR), selector will be "fpeurkey1" or " fpeurkey2".
 
-    For example, if your Forms Pro provisioned location is North America (NAM), and you have two custom domains cohovineyard.com  and cohowinery.com, you would need to set up two CNAME records for each additional domain (a total of four CNAME records).
-
+    Let's say your Forms Pro provisioned location is North America (NAM), and you have two custom domains: `cohovineyard.com`  and `cohowinery.com`. You would need to set up two CNAME records per domain (a total of four CNAME records) as follows:
 
     ``` text
     Host name:                    fpnamkey1._domainkey
@@ -163,7 +160,7 @@ Customization helps you select an email address that matches with your company's
     > [!div class=mx-imgBorder]
     > ![Custom email setting](media/custom-email-setting.png "Custom email setting")
 
-11. Send the survey invitation using the custom email.
+    Use the custom email while sending the survey invitation.
 
     > [!div class=mx-imgBorder]
     > ![Custom From email](media/custom-from-email.png "Custom From email")
