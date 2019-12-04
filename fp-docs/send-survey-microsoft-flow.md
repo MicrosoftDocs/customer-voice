@@ -1,6 +1,6 @@
 ---
-title: "Send a survey by using Microsoft Flow | MicrosoftDocs"
-description: "Instructions for sending a survey by using Microsoft Flow"
+title: "Send a survey by using Power Automate | MicrosoftDocs"
+description: "Instructions for sending a survey by using Power Automate"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -15,17 +15,17 @@ search.appverid:
   - FPR160
 ---
 
-# Send a survey by using Microsoft Flow
+# Send a survey by using Power Automate
 
-After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Microsoft Flow. The following flow templates are available out of the box in Forms Pro:
+After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Power Automate. The following flow templates are available out of the box in Forms Pro:
 
 - **Send a survey when a case is resolved in Dynamics 365**: This template sends a survey when a case is resolved in Dynamics 365.
 - **Send a survey when a lead is qualified in Dynamics 365**: This template sends a survey when a lead is qualified in Dynamics 365.
 - **Send a survey when an order is fulfilled in Dynamics 365**: This template sends a survey when an order is fulfilled in Dynamics 365.
-- **Send a survey when a button is clicked in PowerApps**: This template sends a survey to the specified list of recipients when a button is clicked in PowerApps.
+- **Send a survey when a button is clicked in Power Apps**: This template sends a survey to the specified list of recipients when a button is clicked in Power Apps.
 - **Send a survey when a case is closed in Salesforce**: This template sends a survey when a case is closed in Salesforce.
 
-To send a survey by using Microsoft Flow:
+To send a survey by using Power Automate:
 
 1.  Open the survey you want to send, and select **Send** from the toolbar at the top of the page.
 
@@ -33,9 +33,9 @@ To send a survey by using Microsoft Flow:
 
 3.  Select **Configure Flow**.
 
-4.  To configure a built-in flow, select a template. For information on creating a flow from a template, see [Create a flow from a template in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-template). 
+4.  To configure a built-in flow, select a template. For information on creating a flow from a template, see [Create a flow from a template in Power Automate](https://docs.microsoft.com/flow/get-started-logic-template). 
 
-5.  To create a flow from scratch, select **Create from blank**. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-flow).
+5.  To create a flow from scratch, select **Create from blank**. For information on creating a flow from scratch, see [Create a flow in Power Automate](https://docs.microsoft.com/flow/get-started-logic-flow).
 
 > [!NOTE]
 > - While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the tab, and then come back to create the flow again.
@@ -97,9 +97,9 @@ Flow history is displayed in a grid with the following information:
 
 - **Failures (last 200 runs)**: Number of times a flow has failed out of the last 200 runs.
 
-- **Status**: Status of the flow: on or off. You can update a flow’s status from Microsoft Flow. For more information, see [Manage a flow](https://docs.microsoft.com/flow/get-started-logic-flow#manage-a-flow).  
+- **Status**: Status of the flow: on or off. You can update a flow’s status from Power Automate. For more information, see [Manage a flow](https://docs.microsoft.com/flow/get-started-logic-flow#manage-a-flow).  
 
-If required, you can also edit a flow by selecting the **Edit** symbol. The flow editor opens in Microsoft Flow, from which you make your changes.
+If required, you can also edit a flow by selecting the **Edit** symbol. The flow editor opens in Power Automate, from which you make your changes.
 
 > [!div class=mx-imgBorder]
 > ![Edit a flow](media/edit-flow.png "Edit a flow")  
@@ -125,4 +125,4 @@ To view flow history:
 [Embed survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in PowerApps](embed-survey-powerapps.md)
+[Embed a survey in Power Apps](embed-survey-powerapps.md)

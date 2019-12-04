@@ -1,6 +1,6 @@
 ---
-title: "Create a survey invitation by using Microsoft Flow | MicrosoftDocs"
-description: "Instructions for creating a survey invitation by using Microsoft Flow"
+title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
+description: "Instructions for creating a survey invitation by using Power Automate"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -17,11 +17,11 @@ search.appverid:
 
 # Create a survey invitation
 
-If you want to send a survey using a platform other than Microsoft Forms Pro, such as Outlook, Gmail, or SMS, you can create a survey invitation using Microsoft Flow. The survey invitation creates a personalized link that can be distributed by using a platform of your choice.
+If you want to send a survey using a platform other than Microsoft Forms Pro, such as Outlook, Gmail, or SMS, you can create a survey invitation using Power Automate. The survey invitation creates a personalized link that can be distributed by using a platform of your choice.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
-2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-flow).
+2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Power Automate](https://docs.microsoft.com/flow/get-started-logic-flow).
 
 3. In the flow editor, add a trigger to start your flow.
 
@@ -68,10 +68,10 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
-[Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
+[Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
 [Embed survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in PowerApps](embed-survey-powerapps.md)
+[Embed a survey in Power Apps](embed-survey-powerapps.md)
 
 

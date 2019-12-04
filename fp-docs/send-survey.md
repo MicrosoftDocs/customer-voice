@@ -23,7 +23,7 @@ After your survey is ready, send it to your respondents and collect their feedba
 
 - **Email**: Send the survey link by using the built-in email capability.
 
-- **Microsoft Flow**: Configure a business trigger by using [Microsoft Flow](https://flow.microsoft.com/) to send the email.  
+- **Microsoft Flow**: Configure a business trigger by using [Power Automate](https://flow.microsoft.com/) to send the email.  
 
 - **Embed**: Embed the survey in a webpage.
 
@@ -37,10 +37,10 @@ In this section, you will learn how to:
 
 - [Work with survey settings](invite-settings.md)
 - [Send a survey by using email](send-survey-email.md)  
-- [Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)  
+- [Send a survey by using Power Automate](send-survey-microsoft-flow.md)  
 - [Embed survey in a webpage](embed-web-page.md)  
 - [Send a survey link to others](send-survey-link.md)  
 - [Send a survey QR code](send-survey-qrcode.md)  
 - [Create a survey invitation](create-survey-invite.md)
-- [Embed a survey in PowerApps](embed-survey-powerapps.md)
+- [Embed a survey in Power Apps](embed-survey-powerapps.md)
 

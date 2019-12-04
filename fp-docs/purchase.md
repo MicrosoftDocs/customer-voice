@@ -166,5 +166,5 @@ If your tenant does not have Dynamics 365 enterprise licenses that include Micro
 
 When you purchase an additional license for $100, the response capacity is counted annually. If the consumed response capacity exceeds the annual capacity responses (for example, 24000 (12 X 2000 per month), or if $200 worth of additional capacity is purchased, then the annual capacity will be 48000) in any given month, then creating new surveys will be disabled. Existing surveys will continue to receive responses.
 
-After 90 days of response capacity exhaustion, distribution of existing surveys is disabled via all modes (including Microsoft Flow) and all existing surveys are closed. A message is displayed on the distribution page that the capacity is exhausted.
+After 90 days of response capacity exhaustion, distribution of existing surveys is disabled via all modes (including Power Automate) and all existing surveys are closed. A message is displayed on the distribution page that the capacity is exhausted.
 

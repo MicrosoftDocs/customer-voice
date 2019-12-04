@@ -65,7 +65,7 @@ If you receive an error stating that you don't have permission to access the env
 
 If you receive an error stating that your connection is invalid or there is a problem with the flow's trigger, you must:
 
-1. Open Microsoft Flow.
+1. Open Power Automate.
 
 2. In the left pane, select **Data** > **Connections**.
 
