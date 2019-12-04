@@ -77,7 +77,7 @@ If you have added a Rating or Net Promoter Score question as the first question 
 > ![Embed survey in an email](media/embed-ques-email.png "Embed a survey in an email")
 
 > [!NOTE]
-> You can't embed the question in an email if you have added any branching rules or shuffled the questions in a survey.
+> You can't embed the question in an email if you have enabled question shuffling in a survey.
 
 <a name="use-email-templates"></a>
 
