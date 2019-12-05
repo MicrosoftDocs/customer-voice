@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 12/06/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -85,8 +85,8 @@ When you've defined who can respond to your survey, you can select or clear the 
 You can specify a date, number of responses, or a time period after which a survey will be stopped and your respondents won't be able to complete the survey. If any one of the following conditions is true, the survey will be stopped:
 
 - **End date**: Specify a date when the survey will be stopped.
-- **Responses exceed**: Specify the number of responses, after receiving which the survey will be stopped. The maximum value that can be entered is 1,048,576.
-- **Days after delivery exceed**: Specify the number of days your survey will be open after sending the survey invitation. The maximum value that can be entered is 1,095. Respondents will be able to complete the survey through the personalized link from the date of receiving the survey invitation until the specified number of days have passed.
+- **Maximum responses**: Specify the number of responses, after receiving which the survey will be stopped. The maximum value that can be entered is 1048576.
+- **Number of days**: Specify the number of days your survey will be open after sending the survey invitation. The maximum value that can be entered is 1095. Respondents will be able to complete the survey through the personalized link from the day of receiving the survey invitation till the specified number of days.
 
 ### Notification
 
