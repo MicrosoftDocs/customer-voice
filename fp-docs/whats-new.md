@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/05/2019
+ms.date: 12/06/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6104FBF8-A032-4155-805B-4B5B5D00B30F
@@ -24,6 +24,11 @@ Welcome to Microsoft Forms Pro. Here's a list of features we added or updated re
 Following are the new and updated features in this release:
 
 - **Proactive phishing prevention**: Microsoft Forms Pro now includes automated machine reviews to proactively detect malicious password collection in surveys. If you ask any questions that requires a respondent to provide password, account information, or other security information, the survey is automatically blocked and can't be distributed. More information: [Proactive phishing prevention](create-new-survey.md#proactive-phishing-prevention)
+
+- **Survey invitation link expiration**: You can now configure the expiration time period of the survey link you send to your respondents. After the link expires, your respondents would not be able to complete the survey. More information: [Stop survey](invite-settings.md#stop-survey)
+
+- **New service plans**: Forms Pro is now included with Dynamics 365 Operations and Dynamics 365 Relationship Sales. More information: [Purchase Microsoft Forms Pro](purchase.md)
+
 
 ## November 2019 update
 
