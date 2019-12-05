@@ -64,9 +64,9 @@ For example, let's say that you've created a survey variable named **Product Nam
 Let's say the question is:
 *{{First Name}}*, overall, how would you rate your experience with customer service for *{{Product Name}}*?
 
-That question will look like this when a customer named Teddy Cornejo takes the survey for a product named Contoso Sales:
+That question will look like this when a customer named Bert Hair takes the survey for a product named Contoso Sales:
 
-&nbsp;&nbsp;&nbsp;&nbsp;Teddy, overall, how would you rate your experience with customer service for Contoso Sales?
+&nbsp;&nbsp;&nbsp;&nbsp;Bert, overall, how would you rate your experience with customer service for Contoso Sales?
 
 ## Specify values for survey variables
 
