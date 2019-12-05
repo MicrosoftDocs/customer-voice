@@ -23,7 +23,7 @@ This article provides information about troubleshooting issues in the Microsoft 
 
 If you receive an error stating that your environment provisioning has failed, you must check the version of Common Data Service you are using. Forms Pro doesn't work with the previous version. If your default environment is created with the previous version of Common Data Service, your environment will not be provisioned and an error message is displayed. You must upgrade the previous version of Common Data Service to the newer version. For more information on Common Data Service, see [What is Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
-To delete or upgrade your Common Data Service from a previous version to the newer version, contact your global administrator. 
+To delete or upgrade Common Data Service from a previous version to the newer version, contact your global administrator. 
 
 If your environment provisioning has failed, the provisioning will be retried periodically. If you want to prioritize or submit any other requests, please contact Microsoft Support.
 
