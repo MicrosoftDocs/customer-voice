@@ -31,7 +31,7 @@ If you don't have the email addresses of the people who you want to view your su
     > [!div class=mx-imgBorder]
     > ![get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")  
 
-## See also
+### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>

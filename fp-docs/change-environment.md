@@ -25,6 +25,6 @@ By default, all environments under the tenant you are signed in to are displayed
 
 3. Select the required environment.
 
-## See also
+### See also
 
 [Copy a survey to another environment](copy-survey-environment.md)

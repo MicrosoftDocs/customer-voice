@@ -40,7 +40,7 @@ Microsoft Forms Pro also displays contributor icons next to each section current
 
 5.  Share this link with your intended audience.
 
-## See also
+### See also
 
 [Share a survey as a template](share-survey-template.md) 
 

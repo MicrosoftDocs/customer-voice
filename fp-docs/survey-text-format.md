@@ -47,7 +47,7 @@ For example, in this survey, formatting has been applied to the elements that yo
 > [!div class=mx-imgBorder]
 > ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
 [Apply theme to a survey](apply-theme.md)<br>

@@ -31,7 +31,7 @@ You can generate a QR code for your recipients to scan it on a phone or tablet t
     > [!div class=mx-imgBorder]
     > ![get the survey qr code for sharing](media/survey-qrcode.png "Get the survey QR code for sharing")  
 
-## See also
+### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>

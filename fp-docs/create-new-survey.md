@@ -72,7 +72,7 @@ While designing a survey if you ask any questions that requires a respondent to 
 When a survey is blocked automatically, the administrator receives a daily notification in **Message center** with an option to unblock the survey. For information on how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
 
 
-## See also
+### See also
 
 [Apply theme to a survey](apply-theme.md)<br>
 [Preview and test a survey](preview-test-survey.md)<br>

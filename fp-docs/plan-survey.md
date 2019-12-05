@@ -47,7 +47,7 @@ A few best practices enable you to create a meaningful survey and gather good re
 
 - **Mention expectations in the survey invitation**: In the survey invitation, be sure to mention the estimated time to complete it and give a brief overview. This will help respondents submit their input within the expected time frame.
 
-## See also
+### See also
 
 [Create a survey](create-survey.md)<br>
 [Send a survey to get responses](send-survey.md) <br>

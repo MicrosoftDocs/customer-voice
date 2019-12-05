@@ -61,7 +61,7 @@ You can embed your surveys in the canvas apps created using Power Apps. This all
     > [!div class=mx-imgBorder]
     > ![Context parameters in a survey response](media/context-param-powerapps.png "Context parameters in a survey response") 
 
-## See also
+### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>

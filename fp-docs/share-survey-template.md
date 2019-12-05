@@ -44,6 +44,6 @@ To share a survey as a template:
 
 6.  When another person navigates to that survey URL, they must select **Duplicate it** at the top or bottom of the survey to create a copy of the survey in their own profile, which they can then modify for their own needs.
 
-## See also
+### See also
 
 [Share a survey for collaborating](share-survey-collaborate.md)

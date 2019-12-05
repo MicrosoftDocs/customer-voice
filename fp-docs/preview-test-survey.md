@@ -34,7 +34,7 @@ After you have created and edited a survey, preview and test it before distribut
 
 5.  After previewing and testing your survey, select **Back**.
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
 [Apply theme to a survey](apply-theme.md)<br>

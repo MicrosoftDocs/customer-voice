@@ -97,7 +97,7 @@ After adding translations for the required languages in your survey, you can eit
     > [!div class=mx-imgBorder]
     > ![Delete the language](media/delete-lang.png "Delete the language") 
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
 [Apply theme to a survey](apply-theme.md)<br>

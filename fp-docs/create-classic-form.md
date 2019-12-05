@@ -36,7 +36,7 @@ To create a classic form:
 5. To create a form, follow the steps in [Create a form with Microsoft Forms](https://support.office.com/article/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d).
 
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
 [Apply theme to a survey](apply-theme.md)<br>

@@ -64,7 +64,7 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
     The flow runs as per the configured trigger and the sends the survey.
 
 
-## See also
+### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>

@@ -67,7 +67,7 @@ You can delete a single survey response or multiple survey responses from Forms,
 > [!div class=mx-imgBorder]
 > ![Delete survey responses](media/delete-survey-invite.png "Delete survey responses")
 
-## See also
+### See also
 
 [View summary information for your survey](view-summary-information.md)<br>
 [View details for each question](view-details-each-question.md)<br>

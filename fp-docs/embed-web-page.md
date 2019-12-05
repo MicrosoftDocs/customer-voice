@@ -96,7 +96,7 @@ You created a `div` container with the ID `surveyDiv` on the webpage where you w
 
 The preceding method calls the `renderSurvey` function and passes the required values accordingly. In this method, static user details are passed, but you can provide a function that retrieves the logged-in user details.
 
-## See also
+### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>

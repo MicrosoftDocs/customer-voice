@@ -100,7 +100,7 @@ To specify values for survey variables in a flow:
 
 5.	Save the changes. 
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
 [Apply theme to a survey](apply-theme.md)<br>

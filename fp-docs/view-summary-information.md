@@ -41,7 +41,7 @@ The following statistics are displayed:
 > [!div class=mx-imgBorder]
 > ![view survey responses](media/view-responses.png "View survey responses")  
 
-## See also
+### See also
 
 [View details for each question](view-details-each-question.md)<br>
 [Analyze survey invitations](analyze-survey-invitations.md)<br>

@@ -41,6 +41,6 @@ You can create a copy of your survey in the same environment or in another envir
 
 5. Select the environment to which you want to copy the survey.
 
-## See also
+### See also
 
 [Change an environment](change-environment.md)

@@ -57,7 +57,7 @@ After adding the required sections in your survey, you can duplicate, remove, or
         > [!div class=mx-imgBorder]
         > ![Move a section](media/move-section.png "Move a section")
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
 [Apply theme to a survey](apply-theme.md)<br>

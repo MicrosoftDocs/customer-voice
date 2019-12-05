@@ -118,7 +118,7 @@ To view flow history:
     > [!div class=mx-imgBorder]
     > ![Flow history details](media/flow-history-details.png "Flow history details")  
 
-## See also
+### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>

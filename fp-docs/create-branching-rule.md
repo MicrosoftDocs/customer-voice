@@ -121,7 +121,7 @@ Once you have created a branching rule or a set of branching rules, you can edit
 
 6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, select **Move up** ![Move up](media/move-up-rule.png "Move up") or **Move down** ![Move down](media/move-down-rule.png "Move down") from the corresponding rule row.
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
 [Apply theme to a survey](apply-theme.md)<br>
