@@ -19,7 +19,7 @@ search.appverid:
 
 After you create your survey, adjust its settings, and share your survey with others, it's time to view the results and insights. Open the survey that you want to review, and then select the **Responses** tab.
 
-On the **Overview** tab, you’ll see summary data about your survey, such as number of invitations sent, number of responses received, Net Promoter Score (NPS), respondent sentiment, and survey insights. You can select **Invitations** or **Responses** to get more details.
+On the **Overview** tab, you'll see summary data about your survey, such as number of invitations sent, number of responses received, Net Promoter Score (NPS), respondent sentiment, and survey insights. You can select **Invitations** or **Responses** to get more details.
 
 The following statistics are displayed:
 
@@ -27,7 +27,7 @@ The following statistics are displayed:
 
 - **Responses**: Total number of survey responses received.
 
-- **NPS**: Net Promoter Score of the survey. The scoring for NPS type question is based on a 0 to 10 scale. The respondents are grouped based on the scores as follows:
+- **NPS**: The NPS of the survey. The scoring for the NPS-type question is based on a 0 to 10 scale. The respondents are grouped based on the scores as follows:
     - **Detractors** are those who respond with a score of 0 to 6.
     - **Passives** are those who respond with a score of 7 to 8.
     - **Promoters** are those who respond with a score of 9 to 10.

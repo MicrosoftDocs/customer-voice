@@ -17,7 +17,7 @@ search.appverid:
 
 # Share a survey for collaborating
 
-When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through a special URL created for collaborators. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it is available in the **Shared with me** section on the home page.
+When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through a special URL created for collaborators. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it's available in the **Shared with me** section on the home page.
 
 Microsoft Forms Pro also displays contributor icons next to each section currently being edited.
 
@@ -43,4 +43,3 @@ Microsoft Forms Pro also displays contributor icons next to each section current
 ### See also
 
 [Share a survey as a template](share-survey-template.md) 
-

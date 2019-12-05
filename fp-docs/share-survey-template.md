@@ -17,9 +17,9 @@ search.appverid:
 
 # Share a survey as a template
 
-It's easy to share a survey as a template so that other people in your organization can duplicate it and use it as their own. When you make a copy of a survey, the copy exists in your profile. When you share a survey as a template, you create a special link that allows others to duplicate the survey in their own profile, where they can make changes to it. 
+It's easy to share a survey as a template so that other people in your organization can duplicate it and use it as their own. When you make a copy of a survey, the copy exists in your profile. When you share a survey as a template, you create a special link that allows others to duplicate the survey in their own profile, where they can make changes to it.
 
-Also, when you share a survey as a template, only the structure of the survey is duplicated. No existing response data is carried over to the new survey. 
+Wen you share a survey as a template, only the structure of the survey is duplicated. No existing response data is carried over to the new survey.
 
 To share a survey as a template:
 
@@ -33,12 +33,12 @@ To share a survey as a template:
 3.  Select **Get a link to duplicate**.
 
     > [!div class=mx-imgBorder]
-    > ![get the link to share the survey as template](media/get-survey-duplicate-link.png "Get the link to share the survey as template")  
+    > ![get the link to share the survey as template](media/get-survey-duplicate-link.png "Get the link to share the survey as a template")  
 
 4.  Select **Copy** next to the text box that displays the survey URL.
 
     > [!div class=mx-imgBorder]
-    > ![link to share the survey as template](media/survey-duplicate-link.png "Link to share the survey as template")  
+    > ![link to share the survey as template](media/survey-duplicate-link.png "Link to share the survey as a template")  
 
 5.  Share this link with your intended audience.
 

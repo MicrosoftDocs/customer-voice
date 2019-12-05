@@ -17,11 +17,11 @@ search.appverid:
 
 # Create a survey invitation
 
-If you want to send a survey using a platform other than Microsoft Forms Pro, such as Outlook, Gmail, or SMS, you can create a survey invitation using Power Automate. The survey invitation creates a personalized link that can be distributed by using a platform of your choice.
+If you want to send a survey by using a platform other than Microsoft Forms Pro&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
-2. Start to create a flow from scratch. For information on creating a flow from scratch, see [Create a flow in Power Automate](https://docs.microsoft.com/flow/get-started-logic-flow).
+2. Start to create a flow from scratch. More information: [Create a flow in Power Automate](https://docs.microsoft.com/flow/get-started-logic-flow)
 
 3. In the flow editor, add a trigger to start your flow.
 
@@ -41,16 +41,16 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
 
     - **Survey**: Select the survey to be sent.
     - **Email**: Enter the recipient's email address.
-    - **Regarding**: Specify a record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.
-    - **Recipient details**: Specify a contact to associate your survey invitation and response records. This value is stored in the survey invitation's **To** field. Only Contact record is supported in this field.
+    - **Regarding**: Specify a record to associate the survey invitation and response. This value is stored in the survey invitation's **Regarding** field.
+    - **Recipient details**: Specify a contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field. Only a Contact record is supported in this field.
 
     > [!NOTE]
-    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields accordingly. For more information on **Regarding** and **Recipient details** fields and how they are stored in the survey invitation, see [Send a survey action](send-survey-microsoft-flow.md#send-a-survey-action).
-    > - If you've used survey variables in your survey, they will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields, respectively. For more information about **Regarding** and **Recipient details** fields and how they're stored in the survey invitation, see [Send a survey action](send-survey-microsoft-flow.md#send-a-survey-action).
+    > - If you've used survey variables in your survey, they'll be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
-8. Add a new step and select the action to send the email. You can use providers such as Outlook, Gmail, or SMS; we have used Outlook to send the survey in this procedure.
+8. Add a new step, and then select the action to send the email. You can use providers such as Outlook, Gmail, or SMS; we've used Outlook to send the survey in this procedure.
 
-9. In the **Send an email** action, enter the following information: 
+9. In the **Send an email** action, enter the following information:
 
     - **To**: Recipient's email address.
     - **Subject**: Subject of the email.
@@ -61,15 +61,14 @@ If you want to send a survey using a platform other than Microsoft Forms Pro, su
     > [!div class=mx-imgBorder]
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
 
-    The flow runs as per the configured trigger and the sends the survey.
-
+    The flow runs as per the configured trigger, and then sends the survey.
 
 ### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
-[Embed survey in a webpage](embed-web-page.md)<br>
+[Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)

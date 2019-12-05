@@ -17,7 +17,7 @@ search.appverid:
 
 # Analyze survey insights
 
-When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. To see a summary of the insights, **Responses** &gt; **Overview**. The summary is displayed under **Latest insights**.
+When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. To see a summary of the insights, go to **Responses** &gt; **Overview**. The summary is displayed under **Latest insights**.
 
 > [!div class=mx-imgBorder]
 > ![view survey insights](media/survey-insights.png "View survey insights")  

@@ -17,9 +17,7 @@ search.appverid:
 
 # Plan to create a survey
 
-
-
-It's important to have a plan for creating your surveys. Here are a few things to think about when you are creating surveys:
+It's important to have a plan for creating your surveys. Here are a few things to think about when you're creating surveys:
 
 -   How do you want to collaborate? For example, do you want to share the survey as a template or invite other people to collaborate?
 
@@ -27,7 +25,7 @@ It's important to have a plan for creating your surveys. Here are a few things t
 
 -   How long do you want the survey to be? Keep in mind that longer surveys tend to have higher abandon rates. A good rule of thumb is to keep surveys shorter than five minutes, or no longer than 10 questions (depending on the type of questions you ask).
 
--   How many mandatory questions are to be included in the survey? We recommend that you ask as few mandatory questions as possible.
+-   How many mandatory questions will you include in the survey? We recommend that you ask as few mandatory questions as possible.
 
 -   How do you want to distribute your survey? For example, do you want to distribute it through individual email, QR code, or do you want to automate?
 
@@ -35,11 +33,11 @@ It's important to have a plan for creating your surveys. Here are a few things t
 
 A few best practices enable you to create a meaningful survey and gather good responses from your customers. You can then analyze those responses and act on them in a way that best suits your organization. Some of the best practices for creating a survey are:
 
-- **Define an objective**: Having an objective allows you to properly plan for your survey. It also allows you to identify what results you expect from your customers. Knowing how you will use the responses helps you pick the right questions for your survey.
+- **Define an objective**: Having an objective allows you to properly plan for your survey. It also allows you to identify what results you expect from your customers. Knowing how you'll use the responses helps you pick the right questions for your survey.
 
 - **Keep the survey short**: If you create a survey that takes a long time to complete, you might reduce your response rate.
 
-- **Create a logical flow of questions**: Ensure that your survey has a logical flow of questions to keep the respondents interested in the survey.
+- **Create a logical flow of questions**: Ensure that your survey has a logical flow of questions to keep respondents interested.
 
 - **Organize the survey**: Group related questions together.
 
@@ -54,4 +52,4 @@ A few best practices enable you to create a meaningful survey and gather good re
 [Collaborate on a survey](collaborate-survey.md) <br>
 [Analyze responses and invitations](analyze-responses-invites.md) <br>
 [Work with environments](choose-environment.md)<br>
-[Troubleshoot Forms pro](troubleshoot.md)
+[Troubleshoot Forms Pro](troubleshoot.md)

@@ -51,7 +51,7 @@ After creating a survey, you can send it through email by following these steps.
 
 ## Insert a survey link
 
-The survey link is added to your email message by default. To insert the survey link in a different location in your email message, place the cursor at the required location, and select **Insert** > **Survey link**. You can also select text, and then select **Insert** > **Survey link** to display that text as the survey link.
+The survey link is added to your email message by default. To insert the survey link in a different location in your email message, place the cursor at the required location, and then select **Insert** > **Survey link**. You can also select text, and then select **Insert** > **Survey link** to display that text as the survey link.
 
 <a name="unsubscribe-from-a-survey"></a>
 
@@ -74,7 +74,7 @@ To create a new variable, select **New variable** from the **Variables** list. I
 If you have added a Rating or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option in the email, the complete survey is opened in the web browser and the responder can continue with completing the survey.
 
 > [!div class=mx-imgBorder]
-> ![Embed survey in an email](media/embed-ques-email.png "Embed a survey in an email")
+> ![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
 
 > [!NOTE]
 > You can't embed the question in an email if you have enabled question shuffling in a survey.
@@ -196,8 +196,7 @@ It can take from 24 to 72 hours for setup to be completed. After Microsoft suppo
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
-[Embed survey in a webpage](embed-web-page.md)<br>
+[Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)
-

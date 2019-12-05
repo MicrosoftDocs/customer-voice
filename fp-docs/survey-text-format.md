@@ -28,7 +28,7 @@ Format text in a survey to change font style, font color, font name, and font si
 - Statements for Likert question
 
 > [!NOTE]
-> The text formatting capability is not supported for options of Ranking and Likert questions.
+> The text formatting capability isn't supported for options of Ranking and Likert questions.
 
 To format the text:
 
@@ -41,7 +41,6 @@ To format the text:
     > [!div class=mx-imgBorder]
     > ![Apply text formatting](media/text-format.png "Apply text formatting")
 
-
 For example, in this survey, formatting has been applied to the elements that you selected earlier:
 
 > [!div class=mx-imgBorder]
@@ -50,7 +49,7 @@ For example, in this survey, formatting has been applied to the elements that yo
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
-[Apply theme to a survey](apply-theme.md)<br>
+[Apply a theme to a survey](apply-theme.md)<br>
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
