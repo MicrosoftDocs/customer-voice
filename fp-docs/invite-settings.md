@@ -16,9 +16,9 @@ search.appverid:
 ---
 
 
-# Work with survey settings 
+# Work with survey settings
 
-After you have created a survey, you can select settings to control the responses to your survey. You can select whether anyone can respond to the survey or only the people in your organization can respond. The former option does not require a respondent to sign in, whereas the latter option does require a respondent to sign in. You can also define various response and notification options.
+After you've created a survey, you can select settings to control responses to your survey. You can choose whether anyone can respond to the survey, or only people in your organization. The former option doesn't require a respondent to sign in, whereas the latter option does require a respondent to sign in. You can also define various response and notification options.
 
 ## Define who can respond to a survey
 
@@ -32,16 +32,16 @@ Let's now explore the options you can select to define who can respond to a surv
 
 1. Open the survey for which you want to change survey settings.
 
-2. Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
+2. Select the **ellipsis** button (...) from the toolbar at the top of the page, and then select **Settings**.
 
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
 
-3. Select **Anyone with the link can respond**. When you select this option, respondents are not required to sign in with their credentials.
+3. Select **Anyone with the link can respond**. When you select this option, respondents aren't required to sign in with their credentials.
 
 4. Optionally, you can select one or both of the following options:
 
-    - **Record name**: Respondent's name is recorded. This option works only if a [personalized survey link](#work-with-personalized-links) is generated.
+    - **Record name**: The respondent's name is recorded. This option works only if a [personalized survey link](#work-with-personalized-links) is generated.
 
     - **One response per person**: A respondent can submit only one response. This option is enabled only when **Record name** is selected and works only if a [personalized survey link](#work-with-personalized-links) is generated.
     
@@ -57,11 +57,11 @@ Let's now explore the options you can select to define who can respond to a surv
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
 
-3. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials. 
+3. Select **Only people in my organization can respond**. When you select this option, respondents are required to sign in with their credentials.
 
 4. Optionally, you can select one or both of the following options:
 
-    - **Record name**: Respondent's name is recorded.
+    - **Record name**: The respondent's name is recorded.
 
     - **One response per person**: A respondent can submit only one response.
     
@@ -85,7 +85,7 @@ When you've defined who can respond to your survey, you can select or clear the 
 You can specify a date, number of responses, or a time period after which the survey will be stopped and your respondents won't be able to complete the survey. If any one of the following conditions is true, the survey will be stopped:
 
 - **End date**: Specify the date when the survey will be stopped.
-- **Maximum responses**: Specify the maximum number of responses to be received, after which the survey will no longer be sent. The maximum value that can be entered is 1,048,576.
+- **Maximum responses**: Specify the maximum number of responses to be received, after which the responses will no longer be counted and the survey will be stopped.
 - **Number of days**: Specify the number of days your survey will be open after you send the survey invitation. The maximum value that can be entered is 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
 
 ### Notification
@@ -101,11 +101,11 @@ You can modify the authentication settings at any time, even after you've distri
 
 ## Work with personalized links
 
-Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response.
+Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response.
 
 When you send a survey by generating a link or a QR code, the survey links aren't personalized. In these cases, you won't be able to record the respondent's name and whether the respondent has submitted only one response, if you've selected **Anyone with the link can respond**.
 
-## See also
+### See also
 
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>

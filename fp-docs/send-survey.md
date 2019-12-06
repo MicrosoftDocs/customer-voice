@@ -17,8 +17,7 @@ search.appverid:
 
 # Send a survey to get responses
 
-
-
+<!--note from editor: "Microsoft Flow" reference okay below?-->
 After your survey is ready, send it to your respondents and collect their feedback. You can send your survey in the following ways:
 
 - **Email**: Send the survey link by using the built-in email capability.
@@ -31,14 +30,14 @@ After your survey is ready, send it to your respondents and collect their feedba
 
 - **QR code**: Send a QR code for your survey.
 
-Respondents can submit responses using a desktop or mobile web browser. You can choose options that allow anyone to submit responses or that restrict responses to only people within your organization.
+Respondents can submit responses by using a desktop or mobile web browser. You can choose to allow anyone to submit responses or restrict responses only to people within your organization.
 
-In this section, you will learn how to:
+In this section, you'll learn how to:
 
 - [Work with survey settings](invite-settings.md)
 - [Send a survey by using email](send-survey-email.md)  
 - [Send a survey by using Power Automate](send-survey-microsoft-flow.md)  
-- [Embed survey in a webpage](embed-web-page.md)  
+- [Embed a survey in a webpage](embed-web-page.md)  
 - [Send a survey link to others](send-survey-link.md)  
 - [Send a survey QR code](send-survey-qrcode.md)  
 - [Create a survey invitation](create-survey-invite.md)
