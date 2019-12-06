@@ -22,11 +22,11 @@ After you have created a survey, you can select settings to control the response
 
 ## Define who can respond to a survey
 
-Consider a scenario where you have created a survey to collect customer feedback when a support case is resolved. In this scenario, you will require feedback from the people outside of your organization. To accomplish this, you will select the option **Anyone with the link can respond** in the survey settings. More information: [Anyone with the link can respond](#anyone-with-the-link-can-respond)
+Consider a scenario where you've created a survey to collect customer feedback when a support case is resolved. In this scenario, you'll require feedback from the people outside your organization. To accomplish this, you select the option **Anyone with the link can respond** in the survey settings. More information: [Anyone with the link can respond](#anyone-with-the-link-can-respond)
 
-Let's consider another scenario where you have created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you will select the option **Only people in my organization can respond** in the survey settings. More information: [Only people in my organization can respond](#only-people-in-my-organization-can-respond)
+Let's consider another scenario where you've created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you select the option **Only people in my organization can respond** in the survey settings. More information: [Only people in my organization can respond](#only-people-in-my-organization-can-respond)
 
-Let's now see the options you can select to define who can respond to a survey and select options whether to record the respondent's name and limit the respondent to submit only one response.
+Let's now explore the options you can select to define who can respond to a survey, and the options whether to record the respondent's name and/or limit the respondent to submit only one response.
 
 ### Anyone with the link can respond
 
@@ -72,44 +72,44 @@ Let's now see the options you can select to define who can respond to a survey a
 
 When you've defined who can respond to your survey, you can select or clear the following options:
 
-- **Accept responses**: Specify whether the survey is open and accepting responses. By default, it is selected. If you want to stop your survey, clear the option, and specify a message for the recipients.
+- **Accept responses**: Specify whether the survey is open and accepting responses. By default, this option is selected. If you want to stop your survey, clear the option and specify a message for the recipients.
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
-- **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, it is selected.
-- **Customize thank you message**: Specify a customized thank you message for your responders.
-- **Customize footer text**: Specify a customized footer text to be displayed for your survey.
-- **Add respondents as**: Specify if the respondent should be added as a contact in Common Data Service. By default, it is selected. This option works only with surveys sent through email.
-- **Start date**: Specify a date when the survey will be open for the respondents. 
+- **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, this option is selected.
+- **Customize thank you message**: Specify a customized thank-you message for your responders.
+- **Customize footer text**: Specify customized footer text to be displayed for your survey.
+- **Add respondents as**: Specify whether the respondent should be added as a contact in Common Data Service. By default, this option is selected. It works only with surveys sent through email.
+- **Start date**: Specify a date when the survey will be open for respondents.
 
 ### Stop survey
 
-You can specify a date, number of responses, or a time period after which a survey will be stopped and your respondents would not be able to complete the survey. If any one of the below condition is true, the survey will be stopped.
+You can specify a date, number of responses, or a time period after which the survey will be stopped and your respondents won't be able to complete the survey. If any one of the following conditions is true, the survey will be stopped:
 
-- **End date**: Specify a date when the survey will be stopped.
-- **Maximum responses**: Specify the number of responses, after receiving which the survey will be stopped. The maximum value that can be entered is 1048576.
-- **Number of days**: Specify the number of days your survey will be open after sending the survey invitation. The maximum value that can be entered is 1095. Respondents will be able to complete the survey through the personalized link from the day of receiving the survey invitation till the specified number of days.
+- **End date**: Specify the date when the survey will be stopped.
+- **Maximum responses**: Specify the maximum number of responses to be received, after which the survey will no longer be sent. The maximum value that can be entered is 1,048,576.
+- **Number of days**: Specify the number of days your survey will be open after you send the survey invitation. The maximum value that can be entered is 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
 
 ### Notification
 
-- **Send email receipt to respondents**: Specify if respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. Once your respondent has filled out your survey, the option, **Send me an email receipt of my responses**, is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank you message and link to view their responses.
+- **Send email receipt to respondents**: Specify whether respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. After your respondent has filled out your survey, the option **Send me an email receipt of my responses** is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank-you message and link to view their responses.
 
-- **Get email notification of each response**: Specify if you need an email notification whenever a response is submitted.
+- **Get email notification of each response**: Specify whether you need an email notification whenever a response is submitted.
 
 > [!div class=mx-imgBorder]
 > ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")
 
-You can modify the authentication settings at any time, even after distributing the survey by email or other channels.
+You can modify the authentication settings at any time, even after you've distributed the survey by email or other channels.
 
 ## Work with personalized links
 
 Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient and helps to record the respondent's name and/or whether the respondent must submit only one response.
 
-When you send a survey by generating a link or a QR code, the survey links are not personalized. In these cases, you will not be able to record the respondent's name and whether the respondent has submitted only one response if you have selected **Anyone with the link can respond**.
+When you send a survey by generating a link or a QR code, the survey links aren't personalized. In these cases, you won't be able to record the respondent's name and whether the respondent has submitted only one response, if you've selected **Anyone with the link can respond**.
 
 ## See also
 
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
-[Embed survey in a webpage](embed-web-page.md)<br>
+[Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)
