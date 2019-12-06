@@ -17,7 +17,7 @@ search.appverid:
 
 # Create a classic form
 
-Microsoft Forms Pro allows you to create a classic form from within the Microsoft Forms Pro environment. This capability allows you to work with surveys and classic forms together. The classic forms created in Microsoft Forms Pro are opened in their interface and will have all the capabilities of basic forms. 
+With Microsoft Forms Pro, you can create a classic form from within the Forms Pro environment. This capability lets you work with surveys and classic forms together. The classic forms created in Forms Pro are opened in their interface and will include all the capabilities that basic forms have.
 
 To create a classic form:
 
@@ -26,20 +26,20 @@ To create a classic form:
 2. Under **My Forms**, select **More options** (...) from the upper-right corner of the **New Pro Survey** button.
 
     > [!div class=mx-imgBorder]
-    > ![Show button to create classic Form](media/classic-form-button-show.png "Show button to create classic Form") 
+    > ![Show button to create classic Form](media/classic-form-button-show.png "Show the button to create a classic form")
 
 4. Select **New Form**.
 
     > [!div class=mx-imgBorder]
-    > ![New Form button](media/new-form-button.png "New Form button") 
+    > ![New Form button](media/new-form-button.png "New Form button")
 
 5. To create a form, follow the steps in [Create a form with Microsoft Forms](https://support.office.com/article/create-a-form-with-microsoft-forms-4ffb64cc-7d5d-402f-b82e-b1d49418fd9d).
 
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
-[Apply theme to a survey](apply-theme.md)<br>
+[Apply a theme to a survey](apply-theme.md)<br>
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
