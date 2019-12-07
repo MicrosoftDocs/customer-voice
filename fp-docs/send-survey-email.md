@@ -135,7 +135,7 @@ The customization feature helps you select an email address that matches your co
     Points to address or value:   selector1<domainGUID>.marketing.dynamics.com
     TTL:                          3600 
     Host name:                    selector2._domainkey
-    Points to address or value:	  selector2<domainGUID>.marketing.dynamics.com
+    Points to address or value:   selector2<domainGUID>.marketing.dynamics.com
     TTL:                          3600
     ```
 
