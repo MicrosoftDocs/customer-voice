@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 12/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
@@ -27,7 +27,6 @@ After creating a survey, you can send it to respondents based on a business trig
 
 To send a survey by using Power Automate:
 
-<!--note from editor: Is step 2 still accurate, or should it be Microsoft Power Automate?-->
 1.  Open the survey you want to send, and then select **Send** from the toolbar at the top of the page.
 
 2. Select **Microsoft Flow**, and then compose the email.

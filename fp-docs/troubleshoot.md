@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 08/19/2019
+ms.date: 12/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 97526FE3-7523-48B0-A8F4-7C369AF78DB4
@@ -109,7 +109,6 @@ If you aren't able to resolve the error, please contact Microsoft Support.
 
 If you receive an error stating that Azure Active Directory is disabled, you must verify whether:
 
-<!--note from editor: References to Dynamics CRM Online are correct?-->
 - The Dynamics CRM Online app is disabled on the tenant.
 - A new app is created with an "https://admin.service.crm4.dynamics.com" audience, which is disabled, and Azure Active Directory is giving preference over to that app instead of Microsoft's first-party app.
 

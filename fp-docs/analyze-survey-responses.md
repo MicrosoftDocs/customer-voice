@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 12/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 145f21c2-4635-4f5d-b7cf-03e90ec4b533
@@ -62,7 +62,6 @@ Each question in your survey is a column, and each response becomes a row in the
 
 ## Delete survey responses
 
-<!--note from editor: Please double-check that "CDS" should be "Common Data Service"-->
 You can delete a single survey response or multiple survey responses from Forms, Common Data Service, and the insights store. To delete survey responses, select the required responses, and then select **Delete** in the **Response details** section. Select **Delete** in the confirmation message.
 
 > [!div class=mx-imgBorder]

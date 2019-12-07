@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/05/2019
+ms.date: 12/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
@@ -62,7 +62,6 @@ Each invitation property is a column, and each invitation becomes a row in the E
 
 ## Delete survey invitations
 
-<!--note from editor: Please double-check that "CDS" should be "Common Data Service"-->
 You can delete a single survey invitation or multiple survey invitations from Forms, Common Data Service, and the insights store. When a survey invitation is deleted, the associated survey response is also deleted.
 
 To delete survey invitations, select the required invitations, and then select **Delete** in the **Invitations details** section. Select **Delete** in the confirmation message.
