@@ -17,7 +17,7 @@ search.appverid:
 
 # Analyze survey insights
 
-When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. To see a summary of the insights, **Responses** &gt; **Overview**. The summary is displayed under **Latest insights**.
+When there are sufficient responses to a survey, insights are generated to show a correlation between the questions and sentiments of the respondents. To see a summary of the insights, go to **Responses** &gt; **Overview**. The summary is displayed under **Latest insights**.
 
 > [!div class=mx-imgBorder]
 > ![view survey insights](media/survey-insights.png "View survey insights")  
@@ -28,7 +28,7 @@ To view detailed survey insights, select **View all**. The following insights ar
 
 - **Sentiment insights**: Displays the average sentiment score and a word cloud for positive and negative feedback of respondents. Sentiment score is calculated based on the sentiment of the responses to the text-based questions. The word cloud is created from key phrases in the feedback.
 
-## See also
+### See also
 
 [View summary information for your survey](view-summary-information.md)<br>
 [View details for each question](view-details-each-question.md)<br>

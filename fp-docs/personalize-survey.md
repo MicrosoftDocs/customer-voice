@@ -21,9 +21,9 @@ You can automatically insert custom information into your survey by using survey
 
 By default, the following survey variables are available:
 
-- **First Name**: Inserts first name of the recipient.
+- **First Name**: Inserts the first name of the recipient.
 
-- **Last Name**: Inserts last name of the recipient.
+- **Last Name**: Inserts the last name of the recipient.
 
 To create a new survey variable:
 
@@ -39,14 +39,14 @@ To create a new survey variable:
 5.	Enter a name and default value for the survey variable.
 
 > [!NOTE]
-> - You can also personalize survey invitations by using survey variables. More information: [Personalize an email](send-survey-email.md#personalize-an-email).
-> - Don't use survey variables if you plan to send a survey anonymously. They will not be replaced with actual data in an anonymous survey.
+> - You can also personalize survey invitations by using survey variables. More information: [Personalize an email](send-survey-email.md#personalize-an-email)
+> - Don't use survey variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
 > - Survey variables are replaced with the specified default values when sending a survey invitation.
 > - You can define a maximum of 15 variables in a survey.
 
 ## Add survey variables to a question
 
-After creating the required survey variables, you need to add them in the question. To add survey variables to a question:
+After creating the required survey variables, you need to add them to the question. 
 
 1.	Open the survey in which you want to add survey variables.
 
@@ -54,7 +54,7 @@ After creating the required survey variables, you need to add them in the questi
 
 3.	Place the cursor at the location where you want to add the survey variable.
 
-4.	From the **Variables** list in the formatting toolbar, select the survey variable you want to add. 
+4.	From the **Variables** list in the formatting toolbar, select the survey variable you want to add.
 
     > [!div class=mx-imgBorder]
     > ![Add survey variables](media/add-pipe-data.png "Add survey variables")
@@ -66,18 +66,18 @@ Let's say the question is:
 
 That question will look like this when a customer named Bert Hair takes the survey for a product named Contoso Sales:
 
-Bert, overall, how would you rate your experience with customer service for Contoso Sales?
+&nbsp;&nbsp;&nbsp;&nbsp;Bert, overall, how would you rate your experience with customer service for Contoso Sales?
 
 ## Specify values for survey variables
 
-You must specify a default value for the survey variables while creating them. If you do not specify a default value, nothing will be displayed for the survey variable. You can also specify the values for survey variables:
+You must specify default values for survey variables while you create them. If you don't specify default values, nothing will be displayed for the survey variables. You can also specify the values for survey variables:
 
 - When sending email invitations.
 - When configuring a flow.
 
 ### Specify values when sending email invitations
 
-If you've created survey variables but did not specify their default values, a warning message is displayed at the top of the page when sending a survey. Select **Define survey variables** to open the **Survey variables** pane and specify the default values.
+If you've created survey variables but didn't specify default values for them, a warning message is displayed at the top of the page when you send the survey. Select **Define survey variables** to open the **Survey variables** pane, and then specify the default values.
 
 ### Specify values in a flow
 
@@ -98,12 +98,12 @@ To specify values for survey variables in a flow:
 
     ![Specify values for survey variables](media/flow-step-advanced-options.png "Specify values for survey variables")
 
-5.	Save the changes. 
+5.	Save the changes.
 
-## See also
+### See also
 
 [Create a new survey](create-new-survey.md)<br>
-[Apply theme to a survey](apply-theme.md)<br>
+[Apply a theme to a survey](apply-theme.md)<br>
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Format text in a survey](survey-text-format.md)<br>

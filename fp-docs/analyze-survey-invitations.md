@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 12/07/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
@@ -17,25 +17,29 @@ search.appverid:
 
 # Analyze survey invitations
 
-
-
-A survey invitation record is created for each survey email that is sent, either manually or with Microsoft Flow. To see the survey invitations associated with a survey, go to **Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
+A survey invitation record is created for each survey email that's sent, either manually or with Power Automate. To see the survey invitations associated with a survey, go to **Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
 
 > [!div class=mx-imgBorder]
 > ![Survey invitations](media/survey-invites.png "Survey invitations")
 
 The following survey invitation statistics are displayed in a summary pane at the top of the page and the list of survey invitations sent for a survey is displayed below the statistics in the grid format.
 
-- **Average turnaround time**: Average time between sending a survey invitation and receiving a survey response. The unanswered survey invites are ignored for this.
+- **Average turnaround time**: Average time between sending a survey invitation and receiving a survey response. The unanswered survey invitations are ignored for this.
 
 - **Failed invitations**: Number of failed invitations in the last week.
 
-- **Invitation status**: A pie chart showing the distribution of survey invitations by status.
+- **Invitation status**: A pie chart showing the distribution of survey invitations by status. The following statuses are displayed:
+
+  - **Queued**: The survey invitation email is queued to be sent.
+  - **Sent**: The survey invitation email has been successfully delivered to the recipient.
+  - **Failed**: The survey invitation email wasn't delivered to the recipient due to an incorrect email address or any other error.
+  - **Responded**: The recipient has responded to the survey.
+  - **Unsubscribed**: The recipient has unsubscribed from receiving the survey-related emails.
 
 - **Invitation trend**: A line chart showing the distribution of survey invitation trends.
 
 > [!div class=mx-imgBorder]
-> ![Survey invitations details](media/survey-invites-details.png "Survey invitations details")
+> ![Survey invitation details](media/survey-invites-details.png "Survey invitation details")
 
 ## Filter invitations
 
@@ -51,21 +55,21 @@ You can filter the invitations by using the following:
 
 You can export a single survey invitation or multiple survey invitations to Microsoft Excel. To export survey invitation(s), select the required invitation(s), and then select **Export** in the **Invitations details** section.
 
-Each invitation property is a column and each invitation becomes a row in the Excel workbook. 
+Each invitation property is a column, and each invitation becomes a row in the Excel workbook.
 
 > [!div class=mx-imgBorder]
 > ![Export survey invitations](media/export-survey-invite.png "Export survey invitations")
 
 ## Delete survey invitations
 
-You can delete a single survey invitation or multiple survey invitations from Forms, CDS, and insights store. When a survey invitation is deleted, the associated survey response is also deleted.
+You can delete a single survey invitation or multiple survey invitations from Forms, Common Data Service, and the insights store. When a survey invitation is deleted, the associated survey response is also deleted.
 
-To delete survey invitation(s), select the required invitation(s), and then select **Delete** in the **Invitations details** section. Select **Delete** in the confirmation message.
+To delete survey invitations, select the required invitations, and then select **Delete** in the **Invitations details** section. Select **Delete** in the confirmation message.
 
 > [!div class=mx-imgBorder]
 > ![Delete survey invitations](media/delete-survey-invite.png "Delete survey invitations")
 
-## See also
+### See also
 
 [View summary information for your survey](view-summary-information.md)<br>
 [View details for each question](view-details-each-question.md)<br>
