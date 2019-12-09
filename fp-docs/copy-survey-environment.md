@@ -17,13 +17,11 @@ search.appverid:
 
 # Copy a survey to another environment
 
-
-
 You can create a copy of your survey in the same environment or in another environment. To copy a survey to another environment:
 
-1. Sign in to Forms Pro. 
+1. Sign in to Microsoft Forms Pro.
 
-2. Find the survey you want to copy from the list of surveys, and select **More form actions** (...) in the upper-right corner of the survey window. 
+2. Find the survey you want to copy from the list of surveys, and then select **More form actions** (...) in the upper-right corner of the survey window.
 
     ![Survey more actions](media/survey-more-actions.png "Survey more actions")
 
@@ -41,6 +39,6 @@ You can create a copy of your survey in the same environment or in another envir
 
 5. Select the environment to which you want to copy the survey.
 
-## See also
+### See also
 
 [Change an environment](change-environment.md)

@@ -32,7 +32,7 @@ To navigate to a different question, select the required question from the quest
 > [!div class=mx-imgBorder]
 > ![Navigate to a different question](media/navigate-ques.png "Navigate to a different question")
 
-## See also
+### See also
 
 [View summary information for your survey](view-summary-information.md)<br>
 [Analyze survey invitations](analyze-survey-invitations.md)<br>

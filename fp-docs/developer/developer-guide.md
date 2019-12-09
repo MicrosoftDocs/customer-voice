@@ -37,6 +37,6 @@ Welcome to the developer guide for Microsoft Forms Pro.
 </td></tr>
 </table>
 
-## See Also
+### See also
 
 [Get started with Forms Pro](../get-started.md)

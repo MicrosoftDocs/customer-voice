@@ -1,5 +1,5 @@
 ---
-title: "Change an environment for working | MicrosoftDocs"
+title: "Change an environment for working with Microsoft Forms Pro | MicrosoftDocs"
 description: "Instructions for changing an environment for working with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
@@ -17,14 +17,14 @@ search.appverid:
 
 # Change an environment
 
-By default, all environments under the tenant you are signed in to are displayed. To change an environment:
+By default, all environments under the tenant you're signed in to are displayed. To change an environment:
 
-1. Sign in to Forms Pro. 
+1. Sign in to Microsoft Forms Pro.
 
 2. Select **Environment** in the upper-right corner of the page to display a list of environments.
 
-3. Select the required environment.
+3. Select the environment you want.
 
-## See also
+### See also
 
 [Copy a survey to another environment](copy-survey-environment.md)

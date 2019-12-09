@@ -17,13 +17,13 @@ search.appverid:
 
 # Get started with Forms Pro
 
-Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Forms Pro supports businesses seeking to transform customer, product, and employee experiences. 
+Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Forms Pro supports businesses seeking to transform customer, product, and employee experiences.
 
-Forms Pro is built on Microsoft Forms, and it offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys using any web browser or mobile device. As the responses are submitted, analyze them with Power BI reports and make effective decisions accordingly.
+Forms Pro is built on Microsoft Forms, and it offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As the responses are submitted, analyze them with Power BI reports and make effective decisions accordingly.
 
-Forms Pro has robust tooling to support deeper analytics and insights with integration across your tools, such as Common Data Service, Microsoft Power Platform, and the model-driven apps in Dynamics 365. With Forms Pro, you can send branded surveys to customers with your company's look and feel. Survey distribution is simpler with the built-in email composer. You can also automate sending surveys with Microsoft Flow and leverage preconfigured Microsoft Flow templates to integrate with the model-driven apps in Dynamics 365.
+Forms Pro has robust tooling to support deeper analytics and insights with integration across your tools, such as Common Data Service, Microsoft Power Platform, and the model-driven apps in Dynamics 365. With Forms Pro, you can send your customers branded surveys that have your company's look and feel. Survey distribution is simpler with the built-in email composer. You can also automate sending surveys by using Microsoft Power Automate and leverage preconfigured flow templates to integrate with the model-driven apps in Dynamics 365.
 
-Forms Pro allows you to work with classic forms and quizzes, and create new ones. The classic forms and quizzes open in their respective interfaces within the Forms Pro environment. This gives you the ability to work with surveys and classic forms together. For information on how to create classic forms in Forms Pro, see [Create a classic form](create-classic-form.md).
+Use Forms Pro to work with classic forms and quizzes, and create new ones. The classic forms and quizzes open in their respective interfaces within the Forms Pro environment. This gives you the ability to work with surveys and classic forms together. For information about how to create classic forms in Forms Pro, see [Create a classic form](create-classic-form.md).
 
 ## Web browsers that work with Forms Pro
 
@@ -31,13 +31,13 @@ Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefo
 
 ## Sign up for the Microsoft Forms Pro trial
 
-Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, you can sign up for a free 30-day trial. After the trial period, you will need a paid license to continue using Microsoft Forms Pro. For information about purchasing Forms Pro, see [Purchase Microsoft Forms Pro](purchase.md).
+Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Forms Pro. For information about purchasing Forms Pro, see [Purchase Microsoft Forms Pro](purchase.md).
 
 1. Open [https://formspro.microsoft.com](https://formspro.microsoft.com/) in a web browser.
 
 2. Select **Get started**.
 
-3. Enter your email address and follow the wizard to complete the sign-up process.
+3. Enter your email address, and follow the wizard to complete the sign-up process.
 
    > [!NOTE]
    > - A work or school account is required for trying Forms Pro.
@@ -51,15 +51,15 @@ You can always opt out of the Microsoft Forms Pro trial manually.
 
 2. Select your username from the upper-right corner of the page.
 
-3. Select **Switch to Forms**. When you switch to Forms, you are redirected to the Microsoft Forms experience and are no longer able to edit surveys.
+3. Select **Switch to Forms**. When you switch to Forms, you're redirected to the Microsoft Forms experience and can no longer edit surveys.
 
 > [!NOTE]
 > If you opt out of the Microsoft Forms Pro trial and sign up again later, your trial end date will be counted from the first date you signed in.
 
-Your trial experience may also be downgraded in the following scenarios:
+Your trial experience might also be downgraded in the following scenarios:
 
-- Trial license is expired
-- An administrator removed your license
+- Your trial license has expired.
+- An administrator removed your license.
 
 When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license. Your data is retained for 90 days, and then deleted if you don't purchase a license before the expiry of trial.
 

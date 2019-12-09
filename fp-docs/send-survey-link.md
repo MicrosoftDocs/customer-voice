@@ -20,9 +20,9 @@ search.appverid:
 If you don't have the email addresses of the people who you want to view your survey, or if you don't want to use the built-in email composer for this purpose, you can easily copy a custom link that lets you send your survey to others.
 
 > [!NOTE]
-> The survey link generated is a non-personalized link. You will not be able to record the respondent's name and whether the respondent has submitted only one response if you select **Anyone with the link can respond** in [survey settings](invite-settings.md).
+> The survey link generated is a non-personalized link. You won't be able to record the respondent's name and whether the respondent has submitted only one response if you select **Anyone with the link can respond** in [survey settings](invite-settings.md).
 
-1. Open the survey you want to send, and select **Send** from the toolbar at the top of the page.
+1. Open the survey you want to send, and then select **Send** from the toolbar at the top of the page.
 
 2. Select **Link**.
 
@@ -31,11 +31,11 @@ If you don't have the email addresses of the people who you want to view your su
     > [!div class=mx-imgBorder]
     > ![get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")  
 
-## See also
+### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
-[Send a survey by using Microsoft Flow](send-survey-microsoft-flow.md)<br>
-[Embed survey in a webpage](embed-web-page.md)<br>
+[Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
+[Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in PowerApps](embed-survey-powerapps.md)
+[Embed a survey in Power Apps](embed-survey-powerapps.md)

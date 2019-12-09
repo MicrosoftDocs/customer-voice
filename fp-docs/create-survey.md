@@ -17,14 +17,12 @@ search.appverid:
 
 # Create a survey
 
+After you've planned for the survey and defined an objective for it, you're ready to start creating your survey. The next few topics cover the basics of creating a survey, applying a theme to it, and other actions that you can perform by using Microsoft Forms Pro.
 
-
-After you've planned for the survey and defined an objective for it, you are now ready to start creating your survey. The next few topics cover the basics of creating a survey, applying a theme to it, and other actions that you can perform by using Microsoft Forms Pro.
-
-In this section, you will learn how to:
+In this section, you'll learn how to:
 
 - [Create a new survey](create-new-survey.md)
-- [Apply theme to a survey](apply-theme.md)  
+- [Apply a theme to a survey](apply-theme.md)  
 - [Preview and test a survey](preview-test-survey.md)
 - [Create a branching rule](create-branching-rule.md)
 - [Personalize a survey](personalize-survey.md)

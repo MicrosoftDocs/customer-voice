@@ -38,7 +38,7 @@ Use this reference to understand the available operations that can be performed 
 |[msfp_surveyresponse](reference/entities/msfp_surveyresponse.md)|Response to a survey.|
 |[msfp_unsubscribedrecipient](reference/entities/msfp_unsubscribedrecipient.md)|Email address of an unsubscribed respondent.|
 
-## See also
+### See also
 
 [Developer guide for Forms Pro](developer-guide.md)<br />
 [Entity reference for Microsoft Dynamics 365](/dynamics365/customer-engagement/developer/about-entity-reference)
