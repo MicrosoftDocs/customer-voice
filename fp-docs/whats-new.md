@@ -27,9 +27,6 @@ Following are the new and updated features in this release:
 
 - **Survey invitation link expiration**: You can now configure the expiration time period of the survey link you send to your respondents. After the link expires, your respondents would not be able to complete the survey. More information: [Stop survey](invite-settings.md#stop-survey)
 
-- **New service plans**: Forms Pro is now included with Dynamics 365 Operations and Dynamics 365 Relationship Sales. More information: [Purchase Microsoft Forms Pro](purchase.md)
-
-
 ## November 2019 update
 
 Following are the new and updated features in this release:
