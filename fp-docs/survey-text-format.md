@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 01/10/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 55FEBC29-69E8-4046-A1DA-D6701BEC16DD
@@ -24,6 +24,8 @@ Format text in a survey to change font style, font color, font name, and font si
 - Question text
 - Question subtitle
 - Question options
+- Section heading
+- Section description
 - Left and right labels for Net Promoter Score and Rating questions
 - Statements for Likert question
 

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/07/2019
+ms.date: 01/10/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: efa240ce-9ef0-40e6-b634-143a347201e9
@@ -35,6 +35,9 @@ The following survey invitation statistics are displayed in a summary pane at th
   - **Failed**: The survey invitation email wasn't delivered to the recipient due to an incorrect email address or any other error.
   - **Responded**: The recipient has responded to the survey.
   - **Unsubscribed**: The recipient has unsubscribed from receiving the survey-related emails.
+  - **Read**: The survey invitation email is read or opened.
+  - **Started**: The survey has been started by the recipient but is not completed yet.
+  - **Delayed**: There is some delay is delivering the survey invitation email and is being retried.
 
 - **Invitation trend**: A line chart showing the distribution of survey invitation trends.
 
