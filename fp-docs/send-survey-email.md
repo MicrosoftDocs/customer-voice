@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/06/2019
+ms.date: 12/23/2019
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -169,6 +169,9 @@ The customization feature helps you select an email address that matches your co
 
     Based on the information provided, Microsoft support will then verify the records and create the DKIM keys for signing the emails. You'll get a confirmation from Microsoft support that the record verification is complete.
 
+    > [!NOTE]
+    > The SLA for creating DKIM keys is minimum 3 to 4 weeks.
+
 10.	Sign in to Forms Pro, and open the **Settings** pane. Select the custom email address that you want to use for sending email.  
 
     > [!div class=mx-imgBorder]
@@ -190,7 +193,7 @@ The email account need not be a functioning account to send emails; however, a m
 
 #### How long does it take for setup to be completed?
 
-It can take from 24 to 72 hours for setup to be completed. After Microsoft support confirms the domain is active, you can start sending survey invitations by using the custom email.
+It will take a minimum of 3 to 4 weeks for setup to be completed. After Microsoft support confirms the domain is active, you can start sending survey invitations by using the custom email.
 
 ### See also
 
