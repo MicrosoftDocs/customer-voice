@@ -195,7 +195,7 @@ It can take from 24 to 72 hours for setup to be completed. After Microsoft suppo
 ### See also
 
 [Work with survey settings](invite-settings.md)<br>
-[Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
+[Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>

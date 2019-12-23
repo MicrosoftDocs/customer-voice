@@ -35,7 +35,7 @@ You can generate a QR code for your recipients to scan on a phone or tablet to a
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
-[Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
+[Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)

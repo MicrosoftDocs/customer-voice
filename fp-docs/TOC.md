@@ -20,7 +20,7 @@
 # [Send a survey to get responses](send-survey.md)
 ## [Work with survey settings](invite-settings.md)  
 ## [Send a survey by using email](send-survey-email.md)  
-## [Send a survey by using Power Automate](send-survey-microsoft-flow.md)  
+## [Send a survey by using Power Automate](send-survey-flow.md)  
 ## [Embed a survey in a webpage](embed-web-page.md)  
 ## [Send a survey link to others](send-survey-link.md)  
 ## [Send a survey QR code](send-survey-qrcode.md)  
