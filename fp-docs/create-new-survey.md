@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/05/2019
+ms.date: 01/10/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: EA713CA9-6B0B-45A3-A700-22C164465411
@@ -71,6 +71,17 @@ In any survey you design, if you ask questions that require a respondent to prov
 
 When a survey is blocked automatically, the administrator receives a daily notification in **Message center** with an option to unblock the survey. For information about how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
 
+## Add restrictions in text questions
+
+Text questions allow you to add restrictions when you want your respondents to provide answers as a number, an email, or in a predefined format such as booking ID.
+
+To add restrictions:
+
+1. In the text question, select **More settings for question** (...), and then select **Restrictions**.
+2. Select one of the following options from the **Restrictions** list:
+    - **Number**: Allows you restrict the input to only numbers. You can choose to restrict the numbers by selecting from the various options such as Only number, Greater than, Less than, Between, and many others.
+    - **Email**: Allows you restrict the input to only a valid email address.
+    - **Custom**: Allows you to define a regular expression and restrict the input that matches the defined expression.
 
 ### See also
 
