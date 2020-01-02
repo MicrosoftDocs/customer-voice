@@ -47,7 +47,7 @@ To create a new survey with Microsoft Forms Pro:
 
 8. To change the order of questions in the survey, select a question, and then select the up or down arrow on the right side of each question to move it up or down.
 
-9. To hide a question from being displayed in the survey, move the **Visible** toggle to the off position. By default, this option is turned on. You can show the question to the responder based on a branching rule. More information: [Create a branching rule](create-branching-rule.md)
+9. To hide a question from being displayed in the survey, move the **Visible** toggle to the off position. By default, this toggle is turned on. You can show the question to the responder based on a branching rule. More information: [Create a branching rule](create-branching-rule.md)
 
     > [!div class=mx-imgBorder]
     > ![Question visibility](media/visibility-option.png "Question visibility")
@@ -71,17 +71,21 @@ In any survey you design, if you ask questions that require a respondent to prov
 
 When a survey is blocked automatically, the administrator receives a daily notification in **Message center** with an option to unblock the survey. For information about how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
 
-## Add restrictions in text questions
+## Add restrictions in text-based questions
 
 Text questions allow you to add restrictions when you want your respondents to provide answers as a number, an email, or in a predefined format such as booking ID.
 
 To add restrictions:
 
-1. In the text question, select **More settings for question** (...), and then select **Restrictions**.
+1. In the text-based question, select **More settings for question** (...), and then select **Restrictions**.
 2. Select one of the following options from the **Restrictions** list:
     - **Number**: Allows you restrict the input to only numbers. You can choose to restrict the numbers by selecting from the various options such as Only number, Greater than, Less than, Between, and many others.
     - **Email**: Allows you restrict the input to only a valid email address.
     - **Custom**: Allows you to define a regular expression and restrict the input that matches the defined expression.
+
+## Calculate sentiments from responses to text-based questions
+
+Sentiment analysis allows you to determine whether user responses for a survey are positive, neutral, or negative. The sentiments are calculated from responses to the text-based questions. In a survey, you can select the text-based questions that should be used for calculating sentiment of the survey. To select text-based questions for sentiment analysis, go to the text-based question, and move the **Sentiment** toggle to the on position. By default, this toggle is turned off. If you don't select any text-based question for sentiment analysis, sentiment will not be generated.
 
 ### See also
 

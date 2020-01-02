@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 01/10/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 2a379963-6fb9-41cd-ae21-83d32a84a6d1
@@ -34,7 +34,7 @@ The following statistics are displayed:
     
     NPS is calculated by subtracting the percentage of detractors from the percentage of promoters.
 
-- **Sentiment**: Average sentiment of the respondents: positive, neutral, or negative.
+- **Sentiment**: Average sentiment of the respondents: positive, neutral, or negative. For more information on sentiment calculation, see [Calculate sentiments from responses to text-based questions](create-new-survey.md#calculate-sentiments-from-responses-to-text-based-questions).
 
 - **Latest insights**: Correlation and sentiment are displayed based on the survey responses.
 

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/06/2019
+ms.date: 01/10/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -75,8 +75,8 @@ When you've defined who can respond to your survey, you can select or clear the 
 - **Accept responses**: Specify whether the survey is open and accepting responses. By default, this option is selected. If you want to stop your survey, clear the option and specify a message for the recipients.
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
 - **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, this option is selected.
-- **Customize thank you message**: Specify a customized thank-you message for your responders.
-- **Customize footer text**: Specify customized footer text to be displayed for your survey.
+- **Customize thank you message**: Specify a customized thank-you message for your responders. You can also format the thank-you message to change its font style, font color, font name, and font size. You can also add a link to the message by selecting the **Link** button on the formatting toolbar and then adding the link through the link editor.
+- **Customize footer text**: Specify customized footer text to be displayed for your survey. You can also format the footer text to change its font style, font color, font name, and font size. You can also add a link to the message by selecting the **Link** button on the formatting toolbar and then adding the link through the link editor.
 - **Add respondents as**: Specify whether the respondent should be added as a contact in Common Data Service. By default, this option is selected. It works only with surveys sent through email.
 - **Start date**: Specify a date when the survey will be open for respondents.
 
