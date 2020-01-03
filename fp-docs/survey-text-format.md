@@ -26,6 +26,8 @@ Format text in a survey to change font style, font color, font name, and font si
 - Question options
 - Section heading
 - Section description
+- Thank you message
+- Footer text
 - Left and right labels for Net Promoter Score and Rating questions
 - Statements for Likert question
 
@@ -49,7 +51,7 @@ For example, in this survey, formatting has been applied to the elements that yo
 > ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 > [!NOTE]
-> You can also format the thank you message and footer text by using the formatting toolbar. More information: [Survey response options](invite-settings.md#survey-response-options)
+> The thank-you message and footer text are available in the **Settings** pane. You can format them by using the formatting toolbar. More information: [Survey response options](invite-settings.md#survey-response-options)
 
 ### See also
 
