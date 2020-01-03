@@ -48,6 +48,9 @@ For example, in this survey, formatting has been applied to the elements that yo
 > [!div class=mx-imgBorder]
 > ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
+> [!NOTE]
+> You can also format the thank you message and footer text by using the formatting toolbar. More information: [Survey response options](invite-settings.md#survey-response-options)
+
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
