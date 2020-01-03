@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/06/2019
+ms.date: 01/10/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -78,6 +78,8 @@ If you have added a Rating or Net Promoter Score question as the first question 
 
 > [!NOTE]
 > You can't embed the question in an email if you have enabled question shuffling in a survey.
+
+If you have created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Survey variables** pane, and then specify a value for the **locale** variable. The value must be a language code, for example, en, fr, and so on.
 
 <a name="use-email-templates"></a>
 

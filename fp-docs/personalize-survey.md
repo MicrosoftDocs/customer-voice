@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 01/10/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1AECC69F-B68A-4776-884A-C59770FC5C96
@@ -24,6 +24,8 @@ By default, the following survey variables are available:
 - **First Name**: Inserts the first name of the recipient.
 
 - **Last Name**: Inserts the last name of the recipient.
+
+- **locale**: Used to specify the locale of the survey while embedding it in the email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
 
 To create a new survey variable:
 
