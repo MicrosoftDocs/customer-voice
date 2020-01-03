@@ -25,7 +25,7 @@ By default, the following survey variables are available:
 
 - **Last Name**: Inserts the last name of the recipient.
 
-- **locale**: Used to specify the locale of the survey while embedding it in the email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
+- **locale**: Specifies the locale of the survey while embedding it in the email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
 
 To create a new survey variable:
 
