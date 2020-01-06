@@ -15,6 +15,10 @@ search.appverid:
   - FPR160
 ---
 
+
+<!--from editor: Please verify that "Microsoft Forms Pro for Customer Engagement Plan" (line 85 below) is still listed on the product licenses page. -->
+
+
 # Purchase Microsoft Forms Pro
 
 Microsoft Forms Pro is included with select Microsoft Dynamics 365 subscriptions and is available as an upgrade for Office 365 subscriptions.
