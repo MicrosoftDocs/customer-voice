@@ -51,7 +51,6 @@ note from editor: Recommend moving this to the note below.
 -->
 8. To change the order of questions in the survey, select a question, and then select the up or down arrow on the right side of each question to move it up or down.
 
-<!--%%% Not sure about this one being here either. -->
 9. To hide a question from being displayed in the survey, move the **Visible** toggle to the Off position. By default, this toggle is turned on. You can show the question to the responder based on a branching rule. More information: [Create a branching rule](create-branching-rule.md)
 
     > [!div class=mx-imgBorder]
