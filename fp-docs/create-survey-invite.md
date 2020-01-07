@@ -17,7 +17,7 @@ search.appverid:
 
 # Create a survey invitation
 
-If you want to send a survey by using a platform other than Microsoft Forms Pro&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice. The survey invitation link will be a short URL that can be easily distributed by using the platforms having a lower allowed character limit, for example, SMS, Twitter, and so on.
+If you want to send a survey by using a platform other than Microsoft Forms Pro&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice. The survey invitation link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter).
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
@@ -30,7 +30,7 @@ If you want to send a survey by using a platform other than Microsoft Forms Pro&
 5. In search results, select **Microsoft Forms Pro**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Microsoft Forms Pro connector](media/search-connector.png "Select Microsoft Forms Pro connector")  
+    > ![Select Microsoft Forms Pro connector](media/search-connector.png "Select the Microsoft Forms Pro connector")  
 
 6. Select the **Create an invitation (preview)** action.
 
@@ -50,18 +50,18 @@ If you want to send a survey by using a platform other than Microsoft Forms Pro&
 
 8. Add a new step, and then select the action to send the email. You can use providers such as Outlook, Gmail, or SMS; we've used Outlook to send the survey in this procedure.
 
-9. In the **Send an email** action, enter the following information:
+9. In the **Send an email** action, do the following:
 
-    - **To**: Recipient's email address.
-    - **Subject**: Subject of the email.
-    - **Body**: Enter the required text and add **Invitation link** dynamic content.
+    - **To**: Enter the recipient's email address.
+    - **Subject**: Enter the subject of the email.
+    - **Body**: Enter the text you want for the body of the email, and add the **Invitation link** dynamic content.
 
     After entering the required details, the flow looks as shown in the following image:
 
     > [!div class=mx-imgBorder]
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
 
-    The flow runs as per the configured trigger, and then sends the survey.
+    The flow runs in accordance with the configured trigger, and then sends the survey.
 
 ### See also
 

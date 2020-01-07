@@ -17,7 +17,7 @@ search.appverid:
 
 # Analyze survey invitations
 
-A survey invitation record is created for each survey email that's sent, either manually or with Power Automate. To see the survey invitations associated with a survey, go to **Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
+A survey invitation record is created for each survey email that's sent, either manually or with Microsoft Power Automate. To see the survey invitations associated with a survey, go to **Responses** &gt; **Overview**, and then select **Invitations** from the summary information.
 
 > [!div class=mx-imgBorder]
 > ![Survey invitations](media/survey-invites.png "Survey invitations")
@@ -56,7 +56,7 @@ You can filter the invitations by using the following:
 
 ## Export survey invitations
 
-You can export a single survey invitation or multiple survey invitations to Microsoft Excel. To export survey invitation(s), select the required invitation(s), and then select **Export** in the **Invitations details** section.
+You can export a single survey invitation or multiple survey invitations to Excel. To export survey invitation(s), select the required invitation(s), and then select **Export** in the **Invitations details** section.
 
 Each invitation property is a column, and each invitation becomes a row in the Excel workbook.
 

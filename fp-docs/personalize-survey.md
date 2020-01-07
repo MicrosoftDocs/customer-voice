@@ -31,7 +31,7 @@ To create a new survey variable:
 
 1.	Open the survey in which you want to use survey variables.
 
-2.	Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Survey variables**.
+2.	Select the ellipsis button **(…)** from the toolbar at the top of the page, and then select **Survey variables**.
 
     > [!div class=mx-imgBorder]
     > ![Survey variables button](media/custom-data-button.png "Survey variables button")
@@ -111,4 +111,4 @@ To specify values for survey variables in a flow:
 [Format text in a survey](survey-text-format.md)<br>
 [Create a classic form](create-classic-form.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
-[Create a multipage survey](create-multipage-survey.md)
+[Create a multiple-page survey](create-multipage-survey.md)

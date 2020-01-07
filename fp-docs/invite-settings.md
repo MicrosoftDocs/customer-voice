@@ -1,6 +1,6 @@
 ---
-title: "Survey settings | MicrosoftDocs"
-description: "Instructions for updating survey settings in Microsoft Forms Pro"
+title: "Survey settings in Microsoft Forms Pro"
+description: "Instructions for updating survey settings in Microsoft Forms Pro to control who can respond to your survey and other survey response options"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -26,13 +26,13 @@ Consider a scenario where you've created a survey to collect customer feedback w
 
 Let's consider another scenario where you've created a survey to collect feedback about an internal organization event and you want only the people in your organization to respond to the survey. To accomplish this, you select the option **Only people in my organization can respond** in the survey settings. More information: [Only people in my organization can respond](#only-people-in-my-organization-can-respond)
 
-Let's now explore the options you can select to define who can respond to a survey, and the options whether to record the respondent's name and/or limit the respondent to submit only one response.
+Let's now explore the options you can select to define who can respond to a survey, and the options for whether to record the respondent's name or limit the respondent to submit only one response.
 
 ### Anyone with the link can respond
 
 1. Open the survey for which you want to change survey settings.
 
-2. Select the **ellipsis** button (...) from the toolbar at the top of the page, and then select **Settings**.
+2. Select the ellipsis button **(...)** from the toolbar at the top of the page, and then select **Settings**.
 
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
@@ -44,7 +44,7 @@ Let's now explore the options you can select to define who can respond to a surv
     - **Record name**: The respondent's name is recorded. This option works only if a [personalized survey link](#work-with-personalized-links) is generated.
 
     - **One response per person**: A respondent can submit only one response. This option is enabled only when **Record name** is selected and works only if a [personalized survey link](#work-with-personalized-links) is generated.
-    
+
     > [!div class=mx-imgBorder]
     > ![Invitation settings for external surveys](media/invite-settings-external.png "Invitation settings for external surveys")
 
@@ -52,7 +52,7 @@ Let's now explore the options you can select to define who can respond to a surv
 
 1. Open the survey for which you want to change survey settings.
 
-2. Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Settings**.
+2. Select the ellipsis button **(…)** from the toolbar at the top of the page, and then select **Settings**.
 
     > [!div class=mx-imgBorder]
     > ![Settings](media/settings-icon.png "Settings")
@@ -64,7 +64,7 @@ Let's now explore the options you can select to define who can respond to a surv
     - **Record name**: The respondent's name is recorded.
 
     - **One response per person**: A respondent can submit only one response.
-    
+
     > [!div class=mx-imgBorder]
     > ![Invitation settings for internal surveys](media/invite-settings-internal.png "Invitation settings for internal surveys")
 
@@ -75,8 +75,8 @@ When you've defined who can respond to your survey, you can select or clear the 
 - **Accept responses**: Specify whether the survey is open and accepting responses. By default, this option is selected. If you want to stop your survey, clear the option and specify a message for the recipients.
 - **Shuffle questions**: Specify whether the questions in the survey should be shuffled.
 - **Show question numbers**: Specify whether the question numbers should be displayed in the survey. By default, this option is selected.
-- **Customize thank you message**: Specify a customized thank-you message for your responders. You can also format the thank-you message to change its font style, font color, font name, and font size. You can also add a link to the message by selecting the **Link** button on the formatting toolbar and then adding the link through the link editor.
-- **Customize footer text**: Specify customized footer text to be displayed for your survey. You can also format the footer text to change its font style, font color, font name, and font size. You can also add a link to the message by selecting the **Link** button on the formatting toolbar and then adding the link through the link editor.
+- **Customize thank you message**: Specify a customized thank-you message for your responders. You can also format the thank-you message to change its font style, font color, font name, and font size. You can also add a link to the message by selecting the **Link** button on the formatting toolbar, and then adding the link through the link editor.
+- **Customize footer text**: Specify customized footer text to be displayed for your survey. You can also format the footer text to change its font style, font color, font name, and font size. You can also add a link to the message by selecting the **Link** button on the formatting toolbar, and then adding the link through the link editor.
 - **Add respondents as**: Specify whether the respondent should be added as a contact in Common Data Service. By default, this option is selected. It works only with surveys sent through email.
 - **Start date**: Specify a date when the survey will be open for respondents.
 
@@ -88,9 +88,9 @@ You can specify a date, number of responses, or a time period after which the su
 - **Maximum responses**: Specify the maximum number of responses to be received, after which the responses will no longer be counted and the survey will be stopped.
 - **Number of days**: Specify the number of days your survey will be open after you send the survey invitation. The maximum value that can be entered is 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
 
-### Display options
-
-- **Show progress bar**: Specify whether a progress bar should be displayed. Progress bar allows your respondents to see the survey completion in terms of the percentage of pages that have been completed so far. By default, this option is selected. The progress bar is displayed only if there are two or more pages in the survey.
+### Display options (only shown for multiple-page surveys)
+<!--note from editor: The edit to the heading is suggested just to emphasize that this option isn't shown in the illustration. Also... You don't need the bullet because there's only one item in this list.-->
+**Show progress bar**: Specify whether to display a progress bar for mutliple-page surveys. The progress bar shows your respondents how many pages they've completed so far and how many pages are left to go. By default, this option is selected. The progress bar is displayed only if there are two or more pages in the survey.
 
 ### Notification
 

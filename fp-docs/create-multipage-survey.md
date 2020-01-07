@@ -1,6 +1,6 @@
 ---
-title: "Create a multipage survey | MicrosoftDocs"
-description: "Instructions for creating a multipage survey with Microsoft Forms Pro"
+title: "Create a multiple-page survey with Microsoft Forms Pro"
+description: "Instructions for using sections to create a multiple-page survey with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -15,12 +15,12 @@ search.appverid:
   - FPR160
 ---
 
-# Create a multipage survey
+# Create a multiple-page survey
 
 When you create a survey, the survey is created on a single page by default. You can split your survey into multiple pages by adding sections. If your survey is very long and complex, you can use sections to group the questions logically.
 
 > [!NOTE]
-> You can add sections in an existing survey and then move the questions up or down accordingly in the section. If you're creating a new survey, you can add sections while adding questions.
+> You can add sections in an existing survey, and then move the questions up or down accordingly in the section. If you're creating a new survey, you can add sections while adding questions.
 
 ## Add a section
 
@@ -36,7 +36,7 @@ When you create a survey, the survey is created on a single page by default. You
     > [!div class=mx-imgBorder]
     > ![New section added](media/section-name.png "New section added")
 
-4.	Add new questions to the section or move existing questions to the section as required.
+4.	Add new questions to the section, or move existing questions to the section as required.
 
 ## Manage a section
 
@@ -44,14 +44,14 @@ After adding the required sections in your survey, you can duplicate, remove, or
 
 1.	Open the survey in which you want to manage a section.
 
-2.	Select the **ellipsis** button (...) at the right side of the section header you need to manage, and then select one of the following options:
+2.	Select the ellipsis button **(...)** at the right side of the section header you need to manage, and then select one of the following options:
 
-    - **Duplicate section**: Create a copy of the section along with its questions.
+    - **Duplicate section**: Create a copy of the section, along with its questions.
     - **Remove section**: Select one of the following options:
         - **Just section**: Delete the section and move the questions to the previous section.
         - **Section and questions**: Delete the section and its questions.
     - **Move section**: Move the section up or down in the survey.
-        
+
         > [!div class=mx-imgBorder]
         > ![Move a section](media/move-section.png "Move a section")
 

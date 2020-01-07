@@ -1,6 +1,6 @@
 ---
-title: "Create a survey | MicrosoftDocs"
-description: "Instructions for creating a survey with Microsoft Forms Pro"
+title: "Create surveys with Microsoft Forms Pro"
+description: "Topics for creating, customizing, and personalizing surveys with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -14,8 +14,8 @@ ms.custom:
 search.appverid:
   - FPR160
 ---
-
-# Create a survey
+<!--note from editor: Suggest a few tweaks to metadata and the title for this topic, to differentiate a bit from "Create a new survey."-->
+# Create surveys with Forms Pro
 
 After you've planned for the survey and defined an objective for it, you're ready to start creating your survey. The next few topics cover the basics of creating a survey, applying a theme to it, and other actions that you can perform by using Microsoft Forms Pro.
 
@@ -29,6 +29,6 @@ In this section, you'll learn how to:
 - [Format text in a survey](survey-text-format.md)
 - [Create a classic form](create-classic-form.md)
 - [Create a multilingual survey](create-multilingual-survey.md)
-- [Create a multipage survey](create-multipage-survey.md)
+- [Create a multiple-page survey](create-multipage-survey.md)
 
 
