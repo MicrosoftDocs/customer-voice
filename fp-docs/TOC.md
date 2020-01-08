@@ -6,7 +6,7 @@
 
 # [Plan a survey](plan-survey.md)
 
-# [Create a survey](create-survey.md)
+# [Create surveys](create-survey.md)
 ## [Create a new survey](create-new-survey.md)
 ## [Apply a theme to a survey](apply-theme.md)  
 ## [Format text in a survey](survey-text-format.md)
@@ -15,7 +15,7 @@
 ## [Personalize a survey](personalize-survey.md)
 ## [Create a classic form](create-classic-form.md)
 ## [Create a multilingual survey](create-multilingual-survey.md)
-## [Create a multipage survey](create-multipage-survey.md)
+## [Create a multiple-page survey](create-multipage-survey.md)
 
 # [Send a survey to get responses](send-survey.md)
 ## [Work with survey settings](invite-settings.md)  

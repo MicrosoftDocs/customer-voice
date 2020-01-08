@@ -24,7 +24,7 @@ When you create a multilingual survey, respondents can choose their preferred la
 > [!div class=mx-imgBorder]
 > ![Select a language for the survey](media/lang-select.png "Select a language for the survey") 
 
-To create a multilingual survey:
+**To create a multilingual survey**
 
 1.	[Add survey language](#step-1-add-survey-language)
 2.	[Add translations](#step-2-add-translations)
@@ -33,7 +33,7 @@ To create a multilingual survey:
 
 1.	Open the survey in which you want to enable multiple languages.
 
-2.	Select the **ellipsis** button (...) from the toolbar at the top of the page, and then select **Multilingual**.
+2.	Select the ellipsis button **(...)** from the toolbar at the top of the page, and then select **Multilingual**.
 
     > [!div class=mx-imgBorder]
     > ![Multilingual button](media/multilingual-button.png "Multilingual button") 
@@ -55,7 +55,7 @@ To create a multilingual survey:
 
 ## Step 2: Add translations
 
-There are two options to add translations:
+You can choose from two options for adding translations:
 
 1. [Translate all languages in bulk](#option-1-translate-all-languages-in-bulk)
 2. [Translate individual languages](#option-2-translate-individual-languages)
@@ -65,32 +65,32 @@ There are two options to add translations:
 1. In the **Multilingual** pane, select **Edit all**.
 
     > [!div class=mx-imgBorder]
-    > ![Edit all languages](media/edit-all-lang.png "Edit all languages") 
+    > ![Edit all languages](media/edit-all-lang.png "Edit all languages")
 
-2. Select **Download this Excel** to download an Excel file containing strings in the primary language and columns for each of the selected language. For example, **es** for Spanish, **fr** for French, and so on.
+2. Select **Download this Excel** to download an Excel file containing strings in the primary language and columns for each of the selected languages. For example, **es** for Spanish or **fr** for French.
 
     > [!div class=mx-imgBorder]
-    > ![Download Excel file to edit all languages](media/download-excel.png "Download Excel file to edit all languages") 
+    > ![Download Excel file to edit all languages](media/download-excel.png "Download an Excel file to edit all languages")
 
 3. Open the Excel file and add translations for each language in its respective column.
 
-4. After adding translations for all languages in the Excel file, go to the **Multilingual > Edit all** pane, and then select **Upload Excel file**.
+4. After adding translations for all languages in the Excel file, go to the **Multilingual** > **Edit all** pane, and then select **Upload Excel file**.
 
     > [!div class=mx-imgBorder]
-    > ![Upload Excel file containing translations for all languages](media/upload-excel.png "Upload Excel file containing translations for all languages") 
+    > ![Upload Excel file containing translations for all languages](media/upload-excel.png "Upload the Excel file containing translations for all languages") 
 
-5. Browse and select the Excel file in which you have added translations.
+5. Browse to and select the Excel file in which you have added translations.
 
-After uploading the Excel file, you can preview the survey to see if everything works as expected. Select the language from the language selector at the upper-right corner of the survey.
+After uploading the Excel file, you can preview the survey to see whether everything works as expected. Select the language from the language selector at the upper-right corner of the survey.
 
 > [!div class=mx-imgBorder]
-> ![Translated survey](media/translated-survey.png "Translated survey") 
+> ![Translated survey](media/translated-survey.png "Translated survey")
 
 > [!NOTE]
-> - The first column in the Excel file contains strings in the primary language and is not editable.
+> - The first column in the Excel file contains strings in the primary language and isn't editable.
 > - You must ensure that a translation for each string is provided in the Excel file.
-> - It is recommended to download the latest Excel file every time to add or edit the translations. This ensures that the updated strings and languages are available.
-> - It is recommended not to make a copy of the Excel file and add strings in it, or change the file extension. This might result into upload failure.
+> - We recommend that you download the latest Excel file every time you add or edit the translations. This ensures that the latest strings and languages are available.
+> - We recommend that you _not_ make a copy of the Excel file and add strings to it, or change the file name extension. These actions might result in upload failure.
 
 ### Option 2: Translate individual languages
 
@@ -99,7 +99,7 @@ After uploading the Excel file, you can preview the survey to see if everything 
     > [!div class=mx-imgBorder]
     > ![Edit the language added for the survey](media/edit-lang.png "Edit the language added for the survey")
 
-2.	Select the survey title, its description, questions, and their corresponding options in the survey, and then enter the translated text for the question and its options.
+2.	Select the survey title, its description, questions, and their corresponding options in the survey, and then enter translated text for the question and its options.<!--note from editor: This is a bit confusing, to start out talking about all the elements of the survey but then only enter translated text for a single question. Should this be "Select the survey title, description, and questions with their options, and then enter translated text for all the elements of the survey."? -->
 
     > [!div class=mx-imgBorder]
     > ![Translated text added in the survey](media/translation-added.png "Translated text added in the survey") 
@@ -119,7 +119,7 @@ After adding translations for the required languages in your survey, you can eit
 
 1.	Open the multilingual survey in which you want to manage translations.
 
-2.	Select the **ellipsis** button (...) from the toolbar at the top of the page, and then select **Multilingual**.
+2.	Select the ellipsis button **(...)** from the toolbar at the top of the page, and then select **Multilingual**.
 
     > [!div class=mx-imgBorder]
     > ![Multilingual button](media/multilingual-button.png "Multilingual button")
@@ -130,7 +130,7 @@ After adding translations for the required languages in your survey, you can eit
     > ![Edit the language added for the survey](media/edit-lang.png "Edit the language added for the survey")
 
     > [!NOTE]
-    > To edit all languages together, select **Edit all** and follow the steps mentioned in [Option 1: Translate all languages in bulk](#option-1-translate-all-languages-in-bulk)
+    > To edit all languages together, select **Edit all** and follow the steps in [Option 1: Translate all languages in bulk](#option-1-translate-all-languages-in-bulk).
 
 4.	Edit the translations as required.
 
@@ -148,4 +148,4 @@ After adding translations for the required languages in your survey, you can eit
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
 [Create a classic form](create-classic-form.md)<br>
-[Create a multipage survey](create-multipage-survey.md)
+[Create a multiple-page survey](create-multipage-survey.md)

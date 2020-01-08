@@ -1,6 +1,6 @@
 ---
-title: "Create a new survey | MicrosoftDocs"
-description: "Instructions for creating a new survey with Microsoft Forms Pro"
+title: "Create a new survey with Microsoft Forms Pro"
+description: "Instructions to create a new survey with Forms Pro, avoid phishing protection, restrict content allowed in answers, and mark questions for sentiment analysis"
 keywords: ""
 author: sbmjais
 ms.author: shjais
@@ -17,7 +17,10 @@ search.appverid:
 
 # Create a new survey
 
-To create a new survey with Microsoft Forms Pro:
+<!--note from editor: Suggest adding an introductory paragraph something like this, to let readers know there's more to this topic than just the procedure for creating a survey.-->
+When you create a survey, you define the types of questions you want to ask to gauge a reader's response. In addition to formulating questions, you need to keep in mind additional considerations covered in this topic, such as how to avoid having your survey blocked by phishing prevention in Microsoft Forms Pro, how to get the responses you want by restricting the type of answers you allow in text-based questions, and whether you want to mark answers for sentiment analysis.
+
+## Create a new survey with Forms Pro
 
 1.	Sign in to Forms Pro with your Office 365 credentials.
 
@@ -26,7 +29,7 @@ To create a new survey with Microsoft Forms Pro:
     > [!div class=mx-imgBorder]
     > ![New survey](media/new-survey-button.png "New survey")
 
-3.	Select the default survey name, and enter a name for your survey. You can also enter an optional description for it.
+3.	Select the default survey title,<!--"Title" rather than "name", to match the UI--> and then enter a name for your survey. You can also enter an optional description for it.
 
     > [!div class=mx-imgBorder]
     > ![Add survey title and description](media/survey-title.png "Add survey title and description") 
@@ -41,51 +44,53 @@ To create a new survey with Microsoft Forms Pro:
 6.	Enter the question text and its answer options. The survey is saved automatically.
 
     > [!div class=mx-imgBorder]
-    > ![Survey](media/survey.png "Survey")
-
-7. Optionally, apply formatting to the survey elements, such as survey heading, survey description, question text, and question subtitle. More information: [Format text in a survey](survey-text-format.md)
-
+    > ![Survey](media/survey.png "Example of a survey with different question types")
+<!--
+note from editor: Recommend moving this to the note below.
+7. Optionally, you can apply formatting to the survey elements, such as survey title, survey description, question text, and question subtitle. More information: [Format text in a survey](survey-text-format.md)
+-->
 8. To change the order of questions in the survey, select a question, and then select the up or down arrow on the right side of each question to move it up or down.
 
-9. To hide a question from being displayed in the survey, move the **Visible** toggle to the off position. By default, this toggle is turned on. You can show the question to the responder based on a branching rule. More information: [Create a branching rule](create-branching-rule.md)
+9. To hide a question from being displayed in the survey, move the **Visible** toggle to the Off position. By default, this toggle is turned on. You can show the question to the responder based on a branching rule. More information: [Create a branching rule](create-branching-rule.md)
 
     > [!div class=mx-imgBorder]
-    > ![Question visibility](media/visibility-option.png "Question visibility")
+    > ![Set question visibility](media/visibility-option.png "Set the visibility of a question")
 
 > [!NOTE]
 > - You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md)
+> - You can customize the look of your survey by applying your own formatting to survey elements such as the title, description, questions, and question subtitles. More information: [Format text in a survey](survey-text-format.md)
 > - You can create a classic form within Forms Pro. More information: [Create a classic form](create-classic-form.md)
-> - You can also create quizzes within Forms Pro to get real-time feedback. For steps to create a quiz, see [Create a quiz with Microsoft Forms](https://support.office.com/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d).
+> - You can also create quizzes within Forms Pro to get real-time feedback. More information: [Create a quiz with Microsoft Forms](https://support.office.com/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d)
 
-## Proactive phishing prevention
+<a name="proactive-phishing-prevention"></a>
 
-Phishing attacks attempt to steal sensitive information through emails, websites, text messages, or other forms of electronic communication that often appear to be official communication from legitimate companies or individuals. The information that phishers attempt to steal can be passwords or other credentials.
+## Avoid having your survey blocked by Forms Pro phishing prevention
 
-In Forms Pro, we enable automated machine reviews to proactively detect malicious password collection in surveys.
+*Phishing attacks* attempt to steal sensitive information through emails, websites, text messages, or other forms of electronic communication that appear to be official communication from legitimate companies or individuals. Phishers often attempt to steal passwords or other credentials.
+
+In Forms Pro, we've enabled automated machine reviews to proactively detect malicious password collection in surveys.
 
 ### Survey designer experience
 
-In any survey you design, if you ask questions that require a respondent to provide password, account information, or other security information, the survey is automatically blocked and can't be distributed. The administrator will receive a notification and an option to unblock the survey. If you want to distribute the survey, you must contact your administrator to unblock it.
+If you've designed a survey that includes questions that require a respondent to provide their password, account information, or other security information, the survey will be automatically blocked and can't be distributed. The administrator will receive a notification and an option to unblock the survey. If you want to distribute the survey, you must contact your administrator to unblock it.
 
 ### Administrator experience
 
-When a survey is blocked automatically, the administrator receives a daily notification in **Message center** with an option to unblock the survey. For information about how to unblock a survey, see [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced).
+When a survey is blocked automatically, the administrator receives a daily notification in **Message center** with an option to unblock the survey. More information: [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced)
 
 ## Add restrictions in text-based questions
 
-Text questions allow you to add restrictions when you want your respondents to provide answers as a number, an email, or in a predefined format such as booking ID.
-
-To add restrictions:
+When you create a text-based question (that is, a question of type Text), you can add restrictions to the kind of answers you'll accept from your respondents. For example, you can restrict their answers to be a number, an email address, or a string in a predefined format such as a booking ID.
 
 1. In the text-based question, select **More settings for question** (...), and then select **Restrictions**.
 2. Select one of the following options from the **Restrictions** list:
-    - **Number**: Allows you restrict the input to only numbers. You can choose to restrict the numbers by selecting from the various options such as Only number, Greater than, Less than, Between, and many others.
-    - **Email**: Allows you restrict the input to only a valid email address.
-    - **Custom**: Allows you to define a regular expression and restrict the input that matches the defined expression.
+    - **Number**: Only accept input in number format. You can select from various options such as **Only number**, **Greater than**, **Less than**, **Between**, and others.
+    - **Email**: Only accept input that's a valid email address.
+    - **Custom**: Define a regular expression, and only accept input that matches the defined expression.
 
 ## Calculate sentiments from responses to text-based questions
 
-Sentiment analysis allows you to determine whether user responses for a survey are positive, neutral, or negative. The sentiments are calculated from responses to the text-based questions. In a survey, you can select the text-based questions that should be used for calculating sentiment of the survey. To select text-based questions for sentiment analysis, go to the text-based question, and move the **Sentiment** toggle to the on position. By default, this toggle is turned off. If you don't select any text-based question for sentiment analysis, sentiment will not be generated.
+You can use sentiment analysis to determine whether user responses for a survey are positive, neutral, or negative. Sentiments are calculated from responses to the text-based questions you've selected. To select text-based questions for sentiment analysis, go to the text-based question, and move the **Sentiment** toggle to the On position. By default, this toggle is turned off. If you don't select any text-based question for sentiment analysis, sentiment data won't be generated.
 
 ### See also
 
@@ -96,4 +101,4 @@ Sentiment analysis allows you to determine whether user responses for a survey a
 [Format text in a survey](survey-text-format.md)<br>
 [Create a classic form](create-classic-form.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
-[Create a multipage survey](create-multipage-survey.md)
+[Create a multiple-page survey](create-multipage-survey.md)
