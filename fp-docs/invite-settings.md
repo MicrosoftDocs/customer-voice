@@ -1,5 +1,5 @@
 ---
-title: "Survey settings in Microsoft Forms Pro"
+title: "Survey settings"
 description: "Instructions for updating survey settings in Microsoft Forms Pro to control who can respond to your survey and other survey response options"
 keywords: ""
 author: sbmjais

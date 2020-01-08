@@ -1,5 +1,5 @@
 ---
-title: "Create a multiple-page survey with Microsoft Forms Pro"
+title: "Create a multiple-page survey"
 description: "Instructions for using sections to create a multiple-page survey with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais

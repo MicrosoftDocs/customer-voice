@@ -1,5 +1,5 @@
 ---
-title: "Create a new survey with Microsoft Forms Pro"
+title: "Create a new survey"
 description: "Instructions to create a new survey with Forms Pro, avoid phishing protection, restrict content allowed in answers, and mark questions for sentiment analysis"
 keywords: ""
 author: sbmjais

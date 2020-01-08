@@ -1,5 +1,5 @@
 ---
-title: "Create surveys with Microsoft Forms Pro"
+title: "Create surveys"
 description: "Topics for creating, customizing, and personalizing surveys with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
