@@ -99,7 +99,7 @@ After uploading the Excel file, you can preview the survey to see whether everyt
     > [!div class=mx-imgBorder]
     > ![Edit the language added for the survey](media/edit-lang.png "Edit the language added for the survey")
 
-2.	Select the survey title, its description, questions, and their corresponding options in the survey, and then enter translated text for the question and its options.<!--note from editor: This is a bit confusing, to start out talking about all the elements of the survey but then only enter translated text for a single question. Should this be "Select the survey title, description, and questions with their options, and then enter translated text for all the elements of the survey."? -->
+2.	Select the survey title, description, and questions with their corresponding options, and then enter translated text for all survey elements.
 
     > [!div class=mx-imgBorder]
     > ![Translated text added in the survey](media/translation-added.png "Translated text added in the survey") 

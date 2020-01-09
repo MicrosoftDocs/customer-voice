@@ -37,7 +37,7 @@ The following survey invitation statistics are displayed in a summary pane at th
   - **Unsubscribed**: The recipient has unsubscribed from receiving the survey-related emails.
   - **Read**: The survey invitation email is read or opened.
   - **Started**: The survey has been started by the recipient but is not completed yet.
-  - **Delayed**: There is some delay is delivering the survey invitation email and is being retried.
+  - **Delayed**: There is some delay in delivering the survey invitation email and is being retried.
 
 - **Invitation trend**: A line chart showing the distribution of survey invitation trends.
 

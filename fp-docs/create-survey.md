@@ -14,7 +14,7 @@ ms.custom:
 search.appverid:
   - FPR160
 ---
-<!--note from editor: Suggest a few tweaks to metadata and the title for this topic, to differentiate a bit from "Create a new survey."-->
+
 # Create surveys with Forms Pro
 
 After you've planned for the survey and defined an objective for it, you're ready to start creating your survey. The next few topics cover the basics of creating a survey, applying a theme to it, and other actions that you can perform by using Microsoft Forms Pro.

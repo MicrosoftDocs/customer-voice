@@ -19,7 +19,7 @@ search.appverid:
 
 You can customize the look of your survey by changing the font, font style, font size, and color of the text. You can apply formatting to the following elements:
 
-- Survey title <!--Suggest "title" because it seems to be what the UI calls it ("Untitled survey") -->
+- Survey title
 - Survey description
 - Question text
 - Question subtitle
@@ -32,12 +32,12 @@ You can customize the look of your survey by changing the font, font style, font
 - Statements for Likert questions
 
 > [!NOTE]
-> The text formatting capability isn't supported for the actual options a user selects for Ranking and Likert questions. <!--Edit suggested. I was confused by the use of "options" here compared to the list above.-->
+> The text formatting capability isn't supported for options of Ranking and Likert questions.
 
 **To format survey text**
 
 1.	Open the survey in which you want to format text.
-<!--Will the survey title and description show up here? Or is there a different step to follow for them?-->
+
 2.	On the **Questions** tab, select the text that you want to format. The formatting toolbar appears.
 
 3. Choose formatting for your survey text.
@@ -45,13 +45,13 @@ You can customize the look of your survey by changing the font, font style, font
     > [!div class=mx-imgBorder]
     > ![Apply text formatting](media/text-format.png "Apply text formatting")
 
-In the following illustration, custom formatting has been applied to the survey title, description, questions, options for answering the questions, and the labels for the Net Promoter Score. <!--Edit okay? I was a bit confused by the reference to the "elements you selected earlier." Also - Maybe I shouldn't have added "and the labels for the Net Promoter Score"? I can't really tell whether the font for the labels has been changed.-->
+In the following illustration, custom formatting has been applied to the survey title, description, and questions.
 
 > [!div class=mx-imgBorder]
 > ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 > [!NOTE]
-> To format the thank-you message and footer text, open the **Settings** pane, select the message or text, and then use the formatting toolbar. <!--Is this also how you modify the survey title and description? If so, can that be added here?--> More information: [Survey response options](invite-settings.md#survey-response-options)
+> To format the thank-you message and footer text, open the **Settings** pane, select the message or text, and then use the formatting toolbar. More information: [Survey response options](invite-settings.md#survey-response-options)
 
 ### See also
 

@@ -17,7 +17,7 @@ search.appverid:
 
 # Create a survey invitation
 
-If you want to send a survey by using a platform other than Microsoft Forms Pro&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice. The survey invitation link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter).
+If you want to send a survey by using a platform other than Microsoft Forms Pro&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 

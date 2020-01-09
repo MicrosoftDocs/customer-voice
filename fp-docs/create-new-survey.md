@@ -17,7 +17,6 @@ search.appverid:
 
 # Create a new survey
 
-<!--note from editor: Suggest adding an introductory paragraph something like this, to let readers know there's more to this topic than just the procedure for creating a survey.-->
 When you create a survey, you define the types of questions you want to ask to gauge a reader's response. In addition to formulating questions, you need to keep in mind additional considerations covered in this topic, such as how to avoid having your survey blocked by phishing prevention in Microsoft Forms Pro, how to get the responses you want by restricting the type of answers you allow in text-based questions, and whether you want to mark answers for sentiment analysis.
 
 ## Create a new survey with Forms Pro
@@ -29,7 +28,7 @@ When you create a survey, you define the types of questions you want to ask to g
     > [!div class=mx-imgBorder]
     > ![New survey](media/new-survey-button.png "New survey")
 
-3.	Select the default survey title,<!--"Title" rather than "name", to match the UI--> and then enter a name for your survey. You can also enter an optional description for it.
+3.	Select the default survey title, and then enter a title for your survey. You can also enter an optional description for it.
 
     > [!div class=mx-imgBorder]
     > ![Add survey title and description](media/survey-title.png "Add survey title and description") 
@@ -45,19 +44,17 @@ When you create a survey, you define the types of questions you want to ask to g
 
     > [!div class=mx-imgBorder]
     > ![Survey](media/survey.png "Example of a survey with different question types")
-<!--
-note from editor: Recommend moving this to the note below.
-7. Optionally, you can apply formatting to the survey elements, such as survey title, survey description, question text, and question subtitle. More information: [Format text in a survey](survey-text-format.md)
--->
-8. To change the order of questions in the survey, select a question, and then select the up or down arrow on the right side of each question to move it up or down.
 
-9. To hide a question from being displayed in the survey, move the **Visible** toggle to the Off position. By default, this toggle is turned on. You can show the question to the responder based on a branching rule. More information: [Create a branching rule](create-branching-rule.md)
+7. To change the order of questions in the survey, select a question, and then select the up or down arrow on the right side of each question to move it up or down.
+
+8. To hide a question from being displayed in the survey, move the **Visible** toggle to the Off position. By default, this toggle is turned on. You can show the question to the responder based on a branching rule. More information: [Create a branching rule](create-branching-rule.md)
 
     > [!div class=mx-imgBorder]
     > ![Set question visibility](media/visibility-option.png "Set the visibility of a question")
 
 > [!NOTE]
 > - You can personalize your survey by adding custom data to the questions. More information: [Personalize a survey](personalize-survey.md)
+> - You can apply formatting to the survey elements, such as survey title, survey description, question text, and question subtitle. More information: [Format text in a survey](survey-text-format.md)
 > - You can customize the look of your survey by applying your own formatting to survey elements such as the title, description, questions, and question subtitles. More information: [Format text in a survey](survey-text-format.md)
 > - You can create a classic form within Forms Pro. More information: [Create a classic form](create-classic-form.md)
 > - You can also create quizzes within Forms Pro to get real-time feedback. More information: [Create a quiz with Microsoft Forms](https://support.office.com/article/create-a-quiz-with-microsoft-forms-a082a018-24a1-48c1-b176-4b3616cdc83d)
@@ -80,7 +77,7 @@ When a survey is blocked automatically, the administrator receives a daily notif
 
 ## Add restrictions in text-based questions
 
-When you create a text-based question (that is, a question of type Text), you can add restrictions to the kind of answers you'll accept from your respondents. For example, you can restrict their answers to be a number, an email address, or a string in a predefined format such as a booking ID.
+When you create a text-based question (that is, a question of type Text), you can add restrictions to the kind of answers you'll accept from your respondents. For example, you can restrict their answers to be a number, an email address, or a string in a predefined format (based on a [regular expression](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference)) such as a booking ID.
 
 1. In the text-based question, select **More settings for question** (...), and then select **Restrictions**.
 2. Select one of the following options from the **Restrictions** list:
