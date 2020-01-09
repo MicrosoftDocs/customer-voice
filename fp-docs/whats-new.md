@@ -23,13 +23,13 @@ Welcome to Microsoft Forms Pro. Here's a list of features we added or updated re
 
 Following are the new and updated features in this release:
 
-- **Tag a question for sentiment analysis**: You can now tag the required text-based questions for sentiment analysis. More information: [Calculate sentiments from responses to text-based questions](create-new-survey.md#calculate-sentiments-from-responses-to-text-based-questions)
+- **Mark text-based questions for sentiment analysis**: You can now mark the required text-based questions for analyzing sentiment based on the responses. More information: [Calculate sentiments from responses to text-based questions](create-new-survey.md#calculate-sentiments-from-responses-to-text-based-questions)
 
 - **Validate text responses using regular expression**: You can now validate responses to the text-based questions as per defined regular expression. More information: [Add restrictions in text-based questions](create-new-survey.md#add-restrictions-in-text-based-questions)
 
-- **Add survey translation in bulk**: You can now add survey translations in bulk for all the added languages. More information: [Create a multilingual survey](create-multilingual-survey.md)
+- **Add survey translation in bulk**: You can now add survey translations in bulk for all the languages added to a survey. More information: [Create a multilingual survey](create-multilingual-survey.md)
 
-- **Additional statuses for survey invitation**: New statuses are added to show if the survey invitations are started and delayed. More information: [Analyze survey invitations](analyze-survey-invitations.md)
+- **Additional statuses for survey invitation**: New statuses are added to show if the survey invitations are started or delayed. More information: [Analyze survey invitations](analyze-survey-invitations.md)
 
 - **Specify locale of an embedded survey in email**: You can now use survey variables to specify the locale of a multilingual survey that is embedded in an email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
 
