@@ -83,7 +83,7 @@ When you create a text-based question (that is, a question of type Text), you ca
 2. Select one of the following options from the **Restrictions** list:
     - **Number**: Only accept input in number format. You can select from various options such as **Only number**, **Greater than**, **Less than**, **Between**, and others.
     - **Email**: Only accept input that's a valid email address.
-    - **Custom**: Define a regular expression, and only accept input that matches the defined expression.
+    - **Custom**: Define a regular expression, and only accept input that matches the defined expression. You can also add an optional description to the regular expression suggesting user the format in which the text input is expected. Let's say you want to define a character limit for the text input field that allows entering up to 200 English characters. You'll enter the regular expression as `\b[A-Za-z0-9]{200}\b`.
 
 ## Calculate sentiments from responses to text-based questions
 
