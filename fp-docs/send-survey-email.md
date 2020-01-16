@@ -154,13 +154,13 @@ The customization feature helps you select an email address that matches your co
     Points to address or value:   fpnamkey1contosocom.marketing.dynamics.com
     TTL:                          3600 
     Host name:                    fpnamkey2._domainkey
-    Points to address or value:   fpnamkey1contosocom.marketing.dynamics.com
+    Points to address or value:   fpnamkey2contosocom.marketing.dynamics.com
     TTL:                          3600
     Host name:                    fpnamkey1._domainkey
     Points to address or value:   fpnamkey1contososuitescom.marketing.dynamics.com
     TTL:                          3600
     Host name:                    fpnamkey2._domainkey
-    Points to address or value:   fpnamkey1contososuitescom.marketing.dynamics.com
+    Points to address or value:   fpnamkey2contososuitescom.marketing.dynamics.com
     TTL:                          3600
     ```
 
