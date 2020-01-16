@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 01/16/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 8579EFA2-7734-4516-ACFA-F65999983379
@@ -30,7 +30,7 @@ If you want to send a survey by using a platform other than Microsoft Forms Pro&
 5. In search results, select **Microsoft Forms Pro**.
 
     > [!div class=mx-imgBorder]
-    > ![Select Microsoft Forms Pro connector](media/search-connector.png "Select Microsoft Forms Pro connector")  
+    > ![Select Microsoft Forms Pro connector](media/search-connector.png "Select the Microsoft Forms Pro connector")  
 
 6. Select the **Create an invitation (preview)** action.
 
@@ -45,29 +45,29 @@ If you want to send a survey by using a platform other than Microsoft Forms Pro&
     - **Recipient details**: Specify a contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field. Only a Contact record is supported in this field.
 
     > [!NOTE]
-    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields, respectively. For more information about **Regarding** and **Recipient details** fields and how they're stored in the survey invitation, see [Send a survey action](send-survey-microsoft-flow.md#send-a-survey-action).
+    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields, respectively. For more information about **Regarding** and **Recipient details** fields and how they're stored in the survey invitation, see [Send a survey action](send-survey-flow.md#send-a-survey-action).
     > - If you've used survey variables in your survey, they'll be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 8. Add a new step, and then select the action to send the email. You can use providers such as Outlook, Gmail, or SMS; we've used Outlook to send the survey in this procedure.
 
-9. In the **Send an email** action, enter the following information:
+9. In the **Send an email** action, do the following:
 
-    - **To**: Recipient's email address.
-    - **Subject**: Subject of the email.
-    - **Body**: Enter the required text and add **Invitation link** dynamic content.
+    - **To**: Enter the recipient's email address.
+    - **Subject**: Enter the subject of the email.
+    - **Body**: Enter the text you want for the body of the email, and add the **Invitation link** dynamic content.
 
     After entering the required details, the flow looks as shown in the following image:
 
     > [!div class=mx-imgBorder]
     > ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
 
-    The flow runs as per the configured trigger, and then sends the survey.
+    The flow runs in accordance with the configured trigger, and then sends the survey.
 
 ### See also
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
-[Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
+[Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>

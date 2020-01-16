@@ -4,6 +4,11 @@
       "source_path": "fp-docs/administer.md",
       "redirect_url": "get-started",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "fp-docs/send-survey-microsoft-flow.md",
+      "redirect_url": "send-survey-flow",
+      "redirect_document_id": "false"
     }
   ]
 }

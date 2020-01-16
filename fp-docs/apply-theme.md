@@ -23,7 +23,7 @@ After creating questions for your survey, you can change the background design a
 
 -   Uploading a customized image.
 
--   Customizing color.
+-   Customizing the color.
 
 To apply a theme:
 
@@ -52,4 +52,4 @@ To apply a theme:
 [Format text in a survey](survey-text-format.md)<br>
 [Create a classic form](create-classic-form.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
-[Create a multipage survey](create-multipage-survey.md)
+[Create a multiple-page survey](create-multipage-survey.md)
