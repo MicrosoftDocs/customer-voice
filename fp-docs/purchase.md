@@ -84,13 +84,13 @@ Microsoft Forms Pro is available to all users who have a Dynamics 365 enterprise
 
 ### Enable Microsoft Forms Pro for a user without a Dynamics 365 enterprise license
 
-If you need to give access to Microsoft Forms Pro for users who don't have a Dynamics 365 enterprise license:
+If you need to provide access to Microsoft Forms Pro for users who don't have a Dynamics 365 enterprise license:
 
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
 2.	In the left pane, select **Billing** > **Purchase services**.
 
-3.	Find **Microsoft Forms Pro USL**, and then select **Buy now**. Note that this is a free user license.
+3.	Find **Microsoft Forms Pro USL**, and then select **Buy now**. Microsoft Forms Pro USL is a free user license.
 
     > [!div class=mx-imgBorder]
     > ![Microsoft Forms Pro USL tile](media/usl-license.png "Microsoft Forms Pro USL tile")
@@ -112,7 +112,7 @@ If you need to give access to Microsoft Forms Pro for users who don't have a Dyn
 
 ## Purchase Microsoft Forms Pro for users in an Office 365 tenant
 
-If your tenant does not have Dynamics 365 enterprise licenses that include Microsoft Forms Pro, follow these steps to purchase Microsoft Forms Pro:
+If your tenant doesn't have Dynamics 365 enterprise licenses that include Microsoft Forms Pro, follow these steps to purchase Microsoft Forms Pro:
 
 1.	Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -130,7 +130,7 @@ If your tenant does not have Dynamics 365 enterprise licenses that include Micro
 
 5.	In the left pane, select **Billing** > **Purchase services**.
 
-6.	Find **Microsoft Forms Pro USL**, and then select **Buy now**. Note that this is a free user license.
+6.	Find **Microsoft Forms Pro USL**, and then select **Buy now**. Microsoft Forms Pro USL is a free user license.
 
     > [!div class=mx-imgBorder]
     > ![Microsoft Forms Pro USL tile](media/usl-license.png "Microsoft Forms Pro USL tile")
