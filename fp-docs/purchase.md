@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/07/2019
+ms.date: 01/16/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
@@ -162,8 +162,3 @@ If your tenant does not have Dynamics 365 enterprise licenses that include Micro
 
 5.	On the **Product licenses** page, turn the **Microsoft Forms Pro USL** toggle to **Off**.
 
-## Response capacity consumption
-
-When you purchase an additional license for $100, the response capacity is counted annually. For example, for an additional license of $100, the annual capacity is 24,000 (12 &times; 2,000); if $200 worth of additional capacity is purchased, the annual capacity is 48,000. If the consumed response capacity exceeds the annual capacity responses in any given month, then you won't be able to create new surveys. Existing surveys, however, will continue to receive responses.
-
-After 90 days of response capacity exhaustion, distribution of existing surveys is disabled via all modes (including Power Automate), and all existing surveys are closed. A message is displayed on the distribution page that the capacity is exhausted.
