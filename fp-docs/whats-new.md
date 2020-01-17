@@ -33,6 +33,8 @@ Following are the new and updated features in this release:
 
 - **Specify locale of an embedded survey in email**: You can now use survey variables to specify the locale of a multilingual survey that is embedded in an email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
 
+- **Add formatting to additional survey elements**: You can now add formatting to section heading, section description, thank-you message and footer text. More information: [Format text in a survey](survey-text-format.md)
+
 ## December 2019 update
 
 Following are the new and updated features in this release:
