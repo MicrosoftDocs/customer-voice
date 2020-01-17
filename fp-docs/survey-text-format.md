@@ -1,12 +1,12 @@
 ---
-title: "Format text in a survey | MicrosoftDocs"
+title: "Format text in a survey"
 description: "Instructions for formatting text in a survey created with Microsoft Forms Pro"
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 01/16/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 55FEBC29-69E8-4046-A1DA-D6701BEC16DD
@@ -17,20 +17,24 @@ search.appverid:
 
 # Format text in a survey
 
-Format text in a survey to change font style, font color, font name, and font size. You can apply formatting to the following elements:
+You can customize the look of your survey by changing the font, font style, font size, and color of the text. You can apply formatting to the following elements:
 
-- Survey heading
+- Survey title
 - Survey description
 - Question text
 - Question subtitle
 - Question options
-- Left and right labels for Net Promoter Score and Rating questions
-- Statements for Likert question
+- Section heading
+- Section description
+- Thank-you message
+- Footer text
+- Lower-left and lower-right labels for Net Promoter Score and Rating questions
+- Statements for Likert questions
 
 > [!NOTE]
 > The text formatting capability isn't supported for options of Ranking and Likert questions.
 
-To format the text:
+**To format survey text**
 
 1.	Open the survey in which you want to format text.
 
@@ -41,10 +45,13 @@ To format the text:
     > [!div class=mx-imgBorder]
     > ![Apply text formatting](media/text-format.png "Apply text formatting")
 
-For example, in this survey, formatting has been applied to the elements that you selected earlier:
+In the following illustration, custom formatting has been applied to the survey title, description, and questions.
 
 > [!div class=mx-imgBorder]
 > ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
+
+> [!NOTE]
+> To format the thank-you message and footer text, open the **Settings** pane, select the message or text, and then use the formatting toolbar. More information: [Survey response options](invite-settings.md#survey-response-options)
 
 ### See also
 
@@ -55,4 +62,4 @@ For example, in this survey, formatting has been applied to the elements that yo
 [Personalize a survey](personalize-survey.md)<br>
 [Create a classic form](create-classic-form.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
-[Create a multipage survey](create-multipage-survey.md)
+[Create a multiple-page survey](create-multipage-survey.md)

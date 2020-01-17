@@ -19,7 +19,7 @@ search.appverid:
 
 With Microsoft Forms Pro, you can create a classic form from within the Forms Pro environment. This capability lets you work with surveys and classic forms together. The classic forms created in Forms Pro are opened in their interface and will include all the capabilities that basic forms have.
 
-To create a classic form:
+**To create a classic form**
 
 1. Sign in to Forms Pro.
 
@@ -45,4 +45,4 @@ To create a classic form:
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
-[Create a multipage survey](create-multipage-survey.md)
+[Create a multiple-page survey](create-multipage-survey.md)

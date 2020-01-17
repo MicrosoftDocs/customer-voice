@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 01/16/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1AECC69F-B68A-4776-884A-C59770FC5C96
@@ -25,11 +25,13 @@ By default, the following survey variables are available:
 
 - **Last Name**: Inserts the last name of the recipient.
 
+- **locale**: Specifies the locale of the survey while embedding it in the email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
+
 To create a new survey variable:
 
 1.	Open the survey in which you want to use survey variables.
 
-2.	Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Survey variables**.
+2.	Select the ellipsis button **(…)** from the toolbar at the top of the page, and then select **Survey variables**.
 
     > [!div class=mx-imgBorder]
     > ![Survey variables button](media/custom-data-button.png "Survey variables button")
@@ -109,4 +111,4 @@ To specify values for survey variables in a flow:
 [Format text in a survey](survey-text-format.md)<br>
 [Create a classic form](create-classic-form.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
-[Create a multipage survey](create-multipage-survey.md)
+[Create a multiple-page survey](create-multipage-survey.md)

@@ -100,7 +100,7 @@ The preceding method calls the `renderSurvey` function and passes the required v
 
 [Work with survey settings](invite-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
-[Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
+[Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)

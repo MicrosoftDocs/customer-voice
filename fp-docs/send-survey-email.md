@@ -1,12 +1,12 @@
 ---
-title: "Send a survey by using email | MicrosoftDocs"
+title: "Send a survey by using email"
 description: "Instructions for sending a survey by using email"
 keywords: ""
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/23/2019
+ms.date: 01/16/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -28,7 +28,7 @@ After creating a survey, you can send it through email by following these steps.
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
     - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the selected environment. More information: [Work with environments](choose-environment.md)
-    - Uploading a .csv file by selecting **Import recipients**. The CSV file supports importing a maximum of 10,000 recipients.
+    - Uploading a CSV file by selecting **Import recipients**. The CSV file supports importing a maximum of 10,000 recipients.
 
 4.  To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
@@ -51,7 +51,7 @@ After creating a survey, you can send it through email by following these steps.
 
 ## Insert a survey link
 
-The survey link is added to your email message by default. To insert the survey link in a different location in your email message, place the cursor at the required location, and then select **Insert** > **Survey link**. You can also select text, and then select **Insert** > **Survey link** to display that text as the survey link.
+The survey link is added to your email message by default. To insert the survey link in a different location in your email message, place the cursor at the location you want, and then select **Insert** > **Survey link**. You can also select text, and then select **Insert** > **Survey link** to display that text as the survey link.
 
 <a name="unsubscribe-from-a-survey"></a>
 
@@ -71,13 +71,15 @@ To create a new variable, select **New variable** from the **Variables** list. I
 
 ## Embed a survey in an email
 
-If you have added a Rating or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option in the email, the complete survey is opened in the web browser and the responder can continue with completing the survey.
+If you have added a Rating or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
 
 > [!div class=mx-imgBorder]
 > ![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
 
 > [!NOTE]
-> You can't embed the question in an email if you have enabled question shuffling in a survey.
+> You can't embed a question in an email if you have enabled question shuffling in the survey.
+
+If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Survey variables** pane, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
 
 <a name="use-email-templates"></a>
 
@@ -112,8 +114,8 @@ The customization feature helps you select an email address that matches your co
 
 3. Specify the product details as follows:
 
-    - **Product**: Dynamics 365 Customer Engagement
-    - **Problem type**: Forms Pro
+    - **Product**: **Dynamics 365 Customer Engagement**
+    - **Problem type**: **Forms Pro**
     - **Environment**: Enter or select your Common Data Service environment
 
 4. Select **See solutions**.
@@ -152,13 +154,13 @@ The customization feature helps you select an email address that matches your co
     Points to address or value:   fpnamkey1contosocom.marketing.dynamics.com
     TTL:                          3600 
     Host name:                    fpnamkey2._domainkey
-    Points to address or value:   fpnamkey1contosocom.marketing.dynamics.com
+    Points to address or value:   fpnamkey2contosocom.marketing.dynamics.com
     TTL:                          3600
     Host name:                    fpnamkey1._domainkey
     Points to address or value:   fpnamkey1contososuitescom.marketing.dynamics.com
     TTL:                          3600
     Host name:                    fpnamkey2._domainkey
-    Points to address or value:   fpnamkey1contososuitescom.marketing.dynamics.com
+    Points to address or value:   fpnamkey2contososuitescom.marketing.dynamics.com
     TTL:                          3600
     ```
 
@@ -198,7 +200,7 @@ It will take a minimum of 3 to 4 weeks for setup to be completed. After Microsof
 ### See also
 
 [Work with survey settings](invite-settings.md)<br>
-[Send a survey by using Power Automate](send-survey-microsoft-flow.md)<br>
+[Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
