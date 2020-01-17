@@ -25,7 +25,7 @@ To share a survey as a template:
 
 1.  Open the survey you want to share.
 
-2. Select the **ellipsis** button (…) from the toolbar at the top of the page, and then select **Share**.
+2. Select the ellipsis button **(…)** from the toolbar at the top of the page, and then select **Share**.
 
     > [!div class=mx-imgBorder]
     > ![share the survey](media/share-survey.png "Share the survey")

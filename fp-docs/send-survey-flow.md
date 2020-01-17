@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 12/07/2019
+ms.date: 01/16/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
@@ -29,7 +29,7 @@ To send a survey by using Power Automate:
 
 1.  Open the survey you want to send, and then select **Send** from the toolbar at the top of the page.
 
-2. Select **Microsoft Flow**, and then compose the email.
+2. Select **Power Automate**, and then compose the email.
 
 3.  Select **Configure Flow**.
 
@@ -108,7 +108,7 @@ To view flow history:
 
 1.  Open the survey for which you want to view flow history, and then select **Send** from the toolbar at the top of the page.
 
-2.  On the **Microsoft Flow** tile, select **Flows configured**.
+2.  On the **Power Automate** tile, select **Flows configured**.
 
     > [!div class=mx-imgBorder]
     > ![Flows configured button](media/flows-configured.png "Flows configured button")  
