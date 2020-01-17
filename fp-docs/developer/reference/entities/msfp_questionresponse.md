@@ -819,6 +819,7 @@ See msfp_surveyresponse Entity [msfp_msfp_surveyresponse_msfp_questionresponse_s
 
 ### See also
 
-[About the Entity Reference](https://docs.microsoft.com/dynamics365/customer-engagement/developer/about-entity-reference)<br />
-[Programming reference for Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/developer/programming-reference)<br />
-[Web API reference for Dynamics 365 for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
+[About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
+[Programming reference for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
+[Web API reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
+
