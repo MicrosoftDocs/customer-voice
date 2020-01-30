@@ -24,7 +24,7 @@ Group forms aren't currently supported in Microsoft Forms Pro.
 
 ## I'm unable to change ownership of a survey.
 
-You can't change the ownership of a survey in Microsoft Forms Pro. However, if an employee (survey owner) has left the organization, the survey ownership can be changed by an administrator within 30 days. The employee's account must be either deleted or disabled.
+You can't change the ownership of a survey in Microsoft Forms Pro. However, if an employee (survey owner) has left the organization, the survey ownership can be changed by an administrator within 30 days. The employee's account must be either deleted or disabled to change the survey ownership.
 
 1. In the address bar of your browser, enter `https://forms.office.com/FormsPro/Pages/delegatepage.aspx?originalowner=[_Azure Active Directory ID_]`. A page opens containing surveys owned by the user who has left the organization.
 
