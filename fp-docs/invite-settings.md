@@ -88,6 +88,10 @@ You can specify a date, number of responses, or a time period after which the su
 - **Maximum responses**: Specify the maximum number of responses to be received, after which the responses will no longer be counted and the survey will be stopped.
 - **Number of days**: Specify the number of days your survey will be open after you send the survey invitation. The maximum value that can be entered is 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
 
+### Display options
+
+**Show progress bar**: Specify whether to display a progress bar for multiple-page surveys. The progress bar shows your respondents the percentage of pages that have been completed so far. By default, this option is selected. The progress bar is displayed only if there are two or more pages in the survey.
+
 ### Notification
 
 - **Send email receipt to respondents**: Specify whether respondents should receive an email confirmation of their responses. This option is enabled only when **Record name** is selected under **Only people in my organization can respond**. After your respondent has filled out your survey, the option **Send me an email receipt of my responses** is displayed. After submitting responses, respondents will then receive a confirmation email, which includes a thank-you message and link to view their responses.
