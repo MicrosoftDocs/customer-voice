@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 02/17/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: FD23CE2B-B022-4708-BAE8-5CAC8BC75092
@@ -44,6 +44,22 @@ A few best practices enable you to create a meaningful survey and gather good re
 - **Preview the survey**: After creating your survey, always preview it to check the overall flow of the survey and to catch any mistakes.
 
 - **Mention expectations in the survey invitation**: In the survey invitation, be sure to mention the estimated time to complete it and give a brief overview. This will help respondents submit their input within the expected time frame.
+
+## Decide the question type
+
+Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the question types available in Forms Pro.
+
+
+|   **Question type**   | **Description**    |     **Preview**          |
+|-----------------------|--------------------|--------------------------|
+| Choice | Question that allows a respondent to choose a single (radio button) or multiple (check box) answers. By default, the question is added as a single answer question. To change the question to multiple answers, move the **Multiple answers** toggle to the On position. You can also change the question type to drop-down by selecting **Drop-down** from **More settings for question** (...). | ![Example of a choice question](media/single-response-ques-big-button.png "Example of a choice question") |
+|  Text  |  Question that has a one-line (short answer) or multiple lines (long answer) in the answer. By default, the question is added as a short answer question. To change the question to long answer, move the **Long answer** toggle to the On position. |  ![Example of a text question](media/short-answer-ques.png "Example of a text question")   |
+| Rating |  Question that asks a respondent to provide ratings by using number, star, or smiley symbol. By default, star is selected. To change the symbol, select a symbol from the **Symbol** list. You can also change the level by selecting a value from the **Levels** list. |![Example of a rating question](media/rating-ques.png "Example of a rating question") |
+|  Date | Question that asks a respondent to select a date. |![Example of a date question](media/date-ques.png "Example of a date question") |
+|  Ranking  | Question that asks a respondent to rank answers in their order of preference. | ![Example of a ranking question](media/ranking-ques.png "Example of a ranking question") |
+| Net Promoter Score | Question that captures the satisfaction of the respondent based on the likelihood of their recommending the product or services to a friend. | ![Example of a Net Promoter Score question](media/nps-ques.png "Example of a Net Promoter Score question")  |
+|  Likert   |   List of questions that allow a respondent to select one answer from a column of choices.   |   ![Example of a single rating in column question](media/single-rating-col-ques.png "Example of a single rating in column question")   |
+|   |   |  |
 
 ### See also
 
