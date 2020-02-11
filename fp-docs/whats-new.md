@@ -27,6 +27,8 @@ Following are the new and updated features in this release:
 
 - **Support for smiley rating question**: You can now add a smiley rating question to your survey. More information: [Decide the question type](plan-survey.md#decide-the-question-type)
 
+- **Enhancement to embedding a survey in email**: In addition to Rating and Net Promoter Score questions, you can now embed the Choice question also in an email message. More information: [Embed a survey in an email](send-survey-email.md#embed-survey-in-an-email)
+
 ## January 2020 update
 
 Following are the new and updated features in this release:

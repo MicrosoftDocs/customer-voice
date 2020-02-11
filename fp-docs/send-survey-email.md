@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2020
+ms.date: 02/17/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -71,7 +71,7 @@ To create a new variable, select **New variable** from the **Variables** list. I
 
 ## Embed a survey in an email
 
-If you have added a Rating or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+If you have added a Choice (single answer), Rating, or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
 
 > [!div class=mx-imgBorder]
 > ![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
