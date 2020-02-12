@@ -101,7 +101,7 @@ You can modify the authentication settings at any time, even after you've distri
 
 ## Display options
 
-**Show progress bar**: Specify whether to display a progress bar for multiple-page surveys. The progress bar shows your respondents the percentage of pages that have been completed so far. By default, this option is selected. The progress bar is displayed only if there are two or more pages in the survey.
+**Show progress bar**: Specify whether to display a progress bar for multiple-page surveys. The progress bar shows your respondents the percentage of pages that have been completed so far. The progress bar is displayed only if there are two or more pages in the survey. By default, this option is selected for surveys created after the February 2020 release. For surveys created before the February 2020 release, you must select the check box to display a progress bar.
 
 ## Work with personalized links
 
