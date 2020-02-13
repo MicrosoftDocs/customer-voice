@@ -23,7 +23,7 @@ Welcome to Microsoft Forms Pro. Here's a list of features we added or updated re
 
 Following are the new and updated features in this release:
 
-- **Display progress bar**: A progress bar is now displayed for multiple-page surveys. It shows your respondents the percentage of pages that have been completed so far. More information: [Display options](invite-settings.md#display-options)
+- **Display progress bar**: A progress bar is now displayed for multiple-page surveys. It shows your respondents the percentage of pages that have been completed so far. More information: [Add a progress bar](invite-settings.md#add-a-progress-bar)
 
 - **Support for smiley rating question**: You can now add a smiley rating question to your survey. More information: [Decide the question type](plan-survey.md#decide-the-question-type)
 

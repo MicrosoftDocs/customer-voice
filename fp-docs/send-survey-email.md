@@ -77,7 +77,8 @@ If you have added a Choice (single answer), Rating (star and smiley), or Net Pro
 > ![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
 
 > [!NOTE]
-> You can't embed a question in an email if you have enabled question shuffling in the survey.
+> - You can't embed a question in an email if you have enabled question shuffling in the survey.
+> - If you want to send embedded survey in an email through Power Automate, you must embed the question in an email and save it as a custom email template. While configuring a flow, you can select the custom email template. More information on email templates: [Use email templates](#use-email-templates)
 
 If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Survey variables** pane, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
 
