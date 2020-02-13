@@ -114,8 +114,6 @@ The progress bar is displayed on the right-side of the buttons on the survey.
 > ![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
 
 
-<!-- **Show progress bar**: Specify whether to display a progress bar for multiple-page surveys. The progress bar shows your respondents the percentage of pages that have been navigated or viewed so far. The progress bar takes into account all pages in the survey. If branching rules in the survey skip the participants past some pages, the progress bar jumps accordingly. The progress bar is displayed only if there are two or more pages in the survey. By default, this option is selected for surveys created after the February 2020 release. For surveys created before the February 2020 release, you must select the check box to display a progress bar. -->
-
 ## Work with personalized links
 
 Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response.
