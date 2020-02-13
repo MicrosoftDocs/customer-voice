@@ -101,15 +101,15 @@ You can modify the authentication settings at any time, even after you've distri
 
 ## Add a progress bar
 
-A progress bar shows your respondents the percentage of pages that have been navigated or viewed so far. It gives your respondents a view of how far they have come and how much more to go. The progress bar takes into account all pages in the survey. If few pages are skipped due to a branching rule, the progress bar shows the completion percentage accordingly. The progress bar is displayed only if there are two or more pages in the survey.
+A progress bar shows your respondents the percentage of pages that they've navigated to or viewed so far. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage.<!--note from editor: I think this is a bit ambiguous. If "all pages in the survey" are taken into account, that would imply even the skipped pages. Would it be accurate to say "The progress bar takes into account only the pages that a respondent sees. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage."?--> The progress bar is displayed only if there are two or more pages in the survey.
 
-You can control the display of progress bar by selecting or clearing the **Show progress bar** check box in survey settings. By default, this check box is selected for surveys created after the February 2020 release. For surveys created before the February 2020 release, you must select the **Show progress bar** check box to display a progress bar.
+You can control the display of the progress bar by selecting or clearing the **Show progress bar** check box in survey settings. <!--The following edit is suggested just to emphasize that two conditions are being contrasted.-->For surveys created after the February 2020 release, this check box is selected by default. For surveys created before the February 2020 release, you must select the **Show progress bar** check box.
 
 > [!div class=mx-imgBorder]
 > ![Progress bar setting](media/progress-bar-setting.png "Progress bar setting")
 
-The progress bar is displayed on the right-side of the buttons on the survey.
-
+The progress bar is displayed to the right side of the buttons on the survey.
+<!--note from editor, duplicated from plan-survey.md: I recommend changing the wording of this sample survey question to "How knowledgeable was your customer service representative?" and change the third option to "Needs to learn about the product."-->
 > [!div class=mx-imgBorder]
 > ![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
 
