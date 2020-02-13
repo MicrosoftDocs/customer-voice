@@ -49,7 +49,11 @@ A few best practices enable you to create a meaningful survey and gather good re
 
 Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the question types available in Forms Pro.
 
-- **Choice**: Question that allows a respondent to choose a single (radio button) or multiple (check box) answers. By default, the question is added as a single answer question. To change the question to multiple answers, move the **Multiple answers** toggle to the On position. You can also change the question type to drop-down by selecting **Drop-down** from **More settings for question** (...).
+- **Choice**: Question that allows a respondent to choose a single (radio button) or multiple (check box) answers. 
+
+  By default, the question is added as a single answer question. To change the question to multiple answers, move the **Multiple answers** toggle to the On position.
+  
+  You can also change the question type to drop-down by selecting **Drop-down** from **More settings for question** (...).
 
   **Single answer question**
 
@@ -63,7 +67,7 @@ Deciding the question types while planning a survey helps you to create an organ
 
   ![Example of a drop-down question](media/ques-drop-down.png "Example of a drop-down question") 
 
-- **Text**: Question that has a one-line (short answer) or multiple lines (long answer) in the answer. <br> By default, the question is added as a short answer question. To change the question to long answer, move the **Long answer** toggle to the On position.
+- **Text**: Question that has a one-line (short answer) or multiple lines (long answer) in the answer. By default, the question is added as a short answer question. To change the question to long answer, move the **Long answer** toggle to the On position.
 
   **Short answer question**
 
@@ -73,7 +77,11 @@ Deciding the question types while planning a survey helps you to create an organ
 
   ![Example of a long answer question](media/ques-long-answer.png "Example of a long answer question")
 
-- **Rating**: Question that asks a respondent to provide ratings by using number, star, or smiley symbol. By default, star is selected. To change the symbol, select a symbol from the **Symbol** list. You can also change the level by selecting a value from the **Levels** list. For number and star, 10 levels are supported. For smiley, five levels are supported. You can also add labels for number and star symbols by selecting **Label** from **More settings for question** (...).
+- **Rating**: Question that asks a respondent to provide ratings by using number, star, or smiley symbol. 
+
+  By default, star is selected. To change the symbol, select a symbol from the **Symbol** list. You can also change the level by selecting a value from the **Levels** list. For number and star, 10 levels are supported. For smiley, five levels are supported.
+  
+  You can also add labels for number and star symbols by selecting **Label** from **More settings for question** (...).
 
   **Star rating question**
 
