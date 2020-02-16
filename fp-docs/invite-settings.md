@@ -110,6 +110,7 @@ You can control the display of the progress bar by selecting or clearing the **S
 
 The progress bar is displayed to the right side of the buttons on the survey.
 <!--note from editor, duplicated from plan-survey.md: I recommend changing this question to "How knowledgeable was your customer service representative?" and change the third option to "Needs to learn about the product."-->
+
 > [!div class=mx-imgBorder]
 > ![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
 
