@@ -95,6 +95,9 @@ You can accept multiple lines of text for your question by turning on the **Long
 A Rating type question asks respondents to rate their answer by using stars, numbers, or smiley symbols. 
 
 By default, the star symbol is selected. To change the symbol, select it from the **Symbol** list. You can also change the number of levels by selecting a value from the **Levels** list. For number and star, up to 10 levels are supported. For smiley symbol, up to five levels are supported.
+
+> [!NOTE]
+> If you change the number of levels after sending the survey, the previously received responses will not be adjusted as per the new level. For example, you sent a survey with star rating question of five levels, and received five responses with 3-star rating. Later, if you change the number of levels to 10, the previously received responses with 3-star rating will not be adjusted to the 10-level scale.
   
 Star and smiley rating questions with five levels are shown in the following images. 
 
