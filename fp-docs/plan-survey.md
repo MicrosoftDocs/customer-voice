@@ -92,17 +92,17 @@ You can accept multiple lines of text for your question by turning on the **Long
 
 ### Rating
 
-A Rating type question asks respondents to rate their answer by using stars, numbers, or sentiment icons that range from frowning to smiley faces<!--If "Smiley" is the tooltip for the symbol, or you use "smiley" elsewhere in the UI, maybe this is a good way to make the association? -->. 
+A Rating type question asks respondents to rate their answer by using stars, numbers, or smiley symbols. 
 
-By default, the star symbol is selected. To change the symbol, select it from the **Symbol** list. You can also change the number of levels by selecting a value from the **Levels** list. For number and star, up to 10 levels are supported. For smiley (sentiment icons), up to five levels are supported.
+By default, the star symbol is selected. To change the symbol, select it from the **Symbol** list. You can also change the number of levels by selecting a value from the **Levels** list. For number and star, up to 10 levels are supported. For smiley symbol, up to five levels are supported.
   
-Star and sentiment icon ratings with five levels are shown in the following images. 
+Star and smiley rating questions with five levels are shown in the following images. 
 
 > [!div class=mx-imgBorder]
 > ![Example of a star rating question with five stars selected](media/ques-rating-star.png "Example of a star rating question with five stars selected") 
 
 > [!div class=mx-imgBorder]
-> ![Example of a sentiment icon rating with the happiest face selected](media/ques-rating-smiley.png "Example of a sentiment icon rating with the happiest face selected") 
+> ![Example of a smiley rating with the happiest face selected](media/ques-rating-smiley.png "Example of a smiley rating with the happiest face selected") 
 
 For ratings questions that use numbers or stars, you can add labels for the numbers or stars by selecting **More settings for question** (...), and then selecting **Label**. A number rating question with labels is shown in the following image.
 

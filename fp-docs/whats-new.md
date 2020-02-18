@@ -24,8 +24,8 @@ Welcome to Microsoft Forms Pro. Here's a list of features we added or updated re
 Following are the new and updated features in this release:
 
 - **Display progress bar**: A progress bar is now displayed for multiple-page surveys. It shows your respondents the percentage of pages that have been completed so far. More information: [Add a progress bar](invite-settings.md#add-a-progress-bar)
-<!--from editor: Shubham, isn't the "smiley rating" phrase misleading? since the symbols range from quite angry to smiling. In the sentiment analysis content for Omnichannel we called these "sentiment icons". What do you think?-->
-- **Support for Rating questions that use sentiment icons**: You can now add a Rating question that uses sentiment icons to your survey. More information: [Decide on the types of questions to ask](plan-survey.md#decide-the-question-type)
+
+- **Support for smiley rating questions**: You can now add a Rating question that uses smiley symbols to your survey. More information: [Decide on the types of questions to ask](plan-survey.md#decide-the-question-type)
 
 - **Enhancement to embedding a survey in email**: In addition to Rating and Net Promoter Score questions, you can now embed the Choice question also in an email message. More information: [Embed a survey in an email](send-survey-email.md#embed-survey-in-an-email)
 

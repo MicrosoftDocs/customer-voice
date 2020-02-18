@@ -101,7 +101,7 @@ You can modify the authentication settings at any time, even after you've distri
 
 ## Add a progress bar
 
-A progress bar shows your respondents the percentage of pages that they've navigated to or viewed so far. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage.<!--note from editor: I think this is a bit ambiguous. If "all pages in the survey" are taken into account, that would imply even the skipped pages. Would it be accurate to say "The progress bar takes into account only the pages that a respondent sees. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage."?--> The progress bar is displayed only if there are two or more pages in the survey.
+A progress bar shows your respondents the percentage of pages that they've navigated to or viewed so far. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage. The progress bar is displayed only if there are two or more pages in the survey.
 
 You can control the display of the progress bar by selecting or clearing the **Show progress bar** check box in survey settings. For surveys created after the February 2020 release, this check box is selected by default. For surveys created before the February 2020 release, you must select the **Show progress bar** check box.
 
