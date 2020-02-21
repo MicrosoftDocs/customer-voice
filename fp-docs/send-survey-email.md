@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2020
+ms.date: 02/21/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -71,13 +71,14 @@ To create a new variable, select **New variable** from the **Variables** list. I
 
 ## Embed a survey in an email
 
-If you have added a Rating or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
 
 > [!div class=mx-imgBorder]
 > ![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
 
 > [!NOTE]
-> You can't embed a question in an email if you have enabled question shuffling in the survey.
+> - You can't embed a question in an email if you have enabled question shuffling in the survey.
+> - If you want to send embedded survey in an email through Power Automate, you must embed the question in an email and save it as a new email template. While configuring a flow, you must select the new email template. More information on email templates: [Use email templates](#use-email-templates)
 
 If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Survey variables** pane, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
 
