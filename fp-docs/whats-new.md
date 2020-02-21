@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2020
+ms.date: 02/21/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6104FBF8-A032-4155-805B-4B5B5D00B30F
@@ -18,6 +18,16 @@ search.appverid:
 # What's new in Microsoft Forms Pro
 
 Welcome to Microsoft Forms Pro. Here's a list of features we added or updated recently.
+
+## February 2020 update
+
+Following are the new and updated features in this release:
+
+- **Display progress bar**: A progress bar is now displayed for multiple-page surveys. It shows your respondents the percentage of pages that have been completed so far. More information: [Add a progress bar](invite-settings.md#add-a-progress-bar)
+
+- **Support for smiley rating questions**: You can now add a Rating question that uses smiley symbols to your survey. More information: [Decide on the types of questions to ask](plan-survey.md#decide-the-question-type)
+
+- **Enhancement to embedding a survey in email**: In addition to Rating and Net Promoter Score questions, you can now embed the Choice question also in an email message. More information: [Embed a survey in an email](send-survey-email.md#embed-survey-in-an-email)
 
 ## January 2020 update
 

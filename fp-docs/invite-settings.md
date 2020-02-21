@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2020
+ms.date: 02/21/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -98,6 +98,21 @@ You can specify a date, number of responses, or a time period after which the su
 > ![Response options for surveys](media/invite-settings-options.png "Response options for surveys")
 
 You can modify the authentication settings at any time, even after you've distributed the survey by email or other channels.
+
+## Add a progress bar
+
+A progress bar shows your respondents the percentage of pages that they've navigated to or viewed so far. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage. The progress bar is displayed only if there are two or more pages in the survey.
+
+You can control the display of the progress bar by selecting or clearing the **Show progress bar** check box in survey settings. For surveys created after the February 2020 release, this check box is selected by default. For surveys created before the February 2020 release, you must select the **Show progress bar** check box.
+
+> [!div class=mx-imgBorder]
+> ![Progress bar setting](media/progress-bar-setting.png "Progress bar setting")
+
+The progress bar is displayed to the right side of the buttons on the survey.
+
+> [!div class=mx-imgBorder]
+> ![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
+
 
 ## Work with personalized links
 
