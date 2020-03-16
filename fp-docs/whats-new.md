@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/21/2020
+ms.date: 03/17/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6104FBF8-A032-4155-805B-4B5B5D00B30F
@@ -18,6 +18,12 @@ search.appverid:
 # What's new in Microsoft Forms Pro
 
 Welcome to Microsoft Forms Pro. Here's a list of features we added or updated recently.
+
+## March 2020 update
+
+Following are the new and updated features in this release:
+
+- **Customize Forms Pro entities**: With the latest update of Forms Pro solution (version 1.22.0.0), all Forms Pro entities are now customizable. You can now add new fields in the entities. If you are on an earlier version of the solution, you can update the solution from [here](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview). More information: [Entity Reference for Microsoft Forms Pro](developer/forms-pro-reference.md)
 
 ## February 2020 update
 
