@@ -1,16 +1,12 @@
 ---
-title: "msfp_survey Entity Reference | MicrosoftDocs"
+title: "msfp_survey Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_survey entity."
-keywords: 
-author: "susikka"
+ms.date: 03/17/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+author: "SushantSikka"
 ms.author: "susikka"
 manager: "shujoshi"
-applies_to: 
-ms.date: 04/29/2019
-ms.service: "forms-pro"
-ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-ms.custom: 
 search.audienceType: 
   - developer
 search.app: 
@@ -20,8 +16,6 @@ search.appverid:
   - FPR160
 ---
 # msfp_survey Entity Reference
-
-
 
 Set of questions to collect feedback.
 
@@ -51,8 +45,8 @@ Set of questions to collect feedback.
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msfp_surveies|
-|DisplayCollectionName|Surveys|
-|DisplayName|Survey|
+|DisplayCollectionName|Forms Pro surveys|
+|DisplayName|Forms Pro survey|
 |EntitySetName|msfp_surveies|
 |IsBPFEntity|False|
 |LogicalCollectionName|msfp_surveies|
@@ -70,13 +64,20 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [msfp_acceptanonymousresponses](#BKMK_msfp_acceptanonymousresponses)
+- [msfp_anonymousurl](#BKMK_msfp_anonymousurl)
 - [msfp_description](#BKMK_msfp_description)
+- [msfp_embedcode](#BKMK_msfp_embedcode)
+- [msfp_friendlyname](#BKMK_msfp_friendlyname)
 - [msfp_name](#BKMK_msfp_name)
 - [msfp_otherproperties](#BKMK_msfp_otherproperties)
+- [msfp_publishedby](#BKMK_msfp_publishedby)
+- [msfp_publishedon](#BKMK_msfp_publishedon)
 - [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)
 - [msfp_sourcesurveymodifieddate](#BKMK_msfp_sourcesurveymodifieddate)
 - [msfp_sourcesurveyversion](#BKMK_msfp_sourcesurveyversion)
 - [msfp_surveyId](#BKMK_msfp_surveyId)
+- [msfp_surveysource](#BKMK_msfp_surveysource)
+- [msfp_surveyurl](#BKMK_msfp_surveyurl)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
 - [OwnerIdType](#BKMK_OwnerIdType)
@@ -126,6 +127,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 
 
+### <a name="BKMK_msfp_anonymousurl"></a> msfp_anonymousurl
+
+|Property|Value|
+|--------|-----|
+|Description|Link to the anonymous survey response.|
+|DisplayName|Anonymous URL|
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_anonymousurl|
+|MaxLength|4000|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msfp_description"></a> msfp_description
 
 |Property|Value|
@@ -140,6 +157,38 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|1000000|
 |RequiredLevel|None|
 |Type|Memo|
+
+
+### <a name="BKMK_msfp_embedcode"></a> msfp_embedcode
+
+|Property|Value|
+|--------|-----|
+|Description|Embed code for the survey|
+|DisplayName|Embed code for the survey|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_embedcode|
+|MaxLength|1000000|
+|RequiredLevel|None|
+|Type|Memo|
+
+
+### <a name="BKMK_msfp_friendlyname"></a> msfp_friendlyname
+
+|Property|Value|
+|--------|-----|
+|Description|Friendly name of the survey.|
+|DisplayName|Friendly name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_friendlyname|
+|MaxLength|400|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msfp_name"></a> msfp_name
@@ -172,6 +221,35 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MaxLength|1000000|
 |RequiredLevel|None|
 |Type|Memo|
+
+
+### <a name="BKMK_msfp_publishedby"></a> msfp_publishedby
+
+|Property|Value|
+|--------|-----|
+|Description|User who published the survey.|
+|DisplayName|Published by|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_publishedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
+
+
+### <a name="BKMK_msfp_publishedon"></a> msfp_publishedon
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time on which the survey was published.|
+|DisplayName|Published on|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_publishedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msfp_sourcesurveyidentifier"></a> msfp_sourcesurveyidentifier
@@ -233,6 +311,38 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |LogicalName|msfp_surveyid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msfp_surveysource"></a> msfp_surveysource
+
+|Property|Value|
+|--------|-----|
+|Description|Source through which the survey was created.|
+|DisplayName|Survey source|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_surveysource|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msfp_surveyurl"></a> msfp_surveyurl
+
+|Property|Value|
+|--------|-----|
+|Description|Link to the survey in Microsoft Forms Pro.|
+|DisplayName|Survey URL|
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_surveyurl|
+|MaxLength|4000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -322,6 +432,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |-----|-----|-----|
 |1|Active|0|
 |2|Inactive|1|
+|100000000|Draft|0|
+|100000002|Deleted|1|
+|100000003|Published|0|
 
 
 
@@ -376,6 +489,8 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msfp_publishedbyName](#BKMK_msfp_publishedbyName)
+- [msfp_publishedbyYomiName](#BKMK_msfp_publishedbyYomiName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
 - [OwningBusinessUnit](#BKMK_OwningBusinessUnit)
@@ -622,6 +737,38 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msfp_publishedbyName"></a> msfp_publishedbyName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msfp_publishedbyname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msfp_publishedbyYomiName"></a> msfp_publishedbyYomiName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msfp_publishedbyyominame|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
 **Added by**: Active Solution Solution
@@ -728,10 +875,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msfp_msfp_survey_msfp_question_Survey](#BKMK_msfp_msfp_survey_msfp_question_Survey)
-- [msfp_msfp_survey_msfp_surveyinvite_surveyid](#BKMK_msfp_msfp_survey_msfp_surveyinvite_surveyid)
-- [msfp_msfp_survey_msfp_surveyresponse_surveyid](#BKMK_msfp_msfp_survey_msfp_surveyresponse_surveyid)
-
 
 ### <a name="BKMK_msfp_msfp_survey_msfp_question_Survey"></a> msfp_msfp_survey_msfp_question_Survey
 
@@ -748,39 +891,9 @@ Same as msfp_question entity [msfp_msfp_survey_msfp_question_Survey](msfp_questi
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_msfp_msfp_survey_msfp_surveyinvite_surveyid"></a> msfp_msfp_survey_msfp_surveyinvite_surveyid
-
-Same as msfp_surveyinvite entity [msfp_msfp_survey_msfp_surveyinvite_surveyid](msfp_surveyinvite.md#BKMK_msfp_msfp_survey_msfp_surveyinvite_surveyid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msfp_surveyinvite|
-|ReferencingAttribute|msfp_surveyid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msfp_msfp_survey_msfp_surveyinvite_surveyid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_msfp_msfp_survey_msfp_surveyresponse_surveyid"></a> msfp_msfp_survey_msfp_surveyresponse_surveyid
-
-Same as msfp_surveyresponse entity [msfp_msfp_survey_msfp_surveyresponse_surveyid](msfp_surveyresponse.md#BKMK_msfp_msfp_survey_msfp_surveyresponse_surveyid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msfp_surveyresponse|
-|ReferencingAttribute|msfp_surveyid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msfp_msfp_survey_msfp_surveyresponse_surveyid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### See also
 
 [About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
 [Programming reference for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
 [Web API reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
-
+<xref href="Microsoft.Dynamics.CRM.msfp_survey?text=msfp_survey EntityType" />
