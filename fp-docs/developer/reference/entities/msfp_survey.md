@@ -1,7 +1,7 @@
 ---
 title: "msfp_survey Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_survey entity."
-ms.date: 03/17/2020
+ms.date: 03/20/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 author: "SushantSikka"
