@@ -1845,10 +1845,6 @@ Same as msfp_surveyresponse entity [msfp_msfp_surveyinvite_msfp_surveyresponse_s
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### <a name="BKMK_msfp_msfp_survey_msfp_surveyinvite_surveyid"></a> msfp_msfp_survey_msfp_surveyinvite_surveyid
-
-See msfp_survey Entity [msfp_msfp_survey_msfp_surveyinvite_surveyid](msfp_survey.md#BKMK_msfp_msfp_survey_msfp_surveyinvite_surveyid) One-To-Many relationship.
-
 ### See also
 
 [About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
