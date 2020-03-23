@@ -806,11 +806,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msfp_msfp_question_msfp_questionresponse_questionid](#BKMK_msfp_msfp_question_msfp_questionresponse_questionid)
 - [msfp_msfp_surveyresponse_msfp_questionresponse_surveyresponseid](#BKMK_msfp_msfp_surveyresponse_msfp_questionresponse_surveyresponseid)
 
-
-### <a name="BKMK_msfp_msfp_question_msfp_questionresponse_questionid"></a> msfp_msfp_question_msfp_questionresponse_questionid
-
-See msfp_question Entity [msfp_msfp_question_msfp_questionresponse_questionid](msfp_question.md#BKMK_msfp_msfp_question_msfp_questionresponse_questionid) One-To-Many relationship.
-
 ### <a name="BKMK_msfp_msfp_surveyresponse_msfp_questionresponse_surveyresponseid"></a> msfp_msfp_surveyresponse_msfp_questionresponse_surveyresponseid
 
 **Added by**: Active Solution Solution
