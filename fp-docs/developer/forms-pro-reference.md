@@ -6,7 +6,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 applies_to: 
-ms.date: 04/29/2019
+ms.date: 03/23/2019
 ms.service: "forms-pro"
 ms.topic: "reference"
 ms.assetid: 0CCDE7D8-E6D8-4892-B293-A4F39DEE4B06
@@ -24,7 +24,7 @@ search.appverid:
 
 Use this reference to understand the available operations that can be performed on specific entities, the default attributes of each entity and the relationship between entities.
 
-Following is a simplified version of entity relationship diagram of the Forms Pro entities. You can generate an entity relationship diagram of the entities of your choice using the [Metadata Diagram tool](https://code.msdn.microsoft.com/Sample-of-generating-a0ba0e47). To do this, you will just have to mention the entity logical names as parameters while executing the sample. More information: [Use metadata to generate entity diagrams](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-metadata-generate-entity-diagrams).
+Following is a simplified version of the entity relationship diagram of Forms Pro entities. You can generate an entity relationship diagram of the entities of your choice using the [Metadata Diagram tool](https://code.msdn.microsoft.com/Sample-of-generating-a0ba0e47). To do this, you will just have to mention the entity logical names as parameters while executing the sample. More information: [Use metadata to generate entity diagrams](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-metadata-generate-entity-diagrams).
 
 > [!div class=mx-imgBorder]
 > ![Simplified entity relationship diagram](../media/er-diagram.png "Simplified entity relationship diagram")
