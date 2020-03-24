@@ -6,7 +6,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 applies_to: 
-ms.date: 04/29/2019
+ms.date: 03/24/2020
 ms.service: "forms-pro"
 ms.topic: "reference"
 ms.assetid: 0CCDE7D8-E6D8-4892-B293-A4F39DEE4B06
@@ -33,6 +33,7 @@ Welcome to the developer guide for Microsoft Forms Pro.
 <li><a href="reference/entities/msfp_questionresponse.md">msfp_questionresponse</a></li>
 <li><a href="reference/entities/msfp_survey.md">msfp_survey</a></li>
 <li><a href="reference/entities/msfp_surveyinvite.md">msfp_surveyinvite</a></li>
+<li><a href="reference/entities/msfp_surveyresponse.md">msfp_surveyresponse</a></li>
 <li><a href="reference/entities/msfp_unsubscribedrecipient.md">msfp_unsubscribedrecipient</a></li>
 </td></tr>
 </table>

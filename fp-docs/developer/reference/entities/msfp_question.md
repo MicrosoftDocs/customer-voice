@@ -1,27 +1,14 @@
 ---
-title: "msfp_question Entity Reference | MicrosoftDocs"
+title: "msfp_question Entity Reference| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_question entity."
-keywords: 
-author: "susikka"
+ms.date: 03/24/2020
+ms.service: "crm-online"
+ms.topic: "reference"
+author: "SushantSikka"
 ms.author: "susikka"
 manager: "shujoshi"
-applies_to: 
-ms.date: 04/29/2019
-ms.service: "forms-pro"
-ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-ms.custom: 
-search.audienceType: 
-  - developer
-search.app: 
-  - PowerApps
-  - D365CE
-search.appverid:
-  - FPR160
 ---
 # msfp_question Entity Reference
-
-
 
 Question in a survey to collect feedback.
 
@@ -51,8 +38,8 @@ Question in a survey to collect feedback.
 |Property|Value|
 |--------|-----|
 |CollectionSchemaName|msfp_questions|
-|DisplayCollectionName|Survey  questions|
-|DisplayName|Survey question|
+|DisplayCollectionName|Forms Pro survey  questions|
+|DisplayName|Forms Pro survey question|
 |EntitySetName|msfp_questions|
 |IsBPFEntity|False|
 |LogicalCollectionName|msfp_questions|
@@ -75,6 +62,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [msfp_Maximumrating](#BKMK_msfp_Maximumrating)
 - [msfp_multiline](#BKMK_msfp_multiline)
 - [msfp_name](#BKMK_msfp_name)
+- [msfp_order](#BKMK_msfp_order)
 - [msfp_otherproperties](#BKMK_msfp_otherproperties)
 - [msfp_questionchoices](#BKMK_msfp_questionchoices)
 - [msfp_questionId](#BKMK_msfp_questionId)
@@ -222,6 +210,22 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|String|
 
 
+### <a name="BKMK_msfp_order"></a> msfp_order
+
+|Property|Value|
+|--------|-----|
+|Description|Order of the question in the survey.|
+|DisplayName|Order|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_order|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
+
+
 ### <a name="BKMK_msfp_otherproperties"></a> msfp_otherproperties
 
 |Property|Value|
@@ -310,6 +314,8 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |647390007|NPS|
 |647390008|File Upload|
 |647390009|Number|
+|647390010|Date and time|
+|647390011|Drop-down|
 
 
 
@@ -933,27 +939,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |MinValue|-9223372036854775808|
 |RequiredLevel|None|
 |Type|BigInt|
-
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_msfp_msfp_question_msfp_questionresponse_questionid"></a> msfp_msfp_question_msfp_questionresponse_questionid
-
-Same as msfp_questionresponse entity [msfp_msfp_question_msfp_questionresponse_questionid](msfp_questionresponse.md#BKMK_msfp_msfp_question_msfp_questionresponse_questionid) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msfp_questionresponse|
-|ReferencingAttribute|msfp_questionid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msfp_msfp_question_msfp_questionresponse_questionid|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 <a name="manytoone"></a>
 

@@ -1937,13 +1937,8 @@ Same as msfp_questionresponse entity [msfp_msfp_surveyresponse_msfp_questionresp
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msfp_msfp_survey_msfp_surveyresponse_surveyid](#BKMK_msfp_msfp_survey_msfp_surveyresponse_surveyid)
 - [msfp_msfp_surveyinvite_msfp_surveyresponse_surveyinviteid](#BKMK_msfp_msfp_surveyinvite_msfp_surveyresponse_surveyinviteid)
 
-
-### <a name="BKMK_msfp_msfp_survey_msfp_surveyresponse_surveyid"></a> msfp_msfp_survey_msfp_surveyresponse_surveyid
-
-See msfp_survey Entity [msfp_msfp_survey_msfp_surveyresponse_surveyid](msfp_survey.md#BKMK_msfp_msfp_survey_msfp_surveyresponse_surveyid) One-To-Many relationship.
 
 ### <a name="BKMK_msfp_msfp_surveyinvite_msfp_surveyresponse_surveyinviteid"></a> msfp_msfp_surveyinvite_msfp_surveyresponse_surveyinviteid
 
