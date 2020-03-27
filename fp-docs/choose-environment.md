@@ -28,7 +28,8 @@ You can switch the environment at any time and start working in it. You can also
 To work with surveys in an environment, install the [Forms Pro app from Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview), and assign the Survey Owner role to users. If you switch to an environment that doesn't have Forms Pro, an error message is displayed.
 
 > [!NOTE]
-> If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
+> - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
+> - If you choose to work with the default environment, there are a few limitations to it. For information on limitations, see [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits).
 
 ## Privileges required
 
