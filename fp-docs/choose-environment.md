@@ -29,7 +29,7 @@ To work with surveys in an environment, install the [Forms Pro app from Microsof
 
 > [!NOTE]
 > - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
-> - If you choose to work with the default environment, there are a few limitations to it. For information on limitations, see [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits).
+> - The default environment is based on Common Data Service. Please refer to [service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits) before planning a large scale deployment.
 
 ## Privileges required
 
