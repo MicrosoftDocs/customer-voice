@@ -107,7 +107,7 @@ You can perform these actions on an email template:
 
 ## Customize the sender's email address
 
-The customization feature helps you select an email address that matches your company's brand. You can contact Microsoft support for the Forms Pro provisioned location, and then create CNAME records manually. The CNAME records will be used for DKIM authentication. You must create two CNAME records per custom domain. Thereafter, you'll be able to customize the email address that sends the survey invitation to your respondents.
+The customization feature helps you select an email address that matches your company's brand. You can contact Microsoft support and provide the domains you want to configure for sending emails. The Microsoft support team will contact you with the DNS records. You can then provide the email addresses you want to configure. Based on the information you provide, records will be verified and DKIM keys will be created. Thereafter, you'll be able to use the customized email address to send the survey invitation to your respondents.
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/support) with your admin credentials.
 
