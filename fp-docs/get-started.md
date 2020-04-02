@@ -63,16 +63,15 @@ Your trial experience might also be downgraded in the following scenarios:
 
 When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license. Your data is retained for 90 days, and then deleted if you don't purchase a license before the expiry of trial.
 
-## Forms Pro availability on U.S. Government Community Cloud (GCC)
+## Forms Pro availability on US Government Community Cloud
 
-As the dependency services used by Forms Pro are available on U.S. Government Community Cloud (GCC), there are a few differences in the functionalities of Forms Pro on GCC:
+The dependency services used by Forms Pro are available on US Government Community Cloud (GCC). Note the following differences in functionality for Forms Pro on GCC:
 
-- When you navigate to the **Responses** tab, the format of survey responses is slightly different when compared to other non-GCC regions. The report can only display up to 50,000 responses. You can create a Power BI report and connect directly to Common Data Service to see all responses.
+- The format of survey responses on the **Responses** tab is slightly different when compared to non-GCC regions. The report can only display up to 50,000 responses. You can create a Power BI report and connect directly to Common Data Service to see all the responses.
 
-- By default, the anonymous sharing of surveys is disabled. A tenant administrator must enable the anonymous sharing by selecting the **Send a link to the form and collect responses** check box under **External sharing** in Microsoft 365 admin center. More information: [Administrator settings for Microsoft Forms](https://support.microsoft.com/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b?ui=en-us&rs=en-us&ad=us)
+- By default, the anonymous sharing of surveys is disabled. A tenant administrator must enable anonymous sharing by selecting the **Send a link to the form and collect responses** check box under **External sharing** in the Microsoft 365 admin center. More information: [Administrator settings for Microsoft Forms](https://support.microsoft.com/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b?ui=en-us&rs=en-us&ad=us)<!--This link didn't work for me. Funnily enough, it ~did~ work when I used the language code: https://support.microsoft.com/en-us/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b Please see whether you get the same result? If so, we'll need to ignore warnings about using en-us -->
 
-- Microsoft Forms Pro on GCC uses your Microsoft Exchange mailbox to send the survey. For information on Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
-
+- Microsoft Forms Pro on GCC uses your Microsoft Exchange mailbox to send the survey. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 ## Provide feedback on Forms Pro
 
