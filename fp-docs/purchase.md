@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2020
+ms.date: 04/15/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
@@ -14,7 +14,6 @@ ms.custom:
 search.appverid:
   - FPR160
 ---
-
 
 # Purchase Microsoft Forms Pro
 
@@ -163,3 +162,22 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Micros
 
 5.	On the **Product licenses** page, turn the **Microsoft Forms Pro USL** toggle to **Off**.
 
+## Response capacity consumption
+
+One additional license, Forms Pro Addl Responses, costs $100 and it allows you to receive 2000 responses per month. You can purchase the licenses in bundles of $100 as required. You can pay for the licenses by using either of the payment modes: monthly or yearly. Regardless of the payment mode, the response capacity is calculated annually.
+
+> [!NOTE]
+> If you select the payment method as monthly, you’ll be able to consume the responses as per the annual capacity as long as your subscription is active.
+
+You can send as many survey invitations you want; the invitations are not counted towards the response capacity consumption. Only the responses received, including anonymous and non-anonymous surveys, are counted towards response capacity consumption.
+
+If the consumed response capacity exceeds the annual response capacity in any given month, Forms Pro will stop receiving new responses. As a survey owner, you'll see a notification that survey responses won’t be received. In this case, you must contact your administrator to purchase additional responses. After the administrator purchases additional responses, you’ll start receiving responses. Note that any survey response received during the period when the response receiving was stopped will not be processed. Only the responses received after the additional responses are purchased will be processed.
+
+If you have any unused responses remaining in a year, those responses will not be carried forward to the next year. For example, if you one additional license and have not received any response in the first year, the response capacity for the second year will be 24000 and not 48000 (24000 x 2).
+
+Let's understand this with the following example:
+
+You purchase an additional license of $100. You'll get 24000 responses (12 * 2000) annually. If you exhaust all 24000 responses in the tenth month from the date of purchase, Forms Pro will stop receiving new responses and you’ll receive a notification. If your administrator purchases additional responses, you’ll start receiving responses.
+If you have 5000 responses remaining at the end of the year, those responses will not be carried forward to the next year.
+
+Similarly, if you purchase two additional licenses of $100 each, you'll get 48000 responses (12 * 4000) annually.

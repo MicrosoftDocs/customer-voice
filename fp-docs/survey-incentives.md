@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 04/15/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7941BC7A-EAD5-460C-BDCA-A4B1E9BFB401
@@ -27,19 +27,11 @@ As a survey owner, when you send surveys to your recipients, you expect to get a
 > - Promo codes allow a responder to enter Microsoft Surface Book sweepstakes and are valid only until the end of the month. For detailed terms and conditions, see the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/p/?linkid=530144).
 > - A Microsoft account is required to redeem the promo code. You can redeem only one promo code per day using a Microsoft account, up to a maximum of 10 promo codes in a month.
 
-## Disable survey incentives in a tenant
+## Enable survey incentives in a tenant
 
-As a tenant administrator, you can enable or disable survey incentives in a tenant to allow or restrict survey designers to offer survey incentives to their recipients. By default, survey incentives are enabled in a tenant.
+As a tenant administrator, you can enable or disable survey incentives in a tenant to allow or restrict survey designers to offer survey incentives to their recipients. By default, survey incentives are disabled in a tenant.
 
-To disable survey incentives:
-
-1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-
-2. In the left pane, select **Settings** > **Services & add-ins**.
-
-3. Select **Microsoft Forms**.
-
-4. Under **Survey incentive**, turn the **Allow incentives to be added for surveys created using Forms Pro** toggle to **Off**.
+To enable survey incentives, open the [administrator settings for Forms Pro](admin-settings.md), and select **Allow survey authors to add incentives to surveys created using Microsoft Forms Pro**.
 
 When the survey incentives are turned off, the option of offer survey incentives in a survey invitation is also disabled.
 
