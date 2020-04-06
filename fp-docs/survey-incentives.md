@@ -85,3 +85,7 @@ You'll receive a confirmation email from Microsoft Rewards about your sweepstake
     > ![Redeem reward](media/redeem-reward.png "Redeem reward")
 
 3. Select **Redeem reward** and finish the sweepstakes entry. A confirmation email from Microsoft Rewards will be sent.
+
+### See also
+
+[Administrator settings for Forms Pro](admin-settings.md)

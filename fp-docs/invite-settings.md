@@ -127,4 +127,5 @@ When you send a survey by generating a link or a QR code, the survey links aren'
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in Power Apps](embed-survey-powerapps.md)
+[Embed a survey in Power Apps](embed-survey-powerapps.md)<br>
+[Administrator settings for Forms Pro](admin-settings.md)
