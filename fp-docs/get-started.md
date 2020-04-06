@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 04/06/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
@@ -20,6 +20,9 @@ search.appverid:
 Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Forms Pro supports businesses seeking to transform customer, product, and employee experiences.
 
 Forms Pro is built on Microsoft Forms, and it offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As the responses are submitted, analyze them with Power BI reports and make effective decisions accordingly.
+
+> [!NOTE]
+> If you disable Microsoft Forms, Forms Pro will also stop working.
 
 Forms Pro has robust tooling to support deeper analytics and insights with integration across your tools, such as Common Data Service, Microsoft Power Platform, and the model-driven apps in Dynamics 365. With Forms Pro, you can send your customers branded surveys that have your company's look and feel. Survey distribution is simpler with the built-in email composer. You can also automate sending surveys by using Microsoft Power Automate and leverage preconfigured flow templates to integrate with the model-driven apps in Dynamics 365.
 
