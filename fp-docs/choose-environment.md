@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/02/2019
+ms.date: 04/06/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 90EFF51F-36E3-4973-8768-82F12629B0B3
@@ -28,7 +28,8 @@ You can switch the environment at any time and start working in it. You can also
 To work with surveys in an environment, install the [Forms Pro app from Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview), and assign the Survey Owner role to users. If you switch to an environment that doesn't have Forms Pro, an error message is displayed.
 
 > [!NOTE]
-> If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
+> - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
+> - A default environment is based on Common Data Service. Before planning a large scale deployment, see [service protection API limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits). To learn more about the default environment, see [default environment](https://docs.microsoft.com/power-platform/admin/environments-overview#the-default-environment).
 
 ## Privileges required
 
