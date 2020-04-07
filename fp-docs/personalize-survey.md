@@ -41,10 +41,11 @@ By default, the following survey variables are available:
 5.	Enter a name and default value for the survey variable.
 
     > [!div class=mx-imgBorder]
-    > ![New survey variable created](media/custom-data-button.png "New survey variable created")
+    > ![New survey variable created](media/new-survey-variable.png "New survey variable created")
 
 > [!NOTE]
-> - After you create a variable, you'll not be able to rename it.
+> - A survey variable name can only contain English letters and numbers.
+> - After you create a survey variable, you'll not be able to rename it.
 > - You can also personalize survey invitations by using survey variables. More information: [Personalize an email](send-survey-email.md#personalize-an-email)
 > - Don't use survey variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
 > - Survey variables are replaced with the specified default values when sending a survey invitation.
