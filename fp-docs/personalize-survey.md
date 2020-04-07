@@ -44,7 +44,7 @@ By default, the following survey variables are available:
     > ![New survey variable created](media/new-survey-variable.png "New survey variable created")
 
 > [!NOTE]
-> - A survey variable name can only contain English letters and numbers.
+> - A survey variable name can contain a maximum of 30 characters consisting of only English letters and numbers.
 > - After you create a survey variable, you'll not be able to rename it.
 > - You can also personalize survey invitations by using survey variables. More information: [Personalize an email](send-survey-email.md#personalize-an-email)
 > - Don't use survey variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
