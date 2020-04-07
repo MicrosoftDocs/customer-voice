@@ -46,12 +46,12 @@ For example, for the question **How likely is it that you would recommend us to 
 
 4.	In the **Define conditions** area, select **Add condition** to add a response condition.
 
-5. In the first list, select if you want to create a rule on a question or a variable.
+5. In the first list, select if you want to create a rule on a question or a survey variable.
 
     > [!div class=mx-imgBorder]
     > ![Select Question or Variable](media/select-ques-var.png "Select Question or Variable")
 
-6. If you choose to create rule on a variable, select a variable from the **Select survey variable** list.
+6. If you choose to create rule on a survey variable, select a variable from the **Select survey variable** list.
 
     > [!div class=mx-imgBorder]
     > ![Branching rules condition variable](media/branch-condition-variable.png "Branching rules condition variable")

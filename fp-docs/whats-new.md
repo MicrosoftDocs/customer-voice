@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/24/2020
+ms.date: 04/15/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 6104FBF8-A032-4155-805B-4B5B5D00B30F
@@ -18,6 +18,14 @@ search.appverid:
 # What's new in Microsoft Forms Pro
 
 Welcome to Microsoft Forms Pro. Here's a list of features we added or updated recently.
+
+## April 2020 update
+
+Following are the new and updated features in this release:
+
+- **Enhancement to branching rules**: You can now create conditions based on a survey variable and show relevant questions accordingly. More information: [Create a branching rule](create-branching-rule.md)
+
+- **Administrator settings for Forms Pro**: A new settings page is introduced for administrators to update settings for Forms Pro. More information: [Administrator settings for Forms Pro](admin-settings.md)
 
 ## March 2020 update
 
