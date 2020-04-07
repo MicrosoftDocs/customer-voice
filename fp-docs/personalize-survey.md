@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2020
+ms.date: 04/15/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1AECC69F-B68A-4776-884A-C59770FC5C96
@@ -27,7 +27,7 @@ By default, the following survey variables are available:
 
 - **locale**: Specifies the locale of the survey while embedding it in the email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
 
-To create a new survey variable:
+**To create a new survey variable**
 
 1.	Open the survey in which you want to use survey variables.
 
@@ -40,7 +40,11 @@ To create a new survey variable:
 
 5.	Enter a name and default value for the survey variable.
 
+    > [!div class=mx-imgBorder]
+    > ![New survey variable created](media/custom-data-button.png "New survey variable created")
+
 > [!NOTE]
+> - After you create a variable, you'll not be able to rename it.
 > - You can also personalize survey invitations by using survey variables. More information: [Personalize an email](send-survey-email.md#personalize-an-email)
 > - Don't use survey variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
 > - Survey variables are replaced with the specified default values when sending a survey invitation.
