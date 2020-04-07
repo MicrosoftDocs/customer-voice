@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
@@ -69,7 +69,7 @@ The dependency services used by Forms Pro are available on US Government Communi
 
 - The format of survey responses on the **Responses** tab is slightly different when compared to non-GCC regions. The report can only display up to 50,000 responses. You can create a Power BI report and connect directly to Common Data Service to see all the responses.
 
-- By default, the anonymous sharing of surveys is disabled. A tenant administrator must enable anonymous sharing by selecting the **Send a link to the form and collect responses** check box under **External sharing** in the Microsoft 365 admin center. More information: [Administrator settings for Microsoft Forms](https://support.microsoft.com/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b?ui=en-us&rs=en-us&ad=us)<!--This link didn't work for me. Funnily enough, it ~did~ work when I used the language code: https://support.microsoft.com/en-us/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b Please see whether you get the same result? If so, we'll need to ignore warnings about using en-us -->
+- By default, the anonymous sharing of surveys is disabled. A tenant administrator must enable anonymous sharing by selecting the **Send a link to the form and collect responses** check box under **External sharing** in the Microsoft 365 admin center. More information: [Administrator settings for Microsoft Forms](https://support.microsoft.com/en-us/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b)
 
 - Microsoft Forms Pro on GCC uses your Microsoft Exchange mailbox to send the survey. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
