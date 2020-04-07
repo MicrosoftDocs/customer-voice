@@ -33,7 +33,7 @@ As a tenant administrator, you can enable or disable survey incentives in a tena
 
 To enable survey incentives, open the [administrator settings for Forms Pro](admin-settings.md), and select **Allow survey authors to add incentives to surveys created using Microsoft Forms Pro**.
 
-When the survey incentives are turned off, the option of offer survey incentives in a survey invitation is also disabled.
+When the survey incentives are turned off, the option to offer survey incentives in a survey invitation is also disabled.
 
 ## Enable survey incentives in survey invitation email
 
