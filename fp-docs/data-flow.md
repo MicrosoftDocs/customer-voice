@@ -18,8 +18,7 @@ search.appverid:
 
 The following data flow diagram provides a visual representation of the flow of information (data) across Forms Pro services and Common Data Service. It also provides visual information about inputs and outputs of entities and processes. The data under Forms Pro services area is stored within Microsoft managed storage in North America or Europe and is encrypted with Microsoft managed key. The data under Common Data Service area is stored in users' Common Data Service organization in the local data center.
 
-> [!div class=mx-imgBorder]
-> ![Data flow diagram of Forms Pro](media/dfd.png "Data flow diagram of Forms Pro")
+![Data flow diagram of Forms Pro](media/dfd.png "Data flow diagram of Forms Pro")
 
 Following processes are shown in the data flow diagram:
 
