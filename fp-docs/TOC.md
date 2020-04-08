@@ -45,6 +45,8 @@
 ## [Change an environment](change-environment.md)
 ## [Copy a survey to another environment](copy-survey-environment.md)
 
+# [Data flow in Forms Pro](data-flow.md)
+
 # [Monitor customer satisfaction](customer-satisfaction-app.md)
 
 # [Troubleshoot Forms Pro](troubleshoot.md)
