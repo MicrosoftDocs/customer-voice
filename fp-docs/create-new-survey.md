@@ -87,7 +87,9 @@ When you create a text-based question (that is, a question of type Text), you ca
 
 ## Calculate sentiments from responses to text-based questions
 
-You can use sentiment analysis to determine whether user responses for a survey are positive, neutral, or negative. Sentiments are calculated from responses to the text-based questions you've selected. To select text-based questions for sentiment analysis, go to the text-based question, and move the **Sentiment** toggle to the On position. By default, this toggle is turned off. If you don't select any text-based question for sentiment analysis, sentiment data won't be generated.
+You can use sentiment analysis to determine whether user responses for a survey are positive, neutral, or negative. To select text-based questions for sentiment analysis, go to the text-based question, and move the **Sentiment** toggle to the On position. By default, this toggle is turned off. If you don't select any text-based question for sentiment analysis, NPS question response will be used for showing sentiment. If there is no NPS question or it is not answered, sentiment data won't be generated.
+
+When you select the text-based questions for sentiment analysis, their responses are sent to Azure Cognitive Services for further processing. Each answer to the text-based question that is marked for sentiment analysis will have a sentiment associated with it. As there can be multiple such answers in a survey response, the sentiment for a survey response is calculated from the last answered text-based question. The sentiment for a survey is calculated as the numerical average of all responses in the survey.
 
 ### See also
 
