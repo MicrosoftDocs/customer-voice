@@ -27,6 +27,9 @@ Following processes are shown in the data flow diagram:
 
 - **Distribute survey**: When a survey distributor sends a survey, the survey invitations are stored in Forms Pro services and Common Data Service. The survey invitation emails are sent to the recipients by using Dynamics 365 Marketing Email service internally.
 
+  > [!NOTE]
+  > You would not need an explicit subscription to D365 Marketing to send emails.
+
 - **Respond to survey**: When a respondent responds to a survey, the survey response is first stored in Forms Pro services and then sent to Azure Cognitive Services, and Forms Pro analytics engine for further processing. After responses are processed by Azure Cognitive Services, they are stored in Common Data Service.
 
 - **Analyze results**: After data is processed in by Forms Pro analytics engine, it is ready for analysis in Forms Pro. It enables you to view information by using charts.
