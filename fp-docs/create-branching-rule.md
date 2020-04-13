@@ -100,7 +100,7 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
 
-12. Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.<!--note from editor: Coincidentally, after the substeps became bulleted instead of numbered, this reference to the step numbers is correct again.-->
+12. Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.
 
     > [!div class=mx-imgBorder]
     > ![Branching rules false action](media/branch-false-action.png "Branching rules false action")

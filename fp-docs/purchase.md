@@ -162,7 +162,7 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Micros
 
 ## Response capacity consumption
 
-One additional license, Forms Pro Addl Responses, costs $100 and allows you to receive 2,000 responses per month at a tenant level. This means that everyone in the tenant can use a total of 2,000 responses. You can purchase the licenses in bundles of $100 as required. So if you purchase one Forms Pro Addl Responses license (for a bill amount of $1,200), you'll get 24,000 responses (12 &times; 2,000) annually. <!--I moved this paragraph up here from the end because it was a bit of a non sequitur after the discussion of how responses don't roll over to the new year.-->If you purchase two licenses of $100 each per month for a year (for a bill amount of $2,400), you'll get 48,000 responses (12 &times; 4,000) annually.
+One additional license, Forms Pro Addl Responses, costs $100 and allows you to receive 2,000 responses per month at a tenant level. This means that everyone in the tenant can use a total of 2,000 responses. You can purchase the licenses in bundles of $100 as required. So if you purchase one Forms Pro Addl Responses license (for a bill amount of $1,200), you'll get 24,000 responses (12 &times; 2,000) annually. If you purchase two licenses of $100 each per month for a year (for a bill amount of $2,400), you'll get 48,000 responses (12 &times; 4,000) annually.
 
 You can pay for the licenses by using either of the payment modes: monthly or yearly. Regardless of the payment mode, the response capacity is calculated annually.
 
@@ -179,7 +179,7 @@ Let's understand this with the following example:
 
 You purchase an additional license of $100 per month for a year (for a bill amount of $1,200). You'll get 24,000 responses (12 &times; 2,000) annually. If you exhaust all 24,000 responses in the tenth month from the date of purchase, Forms Pro will stop receiving new responses and won't allow new surveys to be created. As soon as your administrator purchases additional responses, you'll start receiving responses and be able to create new surveys.
 
-In this example, you have 5,000 responses remaining at the end of the year. Those responses won't be carried forward to the next year.
+In this example, suppose you have 5,000 responses remaining at the end of the year. Those responses won't be carried forward to the next year.
 
 ### See also
 

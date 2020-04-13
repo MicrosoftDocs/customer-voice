@@ -15,8 +15,8 @@ search.appverid:
 ---
 
 # Data flow in Forms Pro
-<!--I'm a bit leery of using "data flow" because of its specific meaning in Power BI, but I can't find any good alternative.-->
-The following data flow diagram provides a visual representation of the flow of information (data) across Forms Pro services and Common Data Service. It also provides visual information about inputs and outputs of entities and processes. The data in the Forms Pro services area is stored in Microsoft managed storage in North America or Europe, and is encrypted by using Microsoft-managed keys<!--I base this edit on usage in https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption, which please see. I haven't seen "managed keys" used as a standalone term.-->. The data in the Common Data Service area is stored in users' Common Data Service organizations in the local datacenter.<!--I like this diagram! It's very clear. -->
+
+The following data flow diagram provides a visual representation of the flow of information (data) across Forms Pro services and Common Data Service. It also provides visual information about inputs and outputs of entities and processes. The data in the Forms Pro services area is stored in Microsoft managed storage in North America or Europe, and is encrypted by using Microsoft-managed keys. The data in the Common Data Service area is stored in users' Common Data Service organizations in the local datacenter.
 
 ![Data flow diagram for Forms Pro](media/dfd.png "Data flow diagram for Forms Pro")
 
