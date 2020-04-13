@@ -25,9 +25,9 @@ For example, for the question **How likely is it that you would recommend us to 
 
 **To create a branching rule**
 
-1.	Open the survey in which you want to add a branching rule.
+1. Open the survey in which you want to add a branching rule.
 
-2.	Select the ellipsis button **(…)** from the toolbar at the top of the page, and then select **Branching rules**.
+2. Select the ellipsis button **(…)** from the toolbar at the top of the page, and then select **Branching rules**.
 
     > [!div class=mx-imgBorder]
     > ![Branching rules button](media/branching-rules-button.png "Branching rules button")
@@ -42,26 +42,26 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![New rule button](media/branch-new-rule-button.png "New rule button")
 
-3.	In the **Rule name** field, enter a name for the branching rule.
+3. In the **Rule name** field, enter a name for the branching rule.
 
-4.	In the **Define conditions** area, select **Add condition** to add a response condition.
+4. In the **Define conditions** area, select **Add condition** to add a response condition.
 
-5. In the first list, select if you want to create a rule on a question or a survey variable.
-
-    > [!div class=mx-imgBorder]
-    > ![Select Question or Variable](media/select-ques-var.png "Select Question or Variable")
-
-6. If you choose to create rule on a survey variable, select a variable from the **Select survey variable** list.
+5. In the first list, choose whether you want to create a rule on a question or a survey variable.
 
     > [!div class=mx-imgBorder]
-    > ![Branching rules condition variable](media/branch-condition-variable.png "Branching rules condition variable")
+    > ![Select Question or Survey variable](media/select-ques-var.png "Select Question or Survey variable")
 
-7.	If you choose to create rule on a question, select a question from the **Select question** list.
+   - If you choose to create the rule on a survey variable, select a variable from the **Select survey variable** list.
 
-    > [!div class=mx-imgBorder]
-    > ![Branching rules condition question](media/branch-condition-question.png "Branching rules condition question")
+     > [!div class=mx-imgBorder]
+     > ![Branching rules condition variable](media/branch-condition-variable.png "Branching rules condition variable")
 
-8.	Select values from the **Select operator** and **Select response** lists, respectively.
+   - If you choose to create the rule on a question, select a question from the **Select question** list.
+
+     > [!div class=mx-imgBorder]
+     > ![Branching rules condition question](media/branch-condition-question.png "Branching rules condition question")
+
+6. Select values from the **Select operator** and **Select response** lists, respectively.
 
     > [!div class=mx-imgBorder]
     > ![Branching rules complete condition](media/branch-condition.png "Branching rules complete condition")
@@ -71,11 +71,11 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
 
-9.	Select **Add "If true"** to add the action that will be triggered when the defined condition meets the criteria.
+7. Select **Add "If true"** to add the action that will be triggered when the defined condition meets the criteria.
 
-10.	Select **Add action** to add the response action.
+8. Select **Add action** to add the response action.
 
-11.	In the **Select action** list, choose one of the following actions:
+9. In the **Select action** list, choose one of the following actions:
 
     - **Show**: Select a question to be displayed based on the response to a question.
     - **Hide**: Select a question to be hidden based on the response to a question.
@@ -85,7 +85,7 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![Select an action for true condition](media/branch-true-select-action.png "Select an action for a true condition")
 
-12.	In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide**, or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
+10. In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide**, or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
 
     - **Question**: Skip to a question based on the response to a question. The questions between the source and target questions are hidden from the responder.
     - **End of survey**: End the survey based on the response to a question.
@@ -95,17 +95,17 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![Select a target for true condition](media/branch-true-select-target.png "Select a target for a true condition")
 
-13.	In the **Select value** list, enter or choose a value per the target.
+11. In the **Select value** list, enter or choose a value per the target.
 
     > [!div class=mx-imgBorder]
     > ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
 
-14.	Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.
+12. Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.<!--note from editor: Coincidentally, after the substeps became bulleted instead of numbered, this reference to the step numbers is correct again.-->
 
     > [!div class=mx-imgBorder]
     > ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
 
-15. Select **Save**.
+13. Select **Save**.
 
 After creating a branching rule, you can preview the survey and see whether the rule is working as expected.
 
