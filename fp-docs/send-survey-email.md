@@ -109,7 +109,7 @@ You can perform these actions on an email template:
 
 By default, surveys are sent from the `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
 
-Let's say you are an owner of two companies named Contoso, Ltd. and Contoso Suites. The companies have their websites as `www.contoso.com` and `www.contososuites.com`. You can create custom email addresses (for example, support@contoso.com and noreply@contososuites.com) consisting of your company domains.
+Let's say you are an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create a custom email address (for example, noreply@contososuites.com) consisting of your company's domain.
 
 **To customize the sender's email address**
 
@@ -128,7 +128,7 @@ Let's say you are an owner of two companies named Contoso, Ltd. and Contoso Suit
 5. Select **Create a support request**, and specify details as follows:
 
     - **Issue title**: Customize the From email address to send survey invitations
-    - **Issue description**: Enter your issue description, and provide the domains you want to configure for sending emails. For example, if you two websites, `www.contoso.com` and `www.contososuites.com`, you must provide `contoso.com` and `contososuites.com` as the domains.
+    - **Issue description**: Enter your issue description, and provide the domains you want to configure for sending emails. For example, if you a website as `www.contososuites.com`, you must provide `contososuites.com` as the domain.
     - **How severe is this issue?**: Select the severity of the issue.
 
 6. Select **Next**.
