@@ -128,16 +128,16 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
 5. Select **Create a support request**, and specify details as follows:
 
     - **Issue title**: Customize the From email address to send survey invitations
-    - **Issue description**: Enter your issue description, and provide the domains you want to configure for sending emails. For example, if the website is `www.contososuites.com`, you must provide `contososuites.com` as the domain.
+    - **Issue description**: Enter your issue description, and provide the domain you want to configure for sending emails. For example, if the website is `www.contososuites.com`, you must provide `contososuites.com` as the domain.
     - **How severe is this issue?**: Select the severity of the issue.
 
 6. Select **Next**.
 
 7. Enter your contact information, and then select **Submit**. A ticket is created with the Microsoft support team, which will contact you with the following DNS records:
 
-  - **Ownership authentication key**: Proves that your organization owns the domain.
+    - **Ownership authentication key**: Proves that your organization owns the domain.
 
-  - **Email authentication keys for DKIM**: Prove that Forms Pro is authorized to send messages that show your organization's domain name in the from-address.
+    - **Email authentication keys for DKIM**: Prove that Forms Pro is authorized to send messages that show your organization's domain name in the from-address.
 
 8.	After record creation, contact Microsoft support, and provide the following information:
 
