@@ -109,7 +109,7 @@ You can perform these actions on an email template:
 
 By default, surveys are sent from the `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
 
-Let's say you are an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create a custom email address (for example, noreply@contososuites.com) consisting of your company's domain.
+Let's say you are an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create a custom email address (for example, `noreply@contososuites.com`) consisting of your company's domain.
 
 **To customize the sender's email address**
 
@@ -128,7 +128,7 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
 5. Select **Create a support request**, and specify details as follows:
 
     - **Issue title**: Customize the From email address to send survey invitations
-    - **Issue description**: Enter your issue description, and provide the domains you want to configure for sending emails. For example, if you a website as `www.contososuites.com`, you must provide `contososuites.com` as the domain.
+    - **Issue description**: Enter your issue description, and provide the domains you want to configure for sending emails. For example, if the website is `www.contososuites.com`, you must provide `contososuites.com` as the domain.
     - **How severe is this issue?**: Select the severity of the issue.
 
 6. Select **Next**.
@@ -141,7 +141,7 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
 
 8.	After record creation, contact Microsoft support, and provide the following information:
 
-    - A list of email addresses you want to create, such as support@contoso.com and noreply@contososuites.com.
+    - A list of email addresses you want to create, such as support@contososuites.com and noreply@contososuites.com.
     - A list of users who will be sending the survey invitations by using the custom email.
 
     Based on the information provided, Microsoft support will then verify the records and create the DKIM keys for signing the emails. You'll get a confirmation from Microsoft support that the record verification is complete.
