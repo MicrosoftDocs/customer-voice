@@ -107,7 +107,11 @@ You can perform these actions on an email template:
 
 ## Customize the sender's email address
 
-The customization feature helps you select an email address that matches your company's brand. You can contact Microsoft support and provide the domains you want to configure for sending emails. The Microsoft support team will contact you with the DNS records. You can then provide the email addresses you want to configure. Based on the information you provide, records will be verified and DKIM keys will be created. Thereafter, you'll be able to use the customized email address to send the survey invitation to your respondents.
+By default, surveys are sent from the `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
+
+Let's say you are an owner of two companies named Contoso, Ltd. and Contoso Suites. The companies have their websites as `www.contoso.com` and `www.contososuites.com`. You can create custom email addresses (for example, support@contoso.com and noreply@contososuites.com) consisting of your company domains.
+
+**To customize the sender's email address**
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/support) with your admin credentials.
 
