@@ -76,6 +76,9 @@ The dependency services used by Forms Pro are available on US Government Communi
 
 - Microsoft Forms Pro on GCC uses your Microsoft Exchange mailbox to send the survey. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
+> [!NOTE]
+> As a GCC customer, you must either have Office 365 or Dynamics 365 enterprise license.
+
 ## Provide feedback on Forms Pro
 
 We'd love to hear from you! Please submit your feedback through the [UserVoice](https://microsoftforms.uservoice.com/forums/386451-welcome-to-microsoft-forms-suggestion-box?category_id=357997) site to provide suggestions and vote on ideas others have already submitted.
