@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/14/2020
+ms.date: 04/22/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -100,7 +100,7 @@ You can perform these actions on an email template:
 
 
 > [!NOTE]
-> - You can save a maximum of 10 email templates.
+> - You can save a maximum of 50 email templates.
 > - If an email template includes survey variables that aren't part of the survey, an error message is displayed at the top of the page and you won't be allowed to send the survey through email or Microsoft Power Automate. The survey variables will be highlighted in red; you must remove these highlighted variables from the email message before you can send the survey.
 
 <a name="customize-sender-email-address"></a>
