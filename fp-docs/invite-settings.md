@@ -79,7 +79,7 @@ When you've defined who can respond to your survey, you can select or clear the 
 - **Customize footer text**: Specify customized footer text to be displayed for your survey. You can also format the footer text to change its font style, font color, font name, and font size. You can also add a link to the message by selecting the **Link** button on the formatting toolbar, and then adding the link through the link editor.
 - **Add respondents as**: Specify whether the respondent should be added as a contact in Common Data Service. By default, this option is selected. It works only with surveys sent through email.
   > [!NOTE]
-  > When you send a survey through email to an existing contact in Common Data Service, the survey invitation activity is not associated with the contact. If you want to associate the activity to a contact, save the email template, and then send the survey invitation using Power Automate. You must also set the **Regarding** field for the contact.
+  > When you send a survey through email to an existing contact in Common Data Service, the survey invitation activity is not associated with the contact. If you want to associate the activity to a contact, save the email template, and then send the survey invitation using Power Automate. You must also set the **Recipient details** field while creating a flow. More information: [Send a survey action](send-survey-flow.md#send-a-survey-action)
 - **Start date**: Specify a date when the survey will be open for respondents.
 
 ### Stop survey
