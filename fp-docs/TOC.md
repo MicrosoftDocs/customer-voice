@@ -4,6 +4,8 @@
 
 # [Purchase Microsoft Forms Pro](purchase.md)
 
+# [Administrator settings for Forms Pro](admin-settings.md)
+
 # [Plan a survey](plan-survey.md)
 
 # [Create surveys](create-survey.md)
@@ -42,6 +44,8 @@
 # [Work with environments](choose-environment.md)
 ## [Change an environment](change-environment.md)
 ## [Copy a survey to another environment](copy-survey-environment.md)
+
+# [Data flow in Forms Pro](data-flow.md)
 
 # [Monitor customer satisfaction](customer-satisfaction-app.md)
 
