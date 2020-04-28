@@ -27,13 +27,21 @@ As a survey owner, when you send surveys to your recipients, you expect to get a
 > - Promo codes allow a responder to enter Microsoft Surface Book sweepstakes and are valid only until the end of the month. For detailed terms and conditions, see the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/p/?linkid=530144).
 > - A Microsoft account is required to redeem the promo code. You can redeem only one promo code per day using a Microsoft account, up to a maximum of 10 promo codes in a month.
 
-## Enable survey incentives in a tenant
+## Disable survey incentives in a tenant
 
-As a tenant administrator, you can enable or disable survey incentives in a tenant to allow or restrict survey designers to offer survey incentives to their recipients. By default, survey incentives are disabled in a tenant.
+As a tenant administrator, you can enable or disable survey incentives in a tenant to allow or restrict survey designers to offer survey incentives to their recipients. By default, survey incentives are enabled in a tenant.
 
-To enable survey incentives, open the [administrator settings for Forms Pro](admin-settings.md), and select **Allow survey authors to add incentives to surveys created using Microsoft Forms Pro**.
+To disable survey incentives:
 
-When the survey incentives are turned off, the option to offer survey incentives in a survey invitation is also disabled.
+1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
+
+2. In the left pane, select **Settings** > **Services & add-ins**.
+
+3. Select **Microsoft Forms**.
+
+4. Under **Survey incentive**, turn the **Allow incentives to be added for surveys created using Forms Pro** toggle to **Off**.
+
+When the survey incentives are turned off, the option of offer survey incentives in a survey invitation is also disabled.
 
 ## Enable survey incentives in survey invitation email
 
@@ -88,4 +96,4 @@ You'll receive a confirmation email from Microsoft Rewards about your sweepstake
 
 ### See also
 
-[Administrator settings for Forms Pro](admin-settings.md)
+[Send a survey by using email](send-survey-email.md)

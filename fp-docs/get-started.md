@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
@@ -65,6 +65,19 @@ Your trial experience might also be downgraded in the following scenarios:
 - An administrator removed your license.
 
 When your trial experience is downgraded, a message is displayed with an option to export your survey responses. Your survey will also stop receiving responses if you don't have a valid license. Your data is retained for 90 days, and then deleted if you don't purchase a license before the expiry of trial.
+
+## Forms Pro availability on US Government Community Cloud
+
+The dependency services used by Forms Pro are available on US Government Community Cloud (GCC). Note the following differences in functionality for Forms Pro on GCC:
+
+- The format of survey responses on the **Responses** tab is slightly different when compared to non-GCC regions. The report can only display up to 50,000 responses. You can create a Power BI report and connect directly to Common Data Service to see all the responses.
+
+- By default, the anonymous sharing of surveys is disabled. A tenant administrator must enable anonymous sharing by selecting the **Send a link to the form and collect responses** check box under **External sharing** in the Microsoft 365 admin center. More information: [Administrator settings for Microsoft Forms](https://support.microsoft.com/en-us/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b)
+
+- Microsoft Forms Pro on GCC uses your Microsoft Exchange mailbox to send the survey. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+
+> [!NOTE]
+> As a GCC customer, you must either have a Dynamics 365 enterprise license or an Office 365 license.
 
 ## Provide feedback on Forms Pro
 
