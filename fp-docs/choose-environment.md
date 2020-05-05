@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/06/2020
+ms.date: 05/05/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 90EFF51F-36E3-4973-8768-82F12629B0B3
@@ -26,6 +26,8 @@ When you sign in to Microsoft Forms Pro, only the surveys that are available in 
 You can switch the environment at any time and start working in it. You can also copy a survey from one environment to another. When you copy a survey to another environment, only the survey structure and its branching rules are copied&mdash;invitations, responses, and associated flows aren't copied.
 
 To work with surveys in an environment, install the [Forms Pro app from Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview), and assign the Survey Owner role to users. If you switch to an environment that doesn't have Forms Pro, an error message is displayed.
+
+When you install the Forms Pro app, an application user named Microsoft Forms Pro is created automatically. The email address used by the application user is enterprisesurveyappuser@contoso.com. This user is created to allow Forms Pro Azure service to authenticate with Common Data Service and is primarily used for pushing survey responses. The user is a non-interactive, non-login user, and is assigned the System Administrator role.
 
 > [!NOTE]
 > - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
