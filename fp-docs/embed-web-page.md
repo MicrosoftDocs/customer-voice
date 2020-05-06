@@ -71,7 +71,7 @@ To embed your survey:
 
 After generating the embed code, you must add it to your webpage's source code and create a method that calls the **renderSurvey** function to render the survey on the webpage. You must ensure that the values in the **renderSurvey** function are passed in the same order as the survey variables that are defined in the **renderSurvey** function in the embed code.
 
-For an inline survey, a parent **div** container must be defined for the survey to be displayed. The div container must have the following attributes:
+For an inline survey, a parent **div** container must be defined for the survey to be displayed. The **div** container must have the following attributes:
 - id = surveyDiv
 - Minimum width = 350 px
 - Minimum height = 480 px
