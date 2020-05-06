@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 02/21/2020
+ms.date: 05/06/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: FD23CE2B-B022-4708-BAE8-5CAC8BC75092
@@ -44,6 +44,26 @@ A few best practices enable you to create a meaningful survey and gather good re
 - **Preview the survey**: After creating your survey, always preview it to check the overall flow of the survey and to catch any mistakes.
 
 - **Mention expectations in the survey invitation**: In the survey invitation, be sure to mention the estimated time to complete it and give a brief overview. This will help respondents submit their input within the expected time frame.
+
+## Best practices for creating a high-volume survey
+
+A few best practices enable you to create an effective high-volume survey using Forms Pro. The best practices are:
+
+- Make sure to create the survey on a non-default environment. Microsoft Forms Pro (Default) uses the version of Common Data Service with fixed service protection limit. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
+
+  **Recommendation**: [Switch the environment](https://docs.microsoft.com/forms-pro/change-environment) to your existing production Common Data Service environment or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+
+- When you are sending a non-anonymous survey, avoid sending a large number of invitations through Power Automate at the same time. Sending more than eight individual survey invitations per minute may result in processing delays.
+
+  **Recommendations**
+  - Send large number of invitations in batch by using email. More information: [Send a survey by using email](https://docs.microsoft.com/forms-pro/send-survey-email) 
+  - Customize the sender's email address to help recipients identify the survey with your company and improve the survey response rate. More information: [Customize sender email address](https://docs.microsoft.com/forms-pro/send-survey-email#customize-sender-email-address)
+
+- When using Power Automate to automate survey response processing or follow-up, make sure to use to create the workflow using the account with the capacity to run the projected workflow volume.
+
+  **Recommendation**: Set up Power Automate workflow using an account with Power Automate Plan 1 or Plan 2 license. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)
+
+For any questions or assistance, please contact Microsoft support.
 
 ## Decide on the types of questions to ask<a name="decide-the-question-type"></a>
 
