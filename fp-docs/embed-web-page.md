@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/20/2020
+ms.date: 05/06/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 649b3390-c3a5-4166-a014-ae3cfd14cc71
@@ -71,14 +71,21 @@ To embed your survey:
 
 After generating the embed code, you must add it to your webpage's source code and create a method that calls the **renderSurvey** function to render the survey on the webpage. You must ensure that the values in the **renderSurvey** function are passed in the same order as the survey variables that are defined in the **renderSurvey** function in the embed code.
 
-For an inline survey, a parent **div** container must be defined for the survey to be displayed.
+For an inline survey, a parent **div** container must be defined for the survey to be displayed. The div container must have the following attributes:
+- id = surveyDiv
+- Minimum width = 350 px
+- Minimum height = 480 px
 
 ### Scenario to embed an inline survey
 
 Let's say you've created a survey with two additional survey variables (**Email** and **PageTitle**). You want to embed the survey as inline into your webpage and load the survey as soon as the page loads. The embed code is generated as follows:
 
 ```JavaScript
-<script src="https://www.contoso.com/Embed.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="https://www.contoso.com/Embed.css" /><script type = "text/javascript" >function renderSurvey(parentElementId, FirstName, LastName, Email, PageTitle){var se = new SurveyEmbed("JtSG9ha000000000020pTSB1AovM_5u8bQH1UQjlNQjZRWV0000000000","https://www.contoso.com/");var context = {"FirstName": FirstName,"LastName": LastName,"Email": Email,"PageTitle": PageTitle,};se.renderInline(parentElementId, context);}</script>
+<script src="https://www.contoso.com/Embed.js" type="text/javascript"></script><link rel="stylesheet" type="text/css" href="https://www.contoso.com/Embed.css" />
+<script type = "text/javascript" >function renderSurvey(parentElementId, FirstName, LastName, Email, PageTitle)
+{var se = new SurveyEmbed("JtSG9ha000000000020pTSB1AovM_5u8bQH1UQjlNQjZRWV0000000000","https://www.contoso.com/");
+var context = {"FirstName": FirstName,"LastName": LastName,"Email": Email,"PageTitle": PageTitle,};
+se.renderInline(parentElementId, context);}</script>
 ```
 
 In the preceding embed code, the `renderSurvey` function contains the `parentElementId` parameter in addition to the survey variables. The `parentElementId` parameter receives the `div` container ID when it's called.
@@ -91,10 +98,12 @@ You must create a `div` container with the ID `surveyDiv` on the webpage where y
             renderSurvey("surveyDiv", "Bert", "Hair", "bert.hair@contoso.com", "Product Overview");
         }, false);
 </script>
-
 ```
 
 The preceding method calls the `renderSurvey` function and passes the required values accordingly. In this method, static user details are passed, but you can provide a function that retrieves the logged-in user details.
+
+> [!NOTE]
+> The above code snippets are provided as an example. You must generate the actual embed code from Forms Pro and create methods as per your requirements.
 
 ### See also
 
