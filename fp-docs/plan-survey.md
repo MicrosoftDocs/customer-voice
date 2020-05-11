@@ -47,21 +47,21 @@ A few best practices enable you to create a meaningful survey and gather good re
 
 ## Best practices for creating a high-volume survey
 
-A few best practices enable you to create an effective high-volume survey using Forms Pro. The best practices are:
+A few best practices enable you to create an effective high-volume survey using Forms Pro:
 
-- Make sure to create the survey on a non-default environment. Microsoft Forms Pro (Default) uses the version of Common Data Service with fixed service protection limit. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
+- Be sure to<!--note from editor: Alternatively, could be "Make sure that you create..."--> create the survey in a non-default environment. Microsoft Forms Pro (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
 
-  **Recommendation**: [Switch the environment](https://docs.microsoft.com/forms-pro/change-environment) to your existing production Common Data Service environment or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+  **Recommendation**: [Switch the environment](https://docs.microsoft.com/forms-pro/change-environment) to your existing production Common Data Service environment, or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
-- When you are sending a non-anonymous survey, avoid sending a large number of invitations through Power Automate at the same time. Sending more than eight individual survey invitations per minute may result in processing delays.
+- When you're sending a non-anonymous survey, avoid sending a large number of invitations through Power Automate at the same time. Sending more than eight individual survey invitations per minute might result in processing delays.
 
-  **Recommendations**
-  - Send large number of invitations in batch by using email. More information: [Send a survey by using email](https://docs.microsoft.com/forms-pro/send-survey-email) 
+  **Recommendations:**
+  - To send a large batch of invitations at once, use email. More information: [Send a survey by using email](https://docs.microsoft.com/forms-pro/send-survey-email) 
   - Customize the sender's email address to help recipients identify the survey with your company and improve the survey response rate. More information: [Customize sender email address](https://docs.microsoft.com/forms-pro/send-survey-email#customize-sender-email-address)
 
-- When using Power Automate to automate survey response processing or follow-up, make sure to use to create the workflow using the account with the capacity to run the projected workflow volume.
+- When using Power Automate to automate survey response processing or follow-up, be sure to create the workflow by using the account that has the capacity to run the projected workflow volume.
 
-  **Recommendation**: Set up Power Automate workflow using an account with Power Automate Plan 1 or Plan 2 license. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)
+  **Recommendation**: Set up the Power Automate workflow by using an account that has a Power Automate Plan 1 or Plan 2 license. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)<!--note from editor: Is it okay that this article talks about how Plan 1 and Plan 2 are going away? It looks like people won't even be able to buy Plan 1 or Plan 2 after April 1 of this year.-->
 
 For any questions or assistance, please contact Microsoft support.
 
