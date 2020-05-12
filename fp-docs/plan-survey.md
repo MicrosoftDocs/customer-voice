@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/06/2020
+ms.date: 05/12/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: FD23CE2B-B022-4708-BAE8-5CAC8BC75092
@@ -49,7 +49,7 @@ A few best practices enable you to create a meaningful survey and gather good re
 
 A few best practices enable you to create an effective high-volume survey using Forms Pro:
 
-- Be sure to<!--note from editor: Alternatively, could be "Make sure that you create..."--> create the survey in a non-default environment. Microsoft Forms Pro (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
+- Make sure that you create the survey in a non-default environment. Microsoft Forms Pro (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
 
   **Recommendation**: [Switch the environment](https://docs.microsoft.com/forms-pro/change-environment) to your existing production Common Data Service environment, or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
@@ -61,7 +61,7 @@ A few best practices enable you to create an effective high-volume survey using 
 
 - When using Power Automate to automate survey response processing or follow-up, be sure to create the workflow by using the account that has the capacity to run the projected workflow volume.
 
-  **Recommendation**: Set up the Power Automate workflow by using an account that has a Power Automate Plan 1 or Plan 2 license. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)<!--note from editor: Is it okay that this article talks about how Plan 1 and Plan 2 are going away? It looks like people won't even be able to buy Plan 1 or Plan 2 after April 1 of this year.-->
+  **Recommendation**: Set up the Power Automate workflow by using an account that has a Power Automate Plan 1 or Plan 2 license. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)
 
 For any questions or assistance, please contact Microsoft support.
 
