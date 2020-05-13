@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/20/2020
+ms.date: 05/13/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
@@ -17,13 +17,15 @@ search.appverid:
 
 # Purchase Microsoft Forms Pro
 
-Microsoft Forms Pro is included with select Microsoft Dynamics 365 subscriptions and is available as an upgrade for Office 365 subscriptions.
+Microsoft Forms Pro is included with select Microsoft Dynamics 365 subscriptions and is available as an upgrade for Microsoft 365 subscriptions.
 
 The Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
 - For a Dynamics 365 enterprise licensed tenant, 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 2,000 responses per month.
-- For an Office 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 for 2,000 responses per month.
-- If a tenant has an Office 365 license, turning off the license for Office Forms will also turn off Microsoft Forms Pro.
+- For a Microsoft 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 for 2,000 responses per month.
+- If a tenant has a Microsoft 365 license, turning off the license for Office Forms will also turn off Microsoft Forms Pro.
+<!--note from editor: Did the name of Office Forms change? Since they changed Office 365 to Microsoft 365, I'm wondering if they changed Office Forms to Microsoft Forms, too. Can you please find out and if they did, fix Office Forms references as well? And let me know. Doing a cursory search online, it looks like they have made that change. -->
+
 
 ## Enable Forms Pro for users with Dynamics 365 enterprise licenses
 
@@ -109,7 +111,7 @@ If you need to provide access to Microsoft Forms Pro for users who don't have a 
    4. On the **Product licenses** page, turn the **Microsoft Forms Pro USL** toggle to **On**.
 
 ## Purchase Microsoft Forms Pro for users in an Office 365 tenant
-
+<!--note from editor: Did the name of Office 365 tenant change? Since they changed Office 365 to Microsoft 365, I'm wondering if they changed Office 365 tenant to Microsoft 365 tenant, too. Can you please find out and if they did, fix that reference as well? And let me know. Doing a cursory search online, it looks like they have NOT made that change. -->
 If your tenant doesn't have Dynamics 365 enterprise licenses that include Microsoft Forms Pro, follow these steps to purchase Microsoft Forms Pro:
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
