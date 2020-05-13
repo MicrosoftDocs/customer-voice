@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/12/2020
+ms.date: 05/13/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: FD23CE2B-B022-4708-BAE8-5CAC8BC75092
@@ -61,7 +61,7 @@ A few best practices enable you to create an effective high-volume survey using 
 
 - When using Power Automate to automate survey response processing or follow-up, be sure to create the workflow by using the account that has the capacity to run the projected workflow volume.
 
-  **Recommendation**: Set up the Power Automate workflow by using an account that has a Power Automate Plan 1 or Plan 2 license. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)
+  **Recommendation**: Set up the Power Automate workflow by using an account that has an appropriate Power Automate plan. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)
 
 For any questions or assistance, please contact Microsoft support.
 
