@@ -17,7 +17,7 @@ search.appverid:
 
 # Get started with Forms Pro
 
-Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Office 365 and Dynamics 365, Forms Pro supports businesses seeking to transform customer, product, and employee experiences.
+Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Microsoft 365 and Dynamics 365, Forms Pro supports businesses seeking to transform customer, product, and employee experiences.
 
 Forms Pro is built on Microsoft Forms, and it offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As the responses are submitted, analyze them with Power BI reports and make effective decisions accordingly.
 
@@ -74,10 +74,11 @@ The dependency services used by Forms Pro are available on US Government Communi
 
 - By default, the anonymous sharing of surveys is disabled. A tenant administrator must enable anonymous sharing by selecting the **Send a link to the form and collect responses** check box under **External sharing** in the Microsoft 365 admin center. More information: [Administrator settings for Microsoft Forms](https://support.microsoft.com/en-us/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b)
 
+
 - Microsoft Forms Pro on GCC uses your Microsoft Exchange mailbox to send the survey. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> As a GCC customer, you must either have a Dynamics 365 enterprise license or an Office 365 license.
+> As a GCC customer, you must either have a Dynamics 365 enterprise license or a Microsoft 365 license.
 
 ## Provide feedback on Forms Pro
 
