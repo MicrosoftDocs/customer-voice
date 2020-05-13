@@ -24,7 +24,7 @@ Group forms aren't currently supported in Microsoft Forms Pro.
 
 ## How is the owner of a survey response determined?
 
-<!--All responses are created by the user of the Forms Pro application impersonating the response owner.--> A response owner is determined by the following logic:
+A response owner is determined by the following logic:
 
 - For responses to a survey invitation, the invitation owner is set as the response owner.
 - If the survey invitation owner doesn't have sufficient privileges to own responses, or if the response is anonymous, the survey owner is set as the response owner.
