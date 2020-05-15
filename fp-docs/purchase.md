@@ -23,9 +23,7 @@ The Forms Pro license is based on the number of survey responses received per mo
 
 - For a Dynamics 365 enterprise licensed tenant, 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 2,000 responses per month.
 - For a Microsoft 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 for 2,000 responses per month.
-- If a tenant has a Microsoft 365 license, turning off the license for Office Forms will also turn off Microsoft Forms Pro.
-<!--note from editor: Did the name of Office Forms change? Since they changed Office 365 to Microsoft 365, I'm wondering if they changed Office Forms to Microsoft Forms, too. Can you please find out and if they did, fix Office Forms references as well? And let me know. Doing a cursory search online, it looks like they have made that change. -->
-
+- If a tenant has a Microsoft 365 license, turning off the license for Microsoft Forms will also turn off Microsoft Forms Pro.
 
 ## Enable Forms Pro for users with Dynamics 365 enterprise licenses
 
