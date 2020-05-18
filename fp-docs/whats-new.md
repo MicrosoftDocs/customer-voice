@@ -25,6 +25,8 @@ Following are the new and updated features in this release:
 
 - **Administrator settings for Forms Pro**: A new settings page is introduced for administrators to update settings for Forms Pro. More information: [Administrator settings for Forms Pro](admin-settings.md)
 
+- **Use CSV file to associate a survey invitation and response to an entity**: You can provide regarding entity details while importing recipients from a CSV file. More information: [Import recipients from a CSV file](send-survey-email.md#import-recipients)
+
 ## April 2020 update
 
 Following are the new and updated features in this release:
