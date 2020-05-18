@@ -18,6 +18,9 @@ search.appverid:
 
 As an administrator, you can control various settings such as recording the names of people in your organization, protecting surveys from phishing, and providing incentives for completing a survey.
 
+> [!NOTE]
+> Administrator settings for Forms Pro are different than Microsoft Forms. Administrator settings changed in Microsoft Forms are not considered by Forms Pro. 
+
 **To access administrator settings**
 
 1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com/) with your work or school account.
