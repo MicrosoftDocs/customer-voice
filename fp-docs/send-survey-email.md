@@ -78,7 +78,11 @@ To associate a survey invitation and response to an entity, add the following co
 ### Upload a CSV file
 
 1. In the email editor, select **Import recipients** in the **To** field.
-2. Select **Select file to upload**.
+
+2. In the **Import recipients** pane, select **Select file to upload**.
+
+    ![Upload CSV file](media/upload-csv.png "Upload CSV file")
+
 3. Browse and select the CSV file to be uploaded.
 
 <a name="insert-survey-link"></a>
