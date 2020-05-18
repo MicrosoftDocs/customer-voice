@@ -55,7 +55,7 @@ You can import a maximum of 10,000 recipients by using a CSV file. The CSV file 
 
 ### Create a CSV file
 
-Provide details in a CSV file in the following order: Email address, first name, last name, regarding entity ID, and regarding entity name.
+Provide details in a CSV file in the following order: Email address, first name, last name. To associate a survey invitation and response to an entity, you must provide regarding entity ID and regarding entity name.
 
 To quickly get started, you can also download a CSV template. To download a CSV template:
 
@@ -70,6 +70,8 @@ After the CSV template is downloaded, enter the required information in the foll
 - **Email address**: Email address of the recipient.
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
+
+To associate a survey invitation and response to an entity, add the following columns to the CSV file and enter the information:
 - **RegardingID**: ID of the entity to associate survey invitation and response. 
 - **RegardingEntityName**: Name of the entity to associate survey invitation and response.
 
