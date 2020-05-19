@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/22/2020
+ms.date: 05/18/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: c5d53c06-299d-43bc-a7ac-e6185c9695e3
@@ -28,7 +28,7 @@ After creating a survey, you can send it through email by following these steps.
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
     - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the selected environment. More information: [Work with environments](choose-environment.md)
-    - Uploading a CSV file by selecting **Import recipients**. The CSV file supports importing a maximum of 10,000 recipients.
+    - Uploading a CSV file by selecting **Import recipients**. More information: [Import recipients from a CSV file](#import-recipients)
 
 4.  To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
@@ -46,6 +46,44 @@ After creating a survey, you can send it through email by following these steps.
 
 > [!NOTE]
 > You can send a survey invitation to a maximum of 10,000 recipients.
+
+<a name="import-recipients"></a>
+
+## Import recipients from a CSV file
+
+You can import a maximum of 10,000 recipients by using a CSV file. The CSV file also allows you to associate a survey invitation and response to an entity in Common Data Service. To import recipients, you must first [create a CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+
+### Create a CSV file
+
+Provide details in a CSV file in the following order: Email address, first name, last name. To associate a survey invitation and response to an entity, you must provide regarding entity ID and regarding entity name.
+
+To quickly get started, you can also download a CSV template. To download a CSV template:
+
+1. In the email editor, select **Import recipients** in the **To** field.
+
+2. In the **Import recipients** pane, select **Download a CSV template**. 
+
+    ![Import recipients](media/import-recipients.png "Import recipients")
+
+
+After the CSV template is downloaded, enter the required information in the following columns:
+- **Email address**: Email address of the recipient.
+- **First name**: First name of the recipient.
+- **Last name**: Last name of the recipient.
+
+To associate a survey invitation and response to an entity, add the following columns to the CSV file and enter the information:
+- **RegardingID**: ID of the entity to associate survey invitation and response. 
+- **RegardingEntityName**: Name of the entity to associate survey invitation and response.
+
+### Upload a CSV file
+
+1. In the email editor, select **Import recipients** in the **To** field.
+
+2. In the **Import recipients** pane, select **Select file to upload**.
+
+    ![Upload CSV file](media/upload-csv.png "Upload CSV file")
+
+3. Browse and select the CSV file to be uploaded.
 
 <a name="insert-survey-link"></a>
 

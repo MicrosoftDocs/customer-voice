@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/27/2020
+ms.date: 05/18/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 1f6ec6f5-b3d2-4305-8dca-3a0b67a1083c
@@ -128,3 +128,4 @@ When you send a survey by generating a link or a QR code, the survey links aren'
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)<br>
+[Administrator settings for Forms Pro](admin-settings.md)
