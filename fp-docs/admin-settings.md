@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/27/2020
+ms.date: 05/18/2020
 ms.service: forms-pro
 ms.topic: article
 ms.custom: 
@@ -17,6 +17,9 @@ search.appverid:
 # Administrator settings for Forms Pro
 
 As an administrator, you can control various settings such as recording the names of people in your organization, protecting surveys from phishing, and providing incentives for completing a survey.
+
+> [!NOTE]
+> Administrator settings for Forms Pro are different than Microsoft Forms. Administrator settings changed in Microsoft Forms are not considered by Forms Pro. 
 
 **To access administrator settings**
 
