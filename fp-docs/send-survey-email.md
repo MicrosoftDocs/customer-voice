@@ -52,18 +52,18 @@ After creating a survey, you can send it through email by following these steps.
 ## Import recipients from a CSV file
 
 You can import a maximum of 10,000 recipients by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. To import recipients, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
-<!--editor's note: I added anchors, in case you don't like the edits to the H3s. -->
+
 <a name="create-a-csv-file"></a>
 
 ### Create the CSV file
 
-Provide details in the CSV file in the following order: Email address, first name, last name. To associate a survey invitation and response to an entity, you must provide the regarding entity ID and regarding entity name. We recommend that you download a CSV template to help you get started.<!--Suggested.-->
+Provide details in the CSV file in the following order: Email address, first name, last name. To associate a survey invitation and response to an entity, you must provide the regarding entity ID and regarding entity name. To quickly get started, you can also download a CSV template.
 
 **To download a CSV template**
 
 1. In the email editor, select **Import recipients** in the **To** field.
 
-2. In the **Import recipients** pane, select **Download a CSV template**.<!--Alt text edits are just suggested. -->
+2. In the **Import recipients** pane, select **Download a CSV template**.
 
     ![Download a CSV template to create a recipient list](media/import-recipients.png "Download a CSV template to create a recipient list")
 
