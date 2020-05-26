@@ -109,7 +109,7 @@ If you need to provide access to Microsoft Forms Pro for users who don't have a 
    4. On the **Product licenses** page, turn the **Microsoft Forms Pro USL** toggle to **On**.
 
 ## Purchase Microsoft Forms Pro for users in an Office 365 tenant
-<!--note from editor: Did the name of Office 365 tenant change? Since they changed Office 365 to Microsoft 365, I'm wondering if they changed Office 365 tenant to Microsoft 365 tenant, too. Can you please find out and if they did, fix that reference as well? And let me know. Doing a cursory search online, it looks like they have NOT made that change. -->
+
 If your tenant doesn't have Dynamics 365 enterprise licenses that include Microsoft Forms Pro, follow these steps to purchase Microsoft Forms Pro:
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
