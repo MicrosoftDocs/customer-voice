@@ -2,7 +2,7 @@
 layout: LandingPage
 author: bigoswam
 ms.author: bigoswam
-ms.date: 05/13/2019
+ms.date: 05/26/2020
 ms.service: forms-pro
 ms.topic: landing-page
 title: Microsoft Forms Pro documentation
@@ -81,7 +81,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
                         </div>
                         <div class="cardText">
                             <h3>Collaborate on a survey</h3>
-                            <p class="x-hidden-focus">Want to collaborate with others or create a template? Learn how you can invite others to collaborate on your survey or share your survey as a template.</p>
+                            <p class="x-hidden-focus">Want to collaborate with others? Learn how you can invite others to collaborate on your survey.</p>
                         </div>
                     </div>
                 </div>
