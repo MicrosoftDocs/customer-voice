@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 03/14/2019
+ms.date: 05/26/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: db6ca3b4-0436-435f-97d1-7249e9b6f5d8
@@ -23,5 +23,4 @@ All contributors to your survey can also view, edit, and delete responses and sh
 
 In this section, you'll learn how to:
 
-- [Share a survey for collaborating](share-survey-collaborate.md)  
-- [Share a survey as a template](share-survey-template.md) 
+- [Share a survey for collaborating](share-survey-collaborate.md)

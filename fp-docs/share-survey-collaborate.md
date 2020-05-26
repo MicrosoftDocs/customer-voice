@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 11/04/2019
+ms.date: 05/26/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 50d49fc4-7894-4350-98ba-98c1331811fc
@@ -42,4 +42,8 @@ Microsoft Forms Pro also displays contributor icons next to each section current
 
 ### See also
 
-[Share a survey as a template](share-survey-template.md) 
+[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using Power Automate](send-survey-flow.md)<br>
+[Embed a survey in a webpage](embed-web-page.md)<br>
+[Send a survey link to others](send-survey-link.md)  
+[Send a survey QR code](send-survey-qrcode.md)  

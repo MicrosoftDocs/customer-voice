@@ -2,7 +2,7 @@
 layout: LandingPage
 author: bigoswam
 ms.author: bigoswam
-ms.date: 04/02/2019
+ms.date: 05/26/2020
 ms.service: forms-pro
 ms.topic: landing-page
 title: Microsoft Forms Pro documentation
@@ -10,7 +10,7 @@ description: Use Microsoft Forms Pro to quickly create and send surveys to your 
 ---
 # Microsoft Forms Pro documentation
 
-Forms Pro is a simple yet comprehensive survey solution that builds on the current survey-creation experience of Microsoft Forms in Office 365. It offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As responses are submitted, use Power BI reports to analyze them and make decisions in real time.  
+Forms Pro is a simple yet comprehensive survey solution that builds on the current survey-creation experience of Microsoft Forms in Microsoft 365. It offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As responses are submitted, use Power BI reports to analyze them and make decisions in real time.  
 <ul class="panelContent cardsE">
     <li>
         <a href="get-started.md">
@@ -81,7 +81,7 @@ Forms Pro is a simple yet comprehensive survey solution that builds on the curre
                         </div>
                         <div class="cardText">
                             <h3>Collaborate on a survey</h3>
-                            <p class="x-hidden-focus">Want to collaborate with others or create a template? Learn how you can invite others to collaborate on your survey or share your survey as a template.</p>
+                            <p class="x-hidden-focus">Want to collaborate with others? Learn how you can invite others to collaborate on your survey.</p>
                         </div>
                     </div>
                 </div>
