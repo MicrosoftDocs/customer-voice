@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/20/2020
+ms.date: 05/13/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
@@ -17,13 +17,13 @@ search.appverid:
 
 # Purchase Microsoft Forms Pro
 
-Microsoft Forms Pro is included with select Microsoft Dynamics 365 subscriptions and is available as an upgrade for Office 365 subscriptions.
+Microsoft Forms Pro is included with select Microsoft Dynamics 365 subscriptions and is available as an upgrade for Microsoft 365 subscriptions.
 
 The Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
 - For a Dynamics 365 enterprise licensed tenant, 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 2,000 responses per month.
-- For an Office 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 for 2,000 responses per month.
-- If a tenant has an Office 365 license, turning off the license for Office Forms will also turn off Microsoft Forms Pro.
+- For a Microsoft 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 for 2,000 responses per month.
+- If a tenant has a Microsoft 365 license, turning off the license for Microsoft Forms will also turn off Microsoft Forms Pro.
 
 ## Enable Forms Pro for users with Dynamics 365 enterprise licenses
 

@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 04/20/2020
+ms.date: 05/13/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: EA713CA9-6B0B-45A3-A700-22C164465411
@@ -21,7 +21,7 @@ When you create a survey, you define the types of questions you want to ask to g
 
 ## Create a new survey with Forms Pro
 
-1.	Sign in to Forms Pro with your Office 365 credentials.
+1.	Sign in to Forms Pro with your Microsoft 365 credentials.
 
 2.	Under **My Forms**, select **New Pro Survey**.
 

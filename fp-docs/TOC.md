@@ -32,7 +32,6 @@
 
 # [Collaborate on a survey](collaborate-survey.md)  
 ## [Share a survey for collaborating](share-survey-collaborate.md)  
-## [Share a survey as a template](share-survey-template.md)  
 
 # [Analyze responses and invitations](analyze-responses-invites.md)  
 ## [View summary information for your survey](view-summary-information.md)  
