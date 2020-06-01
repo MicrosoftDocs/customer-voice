@@ -36,16 +36,16 @@ landingContent:
           - text: "Created a survey? Learn how to send a survey to your recipients and collect their feedback."
             url: send-survey.md
 
-    - title: Collaborate on a survey
-      linkLists:
-        - linkListType: how-to-guide
-          links:
-            - text: "Want to collaborate with others? Learn how you can invite others to collaborate on your survey."
-              url: collaborate-survey.md
+  - title: Collaborate on a survey
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "Want to collaborate with others? Learn how you can invite others to collaborate on your survey."
+            url: collaborate-survey.md
 
-    - title: Analyze responses and invitations
-      linkLists:
-        - linkListType: how-to-guide
-          links:
-            - text: "Get real-time analytics from Power BI, including summary information and individual results for surveys."
-              url: analyze-responses-invites.md    
+  - title: Analyze responses and invitations
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "Get real-time analytics from Power BI, including summary information and individual results for surveys."
+             url: analyze-responses-invites.md    
