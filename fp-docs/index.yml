@@ -12,7 +12,8 @@ metadata:
   ms.author: bigoswam
   ms.date: 06/01/2020
 
-# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new  
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
 landingContent:
   - title: Get started
     linkLists:
@@ -20,24 +21,28 @@ landingContent:
         links:
           - text: Get started with an overview of Forms Pro.
             url: get-started.md
+
   - title: Create a survey
     linkLists:
       - linkListType: how-to-guide
         links:
           - text: Learn to create a survey by adding questions, and enhance it by adding pictures to headers and questions.
             url: create-survey.md
+
   - title: Send a survey
     linkLists:
       - linkListType: how-to-guide
         links:
           - text: Created a survey? Learn how to send a survey to your recipients and collect their feedback.
             url: send-survey.md
+
     - title: Collaborate on a survey
       linkLists:
         - linkListType: how-to-guide
           links:
             - text: Want to collaborate with others? Learn how you can invite others to collaborate on your survey.
               url: collaborate-survey.md
+              
     - title: Analyze responses and invitations
       linkLists:
         - linkListType: how-to-guide
