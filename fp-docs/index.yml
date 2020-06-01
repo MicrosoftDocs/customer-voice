@@ -19,33 +19,33 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Get started with an overview of Forms Pro.
+          - text: "Get started with an overview of Forms Pro."
             url: get-started.md
 
   - title: Create a survey
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Learn to create a survey by adding questions, and enhance it by adding pictures to headers and questions.
+          - text: "Learn to create a survey by adding questions, and enhance it by adding pictures to headers and questions."
             url: create-survey.md
 
   - title: Send a survey
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Created a survey? Learn how to send a survey to your recipients and collect their feedback.
+          - text: "Created a survey? Learn how to send a survey to your recipients and collect their feedback."
             url: send-survey.md
 
     - title: Collaborate on a survey
       linkLists:
         - linkListType: how-to-guide
           links:
-            - text: Want to collaborate with others? Learn how you can invite others to collaborate on your survey.
+            - text: "Want to collaborate with others? Learn how you can invite others to collaborate on your survey."
               url: collaborate-survey.md
-              
+
     - title: Analyze responses and invitations
       linkLists:
         - linkListType: how-to-guide
           links:
-            - text: Get real-time analytics from Power BI, including summary information and individual results for surveys.
+            - text: "Get real-time analytics from Power BI, including summary information and individual results for surveys."
               url: analyze-responses-invites.md    
