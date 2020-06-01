@@ -48,4 +48,4 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: "Get real-time analytics from Power BI, including summary information and individual results for surveys."
-             url: analyze-responses-invites.md    
+            url: analyze-responses-invites.md    
