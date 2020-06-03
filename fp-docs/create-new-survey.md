@@ -92,7 +92,7 @@ You can use sentiment analysis to determine whether user responses for a survey 
 When you select text-based questions for sentiment analysis, their responses are sent to Azure Cognitive Services for further processing. Each answer to a text-based question that was marked for sentiment analysis will have a sentiment associated with it. Because there can be multiple such answers in a survey response, the sentiment for a survey response is calculated from the last answered text-based question. The sentiment for a survey is calculated as the numerical average of all responses in the survey.
 
 > [!NOTE]
-> The sentiment calculation feature is available only in the English locale.
+> The sentiment calculation feature is supported only in the English locale.
 
 ### See also
 
