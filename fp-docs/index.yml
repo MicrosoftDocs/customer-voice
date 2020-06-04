@@ -1,0 +1,51 @@
+### YamlMime:Landing
+
+title: Microsoft Forms Pro documentation
+summary: Forms Pro is a simple yet comprehensive survey solution that builds on the current survey-creation experience of Microsoft Forms in Microsoft 365. It offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As responses are submitted, use Power BI reports to analyze them and make decisions in real time.
+
+metadata:
+  title: Microsoft Forms Pro documentation
+  description: Use Microsoft Forms Pro to quickly create and send surveys to your recipients. Gather their responses and opinions in real-time.
+  ms.service: forms-pro
+  ms.topic: landing-page
+  author: bishalgoswami
+  ms.author: bigoswam
+  ms.date: 06/01/2020
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: "Get started with an overview of Forms Pro."
+            url: get-started.md
+
+  - title: Create a survey
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "Learn to create a survey by adding questions, and enhance it by adding pictures to headers and questions."
+            url: create-survey.md
+
+  - title: Send a survey
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "Created a survey? Learn how to send a survey to your recipients and collect their feedback."
+            url: send-survey.md
+
+  - title: Collaborate on a survey
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "Want to collaborate with others? Learn how you can invite others to collaborate on your survey."
+            url: collaborate-survey.md
+
+  - title: Analyze responses and invitations
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: "Get real-time analytics from Power BI, including summary information and individual results for surveys."
+            url: analyze-responses-invites.md    
