@@ -1,6 +1,20 @@
 {
   "docsets_to_publish": [
     {
+      "docset_name": "customer-voice",
+      "build_source_folder": "customer-voice",
+      "build_output_subfolder": "customer-voice",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "forms-pro",
       "build_source_folder": "fp-docs",
       "build_output_subfolder": "forms-pro",
