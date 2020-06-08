@@ -7,5 +7,5 @@
     topicHref: /dynamics365/
     items:
       - name: Customer Voice
-        tocHref: /customer-voice/
-        topicHref: /customer-voice/
+        tocHref: /dynamics365/customer-voice/
+        topicHref: /dynamics365/customer-voice/index
