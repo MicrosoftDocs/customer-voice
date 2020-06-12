@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/13/2020
+ms.date: 06/12/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: FD23CE2B-B022-4708-BAE8-5CAC8BC75092
@@ -159,6 +159,20 @@ A Likert type question displays a list of single-answer questions and a rating s
 
 > [!div class=mx-imgBorder]
 > ![An example Likert question that asks a respondent how satisfied they are with various aspects of a support call](media/ques-likert.png "An example Likert question that asks a respondent how satisfied they are with various aspects of a support call")
+
+## Survey, question, response, and character limits
+
+Forms Pro limits the number of surveys you can create, the number of questions you can add per survey, and the number of responses a survey can receive. The limits are:
+
+- Surveys that can be created by a user: 200
+- Questions allowed per survey: 100
+- Responses a survey can receive: 500,000
+- Characters allowed per response to a single question: 4,000
+- Characters allowed for total responses per survey: 16,000
+
+> [!NOTE]
+> - For the **Likert** question type, each option counts as a single question.
+> - A *response* is defined as a response to an entire survey, and not to the individual questions within the survey. When a respondent completes a survey and submits it, that survey is counted as having one response. For example, if a survey contains 10 questions and all the questions are answered by five respondents, the survey is counted as having five responses.
 
 ### See also
 
