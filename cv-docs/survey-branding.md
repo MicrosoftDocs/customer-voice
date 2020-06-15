@@ -1,6 +1,6 @@
 ---
 title: "Add branding to a survey"
-description: "Instructions for adding branding to a survey created with Customer Voice"
+description: "Instructions for adding branding to a survey created with Customer Voice."
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -12,9 +12,11 @@ manager: shujoshi
 
 # Add branding to a survey
 
+You can customize the appearance of your survey to match your company's branding. This includes changing the color, font, background image, or uploading a custom CSS file.
+
 **To add branding to a survey**
 
-1. Open the survey in which you want to add a branching rule.
+1. Open the survey in which you want to add branding.
 
 2. On the **Design** tab, select **Customization** at the right-side of the page, and then select **Branding**.
 
@@ -22,7 +24,7 @@ manager: shujoshi
 
 ## Theme color
 
-This section allows you to select a color for the survey theme. The selected color is applied to the survey header, question area, background, footer, and buttons. You can select a color that matches your company's theme.
+You can select a color that will be applied to various survey elements such as survey header, question area, background, footer, and buttons. This allows you to customize your survey's theme and match it with your company's theme.
 
 To select a theme color for your survey, do either of the following:
 - Select the default color to open a color picker and then choose a color.
@@ -30,7 +32,7 @@ To select a theme color for your survey, do either of the following:
 
 ## Fonts
 
-This section allows you to select font for the survey header and body.
+You can select a font that will be applied to the survey header and body.
 
 To select survey level fonts, choose values for the following:
 - **Header font**: Font chosen from this list is applied to the survey header, survey description, section header, and section description. By default, the header font is Segoe UI.
@@ -38,15 +40,19 @@ To select survey level fonts, choose values for the following:
 
 ## Background
 
-This section allows you to select a background image for the survey. You can choose an image either from your local drive or OneDrive.
+You can select a background image for the survey either from your local drive or OneDrive.
 
-To upload an image, select **Upload**.
+<!-- Shubham: Mention image limitations, like size, type, etc. -->
+
+To upload a background image, select **Upload**.
 
 To remove an existing background image, select **Remove**.
 
 ## Customize CSS
 
-You can change the look and feel of your survey by using a custom CSS file. You either create a CSS file on your own or download a sample CSS file, edit it, and then upload the file. 
+You can change the look and feel of your survey beyond the available branding options by using a custom CSS file. You can either create a CSS file on your own or download a sample CSS file, edit it, and then upload the file.
+
+To download a sample CSS file, select **Download sample CSS**.
 
 To upload the CSS file, select **Upload**.
 

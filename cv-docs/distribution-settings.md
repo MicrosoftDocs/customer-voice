@@ -16,7 +16,7 @@ After you've created a survey, you can select distribution settings to control r
 
 **To update survey distribution settings**
 
-1. Open the survey in which you want to add a branching rule.
+1. Open the survey in which you want to update distribution settings.
 
 2. On the **Send** tab, select **Customization** at the right-side of the page, and then select **Distribution**.
 
@@ -24,7 +24,7 @@ After you've created a survey, you can select distribution settings to control r
 
 ## Respondents
 
-This section allows you to select the options to define who can respond to a survey, whether to anonymize responses, and more.
+You can select the options to define who can respond to a survey, whether to anonymize responses, and more.
 
 Consider a scenario where you've created a survey to collect customer feedback when a support case is resolved. In this scenario, you'll require feedback from the people outside your organization.
 
@@ -56,7 +56,7 @@ The available settings are:
 
 ## Response restrictions
 
-This section allows you to select the response restriction options and when to stop receiving responses.
+You can select whether your survey is open for receiving responses and also specify a time period when to start and stop receiving responses.
 
 The available settings are:
 
@@ -78,7 +78,7 @@ The available settings are:
 
 ## Link expirations
 
-This section allows you to specify the number of days your survey will be open after you send the survey invitation.
+You can specify the number of days your survey will be open after you send the survey invitation.
 
 The available setting is:
 
@@ -88,11 +88,11 @@ The available setting is:
 
 ## Email
 
-This section allows you to select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list.
+You can select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list. More information on setting up a custom email: [Customize the sender's email address](send-survey-email#customize-the-senders-email-address)
 
 ## Notifications
 
-This section allows you to set personalized response notifications.
+You can set response notification options for the sender as well as the respondent.
 
 The available settings are:
 
@@ -108,21 +108,6 @@ Personalized survey links or trackable links are generated when a survey is sent
 
 When you send a survey by generating a link or a QR code, the survey links aren't personalized. In these cases, you won't be able to record the respondent's name and whether the respondent has submitted only one response, if **Only people in my organization can respond** is turned off.
 
-## Add a progress bar
-
-A progress bar shows your respondents the percentage of pages that they've navigated to or viewed so far. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage. The progress bar is displayed only if there are two or more pages in the survey.
-
-You can control the display of the progress bar by selecting or clearing the **Show progress bar** check box in survey settings. For surveys created after the February 2020 release, this check box is selected by default. For surveys created before the February 2020 release, you must select the **Show progress bar** check box.
-
-> [!div class=mx-imgBorder]
-> ![Progress bar setting](media/progress-bar-setting.png "Progress bar setting")
-
-The progress bar is displayed to the right side of the buttons on the survey.
-
-> [!div class=mx-imgBorder]
-> ![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
-
-
 ### See also
 
 [Send a survey by using email](send-survey-email.md)<br>
@@ -131,4 +116,4 @@ The progress bar is displayed to the right side of the buttons on the survey.
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)<br>
-[Administrator settings for Forms Pro](admin-settings.md)
+[Administrator settings for Customer Voice](admin-settings.md)

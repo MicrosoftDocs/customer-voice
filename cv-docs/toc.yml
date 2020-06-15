@@ -33,10 +33,11 @@
   - name: Create a multilingual survey
     href: create-multilingual-survey.md
   - name: Add branding to a survey
-    href: survey-brand.md
+    href: survey-branding.md
   - name: Format text in a survey
     href: survey-text-format.md
   - name: Format a survey
+    href: survey-formatting.md
   - name: Preview and test a survey
     href: preview-test-survey.md
 
