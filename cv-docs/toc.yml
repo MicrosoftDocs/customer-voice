@@ -1,0 +1,66 @@
+- name: Dynamics 365 Customer Voice documentation
+  href: help-hub.md
+
+- name: Overview
+  items:
+  - name: About Customer Voice
+    href: about.md
+  - name: Sign up for the trial
+    href: sign-up-trial.md
+  - name: Transition from Forms Pro
+    href: transition-forms-pro.md
+
+- name: Purchase Customer Voice
+  href: purchase.md
+
+- name: Administrator settings for Customer Voice
+href: admin-settings.md
+
+- name: Design a survey
+  items:
+  - name: Plan a survey
+    href: plan-survey.md
+  - name: Create a survey
+  - name: Create a multiple-page survey
+    href: create-multipage-survey.md
+  - name: Manage existing projects
+  - name: Manage existing surveys
+  - name: Configure satisfaction metrics
+  - name: Create a branching rule
+    href: create-branching-rule.md
+  - name: Personalize a survey using variables
+    href: personalize-survey.md
+  - name: Create a multilingual survey
+    href: create-multilingual-survey.md
+  - name: Add branding to a survey
+    href: survey-brand.md
+  - name: Format text in a survey
+    href: survey-text-format.md
+  - name: Format a survey
+  - name: Preview and test a survey
+    href: preview-test-survey.md
+
+- name: Distribute a survey
+  items:
+  - name: Send a survey to get responses
+    href: send-survey.md
+  - name: Work with distribution settings
+    href: distribution-settings.md
+  - name: Send a survey by using email
+    href: send-survey-email.md
+  - name: Send a survey by using Power Automate
+  - name: Embed a survey in a webpage
+  - name: Send a survey link
+  - name: Send a survey QR code
+  - name: Create a survey invitation
+  - name: Embed a survey in Power Apps
+  - name: Offer survey incentives
+  - name: View survey invitations
+
+- name: Analyze reports
+  items:
+  - name: View satisfaction metrics
+  - name: View details for each question
+  - name: View survey responses
+  - name: Share a report
+

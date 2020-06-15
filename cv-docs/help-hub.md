@@ -10,7 +10,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Dynamics 365 Customer Voice Help & Training
+# Help resources for Dynamics 365 Customer Voice
 
 <table>
 
