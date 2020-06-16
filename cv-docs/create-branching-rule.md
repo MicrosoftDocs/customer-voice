@@ -12,9 +12,9 @@ manager: shujoshi
 
 # Create a branching rule
 
-When you want to ask additional questions based on responses in a survey, create one or more branching rules for those responses. Branching rules make your surveys interactive and ensure that only relevant questions are displayed to responders.
+Branching rules allow you to customize the flow of your survey. You can show/hide questions or choose to navigate to another question or survey, or even open a website based on the response to a question. Branching rules make your surveys interactive and ensure that only relevant questions are displayed to respondents.
 
-You can also choose to navigate to another question or survey, or even open a website based on the response to a question. If you have hidden a question from being displayed in a survey by using the **Visible** option, you can use the branching rule to display it based on the required response. For more information about setting the visibility for a question, see [Create a new survey](create-new-survey.md).
+If you have hidden a question from being displayed in a survey by using the **Visible** option, you can use the branching rule to display it based on the required response. For more information about setting the visibility for a question, see [Create a new survey](create-new-survey.md).
 
 For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a branching rule to ask the reason if someone responds **Not likely**.
 
@@ -66,23 +66,24 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
 
-7. In the **If True** area, **Add condition** to add the response action that will be triggered when the defined condition meets the criteria.
+7. Select **Add "If true"** to add the action that will be triggered when the defined condition meets the criteria.
 
-8. In the **Select action** list, choose one of the following actions:
+8. Select **Add action** to add the response action.
+
+9. In the **Select action** list, choose one of the following actions:
 
     - **Show**: Select a question to be displayed based on the response to a question.
     - **Hide**: Select a question to be hidden based on the response to a question.
-    - **Toggle**: Toggle the state of the selected question based on the response to a question.
     - **Navigate to**: Select the target to which a responder should be navigated.
 
     > [!div class=mx-imgBorder]
     > ![Select an action for true condition](media/branch-true-select-action.png "Select an action for a true condition")
 
-10. In the **Select target** list, choose a target for the selected action. If you select **Show**, **Hide**, or **Toggle** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
+10. In the **Select target** list, choose a target for the selected action. If you select **Show** or **Hide** as the action, you can select **Question** as the target. If you select **Navigate to** as the action, you can choose one of the following targets:
 
     - **Question**: Skip to a question based on the response to a question. The questions between the source and target questions are hidden from the responder.
     - **End of survey**: End the survey based on the response to a question.
-    - **Chain survey**: Open a different survey, created by you, based on the response to a question.
+    - **Chained survey**: Open a different survey, created by you, based on the response to a question.
     - **URL**: Open a website based on the response to a question. You must add `http://` to the URL for it to work properly.
 
     > [!div class=mx-imgBorder]
@@ -93,7 +94,7 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
 
-12. In the **If False** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps mentioned for the **If True** area.
+12. Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.
 
     > [!div class=mx-imgBorder]
     > ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
@@ -120,17 +121,23 @@ After you've created a branching rule or a set of branching rules, you can edit,
 
 4. To edit a branching rule, select **Edit** ![Edit branching rule](media/edit-rule.png "Edit branching rule") from the corresponding rule row.
 
+5. To delete a branching rule, select **Delete** ![Delete branching rule](media/delete-rule.png "Delete branching rule") from the corresponding rule row.
+
+6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, select **Move up** ![Move up](media/move-up-rule.png "Move up") or **Move down** ![Move down](media/move-down-rule.png "Move down") from the corresponding rule row.
+
+<!-- Shubham: 4. To edit a branching rule, hover over the rule, and then select **Edit** ![Edit branching rule](media/edit-rule.png "Edit branching rule").
+
 5. To delete a branching rule, hover over the rule, select **More actions**, and then select **Delete**.
 
-6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, hover over the rule, select **More actions**, and then select **Move up** or **Move down**.
+6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, hover over the rule, select **More actions**, and then select **Move up** or **Move down**. -->
 
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
-[Apply a theme to a survey](apply-theme.md)<br>
+
 [Preview and test a survey](preview-test-survey.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-[Create a classic form](create-classic-form.md)<br>
+
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)

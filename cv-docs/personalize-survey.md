@@ -10,9 +10,9 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Personalize a survey
+# Personalize a survey by using survey variables
 
-You can automatically insert custom information into your survey by using survey variables. For example, you can use a survey variable to automatically insert a customer's first name and product name into a question to personalize it.
+Survey variables allows you to personalize a survey by automatically inserting custom information in it. For example, you can use a survey variable to automatically insert a customer's first name and product name into a question to personalize it.
 
 By default, the following survey variables are available:
 
@@ -26,17 +26,21 @@ By default, the following survey variables are available:
 
 1.	Open the survey in which you want to use survey variables.
 
-2.	Select **Customization** at the right-side of the page, and then select **Variables**.
+2.	On the **Design** tab, select **Customization** at the right-side of the page, and then select **Variables**.
 
     > [!div class=mx-imgBorder]
     > ![Survey variables button](media/custom-data-button.png "Survey variables button")
 
-3.	Select **Add variable**.
+3.	In the **Variables** panel, select **Add variable**.
 
-5.	Enter a name and default value for the survey variable.
+4.	Enter a name and default value for the survey variable.
 
     > [!div class=mx-imgBorder]
     > ![New survey variable created](media/new-survey-variable.png "New survey variable created")
+
+5. To add more variables, repeat steps 3 and 4.
+
+5. Select **Save**.
 
 > [!NOTE]
 > - A survey variable name can contain a maximum of 30 characters consisting of only English letters and numbers.
@@ -45,6 +49,21 @@ By default, the following survey variables are available:
 > - Don't use survey variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
 > - Survey variables are replaced with the specified default values when sending a survey invitation.
 > - You can define a maximum of 15 variables in a survey.
+
+## Add survey variables in a survey
+
+After you've created the required survey variables, you can now add them in your survey at the following places:
+
+- Survey description
+- Question text
+- Question subtitle
+- Section heading
+- Section description
+- Branching rules
+
+> [!NOTE]
+> You can't add survey variables in statements for Likert questions.
+
 
 ## Add survey variables to a question
 
@@ -105,10 +124,10 @@ To specify values for survey variables in a flow:
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
-[Apply a theme to a survey](apply-theme.md)<br>
+
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-[Create a classic form](create-classic-form.md)<br>
+
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)

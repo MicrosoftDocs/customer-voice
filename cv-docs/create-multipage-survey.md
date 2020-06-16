@@ -53,10 +53,10 @@ After adding the required sections in your survey, you can duplicate, remove, or
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
-[Apply a theme to a survey](apply-theme.md)<br>
+
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-[Create a classic form](create-classic-form.md)<br>
+
 [Create a multilingual survey](create-multilingual-survey.md)

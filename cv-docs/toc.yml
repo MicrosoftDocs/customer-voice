@@ -1,14 +1,11 @@
 - name: Dynamics 365 Customer Voice documentation
   href: help-hub.md
 
-- name: Overview
-  items:
-  - name: About Customer Voice
-    href: about.md
-  - name: Sign up for the trial
-    href: sign-up-trial.md
-  - name: Transition from Forms Pro
-    href: transition-forms-pro.md
+- name: Get started with Customer Voice
+  href: get-started.md
+
+- name: Transition from Forms Pro
+  href: transition-forms-pro.md
 
 - name: Purchase Customer Voice
   href: purchase.md
@@ -28,7 +25,7 @@
   - name: Configure satisfaction metrics
   - name: Create a branching rule
     href: create-branching-rule.md
-  - name: Personalize a survey using variables
+  - name: Personalize a survey by using variables
     href: personalize-survey.md
   - name: Create a multilingual survey
     href: create-multilingual-survey.md
@@ -40,6 +37,7 @@
     href: survey-formatting.md
   - name: Preview and test a survey
     href: preview-test-survey.md
+  - name: Share a survey
 
 - name: Distribute a survey
   items:

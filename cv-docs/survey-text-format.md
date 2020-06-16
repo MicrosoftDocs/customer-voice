@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Format text in a survey
 
-You can customize the look of your survey by changing the font, font style, font size, and color of the text. You can apply formatting to the following elements:
+You can customize the look of your survey by changing the font style, font size, and color of the text. You can apply formatting to the following elements:
 
 - Survey title
 - Survey description
@@ -23,11 +23,12 @@ You can customize the look of your survey by changing the font, font style, font
 - Section description
 - Thank-you message
 - Footer text
-- Lower-left and lower-right labels for Net Promoter Score and Rating questions
+- Labels for Net Promoter Score and Rating questions
 - Statements for Likert questions
 
 > [!NOTE]
-> The text formatting capability isn't supported for options of Ranking and Likert questions.
+> - The text formatting capability isn't supported for options of Ranking and Likert questions.
+> - You can change the font of your survey from the **Branding** panel. More information: [Fonts](survey-branding.md#fonts)
 
 **To format survey text**
 
@@ -46,15 +47,13 @@ In the following illustration, custom formatting has been applied to the survey 
 > ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 > [!NOTE]
-> To format the thank-you message and footer text, open the **Settings** pane, select the message or text, and then use the formatting toolbar. More information: [Survey response options](invite-settings.md#survey-response-options)
+> To format the thank-you message and footer text, you must first turn the **Customize Message** to On, select the message or text, and then use the formatting toolbar. More information: [Customize footer and thank you messages](custom-footer-thank-you.md)
 
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
-[Apply a theme to a survey](apply-theme.md)<br>
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
-[Create a classic form](create-classic-form.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)
