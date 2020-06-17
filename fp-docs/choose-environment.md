@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/13/2020
+ms.date: 06/17/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 90EFF51F-36E3-4973-8768-82F12629B0B3
@@ -38,8 +38,28 @@ When you install the Forms Pro app, an application user named Microsoft Forms Pr
 - Ensure that you've assigned the Survey Owner role to users.
 - If you've created any custom entities that you want Forms Pro to interact with, assign the **Append To** privilege of the entities to the user.
 
-In this section, you'll learn how to:
+### Minimum privileges for a custom role
 
-- [Change an environment](change-environment.md)
-- [Copy a survey to another environment](copy-survey-environment.md)
+If you've created a custom security role and want to use it as a survey owner, ensure that the custom role has User permission on the entities used by Forms Pro. The following table shows the required and optional privileges for the entities.
 
+A required privilege is denoted by ![Required](media/required-icon.png "Required").
+
+An optional privilege is denoted by ![Optional](media/optional-icon.png "Optional").
+
+If you provide the optional privileges, additional actions can be performed by the user who is assigned the custom role. For example, the Read privilege is required for the Contact entity and is used to associate invitations with a specific contact. Other privileges, such as Create and Write, are optional. If you provide Create and Write privileges, a user can perform these operations on a contact. If you provide only the Read privilege, and you want a particular user to perform create and write operations also on a contact, you can provide Create and Write privileges to the user through other security roles.
+
+|Entity                            |Create   |Read     |Write    |Delete   |Append   |Append To|Assign |Share   |
+|----------------------------------|---------|---------|---------|---------|---------|--------|--------|--------|
+|Forms Pro survey                  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
+|Forms Pro survey email template   |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
+|Forms Pro Survey question         |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
+|Forms Pro Survey question response|![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
+|Forms Pro unsubscribed recipient  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
+|Activity                          |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
+|Contact                           |![Optional](media/optional-icon.png "Optional") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
+||||||||||
+
+### See also
+
+[Change an environment](change-environment.md)<br>
+[Copy a survey to another environment](copy-survey-environment.md)
