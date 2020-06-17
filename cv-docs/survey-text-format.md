@@ -28,7 +28,7 @@ You can customize the look of your survey by changing the font style, font size,
 
 > [!NOTE]
 > - The text formatting capability isn't supported for options of Ranking and Likert questions.
-> - You can change the font of your survey from the **Branding** panel. More information: [Fonts](survey-branding.md#fonts)
+> - You can change the font of your survey header and body elements from the **Branding** panel. More information: [Fonts](survey-branding.md#fonts)
 
 **To format survey text**
 
@@ -47,7 +47,7 @@ In the following illustration, custom formatting has been applied to the survey 
 > ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 > [!NOTE]
-> To format the thank-you message and footer text, you must first turn the **Customize Message** to On, select the message or text, and then use the formatting toolbar. More information: [Customize footer and thank you messages](custom-footer-thank-you.md)
+> To format the thank-you message and footer text, you must first turn on **Customize message**, select the message or text, and then use the formatting toolbar. More information: [Customize footer and thank you messages](custom-footer-thank-you.md)
 
 ### See also
 

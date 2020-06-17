@@ -10,11 +10,11 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Personalize a survey by using survey variables
+# Personalize a survey by using variables
 
-Survey variables allows you to personalize a survey by automatically inserting custom information in it. For example, you can use a survey variable to automatically insert a customer's first name and product name into a question to personalize it.
+Variables allow you to personalize a survey by automatically inserting custom information in it. For example, you can use a variable to automatically insert a customer's first name and product name into a question to personalize it. If you plan to send a survey through Power Automate, you can further personalize your survey by adding variables that will be replaced dynamically when a survey is sent through a Power Automate.
 
-By default, the following survey variables are available:
+By default, the following variables are available:
 
 - **First Name**: Inserts the first name of the recipient.
 
@@ -22,65 +22,65 @@ By default, the following survey variables are available:
 
 - **locale**: Specifies the locale of the survey while embedding it in the email. More information: [Embed a survey in an email](send-survey-email.md#embed-a-survey-in-an-email)
 
-**To create a new survey variable**
+**To create a new variable**
 
-1.	Open the survey in which you want to use survey variables.
+1.	Open the survey in which you want to use variables.
 
 2.	On the **Design** tab, select **Customization** at the right-side of the page, and then select **Variables**.
 
     > [!div class=mx-imgBorder]
-    > ![Survey variables button](media/custom-data-button.png "Survey variables button")
+    > ![Variables item](media/custom-data-button.png "Variables item")
 
 3.	In the **Variables** panel, select **Add variable**.
 
-4.	Enter a name and default value for the survey variable.
+4.	Enter a name and default value for the variable.
 
     > [!div class=mx-imgBorder]
-    > ![New survey variable created](media/new-survey-variable.png "New survey variable created")
+    > ![New variable created](media/new-survey-variable.png "New variable created")
 
 5. To add more variables, repeat steps 3 and 4.
 
 5. Select **Save**.
 
 > [!NOTE]
-> - A survey variable name can contain a maximum of 30 characters consisting of only English letters and numbers.
-> - After you create a survey variable, you'll not be able to rename it.
-> - You can also personalize survey invitations by using survey variables. More information: [Personalize an email](send-survey-email.md#personalize-an-email)
-> - Don't use survey variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
-> - Survey variables are replaced with the specified default values when sending a survey invitation.
+> - A variable name can contain a maximum of 30 characters consisting of only English letters and numbers.
+> - After you create a variable, you'll not be able to rename it.
+> - You can also personalize survey invitations by using variables. More information: [Personalize an email](send-survey-email.md#personalize-an-email)
+> - Don't use variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
+> - Variables are replaced with the specified default values when sending a survey invitation.
 > - You can define a maximum of 15 variables in a survey.
 
-## Add survey variables in a survey
+## Add variables in a survey
 
-After you've created the required survey variables, you can now add them in your survey at the following places:
+After you've created the required variables, you can add them in the following survey elements:
 
 - Survey description
 - Question text
 - Question subtitle
 - Section heading
 - Section description
-- Branching rules
+
+You can also use variables in [branching rules](create-branching-rule.md), sending a survey through email, and while embedding a survey in a webpage
 
 > [!NOTE]
-> You can't add survey variables in statements for Likert questions.
+> You can't add variables in statements for Likert questions.
 
+**To add variables in survey elements**
 
-## Add survey variables to a question
+1. Open the survey in which you want to add variables.
 
-After creating the required survey variables, you need to add them to the question. 
+2. On the **Design** tab, select the survey element where you want to add a variable. The formatting toolbar appears.
 
-1.	Open the survey in which you want to add survey variables.
+3. Place the cursor at the location where you want to add the variable.
 
-2.	On the **Design** tab, select the question text to which you want to add a survey variable. The formatting toolbar appears.
-
-3.	Place the cursor at the location where you want to add the survey variable.
-
-4.	From the **Variables** list in the formatting toolbar, select the survey variable you want to add.
+4. From the **Variables** list in the formatting toolbar, select the variable you want to add.
 
     > [!div class=mx-imgBorder]
-    > ![Add survey variables](media/add-pipe-data.png "Add survey variables")
+    > ![Add variables](media/add-pipe-data.png "Add variables")
 
-For example, let's say that you've created a survey variable named **Product Name** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product Name** from the **Variables** list. *{{First Name}}* and *{{Product Name}}* are inserted at the cursor location.
+    The variable is added within curly braces.
+
+For example, let's say that you've created a variable named **Product** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product** from the **Variables** list. *{{First Name}}* and *{{Product Name}}* are inserted at the cursor location.
 
 Let's say the question is:
 *{{First Name}}*, overall, how would you rate your experience with customer service for *{{Product Name}}*?
@@ -89,20 +89,20 @@ That question will look like this when a customer named Bert Hair takes the surv
 
 &nbsp;&nbsp;&nbsp;&nbsp;Bert, overall, how would you rate your experience with customer service for Contoso Sales?
 
-## Specify values for survey variables
+## Specify values for variables
 
-You must specify default values for survey variables while you create them. If you don't specify default values, nothing will be displayed for the survey variables. You can also specify the values for survey variables:
+You must specify default values for variables while you create them. If you don't specify default values, nothing will be displayed for the variables. You can also specify the values for variables:
 
 - When sending email invitations.
 - When configuring a flow.
 
 ### Specify values when sending email invitations
 
-If you've created survey variables but didn't specify default values for them, a warning message is displayed at the top of the page when you send the survey. Select **Define survey variables** to open the **Survey variables** pane, and then specify the default values.
+If you've created variables but didn't specify default values for them, a warning message is displayed at the top of the page when you send the survey. Select **Define variables** to open the **Variables** panel, and then specify the default values.
 
 ### Specify values in a flow
 
-To specify values for survey variables in a flow:
+To specify values for variables in a flow:
 
 1.	While configuring a flow, select **Edit in advanced mode**.
 
@@ -115,19 +115,17 @@ To specify values for survey variables in a flow:
 
     ![Show advanced options for a step in a flow](media/flow-step-advanced-options-button.png "Show advanced options for a step in a flow")
 
-4.	Specify the values for survey variables.
+4.	Specify the values for variables.
 
-    ![Specify values for survey variables](media/flow-step-advanced-options.png "Specify values for survey variables")
+    ![Specify values for variables](media/flow-step-advanced-options.png "Specify values for variables")
 
 5.	Save the changes.
 
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
-
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)

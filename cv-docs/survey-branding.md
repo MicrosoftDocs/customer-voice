@@ -32,11 +32,13 @@ To select a theme color for your survey, do either of the following:
 
 ## Fonts
 
-You can select a font that will be applied to the survey header and body.
+You can select a font that will be applied to the survey header and body elements.
 
 To select survey level fonts, choose values for the following:
 - **Header font**: Font chosen from this list is applied to the survey header, survey description, section header, and section description. By default, the header font is Segoe UI.
 - **Body font**: Font chosen from this list is applied to the questions, answer options, button labels, header text, and footer text. By default, the body font is Segoe UI.
+
+You can also change font style, font size, and color of the text of individual elements of the survey. More information: [Format text in a survey](survey-text-format.md)
 
 ## Background
 

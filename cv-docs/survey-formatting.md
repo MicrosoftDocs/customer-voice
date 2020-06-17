@@ -26,19 +26,19 @@ Formatting controls the general look and feel of your survey. This includes show
 
 A progress bar shows your respondents the percentage of pages that they've navigated to or viewed so far. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage. The progress bar is displayed only if there are two or more pages in the survey.
 
-You can control the display of the progress bar by turning on or off **Progress bar**.
+By default, this setting is turned on for multi-page surveys and the progress bar is displayed. For a single page survey, this setting is turned off.
 
 > [!div class=mx-imgBorder]
 > ![Progress bar setting](media/progress-bar-setting.png "Progress bar setting")
 
-The progress bar is displayed to the right side of the buttons on the survey.
+When turned on, the progress bar is displayed to the right side of the buttons on the survey.
 
 > [!div class=mx-imgBorder]
 > ![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
 
 ## Question number
 
-Specify whether the question numbers should be displayed in the survey. By default, this setting is turned on and the question numbers are displayed in the survey.
+Specify whether the question numbers should be displayed in a survey. By default, this setting is turned on and the question numbers are displayed in the survey.
 
 If you want to hide question numbers in a survey, turn off this setting.
 
