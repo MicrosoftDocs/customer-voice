@@ -14,6 +14,16 @@ manager: shujoshi
 
 `about customer voice`
 
+`Navigation`
+
+`Home`
+
+`Project`
+
+`Survey`
+
+`Report`
+
 ## Sign up for trial
 
 ## Transition from Forms Pro
