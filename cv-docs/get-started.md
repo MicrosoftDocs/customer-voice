@@ -19,8 +19,12 @@ manager: shujoshi
 `Home`
 
 `Project`
+A project includes related surveys, reports, and feedback trends over time, keeping all your work and insights in one place.
 
 `Survey`
+Design email and automate the distribution of your surveys, so your customers receive personalized surveys as frequently as you’d like.
+
+Choose from many tools to personalize your surveys. For example, you can brand your survey using your logo and color theme.
 
 `Report`
 
