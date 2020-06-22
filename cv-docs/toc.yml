@@ -17,6 +17,7 @@
   items:
   - name: Plan a survey
     href: plan-survey.md
+  - name: About projects
   - name: Create a survey
   - name: Create a multiple-page survey
     href: create-multipage-survey.md
@@ -60,6 +61,7 @@
 
 - name: Analyze reports
   items:
+  - name: Overview
   - name: View satisfaction metrics
   - name: View details for each question
   - name: View survey responses

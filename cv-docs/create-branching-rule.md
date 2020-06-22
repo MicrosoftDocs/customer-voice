@@ -125,19 +125,11 @@ After you've created a branching rule or a set of branching rules, you can edit,
 
 6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, select **Move up** ![Move up](media/move-up-rule.png "Move up") or **Move down** ![Move down](media/move-down-rule.png "Move down") from the corresponding rule row.
 
-<!-- Shubham: 4. To edit a branching rule, hover over the rule, and then select **Edit** ![Edit branching rule](media/edit-rule.png "Edit branching rule").
-
-5. To delete a branching rule, hover over the rule, select **More actions**, and then select **Delete**.
-
-6. To change the order of execution of a branching rule, move a rule up or down in the grid. To move a rule up or down, hover over the rule, select **More actions**, and then select **Move up** or **Move down**. -->
-
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>
-
 [Preview and test a survey](preview-test-survey.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
-
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)

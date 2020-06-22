@@ -60,7 +60,7 @@ After you've created the required variables, you can add them in the following s
 - Section heading
 - Section description
 
-You can also use variables in [branching rules](create-branching-rule.md), sending a survey through email, and while embedding a survey in a webpage
+You can also use variables in [branching rules](create-branching-rule.md), survey invitations sent through email, and while embedding a survey in a webpage.
 
 > [!NOTE]
 > You can't add variables in statements for Likert questions.
