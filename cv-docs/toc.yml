@@ -17,13 +17,14 @@
   items:
   - name: Plan a survey
     href: plan-survey.md
-  - name: About projects
+  - name: Create a project
+  - name: Manage existing projects
   - name: Create a survey
   - name: Create a multiple-page survey
     href: create-multipage-survey.md
-  - name: Manage existing projects
   - name: Manage existing surveys
   - name: Configure satisfaction metrics
+    href: satisfaction-metrics.md
   - name: Create a branching rule
     href: create-branching-rule.md
   - name: Personalize a survey by using variables
