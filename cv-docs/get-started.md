@@ -39,4 +39,6 @@ Customer Voice will be generally available on August 10, 2020. To try Customer V
    > A work or school account is required for trying Customer Voice.
      
 
+### Experience of a trial or new user
 
+`explain the experience and feature availability when CDS is not provisioned`

@@ -1,6 +1,6 @@
 ---
-title: "Add and configure satisfaction metrics"
-description: "Instructions for adding and configuring satisfaction metrics"
+title: "Work with satisfaction metrics"
+description: "Instructions for working with satisfaction metrics"
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -10,7 +10,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Work with satisfaction metrics
+# Add and configure satisfaction metrics
 
 Organizations use various metrics to determine the effectiveness of the experiences they provide to their customers. A subset of these metrics is tracked by them daily and forms the basis for measuring their performance. These metrics are called satisfaction metrics. In other words, we can say that satisfaction metrics are measurement systems that allow you to measure your customer experience. This ensures that the data you collected through survey responses can be analyzed successfully, and decisions can be made accordingly.
 
@@ -53,3 +53,18 @@ After you have received responses to your survey, a dashboard is created automat
 
 ## Edit satisfaction metrics
 
+After you have created the required satisfaction metrics, you can edit their details or delete the ones that are not required.
+
+1. Open the survey in which you want to manage satisfaction metrics.
+
+2. On the **Design** tab, select **Customization** at the right-side of the page, and then select **Satisfaction metrics**.
+
+  Satisfaction metrics are displayed in the **Satisfaction metrics** panel.
+
+3. To edit a metric, expand it, and update the name and description as required. If you change the question that is mapped with the metric, a confirmation message is displayed. Select **Change** in the confirmation message to continue.
+
+4. Select **Save**.
+
+5. To delete a metric, hover over the metric, and select **Delete**.
+
+6. In the confirmation message, select **Delete** to continue with the deletion.
