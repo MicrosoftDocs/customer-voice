@@ -27,7 +27,7 @@ For example, for the question **How likely is it that you would recommend us to 
     > [!div class=mx-imgBorder]
     > ![Branching rules button](media/branching-rules-button.png "Branching rules button")
 
-    If you don't have any rules created yet, the following page is displayed. Select **Customize**.
+    If you don't have any rules created yet, the following message is displayed. Select **Customize**.
 
     > [!div class=mx-imgBorder]
     > ![Create new rule button](media/create-rule-button.png "Create new rule button") 
