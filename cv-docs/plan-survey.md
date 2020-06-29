@@ -62,7 +62,7 @@ For any questions or assistance, please contact Microsoft support.
 
 ## Decide on the types of questions to ask<a name="decide-the-question-type"></a>
 
-Deciding which types of questions you'll ask will help you organize your survey and maintain a good flow from one question to the next. The types of questions available in Customer Voice are Choice, Text, Rating, Date, Ranking, Net Promoter Score, and Likert.
+Deciding which types of questions you'll ask will help you organize your survey and maintain a good flow from one question to the next. The types of questions available in Forms Pro are Choice, Text, Rating, Date, Ranking, Net Promoter Score, and Likert.
 
 ### Choice
 
@@ -72,20 +72,20 @@ A Choice type question gives respondents a list of answers to choose from. You c
 
 By default, a choice question accepts a single answer. Respondents choose one answer from the list by selecting a radio button.
 
-> [!div class=mx-imgBorder]
-> ![A single-answer question, showing a list of choices with one radio button selected](media/ques-radio-button.png "A single-answer question, showing a list of choices with one radio button selected")
+
+![A single-answer question, showing a list of choices with one radio button selected](media/ques-radio-button.png "A single-answer question, showing a list of choices with one radio button selected")
 
 In single-answer questions, you can also display the list of answers in a drop-down list rather than radio buttons. Select **More settings for question** (...), and then select **Drop-down**.
 
-> [!div class=mx-imgBorder]
-> ![A drop-down question, showing a single answer selected in the drop-down list box](media/ques-drop-down.png "A drop-down question, showing a single answer selected in the drop-down list box") 
+
+![A drop-down question, showing a single answer selected in the drop-down list box](media/ques-drop-down.png "A drop-down question, showing a single answer selected in the drop-down list box") 
 
 **Multiple-answer question**
 
 You can accept multiple answers for your question by turning on the **Multiple answers** toggle. Respondents choose one or more answers from the list by selecting one or more check boxes.
 
-> [!div class=mx-imgBorder]
-> ![A multiple-answer question, showing a list of choices with check boxes](media/ques-check-box.png "A multiple-answer question, showing a list of choices with check boxes")
+
+![A multiple-answer question, showing a list of choices with check boxes](media/ques-check-box.png "A multiple-answer question, showing a list of choices with check boxes")
 
 ### Text
 
@@ -95,15 +95,15 @@ A Text type question can accept a short (one-line) answer or a long (multiple-li
 
 By default, a text question accepts a short answer.
 
-> [!div class=mx-imgBorder]
-> ![A short-answer question displays a one-line text box](media/ques-short-answer.png "A short-answer question displays a one-line text box")
+
+![A short-answer question displays a one-line text box](media/ques-short-answer.png "A short-answer question displays a one-line text box")
 
 **Long-answer question**
 
 You can accept multiple lines of text for your question by turning on the **Long answer** toggle.
 
-> [!div class=mx-imgBorder]
-> !["A long-answer question displays a multiple-line text box"](media/ques-long-answer.png "A long-answer question displays a multiple-line text box")
+
+!["A long-answer question displays a multiple-line text box"](media/ques-long-answer.png "A long-answer question displays a multiple-line text box")
 
 ### Rating
 
@@ -116,44 +116,44 @@ By default, the star symbol is selected. To change the symbol, select it from th
   
 Star and smiley rating questions with five levels are shown in the following images. 
 
-> [!div class=mx-imgBorder]
-> ![Example of a star rating question with five stars selected](media/ques-rating-star.png "Example of a star rating question with five stars selected") 
 
-> [!div class=mx-imgBorder]
-> ![Example of a smiley rating with the happiest face selected](media/ques-rating-smiley.png "Example of a smiley rating with the happiest face selected") 
+![Example of a star rating question with five stars selected](media/ques-rating-star.png "Example of a star rating question with five stars selected") 
+
+
+![Example of a smiley rating with the happiest face selected](media/ques-rating-smiley.png "Example of a smiley rating with the happiest face selected") 
 
 For ratings questions that use numbers or stars, you can add labels for the numbers or stars by selecting **More settings for question** (...), and then selecting **Label**. A number rating question with labels is shown in the following image.
 
-> [!div class=mx-imgBorder]
-> ![Example of a number rating question with labels](media/ques-rating-number.png "Example of a number rating question with labels")
+
+![Example of a number rating question with labels](media/ques-rating-number.png "Example of a number rating question with labels")
 
 ### Date
 
 A Date type question displays a calendar and asks the respondent to select a date.
 
-> [!div class=mx-imgBorder]
-> ![Example of a date question with a date selected](media/ques-date.png "Example of a date question with a date selected")
+
+![Example of a date question with a date selected](media/ques-date.png "Example of a date question with a date selected")
 
 ### Ranking
 
 A Ranking type question asks a respondent to rank items by arranging them in the order of the respondent's preference.
 
-> [!div class=mx-imgBorder]
-> ![Example of a ranking question](media/ques-ranking.png "Example of a ranking question")
+
+![Example of a ranking question](media/ques-ranking.png "Example of a ranking question")
 
 ### Net Promoter Score
 
 A Net Promoter Score type question asks a respondent to rate the likelihood of their recommending a product or service to a friend.
 
-> [!div class=mx-imgBorder]
-> ![A Net Promoter Score question asks how likely the respondent is to give their recommendation](media/ques-nps.png "A Net Promoter Score question asks how likely the respondent is to give their recommendation")
+
+![A Net Promoter Score question asks how likely the respondent is to give their recommendation](media/ques-nps.png "A Net Promoter Score question asks how likely the respondent is to give their recommendation")
 
 ### Likert
 
 A Likert type question displays a list of single-answer questions and a rating scale for the answers, so a respondent can select a value from the scale to answer each question.
 
-> [!div class=mx-imgBorder]
-> ![An example Likert question that asks a respondent how satisfied they are with various aspects of a support call](media/ques-likert.png "An example Likert question that asks a respondent how satisfied they are with various aspects of a support call")
+
+![An example Likert question that asks a respondent how satisfied they are with various aspects of a support call](media/ques-likert.png "An example Likert question that asks a respondent how satisfied they are with various aspects of a support call")
 
 ## Survey, question, response, and character limits
 

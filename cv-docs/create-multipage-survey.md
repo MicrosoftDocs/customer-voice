@@ -23,13 +23,11 @@ When you create a survey, the survey is created on a single page by default. You
 
 2.	Select **Add new**, select **More** (...), and then select **Section**.
 
-    > [!div class=mx-imgBorder]
-    > ![Section button](media/section-button.png "Section button")
+    ![Section button](media/section-button.png "Section button")
 
 3.	A new section is added to the survey. Enter the section name. You can also enter an optional description for it.
 
-    > [!div class=mx-imgBorder]
-    > ![New section added](media/section-name.png "New section added")
+    ![New section added](media/section-name.png "New section added")
 
 4.	Add new questions to the section, or move existing questions to the section as required.
 
@@ -47,8 +45,7 @@ After adding the required sections in your survey, you can duplicate, remove, or
         - **Section and questions**: Delete the section and its questions.
     - **Move section**: Move the section up or down in the survey.
 
-        > [!div class=mx-imgBorder]
-        > ![Move a section](media/move-section.png "Move a section")
+        ![Move a section](media/move-section.png "Move a section")
 
 ### See also
 

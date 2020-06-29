@@ -28,15 +28,13 @@ By default, the following variables are available:
 
 2.	On the **Design** tab, select **Customization** at the right-side of the page, and then select **Variables**.
 
-    > [!div class=mx-imgBorder]
-    > ![Variables item](media/custom-data-button.png "Variables item")
+    ![Variables menu item](media/variables-button.png "Variables menu item")
 
 3.	In the **Variables** panel, select **Add variable**.
 
 4.	Enter a name and default value for the variable.
 
-    > [!div class=mx-imgBorder]
-    > ![New variable created](media/new-survey-variable.png "New variable created")
+    ![New variable created](media/new-survey-variable.png "New variable created")
 
 5. To add more variables, repeat steps 3 and 4.
 
@@ -63,7 +61,7 @@ After you've created the required variables, you can add them in the following s
 You can also use variables in [branching rules](create-branching-rule.md), survey invitations sent through email, and while embedding a survey in a webpage.
 
 > [!NOTE]
-> You can't add variables in statements for Likert questions.
+> For Likert questions, you must enter the variable name manually.
 
 **To add variables in survey elements**
 
@@ -74,9 +72,8 @@ You can also use variables in [branching rules](create-branching-rule.md), surve
 3. Place the cursor at the location where you want to add the variable.
 
 4. From the **Variables** list in the formatting toolbar, select the variable you want to add.
-
-    > [!div class=mx-imgBorder]
-    > ![Add variables](media/add-pipe-data.png "Add variables")
+    
+    ![Add variables](media/add-variable.png "Add variables")
 
     The variable is added within curly braces.
 
@@ -105,9 +102,8 @@ If you've created variables but didn't specify default values for them, a warnin
 To specify values for variables in a flow:
 
 1.	While configuring a flow, select **Edit in advanced mode**.
-
-    > [!div class=mx-imgBorder]
-    > ![Edit a flow in advanced mode](media/flow-advanced-mode.png "Edit a flow in advanced mode")
+    
+    ![Edit a flow in advanced mode](media/flow-advanced-mode.png "Edit a flow in advanced mode")
 
 2.	Go to the step that sends the survey, and expand it.
 

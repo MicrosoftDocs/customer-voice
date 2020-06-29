@@ -109,8 +109,8 @@ To create a new variable, select **New variable** from the **Variables** list. I
 
 If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
 
-> [!div class=mx-imgBorder]
-> ![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
+
+![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
 
 > [!NOTE]
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
@@ -187,13 +187,13 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
 
 10.	Sign in to Forms Pro, and open the **Settings** pane. Select the custom email address that you want to use for sending email.  
 
-    > [!div class=mx-imgBorder]
-    > ![Custom email setting](media/custom-email-setting.png "Custom email setting")
+    
+    ![Custom email setting](media/custom-email-setting.png "Custom email setting")
 
     Use the custom email while sending the survey invitation.
 
-    > [!div class=mx-imgBorder]
-    > ![Custom From email](media/custom-from-email.png "Custom From email")
+    
+    ![Custom From email](media/custom-from-email.png "Custom From email")
 
     > [!NOTE]
     > In Power Automate, the custom email address is picked from the survey settings.

@@ -16,9 +16,15 @@ Formatting controls the general look and feel of your survey. This includes show
 
 **To add formatting to a survey**
 
-1. Open the survey in which you want to add branding.
+1. Open the survey in which you want to add formatting.
 
 2. On the **Design** tab, select **Customization** at the right-side of the page, and then select **Formatting**.
+
+    ![Formatting menu item](media/formatting-button.png "Formatting menu item")
+
+    The **Formatting** panel is displayed.
+
+    ![Formatting panel](media/formatting-panel.png "Formatting panel")
 
 3. Update the formatting options as described in the following sections.
 
@@ -28,13 +34,9 @@ A progress bar shows your respondents the percentage of pages that they've navig
 
 By default, this setting is turned on for multi-page surveys and the progress bar is displayed. For a single page survey, this setting is turned off.
 
-> [!div class=mx-imgBorder]
-> ![Progress bar setting](media/progress-bar-setting.png "Progress bar setting")
-
 When turned on, the progress bar is displayed to the right side of the buttons on the survey.
 
-> [!div class=mx-imgBorder]
-> ![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
+![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
 
 ## Question number
 
