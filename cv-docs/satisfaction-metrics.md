@@ -37,7 +37,11 @@ After you have received responses to your survey, a dashboard is created automat
 
 2. On the **Design** tab, select **Customization** at the right-side of the page, and then select **Satisfaction metrics**.
 
+    ![Satisfaction metrics menu item](media/satisfaction-metrics-button.png "Satisfaction metrics menu item")
+
 3. In the **Satisfaction metrics** panel, select **Add metrics**, and the select the type of metric to be added.
+
+    ![Add satisfaction metrics](media/add-metrics.png "Add satisfaction metrics")
 
 4. Enter the following information:
 
@@ -47,9 +51,13 @@ After you have received responses to your survey, a dashboard is created automat
 
     - **<survey_name> question**: Choose a question to be mapped with the satisfaction metric.
 
+      ![Add satisfaction metrics details](media/metric-fields.png "Add satisfaction metrics details")
+
 5. To see questions from other surveys within the project mapped with the metric, expand the **Other questions using this metric** section.
 
 6. Select **Save**.
+
+7. To add more metrics, repeat steps 3 through 6.
 
 ## Edit satisfaction metrics
 
