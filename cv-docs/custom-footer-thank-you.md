@@ -22,8 +22,12 @@ You can also add formatting to the footer text and thank-you message by changing
 
 2. On the **Design** tab, scroll to the bottom of survey designer. 
 
-3. Turn on **Customize message** under **Thank you** and **Footer**.
+3. Turn on **Customize message** under **Thank you** and **Footer** sections.
 
-3. Enter the required text for footer and thank-you.
+    ![Turn on the customization of footer text and thank-you message](media/custom-footer-thank-you-off.png "Turn on the customization of footer text and thank-you message") 
+
+4. Enter the required text for the footer text and thank-you message. If required, add formatting to the messages.
+
+    ![Updated footer text and thank-you message](media/custom-footer-thank-you-on.png "Updated footer text and thank-you message") 
 
 

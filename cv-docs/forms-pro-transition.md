@@ -36,7 +36,7 @@ The transition experience differs based on the product license you have. This se
 
 **Experience for users with Microsoft Forms Pro license only**
 
-If you have a Forms Pro license only and try to login to Forms Pro, the following message will be displayed with the link to Customer Voice:
+If you have a Forms Pro license only and try to login to Forms Pro, the following message will be displayed with the link to go to Customer Voice:
 
 `image`
 
@@ -44,11 +44,11 @@ If you have a Forms Pro license only and try to login to Forms Pro, the followin
 
 If you have licenses for both Forms and Forms Pro, and have surveys created in Forms Pro, the following message is displayed with the options to go to Customer Voice or stay in Forms.
 
-`image`
+![Forms Pro move message](media/forms-pro-move-message.png "Forms Pro move message") 
 
 If you choose to stay in Forms, the following message is displayed at the top of the page about Forms Pro migration to Customer Voice and the availability of existing Forms Pro surveys.
 
-`image`
+![Forms Pro move message bar](media/forms-pro-move-message-bar.png "Forms Pro move message bar") 
 
 If you select a survey tile, you'll be redirected to the corresponding project in Customer Voice.
 

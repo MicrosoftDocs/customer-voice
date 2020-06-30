@@ -34,19 +34,25 @@ Creating a project from a template helps you quickly get started as per your sur
 
 2. On the **All projects** tab, select **New project**.
 
-   The **Project template** page is displayed with the project templates.
+    ![New project button](media/new-project-button.png "New project button") 
+
+     The **Project template** page is displayed with the available project templates.
+
+     ![Available project templates](media/project-templates.png "Available project templates") 
 
 3. To see the survey questions in a project template, hover over the template, and select the preview icon.
 
-4. Select the required project template.
+    ![Preview a project template](media/project-template-preview-button.png "Preview a project template") 
 
-5. Select **Next**.
+4. Select the required project template, and then select **Next**.
 
-6. On the **Survey location** page, select an environment to create the project. To see all environments, select **See all environments**.
+5. On the **Survey location** page, select an environment to create the project. To see all environments, select **See all environments**.
 
-7. On the **All environments** window, select the required environment, and then select **Select and close**.
+    ![Select a survey location](media/survey-location.png "Select a survey location")
 
-8. On the **Survey location** page, select **Create**.
+6. On the **All environments** window, select the required environment, and then select **Select and close**.
+
+7. On the **Survey location** page, select **Create**.
 
 The project will be created with the survey questions, satisfaction metrics, and Power Automate flows. Configure the survey as required or continue with distributing the survey.
 
