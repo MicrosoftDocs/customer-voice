@@ -23,7 +23,7 @@ Once you've created the required projects, they are available under the **All pr
 You can also perform the following actions:
 
 - **Rename**: Rename your project.
-- **Copy**: Create a copy your project in the same or another environment.
+- **Copy**: Create a copy your project in the same or different environment.
 - **Share**: Share your project with other people for collaboration.
 - **Delete**: Delete the project that is not required anymore.
 
@@ -39,22 +39,22 @@ You can also perform the following actions:
 
 ## Copy a project
 
-You can create a copy of your project in the same environment or in another environment. Customer Voice gives the new project the same name as the existing project and appends `- copy` to it. You can rename the project, if you want.
+You can create a copy of your project in the same environment or in different environment. Customer Voice gives the new project the same name as the existing project and appends `- copy` to it. You can rename the project, if you want.
+
+`image of existing and copied project names`
 
 **What is copied to the new project?**
 
 The following are copied to the new project:
 
 - **Surveys**: Surveys, along with their customizations, are copied as a new instance to the new project. 
-- **Satisfaction metrics**: All satisfaction metrics that are configured for respective question are copied to the new project. The satisfaction metrics retain their mappings with the questions in the newly created surveys in the new project. 
+- **Satisfaction metrics**: All satisfaction metrics that are configured for respective questions are copied to the new project. The satisfaction metrics retain their mappings with the questions in the newly created surveys in the new project. 
 - **Power Automate flows**: All the Power Automate flows configured for the project are copied to the new project.
 - **Email templates**: Email templates configured for the surveys are copied to the new project.
 
 **What is not copied to the new project?**
 
 Survey response data and satisfaction metrics data are not copied to the new project. 
-
-`image of existing and copied project names`
 
 **To copy a project**
 
@@ -64,9 +64,9 @@ Survey response data and satisfaction metrics data are not copied to the new pro
 
     The **Copy project to** screen is displayed.
 
-3. To copy your project in the same environment you are currently working in, select the environment under the **Current location** section.
+3. To copy your project in the same environment you are currently working in, select the environment listed under the **Current location** section.
 
-4. To copy your project to another environment, expand **All locations**, and select an environment.
+4. To copy your project to a different environment, expand **All locations**, and select an environment.
 
 5. After selecting an environment, select **Copy**. A notification is displayed at the top-right corner when the project is copied to the selected location.
 

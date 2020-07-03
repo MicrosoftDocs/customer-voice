@@ -14,19 +14,48 @@ manager: shujoshi
 
 Once you've created the required survey or multiple surveys within a project, you can perform the following actions:
 
-- **Copy**: Create a copy your survey in the same or another project in the same or another environment.
-- **Move**: Move a survey to another project in the same or another environment.
+- **Copy**: Create a copy your survey in the same or different project in the same environment.
+- **Move**: Move a survey to a different project in the same environment.
 - **Rename**: Rename your survey.
 - **Delete**: Delete the survey that is not required anymore.
 - **Share**: Share your survey with other people for collaboration.
 
 ## Copy a survey
 
-You can create a copy of your survey in the same or another project in the same or another environment. When you copy a project, surveys, customizations, satisfaction metrics, Power Automate flows, and email templates are also copied to the new project. The satisfaction metrics retain their mappings with the questions in the newly created survey in the new project. However, survey response data and satisfaction metrics data are not carried over to the new project. Customer Voice gives the new project the same name as the existing project and appends `- copy` to it. You can rename the project, if you want.
+You can create a copy of your survey in the same or a different project in the same environment. Customer Voice gives the new survey the same name as the existing survey and appends `Copy` to it. You can rename the survey, if you want.
 
 `image of existing and copied survey names`
 
+**What is copied to the new survey?**
+
+Survey, along with its customizations, is copied as a new survey. 
+
+**What is not copied to the new survey?**
+
+The following are not copied to the new survey:
+
+- Satisfaction metrics and their data
+- Power Automate flows
+- Email templates
+- Survey response data
+
+**To copy a survey**
+
+1. Open the project in which a survey needs to be copied.
+
+2. Hover over the survey to be copied, select the ellipsis button `image`, and select **Copy**.
+
+    The **Copy to** screen is displayed.
+
+3. To copy your survey in the same project you are currently working in, select the project listed under the **Current project** section.
+
+4. To copy your survey to a different project, expand **All Projects**, and select a project.
+
+5. After selecting the project, select **Copy**. A notification is displayed at the top-right corner when the project is copied successfully.
+
 ## Move a survey
+
+You can move a survey to a different project in the same environment. This helps you move similar surveys under one project. 
 
 ## Rename a survey
 
