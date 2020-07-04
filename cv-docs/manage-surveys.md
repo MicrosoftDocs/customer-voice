@@ -41,7 +41,7 @@ The following are not copied to the new survey:
 
 **To copy a survey**
 
-1. Open the project in which a survey needs to be copied.
+1. Open the project from which a survey needs to be copied.
 
 2. Hover over the survey to be copied, select the ellipsis button `image`, and select **Copy**.
 
@@ -55,7 +55,25 @@ The following are not copied to the new survey:
 
 ## Move a survey
 
-You can move a survey to a different project in the same environment. This helps you move similar surveys under one project. 
+You can move a survey to a different project in the same environment. This helps you move similar surveys under one project.
+
+**What is moved with the survey?**
+
+Survey customizations, response data, and associated Power Automate flows are moved along with the survey. 
+
+**What is not moved with the survey?**
+
+If the destination project does not contain satisfaction metrics, metrics are not moved along with the survey. If the destination project contains satisfaction metrics, only the metrics contained in the destination project are moved with the survey. The question mappings are removed and you must add them manually.
+
+**To move a survey**
+
+1. Open the project from which a survey needs to be moved.
+
+2. Hover over the survey to be moved, select the ellipsis button `image`, and select **Move**.
+
+3. In the **Move** screen, select a project listed under the **Recent projects** section or expand **All Projects**, and select a project.
+
+4. After selecting the project, select **Move**. A notification is displayed at the top-right corner when the survey is moved successfully.
 
 ## Rename a survey
 
@@ -83,4 +101,6 @@ If a satisfaction metric is mapped to the questions of the survey being deleted,
 
 ## Share a survey
 
-You can share your survey with multiple people in your organization so they can collaborate on the structure and layout of  the survey. 
+You can share your survey with multiple people in your organization so they can collaborate on the structure and layout of  the survey. Sharing your survey shares the complete project. The experience and behavior of sharing is same as that of sharing a project. More information: [Share a project](manage-projects.md#share-a-project)
+
+To share a survey, open the survey, and select **Share** on the toolbar at the top of the page. Continue by adding co-owners as you would do while sharing a project.
