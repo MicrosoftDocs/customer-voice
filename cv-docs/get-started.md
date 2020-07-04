@@ -37,8 +37,33 @@ Customer Voice will be generally available on August 10, 2020. To try Customer V
 
    > [!NOTE]
    > A work or school account is required for trying Customer Voice.
-     
 
-### Experience of a trial or new user
 
-`explain the experience and feature availability when CDS is not provisioned`
+### Experience for a trial or new user
+
+Customer Voice uses Common Data Service to store and manage data. However, the provisioning and setup of Common Data Service typically takes 15 to 60 minutes to complete. While Common Data Service is getting provisioned, a few functionalities are not available. But, you can perform the minimum operations and explore the product without seeing any failures. After the Common Data Service is provisioned, all functionalities become available.
+
+This section lists all the functionalities that are restricted until Common Data Service is provisioned. The restricted experience is applicable as follows:
+
+- Only for the default Common Data Service.
+- Only for the trial users and the users who purchase Customer Voice through Web Direct.
+- Only when you log in for the first time before Common Data Service is provisioned.
+
+**What you can do when Common Data Service is getting provisioned?**
+
+- See preview of the out-of-the-box project templates.
+- Create a project by using only the **Blank** project template.
+- Create new surveys within a project.
+- Preview a survey.
+- View reports as read-only.
+- Select links such as content, videos, and blogs on the **Home** tab.
+
+**What you cannot do when Common Data Service is getting provisioned?**
+
+- Send your surveys through email and Power Automate.
+- Choose or modify email templates.
+- Submit responses while previewing a survey.
+- Configure satisfaction metrics.
+- Perform actions such as copy, delete, and rename on projects and surveys.
+
+
