@@ -22,6 +22,7 @@
   - name: Manage existing projects
     href: manage-projects.md
   - name: Create a survey
+    href: create-survey.md
   - name: Manage existing surveys
     href: manage-surveys.md
   - name: Create a multiple-page survey
