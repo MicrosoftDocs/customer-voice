@@ -28,17 +28,17 @@ A survey is created automatically when you create a project (either from out-of-
 
 ## Add or edit questions
 
-1. In the survey designer, select **Add new** to view question types that can be added to your survey. You can also select **More question types** (![Questions types](media/more-ques-button.png "Question types")), and choose a question type.
+1. In the survey designer, select **Add new** to view question types that can be added to your survey. You can also select **More question types** ![Questions types](media/more-ques-button.png "Question types"), and choose a question type.
 
 2. Select the question types you want to add.
 
 3. Enter the question text and its answer options. The survey is saved automatically.
 
-4. To change the order of questions in the survey, select a question, and then select the up arrow (![Move question up](media/move-ques-up.png "Move question up")) or down arrow (![Move question down](media/move-ques-down.png "Move question down")) on the right side of each question to move it up or down.
+4. To change the order of questions in the survey, select a question, and then select the up arrow ![Move question up](media/move-ques-up.png "Move question up") or down arrow ![Move question down](media/move-ques-down.png "Move question down") on the right side of each question to move it up or down.
 
-5. To copy a question, select a question, and then select **Copy question** (![Copy a question](media/copy-ques.png "Copy a question")).
+5. To copy a question, select a question, and then select **Copy question** ![Copy a question](media/copy-ques.png "Copy a question").
 
-6. To delete a question, select a question, and then select **Delete question** (![Delete a question](media/delete-ques.png "Delete a question")).
+6. To delete a question, select a question, and then select **Delete question** ![Delete a question](media/delete-ques.png "Delete a question").
 
 ## Set visibility of a question
 
@@ -58,7 +58,7 @@ You can add an image, such as logo, to your survey header. When you add an image
 
 1. Open the survey in which you want to add an image and then select the survey header.
 
-2. Select **Insert image** (![Insert image](media/insert-image.png "Insert image")) on the right side of the header.
+2. Select **Insert image** ![Insert image](media/insert-image.png "Insert image") on the right side of the header.
 
 3. In the **Insert logo** panel, select **Upload**.
 
@@ -70,7 +70,7 @@ You can add an image or video to a question in your survey. This helps your resp
 
 1. Open the survey in which you want to add an image or video to the question, and then select the question.
 
-2. Select **Insert media** (![Insert media](media/insert-image.png "Insert media")) on the right side of the question.
+2. Select **Insert media** ![Insert media](media/insert-image.png "Insert media") on the right side of the question.
 
     The **Insert media** panel is displayed.
 
