@@ -94,11 +94,11 @@ If a project contains responses, only those responses will be shared with the co
 
     `image`
 
-3. In the **Collaborate on this project** panel, under the **Collaborate** tab, browse and select the name of user from the **Share project with** list. You can browse and select multiple users.
+3. In the **Share** panel, under the **Share** tab, browse and select the name of user from the **Share with** list. You can browse and select multiple users.
 
     `image`
 
-4. Include an optional message, and then select **Collaborate**.
+4. Include an optional message, and then select **Share**.
 
     The co-owners are displayed under the **Access** tab.
 
@@ -112,7 +112,7 @@ If a project contains responses, only those responses will be shared with the co
 
     `image`
 
-3. In the **Collaborate on this project** panel, go to the **Access** tab, and select **Remove** `image` for the user to be removed.
+3. In the **Share** panel, go to the **Access** tab, and select **Remove access** `image` for the user to be removed.
 
     `image`
 

@@ -41,15 +41,15 @@ Customer Voice will be generally available on August 10, 2020. To try Customer V
 
 ### Experience for a trial or new user
 
-Customer Voice uses Common Data Service to store and manage data. However, the provisioning and setup of Common Data Service typically takes 15 to 60 minutes to complete. While Common Data Service is getting provisioned, a few functionalities are not available. But, you can perform the minimum operations and explore the product without seeing any failures. After the Common Data Service is provisioned, all functionalities become available.
+Customer Voice uses environment in Common Data Service to store and manage data. However, the provisioning of an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, a few functionalities are not available. But, you can perform the minimum operations and explore the product without seeing any failures. After the environment is provisioned, all functionalities become available.
 
-This section lists all the functionalities that are restricted until Common Data Service is provisioned. The restricted experience is applicable as follows:
+This section lists all the functionalities that are restricted until an environment is provisioned. The restricted experience is applicable as follows:
 
-- Only for the default Common Data Service.
+- Only for the default environment.
 - Only for the trial users and the users who purchase Customer Voice through Web Direct.
-- Only when you log in for the first time before Common Data Service is provisioned.
+- Only when you log in for the first time before an environment is provisioned.
 
-**What you can do when Common Data Service is getting provisioned?**
+**What you can do when an environment is getting provisioned?**
 
 - See preview of the out-of-the-box project templates.
 - Create a project by using only the **Blank** project template.
@@ -58,7 +58,7 @@ This section lists all the functionalities that are restricted until Common Data
 - View reports as read-only.
 - Select links such as content, videos, and blogs on the **Home** tab.
 
-**What you cannot do when Common Data Service is getting provisioned?**
+**What you cannot do when an environment is getting provisioned?**
 
 - Send your surveys through email and Power Automate.
 - Choose or modify email templates.

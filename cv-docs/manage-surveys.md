@@ -101,6 +101,6 @@ If a satisfaction metric is mapped to the questions of the survey being deleted,
 
 ## Share a survey
 
-You can share your survey with multiple people in your organization so they can collaborate on the structure and layout of  the survey. Sharing your survey shares the complete project. The experience and behavior of sharing is same as that of sharing a project. More information: [Share a project](manage-projects.md#share-a-project)
+You can share your survey with multiple people in your organization so they can collaborate on the structure and layout of  the survey. Sharing your survey shares the complete project. The experience and behavior of sharing is same as that of sharing a project.
 
-To share a survey, open the survey, and select **Share** on the toolbar at the top of the page. Continue by adding co-owners as you would do while sharing a project.
+To share a survey, open the survey, and select **Share** on the toolbar at the top of the page. Continue by adding co-owners as you would do while sharing a project. More information: [Share a project](manage-projects.md#share-a-project)

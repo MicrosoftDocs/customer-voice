@@ -17,6 +17,8 @@
   items:
   - name: Plan a survey
     href: plan-survey.md
+  - name: Available question types
+    href: available-question-types.md
   - name: Create a project
     href: create-project.md
   - name: Manage existing projects
