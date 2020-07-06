@@ -27,7 +27,7 @@ The **Reports** tab allows you to view satisfaction metric dashboard and respons
 
 ## Sign up for the Customer Voice trial
 
-Customer Voice will be generally available on August 10, 2020. To try Customer Voice, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Customer Voice. For information about purchasing Customer Voice, see [Purchase Microsoft Customer Voice](purchase.md).
+Customer Voice will be generally available on August 10, 2020. To try Customer Voice, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Customer Voice.
 
 1. Open [https://customervoice.microsoft.com](https://customervoice.microsoft.com/) in a web browser.
 
@@ -41,7 +41,7 @@ Customer Voice will be generally available on August 10, 2020. To try Customer V
 
 ### Experience for a trial or new user
 
-Customer Voice uses environment in Common Data Service to store and manage data. However, the provisioning of an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, a few functionalities are not available. But, you can perform the minimum operations and explore the product without seeing any failures. After the environment is provisioned, all functionalities become available.
+Customer Voice uses environment in Common Data Service to store and manage data. However, the provisioning of an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, a few functionalities are not available. But, you can perform the minimum operations and explore the product without seeing any failures. After the environment is provisioned, all functionalities become available. More information: [What is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
 This section lists all the functionalities that are restricted until an environment is provisioned. The restricted experience is applicable as follows:
 
