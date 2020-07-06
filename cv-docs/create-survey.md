@@ -30,15 +30,21 @@ A survey is created automatically when you create a project (either from out-of-
 
 1. In the survey designer, select **Add new** to view question types that can be added to your survey. You can also select **More question types** ![Questions types](media/more-ques-button.png "Question types"), and choose a question type.
 
-2. Select the question types you want to add.
+    ![Select a question type](media/more-questions.png "Select a question type")
 
-3. Enter the question text and its answer options. The survey is saved automatically.
+2. Select the question type you want to add. For example, **Choice**.
 
-4. To change the order of questions in the survey, select a question, and then select the up arrow ![Move question up](media/move-ques-up.png "Move question up") or down arrow ![Move question down](media/move-ques-down.png "Move question down") on the right side of each question to move it up or down.
+3. Enter the question text and its answer options. 
 
-5. To copy a question, select a question, and then select **Copy question** ![Copy a question](media/copy-ques.png "Copy a question").
+    ![Choice question](media/choice-ques.png "Choice question")
 
-6. To delete a question, select a question, and then select **Delete question** ![Delete a question](media/delete-ques.png "Delete a question").
+4. Repeat steps 1 through 3 to add more questions. The survey is saved automatically.
+
+5. To change the order of questions in the survey, select a question, and then select the up arrow ![Move question up](media/move-ques-up.png "Move question up") or down arrow ![Move question down](media/move-ques-down.png "Move question down") on the right side of each question to move it up or down.
+
+6. To copy a question, select a question, and then select **Copy question** ![Copy a question](media/copy-ques.png "Copy a question").
+
+7. To delete a question, select a question, and then select **Delete question** ![Delete a question](media/delete-ques.png "Delete a question").
 
 ## Set visibility of a question
 
