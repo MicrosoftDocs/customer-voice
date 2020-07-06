@@ -31,7 +31,7 @@ You can also perform the following actions:
 
 1. Sign in to Customer Voice.
 
-2. On the **All projects** tab, hover over the project to be renamed, select the ellipsis button `image`, and select **Rename**.
+2. On the **All projects** tab, hover over the project to be renamed, select the ellipsis button ![Project options](media/project-options.png "Project options"), and select **Rename**.
 
 3. In the **Rename Project** dialog box, enter a new name, and select **Rename**.
 
@@ -40,8 +40,6 @@ You can also perform the following actions:
 ## Copy a project
 
 You can create a copy of your project in the same environment or in different environment. Customer Voice gives the new project the same name as the existing project and appends `- copy` to it. You can rename the project, if you want.
-
-`image of existing and copied project names`
 
 **What is copied to the new project?**
 
@@ -60,13 +58,17 @@ Survey response data and satisfaction metrics data are not copied to the new pro
 
 1. Sign in to Customer Voice.
 
-2. On the **All projects** tab, hover over the project to be copied, select the ellipsis button `image`, and select **Copy**.
+2. On the **All projects** tab, hover over the project to be copied, select the ellipsis button ![Project options](media/project-options.png "Project options"), and select **Copy**.
 
     The **Copy project to** screen is displayed.
 
 3. To copy your project in the same environment you are currently working in, select the environment listed under the **Current location** section.
 
+    ![Copy your project in the same environment](media/copy-project-current.png "Copy your project in the same environment")
+
 4. To copy your project to a different environment, expand **All locations**, and select an environment.
+
+    ![Copy your project to a different environment](media/copy-project-other.png "Copy your project to a different environment")
 
 5. After selecting an environment, select **Copy**. A notification is displayed at the top-right corner when the project is copied to the selected location.
 
@@ -90,31 +92,27 @@ If a project contains responses, only those responses will be shared with the co
 
 1. Sign in to Customer Voice.
 
-2. On the **All projects** tab, hover over the project to be shared, select the ellipsis button `image`, and select **Share**.
-
-    `image`
+2. On the **All projects** tab, hover over the project to be shared, select the ellipsis button ![Project options](media/project-options.png "Project options"), and select **Share**.
 
 3. In the **Share** panel, under the **Share** tab, browse and select the name of user from the **Share with** list. You can browse and select multiple users.
 
-    `image`
+    ![Share a project](media/share-project.png "Share a project")
 
 4. Include an optional message, and then select **Share**.
 
     The co-owners are displayed under the **Access** tab.
 
-    `image`
+    ![Owners of a project](media/project-owners.png "Owners of a project")
 
 **To remove a co-owner from the a project**
 
 1. Sign in to Customer Voice.
 
-2. On the **All projects** tab, hover over the project from which a co-owner needs to be removed, select the ellipsis button `image`, and select **Share**.
+2. On the **All projects** tab, hover over the project from which a co-owner needs to be removed, select the ellipsis button ![Project options](media/project-options.png "Project options"), and select **Share**.
 
-    `image`
+3. In the **Share** panel, go to the **Access** tab, and select **Remove access** for the user to be removed.
 
-3. In the **Share** panel, go to the **Access** tab, and select **Remove access** `image` for the user to be removed.
-
-    `image`
+    ![Remove project access](media/project-owners.png "Remove project access")
 
 ## Delete a project
 
@@ -124,6 +122,6 @@ You can delete a project that is not required anymore. Deleting a project remove
 
 1. Sign in to Customer Voice.
 
-2. On the **All projects** tab, hover over the project to be deleted, select the ellipsis button `image`, and select **Delete**.
+2. On the **All projects** tab, hover over the project to be deleted, select the ellipsis button ![Project options](media/project-options.png "Project options"), and select **Delete**.
 
 3. In the confirmation dialog box, select **Delete**.
