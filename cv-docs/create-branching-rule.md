@@ -1,6 +1,6 @@
 ---
 title: "Create a branching rule for a survey | MicrosoftDocs"
-description: "Instructions for creating a branching rule for a survey with Customer Voice"
+description: "Instructions for creating a branching rule for a survey with Dynamics 365 Customer Voice"
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Create a branching rule
 
-Branching rules allow you to customize the flow of your survey. You can show/hide questions or choose to navigate to another question or survey, or even open a website based on the response to a question. Branching rules make your surveys interactive and ensure that only relevant questions are displayed to respondents.
+Branching rules allow you to customize the flow of your survey. You can show or hide questions, choose to navigate to another question or survey, or even open a website based on the response to a question. Branching rules make your surveys interactive and ensure that only relevant questions are displayed to respondents.
 
 If you have hidden a question from being displayed in a survey by using the **Visible** option, you can use the branching rule to display it based on the required response. For more information about setting the visibility for a question, see [Create a new survey](create-new-survey.md).
 
@@ -20,21 +20,19 @@ For example, for the question **How likely is it that you would recommend us to 
 
 **To create a branching rule**
 
-1. Open the survey in which you want to add a branching rule.
+1. Open the survey.<!--note from editor: I didn't make this edit before, but these phrases that repeat the procedure heading are simply extra words once you see the procedure heading. If you don't like this as a step, it could be reworded as "In the survey on the **Design** tab, select **Customization** at the right side of the page, and then select **Branching**...-->
 
-2. On the **Design** tab, select **Customization** at the right-side of the page, and then select **Branching**.
-    
-    [Branching menu item](media/branching-menu.png "Branching menu item")
+2. On the **Design** tab, select **Customization** at the right side<!--No hyphen, via Writing Style Guide. I think I missed this previously, if so please excuse.--> of the page, and then select **Branching**.
 
-    If you don't have any rules created yet, the following message is displayed. Select **Customize**.
+   ![Branching menu item](media/branching-menu.png "Branching menu item")
 
-    
-    [Customize survey flow button](media/customize-survey-flow-button.png "Customize survey flow button") 
+    If you haven't created any rules yet<!--Suggested.-->, the following message is displayed. Select **Customize**.
+
+    ![Customize survey flow button](media/customize-survey-flow-button.png "Customize survey flow button") 
 
     If you've created at least one rule, a list of rules is displayed in a grid. Select **New rule**.
- 
-    
-    [New rule button](media/existing-rules.png "New rule button")
+
+    ![New rule button](media/existing-rules.png "New rule button")
 
 3. In the **Rule name** field, enter a name for the branching rule.
 
@@ -42,25 +40,21 @@ For example, for the question **How likely is it that you would recommend us to 
 
 5. In the first list, choose whether you want to create a rule on a question or a survey variable.
 
-    
-    [Select Question or Survey variable](media/select-ques-var.png "Select Question or Survey variable")
+    ![Select Question or Survey variable](media/select-ques-var.png "Select Question or Survey variable")
 
-   - If you choose to create the rule on a survey variable, select a variable from the **Select survey variable** list.
+   - If you want to create the rule on a survey variable, select a variable from the **Select survey variable** list.
 
-     
-     [Branching rules condition variable](media/branch-condition-variable.png "Branching rules condition variable")
+     ![Branching rules condition variable](media/branch-condition-variable.png "Branching rules condition variable")
 
-   - If you choose to create the rule on a question, select a question from the **Select question** list.
+   - If you want to create the rule on a question, select a question from the **Select question** list.
 
-     
-     [Branching rules condition question](media/branch-condition-question.png "Branching rules condition question")
+     ![Branching rules condition question](media/branch-condition-question.png "Branching rules condition question")
 
 6. Select values from the **Select operator** and **Select response** lists, respectively.
 
    You can add more conditions by using the combination of **AND**/**OR** operators by selecting **Add condition**.
 
-    
-    [Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
+    ![Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
 
 7. Select **Add "If true"** to add the action that will be triggered when the defined condition meets the criteria.
 
@@ -72,29 +66,26 @@ For example, for the question **How likely is it that you would recommend us to 
     - **Hide**: Select a question to be hidden based on the response to a question.
     - **Navigate to**: Select the target to which a responder should be navigated.
 
-    
-    [Select an action for true condition](media/branch-true-select-action.png "Select an action for a true condition")
+   ![Select an action for true condition](media/branch-true-select-action.png "Select an action for a true condition")
 
-10. In the **Select target** list, choose a target for the selected action. 
+10. In the **Select target** list, choose a target for the selected action:
 
-    If you select **Show** or **Hide** as the action, you can select **Question** as the target.
-    
-    If you select **Navigate to** as the action, you can choose one of the following targets:
+    - If you select **Show** or **Hide** as the action, you can select **Question** as the target.
 
-    - **Question**: Skip to a question based on the response to a question. The questions between the source and target questions are hidden from the responder.
-    - **End of survey**: End the survey based on the response to a question.
-    - **Chained survey**: Open a different survey, created by you, based on the response to a question.
-    - **URL**: Open a website based on the response to a question. You must add `http://` to the URL for it to work properly.
+    - If you select **Navigate to** as the action, you can choose one of the following targets:
 
-11. In the **Select value** list, enter or choose a value per the target.
+      - **Question**: Skip to a question based on the response to a question. The questions between the source and target questions are hidden from the responder.
+      - **End of survey**: End the survey based on the response to a question.
+      - **Chained survey**: Open a different survey, created by you, based on the response to a question.
+      - **URL**: Open a website based on the response to a question. You must add `http://` to the URL for it to work properly.
 
-    
-    [Branching rules true action](media/branch-true-action.png "Branching rules true action")
+11. In the **Select value** list, enter or choose a value in accordance with the target.
+
+    ![Branching rules true action](media/branch-true-action.png "Branching rules true action")
 
 12. Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.
 
-    
-    [Branching rules false action](media/branch-false-action.png "Branching rules false action")
+    ![Branching rules false action](media/branch-false-action.png "Branching rules false action")
 
 13. Select **Save**.
 
@@ -104,17 +95,15 @@ After creating a branching rule, you can preview the survey and see whether the 
 
 After you've created a branching rule or a set of branching rules, you can edit, delete, or change the order of their execution. The branching rules are executed in the order they were created in.
 
-1. Open the survey in which you want to manage branching rules.
- 
-2. Select **Customization** at the right-side of the page, and then select **Branching**.
+1. Open the survey.
 
-    
+2. Select **Customization** at the right side of the page, and then select **Branching**.
+
     [Branching rules button](media/branching-menu.png "Branching rules button")
 
 3. A list of rules is displayed in a grid.
 
-    
-    [Existing branching rules](media/existing-rules.png "Existing branching rules")
+    ![Existing branching rules](media/existing-rules.png "Existing branching rules")
 
 4. To edit a branching rule, select **Edit** ![Edit branching rule](media/edit-rule.png "Edit branching rule") from the corresponding rule row.
 
