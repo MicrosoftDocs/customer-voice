@@ -41,7 +41,7 @@ If you want to send a survey by using a platform other than Microsoft Forms Pro&
 
     - **Survey**: Select the survey to be sent.
     - **Email**: Enter the recipient's email address.
-    - **Regarding**: Specify a record to associate the survey invitation and response. This value is stored in the survey invitation's **Regarding** field.
+    - **Regarding**: Specify a record to associate the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. You must enter entity logical name in this field.
     - **Recipient details**: Specify a contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field. Only a Contact record is supported in this field.
 
     > [!NOTE]
