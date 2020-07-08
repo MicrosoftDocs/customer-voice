@@ -53,9 +53,6 @@ Let's say you need to send a survey on every case closure. You can use the **Reg
 
 Use the **Recipient details** field to associate your survey invitation and response records to the appropriate contact (the recipient). This allows sales personnel or anyone to see the contact record and the response of the customer. This can help them formulate their conversation with the customer accordingly.
 
-> [!NOTE]
-> Ensure that you enter entity logical names in the **Regarding** and **Recipient details** fields.
-
 > [!div class=mx-imgBorder]
 > ![Populate Regarding and Recipient details fields in a flow](media/associate-survey.png "Populate Regarding and Recipient details fields in a flow")  
 
@@ -66,7 +63,7 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |To|Email address to send the survey invitation. If you're entering multiple email addresses, separate them by a semicolon.<br>**Note**: The email address should be valid and should not return null.|
 |Survey|Survey to be sent.<br>**Note**: You must select a survey from the list and not enter a custom value.|
 |Email template|Email template to be used while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
-|Regarding|Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.|
+|Regarding|Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** You must enter entity logical name in this field.|
 |Recipient details|Contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field.<br>**Note**: Only the Contact record is supported.|
 |||
 
