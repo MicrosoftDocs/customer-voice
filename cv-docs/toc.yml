@@ -7,12 +7,6 @@
 - name: Transition from Forms Pro
   href: forms-pro-transition.md
 
-- name: Purchase Customer Voice
-  href: purchase.md
-
-- name: Administrator settings for Customer Voice
-  href: admin-settings.md
-
 - name: Design a survey
   items:
   - name: Plan a survey
@@ -58,6 +52,7 @@
     href: send-survey-email.md
   - name: Send a survey by using Power Automate
   - name: Embed a survey in a webpage
+    href: embed-web-page.md
   - name: Send a survey link
   - name: Send a survey QR code
   - name: Create a survey invitation

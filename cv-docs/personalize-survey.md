@@ -95,10 +95,10 @@ You must specify default values for variables while you create them. If you don'
 
 ### Specify values when sending email invitations
 
-If you've created variables but didn't specify default values for them, a warning message is displayed at the top of the page when you send the survey. Select **Define variables** to open the **Variables** panel, and then specify the default values.
+You can specify default values for the variables by opening the **Customization** pane from the right-side of the page, and selecting **Survey variables**. In the **Variables** panel, specify the default values for the required variables.
 
 ### Specify values in a flow
-<!--The graphics in this section didn't appear originally, but I copied them from the fp-docs/media folder just to verify that they're in the right place.-->
+
 To specify values for variables in a flow:
 
 1. While configuring a flow, select **Edit in advanced mode**.
