@@ -1,6 +1,6 @@
 ---
 title: "Create a multiple-page survey"
-description: "Instructions for using sections to create a multiple-page survey with Customer Voice"
+description: "Instructions for using sections to create a multiple-page survey with Dynamics 365 Customer Voice"
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -19,7 +19,7 @@ When you create a survey, the survey is created on a single page by default. You
 
 ## Add a section
 
-1.	Open the survey in which you want to add sections.
+1.	Open the survey.
 
 2.	Select **Add new**, select **More** (...), and then select **Section**.
 
@@ -35,7 +35,7 @@ When you create a survey, the survey is created on a single page by default. You
 
 After adding the required sections in your survey, you can duplicate, remove, or change the order of the sections.
 
-1.	Open the survey in which you want to manage a section.
+1.	Open the survey.
 
 2.	Select the ellipsis button **(...)** at the right side of the section header you need to manage, and then select one of the following options:
 

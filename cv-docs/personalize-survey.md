@@ -1,6 +1,6 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
-description: "Instructions for personalizing a survey with Customer Voice"
+description: "Instructions for personalizing a survey with Dynamics 365 Customer Voice"
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Personalize a survey by using variables
 
-Variables allow you to personalize a survey by automatically inserting custom information in it. For example, you can use a variable to automatically insert a customer's first name and product name into a question to personalize it. If you plan to send a survey through Power Automate, you can further personalize your survey by adding variables that will be replaced dynamically when a survey is sent through a Power Automate.
+Variables allow you to personalize a survey by automatically inserting custom information in it. For example, you can use a variable to automatically insert a customer's first name and product name into a question to personalize it. If you plan to send a survey through Power Automate, you can further personalize your survey by adding variables that will be replaced dynamically when a survey is sent through a Power Automate flow.
 
 By default, the following variables are available:
 
@@ -24,15 +24,15 @@ By default, the following variables are available:
 
 **To create a new variable**
 
-1.	Open the survey in which you want to use variables.
+1. Open the survey.
 
-2.	On the **Design** tab, select **Customization** at the right-side of the page, and then select **Variables**.
+2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Variables**.
 
     ![Variables menu item](media/variables-button.png "Variables menu item")
 
-3.	In the **Variables** panel, select **Add variable**.
+3. In the **Variables** panel, select **Add variable**.
 
-4.	Enter a name and default value for the variable.
+4. Enter a name and default value for the variable.
 
     ![New variable created](media/new-survey-variable.png "New variable created")
 
@@ -58,21 +58,21 @@ After you've created the required variables, you can add them in the following s
 - Section heading
 - Section description
 
-You can also use variables in [branching rules](create-branching-rule.md), survey invitations sent through email, and while embedding a survey in a webpage.
+You can also use variables in [branching rules](create-branching-rule.md), in survey invitations sent through email, and while embedding a survey in a webpage.
 
 > [!NOTE]
 > For Likert questions, you must enter the variable name manually.
 
 **To add variables in survey elements**
 
-1. Open the survey in which you want to add variables.
+1. Open the survey.
 
 2. On the **Design** tab, select the survey element where you want to add a variable. The formatting toolbar appears.
 
 3. Place the cursor at the location where you want to add the variable.
 
 4. From the **Variables** list in the formatting toolbar, select the variable you want to add.
-    
+
     ![Add variables](media/add-variable.png "Add variables")
 
     The variable is added within curly braces.
@@ -98,24 +98,24 @@ You must specify default values for variables while you create them. If you don'
 If you've created variables but didn't specify default values for them, a warning message is displayed at the top of the page when you send the survey. Select **Define variables** to open the **Variables** panel, and then specify the default values.
 
 ### Specify values in a flow
-
+<!--The graphics in this section didn't appear originally, but I copied them from the fp-docs/media folder just to verify that they're in the right place.-->
 To specify values for variables in a flow:
 
-1.	While configuring a flow, select **Edit in advanced mode**.
-    
+1. While configuring a flow, select **Edit in advanced mode**.
+
     ![Edit a flow in advanced mode](media/flow-advanced-mode.png "Edit a flow in advanced mode")
 
-2.	Go to the step that sends the survey, and expand it.
+2. Go to the step that sends the survey, and expand it.
 
-3.	Select **Show advanced options**.
+3. Select **Show advanced options**.
 
     ![Show advanced options for a step in a flow](media/flow-step-advanced-options-button.png "Show advanced options for a step in a flow")
 
-4.	Specify the values for variables.
+4. Specify the values for variables.
 
     ![Specify values for variables](media/flow-step-advanced-options.png "Specify values for variables")
 
-5.	Save the changes.
+5. Save the changes.
 
 ### See also
 

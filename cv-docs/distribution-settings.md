@@ -16,9 +16,9 @@ After you've created a survey, you can select distribution settings to control r
 
 **To update survey distribution settings**
 
-1. Open the survey in which you want to update distribution settings.
+1. Open the survey.
 
-2. On the **Send** tab, select **Customization** at the right-side of the page, and then select **Distribution**.
+2. On the **Send** tab, select **Customization** at the right side of the page, and then select **Distribution**.
 
 3. Update the settings as described in the following sections.
 

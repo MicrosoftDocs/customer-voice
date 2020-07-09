@@ -1,6 +1,6 @@
 ---
 title: "Format text in a survey"
-description: "Instructions for formatting text in a survey created with Customer Voice"
+description: "Instructions for formatting text in a survey created with Dynamics 365 Customer Voice"
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -32,7 +32,7 @@ You can customize the look of your survey by changing the font style, font size,
 
 **To format survey text**
 
-1.	Open the survey in which you want to format text.
+1.	Open the survey.
 
 2.	On the **Design** tab, select the text that you want to format. The formatting toolbar appears.
 
@@ -45,7 +45,7 @@ In the following illustration, custom formatting has been applied to the survey 
 ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 > [!NOTE]
-> To format the thank-you message and footer text, you must first turn on **Customize message**, select the message or text, and then use the formatting toolbar. More information: [Customize footer and thank you messages](custom-footer-thank-you.md)
+> To format the thank-you message and footer text, you must first turn on **Customize message**, select the message or text, and then use the formatting toolbar. More information: [Customize footer and thank-you messages](custom-footer-thank-you.md)
 
 ### See also
 

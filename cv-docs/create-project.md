@@ -1,6 +1,6 @@
 ---
 title: "Create a project"
-description: "Instructions for creating a project in Customer Voice."
+description: "Instructions for creating a project in Dynamics 365 Customer Voice."
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -12,55 +12,55 @@ manager: shujoshi
 
 # Create a project
 
-A project is a container that consists of surveys, satisfaction metrics, Power Automate flows, and reports. You can create, distribute, and analyze a survey by creating a project. A project can be created by using one of the ready-to-use project templates or from scratch by using a blank template.
+A *project* is a container that consists of surveys, satisfaction metrics, Power Automate flows, and reports. You can create, distribute, and analyze a survey by creating a project. You can create a project by using a ready-to-use template or by using a blank template to create the project from scratch.
 
-Customer Voice offers ready-to-use feedback project templates that include survey questions, workflows, and relevant reports. Each project template includes industry best-practice survey questions and pre-configured satisfaction metrics and workflows for Dynamics 365 business applications. The available project templates are:
+Dynamics 365 Customer Voice offers ready-to-use feedback project templates that include survey questions, workflows, and relevant reports. Each project template includes survey questions based on industry best practices, and preconfigured satisfaction metrics and workflows for Dynamics 365 business applications. The available project templates are:<!--Edits here and below: Suggested, to avoid the duplicate wording.-->
 
-- **Customer pulse**: The customer pulse template is based on Forrester Research customer experience (CX) best practices and includes questions to collect customer sentiment at regular intervals.
+- **Customer pulse**, based on Forrester Research customer experience<!--Via Writing Style Guide, you don't have to supply an acronym if you don't use it again.--> best practices and including questions to collect customer sentiment at regular intervals.
 
-- **Order delivery**: The Order delivery template allows you to collect timely feedback after an order is delivered. It also includes a workflow to automate sending a survey after an order is complete. The survey is sent to the customer and the response is automatically integrated with the order and customer records.
+- **Order delivery** to collect timely feedback after an order is delivered. It also includes a workflow to automate sending a survey after the order is complete. The survey is sent to the customer, and the response is automatically integrated with the order and customer records.
 
-- **Service visit**: The Service visit template allows you to collect timely feedback following a customer visit scheduled with the Dynamics 365 Field Service application. The feedback is automatically integrated to the customer visit record in Dynamics 365, get insights including trends and specific follow-up actions to make sure customer issues are addressed in a timely manner.
+- **Service visit** to collect timely feedback following a customer visit scheduled with the Dynamics 365 Field Service application. The feedback is automatically integrated with the customer visit record in Dynamics 365, so you can get insights including trends and specific follow-up actions to make sure customer issues are addressed in a timely manner.
 
-- **Support**: The Support template provides an out-of-the-box end-to-end solution for measuring customer satisfaction for your Dynamics 365 case management process. The template includes typical questions and setup needed for the customer service scenario.
+- **Support** provides an out-of-the-box, end-to-end solution for measuring customer satisfaction for your Dynamics 365 case management process. The template includes typical questions and setup needed for the customer service scenario.
 
-- **Blank**: The Blank template allows you to create a survey from scratch and configure it as per your requirements. This will not contain any pre-configured survey questions, workflows, and satisfaction metrics.
+Dynamics 365 Customer Voice also includes a **Blank** template you can use to create a survey from scratch and configure it in accordance with your requirements. This template doesn't contain any preconfigured survey questions, workflows, or satisfaction metrics.
 
 ## Create a project from a template
 
-Creating a project from a template helps you quickly get started as per your surveying requirement with little or no customization. The templates include industry best-practice survey questions and is curated by subject-matter experts.
+Creating a project from a template helps you quickly get started with little or no customization. The templates include survey questions that are based on industry best practices and have been curated by subject-matter experts.
 
-1. Sign in to Customer Voice.
+1. Sign in to Dynamics 365 Customer Voice.
 
 2. On the **All projects** tab, select **New project**.
 
     ![New project button](media/new-project-button.png "New project button") 
 
-     The **Project template** page is displayed with the available project templates.
+     The **Project template** page is displayed with the available project templates.<!--I don't mean to be insulting, but your name isn't actually on the list of allowed names. I think it might be best to either blur it out or just slide the text over so the greeting says "Hello! What kind of feedback do you want to collect?" -->
 
      ![Available project templates](media/project-templates.png "Available project templates") 
 
-3. To see the survey questions in a project template, hover over the template, and select the preview icon.
+3. To see the survey questions in a project template, hover over the template, and then select **Preview** ![Preview](media/preview-icon.png).<!--This is how the style guide prefers that we refer to icons. What do you think about using this graphic?-->
 
     ![Preview a project template](media/project-template-preview-button.png "Preview a project template") 
 
 4. Select the required project template, and then select **Next**.
 
-5. On the **Survey location** page, select an environment to create the project. To see all environments, select **See all environments**.
+5. On the **Survey location** page, select an environment to create the project in. To see all environments, select **See all environments**.
 
     ![Select a survey location](media/survey-location.png "Select a survey location")
 
-6. On the **All environments** window, select the required environment, and then select **Select and close**.
+6. In the **All environments** window, select the environment you want, and then select **Select and close**.
 
 7. On the **Survey location** page, select **Create**.
 
-The project will be created with the survey questions, satisfaction metrics, and Power Automate flows. Configure the survey as required or continue with distributing the survey.
+The project will be created with survey questions, satisfaction metrics, and Power Automate flows. You can further configure the survey to meet your needs, or [send it as-is](send-survey.md).<!--Edit okay? Somehow I found "continue with distributing" a bit confusing-->
 
-## Create a project from blank
+## Create a project from the blank template
 
-Creating a project from blank gives you the freedom to choose survey questions, create satisfaction metrics, Power Automate flows, and customize it the way you want.
+Creating a project from the blank template gives you the freedom to choose survey questions, create satisfaction metrics and Power Automate flows, and customize the survey the way you want.
 
-1. Sign in to Customer Voice.
+1. Sign in to Dynamics 365 Customer Voice.
 
 2. On the **All projects** tab, select **New project**.
 
@@ -68,9 +68,9 @@ Creating a project from blank gives you the freedom to choose survey questions, 
 
 4. Select **Next**.
 
-5. On the **Survey location** page, select an environment to create the project. To see all environments, select **See all environments**.
+5. On the **Survey location** page, select an environment to create the project in. To see all environments, select **See all environments**.
 
-6. On the **All environments** window, select the required environment, and then select **Select and close**.
+6. In the **All environments** window, select the environment you want, and then select **Select and close**.
 
 7. On the **Survey location** page, select **Create**.
 
