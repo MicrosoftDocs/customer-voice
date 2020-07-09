@@ -1,6 +1,6 @@
 ---
 title: "Question types available | MicrosoftDocs"
-description: "Know about the available question types in Customer Voice"
+description: "Know about the available question types in Dynamics 365 Customer Voice"
 ms.date: 07/01/2020
 ms.service:
   - "dynamics-365-sales"
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Available question types
 
-Customer Voice includes a variety of questions to help you create your survey. Deciding which types of questions you'll ask will help you organize your survey and maintain a good flow from one question to the next. The types of questions available in Customer Voice are Choice, Text, Rating, Date, Ranking, Likert, File upload, and Net Promoter Score.
+Dynamics 365 Customer Voice includes a variety of questions to help you create your survey. Deciding which types of questions you'll ask will help you organize your survey and maintain a good flow from one question to the next. The types of questions available in Dynamics 365 Customer Voice are Choice, Text, Rating, Date, Ranking, Likert, File upload, and Net Promoter Score.
 
 ## Choice
 
@@ -99,15 +99,15 @@ A Likert type question displays a list of single-answer questions and a rating s
 
 ## File upload
 
-A File upload type question allows a respondent to upload a file as their response. You can select the number of files (up to 10) that can be uploaded and file size of each uploaded file (up to 1 GB). You can also select the type of files that can be uploaded. 
+A File upload&ndash;type question asks a respondent to upload a file<!--Edit okay? I wanted to avoid "allow," via WSG.-->. You can select the number of files (up to 10) that can be uploaded and the maximum file size of each uploaded file (up to 1 GB). You can also select the type of files that can be uploaded.
 
-If you want to restrict the file types to be uploaded, select More settings for question (...), and then select File type. You can then select the types of files that can be uploaded. For example, you can restrict a candidate to upload their resume in Word or PDF format only.
+If you want to restrict the file types that can be uploaded, select **More settings for question** (...), and then select **File type**. For example, you can restrict candidates to upload their resumes in Word or PDF format only.
 
 ![Configuring the File upload question](media/config-upload.png "Configuring the File upload question")
 
-Respondents will see the question as:
+Respondents will see the question as shown in the following image.<!--A graphic shouldn't complete a sentence.-->
 
-![An example File upload question that asks a respondent to upload resume](media/ques-upload.png "An example File upload question that asks a respondent to upload resume")
+![An example File upload question that asks a respondent to upload a resume](media/ques-upload.png "An example File upload question that asks a respondent to upload a resume")
 
 ## Net Promoter Score
 
