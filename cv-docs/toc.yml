@@ -51,10 +51,13 @@
   - name: Send a survey by using email
     href: send-survey-email.md
   - name: Send a survey by using Power Automate
+    href: send-survey-flow.md
   - name: Embed a survey in a webpage
     href: embed-web-page.md
   - name: Send a survey link
+    href: send-survey-link.md
   - name: Send a survey QR code
+    href: send-survey-qrcode.md
   - name: Create a survey invitation
   - name: Embed a survey in Power Apps
   - name: Offer survey incentives

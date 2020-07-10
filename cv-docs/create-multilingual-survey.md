@@ -118,6 +118,113 @@ After adding translations for the required languages in your survey, you can <!-
 
     ![Delete a language](media/delete-lang.png "Delete a language") 
 
+
+## Locale codes to use in survey variable
+
+When you create a multilingual survey, you can use the **locale** survey variable to set the default language for displaying the survey. You must use the language codes as provided in the following table:
+
+|     Language code           |     Language                                   |
+|---------------------------|------------------------------------------------|
+|         af                |      Afrikaans                                 |
+|           am-et           |      አማርኛ (ኢትዮጵያ)                        |
+|           ar              |      العربية                                   |
+|           as-in           |      অসমীয়া (ভাৰত)                       |
+|           az-latn-az      |      azərbaycan (Azərbaycan)             |
+|           be              |      Беларуская                                |
+|           bg              |      български                                 |
+|           bn-bd           |      বাংলা (বাংলাদেশ)                    |
+|           bn-in           |      বাংলা (ভারত)                        |
+|           bs-latn-ba      |      bosanski (Bosna i   Hercegovina)    |
+|         ca                |      català                                    |
+|         ca-es-valencia    |      valencià   (Espanya)                |
+|         cs                |      čeština                                   |
+|         cy-gb             |      Cymraeg (Y Deyrnas   Unedig)        |
+|         da                |      dansk                                     |
+|         de                |      Deutsch                                   |
+|           el              |      Ελληνικά                                  |
+|           en-gb           |      English (United   Kingdom)          |
+|         en-us             |      English (United   States)           |
+|         es                |      español                                   |
+|           es-mx           |      español (México)                    |
+|           et              |      eesti                                     |
+|           eu              |      euskara                                   |
+|           fa              |      فارسی                                     |
+|           fi              |      suomi                                     |
+|           fil-ph          |      Filipino   (Pilipinas)              |
+|         fr                |      français                                  |
+|         fr-ca             |      français   (Canada)                 |
+|         ga-ie             |      Gaeilge (Éire)                      |
+|           gd              |      Gàidhlig                                  |
+|           gl              |      galego                                    |
+|           gu              |      ગુજરાતી                                    |
+|           ha-latn-ng      |      Hausa   (Najeriya)                  |
+|         he                |      עברית                                     |
+|         hi                |      हिन्दी                                     |
+|         hr                |      hrvatski                                  |
+|         hu                |      magyar                                    |
+|         hy                |      Հայերեն                                   |
+|         id                |      Indonesia                                 |
+|         is                |      íslenska                                  |
+|         it                |      italiano                                  |
+|           ja              |      日本語                                    |
+|           ka              |      ქართული                                   |
+|           kk              |      қазақ тілі                                |
+|           km-kh           |      ភាសាខ្មែរ (កម្ពុជា)                    |
+|           kn              |      ಕನ್ನಡ                                      |
+|           ko              |      한국어                                    |
+|           kok             |      कोंकणी                                     |
+|           ky              |      Кыргыз                                    |
+|           lb-lu           |      Lëtzebuergesch (Lëtzebuerg)         |
+|           lo              |      ລາວ                                       |
+|           lt              |      lietuvių                                  |
+|           lv              |      latviešu                                  |
+|           mi-nz           |      te reo Māori (Aotearoa)             |
+|           mk              |      македонски                                |
+|           ml              |      മലയാളം                                    |
+|           mn              |      монгол                                    |
+|           mr              |      मराठी                                     |
+|           ms              |      Melayu                                    |
+|           mt-mt           |      Malti (Malta)                       |
+|           nb-no           |      norsk bokmål (Norge)                |
+|           ne-np           |      नेपाली (नेपाल)                        |
+|           nl              |      Nederlands                                |
+|           nn-no           |      nynorsk (Noreg)                     |
+|           or-in           |      ଓଡ଼ିଆ (ଭାରତ)                          |
+|           pa              |      ਪੰਜਾਬੀ                                     |
+|           pl              |      polski                                    |
+|           prs-af          |      درى (افغانستان)\u200F                     |
+|           pt-br           |      português (Brasil)                  |
+|           pt-pt           |      português (Portugal)                |
+|           quz-pe          |      Runasimi (Perú)                     |
+|           ro              |      română                                    |
+|           ru              |      русский                                   |
+|           sd-arab-pk      |      سنڌي (پاکستان)\u200F                      |
+|           si-lk           |      සිංහල (ශ්‍රී   ලංකාව)                   |
+|           sk              |      slovenčina                                |
+|           sl              |      slovenščina                               |
+|           sq              |      shqip                                     |
+|           sr-cyrl-ba      |      српски (Босна и Херцеговина)        |
+|           sr-cyrl-rs      |      српски (Србија)                     |
+|           sr-latn-rs      |      srpski (Srbija)                     |
+|           sv              |      svenska                                   |
+|           sw              |      Kiswahili                                 |
+|           ta              |      தமிழ்                                      |
+|           te              |      తెలుగు                                     |
+|           th              |      ไทย                                       |
+|           tk-tm           |      Türkmen dili (Türkmenistan)         |
+|           tr              |      Türkçe                                    |
+|           tt              |      Татар                                     |
+|           ug              |      ئۇيغۇرچە                                  |
+|           uk              |      українська                                |
+|           ur              |      اُردو                                      |
+|           uz-latn-uz      |      o‘zbek (Oʻzbekiston)                |
+|           vi              |      Tiếng Việt                                |
+|           zh-cn           |      中文（中国）                        |
+|           zh-hk           |      中文（香港特別行政區）              |
+|           zh-tw           |      中文（台灣）                        |
+|||
+
+
 ### See also
 
 [Create a new survey](create-new-survey.md)<br>

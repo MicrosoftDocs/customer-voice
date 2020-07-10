@@ -10,11 +10,11 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Send a survey by using email
+# Send a survey by using the built-in email composer
 
-Customer Voice provides an easy way to send your survey to multiple people through email. By using the built-in email composer, you can send customized email invitations to your recipients and track their status on a dashboard.
+Customer Voice provides an easy way to send your survey to multiple people through email. By using the built-in email composer, you can send customized email invitations to your recipients and track their status.
 
-**To send a survey through email**
+**To send a survey by using email**
 
 1.  Open the survey and go to the **Send** tab.
 
@@ -138,7 +138,7 @@ You can create a new email template as per your requirement.
 
 <a name="customize-sender-email-address"></a>
 
-## Add language to email
+### Create multilingual email templates
 
 ## Customize the sender's email address
 
@@ -221,7 +221,7 @@ It will take a minimum of 3 to 4 days for setup to be completed. After Microsoft
 
 ### See also
 
-[Work with survey settings](invite-settings.md)<br>
+[Work with survey distribution settings](distribution-settings.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
