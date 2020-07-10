@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Send a survey to get responses
 
-After your survey is ready, send it to your respondents and collect their feedback. You can send your survey in the following ways:
+After your survey is ready, go to the **Send** tab, and send it to your respondents for collecting their feedback. You can send your survey in the following ways:
 
 - **Email**: Send the survey link by using the built-in email capability.
 
