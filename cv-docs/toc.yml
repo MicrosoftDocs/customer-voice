@@ -59,8 +59,9 @@
   - name: Send a survey QR code
     href: send-survey-qrcode.md
   - name: Create a survey invitation
+    href: create-survey-invite.md
   - name: Embed a survey in Power Apps
-  - name: Offer survey incentives
+    href: embed-survey-powerapps.md
   - name: View survey invitations
 
 - name: Analyze reports
@@ -69,5 +70,3 @@
   - name: View satisfaction metrics
   - name: View details for each question
   - name: View survey responses
-  - name: Share a report
-

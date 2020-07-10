@@ -25,7 +25,7 @@ If you don't have the email addresses of the people from whom you want to collec
 2. Select **Link**.
 
     > [!NOTE]
-    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**, and then select **Link**.
+    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**.
 
 3. In the **Link to your survey** pop-up, select **Copy**.
 

@@ -24,7 +24,7 @@ To send a survey by using Power Automate:
 
 1.  Open the survey and go to the **Send** tab.
 
-2. Select **Power Automate**, and then compose the email.
+2. Select **Automation**, and then compose the email.
 
 3.  Select **Configure Flow**.
 
@@ -47,9 +47,6 @@ This action sends a survey to a specified list of recipients and creates a surve
 Let's say you need to send a survey on every case closure. You can use the **Regarding** field to specify the case record so that when an invitation and response are created on a particular case resolution, they're attached to the specific case. The case manager then can set up reports to show customer satisfaction (CSAT) scores by case, or reopen a case if the CSAT is very low.
 
 Use the **Recipient details** field to associate your survey invitation and response records to the appropriate contact (the recipient). This allows sales personnel or anyone to see the contact record and the response of the customer. This can help them formulate their conversation with the customer accordingly.
-
-> [!div class=mx-imgBorder]
-> ![Populate Regarding and Recipient details fields in a flow](media/associate-survey.png "Populate Regarding and Recipient details fields in a flow")  
 
 ### Attributes
 
@@ -96,22 +93,11 @@ Flow history is displayed in a grid with the following information:
 
 If required, you can also edit a flow by selecting the **Edit** symbol. The flow editor opens in Power Automate, from which you make your changes.
 
-> [!div class=mx-imgBorder]
-> ![Edit a flow](media/edit-flow.png "Edit a flow")  
-
-To view flow history:
+**To view flow history**
 
 1.  Open the survey for which you want to view flow history, and then select **Send** from the toolbar at the top of the page.
 
-2.  On the **Power Automate** tile, select **Flows configured**.
-
-    > [!div class=mx-imgBorder]
-    > ![Flows configured button](media/flows-configured.png "Flows configured button")  
-
-    A grid with the configured flows is displayed.
-
-    > [!div class=mx-imgBorder]
-    > ![Flow history details](media/flow-history-details.png "Flow history details")  
+2.  On the **Power Automate** tile, select **Flows configured**. A grid with the configured flows is displayed.
 
 ### See also
 

@@ -103,17 +103,11 @@ To specify values for variables in a flow:
 
 1. While configuring a flow, select **Edit in advanced mode**.
 
-    ![Edit a flow in advanced mode](media/flow-advanced-mode.png "Edit a flow in advanced mode")
-
 2. Go to the step that sends the survey, and expand it.
 
 3. Select **Show advanced options**.
 
-    ![Show advanced options for a step in a flow](media/flow-step-advanced-options-button.png "Show advanced options for a step in a flow")
-
 4. Specify the values for variables.
-
-    ![Specify values for variables](media/flow-step-advanced-options.png "Specify values for variables")
 
 5. Save the changes.
 

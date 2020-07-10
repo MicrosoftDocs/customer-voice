@@ -27,7 +27,7 @@ QR code for your survey contains a direct link to your survey. You can include t
 2. Select **QR code**.
 
     > [!NOTE]
-    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's QR code, select **Resend** > **QR code**, and then select **QR code**.
+    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's QR code, select **Resend** > **QR code**.
 
 3. In the **Download a QR code pop-up**, select **Download**.
 
