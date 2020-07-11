@@ -40,5 +40,4 @@ Use this reference to understand the available operations that can be performed 
 
 ### See also
 
-[Developer guide for Forms Pro](developer-guide.md)<br />
 [Entity reference for Microsoft Dynamics 365](/dynamics365/customer-engagement/developer/about-entity-reference)
