@@ -62,6 +62,8 @@
     href: create-survey-invite.md
   - name: Embed a survey in Power Apps
     href: embed-survey-powerapps.md
+  - name: Customize the sender's email address
+    href: customize-sender-email.md
   - name: View survey invitations
 
 - name: Analyze reports
