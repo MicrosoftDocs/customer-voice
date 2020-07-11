@@ -11,9 +11,9 @@ manager: shujoshi
 ---
 
 # Embed a survey in Power Apps
-
+<!--
 [!include[cc-beta-prerelease-disclaimer](includes/cc-beta-prerelease-disclaimer.md)]
-
+-->
 You can embed your surveys in the canvas apps created by using Power Apps. This allows users to respond to the surveys directly from the apps.
 
 > [!NOTE]

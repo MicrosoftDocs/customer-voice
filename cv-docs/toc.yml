@@ -70,3 +70,28 @@
   - name: View satisfaction metrics
   - name: View details for each question
   - name: View survey responses
+
+- name: Developer guide
+  items:
+  - name: Entity reference
+    items:
+    - name: msfp_emailtemplate
+      href: developer/entities/msfp_emailtemplate.md
+    - name: msfp_localizedemailtemplate
+      href: developer/entities/msfp_localizedemailtemplate.md
+    - name: msfp_project
+      href: developer/entities/msfp_project.md
+    - name: msfp_question
+      href: developer/entities/msfp_question.md
+    - name: msfp_questionresponse
+      href: developer/entities/msfp_questionresponse.md
+    - name: msfp_satisfactionmetric
+      href: developer/entities/msfp_satisfactionmetric.md
+    - name: msfp_survey
+      href: developer/entities/msfp_survey.md
+    - name: msfp_surveyinvite
+      href: developer/entities/msfp_surveyinvite.md
+    - name: msfp_surveyresponse
+      href: developer/entities/msfp_surveyresponse.md
+    - name: msfp_unsubscribedrecipient
+      href: developer/entities/msfp_unsubscribedrecipient.md
