@@ -1,7 +1,7 @@
 ---
 title: "Add formatting to a survey"
 description: "Instructions for adding formatting to a survey created with Dynamics 365 Customer Voice."
-ms.date: 07/01/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
