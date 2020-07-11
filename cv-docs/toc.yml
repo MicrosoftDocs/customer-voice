@@ -78,7 +78,7 @@
   - name: Entity reference
     items:
     - name: Overview
-      href: developer/entities/entity-reference.md
+      href: developer/entity-reference.md
     - name: msfp_emailtemplate
       href: developer/entities/msfp_emailtemplate.md
     - name: msfp_localizedemailtemplate
