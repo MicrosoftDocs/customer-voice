@@ -1,7 +1,7 @@
 ---
 title: "Question types available | MicrosoftDocs"
 description: "Know about the available question types in Customer Voice"
-ms.date: 07/01/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

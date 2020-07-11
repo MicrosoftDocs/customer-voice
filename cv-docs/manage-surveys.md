@@ -1,7 +1,7 @@
 ---
 title: "Manage existing surveys | MicrosoftDocs"
 description: "Instructions for managing existing surveys with Customer Voice"
-ms.date: 07/01/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

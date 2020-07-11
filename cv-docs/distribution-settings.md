@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings"
 description: "Instructions for updating survey distribution settings in Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 07/01/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

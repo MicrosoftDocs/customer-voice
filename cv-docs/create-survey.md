@@ -1,7 +1,7 @@
 ---
 title: "Create a survey"
 description: "Instructions for creating a survey in Customer Voice."
-ms.date: 07/01/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
