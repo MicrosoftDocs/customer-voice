@@ -1,7 +1,7 @@
 ---
 title: "msfp_surveyresponse Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyresponse entity."
-ms.date: 07/11/2020
+ms.date: 07/21/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 

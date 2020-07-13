@@ -6,7 +6,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 applies_to: 
-ms.date: 07/11/2020
+ms.date: 07/21/2020
 ms.service: "forms-pro"
 ms.topic: "reference"
 ms.custom: 

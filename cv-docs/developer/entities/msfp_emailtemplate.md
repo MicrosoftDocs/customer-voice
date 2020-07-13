@@ -1,7 +1,7 @@
 ---
 title: "msfp_emailtemplate Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_emailtemplate entity."
-ms.date: 07/11/2020
+ms.date: 07/21/2020
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
