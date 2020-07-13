@@ -65,6 +65,7 @@
   - name: Customize the sender's email address
     href: customize-sender-email.md
   - name: View survey invitations
+    href: view-survey-invite.md
 
 - name: Analyze reports
   items:

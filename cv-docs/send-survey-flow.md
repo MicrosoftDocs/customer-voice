@@ -24,15 +24,17 @@ To send a survey by using Power Automate:
 
 1.  Open the survey and go to the **Send** tab.
 
-2. Select **Automation**, and then compose the email.
+2. Select **Automation**.
 
-3.  Select **Configure Flow**.
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To send your survey by using Power Automate, select **Resend** > **Automate**.
 
-4.  To configure a built-in flow, select a template. For information about creating a flow from a template, see [Create a flow from a template in Power Automate](https://docs.microsoft.com/flow/get-started-logic-template).
+3.  To configure a built-in flow, select a template. For information about creating a flow from a template, see [Create a flow from a template in Power Automate](https://docs.microsoft.com/flow/get-started-logic-template).
 
 5.  To create a flow from scratch, select **Create from blank**. For information about creating a flow from scratch, see [Create a flow in Power Automate](https://docs.microsoft.com/flow/get-started-logic-flow).
 
 > [!NOTE]
+> - The flow will use the default email template for send emails. If you want to send email using a specific email template, ensure that you have selected it from the **Email template** list in the [send a survey](#send-a-survey-action) action.
 > - While configuring a flow, the template page might display duplicate templates. To resolve this issue, navigate out of the tab, and then come back to create the flow again.
 > - If you have added personalized data in your survey, you must specify their values in the flow. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
@@ -73,6 +75,7 @@ The values from the **Regarding** and **Recipient details** fields are stored in
 > [!div class=mx-imgBorder]
 > ![Search survey invite using Advanced Find](media/survey-invite-adv-find.png "Search survey invitation using Advanced Find") 
 
+<!-- Shubham: will update later as per UI
 ## View flow history
 
 Flow history is the information that's stored for each survey as you configure flows to send a survey. Before configuring a new flow, you might want to know more about the flows that are already configured for the survey. Flow history gives you the required information about the configured flows, such as the total number of runs, failures, and so on.
@@ -98,7 +101,7 @@ If required, you can also edit a flow by selecting the **Edit** symbol. The flow
 1.  Open the survey for which you want to view flow history, and then select **Send** from the toolbar at the top of the page.
 
 2.  On the **Power Automate** tile, select **Flows configured**. A grid with the configured flows is displayed.
-
+-->
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>

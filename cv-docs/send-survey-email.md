@@ -20,6 +20,9 @@ Customer Voice provides an easy way to send your survey to multiple people throu
 
 2. Select **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
 
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To send your survey by using email, select **Resend** > **Email**.
+
 3.  In the **Recipients** field, enter the recipient's name or email address. You can populate the **Recipients** field by using any of the following methods:
 
     - Entering an email address manually.
@@ -127,8 +130,6 @@ You can use an email template&mdash;a preformatted email message&mdash;to quickl
 
 > [!NOTE]
 > You can save a maximum of 10 email templates.
-
-<!-- Shubham: If an email template includes survey variables that aren't part of the survey, an error message is displayed at the top of the page and you won't be allowed to send the survey through email or Microsoft Power Automate. The survey variables will be highlighted in red; you must remove these highlighted variables from the email message before you can send the survey. -->
 
 ### Create a new email template
 

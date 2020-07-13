@@ -35,5 +35,3 @@ In this section, you'll learn how to:
 - [Send a survey QR code](send-survey-qrcode.md)  
 - [Create a survey invitation](create-survey-invite.md)
 - [Embed a survey in Power Apps](embed-survey-powerapps.md)
-- [Offer survey incentives](survey-incentives.md)
-

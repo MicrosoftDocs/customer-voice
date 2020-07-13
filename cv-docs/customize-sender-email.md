@@ -42,7 +42,7 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
 
     - **Ownership authentication key**: Proves that your organization owns the domain.
 
-    - **Email authentication keys for DKIM**: Prove that Forms Pro is authorized to send messages that show your organization's domain name in the from-address.
+    - **Email authentication keys for DKIM**: Prove that Customer Voice is authorized to send messages that show your organization's domain name in the from-address.
 
 8.	After record creation, contact Microsoft support, and provide the following information:
 
@@ -54,18 +54,16 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
     > [!NOTE]
     > The SLA for creating DKIM keys is minimum 3 to 4 days.
 
-10.	Sign in to Forms Pro, and open the **Settings** pane. Select the custom email address that you want to use for sending email.  
-
+10.	Sign in to Customer Voice, and open the **Distribution** panel. Expand the **Email** section and select the custom email address that you want to use for sending email.  
     
     ![Custom email setting](media/custom-email-setting.png "Custom email setting")
 
     Use the custom email while sending the survey invitation.
 
-    
     ![Custom From email](media/custom-from-email.png "Custom From email")
 
     > [!NOTE]
-    > In Power Automate, the custom email address is picked from the survey settings.
+    > In Power Automate, the custom email address is picked from the survey distribution settings.
 
 ## Example DNS records
 

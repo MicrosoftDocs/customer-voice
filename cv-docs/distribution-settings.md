@@ -18,7 +18,13 @@ After you've created a survey, you can select distribution settings to control r
 
 1. Open the survey.
 
-2. On the **Send** tab, select **Customization** at the right side of the page, and then select **Distribution**.
+2. On the **Send** tab, select **Customization** at the right side of the page, and then select **Distribution settings**.
+
+    ![Distribution settings](media/distribution-settings-button.png "Distribution settings")
+
+    The **Distribution** panel is displayed.
+
+    ![Distribution panel](media/distribution-panel.png "Distribution panel")
 
 3. Update the settings as described in the following sections.
 
@@ -54,6 +60,8 @@ The available settings are:
 
     By default, this setting is turned on and respondents are added as a contact in Common Data Service. It works only with surveys sent through email.
 
+![Respondent settings](media/respondents-settings.png "Respondent settings")
+
 ## Response restrictions
 
 You can select whether your survey is open for receiving responses and also specify a time period when to start and stop receiving responses.
@@ -64,10 +72,12 @@ The available settings are:
 
     If you want to stop receiving responses, turn off this setting and enter a message in the **Message to recipients** field. The message you enter will be shown to the respondents when they open a survey.
 
+    ![Survey closed settings](media/survey-closed-setting.png "Survey closed settings")
+
 - **Specific time window**: Specify a time period for receiving responses. By default, it is not selected.
 
     When you select this option, you can specify a start date-time and end date-time for your survey. **Start date** and **Start time** denotes a date and time when a survey will be open for respondents. **End date** and **End time** denotes a date and time when the survey will stop receiving responses.
-    
+
     This setting is displayed only when **Accept responses** is turned on. 
 
 - **Response limit**: Specify the maximum number of responses to be received, after which the responses will no longer be counted and the survey will be stopped. By default, it is not selected.
@@ -75,6 +85,8 @@ The available settings are:
     When you select this option, you can set the maximum number of responses to be received as per the requirement. By default, the value is set to 50,000. You can enter a value lower than the default value or up to the maximum of 50,000.
 
     This setting is displayed only when **Accept responses** is turned on.
+
+![Response restrictions settings](media/response-restrictions-settings.png "Response restrictions settings")
 
 ## Link expirations
 
@@ -85,6 +97,8 @@ The available setting is:
 - **Block responses for older links**: Specify whether to block responses from older personalized links. By default, this setting is turned off.
 
     If you want to block responses, turn on this setting and enter the number of days in the **Disable links older than** field. By default, the value is set to 30. You can enter a value lower than the default value or up to the maximum of 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
+
+![Link expirations settings](media/link-expiration-setting.png "Link expirations settings")
 
 ## Email
 
@@ -101,6 +115,8 @@ The available settings are:
     When you turn on this setting, your respondents will see the option **Send me an email receipt of my responses** after completing a survey. After submitting responses, respondents will then receive a confirmation email, which includes a thank-you message and link to view their responses.
 
 - **Receive email notifications for every response**: Specify whether you need an email notification whenever a response is submitted. By default, this setting is turned off.
+
+![Notifications settings](media/notifications-setting.png "Notifications settings")
 
 ## Work with personalized links
 
