@@ -17,13 +17,13 @@ manager: shujoshi
 You can embed your surveys in the canvas apps created by using Power Apps. This allows users to respond to the surveys directly from the apps.
 
 > [!NOTE]
-> You must have Power Apps Plan 1 to embed your surveys in a canvas app. For more information about purchasing Power Apps, see [Purchase Power Apps for your organization](https://docs.microsoft.com/power-platform/admin/signup-for-powerapps-admin).
+> You must have Power Apps Plan 1 to embed your surveys in a canvas app. More information: [Purchase Power Apps for your organization](https://docs.microsoft.com/power-platform/admin/signup-for-powerapps-admin)
 
 1.	Sign in to [Power Apps](https://web.powerapps.com/).
 
-2.	Create a blank canvas app or use one of the available templates. For more information about creating a canvas app, see [Create a canvas app from scratch using Common Data Service](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch).
+2.	Create a blank canvas app, or use one of the available templates. More information: [Create a canvas app from scratch using Common Data Service](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)
 
-3.	On the **Insert** tab, open the **Controls** menu, and then add the **Customer Voice survey (Preview)** control.
+3.	On the **Insert** tab, open the **Controls** menu, and then add the **Customer Voice survey (Preview)**<!--Is this the final name, or will "Dynamics 365" be added?--> control.
 
 4.	In the options pane, select **No data**.
 
