@@ -31,7 +31,7 @@ You can perform the following actions:
 
 1. Sign in to Dynamics 365 Customer Voice.
 
-2. On the **All projects** tab, hover over the project you want to rename<!--note from editor: Similar to the edits to "required," these suggested edits are meant to make the text more user-directed and less formal.-->, select the ellipsis button ![Project options](media/project-options.png "Project options"), and then select **Rename**.
+2. On the **All projects** tab, hover over the project you want to rename<!--note from editor: Similar to the edits to "required," these suggested edits are meant to make the text more user-directed and less formal.-->, select vertical ellipsis ![Project options](media/project-options.png "Project options"), and then select **Rename**.
 
 3. In the **Rename Project** dialog box, enter a new name, and then select **Rename**.
 
@@ -98,7 +98,7 @@ If a project contains responses, only those responses that are received after th
 
     ![Share a project](media/share-project.png "Share a project")
 
-   (Optional: Include a message to send the co-owners.)<!--Suggest restructuring so the optional step isn't in sequence with the required steps. -->
+   (Optional: Include a message to send the co-owners.)
 
 4. Select **Share**. 
 
@@ -118,7 +118,7 @@ If a project contains responses, only those responses that are received after th
 
 ## Delete a project
 
-You can delete a project that you don't need anymore. Deleting a project removes its surveys, satisfaction metrics, email templates, survey response data, and satisfaction metrics data. The Power Automate flows associated with the surveys are deactivated. The deletion of a project is permanent and can't be reverted.<!--Maybe this should be an Important note?-->
+You can delete a project that you don't need anymore. Deleting a project removes its surveys, satisfaction metrics, email templates, survey response data, and satisfaction metrics data. The Power Automate flows associated with the surveys are deactivated. The deletion of a project is permanent and can't be reverted.
 
 **To delete a project**
 

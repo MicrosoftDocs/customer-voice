@@ -56,7 +56,7 @@ You can export invitation details to a CSV file either from the statistic tile o
 
 2. In the confirmation dialog box, select **Export**.
 
-**To export invitation details from the invite details panel**
+**To export invitation details from the invitation details panel**
 
 1. In the invitation details panel, select **Export**.
 
