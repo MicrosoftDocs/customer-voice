@@ -63,3 +63,9 @@ You can export invitation details to a CSV file either from the statistic tile o
     ![Survey invitation export from the invitation details panel](media/export-invites-panel.png "Survey invitation export from the invitation details panel")
 
 2. In the confirmation dialog box, select **Export**.
+
+## Delete a survey invitation
+
+You can delete a survey invitation that you don't need anymore. To delete a survey invitation, go to the invitation details panel, hover over the invitation, and then select **Delete**. Select **Delete** in the confirmation message.
+
+![Delete a survey invitation from the invitation details panel](media/delete-invite.png "Delete a survey invitation from the invitation details panel")

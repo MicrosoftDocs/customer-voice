@@ -102,7 +102,7 @@ The available setting is:
 
 ## Email
 
-You can select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list. More information: [Customize the sender's email address](send-survey-email#customize-the-senders-email-address)
+You can select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list. More information: [Customize the sender's email address](customize-sender-email.md)
 
 ## Notifications
 
