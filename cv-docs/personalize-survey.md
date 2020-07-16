@@ -1,7 +1,7 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
 description: "Instructions for personalizing a survey with Dynamics 365 Customer Voice"
-ms.date: 07/01/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -95,25 +95,19 @@ You must specify default values for variables while you create them. If you don'
 
 ### Specify values when sending email invitations
 
-If you've created variables but didn't specify default values for them, a warning message is displayed at the top of the page when you send the survey. Select **Define variables** to open the **Variables** panel, and then specify the default values.
+You can specify default values for the variables by opening the **Customization** pane from the right-side of the page, and selecting **Survey variables**. In the **Variables** panel, specify the default values for the required variables.
 
 ### Specify values in a flow
-<!--The graphics in this section didn't appear originally, but I copied them from the fp-docs/media folder just to verify that they're in the right place.-->
+
 To specify values for variables in a flow:
 
 1. While configuring a flow, select **Edit in advanced mode**.
-
-    ![Edit a flow in advanced mode](media/flow-advanced-mode.png "Edit a flow in advanced mode")
 
 2. Go to the step that sends the survey, and expand it.
 
 3. Select **Show advanced options**.
 
-    ![Show advanced options for a step in a flow](media/flow-step-advanced-options-button.png "Show advanced options for a step in a flow")
-
 4. Specify the values for variables.
-
-    ![Specify values for variables](media/flow-step-advanced-options.png "Specify values for variables")
 
 5. Save the changes.
 

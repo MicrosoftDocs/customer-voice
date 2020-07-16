@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings"
-description: "Instructions for updating survey distribution settings in Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 07/01/2020
+description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -12,13 +12,19 @@ manager: shujoshi
 
 # Work with survey distribution settings
 
-After you've created a survey, you can select distribution settings to control responses to your survey. You can choose whether anyone can respond to the survey, or only people in your organization. The former option doesn't require a respondent to sign in, whereas the latter option does require a respondent to sign in. You can also define various response and notification options.
+After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they will have to sign in if you're only allowing people in your organization to respond.<!--Suggested.--> You can also define various response and notification options.
 
 **To update survey distribution settings**
 
 1. Open the survey.
 
-2. On the **Send** tab, select **Customization** at the right side of the page, and then select **Distribution**.
+2. On the **Send** tab, select **Customization** at the right side of the page, and then select **Distribution settings**.
+
+    ![Distribution settings](media/distribution-settings-button.png "Distribution settings")
+
+    The **Distribution** panel is displayed.
+
+    ![Distribution panel](media/distribution-panel.png "Distribution panel")
 
 3. Update the settings as described in the following sections.
 
@@ -26,55 +32,61 @@ After you've created a survey, you can select distribution settings to control r
 
 You can select the options to define who can respond to a survey, whether to anonymize responses, and more.
 
-Consider a scenario where you've created a survey to collect customer feedback when a support case is resolved. In this scenario, you'll require feedback from the people outside your organization.
+Consider a scenario where you've created a survey to collect customer feedback when a support case is resolved. In this scenario, you'll want<!--Suggested. Something about "requiring" feedback doesn't sound quite right to me.--> feedback from the people outside your organization.
 
-Let's consider another scenario where you've created a survey to collect feedback about an internal organization event. In this case, you'll require feedback from the people in your organization only to respond to the survey.
+Let's consider another scenario where you've created a survey to collect feedback about an internal organization event. In this case, you'll only want feedback from the people in your organization.
 
 The available settings are:
 
-- **Only people in my organization can respond**: Specify whether anyone with the survey link can respond to the survey or only people in an organization can respond to the survey.
-    
-    By default, this setting is turned off and anyone with the survey link can respond to the survey. The respondents are not required to sign in to open the survey.
+- **Only people in my organization can respond**: Specify whether anyone with the survey link can respond to the survey, or only people in an organization.
 
-    When you turn on this setting, only the respondents who are in the same organization as the survey creator can respond to the survey. It also requires a respondent to sign in to open the survey.
+    By default, this setting is turned off and anyone with the survey link can respond to the survey. Respondents aren't required to sign in to open the survey.
 
-- **Anonymize responses**: Specify whether to record a respondent's name.
+    When you turn on this setting, only the respondents who are in the same organization as the survey creator can respond to the survey. Respondents are required to sign in to open the survey.
+
+- **Anonymize responses**: Specify whether to record respondents' names, or keep them anonymous.<!--Suggested, to help make the discussion of the default setting a bit easier to parse.-->
 
     By default, this setting is turned off and the respondent's name is recorded.
-    
-    When you turn on this setting, the respondent's name is not recorded. This is helpful when you want to collect survey responses anonymously.
 
-- **One response per person**: Specify whether a respondent can submit only one response.
+    When you turn on this setting, the respondent's name isn't recorded. This is helpful when you want to collect survey responses anonymously.
 
-    By default, this setting is turned off and a respondent can submit can submit more than one response. 
-    
-    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** and **Anonymize responses** are turned off.
+- **One response per person**: Specify whether a respondent can submit only one response, or more than one.<!--Suggested, to be parallel.-->
+
+    By default, this setting is turned off and a respondent can submit more than one response. 
+
+    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond**<!--This makes me think that if "only in my org" is on, you can't restrict people to having just one response and they'll always be able to submit multiple responses. Is that the case?--> and **Anonymize responses** are turned off.
 
 - **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Common Data Service.
 
-    By default, this setting is turned on and respondents are added as a contact in Common Data Service. It works only with surveys sent through email.
+    By default, this setting is turned on, and each respondent is added as a contact in Common Data Service. This only works with surveys sent through email.
+
+![Respondent settings](media/respondents-settings.png "Respondent settings")
 
 ## Response restrictions
 
-You can select whether your survey is open for receiving responses and also specify a time period when to start and stop receiving responses.
+You can select whether your survey is open for receiving responses, and also specify a time period when to start and stop receiving responses.
 
 The available settings are:
 
 - **Accept responses**: Specify whether the survey is open and accepting responses. By default, this setting is turned on.
 
-    If you want to stop receiving responses, turn off this setting and enter a message in the **Message to recipients** field. The message you enter will be shown to the respondents when they open a survey.
+    If you want to stop receiving responses, turn off this setting and enter a message in the **Message to recipients** field. The message you enter will be shown to respondents when they open the survey.
 
-- **Specific time window**: Specify a time period for receiving responses. By default, it is not selected.
+    ![Survey closed settings](media/survey-closed-setting.png "Survey closed settings")
 
-    When you select this option, you can specify a start date-time and end date-time for your survey. **Start date** and **Start time** denotes a date and time when a survey will be open for respondents. **End date** and **End time** denotes a date and time when the survey will stop receiving responses.
-    
+- **Specific time window**: Specify a time period for receiving responses. By default, this isn't selected.
+
+    When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents, and an **End date** and **End time** when the survey will stop receiving responses.<!--Suggested.-->
+
     This setting is displayed only when **Accept responses** is turned on. 
 
-- **Response limit**: Specify the maximum number of responses to be received, after which the responses will no longer be counted and the survey will be stopped. By default, it is not selected.
+- **Response limit**: Specify the maximum number of responses to be received, after which the responses will no longer be counted and the survey will be stopped. By default, this isn't selected.
 
-    When you select this option, you can set the maximum number of responses to be received as per the requirement. By default, the value is set to 50,000. You can enter a value lower than the default value or up to the maximum of 50,000.
+    When you select this option, you can set the maximum number of responses to be received, in accordance with your requirements. By default, the value is set to 50,000, which is the maximum. You can enter a lower value.<!--Suggested.-->
 
     This setting is displayed only when **Accept responses** is turned on.
+
+![Response restrictions settings](media/response-restrictions-settings.png "Response restrictions settings")
 
 ## Link expirations
 
@@ -84,15 +96,17 @@ The available setting is:
 
 - **Block responses for older links**: Specify whether to block responses from older personalized links. By default, this setting is turned off.
 
-    If you want to block responses, turn on this setting and enter the number of days in the **Disable links older than** field. By default, the value is set to 30. You can enter a value lower than the default value or up to the maximum of 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
+    If you want to block responses, turn on this setting and enter a number of days in the **Disable links older than** field. By default, the value is set to 30. You can enter a lower value or up to the maximum of 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
+
+![Link expirations settings](media/link-expiration-setting.png "Link expirations settings")
 
 ## Email
 
-You can select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list. More information on setting up a custom email: [Customize the sender's email address](send-survey-email#customize-the-senders-email-address)
+You can select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list. More information: [Customize the sender's email address](send-survey-email#customize-the-senders-email-address)
 
 ## Notifications
 
-You can set response notification options for the sender as well as the respondent.
+You can set response notification options for the sender in addition to<!--Writing Style Guide.--> the respondent.
 
 The available settings are:
 
@@ -102,11 +116,13 @@ The available settings are:
 
 - **Receive email notifications for every response**: Specify whether you need an email notification whenever a response is submitted. By default, this setting is turned off.
 
+![Notifications settings](media/notifications-setting.png "Notifications settings")
+
 ## Work with personalized links
 
 Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response.
 
-When you send a survey by generating a link or a QR code, the survey links aren't personalized. In these cases, you won't be able to record the respondent's name and whether the respondent has submitted only one response, if **Only people in my organization can respond** is turned off.
+When you send a survey by generating a link or a QR code, the survey links aren't personalized. In these cases, you won't be able to record the respondent's name and&mdash;if **Only people in my organization can respond** is turned off&mdash;you won't be able to determine whether the respondent has submitted only one response.<!--Edit okay? I couldn't tell whether the **Only people in my org** setting being off applied to the second result only. If it actually applies to both results, then it should be something like "If the survey links aren't personalized and the **Only people in my organization can respond** setting is turned off, you won't be able to record the respondent's name or determine whether the respondent has submitted only one response."-->
 
 ### See also
 
@@ -116,4 +132,4 @@ When you send a survey by generating a link or a QR code, the survey links aren'
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)<br>
 [Embed a survey in Power Apps](embed-survey-powerapps.md)<br>
-[Administrator settings for Customer Voice](admin-settings.md)
+[Administrator settings for Dynamics 365 Customer Voice](admin-settings.md)

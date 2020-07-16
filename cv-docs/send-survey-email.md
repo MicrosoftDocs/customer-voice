@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email"
 description: "Instructions for sending a survey by using email"
-ms.date: 07/01/2020
+ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
@@ -10,43 +10,48 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Send a survey by using email
+# Send a survey by using the built-in email composer
 
-After creating a survey, you can send it through email by following these steps.
+Dynamics 365 Customer Voice provides an easy way to send your survey to multiple people through email. By using the built-in email composer, you can send customized email invitations to your recipients and track their status.
 
-1.  Open the survey you want to send, and select **Send** from the toolbar at the top of the page. 
+**To send a survey by using email**
+
+1. Open the survey and go to the **Send** tab.
 
 2. Select **Email**. A default subject line and email message appear, along with a link to your survey in the message body. You can modify and format the text to meet your requirements.
 
-3.  In the **To** field, enter the recipient's name or email address. You can populate the **To** field by using any of the following methods:
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To send your survey by using email, select **Resend** > **Email**.
+
+3. In the **Recipients** field, enter the recipient's name or email address. You can populate the **Recipients** field by using any of the following methods:
 
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
-    - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the selected environment. More information: [Work with environments](choose-environment.md)
-    - Uploading a CSV file by selecting **Import recipients**. More information: [Import recipients from a CSV file](#import-recipients)
+    - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created. <!-- Shubham  More information: [Work with environments](choose-environment.md) -->
+    - Uploading a CSV file by selecting **Upload contacts**. More information: [Upload contacts from a CSV file](#import-recipients)
 
-4.  To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
+4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
-5.  To add an unsubscribe link to your email message, see [Insert an unsubscribe link](#unsubscribe-from-a-survey).  
+5. To add an unsubscribe link to your email message, see [Insert an unsubscribe link](#unsubscribe-from-a-survey).  
 
-6.  To personalize the email by using survey variables, see [Personalize the survey email](#personalize-an-email).
+6. To personalize the email by using survey variables, see [Personalize the survey email](#personalize-an-email).
 
 7. To embed the first question of the survey into your email message, see [Embed a survey in an email](#embed-survey-in-an-email).
 
-8.  To select an email template, select a template from the **Template** list. **Default Template** is selected by default. More information: [Use email templates](#use-email-templates)
+8. To select an email template, select a template from the **Template** list. More information: [Use email templates](#use-email-templates)
 
-9.  To customize the sender of the survey email, see [Customize the sender's email address](#customize-sender-email-address).
-
-10.  When you're ready to send your survey, select **Send**.
+9. When you're ready to send your survey, select **Send**.
 
 > [!NOTE]
-> You can send a survey invitation to a maximum of 10,000 recipients.
+> - You can send a survey invitation to a maximum of 10,000 recipients.
+> - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email).
+
 
 <a name="import-recipients"></a>
 
-## Import recipients from a CSV file
+## Upload contacts from a CSV file
 
-You can import a maximum of 10,000 recipients by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. To import recipients, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can upload a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. To upload contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
@@ -56,11 +61,11 @@ Provide details in the CSV file in the following order: Email address, first nam
 
 **To download a CSV template**
 
-1. In the email editor, select **Import recipients** in the **To** field.
+1. In the email editor, select **Upload contacts** in the **Recipients** field.
 
-2. In the **Import recipients** pane, select **Download a CSV template**.
+2. In the **Upload contacts** panel, select **Download a template**.
 
-    ![Download a CSV template to create a recipient list](media/import-recipients.png "Download a CSV template to create a recipient list")
+    ![Download a CSV template to create a recipient list](media/download-csv-template.png "Download a CSV template to create a recipient list")
 
 After the CSV template is downloaded, enter the required information in the following columns:
 - **Email address**: Email address of the recipient.
@@ -75,9 +80,9 @@ To associate a survey invitation and response to an entity, add the following co
 
 ### Upload the CSV file
 
-1. In the email editor, select **Import recipients** in the **To** field.
+1. In the email editor, select **Upload contacts** in the **Recipients** field.
 
-2. In the **Import recipients** pane, select **Select file to upload**.
+2. In the **Upload contacts** panel, select **Upload**.
 
     ![Upload the CSV file](media/upload-csv.png "Upload the CSV file")
 
@@ -99,9 +104,9 @@ You can configure your email message to include a link that allows a respondent 
 
 ## Personalize the survey email
 
-Use survey variables to personalize your survey email&mdash;for example, you can add the respondent's first name. Place the cursor where you want the name to appear, select **Variables**, and then select **First name** from the list. The first name of the respondent will be automatically inserted. All the survey variables created in a survey are displayed in the **Variables** list.
+You can use variables to personalize your survey email&mdash;for example, you can add the respondent's first name. Place the cursor where you want the name to appear, select **Personalize**, and then select **First Name** from the list. A placeholder is added at the cursor location. The first name of the respondent is automatically inserted when the email is sent. All variables created in a survey are displayed in the **Personalize** list.
 
-To create a new variable, select **New variable** from the **Variables** list. If default values haven't been defined for survey variables, a warning message is displayed at the top of the page. For more information about creating variables and providing values for them, see [Personalize a survey](personalize-survey.md).
+To create a new variable, select **New variable** from the **Personalize** list. If default values haven't been defined for survey variables, nothing is displayed for the variables. For more information about creating variables and providing values for them, see [Personalize a survey](personalize-survey.md).
 
 <a name="embed-survey-in-an-email"></a>
 
@@ -109,120 +114,72 @@ To create a new variable, select **New variable** from the **Variables** list. I
 
 If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
 
-
 ![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
 
 > [!NOTE]
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
 > - If you want to send an embedded survey in an email through Power Automate, you must embed the question in an email and save it as a new email template. While configuring a flow, you must select the new email template. More information: [Use email templates](#use-email-templates)
 
-If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Survey variables** pane, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
+If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Variables** panel, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
 
 <a name="use-email-templates"></a>
 
 ## Use email templates
 
-You can use an email template&mdash;a preformatted email message&mdash;to quickly create and send email messages. You can modify the text, and then save your changes to the current email template or save the changes to a new email template. Unless you make another selection, **Default Template** is selected for use in an email message.
-
-You can perform these actions on an email template:
-
-- **Save**: Save your changes to the current email template.
-
-- **Save as**: Save your changes to a new email template.
-
-- **Delete**: Delete the current email template.
-
-- **Rename**: Rename the current email template.
-
+You can use an email template&mdash;a preformatted email message&mdash;to quickly create and send email messages. If you create a survey from the blank template<!--Edit okay?-->, **Default Template** is selected for use in an email message. If you've created a project from one of the out-of-the-box templates, the corresponding email template is selected by default.
 
 > [!NOTE]
-> - You can save a maximum of 10 email templates.
-> - If an email template includes survey variables that aren't part of the survey, an error message is displayed at the top of the page and you won't be allowed to send the survey through email or Microsoft Power Automate. The survey variables will be highlighted in red; you must remove these highlighted variables from the email message before you can send the survey.
+> You can save a maximum of 10 email templates.
 
-<a name="customize-sender-email-address"></a>
+### Create a new email template
 
-## Customize the sender's email address
+1. In the email editor, select **Template** > **Create new**.
 
-By default, surveys are sent from the `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
+2. In the **Create new template** dialog box, enter a name for the template.
 
-Let's say you are an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create two custom email addresses (for example, `noreply@contososuites.com` and `support@contososuites.com`) consisting of your company's domain.
+3. From the **Template** list, select the newly created template.
 
-**To customize the sender's email address**
+4. Modify the email message, and then select **Save**.
 
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/support) with your admin credentials.
+### Import an email template from other surveys
 
-2. Select **Help + support** > **New support request**. The support request form is displayed in the right pane.
+You can import an email template from other surveys in the same or a different project.
 
-3. Specify the product details as follows:
+1. In the email editor, select **Template** > **Import from** > **Surveys**.
 
-    - **Product**: **Dynamics 365 Customer Engagement**
-    - **Problem type**: **Forms Pro**
-    - **Environment**: Enter or select your Common Data Service environment
+2. Select a either the current project or any other project, select the survey, and then select **Next**.
 
-4. Select **See solutions**.
+3. Select a template, and then select **Import**.
 
-5. Select **Create a support request**, and specify details as follows:
+### Import a personal email template
 
-    - **Issue title**: Customize the From email address to send survey invitations
-    - **Issue description**: Enter your issue description, and provide the domain you want to configure for sending emails. For example, if the website is `www.contososuites.com`, you must provide `contososuites.com` as the domain.
-    - **How severe is this issue?**: Select the severity of the issue.
+If you've been transitioned from Forms Pro, your email templates from Forms Pro are migrated as personal templates in Dynamics 365 Customer Voice. You can then import the required templates in your surveys.
 
-6. Select **Next**.
+1. In the email editor, select **Template** > **Import from** > **My templates**.
 
-7. Enter your contact information, and then select **Submit**. A ticket is created with the Microsoft support team, which will contact you with the following DNS records:
+2. Select a template, and then select **Import**.
 
-    - **Ownership authentication key**: Proves that your organization owns the domain.
+### Create multilingual email templates
 
-    - **Email authentication keys for DKIM**: Prove that Forms Pro is authorized to send messages that show your organization's domain name in the from-address.
+By default, the email template is created in the default language of the survey. If you've added languages to your survey, you can create email template in those languages, and send email in the customer preferred languages. This creates versions of an email template in the selected languages.
 
-8.	After record creation, contact Microsoft support, and provide the following information:
+1. In the email editor, select **Language** > **Add language**.
 
-    - A list of email addresses you want to create, such as  noreply@contososuites.com and support@contososuites.com.
-    - A list of users who will be sending the survey invitations by using the custom email.
+2. Select the languages in which you want to create email template.
 
-    Based on the information provided, Microsoft support will then verify the records and create the DKIM keys for signing the emails. You'll get a confirmation from Microsoft support that the record verification is complete.
+3. From the **Language** list, select a language, and update the email message in the selected language.
 
-    > [!NOTE]
-    > The SLA for creating DKIM keys is minimum 3 to 4 days.
+4. Select **Save**.
 
-10.	Sign in to Forms Pro, and open the **Settings** pane. Select the custom email address that you want to use for sending email.  
+5. Repeat step 3 through 4 to update email message for all the added languages.
 
-    
-    ![Custom email setting](media/custom-email-setting.png "Custom email setting")
+To send survey invitation in a language other than the default, select an email template and the required language, and then send the email.
 
-    Use the custom email while sending the survey invitation.
-
-    
-    ![Custom From email](media/custom-from-email.png "Custom From email")
-
-    > [!NOTE]
-    > In Power Automate, the custom email address is picked from the survey settings.
-
-### Example DNS records
-
-#### TXT record
-
-`TXT name: @`
-`TXT value: msfpkey=abc123abc123abc123abc123`
-
-#### CNAME record
-
-`Host name or Alias: fpeurkey1.\_domainkey`
-`Points to address: fpeurkey1contosocom.d01.formspro.dynamics.com`
-
-### Frequently asked questions
-
-#### Should the email account be a functioning account, or can it be a dummy account?
-
-The email account need not be a functioning account to send emails; however, a mailbox must be configured if the account is expected to receive replies. In most cases, the email address from which survey emails are sent is an unmonitored email account, and need not receive emails.
-
-#### How long does it take for setup to be completed?
-
-It will take a minimum of 3 to 4 days for setup to be completed. After Microsoft support confirms the domain is active, you can start sending survey invitations by using the custom email.
+If you're using Power Automate to send survey invitations, specify the locale in the **Language** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
 
 ### See also
 
-[Work with survey settings](invite-settings.md)<br>
+[Work with survey distribution settings](distribution-settings.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>

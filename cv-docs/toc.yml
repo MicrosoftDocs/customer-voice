@@ -7,12 +7,6 @@
 - name: Transition from Forms Pro
   href: forms-pro-transition.md
 
-- name: Purchase Customer Voice
-  href: purchase.md
-
-- name: Administrator settings for Customer Voice
-  href: admin-settings.md
-
 - name: Design a survey
   items:
   - name: Plan a survey
@@ -57,13 +51,21 @@
   - name: Send a survey by using email
     href: send-survey-email.md
   - name: Send a survey by using Power Automate
+    href: send-survey-flow.md
   - name: Embed a survey in a webpage
+    href: embed-web-page.md
   - name: Send a survey link
+    href: send-survey-link.md
   - name: Send a survey QR code
+    href: send-survey-qrcode.md
   - name: Create a survey invitation
+    href: create-survey-invite.md
   - name: Embed a survey in Power Apps
-  - name: Offer survey incentives
+    href: embed-survey-powerapps.md
+  - name: Customize the sender's email address
+    href: customize-sender-email.md
   - name: View survey invitations
+    href: view-survey-invite.md
 
 - name: Analyze reports
   items:
@@ -71,5 +73,30 @@
   - name: View satisfaction metrics
   - name: View details for each question
   - name: View survey responses
-  - name: Share a report
 
+- name: Developer guide
+  items:
+  - name: Entity reference
+    items:
+    - name: Overview
+      href: developer/entity-reference.md
+    - name: msfp_emailtemplate
+      href: developer/entities/msfp_emailtemplate.md
+    - name: msfp_localizedemailtemplate
+      href: developer/entities/msfp_localizedemailtemplate.md
+    - name: msfp_project
+      href: developer/entities/msfp_project.md
+    - name: msfp_question
+      href: developer/entities/msfp_question.md
+    - name: msfp_questionresponse
+      href: developer/entities/msfp_questionresponse.md
+    - name: msfp_satisfactionmetric
+      href: developer/entities/msfp_satisfactionmetric.md
+    - name: msfp_survey
+      href: developer/entities/msfp_survey.md
+    - name: msfp_surveyinvite
+      href: developer/entities/msfp_surveyinvite.md
+    - name: msfp_surveyresponse
+      href: developer/entities/msfp_surveyresponse.md
+    - name: msfp_unsubscribedrecipient
+      href: developer/entities/msfp_unsubscribedrecipient.md
