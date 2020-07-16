@@ -12,9 +12,9 @@ manager: shujoshi
 
 # Customize the sender's email address
 
-By default, surveys are sent from the `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
+By default, surveys are sent from the `surveys@email.formspro.microsoft.com`<!--Should this be surveys@email.customervoice.microsoft.com?--> email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
 
-Let's say you are an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create two custom email addresses (for example, `noreply@contososuites.com` and `support@contososuites.com`) consisting of your company's domain.
+Let's say you're an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create two custom email addresses (for example, `noreply@contososuites.com` and `support@contososuites.com`) consisting of your company's domain.
 
 **To customize the sender's email address**
 
@@ -25,7 +25,7 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
 3. Specify the product details as follows:
 
     - **Product**: **Dynamics 365 Customer Engagement**
-    - **Problem type**: **Forms Pro**
+    - **Problem type**: **Forms Pro**<!--Is this accurate?-->
     - **Environment**: Enter or select your Common Data Service environment
 
 4. Select **See solutions**.
@@ -42,7 +42,7 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
 
     - **Ownership authentication key**: Proves that your organization owns the domain.
 
-    - **Email authentication keys for DKIM**: Prove that Customer Voice is authorized to send messages that show your organization's domain name in the from-address.
+    - **Email authentication keys for DKIM**: Prove that Dynamics 365 Customer Voice is authorized to send messages that show your organization's domain name in the from-address.
 
 8.	After record creation, contact Microsoft support, and provide the following information:
 
@@ -52,9 +52,9 @@ Let's say you are an owner of a company named Contoso Suites. The company's webs
     Based on the information provided, Microsoft support will then verify the records and create the DKIM keys for signing the emails. You'll get a confirmation from Microsoft support that the record verification is complete.
 
     > [!NOTE]
-    > The SLA for creating DKIM keys is minimum 3 to 4 days.
+    > The SLA for creating DKIM keys is minimum three to four days.
 
-10.	Sign in to Customer Voice, and open the **Distribution** panel. Expand the **Email** section and select the custom email address that you want to use for sending email.  
+10.	Sign in to Dynamics 365 Customer Voice, and open the **Distribution** panel. Expand the **Email** section, and select the custom email address that you want to use for sending email.  
     
     ![Custom email setting](media/custom-email-setting.png "Custom email setting")
 
@@ -85,7 +85,7 @@ The email account need not be a functioning account to send emails; however, a m
 
 ### How long does it take for setup to be completed?
 
-It will take a minimum of 3 to 4 days for setup to be completed. After Microsoft support confirms the domain is active, you can start sending survey invitations by using the custom email.
+It will take a minimum of three to four days for setup to be completed. After Microsoft support confirms the domain is active, you can start sending survey invitations by using the custom email.
 
 ### See also
 

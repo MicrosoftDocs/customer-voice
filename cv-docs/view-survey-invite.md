@@ -12,54 +12,54 @@ manager: shujoshi
 
 # View survey invitations report
 
-A survey invitation record is created for each survey email that's sent, either manually or with Microsoft Power Automate. The survey invitations associated with a survey are available on the **Send** tab.
+A survey invitation record is created for each survey email that's sent, either manually or with Power Automate. The survey invitations associated with a survey are available on the **Send** tab.
 
-The following survey invitation statistics are displayed in the upper part of the page and an **Invites tracking** chart is displayed below the statistics.
+The following survey invitation statistics are displayed in the upper part of the page, and an **Invites tracking**<!--Shubham, can you ask the UI people to change this? It's a violation of the Writing Style Guide to use "invite" for "invitation" (see https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700&topicid=36391).--> chart is displayed below the statistics:
 
-- **Total invites**: Displays the total number of survey invitations sent.
+- **Total invites**<!--Should be "Total invitations".-->: Displays the total number of survey invitations sent.
 
 - **Responses**: Displays the total number of recipients who responded to the survey invitations.
 
-- **Not responded**: Displays the total number of recipients who have not responded to the survey invitations. A distribution of survey invitations by status is displayed in a pie chart. The following statuses are displayed:
+- **Not responded**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:<!--Suggested. If you don't like it, we'll need to write around "statuses" (it can't be plural). -->
 
-    - **Unread**: The survey invitation email is not read.
+    - **Unread**: The survey invitation email wasn't read.
 
-    - **Read**: The survey invitation email is read or opened.
+    - **Read**: The survey invitation email was read or opened.
 
-    - **Opened**: The survey is opened but is not completed yet.
+    - **Opened**: The survey was opened, but hasn't been completed yet.
 
-- **Unsubscribed**: Displays the total number of recipients who have unsubscribed from receiving the survey-related emails.
+- **Unsubscribed**: Displays the total number of recipients who have unsubscribed from receiving survey-related emails.
 
-- **Failed**: Displays the total number of survey invitations that were not delivered to the recipients due to an incorrect email address or any other error.
+- **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
 
 ![Survey invitation report](media/invite-report.png "Survey invitation report")
 
 ## View invitation details
 
-You can view details of an invite statistic by selecting **Details** in the upper-right corner of the statistic tile. For example, if you want to see details of total invites, select **Details** on the **Total invites** tile.
+You can view details of an invitation statistic by selecting **Details** in the upper-right corner of the statistic tile. For example, if you want to see details about the total number of invitations, select **Details** on the **Total invites** tile.
 
 ![Survey invitation details button](media/invite-details.png "Survey invitation details button")
 
-The details are displayed in a panel on the right-side of the page.
+The details are displayed in a panel on the right side of the page.
 
 ![Survey invitation details displayed in a panel](media/total-invites.png "Survey invitation details displayed in a panel")
 
 ## Export invitation details
 
-You can export invitation details to a CSV file either from the statistic file of the invitation details panel. 
+You can export invitation details to a CSV file either from the statistic tile or the invitation details panel.<!--Edit okay?-->
 
 **To export invitation details from the statistic tile**
 
-1. In the statistic tile, select the ellipsis button, and then select **Export**.
+1. In the statistic tile, select the vertical ellipsis ![ellipsis](media/project-options.png "ellipsis"),<!--Edit okay? If this ellipsis has a tooltip, we should use that for the alt text.--> and then select **Export**.
 
     ![Survey invitation export button](media/export-invites-tile.png "Survey invitation export button")
 
-2. Select **Export** in the confirmation dialog box.
+2. In the confirmation dialog box, select **Export**.
 
 **To export invitation details from the invite details panel**
 
-1. Select **Export** in the invite details panel.
+1. In the invitation details panel, select **Export**.
 
-    ![Survey invitation export from invite details panel](media/export-invites-panel.png "Survey invitation export from invite details panel")
+    ![Survey invitation export from the invitation details panel](media/export-invites-panel.png "Survey invitation export from the invitation details panel")
 
-2. Select **Export** in the confirmation dialog box.
+2. In the confirmation dialog box, select **Export**.
