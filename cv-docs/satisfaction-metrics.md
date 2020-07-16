@@ -29,7 +29,7 @@ Dynamics 365 Customer Voice includes support for adding the following standardiz
 
 Satisfaction metrics are defined at the project level. If you create a project from one of the ready-to-use project templates in Dynamics 365 Customer Voice<!--Suggested, just to emphasize that these are new.-->, satisfaction metrics are already created and mapped to survey questions. However, you can add more metrics as needed. If you create a project from the **Blank** project template, you need to add satisfaction metrics and map them to the questions.
 
-After you've received responses to your survey, a dashboard is created automatically for each set of metrics, showcasing recent scores and trends. The dashboard is available on the **Reports** tab in the left pane<!--Via Writing Style Guide.-->.
+After you've received responses to your survey, a dashboard is created automatically for each set of metrics, showcasing recent scores and trends. The dashboard is available under the **Reports** section in the left pane<!--Via Writing Style Guide.-->.
 
 **To add satisfaction metrics**
 <!--Took the H2 away to be parallel with other topics. Also, please note that all these graphics are much bigger than they need to be.-->

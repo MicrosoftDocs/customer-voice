@@ -70,9 +70,11 @@
 - name: Analyze reports
   items:
   - name: Overview
-  - name: View satisfaction metrics
-  - name: View details for each question
-  - name: View survey responses
+    href: about-reports.md
+  - name: View satisfaction metrics report
+    href: satisfaction-metrics-report.md
+  - name: View survey report
+    href: survey-report.md
 
 - name: Developer guide
   items:

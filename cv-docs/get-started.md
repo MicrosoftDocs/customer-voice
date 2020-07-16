@@ -27,7 +27,7 @@ Two other tabs are available in Dynamics 365 Customer Voice&mdash;**Home** and *
 
 ## Sign up for the Dynamics 365 Customer Voice trial
 
-Dynamics 365 Customer Voice will be generally available on August 10, 2020. To try Dynamics 365 Customer Voice, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice.
+Dynamics 365 Customer Voice will be generally available by end of August 2020. To try Dynamics 365 Customer Voice, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice.
 
 1. Open [https://customervoice.microsoft.com](https://customervoice.microsoft.com/) in a web browser.
 
