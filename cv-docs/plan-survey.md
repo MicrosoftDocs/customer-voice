@@ -60,7 +60,7 @@ For any questions or assistance, please contact Microsoft support.
 
 ## Survey, question, response, and character limits
 
-Customer Voice has a limit on the number of surveys you can create, number of questions you can add per survey, and number of responses a survey can receive. The limits are:
+Dynamics 365 Customer Voice has a limit on the number of surveys you can create, number of questions you can add per survey, and number of responses a survey can receive. The limits are:
 
 - Number of surveys that can be created by a user: 200
 - Number of questions allowed per survey: 100

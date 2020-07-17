@@ -10,7 +10,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# About reports in Dynamics 365 Customer Voice
+# About reports
 
 After you receive responses to your survey, you can view and analyze your survey results under the **Reports** section in the left pane. You can browse through the combined responses to a survey in a graphical format or view individual response given by each respondent. You can export survey results to a CSV file for more in-depth analysis, and delete the responses that aren't needed anymore. More information: [View survey responses report](survey-report.md)
 
