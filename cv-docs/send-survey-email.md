@@ -44,7 +44,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 > [!NOTE]
 > - You can send a survey invitation to a maximum of 10,000 recipients.
-> - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email).
+> - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email.md).
 
 
 <a name="import-recipients"></a>
