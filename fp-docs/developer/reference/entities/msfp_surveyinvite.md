@@ -601,7 +601,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Stores other survey invitation properties in JSON format.|
+|Description|Stores other survey invitation properties in JSON array format. As a fallback mechanism to prevent data loss, in case of failure during contact creation, the list of contact and activity party objects are kept preserved in other properties field.|
 |DisplayName|Other properties|
 |Format|Text|
 |IsLocalizable|False|
