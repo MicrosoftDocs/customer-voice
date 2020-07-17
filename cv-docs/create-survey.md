@@ -12,13 +12,13 @@ manager: shujoshi
 
 # Create a survey
 
-A survey is created automatically when you create a project (either from out-of-the-box templates or blank). You can also create a survey within a project. After it's created, you can add&mdash;or edit&mdash;questions<!--Suggested, because "add or edit questions to it" is a bit awkward.--> and customize the survey<!--Suggested.--> the way you want. More information: [Create a project](create-project.md)
+A survey is created automatically when you create a project (either from out-of-the-box templates or blank). You can also create a survey within a project. After it's created, you can add&mdash;or edit&mdash;questions and customize the survey the way you want. More information: [Create a project](create-project.md)
 
 ## Create a survey within a project
 
 1. Open the project in which a survey needs to be created.
 
-2. In the left pane<!--Via Writing Style Guide-->, select **New survey**.
+2. In the left pane, select **New survey**.
 
 3. Select the default survey title, and then enter a title for your survey. You can also enter an optional description for it.
 
@@ -48,7 +48,7 @@ A survey is created automatically when you create a project (either from out-of-
 
 ## Set visibility of a question
 
-By default, every question in a survey is visible to respondents. You can choose to hide a question by default, and then show it based on logic that you define by creating a branching rule.<!--Suggested. "A logic" doesn't quite work here.--> To hide a question from being displayed in a survey, select the question, and then turn off the **Visible** toggle.
+By default, every question in a survey is visible to respondents. You can choose to hide a question by default, and then show it based on logic that you define by creating a branching rule. To hide a question from being displayed in a survey, select the question, and then turn off the **Visible** toggle.
 
 ![Set visibility of a question](media/ques-visibility.png "Set visibility of a question")
 
@@ -68,7 +68,7 @@ You can add an image, such as logo, to your survey header. When you add an image
 
 3. In the **Insert logo** panel, select **Upload**.
 
-4. Find the image<!--The Writing Style Guide says to use "browse" to describe going from place to place on the internet. If you don't like this edit (I don't either!), please make it "Browse to the image..."-->, and then upload it.
+4. Find and select the image by using your file browser, and then upload it.
 
 ## Add a media to a question
 
@@ -84,7 +84,7 @@ You can add an image or video to a question in your survey. This helps your resp
 
     1. Select **Upload**.
     
-    2. Find the image, and then upload it.
+    2. Find and select the image by using your file browser, and then upload it.
 
 5. To add a video, select **Video**.
 

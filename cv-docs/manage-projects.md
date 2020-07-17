@@ -1,6 +1,6 @@
 ---
-title: "Manage existing projects | MicrosoftDocs"
-description: "Instructions for managing existing projects with Dynamics 365 Customer Voice"
+title: "Manage projects | MicrosoftDocs"
+description: "Instructions for managing projects with Dynamics 365 Customer Voice"
 ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
@@ -10,9 +10,9 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Manage existing projects
-<!--Is there a reason to use "existing" in the title? Recommend deleting it. You have "Create a project" and "manage a project"; there's no management you can do before the project exists.-->
-After<!--Via Writing Style Guide--> you've created the projects you need<!--note from editor: In several instances I've replaced "required" with a more user-focused phrase. These are suggested, "just sounds better" edits. "Required" is perfectly fine, but it's rather formal and it implies that the necessity comes from some outside authority.-->, they're available on the **All projects** tab. The following information is displayed:
+# Manage projects
+
+After you've created the projects you need, they're available on the **All projects** tab. The following information is displayed:
 
 - **Name**: The name of the project.
 - **Modified date**: The date on which the project was modified.
@@ -31,7 +31,7 @@ You can perform the following actions:
 
 1. Sign in to Dynamics 365 Customer Voice.
 
-2. On the **All projects** tab, hover over the project you want to rename<!--note from editor: Similar to the edits to "required," these suggested edits are meant to make the text more user-directed and less formal.-->, select vertical ellipsis ![Project options](media/project-options.png "Project options"), and then select **Rename**.
+2. On the **All projects** tab, hover over the project you want to rename, select vertical ellipsis ![Project options](media/project-options.png "Project options"), and then select **Rename**.
 
 3. In the **Rename Project** dialog box, enter a new name, and then select **Rename**.
 
@@ -44,9 +44,9 @@ You can create a copy of your project in the same environment or a different env
 **What's copied to the new project?**
 
 - **Surveys**: Surveys, along with their customizations, are copied as a new instance to the new project.
-- **Satisfaction metrics**: All satisfaction metrics that were configured for their respective questions<!--Suggested.--> are copied to the new project. The satisfaction metrics retain their mappings with the questions in the newly created surveys.<!--Suggested, to reduce redundancy.--> 
+- **Satisfaction metrics**: All satisfaction metrics that were configured for their respective questions are copied to the new project. The satisfaction metrics retain their mappings with the questions in the newly created surveys. 
 - **Power Automate flows**: All the Power Automate flows configured for the project are copied to the new project.
-- **Email templates**: All<!--Edit okay? To be parallel.--> email templates configured for the surveys are copied to the new project.
+- **Email templates**: All email templates configured for the surveys are copied to the new project.
 
 **What isn't copied to the new project?**
 
@@ -56,13 +56,13 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
 1. Sign in to Dynamics 365 Customer Voice.
 
-2. On the **All projects** tab, hover over the project you want to copy, select ![Project options](media/project-options.png "Project options")<!--Via Writing Style Guide, once you define the ellipsis button you just use the graphic by itself. This is something I'd forgotten.-->, and then select **Copy**.
+2. On the **All projects** tab, hover over the project you want to copy, select ![Project options](media/project-options.png "Project options"), and then select **Copy**.
 
     The **Copy project to** screen is displayed.
 
-3. Do one of the following:<!--Since this is a fork in the procedure, you don't want sequential numbers for the next two steps.-->
+3. Do one of the following:
 
-   - To copy your project in the same environment you're currently working in, select the environment listed in the **Current location** section.<!--Or "...select the environment listed under **Current location**." -->
+   - To copy your project in the same environment you're currently working in, select the environment listed under **Current location**.
 
       ![Copy your project in the same environment](media/copy-project-current.png "Copy your project in the same environment")
 
@@ -94,7 +94,7 @@ If a project contains responses, only those responses that are received after th
 
 2. On the **All projects** tab, hover over the project you want to share, select ![Project options](media/project-options.png "Project options"), and then select **Share**.
 
-3. In the **Share** panel, on the **Share** tab, <!--Please see the note about "browse" in create-survey.md.-->select the name of the user from the **Share with** list. You can select multiple users.
+3. In the **Share** panel, on the **Share** tab, select the name of the user from the **Share with** list. You can select multiple users.
 
     ![Share a project](media/share-project.png "Share a project")
 

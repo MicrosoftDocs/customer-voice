@@ -1,6 +1,6 @@
 ---
-title: "Manage existing surveys | MicrosoftDocs"
-description: "Instructions for managing existing surveys with Dynamics 365 Customer Voice"
+title: "Manage surveys | MicrosoftDocs"
+description: "Instructions for managing surveys with Dynamics 365 Customer Voice"
 ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
@@ -10,8 +10,8 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Manage existing surveys
-<!--Recommend deleting "existing" from this title. Please see manage-projects.md for my reasoning and also some general observations about edits that I'm suggesting.-->
+# Manage surveys
+
 After you've created one or more surveys within a project, you can perform the following actions:
 
 - **Copy**: Create a copy your survey in the same or different project in the same environment.
@@ -57,7 +57,7 @@ The survey, along with its customizations, is copied as a new survey.
 
 ## Move a survey
 
-You can move a survey to a different project in the same environment. This helps you group similar surveys in one project.<!--Suggested.-->
+You can move a survey to a different project in the same environment. This helps you group similar surveys in one project.
 
 **What's moved with the survey?**
 
