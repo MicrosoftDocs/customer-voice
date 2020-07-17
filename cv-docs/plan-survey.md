@@ -42,7 +42,7 @@ A few best practices enable you to create a meaningful survey and gather good re
 
 A few best practices enable you to create an effective high-volume survey using Customer Voice:
 
-- Make sure that you create the survey in a non-default environment. Dynamics 365 Customer Voice (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
+- Make sure that you create the project in a non-default environment. Dynamics 365 Customer Voice (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
 
   **Recommendation**: [Create a project](create-project.md) in your existing production Common Data Service environment, or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
