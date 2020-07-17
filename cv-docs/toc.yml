@@ -76,6 +76,9 @@
   - name: View survey report
     href: survey-report.md
 
+- name: Connect Dynamics 365 Customer Voice with your environment
+  href: connect-environment.md
+
 - name: Developer guide
   items:
   - name: Entity reference

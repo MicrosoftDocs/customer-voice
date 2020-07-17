@@ -27,7 +27,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
-    - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created. <!-- Shubham  More information: [Work with environments](choose-environment.md) -->
+    - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created.
     - Uploading a CSV file by selecting **Upload contacts**. More information: [Upload contacts from a CSV file](#import-recipients)
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  

@@ -14,8 +14,6 @@ manager: shujoshi
 
 It's important to have a plan for creating your surveys. Here are a few things to think about when you're creating surveys:
 
--   How do you want to collaborate? For example, do you want to share the survey as a template or invite other people to collaborate?
-
 -   What's the purpose of your survey? For example, you might want to interact with your customers, promote new products or services, or measure customer satisfaction. If your goal is to measure something, what and how do you want to measure it?
 
 -   How long do you want the survey to be? Keep in mind that longer surveys tend to have higher abandon rates. A good rule of thumb is to keep surveys shorter than five minutes, or no longer than 10 questions (depending on the type of questions you ask).
@@ -44,15 +42,15 @@ A few best practices enable you to create a meaningful survey and gather good re
 
 A few best practices enable you to create an effective high-volume survey using Customer Voice:
 
-- Make sure that you create the survey in a non-default environment. Microsoft Forms Pro (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
+- Make sure that you create the survey in a non-default environment. Dynamics 365 Customer Voice (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
 
-  **Recommendation**: [Switch the environment](https://docs.microsoft.com/forms-pro/change-environment) to your existing production Common Data Service environment, or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+  **Recommendation**: [Create a project](create-project.md) in your existing production Common Data Service environment, or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
 - When you're sending a non-anonymous survey, avoid sending a large number of invitations through Power Automate at the same time. Sending more than eight individual survey invitations per minute might result in processing delays.
 
   **Recommendations:**
-  - To send a large batch of invitations at once, use email. More information: [Send a survey by using email](https://docs.microsoft.com/forms-pro/send-survey-email) 
-  - Customize the sender's email address to help recipients identify the survey with your company and improve the survey response rate. More information: [Customize sender email address](https://docs.microsoft.com/forms-pro/send-survey-email#customize-sender-email-address)
+  - To send a large batch of invitations at once, use email. More information: [Send a survey by using email](send-survey-email.md) 
+  - Customize the sender's email address to help recipients identify the survey with your company and improve the survey response rate. More information: [Customize sender email address](customize-sender-email.md)
 
 - When using Power Automate to automate survey response processing or follow-up, be sure to create the workflow by using the account that has the capacity to run the projected workflow volume.
 
@@ -76,8 +74,6 @@ Customer Voice has a limit on the number of surveys you can create, number of qu
 
 ### See also
 
-[Create a survey](create-survey.md)<br>
+[Create a project](create-project.md)<br>
 [Send a survey to get responses](send-survey.md) <br>
-[Collaborate on a survey](collaborate-survey.md) <br>
-[Analyze responses and invitations](analyze-responses-invites.md) <br>
-[Work with environments](choose-environment.md)<br>
+[Connect Dynamics 365 Customer Voice with your environment](connect-environment.md)<br>

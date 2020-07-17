@@ -32,6 +32,8 @@ A survey is created automatically when you create a project (either from out-of-
 
     ![Select a question type](media/more-questions.png "Select a question type")
 
+    More information on available question types: [Available question types](available-question-types.md)
+
 2. Select the type of question you want to add. For example, **Choice**.
 
 3. Enter the question text and its answer options. 
