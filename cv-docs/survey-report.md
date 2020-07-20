@@ -11,7 +11,7 @@ manager: shujoshi
 ---
 
 # View survey responses reports
-<!--Or "View a survey reponses report"-->
+<!--Or "View a survey response report"-->
 A survey response record is created after a respondent (tracked and anonymous) submits a survey. To see survey responses, open the project, and select the survey name in the **Reports** section in the left pane. A graphical representation of the responses is displayed.
 
 ![Survey reports](media/survey-report.png "Survey reports")
