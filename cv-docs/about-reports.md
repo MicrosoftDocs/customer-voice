@@ -12,7 +12,7 @@ manager: shujoshi
 
 # About reports
 
-After you receive responses to your survey, you can view and analyze your survey results under the **Reports** section in the left pane. You can browse through the combined responses to a survey in a graphical format or view individual response given by each respondent. You can export survey results to a CSV file for more in-depth analysis, and delete the responses that aren't needed anymore. More information: [View survey responses report](survey-report.md)
+After you receive responses to your survey, you can view and analyze survey results in the **Reports** section in the left pane. You can browse through the combined responses shown<!--Suggested.--> in a graphical format or view individual responses given by each respondent. You can export survey results to a CSV file for more in-depth analysis, and you can delete the responses that you don't need<!--Suggested. If you don't like adding "you can," there shouldn't be a comma.--> anymore. More information: [View survey responses report](survey-report.md)
 
 ![Survey reports](media/survey-report.png "Survey reports")
 

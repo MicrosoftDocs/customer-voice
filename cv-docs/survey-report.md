@@ -10,9 +10,9 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# View survey responses report
-
-A survey response record is created after a respondent (tracked and anonymous) submits a survey. To see survey responses, open the project, and select the survey name under the **Reports** section in the left pane. A graphical representation of the responses is displayed.
+# View survey responses reports
+<!--Or "View a survey response report"-->
+A survey response record is created after a respondent (tracked and anonymous) submits a survey. To see survey responses, open the project, and select the survey name in the **Reports** section in the left pane. A graphical representation of the responses is displayed.
 
 ![Survey reports](media/survey-report.png "Survey reports")
 
@@ -20,13 +20,13 @@ A survey response record is created after a respondent (tracked and anonymous) s
 
 You can view individual responses to each question in a survey submitted by a respondent (tracked and anonymous).
 
-To view individual responses:
+**To view individual responses**
 
 1. Open the project.
 
-2. In the left pane, select the survey name under the **Reports** section.
+2. In the left pane, select the survey name in the **Reports** section.
 
-3. Select **Respondents** at the right side of the page. The respondents are displayed in the **Respondents** panel on the right side of the page.
+3. Select **Respondents** at the right side of the page. The respondents are displayed in the **Respondents** panel.
 
     ![Respondents panel](media/respondents-panel.png "Respondents panel")
 
@@ -36,8 +36,8 @@ To view individual responses:
 
 ## Export survey responses
 
-To export survey responses, select **Export All** at the upper-right corner of the report. The responses are downloaded in a CSV file.
+To export survey responses, select **Export All** in the upper-right corner of the report. The responses are downloaded in a CSV file.
 
 ## Delete a survey response
 
-You can delete a response you don't need anymore. To delete a survey response, open the individual survey response from the **Respondents** panel, and select **Delete**.
+You can delete a response you don't need anymore. To delete a survey response, open the individual survey response from the **Respondents** panel, and then select **Delete**.
