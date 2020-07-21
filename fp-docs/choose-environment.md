@@ -32,7 +32,7 @@ When you install the Forms Pro app, an application user named Microsoft Forms Pr
 > [!NOTE]
 > - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Forms Pro entities are already installed in these organizations.
 > - A default environment is based on Common Data Service. Before planning a large scale deployment, see [service protection API limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits). To learn more about the default environment, see [default environment](https://docs.microsoft.com/power-platform/admin/environments-overview#the-default-environment).
-> - You must not delete Forms Pro data from Common Data Service. If you delete any data from Common Data Service, it is not synchronized with Forms Pro services. 
+> - You must not delete Forms Pro data directly from Common Data Service. If you delete any data directly from Common Data Service, it is not synchronized with Forms Pro services.
 
 ## Privileges required
 
