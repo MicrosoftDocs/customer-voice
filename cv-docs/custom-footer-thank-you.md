@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Customize footer text and thank-you message
 
-Footer text is displayed at the bottom of every page in a survey. A thank-you message is displayed to respondents after they submit a survey.<!--Suggested.--> Default content is available for both the footer text and thank-you message; however, you can add your own content to customize them in accordance with your requirements.
+Footer text is displayed at the bottom of every page in a survey. A thank-you message is displayed to respondents after they submit a survey. Default content is available for both the footer text and thank-you message; however, you can add your own content to customize them in accordance with your requirements.
 
 You can add formatting to the footer text and thank-you message by changing their font style, font size, and color. You can also add a link to the message by selecting **Link** on the formatting toolbar and then adding the link through the link editor. More information: [Format text in a survey](survey-text-format.md)
 

@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Preview and test a survey
 
-Before you send a survey to respondents, you must preview it. Previewing ensures that the survey is working as you've designed it. If you find anything that doesn't work<!--Suggested.--> as designed, you can go back to the survey editor and make changes as required. While previewing the survey, you can also answer the questions and navigate through the survey as your respondents would do. If you've created branching rules, this would be a good time to preview and test them<!--Suggested.--> to ensure everything is working as expected.
+Before you send a survey to respondents, you must preview it. Previewing ensures that the survey is working as you've designed it. If you find anything that doesn't work as designed, you can go back to the survey editor and make changes as required. While previewing the survey, you can also answer the questions and navigate through the survey as your respondents would do. If you've created branching rules, this would be a good time to preview and test them to ensure everything is working as expected.
 
 **To preview and test a survey**
 

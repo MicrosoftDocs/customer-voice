@@ -97,7 +97,7 @@ After adding translations for all languages, you can preview the survey to see w
 
 ## Manage translations  
 
-After adding translations for the required languages in your survey, you can <!--Deleted "either" because you don't have to do either if you don't want to, correct?-->edit the existing translation or delete a language.
+After adding translations for the required languages in your survey, you can edit the existing translation or delete a language.
 
 1.	Open the multilingual survey.
 

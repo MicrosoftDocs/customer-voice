@@ -14,9 +14,9 @@ manager: shujoshi
 
 A *project* is a container that consists of surveys, satisfaction metrics, Power Automate flows, and reports. You can create, distribute, and analyze a survey by creating a project. You can create a project by using a ready-to-use template or by using a blank template to create the project from scratch.
 
-Dynamics 365 Customer Voice offers ready-to-use feedback project templates that include survey questions, workflows, and relevant reports. Each project template includes survey questions based on industry best practices, and preconfigured satisfaction metrics and workflows for Dynamics 365 business applications. The available project templates are:<!--Edits here and below: Suggested, to avoid the duplicate wording.-->
+Dynamics 365 Customer Voice offers ready-to-use feedback project templates that include survey questions, workflows, and relevant reports. Each project template includes survey questions based on industry best practices, and preconfigured satisfaction metrics and workflows for Dynamics 365 business applications. The available project templates are:
 
-- **Customer pulse**, based on Forrester Research customer experience<!--Via Writing Style Guide, you don't have to supply an acronym if you don't use it again.--> best practices and including questions to collect customer sentiment at regular intervals.
+- **Customer pulse**, based on Forrester Research customer experience best practices and including questions to collect customer sentiment at regular intervals.
 
 - **Order delivery** to collect timely feedback after an order is delivered. It also includes a workflow to automate sending a survey after the order is complete. The survey is sent to the customer, and the response is automatically integrated with the order and customer records.
 
@@ -36,11 +36,11 @@ Creating a project from a template helps you quickly get started with little or 
 
     ![New project button](media/new-project-button.png "New project button") 
 
-     The **Project template** page is displayed with the available project templates.<!--I don't mean to be insulting, but your name isn't actually on the list of allowed names. I think it might be best to either blur it out or just slide the text over so the greeting says "Hello! What kind of feedback do you want to collect?" -->
+     The **Project template** page is displayed with the available project templates.
 
      ![Available project templates](media/project-templates.png "Available project templates") 
 
-3. To see the survey questions in a project template, hover over the template, and then select **Preview** ![Preview](media/preview-icon.png).<!--This is how the style guide prefers that we refer to icons. What do you think about using this graphic?-->
+3. To see the survey questions in a project template, hover over the template, and then select **Preview** ![Preview](media/preview-icon.png).
 
     ![Preview a project template](media/project-template-preview-button.png "Preview a project template") 
 
@@ -54,7 +54,7 @@ Creating a project from a template helps you quickly get started with little or 
 
 7. On the **Survey location** page, select **Create**.
 
-The project will be created with survey questions, satisfaction metrics, and Power Automate flows. You can further configure the survey to meet your needs, or [send it as-is](send-survey.md).<!--Edit okay? Somehow I found "continue with distributing" a bit confusing-->
+The project will be created with survey questions, satisfaction metrics, and Power Automate flows. You can further configure the survey to meet your needs, or [send it as-is](send-survey.md).
 
 ## Create a project from the blank template
 

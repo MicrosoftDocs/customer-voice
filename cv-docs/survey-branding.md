@@ -12,13 +12,13 @@ manager: shujoshi
 
 # Add branding to a survey
 
-You can customize the appearance of your survey to match your company's branding. This includes changing the color, font, background image, or uploading a custom CSS<!--note from editor: Style Guide says to spell out "unless the abbreviation is familiar to your audience." I think it probably is, do you agree?--> file.
+You can customize the appearance of your survey to match your company's branding. This includes changing the color, font, background image, or uploading a custom CSS file.
 
 **To add branding to a survey**
 
 1. Open the survey.
 
-2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Branding**.<!--note from editor: Here and throughout, I don't think these graphics need to be so big. -->
+2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Branding**.
 
    ![Branding menu item](media/branding-button.png "Branding menu item")
 
@@ -30,15 +30,15 @@ You can customize the appearance of your survey to match your company's branding
 
 ## Theme color
 
-You can select a color to apply to various survey elements such as the survey header, question area, background, footer, and buttons. This lets you customize the look and feel of your survey so it better matches your company's brand.<!--note from editor: Suggested.-->
+You can select a color to apply to various survey elements such as the survey header, question area, background, footer, and buttons. This lets you customize the look and feel of your survey so it better matches your company's brand.
 
-- Expand the **Theme color** section, and then do one of the following:<!--note from editor: I tried to follow the established pattern for procedure formatting. I'm sure users will understand what you're saying, but I think the "loose" paragraphs (without any structure) aren't as clear a signal that a step-by-step procedure is about to appear.-->
+- Expand the **Theme color** section, and then do one of the following:
 
   - Select the default color to open the color picker, and then choose a color.
 
     ![Choose a color from the color picker](media/color-picker.png "Choose a color from the color picker")
 
-  - Enter a hexadecimal<!--note from editor: Via Writing Style Guide.--> code in the **HEX #** field.
+  - Enter a hexadecimal code in the **HEX #** field.
 
     ![Enter a hexadecimal code](media/hex-code.png "Enter a hexadecimal code")
 
@@ -58,7 +58,7 @@ You can also change font style, font size, and the color of the text for individ
 
 ## Background
 
-You can select a background image for the survey.<!--note from editor:  -->
+You can select a background image for the survey.
 
 <!-- Shubham: Mention image limitations, like size, type, etc. -->
 
@@ -76,7 +76,7 @@ You can select a background image for the survey.<!--note from editor:  -->
 
 ## Customize CSS
 
-You can change the look and feel of your survey beyond the available branding options by using a custom CSS file. You can either create a CSS file on your own and then upload it<!--Edit okay?--> or download a sample CSS file, edit it, and then upload the file.
+You can change the look and feel of your survey beyond the available branding options by using a custom CSS file. You can either create a CSS file on your own and then upload it or download a sample CSS file, edit it, and then upload the file.
 
 **To download a sample CSS file**
 

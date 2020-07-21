@@ -20,13 +20,13 @@ For example, for the question **How likely is it that you would recommend us to 
 
 **To create a branching rule**
 
-1. Open the survey.<!--note from editor: I didn't make this edit before, but these phrases that repeat the procedure heading are simply extra words once you see the procedure heading. If you don't like this as a step, it could be reworded as "In the survey on the **Design** tab, select **Customization** at the right side of the page, and then select **Branching**...-->
+1. Open the survey.
 
-2. On the **Design** tab, select **Customization** at the right side<!--No hyphen, via Writing Style Guide. I think I missed this previously, if so please excuse.--> of the page, and then select **Branching**.
+2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Branching**.
 
    ![Branching menu item](media/branching-menu.png "Branching menu item")
 
-    If you haven't created any rules yet<!--Suggested.-->, the following message is displayed. Select **Customize**.
+    If you haven't created any rules yet, the following message is displayed. Select **Customize**.
 
     ![Customize survey flow button](media/customize-survey-flow-button.png "Customize survey flow button") 
 

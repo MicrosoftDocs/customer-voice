@@ -12,27 +12,27 @@ manager: shujoshi
 
 # Add and configure satisfaction metrics
 
-Organizations use various metrics to determine the effectiveness of the experiences they provide to their customers. They track a subset of these metrics daily, and this forms the basis for measuring their performance. These metrics, called *satisfaction metrics*, are measurement systems you can use to measure your customer experience. This ensures that the data you collect through surveys can be analyzed successfully, and you can make decisions accordingly.<!--All edits this paragraph: Suggested.-->
+Organizations use various metrics to determine the effectiveness of the experiences they provide to their customers. They track a subset of these metrics daily, and this forms the basis for measuring their performance. These metrics, called *satisfaction metrics*, are measurement systems you can use to measure your customer experience. This ensures that the data you collect through surveys can be analyzed successfully, and you can make decisions accordingly.
 
 Dynamics 365 Customer Voice includes support for adding the following standardized satisfaction metrics and mapping them to survey questions:
 
-- **Net Promoter Score<!--I see that the trademark "bug" is used in the UI, but unless required by a mandate from CELA, we don't use trademark bugs for anything on docs. Please see https://microsoft.sharepoint.com/sites/celaweb-copyrights-trademarks-and-patents/sitepages/trademarks-trademark-list-and-usage.aspx--> (NPS)**: NPS is a metric used to measure customer loyalty. The score is calculated from the NPS-type question by using a scale from 0 through 10.<!--Writing Style Guide wants us to use "from x through y" to indicate a range.--> The respondents are grouped as follows:
+- **Net Promoter Score (NPS)**: NPS is a metric used to measure customer loyalty. The score is calculated from the NPS-type question by using a scale from 0 through 10. The respondents are grouped as follows:
   - **Detractors** are those who respond with a score from 0 through 6.
-  - **Passives** are those who respond with a score of 7 or 8.<!--Edit okay? I assume you can't choose 7.5 (for example).-->
-  - **Promoters** are those who respond with a score of 9 or 10.<!--Edit okay? -->
+  - **Passives** are those who respond with a score of 7 or 8.
+  - **Promoters** are those who respond with a score of 9 or 10.
 
   NPS is calculated by subtracting the percentage of detractors from the percentage of promoters. The score is a number that can range from &ndash;100 to 100.
 
-- **Sentiment**: Sentiment is a metric used to identify customer sentiment<!--Suggested.--> toward<!--Via Writing Style Guide.--> a product or a service. Sentiment groups the responses to a text-based question<!--Suggested.--> as positive, negative, or neutral.
+- **Sentiment**: Sentiment is a metric used to identify customer sentiment toward a product or a service. Sentiment groups the responses to a text-based question as positive, negative, or neutral.
 
 - **Customer Satisfaction (CSAT)**: CSAT is a metric used to measure the level of satisfaction customers have with a product or a service. CSAT is measured by responses to rating-type questions.  
 
-Satisfaction metrics are defined at the project level. If you create a project from one of the ready-to-use project templates in Dynamics 365 Customer Voice<!--Suggested, just to emphasize that these are new.-->, satisfaction metrics are already created and mapped to survey questions. However, you can add more metrics as needed. If you create a project from the **Blank** project template, you need to add satisfaction metrics and map them to the questions.
+Satisfaction metrics are defined at the project level. If you create a project from one of the ready-to-use project templates in Dynamics 365 Customer Voice, satisfaction metrics are already created and mapped to survey questions. However, you can add more metrics as needed. If you create a project from the **Blank** project template, you need to add satisfaction metrics and map them to the questions.
 
-After you've received responses to your survey, a dashboard is created automatically for each set of metrics, showcasing recent scores and trends. The dashboard is available under the **Reports** section in the left pane<!--Via Writing Style Guide.-->.
+After you've received responses to your survey, a dashboard is created automatically for each set of metrics, showcasing recent scores and trends. The dashboard is available under **Reports** in the left pane.
 
 **To add satisfaction metrics**
-<!--Took the H2 away to be parallel with other topics. Also, please note that all these graphics are much bigger than they need to be.-->
+
 1. Open the survey.
 
 2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Satisfaction metrics**.
@@ -61,7 +61,7 @@ After you've received responses to your survey, a dashboard is created automatic
 
 **To edit satisfaction metrics**
 
-After you've created the satisfaction metrics you need, you can edit their details or delete the ones that you don't need.<!--Suggested.-->
+After you've created the satisfaction metrics you need, you can edit their details or delete the ones that you don't need.
 
 1. Open the survey.
 
