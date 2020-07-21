@@ -10,8 +10,8 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# View survey responses reports
-<!--Or "View a survey response report"-->
+# View a survey response report
+
 A survey response record is created after a respondent (tracked and anonymous) submits a survey. To see survey responses, open the project, and select the survey name in the **Reports** section in the left pane. A graphical representation of the responses is displayed.
 
 ![Survey reports](media/survey-report.png "Survey reports")
@@ -36,7 +36,7 @@ You can view individual responses to each question in a survey submitted by a re
 
 ## Export survey responses
 
-To export survey responses, select **Export All** in the upper-right corner of the report. The responses are downloaded in a CSV file.
+To export survey responses, select **Export All** in the upper-left corner of the report. The responses are downloaded in a CSV file.
 
 ## Delete a survey response
 

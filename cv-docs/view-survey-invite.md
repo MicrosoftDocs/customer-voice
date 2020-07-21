@@ -14,13 +14,13 @@ manager: shujoshi
 
 A survey invitation record is created for each survey email that's sent, either manually or with Power Automate. The survey invitations associated with a survey are available on the **Send** tab.
 
-The following survey invitation statistics are displayed in the upper part of the page, and an **Invites tracking**<!--Shubham, can you ask the UI people to change this? It's a violation of the Writing Style Guide to use "invite" for "invitation" (see https://styleguides.azurewebsites.net/StyleGuide/Read?id=2700&topicid=36391).--> chart is displayed below the statistics:
+The following survey invitation statistics are displayed in the upper part of the page, and an **Invites tracking** chart is displayed below the statistics:
 
-- **Total invites**<!--Should be "Total invitations".-->: Displays the total number of survey invitations sent.
+- **Total invites**: Displays the total number of survey invitations sent.
 
 - **Responses**: Displays the total number of recipients who responded to the survey invitations.
 
-- **Not responded**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:<!--Suggested. If you don't like it, we'll need to write around "statuses" (it can't be plural). -->
+- **Not responded**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:
 
     - **Unread**: The survey invitation email wasn't read.
 
@@ -46,11 +46,11 @@ The details are displayed in a panel on the right side of the page.
 
 ## Export invitation details
 
-You can export invitation details to a CSV file either from the statistic tile or the invitation details panel.<!--Edit okay?-->
+You can export invitation details to a CSV file either from the statistic tile or the invitation details panel.
 
 **To export invitation details from the statistic tile**
 
-1. In the statistic tile, select the vertical ellipsis ![ellipsis](media/project-options.png "ellipsis"),<!--Edit okay? If this ellipsis has a tooltip, we should use that for the alt text.--> and then select **Export**.
+1. In the statistic tile, select the vertical ellipsis ![ellipsis](media/project-options.png "ellipsis"), and then select **Export**.
 
     ![Survey invitation export button](media/export-invites-tile.png "Survey invitation export button")
 

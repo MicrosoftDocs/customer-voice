@@ -17,7 +17,7 @@ A QR (Quick Response) code is a type of matrix barcode. You can print the QR cod
 A QR code for your survey contains a direct link to your survey. You can include the QR code on receipts, posters, or any print media to reach your recipients and collect feedback. Recipients can scan the QR code to access the survey.
 
 > [!NOTE]
-> - The survey link generated is a non-personalized link. You won't be able to record the respondent's name and whether the respondent has submitted only one response if **Only people in my organization can respond** is turned off in [distribution settings](distribution-settings.md).<!--This is slightly ambiguous; please see my note in distribution-settings.md, line 125.-->
+> - The survey link generated is a non-personalized link. If the **Only people in my organization can respond** setting is turned off in [distribution settings](distribution-settings.md), you won't be able to record the respondent's name or determine whether the respondent has submitted only one response.
 > - If you've personalized your survey by using variables, they won't be replaced with their values and the variable names will be displayed as-is.
 
 **To send a survey by using a QR code**

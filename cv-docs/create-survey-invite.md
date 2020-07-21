@@ -45,7 +45,7 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
     - **Subject**: Enter the subject of the email.
     - **Body**: Enter the text you want for the body of the email, and add the **Invitation link** dynamic content.
 
-<!--Looks like this graphic (survey-invite-flow.png) is missing. Was that intentional?
+<!-- Shubham: Will update as per flow 
     After entering the required details, the flow looks as shown in the following image:
 -->
 The flow runs in accordance with the configured trigger, and then sends the survey.

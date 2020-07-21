@@ -11,11 +11,11 @@ manager: shujoshi
 ---
 
 # Send a survey link to others
-<!--It looks like this is the name of this topic in the "See also" blocks.-->
+
 If you don't have the email addresses of the people from whom you want to collect feedback, or if you don't want to use the built-in email composer for this purpose, you can easily copy a link to your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey.
 
 > [!NOTE]
-> - The survey link generated is a non-personalized link. You won't be able to record the respondent's name and whether the respondent has submitted only one response if **Only people in my organization can respond** is turned off in [distribution settings](distribution-settings.md).<!--This is slightly ambiguous; please see my note in distribution-settings.md, line 125.-->
+> - The survey link generated is a non-personalized link. If the **Only people in my organization can respond** setting is turned off in [distribution settings](distribution-settings.md), you won't be able to record the respondent's name or determine whether the respondent has submitted only one response.
 > - If you've personalized your survey by using variables, they won't be replaced with their values and the variable names will be displayed as-is.
 
 **To send a survey by using a link**
