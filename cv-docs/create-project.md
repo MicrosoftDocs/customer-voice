@@ -12,9 +12,9 @@ manager: shujoshi
 
 # Create a project
 
-A *project* is a container that consists of surveys, satisfaction metrics, Power Automate flows, and reports. You can create, distribute, and analyze a survey by creating a project. You can create a project by using a ready-to-use template or by using a blank template to create the project from scratch.
+A *project* is a container that consists of surveys, satisfaction metrics, email templates, Power Automate flows, and reports. You can create, distribute, and analyze a survey by creating a project. You can create a project by using a ready-to-use template or by using a blank template to create the project from scratch.
 
-Dynamics 365 Customer Voice offers ready-to-use feedback project templates that include survey questions, workflows, and relevant reports. Each project template includes survey questions based on industry best practices, and preconfigured satisfaction metrics and workflows for Dynamics 365 business applications. The available project templates are:
+Dynamics 365 Customer Voice offers ready-to-use survey feedback project templates. Each project template includes survey questions, preconfigured satisfaction metrics, email templates, and Power Automate flows for Dynamics 365 business applications. The available project templates are:
 
 - **Customer pulse**, based on Forrester Research customer experience best practices and including questions to collect customer sentiment at regular intervals.
 
@@ -58,7 +58,7 @@ The project will be created with survey questions, satisfaction metrics, and Pow
 
 ## Create a project from the blank template
 
-Creating a project from the blank template gives you the freedom to choose survey questions, create satisfaction metrics and Power Automate flows, and customize the survey the way you want.
+Creating a project from the blank template gives you the freedom to choose survey questions, create satisfaction metrics, email templates, and Power Automate flows.
 
 1. Sign in to Dynamics 365 Customer Voice.
 
