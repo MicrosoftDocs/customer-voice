@@ -8,8 +8,14 @@
       "monikers": [],
       "moniker_ranges": [],
       "open_to_public_contributors": false,
+      "xref_query_tags": [
+        "/dotnet",
+        "/dynamics365/customer-engagement/web-api"
+      ],
       "type_mapping": {
-        "Conceptual": "Content"
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
