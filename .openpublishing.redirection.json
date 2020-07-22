@@ -14,6 +14,11 @@
       "source_path": "fp-docs/share-survey-template.md",
       "redirect_url": "collaborate-survey",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "cv-docs/index.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": "false"
     }
   ]
 }

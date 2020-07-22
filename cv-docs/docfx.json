@@ -52,7 +52,10 @@
       ],
       "breadcrumb_path": "breadcrumb/toc.yml",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "searchScope": [
+        "Customer Voice"
+      ]
     },
     "fileMetadata": {},
     "template": [],

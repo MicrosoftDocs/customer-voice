@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/13/2020
+ms.date: 06/17/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
@@ -68,12 +68,11 @@ When your trial experience is downgraded, a message is displayed with an option 
 
 ## Forms Pro availability on US Government Community Cloud
 
-The dependency services used by Forms Pro are available on US Government Community Cloud (GCC). Note the following differences in functionality for Forms Pro on GCC:
+The dependency services used by Forms Pro are available on US Government Community Cloud (GCC). Forms Pro is built on top of Microsoft Forms, so the [limitations of Microsoft Forms features on GCC](https://support.office.com/article/microsoft-forms-features-for-u-s-government-community-cloud-gcc-gcc-high-and-dod-environments-5cbd407a-eef7-431e-8e3a-eb666eab4b4c?ui=en-US&rs=en-US&ad=US) hold true. In addition to those, note the following differences in functionality for Forms Pro on GCC:
 
 - The format of survey responses on the **Responses** tab is slightly different when compared to non-GCC regions. The report can only display up to 50,000 responses. You can create a Power BI report and connect directly to Common Data Service to see all the responses.
 
 - By default, the anonymous sharing of surveys is disabled. A tenant administrator must enable anonymous sharing by selecting the **Send a link to the form and collect responses** check box under **External sharing** in the Microsoft 365 admin center. More information: [Administrator settings for Microsoft Forms](https://support.microsoft.com/en-us/office/administrator-settings-for-microsoft-forms-48161c55-fbae-4f37-8951-9e3befc0248b)
-
 
 - Microsoft Forms Pro on GCC uses your Microsoft Exchange mailbox to send the survey. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
