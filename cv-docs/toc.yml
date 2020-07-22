@@ -79,6 +79,9 @@
 - name: Connect Dynamics 365 Customer Voice with your environment
   href: connect-environment.md
 
+- name: Data flow in Dynamics 365 Customer Voice
+  href: data-flow.md
+
 - name: Developer guide
   items:
   - name: Entity reference
