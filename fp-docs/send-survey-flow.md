@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 01/16/2020
+ms.date: 07/09/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 11ac9528-c0a6-4fe6-9886-d2a4bfaa72f4
@@ -63,7 +63,7 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |To|Email address to send the survey invitation. If you're entering multiple email addresses, separate them by a semicolon.<br>**Note**: The email address should be valid and should not return null.|
 |Survey|Survey to be sent.<br>**Note**: You must select a survey from the list and not enter a custom value.|
 |Email template|Email template to be used while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
-|Regarding|Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field.|
+|Regarding|Record to associate survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** You must enter entity logical name in this field.|
 |Recipient details|Contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field.<br>**Note**: Only the Contact record is supported.|
 |||
 
