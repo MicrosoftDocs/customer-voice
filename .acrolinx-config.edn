@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["^master$"]
- :allowed-filename-matches ["fp-docs"]
+ :allowed-filename-matches ["fp-docs","cv-docs"]
  :acrolinx-check-settings
  {
   "languageId" "en"
