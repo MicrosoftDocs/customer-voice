@@ -36,7 +36,7 @@ The transition experience differs based on the product license you have. This se
 
 **Experience for users with only a Forms Pro license**
 
-If you have only a Forms Pro license and try to sign in to Forms Pro using the [http://forms.office.com](http://forms.office.com) URL, the following message is displayed till August 30, 2020 with a link to go to Dynamics 365 Customer Voice.
+If you have only a Forms Pro license and try to sign in to Forms Pro using the [https://forms.office.com](https://forms.office.com) URL, the following message is displayed till August 30, 2020 with a link to go to Dynamics 365 Customer Voice.
 
 `image`
 

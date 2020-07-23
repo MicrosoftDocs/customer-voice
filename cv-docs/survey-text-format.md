@@ -49,7 +49,7 @@ In the following illustration, custom formatting has been applied to the survey 
 
 ### See also
 
-[Create a new survey](create-new-survey.md)<br>
+[Create a survey](create-survey.md)<br>
 [Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>

@@ -4,7 +4,7 @@
 - name: Get started with Customer Voice
   items:
   - name: Overview  
-    href: get-started.md
+    href: about.md
   - name: Sign up for trial
     href: sign-up-trial.md
   - name: Transition from Forms Pro

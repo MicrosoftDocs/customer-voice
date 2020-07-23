@@ -14,7 +14,7 @@ manager: shujoshi
 
 Branching rules allow you to customize the flow of your survey. You can show or hide questions, choose to navigate to another question or survey, or even open a website based on the response to a question. Branching rules make your surveys interactive and ensure that only relevant questions are displayed to respondents.
 
-If you have hidden a question from being displayed in a survey by using the **Visible** option, you can use the branching rule to display it based on the required response. For more information about setting the visibility for a question, see [Create a new survey](create-new-survey.md).
+If you have hidden a question from being displayed in a survey by using the **Visible** option, you can use the branching rule to display it based on the required response. For more information about setting the visibility for a question, see [Create a survey](create-survey.md).
 
 For example, for the question **How likely is it that you would recommend us to a friend?**, you can create a branching rule to ask the reason if someone responds **Not likely**.
 
@@ -113,7 +113,7 @@ After you've created a branching rule or a set of branching rules, you can edit,
 
 ### See also
 
-[Create a new survey](create-new-survey.md)<br>
+[Create a survey](create-survey.md)<br>
 [Preview and test a survey](preview-test-survey.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>

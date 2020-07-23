@@ -32,7 +32,7 @@ Before you send a survey to respondents, you must preview it. Previewing ensures
 
 ### See also
 
-[Create a new survey](create-new-survey.md)<br>
+[Create a survey](create-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
