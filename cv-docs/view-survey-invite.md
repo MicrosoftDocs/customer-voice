@@ -1,7 +1,7 @@
 ---
 title: "View survey invitations report"
 description: "Instructions for viewing survey invitations report"
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

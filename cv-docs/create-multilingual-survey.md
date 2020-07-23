@@ -1,7 +1,7 @@
 ---
 title: "Create a multilingual survey | MicrosoftDocs"
 description: "Instructions for creating a multilingual survey with Dynamics 365 Customer Voice"
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

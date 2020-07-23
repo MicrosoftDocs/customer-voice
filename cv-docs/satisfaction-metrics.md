@@ -1,7 +1,7 @@
 ---
 title: "Work with satisfaction metrics"
 description: "Instructions for working with satisfaction metrics"
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

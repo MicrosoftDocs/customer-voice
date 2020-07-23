@@ -1,7 +1,7 @@
 ---
 title: "Plan a survey | MicrosoftDocs"
 description: "Instructions for planning a survey with Customer Voice"
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

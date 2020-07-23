@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email"
 description: "Instructions for sending a survey by using email"
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

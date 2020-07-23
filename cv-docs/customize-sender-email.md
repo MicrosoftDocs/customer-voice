@@ -1,7 +1,7 @@
 ---
 title: "Customize the From address of the email"
 description: "Instructions for customizing the From address of the email"
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article

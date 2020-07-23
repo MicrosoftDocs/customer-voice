@@ -1,7 +1,7 @@
 ---
 title: "Format text in a survey"
 description: "Instructions for formatting text in a survey created with Dynamics 365 Customer Voice"
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.service:
   - "dynamics-365-sales"
 ms.topic: article
