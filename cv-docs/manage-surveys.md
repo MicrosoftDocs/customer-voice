@@ -22,7 +22,7 @@ After you've created one or more surveys within a project, you can perform the f
 
 ## Copy a survey
 
-You can create a copy of your survey in the same project or a different project in the same environment. Dynamics 365 Customer Voice gives the new survey the same name as the existing survey and appends `Copy`<!--Intentionally different from the name given when copying a project?--> to it. You can rename the survey if you want.
+You can create a copy of your survey in the same project or a different project in the same environment. Dynamics 365 Customer Voice gives the new survey the same name as the existing survey and appends `Copy` to it. You can rename the survey if you want.
 
 **What's copied to the new survey?**
 
@@ -61,11 +61,11 @@ You can move a survey to a different project in the same environment. This helps
 
 **What's moved with the survey?**
 
-Survey customizations, response data, and associated Power Automate flows are moved along with the survey. 
+Survey customizations, email templates, response data, and associated Power Automate flows are moved along with the survey. 
 
 **What isn't moved with the survey?**
 
-If the destination project doesn't contain satisfaction metrics, metrics aren't moved. If the destination project contains satisfaction metrics, only the metrics contained in the destination project are moved with the survey. The question mappings are removed, and you must add them manually.
+Satisfaction metrics aren't moved to the destination project. Satisfaction metrics in the source project, from which the survey was moved, must be manually deleted or updated to select a question to map.
 
 **To move a survey**
 

@@ -16,13 +16,11 @@ An environment is a space to store, manage, and share your organization's busine
 
 You can create environments for different purposes such as survey development, testing, and production. After developing and testing the survey, you can copy the survey or the project to the production environment.
 
-When you sign in to Dynamics 365 Customer Voice, only the projects that are available in the selected environment are displayed. When you create a project, the project is connected to the selected environment and isn't available in other environments. The invitations and responses are stored in the same environment in which the project was created.
+In  Dynamics 365 Customer Voice, all projects created by you or shared with you across environments are displayed in the **All Projects** tab. When you create a project, the project is connected to the selected environment. The survey data including invitations and responses are stored in the same environment in which the project is created. You select an environment during [project creation](create-project.md). You can copy a project within same or across environments. More information: [Manage projects](manage-projects.md)
 
-You select an environment while [creating a project](create-project.md). You can also copy a project from one environment to another. More information: [Manage projects](manage-projects.md)
+To work with projects in an environment, install the Customer Voice app from Microsoft AppSource, and assign the Project Owner role to users in Dynamics 365. If you select an environment that doesn't have the Customer Voice app, an error message is displayed during project creation.
 
-To work with projects in an environment, install the [Customer Voice app from Microsoft AppSource](linkhere), and assign the Project Owner role to users. If you select an environment that doesn't have the Customer Voice app, an error message is displayed.
-
-When you install the Customer Voice app, an application user named Customer Voice is created automatically. This user is created to allow Customer Voice Azure service to authenticate with Common Data Service using Server-to-Server (S2S) authentication, and is primarily used for pushing survey data. The user is a non-interactive and non-login user. It is assigned Survey Services Administrator and System Administrator roles. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](https://docs.microsoft.com/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
+When you install the Customer Voice app, an application user named Customer Voice is created automatically. This user is created to allow Customer Voice Azure service to authenticate with Common Data Service using Server-to-Server (S2S) authentication, and is primarily used for saving survey data in the environment. The user is a non-interactive and non-login system user. The user is assigned Survey Services Administrator and System Administrator roles. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](https://docs.microsoft.com/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
 
 > [!NOTE]
 > - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Customer Voice entities are already installed in these organizations.
@@ -30,7 +28,7 @@ When you install the Customer Voice app, an application user named Customer Voic
 
 ## Privileges required
 
-- Ensure that you've assigned the Project Owner role to users.
+- Ensure that you've assigned the Project Owner role to users in Dynamics 365.
 - If you've created any custom entities that you want Customer Voice to interact with, assign the **Append To** privilege of the entities to the user.
 
 ### Minimum privileges for a custom role

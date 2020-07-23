@@ -54,13 +54,9 @@ Let's say you're an owner of a company named Contoso Suites. The company's websi
     > [!NOTE]
     > The SLA for creating DKIM keys is minimum three to four days.
 
-10.	Sign in to Dynamics 365 Customer Voice, and open the **Distribution** panel. Expand the **Email** section, and select the custom email address that you want to use for sending email.  
+10.	Sign in to Dynamics 365 Customer Voice, and open the **Distribution** panel. Expand the **Email** section, and select the custom email address that you want to use for sending email.
     
-    ![Custom email setting](media/custom-email-setting.png "Custom email setting")
-
     Use the custom email while sending the survey invitation.
-
-    ![Custom From email](media/custom-from-email.png "Custom From email")
 
     > [!NOTE]
     > In Power Automate, the custom email address is picked from the survey distribution settings.

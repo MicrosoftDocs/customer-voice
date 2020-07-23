@@ -25,7 +25,7 @@ If you've created variables, they'll be used to capture your respondent's inform
 The values of variables in a response are displayed on the **Personalized data** tab in a survey response.
 
 > [!div class=mx-imgBorder]
-> ![Survey variables in a survey response](media/survey-response-context-param.png "Survey variables in a survey response")
+> ![Survey variables in a survey response](media/response-personal-data.png "Survey variables in a survey response")
 
 **To embed your survey**
 

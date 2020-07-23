@@ -16,13 +16,13 @@ After you've created the projects you need, they're available on the **All proje
 
 - **Name**: The name of the project.
 - **Modified date**: The date on which the project was modified.
-- **Surveys**: The number of surveys created in the project.
+- **Surveys**: The number of surveys in the project.
 - **Responses**: The total number of responses received across all surveys in the project.
 - **Environment**: The environment in which the project was created.
 
 You can perform the following actions:
 
-- **Rename**: Rename your project.
+- **Rename**: Rename your project title.
 - **Copy**: Create a copy of your project in the same or different environment.
 - **Share**: Share your project with other people for collaboration.
 - **Delete**: Delete a project that you don't need anymore.
@@ -78,15 +78,19 @@ You can share your project with multiple people in your organization so they can
 
 **What can a co-owner do?**
 
-A project co-owner has the same level of permissions as the project owner. This means a co-owner can create, edit, update, delete, and share the project. A co-owner can also remove the project owner from a shared project.
+A project co-owner has the same level of permissions as the project owner. This means a co-owner can create, edit, update, delete, and share the project.
 
 **What can't a co-owner do?**
 
-A project co-owner can't delete a survey that was created by another user. The survey can be deleted only by the user who created it. If a co-owner tries to delete a project that contains a survey created by another user, an error is displayed. If a co-owner removes the project owner from a shared project that contains a survey created by the project owner, the project can't be deleted by the co-owner.
+- A co-owner cannot remove the project creator from a shared project.
+
+- A co-owner can't delete a survey that was created by another user. The survey can be deleted only by the user who created it. If a co-owner tries to delete a project that contains a survey created by another user, an error is displayed.
+
+- A co-owner can't move a survey that was created by another user. The survey can be moved only by the user who created it. If a co-owner tries to move a survey that is created by another user, an error is displayed.
 
 **How are the responses shared?**
 
-If a project contains responses, only those responses that are received after the project was shared will be shared with co-owners.
+If a project contains responses, a co-owner can see all responses under **Reports** in the left pane. In the Customer Voice survey responses entity, only those responses that are received after the project was shared will be shared with co-owners.
 
 **To share a project**
 

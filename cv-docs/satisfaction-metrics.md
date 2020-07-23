@@ -53,7 +53,7 @@ After you've received responses to your survey, a dashboard is created automatic
 
       ![Add satisfaction metrics details](media/metric-fields.png "Add satisfaction metrics details")
 
-5. To see questions from other surveys in the project that are also<!--Edit okay? I wasn't sure what this meant.--> mapped to the metric, expand the **Other questions using this metric** section.
+5. To see questions from other surveys in the project that are also mapped to the metric, expand the **Other questions using this metric** section.
 
 6. Select **Save**.
 
