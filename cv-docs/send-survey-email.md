@@ -42,6 +42,8 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 9. When you're ready to send your survey, select **Send**.
 
+    ![Email editor](media/email-editor.png "Email editor")
+
 > [!NOTE]
 > - You can send a survey invitation to a maximum of 10,000 recipients.
 > - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email.md).
@@ -112,9 +114,7 @@ To create a new variable, select **New variable** from the **Personalize** list.
 
 ## Embed a survey in an email
 
-If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed first question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
-
-![Embed a survey in an email](media/embed-ques-email.png "Embed a survey in an email")
+If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed survey question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
 
 > [!NOTE]
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
