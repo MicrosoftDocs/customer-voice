@@ -2,10 +2,13 @@
   href: help-hub.md
 
 - name: Get started with Customer Voice
-  href: get-started.md
-
-- name: Transition from Forms Pro
-  href: forms-pro-transition.md
+  items:
+  - name: Overview  
+    href: get-started.md
+  - name: Sign up for trial
+    href: sign-up-trial.md
+  - name: Transition from Forms Pro
+    href: forms-pro-transition.md
 
 - name: Design a survey
   items:
@@ -15,11 +18,11 @@
     href: available-question-types.md
   - name: Create a project
     href: create-project.md
-  - name: Manage existing projects
+  - name: Manage projects
     href: manage-projects.md
   - name: Create a survey
     href: create-survey.md
-  - name: Manage existing surveys
+  - name: Manage surveys
     href: manage-surveys.md
   - name: Create a multiple-page survey
     href: create-multipage-survey.md
@@ -73,13 +76,13 @@
     href: about-reports.md
   - name: View satisfaction metrics report
     href: satisfaction-metrics-report.md
-  - name: View survey report
+  - name: View survey response report
     href: survey-report.md
 
-- name: Connect Dynamics 365 Customer Voice with your environment
+- name: Connect Customer Voice with your environment
   href: connect-environment.md
 
-- name: Data flow in Dynamics 365 Customer Voice
+- name: Data flow in Customer Voice
   href: data-flow.md
 
 - name: Developer guide

@@ -1,6 +1,6 @@
 ---
-title: "Get started | MicrosoftDocs"
-description: "Get started with Dynamics 365 Customer Voice."
+title: "Sign up for trial | MicrosoftDocs"
+description: "Instructions for signing up for Dynamics 365 Customer Voice trial."
 ms.date: 07/21/2020
 ms.service:
   - "dynamics-365-sales"
@@ -10,22 +10,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Get started with Dynamics 365 Customer Voice
-
-Dynamics 365 Customer Voice is an enterprise feedback management application you can use to easily keep track of the customer metrics that matter the most to your business. With deep integration from the Dynamics 365 line-of-business applications, Dynamics 365 Customer Voice adds rich insights by feeding real-time survey data into customer records. Dynamics 365 Customer Voice provides an easy and friction-free experience, from creating surveys to generating actionable insights based on customer feedback with minimal setup time. It helps you to keep a pulse on what customers value and how they view your products and services, so you can rest assured that your data is supported by Microsoft security and compliance policies.
-
-Dynamics 365 Customer Voice introduces project management capabilities. A project contains multiple surveys that share common metrics and settings to simplify survey management. When you sign in to Dynamics 365 Customer Voice, you land on the **All projects** tab. The **All projects** tab displays a list of the projects you created, and is where you create new projects and manage existing ones. It also displays the survey-related data for the project. More information: [Create a project](create-project.md)
-
-Two other tabs are available in Dynamics 365 Customer Voice&mdash;**Home** and **Reports**:
-
-- On the **Home** tab, you can create a project, open recently accessed projects, and view satisfaction metrics. It provides a personalized experience, enabling you to collect customer feedback and get relevant insights quickly and easily, all in a few clicks. It also includes tips and tricks to help you get started and learn more about the application.
-
-- Use the **Reports** tab to view satisfaction metric dashboard and responses to your surveys. More information: [Work with reports](about-reports.md)
-
-> [!NOTE]
-> Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020.
-
-## Sign up for the Dynamics 365 Customer Voice trial
+# Sign up for the Dynamics 365 Customer Voice trial
 
 Dynamics 365 Customer Voice will be generally available by end of August 2020. To try Dynamics 365 Customer Voice, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice.
 
@@ -38,7 +23,7 @@ Dynamics 365 Customer Voice will be generally available by end of August 2020. T
    > [!NOTE]
    > A work or school account is required for trying Dynamics 365 Customer Voice.
 
-### Experience for a trial or new user
+## Experience for a trial or new user
 
 Dynamics 365 Customer Voice uses a Common Data Service environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionality isn't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionality becomes available. More information: [What is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
