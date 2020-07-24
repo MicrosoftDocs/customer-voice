@@ -16,13 +16,26 @@ A *project* is a container that consists of surveys, satisfaction metrics, email
 
 Dynamics 365 Customer Voice offers ready-to-use survey feedback project templates. Each project template includes survey questions, preconfigured satisfaction metrics, email templates, and Power Automate flows for Dynamics 365 business applications. The available project templates are:
 
-- **Customer pulse**, based on Forrester Research customer experience best practices and including questions to collect customer sentiment at regular intervals.
+- **Periodic customer feedback**: This template is based on Forrester Research customer experience best practices and includes questions to collect customer sentiment at regular intervals. It also consists of a preconfigured email template and the following satisfaction metrics:
 
-- **Order delivery** to collect timely feedback after an order is delivered. It also includes a workflow to automate sending a survey after the order is complete. The survey is sent to the customer, and the response is automatically integrated with the order and customer records.
+    - **Customer sentiment**: A sentiment metric that helps you to identify customer sentiment.
+    - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
 
-- **Service visit** to collect timely feedback following a customer visit scheduled with the Dynamics 365 Field Service application. The feedback is automatically integrated with the customer visit record in Dynamics 365, so you can get insights including trends and specific follow-up actions to make sure customer issues are addressed in a timely manner.
+- **Order delivery**: This template includes questions to collect timely feedback after an order is delivered. A Power Automate flow is included to automate sending a survey after the order is complete. The survey is sent to the customer, and the response is automatically integrated with the order and customer records. It also consists of a preconfigured email template and the following satisfaction metrics:
 
-- **Support** provides an out-of-the-box, end-to-end solution for measuring customer satisfaction for your Dynamics 365 case management process. The template includes typical questions and setup needed for the customer service scenario.
+    - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
+    - **Net Promoter Score**: An NPS metric that helps you to measure customer loyalty.
+    - **Product sentiment**: A sentiment metric that helps you to identify customer sentiment.
+
+- **Service visit**: This template includes questions to collect timely feedback following a customer visit scheduled with the Dynamics 365 Field Service application. The feedback is automatically integrated with the customer visit record in Dynamics 365, so you can get insights including trends and specific follow-up actions to make sure customer issues are addressed in a timely manner. It also consists of a preconfigured email template and the following satisfaction metrics:
+
+    - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
+    - **Customer sentiment**: A sentiment metric that helps you to identify customer sentiment.    
+
+- **Support**: This template includes questions that provides an out-of-the-box, end-to-end solution for measuring customer satisfaction for your Dynamics 365 case management process. It also consists of a preconfigured email template and the following satisfaction metrics:
+
+    - **Customer sentiment**: A sentiment metric that helps you to identify customer sentiment.
+    - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
 
 Dynamics 365 Customer Voice also includes a **Blank** template you can use to create a survey from scratch and configure it in accordance with your requirements. This template doesn't contain any preconfigured survey questions, workflows, or satisfaction metrics.
 

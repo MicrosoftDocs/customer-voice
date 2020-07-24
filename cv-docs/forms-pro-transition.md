@@ -22,9 +22,12 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 - If you created a flow for your surveys in Forms Pro, it is available in Dynamics 365 Customer Voice.
 
-- If you added a Net Promoter Score (NPS) question or tagged a text question for sentiment analysis, the corresponding NPS and sentiment metrics are created in Dynamics 365 Customer Voice. If you have added multiple NPS questions or tagged multiple text questions for sentiment analysis, the first NPS question and the last text question tagged for sentiment analysis are mapped to the created satisfaction metrics.
+- If you added a Net Promoter Score (NPS) question or tagged a text question for sentiment analysis, the corresponding NPS and sentiment metrics are created in Dynamics 365 Customer Voice. If you have added multiple NPS questions, the first NPS question is mapped to the created satisfaction metric. If you have tagged multiple text questions for sentiment analysis, a satisfaction is created for each of the tagged text question.
 
   A dashboard is automatically created for each set of metrics, showcasing recent scores and trends. The dashboard is available under **Reports**.
+
+  > [!NOTE]
+  > The computation of satisfaction metrics for the migrated surveys might take up to 10 days. The satisfaction metrics report will be displayed after the computation is completed successfully.
 
 - If you created a web browser bookmark for a Forms Pro survey URL, you are redirected to the corresponding project in Dynamics 365 Customer Voice.
 
