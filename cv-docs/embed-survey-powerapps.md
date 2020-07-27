@@ -23,7 +23,7 @@ You can embed your surveys in the canvas apps created by using Power Apps. This 
 
 2.	Create a blank canvas app, or use one of the available templates. More information: [Create a canvas app from scratch using Common Data Service](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)
 
-3.	On the **Insert** tab, open the **Controls** menu, and then add the **Customer Voice survey (Preview)**<!--Is this the final name, or will "Dynamics 365" be added?--> control.
+3.	On the **Insert** tab, open the **Controls** menu, and then add the **Customer Voice survey (Preview)** control.
 
 4.	In the options pane, select **No data**.
 

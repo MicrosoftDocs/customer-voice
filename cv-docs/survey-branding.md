@@ -60,8 +60,6 @@ You can also change font style, font size, and the color of the text for individ
 
 You can select a background image for the survey.
 
-<!-- Shubham: Mention image limitations, like size, type, etc. -->
-
 **To upload a background image**
 
 - Expand the **Background** section, and then select **Upload**. You can choose an image from your local drive or OneDrive.

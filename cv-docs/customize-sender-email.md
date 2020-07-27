@@ -25,7 +25,7 @@ Let's say you're an owner of a company named Contoso Suites. The company's websi
 3. Specify the product details as follows:
 
     - **Product**: **Dynamics 365 Customer Engagement**
-    - **Problem type**: **Forms Pro**<!--Is this accurate?-->
+    - **Problem type**: **Forms Pro**
     - **Environment**: Enter or select your Common Data Service environment
 
 4. Select **See solutions**.

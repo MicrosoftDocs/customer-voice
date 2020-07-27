@@ -74,3 +74,12 @@ After you've created the satisfaction metrics you need, you can edit their detai
 5. To delete a metric, hover over the metric, and then select **Delete**.
 
 6. In the confirmation message that appears, select **Delete** to continue with the deletion.
+
+### See also
+
+[Add logic by creating branching rules](create-branching-rule.md)<br>
+[Personalize your survey by adding variables](personalize-survey.md)<br>
+[Create multilingual survey](create-multilingual-survey.md)<br>
+[Add branding to your survey](survey-branding.md)<br>
+[Add formatting to your survey](survey-formatting.md)<br>
+[Add formatting to survey elements](survey-text-format.md)
