@@ -41,11 +41,11 @@ The transition experience differs based on the product license you have. This se
 
 If you have only a Forms Pro license and try to sign in to Forms Pro using the [https://forms.office.com](https://forms.office.com) URL, the following message is displayed till August 30, 2020 with a link to go to Dynamics 365 Customer Voice.
 
-`image`
+![Forms Pro error till August 30, 2020](media/formsProErrorBefore.png "Forms Pro error till August 30, 2020") 
 
 After August 30, 2020, the following message will be displayed:
 
-`image`
+![Forms Pro error after August 30, 2020](media/formsProErrorAfter.png "Forms Pro error after August 30, 2020") 
 
 **Experience for users with both Forms and Forms Pro licenses**
 
@@ -62,10 +62,6 @@ If you select a survey tile, you're redirected to the corresponding project in D
 **Experience for users with only a Forms license**
 
 If you have a Forms-only license and try to sign in to Forms Pro, the Forms home page is displayed.
-
-**Experience for a new user**
-
-If you're a new user and try to sign in to Forms Pro, an error is displayed after August 30, 2020. You must sign in to Dynamics 365 Customer Voice to create surveys.
 
 > [!NOTE]
 > If you are a customer in US Government Community Cloud, you can continue to use Forms Pro until Dynamics 365 Customer Voice is deployed in US Government Community Cloud.
