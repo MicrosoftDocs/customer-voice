@@ -41,3 +41,8 @@ To export survey responses, select **Export All** in the upper-left corner of th
 ## Delete a survey response
 
 You can delete a response you don't need anymore. To delete a survey response, open the individual survey response from the **Respondents** panel, and then select **Delete**.
+
+### See also
+
+[About reports](about-reports.md)<br>
+[View a satisfaction metrics report](satisfaction-metrics-report.md)
