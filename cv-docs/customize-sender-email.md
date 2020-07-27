@@ -1,9 +1,9 @@
 ---
-title: "Customize the From address of the email"
+title: "Customize the From address of the email | MicrosoftDocs"
 description: "Instructions for customizing the From address of the email"
 ms.date: 07/29/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: 
+  - dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

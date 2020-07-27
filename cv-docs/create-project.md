@@ -1,9 +1,9 @@
 ---
-title: "Create a project"
+title: "Create a project | MicrosoftDocs"
 description: "Instructions for creating a project in Dynamics 365 Customer Voice."
 ms.date: 07/29/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: 
+  - dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

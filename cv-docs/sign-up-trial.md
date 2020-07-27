@@ -2,8 +2,8 @@
 title: "Sign up for trial | MicrosoftDocs"
 description: "Instructions for signing up for Dynamics 365 Customer Voice trial."
 ms.date: 07/29/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: 
+  - dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
