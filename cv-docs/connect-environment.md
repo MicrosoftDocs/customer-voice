@@ -14,9 +14,7 @@ manager: shujoshi
 
 An environment is a space to store, manage, and share your organization's business data, apps, and flows. It also serves as a container to separate apps that might have different roles, security requirements, or target audiences. More information: [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
-You can create environments for different purposes such as survey development, testing, and production. After developing and testing the survey, you can copy the survey or the project to the production environment.
-
-In  Dynamics 365 Customer Voice, all projects created by you or shared with you across environments are displayed in the **All Projects** tab. When you create a project, the project is connected to the selected environment. The survey data including invitations and responses are stored in the same environment in which the project is created. You select an environment during [project creation](create-project.md). You can copy a project within same or across environments. More information: [Manage projects](manage-projects.md)
+In Dynamics 365 Customer Voice, all projects created by you or shared with you across environments are displayed in the **All Projects** tab. When you create a project, the project is connected to the selected environment. The survey data including invitations and responses are stored in the same environment in which the project is created. You select an environment during [project creation](create-project.md). You can copy a project within same or across environments. More information: [Manage projects](manage-projects.md)
 
 To work with projects in an environment, install the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) from Microsoft AppSource, and assign the Project Owner role to users in Dynamics 365. If you select an environment that doesn't have the Customer Voice app, an error message is displayed during project creation.
 
