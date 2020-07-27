@@ -28,3 +28,10 @@ The following processes are shown in the data flow diagram:
 - **Respond to survey**: When a respondent responds to a survey, the survey response is first stored in Customer Voice services and then sent to Azure Cognitive Services and the Customer Voice analytics engine for further processing. After responses are processed by Cognitive Services, they're stored in Common Data Service.
 
 - **Analyze results**: After data is processed by the Customer Voice analytics engine, it's ready for analysis by viewing the information in charts in Customer Voice.
+
+### See also
+
+[Create a project](create-project.md)<br>
+[Create a survey](create-survey.md)<br>
+[Send a survey](send-survey.md)<br>
+[About reports](about-reports.md)

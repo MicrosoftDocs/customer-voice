@@ -20,3 +20,8 @@ If you've created satisfaction metrics in your survey, a dashboard is created au
 
 ![Satisfaction metrics report](media/metrics-report.png "Satisfaction metrics report")
 
+### See also
+
+[View a satisfaction metrics report](satisfaction-metrics-report.md)<br>
+[View a survey response report](survey-report.md)
+

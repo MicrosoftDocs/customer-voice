@@ -69,3 +69,9 @@ You can export invitation details to a CSV file either from the statistic tile o
 You can delete a survey invitation that you don't need anymore. To delete a survey invitation, go to the invitation details panel, hover over the invitation, and then select **Delete**. Select **Delete** in the confirmation message.
 
 ![Delete a survey invitation from the invitation details panel](media/delete-invite.png "Delete a survey invitation from the invitation details panel")
+
+### See also
+
+[Send a survey to get responses](send-survey.md)<br>
+[Work with survey distribution settings](distribution-settings.md)<br>
+[Send a survey by using email](send-survey-email.md)  

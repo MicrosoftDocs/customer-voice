@@ -75,33 +75,6 @@ The values from the **Regarding** and **Recipient details** fields are stored in
 > [!div class=mx-imgBorder]
 > ![Search survey invite using Advanced Find](media/survey-invite-adv-find.png "Search survey invitation using Advanced Find") 
 
-<!-- Shubham: will update later as per UI
-## View flow history
-
-Flow history is the information that's stored for each survey as you configure flows to send a survey. Before configuring a new flow, you might want to know more about the flows that are already configured for the survey. Flow history gives you the required information about the configured flows, such as the total number of runs, failures, and so on.
-
-Flow history is displayed in a grid with the following information:
-
-- **Date modified**: Date when the flow was modified.
-
-- **Flow**: Name of the flow.
-
-- **Message template**: Email message template(s) used by the flow.
-
-- **Runs**: Total number of times a flow has run. Values of up to 200 are displayed. If a flow has run more than 200 times, 200+ is displayed as the count. You can select the count value to view more details about the run.
-
-- **Failures (last 200 runs)**: Number of times a flow has failed out of the last 200 runs.
-
-- **Status**: Status of the flow: on or off. You can update a flow's status from Power Automate. For more information, see [Manage a flow](https://docs.microsoft.com/flow/get-started-logic-flow#manage-a-flow).  
-
-If required, you can also edit a flow by selecting the **Edit** symbol. The flow editor opens in Power Automate, from which you make your changes.
-
-**To view flow history**
-
-1.  Open the survey for which you want to view flow history, and then select **Send** from the toolbar at the top of the page.
-
-2.  On the **Power Automate** tile, select **Flows configured**. A grid with the configured flows is displayed.
--->
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>

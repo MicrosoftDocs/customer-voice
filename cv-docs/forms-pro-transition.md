@@ -22,7 +22,7 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 - If you created a flow for your surveys in Forms Pro, it is available in Dynamics 365 Customer Voice.
 
-- If you added a Net Promoter Score (NPS) question or tagged a text question for sentiment analysis, the corresponding NPS and sentiment metrics are created in Dynamics 365 Customer Voice. If you have added multiple NPS questions, the first NPS question is mapped to the created satisfaction metric. If you have tagged multiple text questions for sentiment analysis, a satisfaction is created for each of the tagged text question.
+- If you had a Net Promoter Score (NPS) question or tagged a text question for sentiment analysis in Forms Pro, the corresponding NPS and sentiment metrics are created in Dynamics 365 Customer Voice as part of migration. If you had multiple NPS questions, the first NPS question is mapped to the created satisfaction metrics. If you have tagged multiple text questions for sentiment analysis, a satisfaction metric is created for each of the tagged text question.
 
   A dashboard is automatically created for each set of metrics, showcasing recent scores and trends. The dashboard is available under **Reports**.
 
@@ -33,7 +33,7 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 - All your survey data (questions and responses) is available in the same environment as you are currently working in.
 
-## Experience for users based on their license
+## Experience for users based on their Forms Pro license
 
 The transition experience differs based on the product license you have. This section provides details.
 
@@ -41,15 +41,15 @@ The transition experience differs based on the product license you have. This se
 
 If you have only a Forms Pro license and try to sign in to Forms Pro using the [https://forms.office.com](https://forms.office.com) URL, the following message is displayed till August 30, 2020 with a link to go to Dynamics 365 Customer Voice.
 
-`image`
+![Forms Pro error till August 30, 2020](media/formsProErrorBefore.png "Forms Pro error till August 30, 2020") 
 
 After August 30, 2020, the following message will be displayed:
 
-`image`
+![Forms Pro error after August 30, 2020](media/formsProErrorAfter.png "Forms Pro error after August 30, 2020") 
 
 **Experience for users with both Forms and Forms Pro licenses**
 
-If you have licenses for both Forms and Forms Pro, and have created surveys in Forms Pro, you are redirected to the Forms home page. The following message is displayed till August 30, 2020. You can choose to go to Dynamics 365 Customer Voice or stay in Forms. You'll not be able to switch to Forms Pro from Forms.
+If you have licenses for both Forms and Forms Pro, and have created surveys in Forms Pro, you are redirected to the Forms home page. You can choose to go to Dynamics 365 Customer Voice or stay in Forms till August 30, 2020. However, you'll not be able to switch to Forms Pro from Forms.
 
 ![Forms Pro move message](media/forms-pro-move-message.png "Forms Pro move message") 
 
@@ -63,9 +63,12 @@ If you select a survey tile, you're redirected to the corresponding project in D
 
 If you have a Forms-only license and try to sign in to Forms Pro, the Forms home page is displayed.
 
-**Experience for a new user**
-
-If you're a new user and try to sign in to Forms Pro, an error is displayed after August 30, 2020. You must sign in to Dynamics 365 Customer Voice to create surveys.
-
 > [!NOTE]
-> If you are a customer in US Government Community Cloud, you can continue to use Forms Pro until Dynamics 365 Customer Voice is deployed in US Government Community Cloud.
+> If you are a customer in US Government Community Cloud, you can continue to use Forms Pro. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020.
+
+### See also
+
+[Create a project](create-project.md)<br>
+[Create a survey](create-survey.md)<br>
+[Send a survey](send-survey.md)<br>
+[About reports](about-reports.md)
