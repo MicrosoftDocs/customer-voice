@@ -64,4 +64,11 @@ If you select a survey tile, you're redirected to the corresponding project in D
 If you have a Forms-only license and try to sign in to Forms Pro, the Forms home page is displayed.
 
 > [!NOTE]
-> If you are a customer in US Government Community Cloud, you can continue to use Forms Pro until Dynamics 365 Customer Voice is deployed in US Government Community Cloud.
+> If you are a customer in US Government Community Cloud, you can continue to use Forms Pro. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020.
+
+### See also
+
+[Create a project](create-project.md)<br>
+[Create a survey](create-survey.md)<br>
+[Send a survey](send-survey.md)<br>
+[About reports](about-reports.md)

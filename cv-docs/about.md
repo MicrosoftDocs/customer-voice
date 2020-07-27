@@ -24,3 +24,8 @@ Two other tabs are available in Dynamics 365 Customer Voice&mdash;**Home** and *
 
 > [!NOTE]
 > Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020.
+
+### See also
+
+[Sign up for the Dynamics 365 Customer Voice trial](sign-up-trial.md)<br>
+[Transition from Microsoft Forms Pro to Dynamics 365 Customer Voice](forms-pro-transition.md)
