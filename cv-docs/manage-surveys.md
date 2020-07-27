@@ -110,3 +110,9 @@ If a satisfaction metric is mapped to the questions of the survey being deleted,
 You can share your survey with multiple people in your organization so they can collaborate on the structure and layout of the survey. Sharing your survey shares the complete project, so the experience and behavior is the same as that of sharing a project.
 
 To share a survey, open the survey, and select **Share** on the toolbar at the top of the page. Continue by adding co-owners as you would while sharing a project. More information: [Share a project](manage-projects.md#share-a-project)
+
+### See also
+
+[Create a project](create-project.md)<br>
+[Create a survey](create-survey.md)<br>
+[Manage projects](manage-projects.md)

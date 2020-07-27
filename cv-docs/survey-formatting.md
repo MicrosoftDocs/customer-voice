@@ -45,3 +45,12 @@ Specify whether the question numbers should be displayed in a survey. By default
 ## Shuffle questions
 
 Specify whether the questions in a survey should be shuffled. By default, this setting is turned off. If you want to enable question shuffling in a survey, turn on this setting. This setting is disabled when a branching rule is created in a survey.
+
+### See also
+
+[Add and configure satisfaction metrics](satisfaction-metrics.md)<br>
+[Add logic by creating branching rules](create-branching-rule.md)<br>
+[Personalize your survey by adding variables](personalize-survey.md)<br>
+[Create multilingual survey](create-multilingual-survey.md)<br>
+[Add branding to your survey](survey-branding.md)<br>
+[Add formatting to survey elements](survey-text-format.md)

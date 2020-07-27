@@ -33,3 +33,8 @@ You can filter data in the charts by using the following filters:
 - **All days**: Select 7 days, 28 days, 90 days, or a custom date range.
 
 - **All surveys**: Select a survey for which you want to see the data. If your project has multiple surveys, consolidated data from all surveys is displayed by default. If you want to see data only for a particular survey, select it from the **All surveys** filter. 
+
+### See also
+
+[About reports](about-reports.md)<br>
+[View a survey response report](survey-report.md)

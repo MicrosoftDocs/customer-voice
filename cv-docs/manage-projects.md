@@ -131,3 +131,9 @@ You can delete a project that you don't need anymore. Deleting a project removes
 2. On the **All projects** tab, hover over the project you want to delete, select ![Project options](media/project-options.png "Project options"), and then select **Delete**.
 
 3. In the confirmation dialog box, select **Delete**.
+
+### See also
+
+[Create a project](create-project.md)<br>
+[Create a survey](create-survey.md)<br>
+[Manage surveys](manage-surveys.md)

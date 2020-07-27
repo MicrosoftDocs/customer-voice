@@ -114,3 +114,8 @@ Respondents will see the question as shown in the following image.
 A Net Promoter Score type question asks a respondent to rate the likelihood of their recommending a product or service to a friend.
 
 ![A Net Promoter Score question asks how likely the respondent is to give their recommendation](media/ques-nps.png "A Net Promoter Score question asks how likely the respondent is to give their recommendation")
+
+### See also
+
+[Create a survey](create-survey.md)<br>
+[Manage surveys](manage-surveys.md)

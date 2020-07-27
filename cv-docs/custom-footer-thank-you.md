@@ -30,3 +30,9 @@ You can add formatting to the footer text and thank-you message by changing thei
 
     ![Updated footer text and thank-you message](media/custom-footer-thank-you-on.png "Updated footer text and thank-you message")
 
+### See also
+
+[Create a project](create-project.md)<br>
+[Create a survey](create-survey.md)<br>
+[Manage surveys](manage-surveys.md)<br>
+[Manage projects](manage-projects.md)

@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Customize the sender's email address
 
-By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
+By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` or `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
 
 Let's say you're an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create two custom email addresses (for example, `noreply@contososuites.com` and `support@contososuites.com`) consisting of your company's domain.
 
@@ -25,7 +25,7 @@ Let's say you're an owner of a company named Contoso Suites. The company's websi
 3. Specify the product details as follows:
 
     - **Product**: **Dynamics 365 Customer Engagement**
-    - **Problem type**: **Forms Pro**<!--Is this accurate?-->
+    - **Problem type**: **Forms Pro**
     - **Environment**: Enter or select your Common Data Service environment
 
 4. Select **See solutions**.
@@ -54,7 +54,7 @@ Let's say you're an owner of a company named Contoso Suites. The company's websi
     > [!NOTE]
     > The SLA for creating DKIM keys is minimum three to four days.
 
-10.	Sign in to Dynamics 365 Customer Voice, and open the **Distribution** panel. Expand the **Email** section, and select the custom email address that you want to use for sending email.
+9.	Sign in to Dynamics 365 Customer Voice, and open the **Distribution** panel. Expand the **Email** section, and select the custom email address that you want to use for sending email.
     
     Use the custom email while sending the survey invitation.
 

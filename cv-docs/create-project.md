@@ -60,8 +60,6 @@ Creating a project from a template helps you quickly get started with little or 
 
 3. To see the survey questions in a project template, hover over the template, and then select **Preview** ![Preview](media/preview-icon.png).
 
-    ![Preview a project template](media/project-template-preview-button.png "Preview a project template") 
-
 4. Select the required project template, and then select **Next**.
 
 5. On the **Survey location** page, select an environment to create the project in. To see all environments, select **See all environments**.
@@ -93,3 +91,9 @@ Creating a project from the blank template gives you the freedom to choose surve
 7. On the **Survey location** page, select **Create**.
 
 The project will be created with an empty survey. You can now add questions and customize it the way you want.
+
+### See also
+
+[Create a survey](create-survey.md)<br>
+[Manage surveys](manage-surveys.md)<br>
+[Manage projects](manage-projects.md)

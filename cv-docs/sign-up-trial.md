@@ -49,3 +49,10 @@ This section lists all the functionality that will be restricted until an enviro
 - Submit responses while previewing a survey.
 - Configure satisfaction metrics.
 - Perform actions such as copy, delete, or rename projects and surveys.
+
+### See also
+
+[Create a project](create-project.md)<br>
+[Create a survey](create-survey.md)<br>
+[Send a survey](send-survey.md)<br>
+[About reports](about-reports.md)
