@@ -1,9 +1,9 @@
 ---
-title: "Add custom footer text and thank-you message"
+title: "Add custom footer text and thank-you message | MicrosoftDocs"
 description: "Instructions for adding custom footer text and thank-you message in a survey created with Dynamics 365 Customer Voice."
 ms.date: 07/29/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: 
+  - dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
