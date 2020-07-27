@@ -114,9 +114,8 @@ To    specify values for variables in a flow:
 ### See also
     
 [Create a survey](create-survey.md)<br>
-[P    eview and test a survey](preview-test-survey.md)<br>
+[Preview and test a survey](preview-test-survey.md)<br>
 [Create a branching rule](create-branching-rule.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)
-'
