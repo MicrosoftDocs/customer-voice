@@ -1,0 +1,113 @@
+- name: Dynamics 365 Customer Voice documentation
+  href: help-hub.md
+
+- name: Get started with Customer Voice
+  items:
+  - name: Overview  
+    href: about.md
+  - name: Sign up for trial
+    href: sign-up-trial.md
+  - name: Transition from Forms Pro
+    href: forms-pro-transition.md
+
+- name: Design a survey
+  items:
+  - name: Plan a survey
+    href: plan-survey.md
+  - name: Available question types
+    href: available-question-types.md
+  - name: Create a project
+    href: create-project.md
+  - name: Manage projects
+    href: manage-projects.md
+  - name: Create a survey
+    href: create-survey.md
+  - name: Manage surveys
+    href: manage-surveys.md
+  - name: Create a multiple-page survey
+    href: create-multipage-survey.md
+  - name: Add and configure satisfaction metrics
+    href: satisfaction-metrics.md
+  - name: Create a branching rule
+    href: create-branching-rule.md
+  - name: Personalize a survey by using variables
+    href: personalize-survey.md
+  - name: Create a multilingual survey
+    href: create-multilingual-survey.md
+  - name: Add branding to a survey
+    href: survey-branding.md
+  - name: Format text in a survey
+    href: survey-text-format.md
+  - name: Format a survey
+    href: survey-formatting.md
+  - name: Customize footer text and thank-you message
+    href: custom-footer-thank-you.md
+  - name: Preview and test a survey
+    href: preview-test-survey.md
+
+- name: Distribute a survey
+  items:
+  - name: Send a survey to get responses
+    href: send-survey.md
+  - name: Work with distribution settings
+    href: distribution-settings.md
+  - name: Send a survey by using email
+    href: send-survey-email.md
+  - name: Send a survey by using Power Automate
+    href: send-survey-flow.md
+  - name: Embed a survey in a webpage
+    href: embed-web-page.md
+  - name: Send a survey link
+    href: send-survey-link.md
+  - name: Send a survey QR code
+    href: send-survey-qrcode.md
+  - name: Create a survey invitation
+    href: create-survey-invite.md
+  - name: Embed a survey in Power Apps
+    href: embed-survey-powerapps.md
+  - name: Customize the sender's email address
+    href: customize-sender-email.md
+  - name: View survey invitations
+    href: view-survey-invite.md
+
+- name: Analyze reports
+  items:
+  - name: Overview
+    href: about-reports.md
+  - name: View satisfaction metrics report
+    href: satisfaction-metrics-report.md
+  - name: View survey response report
+    href: survey-report.md
+
+- name: Connect Customer Voice with your environment
+  href: connect-environment.md
+
+- name: Data flow in Customer Voice
+  href: data-flow.md
+
+- name: Developer guide
+  items:
+  - name: Entity reference
+    items:
+    - name: Overview
+      href: developer/entity-reference.md
+    - name: msfp_emailtemplate
+      href: developer/entities/msfp_emailtemplate.md
+    - name: msfp_localizedemailtemplate
+      href: developer/entities/msfp_localizedemailtemplate.md
+    - name: msfp_project
+      href: developer/entities/msfp_project.md
+    - name: msfp_question
+      href: developer/entities/msfp_question.md
+    - name: msfp_questionresponse
+      href: developer/entities/msfp_questionresponse.md
+    - name: msfp_satisfactionmetric
+      href: developer/entities/msfp_satisfactionmetric.md
+    - name: msfp_survey
+      href: developer/entities/msfp_survey.md
+    - name: msfp_surveyinvite
+      href: developer/entities/msfp_surveyinvite.md
+    - name: msfp_surveyresponse
+      href: developer/entities/msfp_surveyresponse.md
+    - name: msfp_unsubscribedrecipient
+      href: developer/entities/msfp_unsubscribedrecipient.md
