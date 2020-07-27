@@ -113,6 +113,6 @@ To share a survey, open the survey, and select **Share** on the toolbar at the t
 
 ### See also
 
-[Create a project](create-project)<br>
+[Create a project](create-project.md)<br>
 [Create a survey](create-survey.md)<br>
 [Manage projects](manage-projects.md)

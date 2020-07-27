@@ -108,6 +108,6 @@ You can customize your survey in the following ways:
 
 ### See also
 
-[Create a project](create-project)<br>
+[Create a project](create-project.md)<br>
 [Manage surveys](manage-surveys.md)<br>
 [Manage projects](manage-projects.md)
