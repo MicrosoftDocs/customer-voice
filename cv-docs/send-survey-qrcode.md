@@ -2,8 +2,8 @@
 title: "Send a survey by using QR code | MicrosoftDocs"
 description: "Instructions for sending a survey by using QR code"
 ms.date: 07/29/2020
-ms.service:
-  - "dynamics-365-sales"
+ms.service: 
+  - dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

@@ -1,15 +1,13 @@
 ---
 title: "Entity Reference for Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Reference documentation for the entities of Microsoft Dynamics 365 Customer Voice."
-keywords: 
+ms.date: 07/29/2020
+ms.service: 
+  - dynamics-365-customervoice
+ms.topic: "reference"
 author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
-applies_to: 
-ms.date: 07/29/2020
-ms.service: "forms-pro"
-ms.topic: "reference"
-ms.custom: 
 search.audienceType: 
   - developer
 search.app: 
