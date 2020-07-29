@@ -17,6 +17,9 @@ search.appverid:
 
 # Purchase Microsoft Forms Pro
 
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2128357) documentation.
+
 Microsoft Forms Pro is included with select Microsoft Dynamics 365 subscriptions and is available as an upgrade for Microsoft 365 subscriptions.
 
 The Forms Pro license is based on the number of survey responses received per month. The capacity is measured at the tenant level.

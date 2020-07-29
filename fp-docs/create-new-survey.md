@@ -17,6 +17,9 @@ search.appverid:
 
 # Create a new survey
 
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2128357) documentation.
+
 When you create a survey, you define the types of questions you want to ask to gauge a reader's response. In addition to formulating questions, you need to keep in mind additional considerations covered in this topic, such as how to avoid having your survey blocked by phishing prevention in Microsoft Forms Pro, how to get the responses you want by restricting the type of answers you allow in text-based questions, and whether you want to mark answers for sentiment analysis.
 
 ## Create a new survey with Forms Pro

@@ -17,6 +17,9 @@ search.appverid:
 
 # Share a survey for collaborating
 
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2128357) documentation.
+
 When you share a survey for collaborating, it remains in your profile, but other people can view and edit it through a special URL created for collaborators. At the top of the survey that you've shared, you'll see icons of the initials for each person making edits to the survey. When you share a survey, it's available in the **Shared with me** section on the home page.
 
 Microsoft Forms Pro also displays contributor icons next to each section currently being edited.

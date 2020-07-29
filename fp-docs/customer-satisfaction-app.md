@@ -17,6 +17,9 @@ search.appverid:
 
 # Monitor customer satisfaction
 
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2128357) documentation.
+
 Use the Microsoft Forms Pro Customer Satisfaction app to get an insights report that links customer feedback with the cases when you use Forms Pro to send a survey after case resolution in Dynamics 365 Customer Service. You can view average Net Promoter Score (NPS) in addition to your agents' and customers' individual NPS. You can use this app to filter the report by case parameters such as priority, location, product, and more. Survey metrics&mdash;such as number of survey invitations sent, number of survey responses received, NPS, sentiment, and key phrases&mdash;are also displayed in the report. You can edit the reports and customize them for your needs.
 
 ## Install the Forms Pro Customer Satisfaction app
