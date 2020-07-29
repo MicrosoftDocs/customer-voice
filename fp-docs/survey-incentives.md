@@ -17,6 +17,9 @@ search.appverid:
 
 # Offer survey incentives to your respondents
 
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2128357) documentation.
+
 As a survey owner, when you send surveys to your recipients, you expect to get a high response rate. The more survey responses received, the better insights you can get from the survey. However, survey response rate is typically low&mdash;on average, it might be as low as a single-digit percentage. One of the best ways to increase the response rate is to provide incentives for a recipient to respond to the survey.
 
 [Microsoft Forms Pro](https://formspro.microsoft.com) integrates with [Microsoft Rewards](https://www.microsoft.com/rewards) to provide survey incentives. When you enable the survey incentives option, a respondent who completes the survey will be given a promo code to enter monthly sweepstakes to win a Microsoft Surface laptop plus a pair of Surface Headphones.

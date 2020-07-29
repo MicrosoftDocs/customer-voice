@@ -17,6 +17,9 @@ search.appverid:
 
 # Get started with Forms Pro
 
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2128357) documentation.
+
 Microsoft Forms Pro is an enterprise survey capability that helps businesses obtain the feedback they need to make smarter decisions. Powered by both Microsoft 365 and Dynamics 365, Forms Pro supports businesses seeking to transform customer, product, and employee experiences.
 
 Forms Pro is built on Microsoft Forms, and it offers new capabilities that make capturing and analyzing customer and employee feedback simpler than ever. Your customers can respond to the surveys by using any web browser or mobile device. As the responses are submitted, analyze them with Power BI reports and make effective decisions accordingly.
