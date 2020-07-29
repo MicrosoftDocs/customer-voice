@@ -37,4 +37,5 @@ You can filter data in the charts by using the following filters:
 ### See also
 
 [About reports](about-reports.md)<br>
-[View a survey response report](survey-report.md)
+[View a survey response report](survey-report.md)<br>
+[Add and configure satisfaction metrics](satisfaction-metrics.md)

@@ -48,7 +48,7 @@ Dynamics 365 Customer Voice also includes a **Blank** template you can use to cr
 
 Creating a project from a template helps you quickly get started with little or no customization. The templates include survey questions that are based on industry best practices and have been curated by subject-matter experts.
 
-1. Sign in to Dynamics 365 Customer Voice.
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
 2. On the **All projects** tab, select **New project**.
 
@@ -76,7 +76,7 @@ The project will be created with survey questions, satisfaction metrics, and Pow
 
 Creating a project from the blank template gives you the freedom to choose survey questions, create satisfaction metrics, email templates, and Power Automate flows.
 
-1. Sign in to Dynamics 365 Customer Voice.
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
 2. On the **All projects** tab, select **New project**.
 

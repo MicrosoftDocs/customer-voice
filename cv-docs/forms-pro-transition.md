@@ -14,6 +14,9 @@ manager: shujoshi
 
 Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebranding, all your surveys from Forms Pro are moved to Dynamics 365 Customer Voice and you can perform all the actions in Dynamics 365 Customer Voice that you performed in Forms Pro.
 
+> [!NOTE]
+> The transition is in-progress and will continue for the next few weeks. To access Forms Pro, use [https://forms.office.com](https://forms.office.com).
+
 ## What happens to Forms Pro surveys?
 
 - All your Forms Pro surveys are available as individual projects in Dynamics 365 Customer Voice. This means that each project contains one survey. You can see all your projects on the **All projects** tab.
