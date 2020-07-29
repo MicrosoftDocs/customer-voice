@@ -17,6 +17,9 @@ search.appverid:
 
 # View details for each question
 
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice, providing you with additional survey capabilities and business benefits. The change is being introduced in phases and will be available in all geographical regions in the next few weeks, except for US Government Community Cloud customers. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020. For more information, see the [Dynamics 365 Customer Voice](https://go.microsoft.com/fwlink/p/?linkid=2128357) documentation.
+
 You can view details for each question in the survey by going to **Responses** &gt; **Question-wise analysis**. A graphical representation of the responses is displayed. The visualizations on the **Question-wise analysis** page are all connected to each other. What this means is that if you select one or more values in one visualization, other visualizations that use that same value will change based on your selection.
 
 > [!div class=mx-imgBorder]
