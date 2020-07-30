@@ -58,7 +58,7 @@ The available settings are:
 
 - **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Common Data Service.
 
-    By default, this setting is turned on, and each respondent is added as a contact in Common Data Service. This only works with surveys sent through email.
+    By default, this setting is turned on, and each respondent is added as a contact in Common Data Service. This only works with surveys sent through [email](send-survey-email.md) or [survey invitations](create-survey-invite.md).
 
 ![Respondent settings](media/respondents-settings.png "Respondent settings")
 
