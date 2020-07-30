@@ -1,7 +1,7 @@
 ---
 title: "Transition from Forms Pro | MicrosoftDocs"
 description: "Learn what data is migrated when you transition from Forms Pro to Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 07/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
