@@ -40,17 +40,7 @@ Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefo
 Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Forms Pro. For information about purchasing Forms Pro, see [Purchase Microsoft Forms Pro](purchase.md).
 
 > [!NOTE]
-> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice and will be generally available by end of August 2020. You can sign up for the trial after Dynamics 365 Customer Voice is generally available. If you are an existing user, use https://forms.office.com to sign in to Forms Pro.
-
-1. Open [https://forms.office.com](https://forms.office.com) in a web browser.
-
-2. Select **Get started**.
-
-3. Enter your email address, and follow the wizard to complete the sign-up process.
-
-   > [!NOTE]
-   > - A work or school account is required for trying Forms Pro.
-   > - Users who participated in the Microsoft Forms Pro public preview program are automatically converted into the 30-day trial until July 30, 2019.  
+> Microsoft Forms Pro in now Dynamics 365 Customer Voice and will be generally available by end of August 2020. You can sign up for the trial after Dynamics 365 Customer Voice is generally available. If you are an existing user, use https://forms.office.com to sign in to Forms Pro.
 
 ### Opt out of trial
 
