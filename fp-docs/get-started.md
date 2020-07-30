@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 06/17/2020
+ms.date: 07/30/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: ef8aa6fd-48ec-4b74-adc8-737b915f15d1
@@ -39,7 +39,10 @@ Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefo
 
 Microsoft Forms Pro is generally available on July 1, 2019. To try Forms Pro, you can sign up for a free 30-day trial. After the trial period, you'll need a paid license to continue using Forms Pro. For information about purchasing Forms Pro, see [Purchase Microsoft Forms Pro](purchase.md).
 
-1. Open [https://formspro.microsoft.com](https://formspro.microsoft.com/) in a web browser.
+> [!NOTE]
+> Microsoft Forms Pro has evolved into Dynamics 365 Customer Voice and will be generally available by end of August 2020. You can sign up for the trial after Dynamics 365 Customer Voice is generally available. If you are an existing user, use https://forms.office.com to sign in to Forms Pro.
+
+1. Open [https://forms.office.com](https://forms.office.com) in a web browser.
 
 2. Select **Get started**.
 
