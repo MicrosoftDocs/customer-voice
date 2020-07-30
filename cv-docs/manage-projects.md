@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "Instructions for managing projects with Dynamics 365 Customer Voice"
-ms.date: 07/29/2020
+ms.date: 07/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -29,7 +29,7 @@ You can perform the following actions:
 
 ## Rename a project
 
-1. Sign in to Dynamics 365 Customer Voice.
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
 2. On the **All projects** tab, hover over the project you want to rename, select vertical ellipsis ![Project options](media/project-options.png "Project options"), and then select **Rename**.
 
@@ -54,7 +54,7 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
 **To copy a project**
 
-1. Sign in to Dynamics 365 Customer Voice.
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
 2. On the **All projects** tab, hover over the project you want to copy, select ![Project options](media/project-options.png "Project options"), and then select **Copy**.
 
@@ -94,7 +94,7 @@ If a project contains responses, a co-owner can see all responses under **Report
 
 **To share a project**
 
-1. Sign in to Dynamics 365 Customer Voice.
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
 2. On the **All projects** tab, hover over the project you want to share, select ![Project options](media/project-options.png "Project options"), and then select **Share**.
 
@@ -112,7 +112,7 @@ If a project contains responses, a co-owner can see all responses under **Report
 
 **To remove a co-owner from a project**
 
-1. Sign in to Dynamics 365 Customer Voice.
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
 2. On the **All projects** tab, hover over the project from which you want to remove a co-owner, select ![Project options](media/project-options.png "Project options"), and then select **Share**.
 
@@ -126,7 +126,7 @@ You can delete a project that you don't need anymore. Deleting a project removes
 
 **To delete a project**
 
-1. Sign in to Dynamics 365 Customer Voice.
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
 2. On the **All projects** tab, hover over the project you want to delete, select ![Project options](media/project-options.png "Project options"), and then select **Delete**.
 

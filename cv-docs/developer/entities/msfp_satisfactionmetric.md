@@ -15,25 +15,6 @@ Satisfaction metric defined for a project.
 
 **Added by**: Dynamics 365 Customer Voice Solution
 
-
-## Messages
-
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msfp_questions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msfp_questions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-
 ## Entity Properties
 
 |Property|Value|
@@ -49,36 +30,6 @@ Satisfaction metric defined for a project.
 |PrimaryIdAttribute|msfp_satisfactionmetricid|
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_satisfactionmetric|
-
-<a name="writable-attributes"></a>
-
-## Writable attributes
-
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
-
-- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msfp_description](#BKMK_msfp_description)
-- [msfp_historicalcomputedvalue](#BKMK_msfp_historicalcomputedvalue)
-- [msfp_issystemkpi](#BKMK_msfp_issystemkpi)
-- [msfp_lastcomputedon](#BKMK_msfp_lastcomputedon)
-- [msfp_lastcomputedvalue](#BKMK_msfp_lastcomputedvalue)
-- [msfp_maximumvalue](#BKMK_msfp_maximumvalue)
-- [msfp_minimumvalue](#BKMK_msfp_minimumvalue)
-- [msfp_name](#BKMK_msfp_name)
-- [msfp_project](#BKMK_msfp_project)
-- [msfp_questions](#BKMK_msfp_questions)
-- [msfp_satisfactionmetricId](#BKMK_msfp_satisfactionmetricId)
-- [msfp_status](#BKMK_msfp_status)
-- [msfp_threshold](#BKMK_msfp_threshold)
-- [msfp_type](#BKMK_msfp_type)
-- [msfp_versionnumber](#BKMK_msfp_versionnumber)
-- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
-- [statecode](#BKMK_statecode)
-- [statuscode](#BKMK_statuscode)
-- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber

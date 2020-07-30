@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 07/29/2020
+ms.date: 07/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -58,7 +58,7 @@ The available settings are:
 
 - **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Common Data Service.
 
-    By default, this setting is turned on, and each respondent is added as a contact in Common Data Service. This only works with surveys sent through email.
+    By default, this setting is turned on, and each respondent is added as a contact in Common Data Service. This only works with surveys sent through [email](send-survey-email.md) or [survey invitation](create-survey-invite.md). If a contact already exists, it will be updated accordingly.
 
 ![Respondent settings](media/respondents-settings.png "Respondent settings")
 
