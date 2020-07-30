@@ -1,7 +1,7 @@
 ---
 title: "msfp_emailtemplate Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_emailtemplate entity."
-ms.date: 07/29/2020
+ms.date: 07/30/2020
 ms.service: 
   - crm-online
 ms.topic: "reference"
@@ -14,25 +14,6 @@ manager: "shujoshi"
 Template for an email message that contains the survey invitation link.
 
 **Added by**: Dynamics 365 Customer Voice Solution
-
-
-## Messages
-
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.0/msfp_emailtemplates(*msfp_emailtemplateid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.0/msfp_emailtemplates<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msfp_emailtemplates(*msfp_emailtemplateid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msfp_emailtemplates(*msfp_emailtemplateid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msfp_emailtemplates<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msfp_emailtemplates(*msfp_emailtemplateid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msfp_emailtemplates(*msfp_emailtemplateid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -49,35 +30,6 @@ Template for an email message that contains the survey invitation link.
 |PrimaryIdAttribute|msfp_emailtemplateid|
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_emailtemplate|
-
-<a name="writable-attributes"></a>
-
-## Writable attributes
-
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
-
-- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msfp_Candelete](#BKMK_msfp_Candelete)
-- [msfp_Canedit](#BKMK_msfp_Canedit)
-- [msfp_Canrename](#BKMK_msfp_Canrename)
-- [msfp_emailtemplatebody](#BKMK_msfp_emailtemplatebody)
-- [msfp_emailtemplateId](#BKMK_msfp_emailtemplateId)
-- [msfp_emailtemplatesubject](#BKMK_msfp_emailtemplatesubject)
-- [msfp_language](#BKMK_msfp_language)
-- [msfp_name](#BKMK_msfp_name)
-- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)
-- [msfp_survey](#BKMK_msfp_survey)
-- [msfp_tags](#BKMK_msfp_tags)
-- [msfp_templatetype](#BKMK_msfp_templatetype)
-- [msfp_version](#BKMK_msfp_version)
-- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
-- [statecode](#BKMK_statecode)
-- [statuscode](#BKMK_statuscode)
-- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
-
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 

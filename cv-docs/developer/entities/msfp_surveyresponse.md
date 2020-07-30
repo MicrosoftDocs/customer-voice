@@ -1,7 +1,7 @@
 ---
 title: "msfp_surveyresponse Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyresponse entity."
-ms.date: 07/29/2020
+ms.date: 07/30/2020
 ms.service: 
   - crm-online
 ms.topic: "reference"
@@ -15,24 +15,6 @@ Response to a survey.
 
 **Added by**: Dynamics 365 Customer Voice Solution
 
-
-## Messages
-
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msfp_questions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msfp_questions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -49,81 +31,6 @@ Response to a survey.
 |PrimaryIdAttribute|activityid|
 |PrimaryNameAttribute|subject|
 |SchemaName|msfp_surveyresponse|
-
-<a name="writable-attributes"></a>
-
-## Writable attributes
-
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
-
-- [ActivityAdditionalParams](#BKMK_ActivityAdditionalParams)
-- [ActivityId](#BKMK_ActivityId)
-- [ActualDurationMinutes](#BKMK_ActualDurationMinutes)
-- [ActualEnd](#BKMK_ActualEnd)
-- [ActualStart](#BKMK_ActualStart)
-- [BCC](#BKMK_BCC)
-- [CC](#BKMK_CC)
-- [Community](#BKMK_Community)
-- [Customers](#BKMK_Customers)
-- [DeliveryPriorityCode](#BKMK_DeliveryPriorityCode)
-- [Description](#BKMK_Description)
-- [ExchangeItemId](#BKMK_ExchangeItemId)
-- [ExchangeWebLink](#BKMK_ExchangeWebLink)
-- [From](#BKMK_From)
-- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [IsBilled](#BKMK_IsBilled)
-- [IsMapiPrivate](#BKMK_IsMapiPrivate)
-- [IsWorkflowCreated](#BKMK_IsWorkflowCreated)
-- [LastOnHoldTime](#BKMK_LastOnHoldTime)
-- [LeftVoiceMail](#BKMK_LeftVoiceMail)
-- [msfp_embedcontextparameters](#BKMK_msfp_embedcontextparameters)
-- [msfp_language](#BKMK_msfp_language)
-- [msfp_locale](#BKMK_msfp_locale)
-- [msfp_name](#BKMK_msfp_name)
-- [msfp_npsscore](#BKMK_msfp_npsscore)
-- [msfp_otherproperties](#BKMK_msfp_otherproperties)
-- [msfp_parentsurveyresponse](#BKMK_msfp_parentsurveyresponse)
-- [msfp_respondent](#BKMK_msfp_respondent)
-- [msfp_respondentemailaddress](#BKMK_msfp_respondentemailaddress)
-- [msfp_satisfactionmetriccalculated](#BKMK_msfp_satisfactionmetriccalculated)
-- [msfp_satisfactionmetricvalue](#BKMK_msfp_satisfactionmetricvalue)
-- [msfp_sentiment](#BKMK_msfp_sentiment)
-- [msfp_sourceresponseidentifier](#BKMK_msfp_sourceresponseidentifier)
-- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)
-- [msfp_Startdate](#BKMK_msfp_Startdate)
-- [msfp_submitdate](#BKMK_msfp_submitdate)
-- [msfp_surveyid](#BKMK_msfp_surveyid)
-- [msfp_surveyinviteid](#BKMK_msfp_surveyinviteid)
-- [msfp_surveyresponse](#BKMK_msfp_surveyresponse)
-- [msfp_surveyresponseurl](#BKMK_msfp_surveyresponseurl)
-- [OptionalAttendees](#BKMK_OptionalAttendees)
-- [Organizer](#BKMK_Organizer)
-- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
-- [Partners](#BKMK_Partners)
-- [PriorityCode](#BKMK_PriorityCode)
-- [ProcessId](#BKMK_ProcessId)
-- [RegardingObjectId](#BKMK_RegardingObjectId)
-- [RegardingObjectIdName](#BKMK_RegardingObjectIdName)
-- [RegardingObjectIdYomiName](#BKMK_RegardingObjectIdYomiName)
-- [RegardingObjectTypeCode](#BKMK_RegardingObjectTypeCode)
-- [RequiredAttendees](#BKMK_RequiredAttendees)
-- [Resources](#BKMK_Resources)
-- [ScheduledDurationMinutes](#BKMK_ScheduledDurationMinutes)
-- [ScheduledEnd](#BKMK_ScheduledEnd)
-- [ScheduledStart](#BKMK_ScheduledStart)
-- [SLAId](#BKMK_SLAId)
-- [SortDate](#BKMK_SortDate)
-- [StageId](#BKMK_StageId)
-- [StateCode](#BKMK_StateCode)
-- [StatusCode](#BKMK_StatusCode)
-- [Subject](#BKMK_Subject)
-- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [To](#BKMK_To)
-- [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
-- [TraversedPath](#BKMK_TraversedPath)
-- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 
 ### <a name="BKMK_ActivityAdditionalParams"></a> ActivityAdditionalParams

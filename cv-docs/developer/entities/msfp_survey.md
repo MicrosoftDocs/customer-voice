@@ -1,7 +1,7 @@
 ---
 title: "msfp_survey Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_survey entity."
-ms.date: 07/29/2020
+ms.date: 07/30/2020
 ms.service: 
   - crm-online
 ms.topic: "reference"
@@ -15,24 +15,6 @@ Set of questions to collect feedback.
 
 **Added by**: Dynamics 365 Customer Voice Solution
 
-
-## Messages
-
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msfp_questions<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msfp_questions<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msfp_questions(*msfp_questionid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -49,37 +31,6 @@ Set of questions to collect feedback.
 |PrimaryIdAttribute|msfp_surveyid|
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_survey|
-
-<a name="writable-attributes"></a>
-
-## Writable attributes
-
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
-
-- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msfp_acceptanonymousresponses](#BKMK_msfp_acceptanonymousresponses)
-- [msfp_anonymousurl](#BKMK_msfp_anonymousurl)
-- [msfp_description](#BKMK_msfp_description)
-- [msfp_embedcode](#BKMK_msfp_embedcode)
-- [msfp_friendlyname](#BKMK_msfp_friendlyname)
-- [msfp_name](#BKMK_msfp_name)
-- [msfp_otherproperties](#BKMK_msfp_otherproperties)
-- [msfp_project](#BKMK_msfp_project)
-- [msfp_publishedby](#BKMK_msfp_publishedby)
-- [msfp_publishedon](#BKMK_msfp_publishedon)
-- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)
-- [msfp_sourcesurveymodifieddate](#BKMK_msfp_sourcesurveymodifieddate)
-- [msfp_sourcesurveyversion](#BKMK_msfp_sourcesurveyversion)
-- [msfp_surveyId](#BKMK_msfp_surveyId)
-- [msfp_surveysource](#BKMK_msfp_surveysource)
-- [msfp_surveyurl](#BKMK_msfp_surveyurl)
-- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [OwnerId](#BKMK_OwnerId)
-- [OwnerIdType](#BKMK_OwnerIdType)
-- [statecode](#BKMK_statecode)
-- [statuscode](#BKMK_statuscode)
-- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
