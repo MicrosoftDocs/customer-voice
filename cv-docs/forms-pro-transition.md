@@ -16,7 +16,7 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 > [!NOTE]
 > - The transition is in-progress and will continue for the next few weeks. To access Forms Pro, use [https://forms.office.com](https://forms.office.com).
-> - To use Dynamics 365 Customer Voice, you must have the latest version of the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) installed. Ask your tenant administrator to install the app from Microsoft AppSource.
+> - To use Dynamics 365 Customer Voice, the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) version 2.0.0.3 or the latest must be installed in your environment. Ask your tenant administrator to install the app from Microsoft AppSource.
 
 ## What happens to Forms Pro surveys?
 
