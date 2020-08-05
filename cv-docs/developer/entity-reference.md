@@ -21,6 +21,11 @@ search.appverid:
 
 Use this reference to understand the available operations that can be performed on specific entities, the default attributes of each entity and the relationship between entities.
 
+Following is a simplified version of the entity relationship diagram of Dynamics 365 Customer Voice entities. You can generate a detailed entity relationship diagram of  Dynamics 365 Customer Voice entities using the [Metadata Diagram tool](https://code.msdn.microsoft.com/Sample-of-generating-a0ba0e47). To do this, you will just have to mention the entity logical names as parameters while executing the sample. More information: [Use metadata to generate entity diagrams](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-metadata-generate-entity-diagrams).
+
+> [!div class=mx-imgBorder]
+> ![Simplified entity relationship diagram](../media/er-diagram.png "Simplified entity relationship diagram")
+
 ## Entities
 
 |Entity name|Description|
