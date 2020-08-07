@@ -37,6 +37,36 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 - All your survey data (questions and responses) is available in the same environment as you are currently working in.
 
+## What happens to Forms Pro entities?
+
+The Forms Pro entities are renamed as follows:
+
+|     Old name                      |     New name                                     |
+|-----------------------------------|--------------------------------------------------|
+|     Survey email template         |     Customer Voice survey email template       |
+|     Forms Pro survey question     |     Customer Voice survey question             |
+|     Survey question response    |     Customer Voice survey question response    |
+|     Forms Pro survey              |     Customer Voice survey                     |
+|     Survey invite                 |     Customer Voice survey invite               |
+|     Survey response               |     Customer Voice survey response             |
+|     Unsubscribed recipient        |     Customer Voice unsubscribed recipient      |
+|||
+
+## New entities in Dynamics 365 Customer Voice
+
+Following are the new entities in Dynamics 365 Customer Voice:
+
+|     Entity name                                         |     Description                                     |
+|---------------------------------------------------------|-----------------------------------------------------|
+|     Customer Voice localized survey email template    |     Stores localized data for email templates.    |
+|     Customer Voice project                              |     Set of surveys to collect feedback.           |
+|     Customer Voice satisfaction metric                |     Satisfaction metric defined for a project.    |
+|||
+
+## Security role update
+
+The **Survey Owner** security role is renamed to **Project Owner**. If you have created a custom security role to provide access to survey entities, a new **Customer Voice – Add on** security role is assigned to you. The new security role provides permission for the new Customer Voice entities. The **Customer Voice – Add on** security role has User permission on the new entities.
+
 ## Experience for users based on their Forms Pro license
 
 The transition experience differs based on the product license you have. This section provides details.
