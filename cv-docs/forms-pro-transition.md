@@ -65,7 +65,7 @@ Following are the new entities in Dynamics 365 Customer Voice:
 
 ## Security role update
 
-The **Survey Owner** security role is renamed to **Project Owner**. If you have created a custom security role to provide access to survey entities, a new **Customer Voice – Add on** security role is assigned to you. The new security role provides permission for the new Customer Voice entities. The **Customer Voice – Add on** security role has User permission on the new entities.
+The **Survey Owner** security role is renamed to **Project Owner**. If you have created a custom security role to provide access to survey entities, a new **Customer Voice – Add on** security role is assigned to you. The new security role provides permission for the [new entities in Dynamics 365 Customer Voice](#new-entities-in-dynamics-365-customer-voice). The **Customer Voice – Add on** security role has User permission on the [new entities in Dynamics 365 Customer Voice](#new-entities-in-dynamics-365-customer-voice).
 
 ## Experience for users based on their Forms Pro license
 
