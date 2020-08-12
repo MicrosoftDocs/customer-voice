@@ -1,7 +1,7 @@
 ---
 title: "Create a project | MicrosoftDocs"
 description: "Instructions for creating a project in Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 08/12/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -22,7 +22,7 @@ Dynamics 365 Customer Voice offers ready-to-use survey feedback project template
 
     - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
 
-- **Order delivery**: This template includes questions to collect timely feedback after an order is delivered. A Power Automate flow is included to automate sending a survey after the order is complete. The survey is sent to the customer, and the response is automatically integrated with the order and customer records. It also consists of a preconfigured email template and the following satisfaction metrics:
+- **Order delivery**: This template includes questions to collect timely feedback after an order is delivered. It consists of a preconfigured email template and the following satisfaction metrics:
 
     - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
     
@@ -30,17 +30,21 @@ Dynamics 365 Customer Voice offers ready-to-use survey feedback project template
     
     - **Product sentiment**: A sentiment metric that helps you to identify customer sentiment.
 
+    The **Send a survey when an order is fulfilled in Dynamics 365** Power Automate flow is created automatically when you create a project from this template. The survey is sent to the customer when an order is fulfilled in Dynamics 365, and the response is automatically integrated with the order and customer records. To see the flow, go to [flow.microsoft.com](https://flow.microsoft.com) and select **My flows** in the left pane. The flow is created in the inactive state. You must turn on the flow to use it. You can also customize the flow as per your requirement in Power Automate and then turn on the flow to start using it.
+
 - **Service visit**: This template includes questions to collect timely feedback following a customer visit scheduled with the Dynamics 365 Field Service application. The feedback is automatically integrated with the customer visit record in Dynamics 365, so you can get insights including trends and specific follow-up actions to make sure customer issues are addressed in a timely manner. It also consists of a preconfigured email template and the following satisfaction metrics:
 
     - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
     
     - **Customer sentiment**: A sentiment metric that helps you to identify customer sentiment.    
 
-- **Support**: This template includes questions that provides an out-of-the-box, end-to-end solution for measuring customer satisfaction for your Dynamics 365 case management process. It also consists of a preconfigured email template and the following satisfaction metrics:
+- **Support**: This template includes questions that provides an out-of-the-box, end-to-end solution for measuring customer satisfaction for your Dynamics 365 case management process. It consists of a preconfigured email template and the following satisfaction metrics:
 
     - **Customer sentiment**: A sentiment metric that helps you to identify customer sentiment.
     
     - **Customer satisfaction**: A satisfaction metric that helps you to measure the level of customer satisfaction.
+
+    The **Send a survey when a case is resolved in Dynamics 365** Power Automate flow is created automatically when you create a project from this template. The survey is sent to the customer when a case is resolved in Dynamics 365. To see the flow, go to [flow.microsoft.com](https://flow.microsoft.com) and select **My flows** in the left pane. The flow is created in the inactive state. You must turn on the flow to use it. You can also customize the flow as per your requirement in Power Automate and then turn on the flow to start using it.
 
 Dynamics 365 Customer Voice also includes a **Blank** template you can use to create a survey from scratch and configure it in accordance with your requirements. This template doesn't contain any preconfigured survey questions, workflows, or satisfaction metrics.
 
