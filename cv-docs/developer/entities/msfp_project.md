@@ -31,9 +31,9 @@ Set of surveys to collect feedback.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_project|
 
-<a name="attributes"></a>	
+<a name="writable-attributes"></a>	
 
-## Attributes	
+## Writable attributes	
 
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
 

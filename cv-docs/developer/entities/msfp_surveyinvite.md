@@ -32,9 +32,9 @@ Activity that tracks a survey invitation sent to a person.
 |PrimaryNameAttribute|subject|
 |SchemaName|msfp_surveyinvite|
 
-<a name="attributes"></a>	
+<a name="writable-attributes"></a>	
 
-## Attributes	
+## Writable attributes	
 
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
 
