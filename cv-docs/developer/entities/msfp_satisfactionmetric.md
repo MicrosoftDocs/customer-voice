@@ -9,6 +9,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
+
 # msfp_satisfactionmetric Entity Reference
 
 Satisfaction metric defined for a project.
@@ -31,6 +32,35 @@ Satisfaction metric defined for a project.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_satisfactionmetric|
 
+<a name="writable-attributes"></a>	
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_description](#BKMK_msfp_description)	
+- [msfp_historicalcomputedvalue](#BKMK_msfp_historicalcomputedvalue)	
+- [msfp_issystemkpi](#BKMK_msfp_issystemkpi)	
+- [msfp_lastcomputedon](#BKMK_msfp_lastcomputedon)	
+- [msfp_lastcomputedvalue](#BKMK_msfp_lastcomputedvalue)	
+- [msfp_maximumvalue](#BKMK_msfp_maximumvalue)	
+- [msfp_minimumvalue](#BKMK_msfp_minimumvalue)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_project](#BKMK_msfp_project)	
+- [msfp_questions](#BKMK_msfp_questions)	
+- [msfp_satisfactionmetricId](#BKMK_msfp_satisfactionmetricId)	
+- [msfp_status](#BKMK_msfp_status)	
+- [msfp_threshold](#BKMK_msfp_threshold)	
+- [msfp_type](#BKMK_msfp_type)	
+- [msfp_versionnumber](#BKMK_msfp_versionnumber)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 

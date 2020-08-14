@@ -9,6 +9,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
+
 # msfp_unsubscribedrecipient Entity Reference
 
 Email address of an unsubscribed respondent.
@@ -32,6 +33,23 @@ Email address of an unsubscribed respondent.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_unsubscribedrecipient|
 
+<a name="writable-attributes"></a>	
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_emailaddress](#BKMK_msfp_emailaddress)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_unsubscribedrecipientId](#BKMK_msfp_unsubscribedrecipientId)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 

@@ -31,6 +31,28 @@ Set of surveys to collect feedback.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_project|
 
+<a name="writable-attributes"></a>	
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_description](#BKMK_msfp_description)	
+- [msfp_environmentid](#BKMK_msfp_environmentid)	
+- [msfp_environmentregion](#BKMK_msfp_environmentregion)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_projectId](#BKMK_msfp_projectId)	
+- [msfp_status](#BKMK_msfp_status)	
+- [msfp_templateid](#BKMK_msfp_templateid)	
+- [msfp_templateversion](#BKMK_msfp_templateversion)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 

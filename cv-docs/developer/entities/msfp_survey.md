@@ -9,6 +9,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
+
 # msfp_survey Entity Reference
 
 Set of questions to collect feedback.
@@ -32,6 +33,36 @@ Set of questions to collect feedback.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_survey|
 
+<a name="writable-attributes"></a>
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_acceptanonymousresponses](#BKMK_msfp_acceptanonymousresponses)	
+- [msfp_anonymousurl](#BKMK_msfp_anonymousurl)	
+- [msfp_description](#BKMK_msfp_description)	
+- [msfp_embedcode](#BKMK_msfp_embedcode)	
+- [msfp_friendlyname](#BKMK_msfp_friendlyname)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_otherproperties](#BKMK_msfp_otherproperties)	
+- [msfp_project](#BKMK_msfp_project)	
+- [msfp_publishedby](#BKMK_msfp_publishedby)	
+- [msfp_publishedon](#BKMK_msfp_publishedon)	
+- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)	
+- [msfp_sourcesurveymodifieddate](#BKMK_msfp_sourcesurveymodifieddate)	
+- [msfp_sourcesurveyversion](#BKMK_msfp_sourcesurveyversion)	
+- [msfp_surveyId](#BKMK_msfp_surveyId)	
+- [msfp_surveysource](#BKMK_msfp_surveysource)	
+- [msfp_surveyurl](#BKMK_msfp_surveyurl)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 

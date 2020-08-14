@@ -31,6 +31,40 @@ Question in a survey to collect feedback.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_question|
 
+<a name="writable-attributes"></a>	
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_choicetype](#BKMK_msfp_choicetype)	
+- [msfp_correctanswer](#BKMK_msfp_correctanswer)	
+- [msfp_imageproperties](#BKMK_msfp_imageproperties)	
+- [msfp_Maximumrating](#BKMK_msfp_Maximumrating)	
+- [msfp_multiline](#BKMK_msfp_multiline)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_order](#BKMK_msfp_order)	
+- [msfp_otherproperties](#BKMK_msfp_otherproperties)	
+- [msfp_questionchoices](#BKMK_msfp_questionchoices)	
+- [msfp_questionId](#BKMK_msfp_questionId)	
+- [msfp_questiontext](#BKMK_msfp_questiontext)	
+- [msfp_questiontype](#BKMK_msfp_questiontype)	
+- [msfp_responserequired](#BKMK_msfp_responserequired)	
+- [msfp_sequence](#BKMK_msfp_sequence)	
+- [msfp_sourceparentquestionidentifier](#BKMK_msfp_sourceparentquestionidentifier)	
+- [msfp_Sourcequestionidentifier](#BKMK_msfp_Sourcequestionidentifier)	
+- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)	
+- [msfp_subtitle](#BKMK_msfp_subtitle)	
+- [msfp_Survey](#BKMK_msfp_Survey)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
+
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|

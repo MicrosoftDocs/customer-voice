@@ -31,6 +31,34 @@ Template for an email message that contains the survey invitation link.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_emailtemplate|
 
+<a name="writable-attributes"></a>	
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_Candelete](#BKMK_msfp_Candelete)	
+- [msfp_Canedit](#BKMK_msfp_Canedit)	
+- [msfp_Canrename](#BKMK_msfp_Canrename)	
+- [msfp_emailtemplatebody](#BKMK_msfp_emailtemplatebody)	
+- [msfp_emailtemplateId](#BKMK_msfp_emailtemplateId)	
+- [msfp_emailtemplatesubject](#BKMK_msfp_emailtemplatesubject)	
+- [msfp_language](#BKMK_msfp_language)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)	
+- [msfp_survey](#BKMK_msfp_survey)	
+- [msfp_tags](#BKMK_msfp_tags)	
+- [msfp_templatetype](#BKMK_msfp_templatetype)	
+- [msfp_version](#BKMK_msfp_version)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
+
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 |Property|Value|
