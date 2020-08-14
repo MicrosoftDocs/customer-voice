@@ -9,6 +9,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
+
 # msfp_questionresponse Entity Reference
 
 Response to a question in a survey.
@@ -32,6 +33,31 @@ Response to a question in a survey.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_questionresponse|
 
+<a name="writable-attributes"></a>	
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_keyphrases](#BKMK_msfp_keyphrases)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_otherproperties](#BKMK_msfp_otherproperties)	
+- [msfp_questionid](#BKMK_msfp_questionid)	
+- [msfp_questionresponseId](#BKMK_msfp_questionresponseId)	
+- [msfp_response](#BKMK_msfp_response)	
+- [msfp_Sentimentvalue](#BKMK_msfp_Sentimentvalue)	
+- [msfp_sourcequestionidentifier](#BKMK_msfp_sourcequestionidentifier)	
+- [msfp_sourceresponseidentifier](#BKMK_msfp_sourceresponseidentifier)	
+- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)	
+- [msfp_surveyresponseid](#BKMK_msfp_surveyresponseid)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 

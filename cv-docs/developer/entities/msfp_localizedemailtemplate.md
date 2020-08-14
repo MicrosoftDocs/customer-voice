@@ -32,6 +32,27 @@ Stores localized data for email templates.
 |PrimaryNameAttribute|msfp_name|
 |SchemaName|msfp_localizedemailtemplate|
 
+<a name="writable-attributes"></a>	
+
+## Writable attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [msfp_emailtemplatebody](#BKMK_msfp_emailtemplatebody)	
+- [msfp_emailtemplateid](#BKMK_msfp_emailtemplateid)	
+- [msfp_emailtemplatesubject](#BKMK_msfp_emailtemplatesubject)	
+- [msfp_language](#BKMK_msfp_language)	
+- [msfp_localizedemailtemplateId](#BKMK_msfp_localizedemailtemplateId)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_version](#BKMK_msfp_version)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [statecode](#BKMK_statecode)	
+- [statuscode](#BKMK_statuscode)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
