@@ -9,6 +9,7 @@ author: "susikka"
 ms.author: "susikka"
 manager: "shujoshi"
 ---
+
 # msfp_surveyresponse Entity Reference
 
 Response to a survey.
@@ -32,6 +33,80 @@ Response to a survey.
 |PrimaryNameAttribute|subject|
 |SchemaName|msfp_surveyresponse|
 
+<a name="attributes"></a>	
+
+## Attributes	
+
+These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+
+- [ActivityAdditionalParams](#BKMK_ActivityAdditionalParams)	
+- [ActivityId](#BKMK_ActivityId)	
+- [ActualDurationMinutes](#BKMK_ActualDurationMinutes)	
+- [ActualEnd](#BKMK_ActualEnd)	
+- [ActualStart](#BKMK_ActualStart)	
+- [BCC](#BKMK_BCC)	
+- [CC](#BKMK_CC)	
+- [Community](#BKMK_Community)	
+- [Customers](#BKMK_Customers)	
+- [DeliveryPriorityCode](#BKMK_DeliveryPriorityCode)	
+- [Description](#BKMK_Description)	
+- [ExchangeItemId](#BKMK_ExchangeItemId)	
+- [ExchangeWebLink](#BKMK_ExchangeWebLink)	
+- [From](#BKMK_From)	
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
+- [IsBilled](#BKMK_IsBilled)	
+- [IsMapiPrivate](#BKMK_IsMapiPrivate)	
+- [IsWorkflowCreated](#BKMK_IsWorkflowCreated)	
+- [LastOnHoldTime](#BKMK_LastOnHoldTime)	
+- [LeftVoiceMail](#BKMK_LeftVoiceMail)	
+- [msfp_embedcontextparameters](#BKMK_msfp_embedcontextparameters)	
+- [msfp_language](#BKMK_msfp_language)	
+- [msfp_locale](#BKMK_msfp_locale)	
+- [msfp_name](#BKMK_msfp_name)	
+- [msfp_npsscore](#BKMK_msfp_npsscore)	
+- [msfp_otherproperties](#BKMK_msfp_otherproperties)	
+- [msfp_parentsurveyresponse](#BKMK_msfp_parentsurveyresponse)	
+- [msfp_respondent](#BKMK_msfp_respondent)	
+- [msfp_respondentemailaddress](#BKMK_msfp_respondentemailaddress)	
+- [msfp_satisfactionmetriccalculated](#BKMK_msfp_satisfactionmetriccalculated)	
+- [msfp_satisfactionmetricvalue](#BKMK_msfp_satisfactionmetricvalue)	
+- [msfp_sentiment](#BKMK_msfp_sentiment)	
+- [msfp_sourceresponseidentifier](#BKMK_msfp_sourceresponseidentifier)	
+- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)	
+- [msfp_Startdate](#BKMK_msfp_Startdate)	
+- [msfp_submitdate](#BKMK_msfp_submitdate)	
+- [msfp_surveyid](#BKMK_msfp_surveyid)	
+- [msfp_surveyinviteid](#BKMK_msfp_surveyinviteid)	
+- [msfp_surveyresponse](#BKMK_msfp_surveyresponse)	
+- [msfp_surveyresponseurl](#BKMK_msfp_surveyresponseurl)	
+- [OptionalAttendees](#BKMK_OptionalAttendees)	
+- [Organizer](#BKMK_Organizer)	
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
+- [OwnerId](#BKMK_OwnerId)	
+- [OwnerIdType](#BKMK_OwnerIdType)	
+- [Partners](#BKMK_Partners)	
+- [PriorityCode](#BKMK_PriorityCode)	
+- [ProcessId](#BKMK_ProcessId)	
+- [RegardingObjectId](#BKMK_RegardingObjectId)	
+- [RegardingObjectIdName](#BKMK_RegardingObjectIdName)	
+- [RegardingObjectIdYomiName](#BKMK_RegardingObjectIdYomiName)	
+- [RegardingObjectTypeCode](#BKMK_RegardingObjectTypeCode)	
+- [RequiredAttendees](#BKMK_RequiredAttendees)	
+- [Resources](#BKMK_Resources)	
+- [ScheduledDurationMinutes](#BKMK_ScheduledDurationMinutes)	
+- [ScheduledEnd](#BKMK_ScheduledEnd)	
+- [ScheduledStart](#BKMK_ScheduledStart)	
+- [SLAId](#BKMK_SLAId)	
+- [SortDate](#BKMK_SortDate)	
+- [StageId](#BKMK_StageId)	
+- [StateCode](#BKMK_StateCode)	
+- [StatusCode](#BKMK_StatusCode)	
+- [Subject](#BKMK_Subject)	
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [To](#BKMK_To)	
+- [TransactionCurrencyId](#BKMK_TransactionCurrencyId)	
+- [TraversedPath](#BKMK_TraversedPath)	
+- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
 
 ### <a name="BKMK_ActivityAdditionalParams"></a> ActivityAdditionalParams
 
