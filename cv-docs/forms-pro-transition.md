@@ -1,7 +1,7 @@
 ---
 title: "Transition from Forms Pro | MicrosoftDocs"
 description: "Learn what data is migrated when you transition from Forms Pro to Dynamics 365 Customer Voice."
-ms.date: 08/03/2020
+ms.date: 08/27/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -15,7 +15,6 @@ manager: shujoshi
 Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebranding, all your surveys from Forms Pro are moved to Dynamics 365 Customer Voice and you can perform all the actions in Dynamics 365 Customer Voice that you performed in Forms Pro.
 
 > [!NOTE]
-> - The transition is in-progress and will continue for the next few weeks. To access Forms Pro, use [https://forms.office.com](https://forms.office.com).
 > - To use Dynamics 365 Customer Voice, the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) version 2.0.0.3 or the latest must be installed in your environment. Ask your tenant administrator to install the app from Microsoft AppSource.
 
 ## What happens to Forms Pro surveys?
