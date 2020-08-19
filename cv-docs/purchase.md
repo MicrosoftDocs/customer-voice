@@ -82,7 +82,7 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
 
 4. Select **Get now**.
 
-    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license.png "Get Dynamics 365 Customer Voice Pro USL")
+    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice Pro USL")
 
 5. Select the number of user licenses to purchase, and complete the purchase process.
 
