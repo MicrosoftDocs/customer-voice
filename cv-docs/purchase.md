@@ -80,7 +80,9 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
 
     ![Dynamics 365 Customer Voice Pro USL tile](media/usl-license.png "Dynamics 365 Customer Voice Pro USL tile")
 
-4. Select **Buy**.
+4. Select **Get now**.
+
+    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license.png "Get Dynamics 365 Customer Voice Pro USL")
 
 5. Select the number of user licenses to purchase, and complete the purchase process.
 
@@ -123,14 +125,16 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
     > [!div class=mx-imgBorder]
     > ![Dynamics 365 Customer Voice Pro USL tile](media/usl-license.png "Dynamics 365 Customer Voice Pro USL tile")
 
-8. Select **Buy**.
+8. Select **Get now**.
 
-8. Select the number of users to purchase, and complete the purchase process.
+    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license.png "Get Dynamics 365 Customer Voice Pro USL")
+
+9. Select the number of users to purchase, and complete the purchase process.
 
     > [!div class=mx-imgBorder]
     > ![Purchase Dynamics 365 Customer Voice Pro USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice Pro USL")
 
-8. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
+10. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
 
    1. In the left pane, select **Users** > **Active users**.
 
