@@ -6,7 +6,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 applies_to: 
-ms.date: 05/13/2020
+ms.date: 08/19/2020
 ms.service: forms-pro
 ms.topic: article
 ms.assetid: 7D59D434-53F0-46A6-A00A-20BB41C69A4C
@@ -174,7 +174,7 @@ You can pay for the licenses by using either of the payment modes: monthly or ye
 
 You can send as many survey invitations as you want; invitations aren't counted toward response capacity consumption. Only the responses received, for both anonymous and non-anonymous surveys, are counted toward response capacity consumption.
 
-If the consumed response capacity reaches or exceeds the annual response capacity in any given month, Forms Pro will stop receiving new responses and won't allow new surveys to be created. In this case, you must contact your administrator to purchase additional responses. After the administrator purchases additional responses, you'll start receiving responses and be able to create new surveys. Note that any survey responses received during this period won't be processed; only responses received after additional responses are purchased will be processed.
+The tenant administrator receives weekly notifications when the number of survey responses exceeds 80% of the purchased response capacity. The tenant administrator must purchase additional responses to ensure business continuity and avoid possible disruptions to the service after the number of survey responses exceeds the purchased response capacity.
 
 If you have any unused responses remaining in a year, those responses won't be carried forward to the next year. For example, if you bought one additional license and didn't receive any response in the first year, the response capacity for the second year will be 24,000 and not 48,000 (24,000 &times; 2).
 
