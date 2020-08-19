@@ -174,7 +174,7 @@ You can pay for the licenses by using either of the payment modes: monthly or ye
 
 You can send as many survey invitations as you want; invitations aren't counted toward response capacity consumption. Only the responses received, for both anonymous and non-anonymous surveys, are counted toward response capacity consumption.
 
-The tenant administrator receives weekly notifications when the number of survey responses exceed 80% of the purchased response capacity. The tenant administrator must purchase additional responses to ensure business continuity and avoid possible disruptions to the service after the number of survey responses exceed the purchased response capacity.
+The tenant administrator receives weekly notifications when the number of survey responses exceeds 80% of the purchased response capacity. The tenant administrator must purchase additional responses to ensure business continuity and avoid possible disruptions to the service after the number of survey responses exceeds the purchased response capacity.
 
 If you have any unused responses remaining in a year, those responses won't be carried forward to the next year. For example, if you bought one additional license and didn't receive any response in the first year, the response capacity for the second year will be 24,000 and not 48,000 (24,000 &times; 2).
 
