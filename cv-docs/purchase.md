@@ -127,7 +127,7 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
 8. Select **Get now**.
 
-    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license.png "Get Dynamics 365 Customer Voice Pro USL")
+    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice Pro USL")
 
 9. Select the number of users to purchase, and complete the purchase process.
 
