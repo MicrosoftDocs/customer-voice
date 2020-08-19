@@ -82,7 +82,6 @@ For example, for the question **How likely is it that you would recommend us to 
 
     - **Show**: Select a question to be displayed based on the response to a question.
     - **Hide**: Select a question to be hidden based on the response to a question.
-    - **Toggle**: Toggle the state of the selected question based on the response to a question.
     - **Navigate to**: Select the target to which a responder should be navigated.
 
     > [!div class=mx-imgBorder]
