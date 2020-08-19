@@ -76,15 +76,17 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
 
 2. In the left pane, select **Billing** > **Purchase services**.
 
-3. Find **Dynamics 365 Customer Voice USL**, and then select **Buy now**. Dynamics 365 Customer Voice USL is a free user license.
+3. Find **Dynamics 365 Customer Voice Pro USL**, and then select **Details**. Dynamics 365 Customer Voice Pro USL is a free user license.
 
-    ![Dynamics 365 Customer Voice USL tile](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
+    ![Dynamics 365 Customer Voice Pro USL tile](media/usl-license.png "Dynamics 365 Customer Voice Pro USL tile")
 
-4. Select the number of user licenses to purchase, and complete the purchase process.
+4. Select **Buy**.
 
-    ![Purchase Dynamics 365 Customer Voice USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice USL")
+5. Select the number of user licenses to purchase, and complete the purchase process.
 
-5. Assign the **Dynamics 365 Customer Voice USL** license to users in your organization:
+    ![Purchase Dynamics 365 Customer Voice Pro USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice Pro USL")
+
+5. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
 
    1. In the left pane, select **Users** > **Active users**.
 
@@ -92,7 +94,7 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
 
    3. In the **Product licenses** row, select **Edit**.
 
-   4. On the **Product licenses** page, turn the **Dynamics 365 Customer Voice USL** toggle to **On**.
+   4. On the **Product licenses** page, turn the **Dynamics 365 Customer Voice Pro USL** toggle to **On**.
 
 ## Purchase Dynamics 365 Customer Voice for users in an Office 365 tenant
 
@@ -116,17 +118,19 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
 6. In the left pane, select **Billing** > **Purchase services**.
 
-7. Find **Dynamics 365 Customer Voice USL**, and then select **Buy now**. Dynamics 365 Customer Voice USL is a free user license.
+7. Find **Dynamics 365 Customer Voice Pro USL**, and then select **Details**. Dynamics 365 Customer Voice Pro USL is a free user license.
 
     > [!div class=mx-imgBorder]
-    > ![Dynamics 365 Customer Voice USL tile](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
+    > ![Dynamics 365 Customer Voice Pro USL tile](media/usl-license.png "Dynamics 365 Customer Voice Pro USL tile")
+
+8. Select **Buy**.
 
 8. Select the number of users to purchase, and complete the purchase process.
 
     > [!div class=mx-imgBorder]
-    > ![Purchase Dynamics 365 Customer Voice USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice USL")
+    > ![Purchase Dynamics 365 Customer Voice Pro USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice Pro USL")
 
-8. Assign the **Dynamics 365 Customer Voice USL** license to users in your organization:
+8. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
 
    1. In the left pane, select **Users** > **Active users**.
 
@@ -134,7 +138,7 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
    3. In the **Product licenses** row, select **Edit**.
 
-   4. On the **Product licenses** page, turn the **Dynamics 365 Customer Voice USL** toggle to **On**.
+   4. On the **Product licenses** page, turn the **Dynamics 365 Customer Voice Pro USL** toggle to **On**.
 
 ### Disable Dynamics 365 Customer Voice for a user
 
@@ -146,7 +150,7 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
 4. In the **Product licenses** row, select **Edit**.
 
-5. On the **Product licenses** page, turn the **Dynamics 365 Customer Voice USL** toggle to **Off**.
+5. On the **Product licenses** page, turn the **Dynamics 365 Customer Voice Pro USL** toggle to **Off**.
 
 ## Response capacity consumption
 
