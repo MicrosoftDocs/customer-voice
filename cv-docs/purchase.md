@@ -71,6 +71,8 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
 
     ![Disable Dynamics 365 Customer Voice for a user](media/disable-cv-user.png "Disable Dynamics 365 Customer Voice for a user")
 
+6. Select **Save changes**.
+
 ### Enable Dynamics 365 Customer Voice for a user without a Dynamics 365 enterprise license
 
 If you need to provide access to Dynamics 365 Customer Voice for users who don't have a Dynamics 365 enterprise license:
@@ -93,15 +95,17 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
 
 5. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
 
-   1. In the left pane, select **Users** > **Active users**.
+    1. In the left pane, select **Users** > **Active users**.
 
-   2. Open the user record to which you need to add a Dynamics 365 Customer Voice license.
+    2. Open the user record to which you need to add a Dynamics 365 Customer Voice license.
 
-   3. Go to the **Licenses and Apps** tab.
+    3. Go to the **Licenses and Apps** tab.
 
-   4. In the **Licenses** section, select **Dynamics 365 Customer Voice Pro USL**.
+    4. In the **Licenses** section, select **Dynamics 365 Customer Voice Pro USL**.
 
         ![Assign the Dynamics 365 Customer Voice user license to a user](media/enable-cv-usl.png "Assign the Dynamics 365 Customer Voice user license to a user")
+    
+    5. Select **Save changes**.
 
 ## Purchase Dynamics 365 Customer Voice for users in an Office 365 tenant
 
@@ -141,15 +145,17 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
 10. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
 
-   1. In the left pane, select **Users** > **Active users**.
+    1. In the left pane, select **Users** > **Active users**.
 
-   2. Open the user record to which you need to add a Dynamics 365 Customer Voice license.
+    2. Open the user record to which you need to add a Dynamics 365 Customer Voice license.
 
-   3. Go to the **Licenses and Apps** tab.
+    3. Go to the **Licenses and Apps** tab.
 
-   4. In the **Licenses** section, select **Dynamics 365 Customer Voice Pro USL**.
+    4. In the **Licenses** section, select **Dynamics 365 Customer Voice Pro USL**.
 
         ![Assign the Dynamics 365 Customer Voice user license to a user](media/enable-cv-usl.png "Assign the Dynamics 365 Customer Voice user license to a user")
+    
+    5. Select **Save changes**.
 
 ### Disable Dynamics 365 Customer Voice for a user
 
@@ -164,6 +170,8 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 5. In the **Licenses** section, clear **Dynamics 365 Customer Voice Pro USL**.
 
     ![Remove the Dynamics 365 Customer Voice user license from a user](media/disable-cv-usl.png "Remove the Dynamics 365 Customer Voice user license from a user")
+
+6. Select **Save changes**.
 
 ## Response capacity consumption
 
