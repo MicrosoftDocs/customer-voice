@@ -37,7 +37,7 @@ Forms Pro is optimized for the latest versions of Microsoft Edge, Chrome, Firefo
 
 ## Microsoft Forms Pro trial
 
-Microsoft Forms Pro in now Dynamics 365 Customer Voice. You can sign up for the Dynamics 365 Customer Voice trial from [https://customervoice.microsoft.com](https://customervoice.microsoft.com).
+Microsoft Forms Pro in now Dynamics 365 Customer Voice. You can sign up for the Dynamics 365 Customer Voice trial from [https://customervoice.microsoft.com](https://customervoice.microsoft.com). More information: [Sign up for the Dynamics 365 Customer Voice trial](../cv-docs/sign-up-trial.md)
 
 ## Forms Pro availability on US Government Community Cloud
 
