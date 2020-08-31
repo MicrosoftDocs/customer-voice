@@ -1,7 +1,7 @@
 ---
 title: "Plan a survey | MicrosoftDocs"
 description: "Instructions for planning a survey with Customer Voice"
-ms.date: 07/29/2020
+ms.date: 08/31/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -62,7 +62,7 @@ For any questions or assistance, please contact Microsoft support.
 
 Dynamics 365 Customer Voice has a limit on the number of surveys you can create, number of questions you can add per survey, and number of responses a survey can receive. The limits are:
 
-- Number of surveys that can be created by a user: 200
+- Number of surveys that can be created by a user: 200 (including forms and quizzes if you have Microsoft Forms license)
 - Number of questions allowed per survey: 100
 - Number of responses a survey can receive: 500,000
 - Number of characters allowed per response for a single question: 4,000
