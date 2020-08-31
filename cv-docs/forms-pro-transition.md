@@ -1,7 +1,7 @@
 ---
 title: "Transition from Forms Pro | MicrosoftDocs"
 description: "Learn what data is migrated when you transition from Forms Pro to Dynamics 365 Customer Voice."
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Transition from Microsoft Forms Pro to Dynamics 365 Customer Voice
 
-Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebranding, all your surveys from Forms Pro are moved to Dynamics 365 Customer Voice and you can perform all the actions in Dynamics 365 Customer Voice that you performed in Forms Pro.
+Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebranding, all your surveys from Forms Pro are moved to Dynamics 365 Customer Voice and you can perform all the actions in Dynamics 365 Customer Voice that you performed in Forms Pro. There's no impact to your existing Forms Pro surveys with the transition to Dynamics 365 Customer Voice. You'll now have new capabilities along with the new user interface. All the existing surveys will continue to receive responses. If Power Automate flows were created, they will continue to work.
 
 > [!NOTE]
 > - The transition is in-progress and will continue for the next few weeks. To access Forms Pro, use [https://forms.office.com](https://forms.office.com).

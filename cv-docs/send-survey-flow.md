@@ -36,7 +36,7 @@ After creating a survey, you can send it to respondents based on a business trig
     > [!NOTE]
     > - The flow will use the default email template for sending emails. If you want to send email by using a specific email template, ensure that you've selected it from the **Email template** list in the [send a survey](#send-a-survey-action) action.
     > - While configuring a flow, you might see duplicate templates on the template page. To resolve this issue, navigate out of the tab, and then come back to create the flow again.
-    > - If you've added personalized data to your survey, you must specify values for it in the flow. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+    > - If you've added variables to your survey, you must specify values for it in the flow. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 5.  Select **Create Flow**.
 
@@ -62,7 +62,7 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |||
 
 > [!NOTE]
-> If you've used personalized data placeholders in your survey, those fields will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+> If you've used variables in your survey, they will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 The values from the **Regarding** and **Recipient details** fields are stored in the survey invitation, as shown in the following image.
 
