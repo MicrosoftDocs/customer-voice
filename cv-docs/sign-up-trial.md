@@ -22,7 +22,7 @@ You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After th
 
    > [!NOTE]
    > - A work or school account is required for trying Dynamics 365 Customer Voice.
-   > - You can receive up to 100 responses in the trial period.
+   > - You can receive a total of 100 survey responses in the trial period.
 
 ## Experience for a trial or new user
 
