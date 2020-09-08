@@ -19,13 +19,13 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 ## What happens to Forms Pro surveys?
 
+- If you created a survey in Forms Pro and distributed it through any of the available modes (email, Power Automate, embed, link, or QR code), it will continue to receive responses.
+
 - All your Forms Pro surveys are available as individual projects in Dynamics 365 Customer Voice. This means that each project contains one survey. You can see all your projects on the **All projects** tab.
 
 - If you created a shared survey in Forms Pro, a shared project is created.
 
 - If you created a flow for your surveys in Forms Pro, it is available in Dynamics 365 Customer Voice.
-
-- If you created a survey in Forms Pro and distributed it through any of the available modes (email, Power Automate, embed, link, and QR code), it will continue to receive responses.
 
 - If you had a Net Promoter Score (NPS) question or tagged a text question for sentiment analysis in Forms Pro, the corresponding NPS and sentiment metrics are created in Dynamics 365 Customer Voice as part of migration. If you had multiple NPS questions, the first NPS question is mapped to the created satisfaction metrics. If you have tagged multiple text questions for sentiment analysis, a satisfaction metric is created for each of the tagged text question.
 
