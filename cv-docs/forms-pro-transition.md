@@ -19,7 +19,7 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 ## What happens to Forms Pro surveys?
 
-- A survey created in Forms Pro and distributed through any of the available modes (email, Power Automate, embed, link, or QR code) will continue to receive responses.
+- A survey created in Forms Pro and distributed through any of the available modes (email, Power Automate, embed, link, or QR code), will continue to receive responses.
 
 - All your Forms Pro surveys are available as individual projects in Dynamics 365 Customer Voice. This means that each project contains one survey. You can see all your projects on the **All projects** tab.
 
