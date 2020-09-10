@@ -64,6 +64,12 @@ For any questions or assistance, please contact Microsoft support.
 
 In Dynamics 365 Customer Voice, we've enabled automated machine reviews to proactively detect malicious password collection in surveys.
 
+If you suspect a survey you've received is attempting to collect passwords or other sensitive information, report it to help prevent yours and other's private information from getting compromised. Below the **Submit** button at the bottom of the suspected survey, select **Report abuse**.
+
+![Report abuse link](media/report-abuse-link.png "Report abuse link")
+
+You can be diligent about protecting yourself from phishing by never providing personal information, such as passwords, in any survey. You can also report online fraud.
+
 ### Survey designer experience
 
 If you've designed a survey that includes questions that require a respondent to provide their password, account information, or other security information, the survey will be automatically blocked and can't be distributed. The administrator will receive a notification and an option to unblock the survey. If you want to distribute the survey, you must contact your administrator to unblock it.
