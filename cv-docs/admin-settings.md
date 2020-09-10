@@ -1,7 +1,7 @@
 ---
 title: "Administrator settings | MicrosoftDocs"
 description: "Learn about administrator settings available for Dynamics 365 Customer Voice."
-ms.date: 09/07/2020
+ms.date: 09/10/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
