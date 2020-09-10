@@ -1,7 +1,7 @@
 ---
 title: "Plan a survey | MicrosoftDocs"
 description: "Instructions for planning a survey with Customer Voice"
-ms.date: 08/31/2020
+ms.date: 09/10/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -57,6 +57,26 @@ A few best practices enable you to create an effective high-volume survey using 
   **Recommendation**: Set up the Power Automate workflow by using an account that has an appropriate Power Automate plan. More information: [Power Apps and Power Automate licensing FAQs](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq)
 
 For any questions or assistance, please contact Microsoft support.
+
+## Avoid having your survey blocked by Dynamics 365 Customer Voice phishing prevention
+
+*Phishing attacks* attempt to steal sensitive information through emails, websites, text messages, or other forms of electronic communication that appear to be official communication from legitimate companies or individuals. Phishers often attempt to steal passwords or other credentials.
+
+In Dynamics 365 Customer Voice, we've enabled automated machine reviews to proactively detect malicious password collection in surveys.
+
+If you suspect a survey you've received is attempting to collect passwords or other sensitive information, report it to help prevent yours and other's private information from getting compromised. Below the **Submit** button at the bottom of the suspected survey, select **Report abuse**.
+
+![Report abuse link](media/report-abuse-link.png "Report abuse link")
+
+You can be diligent about protecting yourself from phishing by never providing personal information, such as passwords, in any survey. You can also report online fraud.
+
+### Survey designer experience
+
+If you've designed a survey that includes questions that require a respondent to provide their password, account information, or other security information, the survey will be automatically blocked and can't be distributed. The administrator will receive a notification and an option to unblock the survey. If you want to distribute the survey, you must contact your administrator to unblock it.
+
+### Administrator experience
+
+When a survey is blocked automatically, the administrator receives a daily notification in **Message center** with an option to unblock the survey. More information: [Review and unblock forms detected and blocked for potential phishing](https://support.office.com/article/review-and-unblock-forms-detected-and-blocked-for-potential-phishing-879a90d7-6ef9-4145-933a-fb53a430bced)
 
 ## Survey, question, response, and character limits
 

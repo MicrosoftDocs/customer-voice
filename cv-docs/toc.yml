@@ -13,6 +13,9 @@
 - name: Purchase Dynamics 365 Customer Voice
   href: purchase.md
 
+- name: Administrator settings for Dynamics 365 Customer Voice
+  href: admin-settings.md
+
 - name: Design a survey
   items:
   - name: Plan a survey
