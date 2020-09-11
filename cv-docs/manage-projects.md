@@ -25,7 +25,6 @@ You can perform the following actions:
 - **Rename**: Rename your project title.
 - **Copy**: Create a copy of your project in the same or different environment.
 - **Share**: Share your project with other people for collaboration.
-- **Update**: Update your project with a copy of the same project.
 - **Delete**: Delete a project that you don't need anymore.
 
 ## Rename a project
@@ -120,58 +119,6 @@ If a project contains responses, a co-owner can see all responses under **Report
 3. In the **Share** panel, go to the **Access** tab, and then select **Remove access** for the user you want to remove.
 
     ![Remove project access](media/project-owners.png "Remove project access")
-
-## Update a project
-
-You can update your project with the copy of the same project residing in the same or different environment. Updating a project gives you the capability to make incremental changes to the project whose survey is sent to respondents and is receiving responses. 
-
-> [!NOTE]
-> A project can be updated only from its own copy and not from any other projects .
-
-The following components can be updated:
-
-- Project
-    - Name
-    - Satisfaction metrics
-- Survey
-    - Title
-    - Description
-    - Name
-    - Questions and their corresponding answer options
-    - Survey customizations
-    - Survey distribution settings
-    - Email templates and their corresponding languages
-    - Power Automate flows
-
-Let's understand the update operation with the following example:
-
-You work in a company named Contoso, and create and finalize surveys across environments as follows: 
-- **ContosoDev**: Development environment used to create and test surveys.
-- **ContosoProd**: Production environment used for live surveys. Surveys that are finalized are moved to this environment and then shared with respondents.
-
-The Customer satisfaction survey is in the ContosoProd environment and the following changes need to be made:
-
-- Add a question
-- Change the color theme
-- Add a background image
-
-In the production environment, you can’t edit the survey directly. You make a copy of the survey in the ContosoDev environment and make the required changes. You now update the survey in the production environment with the copy of the survey in the development environment.
-
-**To update the survey**
-
-1.	Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
-
-2.	On the **All projects** tab, hover over the project you want to update, select ![Project options](media/project-options.png "Project options"), and then select **Update**.
-
-3.	In the **Update project** screen, select the project from which your project needs to be updated.
-
-    <<image>>
-
-4.	In the confirmation dialog box, select **Confirm**. 
-
-    <<image>>
-
-    A notification is displayed in the upper-right corner when the project is updated.
 
 ## Delete a project
 
