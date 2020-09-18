@@ -120,7 +120,7 @@ The available settings are:
 
 ## Work with personalized links
 
-Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response. The personalized link is a short URL in the following format: https://&lt;region&gt;.dcv.ms/&lt;10-digit code&gt;
+Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response. The personalized link is a short URL in the following format: `https://<region>.dcv.ms/<10-digit code>`
 
 When you send a survey by generating a link or a QR code, the survey links aren't personalized. If the survey links aren't personalized and the **Only people in my organization can respond** setting is turned off, you won't be able to record the respondent's name or determine whether the respondent has submitted only one response.
 
