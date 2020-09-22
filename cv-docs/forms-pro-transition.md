@@ -1,7 +1,7 @@
 ---
 title: "Transition from Forms Pro | MicrosoftDocs"
 description: "Learn what data is migrated when you transition from Forms Pro to Dynamics 365 Customer Voice."
-ms.date: 09/08/2020
+ms.date: 09/22/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -37,6 +37,18 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 - If you created a web browser bookmark for a Forms Pro survey URL, you are redirected to the corresponding project in Dynamics 365 Customer Voice.
 
 - All your survey data (questions and responses) is available in the same environment as you are currently working in.
+
+## What happens to Forms Pro email templates?
+
+- The existing email template created in Forms Pro are retained as is and are available as personal email templates in Dynamics 365 Customer Voice. You cannot edit your existing email templates in Forms Pro. However, you can import the required personal email templates into your survey. More information: [Import a personal email template](send-survey-email.md#import-a-personal-email-template)
+
+- The email templates in Dynamics 365 Customer Voice are associated with surveys. You can see them while configuring a Power Automate flow.
+
+- If you were using different email templates for multiple languages, you can now create multilingual email templates. More information: [Create multilingual email templates](send-survey-email.md#create-multilingual-email-templates)
+
+- Email templates are saved in your Common Data Service environment in which the survey is stored.
+
+- When you copy a project, email templates configured for the surveys are copied to the new project. More information: [Copy a project](manage-projects.md#copy-a-project)
 
 ## What happens to Forms Pro entities?
 
