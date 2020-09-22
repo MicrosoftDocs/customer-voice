@@ -169,7 +169,7 @@ As a company policy, you can’t edit surveys directly in the production environ
 
 3. In the **Update project** screen, select the project from which your project needs to be updated.
 
-    ![Select a project to update from](media/update-screen.png "Select a project to update from")
+    ![Select a project to update from](media/project-update-screen.png "Select a project to update from")
 
 4. In the confirmation dialog box, select **Confirm**.
 
