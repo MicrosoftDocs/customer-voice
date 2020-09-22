@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "Instructions for managing projects with Dynamics 365 Customer Voice"
-ms.date: 07/30/2020
+ms.date: 09/22/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -75,6 +75,8 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 ## Share a project
 
 You can share your project with multiple people in your organization so they can collaborate on the structure and layout of  surveys within the project. The people with whom the project is shared become the co-owners of the shared project. The projects that are shared with you are available on the **All projects** tab. 
+
+When you share a project, a group is created in Azure Active Directory and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Azure Active Directory group.
 
 **What can a co-owner do?**
 
