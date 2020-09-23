@@ -1,7 +1,7 @@
 ---
 title: "View survey responses report | MicrosoftDocs"
 description: "Instructions for viewing survey responses report in Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 09/23/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -36,7 +36,7 @@ You can view individual responses to each question in a survey submitted by a re
 
 ## Export survey responses
 
-To export survey responses, select **Export All** in the upper-left corner of the report. The responses are downloaded in a CSV file.
+To export survey responses, select **Export All** in the upper-left corner of the report. The responses are downloaded in an Excel (.xlsx) file. Each question in your survey is a column, and each response becomes a row in the Excel file.
 
 ## Delete a survey response
 
