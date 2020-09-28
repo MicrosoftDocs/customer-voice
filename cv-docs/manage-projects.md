@@ -137,5 +137,5 @@ You can delete a project that you don't need anymore. Deleting a project removes
 ### See also
 
 [Create a project](create-project.md)<br>
-[Create a survey](create-survey.md)<br>
+[Create a survey](create-survey.md)<br> 
 [Manage surveys](manage-surveys.md)
