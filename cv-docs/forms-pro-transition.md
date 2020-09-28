@@ -1,7 +1,7 @@
 ---
 title: "Transition from Forms Pro | MicrosoftDocs"
 description: "Learn what data is migrated when you transition from Forms Pro to Dynamics 365 Customer Voice."
-ms.date: 09/22/2020
+ms.date: 09/28/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -42,7 +42,7 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 - The existing email template created in Forms Pro are retained as is and are available as personal email templates in Dynamics 365 Customer Voice. You cannot edit your existing email templates in Forms Pro. However, you can import the required personal email templates into your survey. More information: [Import a personal email template](send-survey-email.md#import-a-personal-email-template)
 
-- The email templates in Dynamics 365 Customer Voice are associated with surveys. You can see them while configuring a Power Automate flow.
+- The email templates in Dynamics 365 Customer Voice are associated with surveys. You can use them while configuring a Power Automate flow.
 
 - If you were using different email templates for multiple languages, you can now create multilingual email templates. More information: [Create multilingual email templates](send-survey-email.md#create-multilingual-email-templates)
 
