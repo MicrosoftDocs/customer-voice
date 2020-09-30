@@ -1,7 +1,7 @@
 ---
 title: "Transition from Forms Pro | MicrosoftDocs"
 description: "Learn what data is migrated when you transition from Forms Pro to Dynamics 365 Customer Voice."
-ms.date: 09/08/2020
+ms.date: 09/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -19,24 +19,36 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 ## What happens to Forms Pro surveys?
 
-- A survey created in Forms Pro and distributed through any of the available modes (email, Power Automate, embed, link, or QR code), will continue to receive responses.
+- A survey created in Forms Pro and distributed through any of the available modes (email, Power Automate, embed, link, or QR code) will continue to receive responses.
 
 - All your Forms Pro surveys are available as individual projects in Dynamics 365 Customer Voice. This means that each project contains one survey. You can see all your projects on the **All projects** tab.
 
 - If you created a shared survey in Forms Pro, a shared project is created.
 
-- If you created a flow for your surveys in Forms Pro, it is available in Dynamics 365 Customer Voice.
+- If you created a flow for your surveys in Forms Pro, it's available in Dynamics 365 Customer Voice.
 
-- If you had a Net Promoter Score (NPS) question or tagged a text question for sentiment analysis in Forms Pro, the corresponding NPS and sentiment metrics are created in Dynamics 365 Customer Voice as part of migration. If you had multiple NPS questions, the first NPS question is mapped to the created satisfaction metrics. If you have tagged multiple text questions for sentiment analysis, a satisfaction metric is created for each of the tagged text question.
+- If you had a Net Promoter Score (NPS) question or tagged a text question for sentiment analysis in Forms Pro, the corresponding NPS and sentiment metrics are created in Dynamics 365 Customer Voice as part of migration. If you had multiple NPS questions, the first NPS question is mapped to the created satisfaction metrics. If you've tagged multiple text questions for sentiment analysis, a satisfaction metric is created for each of the tagged text questions.
 
   A dashboard is automatically created for each set of metrics, showcasing recent scores and trends. The dashboard is available under **Reports**.
 
   > [!NOTE]
   > The computation of satisfaction metrics for the migrated surveys might take up to 10 days. The satisfaction metrics report will be displayed after the computation is completed successfully.
 
-- If you created a web browser bookmark for a Forms Pro survey URL, you are redirected to the corresponding project in Dynamics 365 Customer Voice.
+- If you created a web browser bookmark for a Forms Pro survey URL, you're redirected to the corresponding project in Dynamics 365 Customer Voice.
 
-- All your survey data (questions and responses) is available in the same environment as you are currently working in.
+- All your survey data (questions and responses) is available in the same environment as the one you're currently working in.
+
+## What happens to Forms Pro email templates?
+
+- Any existing email templates created in Forms Pro are retained as-is and are available as personal email templates in Dynamics 365 Customer Voice. You can't edit your existing email templates in Forms Pro; however, you can import the required personal email templates into your survey. More information: [Import a personal email template](send-survey-email.md#import-a-personal-email-template)
+
+- The email templates in Dynamics 365 Customer Voice are associated with surveys. You can use them while configuring a Power Automate flow.
+
+- If you were using different email templates for multiple languages, you can now create multilingual email templates. More information: [Create multilingual email templates](send-survey-email.md#create-multilingual-email-templates)
+
+- Email templates are saved in your Common Data Service environment in which the survey is stored.
+
+- When you copy a project, email templates configured for the surveys are copied to the new project. More information: [Copy a project](manage-projects.md#copy-a-project)
 
 ## What happens to Forms Pro entities?
 
@@ -66,7 +78,7 @@ Following are the new entities in Dynamics 365 Customer Voice:
 
 ## Security role update
 
-The **Survey Owner** security role is renamed to **Project Owner**. If you have created a custom security role to provide access to survey entities, a new **Customer Voice – Add on** security role is assigned to you. The new security role provides permission for the [new entities in Dynamics 365 Customer Voice](#new-entities-in-dynamics-365-customer-voice). The **Customer Voice – Add on** security role has User permission on the [new entities in Dynamics 365 Customer Voice](#new-entities-in-dynamics-365-customer-voice).
+The **Survey Owner** security role is renamed to **Project Owner**. If you've created a custom security role to provide access to survey entities, a new **Customer Voice – Add on** security role is assigned to you. The new security role provides permission for the [new entities in Dynamics 365 Customer Voice](#new-entities-in-dynamics-365-customer-voice). The **Customer Voice – Add on** security role has User permission on the [new entities in Dynamics 365 Customer Voice](#new-entities-in-dynamics-365-customer-voice).
 
 ## Experience for users based on their Forms Pro license
 
@@ -74,23 +86,23 @@ The transition experience differs based on the product license you have. This se
 
 **Experience for users with only a Forms Pro license**
 
-If you have only a Forms Pro license and try to sign in to Forms Pro using the [https://forms.office.com](https://forms.office.com) URL, the following message is displayed till August 30, 2020 with a link to go to Dynamics 365 Customer Voice.
+If you have only a Forms Pro license and try to sign in to Forms Pro using the [https://forms.office.com](https://forms.office.com) URL, the following message is displayed until August 30, 2020, with a link to go to Dynamics 365 Customer Voice.
 
-![Forms Pro error till August 30, 2020](media/formsProErrorBefore.png "Forms Pro error till August 30, 2020") 
+![Message about Forms Pro surveys being accessible from Dynamics 365 Customer Voice](media/formsProErrorBefore.png "Message about Forms Pro surveys being accessible from Dynamics 365 Customer Voice") 
 
 After August 30, 2020, the following message will be displayed:
 
-![Forms Pro error after August 30, 2020](media/formsProErrorAfter.png "Forms Pro error after August 30, 2020") 
+![Forms Pro account not enabled error](media/formsProErrorAfter.png "Forms Pro account not enabled error") 
 
 **Experience for users with both Forms and Forms Pro licenses**
 
-If you have licenses for both Forms and Forms Pro, and have created surveys in Forms Pro, you are redirected to the Forms home page. You can choose to go to Dynamics 365 Customer Voice or stay in Forms till August 30, 2020. However, you'll not be able to switch to Forms Pro from Forms.
+If you have licenses for both Forms and Forms Pro, and have created surveys in Forms Pro, you're redirected to the Forms home page. You can choose to go to Dynamics 365 Customer Voice or stay in Forms until August 30, 2020. However, you won't be able to switch to Forms Pro from Forms.
 
-![Forms Pro move message](media/forms-pro-move-message.png "Forms Pro move message") 
+![Message about Forms Pro being moved to Dynamics 365 Customer Voice](media/forms-pro-move-message.png "Message about Forms Pro being moved to Dynamics 365 Customer Voice") 
 
 If you choose to stay in Forms, the following message is displayed at the top of the page, stating that your Forms Pro surveys are available in Dynamics 365 Customer Voice and won't be available through Forms after August 30, 2020.
 
-![Forms Pro move message bar](media/forms-pro-move-message-bar.png "Forms Pro move message bar") 
+![Message bar with the information that Forms Pro is now Dynamics 365 Customer Voice](media/forms-pro-move-message-bar.png "Message bar with the information that Forms Pro is now Dynamics 365 Customer Voice") 
 
 If you select a survey tile, you're redirected to the corresponding project in Dynamics 365 Customer Voice. After August 30, 2020, Forms Pro survey tiles will be removed and only forms and quizzes will be available.
 
@@ -99,7 +111,7 @@ If you select a survey tile, you're redirected to the corresponding project in D
 If you have a Forms-only license and try to sign in to Forms Pro, the Forms home page is displayed.
 
 > [!NOTE]
-> If you are a customer in US Government Community Cloud, you can continue to use Forms Pro. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020.
+> If you're a customer in US Government Community Cloud, you can continue to use Forms Pro. Dynamics 365 Customer Voice will be available on US Government Community Cloud by October 2020.
 
 ### See also
 
