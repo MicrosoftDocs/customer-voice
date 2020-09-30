@@ -123,10 +123,10 @@ If a project contains responses, a co-owner can see all responses under **Report
 
 ## Update a project
 
-You can update your project with the copy of the same project residing in the same or a different environment. Updating a project gives you the capability to make incremental changes to the project whose survey is sent to respondents and is receiving responses. 
+You can update a project by updating a copy of that project. The copy can reside in the same environment or a different one. By updating a copy of the project, you can make incremental changes while its survey is being sent to respondents and receiving responses, without interrupting the survey.<!--If this is wrong, please excuse. I'm trying to figure out why you wouldn't just directly edit a project in its native environment.-->
 
 >[!NOTE]
-> A project can be updated only from its own copy and not from any other projects.
+> A project can be updated only from a copy of itself, and not from any other project.
 
 The following components can be updated:
 
@@ -143,21 +143,21 @@ The following components can be updated:
     - Email templates and their corresponding languages
     - Power Automate flows
 
-Let's understand the update operation with the following example:
+Let's understand the update operation with the following example. 
 
-You work in a company named Contoso, and create and finalize surveys across environments as follows: 
+You work in a company named Contoso, and create and finalize surveys across the following environments: 
 
-- **Development**: Development environment used to create and test surveys.
+- **Development**: The environment where you create and test surveys.
 
-- **Production**: Production environment used for live surveys. Surveys that are finalized are moved to this environment and then shared with respondents.
+- **Production**: The environment for live surveys, where you move finalized surveys and then share them with respondents.
 
-The Customer satisfaction survey is in the production environment and the following changes need to be made:
+You've moved a customer satisfaction survey to the production environment, and want to make the following changes to it:
 
 - Add a question
 - Change the color theme
 - Add a background image
 
-As a company policy, you can’t edit surveys directly in the production environment. Therefore, you make a copy of the survey in the development environment and make the required changes. You now update the survey in the production environment with the copy of the survey in the development environment.
+As a company policy, you can't edit surveys directly in the production environment. Therefore, you create a copy of the survey in the development environment and make the required changes. You now update the survey in the production environment by using the copy that you created and updated<!--Suggested.--> in the development environment.
 
 **To update the project**
 
@@ -165,15 +165,15 @@ As a company policy, you can’t edit surveys directly in the production environ
 
 2. On the **All projects** tab, hover over the project you want to update, select ![Project options](media/project-options.png "Project options"), and then select **Update**.
 
-    ![Select Update from the context menu](media/project-update-menu.png "Select Update from the context menu")
+    ![Select Update from the shortcut menu](media/project-update-menu.png "Select Update from the shortcut menu")
 
-3. In the **Update project** screen, select the project from which your project needs to be updated.
+3. On the **Update project** screen, select the project from which your project needs to be updated.
 
     ![Select a project to update from](media/project-update-screen.png "Select a project to update from")
 
 4. In the confirmation dialog box, select **Confirm**.
 
-    A notification is displayed in the upper-right corner when the project is updated.
+A notification is displayed in the upper-right corner when the project is updated.
 
 ## Delete a project
 
