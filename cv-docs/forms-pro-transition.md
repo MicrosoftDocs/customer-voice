@@ -111,7 +111,7 @@ If you select a survey tile, you're redirected to the corresponding project in D
 If you have a Forms-only license and try to sign in to Forms Pro, the Forms home page is displayed.
 
 > [!NOTE]
-> If you're a customer in US Government Community Cloud, you can continue to use Forms Pro. Dynamics 365 Customer Voice will be available on US Government Community Cloud by end of October 2020. More information: [Dynamics 365 Customer Voice availability on US Government Community Cloud](about.md#dynamics-365-customer-voice-availability-on-us-government-community-cloud)
+> If you're a customer in U.S. Government Community Cloud, you can continue to use Forms Pro. Dynamics 365 Customer Voice will be available on U.S. Government Community Cloud by end of October 2020. More information: [Dynamics 365 Customer Voice availability on U.S. Government Community Cloud](about.md#dynamics-365-customer-voice-availability-on-us-government-community-cloud)
 
 ### See also
 
