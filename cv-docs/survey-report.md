@@ -56,9 +56,9 @@ If there are more than 5000 responses, you can choose to export responses to an 
 
 2. Under **Choose a file format**, select one of the following options:
 
-  - **Excel (the most recent 5000 responses)**: Exports the most recent 5000 survey responses to an Excel file.
+    - **Excel (the most recent 5000 responses)**: Exports the most recent 5000 survey responses to an Excel file.
 
-  - **CSV**: Exports all survey responses to a CSV file.
+    - **CSV**: Exports all survey responses to a CSV file.
 
     ![Select a file format to export survey responses](media/export-file-format.png "Select a file format to export survey responses")
 
