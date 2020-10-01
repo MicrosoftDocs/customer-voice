@@ -38,7 +38,7 @@ You can view individual responses to each question in a survey submitted by a re
 
 You can export survey responses into an Excel file or a CSV file for further analysis and processing. Each question in your survey becomes a column, and each response becomes a row in the Excel or CSV file.
 
-If your survey has less than 5000 responses, the responses are exported to an Excel (.xlsx) file by default. If your survey has more than 5000 responses, you can choose to export the responses to an Excel file to a CSV file.
+If your survey has less than 5000 responses, the responses are exported to an Excel (.xlsx) file by default. If your survey has more than 5000 responses, you can choose to export the responses to an Excel file or a CSV file.
 
 ### Survey with less than 5000 responses
 
