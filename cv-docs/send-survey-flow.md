@@ -84,5 +84,4 @@ The values from the **Regarding** and **Recipient details** fields are stored in
 [Send a survey by using email](send-survey-email.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in Power Apps](embed-survey-powerapps.md)
+[Send a survey QR code](send-survey-qrcode.md)
