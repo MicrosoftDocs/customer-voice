@@ -90,5 +90,4 @@ It will take a minimum of three to four days for setup to be completed. After Mi
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in Power Apps](embed-survey-powerapps.md)
+[Send a survey QR code](send-survey-qrcode.md)
