@@ -56,7 +56,7 @@ If there are more than 5,000 responses, you can choose to export responses to an
 
 2. Under **Choose a file format**, select one of the following options:
 
-    - **Excel (the most recent 5000 responses)**: Exports the most recent 5,000 survey responses to an Excel file.
+    - **Excel (the most recent 5,000 responses)**: Exports the most recent 5,000 survey responses to an Excel file.
 
     - **CSV**: Exports all survey responses to a CSV file.
 
@@ -65,6 +65,11 @@ If there are more than 5,000 responses, you can choose to export responses to an
 3. Select **Export**.
 
    A notification is displayed in the upper-right corner when the responses are being exported and after the export is complete. If you choose to export to CSV, the notification contains a link that allows you to send the CSV file to your email address.
+
+
+<!-- Note that "receive" is misspelled as "recieve" in this image. Is it possible to correct that? -->
+
+
 
    ![Surveys being exported to CSV](media/export-csv-notif.png "Surveys being exported to CSV")
 
