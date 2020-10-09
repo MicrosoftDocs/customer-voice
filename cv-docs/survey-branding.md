@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Add branding to a survey
 
-You can customize the appearance of your survey to match your company's branding. This includes changing the color, font, background image, or uploading a custom CSS file.
+You can customize the appearance of your survey to match your company's branding. This includes changing the color, font, or uploading a background image.
 
 **To add branding to a survey**
 
@@ -71,22 +71,6 @@ You can select a background image for the survey.
 - Expand the **Background** section, and then select **Remove**.
 
   ![Remove background image](media/remove-background-image.png "Remove background image")
-
-## Customize CSS
-
-You can change the look and feel of your survey beyond the available branding options by using a custom CSS file. You can either create a CSS file on your own and then upload it or download a sample CSS file, edit it, and then upload the file.
-
-**To download a sample CSS file**
-
-- Expand the **Customize CSS** section, and then select **Download sample CSS**.
-
-**To upload the CSS file**
-
-- Expand the **Customize CSS** section, and then select **Upload**.
-
-**To remove an existing CSS file**
-
-- Expand the **Customize CSS** section, and then select **Remove**.
 
 ### See also
 
