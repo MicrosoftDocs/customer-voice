@@ -189,7 +189,7 @@ You can format your email message by using the formatting toolbar at the bottom 
 
 **To view and edit the HTML code**
 
-1.	Select **Source** ![Source button](media/source-button.png "Source button") on the formatting toolbar.
+1.	Select ![Source button](media/source-button.png "Source button") on the formatting toolbar.
 
 2.	On the **Source** screen, edit the HTML code, and then select **OK**.
 
