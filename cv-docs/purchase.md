@@ -107,7 +107,7 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
     
     5. Select **Save changes**.
 
-## Purchase Dynamics 365 Customer Voice for users in an Microsoft 365 tenant
+## Purchase Dynamics 365 Customer Voice for users in a Microsoft 365 tenant
 
 If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynamics 365 Customer Voice, follow these steps to purchase Dynamics 365 Customer Voice:
 
