@@ -111,7 +111,7 @@ If you need to provide access to Microsoft Forms Pro for users who don't have a 
 
    4. On the **Product licenses** page, turn the **Microsoft Forms Pro USL** toggle to **On**.
 
-## Purchase Microsoft Forms Pro for users in an Microsoft 365 tenant
+## Purchase Microsoft Forms Pro for users in a Microsoft 365 tenant
 
 If your tenant doesn't have Dynamics 365 enterprise licenses that include Microsoft Forms Pro, follow these steps to purchase Microsoft Forms Pro:
 
