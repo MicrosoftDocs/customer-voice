@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Send a survey from Dynamics 365 applications | MicrosoftDocs"
 description: "Instructions for sending a survey from Dynamics 365 applications"
 ms.date: 10/16/2020
