@@ -126,7 +126,7 @@ The **Send survey on create of custom entity record** Power Automate flow is cre
 
 **To configure Power Automate flow**
 
-1.  Go to [flow.microsoft.com](flow.microsoft.com) and select **My flows** in the left pane.
+1.  Go to [flow.microsoft.com](https://flow.microsoft.com/) and select **My flows** in the left pane.
 
 2.  Find the **Send survey on create of custom entity record** flow and select **Edit** on the toolbar at the top. The flow editor opens.
 
