@@ -27,7 +27,7 @@ You can embed your surveys in the canvas apps created by using Power Apps. This 
 > [!NOTE]
 > You must have Power Apps Plan 1 to embed your surveys in a canvas app. For more information about purchasing Power Apps, see [Purchase Power Apps for your organization](https://docs.microsoft.com/power-platform/admin/signup-for-powerapps-admin).
 
-1.	Sign in to [Power Apps](https://web.powerapps.com/).
+1.	Sign in to [Power Apps](https://make.powerapps.com/).
 
 2.	Create a blank canvas app or use one of the available templates. For more information about creating a canvas app, see [Create a canvas app from scratch using Common Data Service](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch).
 
