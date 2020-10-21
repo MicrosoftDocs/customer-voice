@@ -177,7 +177,7 @@ To send survey invitation in a language other than the default, select an email 
 
 If you're using Power Automate to send survey invitations, specify the locale in the **Language** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
 
-## Format email message
+## Format email messages
 
 You can format your email message by using the formatting toolbar at the bottom of the email editor. The formatting toolbar allows you to add formatting to your text, add table and images to your email message, and much more. You can also view the HTML source of your email message and modify the HTML code directly.
 
@@ -189,9 +189,9 @@ You can format your email message by using the formatting toolbar at the bottom 
 
 **To view and edit the HTML code**
 
-1.	Select ![Source button](media/source-button.png "Source button") on the formatting toolbar.
+1. Select ![Source button](media/source-button.png "Source button") on the formatting toolbar.
 
-2.	On the **Source** screen, edit the HTML code, and then select **OK**.
+2. On the **Source** screen, edit the HTML code, and then select **OK**.
 
 ### See also
 
