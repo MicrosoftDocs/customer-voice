@@ -10,16 +10,16 @@ manager: shujoshi
 ---
 
 # Send a survey from Dynamics 365 applications
+<!--markdownlint-disable MD036-->
+**Prerequisites**
 
-**Prerequisites**:
+-   An administrator must install the **Send survey** app in your environment for you to send surveys from Dynamics 365<!--note from editor: Should this be "customer engagement applications"? I notice you use the phrase later in the topic.--> applications. If the option to send surveys isn't visible, contact your administrator.
 
--   An administrator must install the Send survey app in your environment to send survey from Dynamics 365 applications. If the option to send survey is not visible, contact your administrator.
+-   An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow)
 
--   An administrator must configure the Power Automate flow to send surveys. More information: [Configure Power Automate flow](#configure-power-automate-flow)
+You can send a survey to your customer from within the Dynamics 365 application interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenarios:
 
-You can send a survey to your customer from within the Dynamics 365 application's interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenarios:
-
-**Scenario 1**: You have created a Power Automate flow to send a survey every time a lead is qualified. But, if you want to send a survey during the process of lead qualification, you need to go to Dynamics 365 Customer Voice and send the survey. With this capability, you can send the survey while working on the lead.
+**Scenario 1**: You've created a Power Automate flow to send a survey every time a lead is qualified. But, if you want to send a survey during the process of lead qualification, you need to go to Dynamics 365 Customer Voice and send the survey. With this capability, you can send the survey while working on the lead.
 
 **Scenario 2**: As a sales representative, you don't have access to surveys in Dynamics 365 Customer Voice. With this capability, you can send the survey from Dynamics 365 application without requiring access to Dynamics 365 Customer Voice.
 
@@ -32,11 +32,11 @@ As a salesperson, you can send a survey from the following entities:
 -   Case
 -   Contract
 
-You can only send surveys that are shared with you or created by you. If no surveys are shared with you, you can create a new survey (only if you have permission to create a survey) and then send it to your customers. If you have Share privilege on the Customer Voice survey entity, you can share a survey with other users or team. More information: [Share a survey](#share-a-survey)
+You can only send surveys that are shared with you or created by you. If no surveys are shared with you, you can create a new survey (if you have permission to create a survey) and then send it to your customers. If you have Share privilege on the Dynamics 365<!-- --> Customer Voice survey entity, you can share a survey with other users or team. More information: [Share a survey](#share-a-survey)
 
 **To send a survey from Dynamics 365**
 
-1.  In the sitemap of the customer engagement app, select the entity from which you want to send a survey.
+1.  In the site map of the customer engagement app, select the entity from which you want to send a survey.
 
 2.  From the list of records, open a record.
 
@@ -67,27 +67,27 @@ You can only send surveys that are shared with you or created by you. If no surv
 
 8.  In the **These details will show in your email or survey** dialog box, select the following information:
 
-    - **Recipient**: By default, name of the contact associated with the entity is populated. You can also remove and select a different recipient, if required. You can select only one recipient at a time.
+    - **Recipient**: By default, the name of the contact associated with the entity is populated. You can also remove and select a different recipient, if required. You can select only one recipient at a time.
 
-    - **Email template**: Email template to be used to send survey invitation.
+    - **Email template**: Email template to be used to send the survey invitation.
 
     - **Locale**: Language of the email template.
 
-    If you've used variables in your survey, they will be displayed as fields and you can specify their values accordingly.
+    If you've used variables in your survey, they'll be displayed as fields and you can specify their values accordingly.
 
-    ![Enter details to send survey](media/d365-enter-details.png "Enter details to send survey")
+    ![Enter details to send the survey](media/d365-enter-details.png "Enter details to send the survey")
 
 9.  Select **Send**.
 
 ## Check survey invitation status
 
-When you send a survey invitation, it can be in one of the following statuses:
+When you send a survey invitation, its status will be one of the following:<!--note from editor: "Status" doesn't have a plural form. -->
 
-- **Sending**: Survey invitation email is being sent.
+- **Sending**: The survey invitation email is being sent.
 
-- **Sent**: Survey invitation email is sent successfully.
+- **Sent**: The survey invitation email was sent successfully.
 
-- **Failed**: Survey invitation email is not sent due to an incorrect email address or other error.
+- **Failed**: The survey invitation email wasn't sent due to an incorrect email address or other error.
 
 **To check survey invitation status**
 
@@ -103,41 +103,41 @@ When you send a survey invitation, it can be in one of the following statuses:
 
 ## Share a survey
 
-If you have Share privilege on the Customer Voice survey entity, you can share a survey with other users or team.
+If you have Share privilege on the Dynamics 365 Customer Voice survey entity, you can share a survey with other users or a team.
 
 1.  In the **Choose one survey to send** dialog box, select a survey to be shared.
 
 2.  Select **Share**.
 
-    ![Choose a survey to send](media/d365-choose-survey.png "Choose a survey to send")
+    ![Select a survey to send](media/d365-choose-survey.png "Select a survey to send")
 
     > [!NOTE]
     > If you don't have permission to share surveys, the **Share** button is not displayed.
 
-3.  In the **Share customer voice survey** dialog box, add the required users or team.
+3.  In the **Share customer voice survey** dialog box, add the users or team you want.
 
     ![Add users to share a survey with](media/d365-add-users-share-survey.png "Add users to share a survey with")
 
 4.  Select **Share**.
 
-## Configure Power Automate flow
+## Configure the Power Automate flow
 
-The **Send survey on create of custom entity record** Power Automate flow is created automatically when the Send survey app is installed. This flow sends the survey when you select **Send Survey** from an entity record. An administrator must set the connection references manually and turn on the flow.
+The **Send survey on create of custom entity record** Power Automate flow is created automatically when the **Send survey** app is installed. This flow sends the survey when you select **Send Survey** from an entity record. An administrator must set the connection references manually and turn on the flow.
 
-**To configure Power Automate flow**
+**To configure the Power Automate flow**
+<!--markdownlint-enable MD036-->
+1.  Go to [flow.microsoft.com](https://flow.microsoft.com/), and select **My flows** on the left pane.
 
-1.  Go to [flow.microsoft.com](https://flow.microsoft.com/) and select **My flows** in the left pane.
+2.  Find the **Send survey on create of custom entity record** flow, and then select **Edit** on the toolbar at the top. The flow editor opens.
 
-2.  Find the **Send survey on create of custom entity record** flow and select **Edit** on the toolbar at the top. The flow editor opens.
-
-    A warning symbol `image` is displayed in the header of conditions and actions having the connection error.
+    A warning symbol `image` is displayed in the header of conditions and actions that have the connection error.
 
     `image of the flow`
 
 3.  Select the condition or action, and then select the appropriate connection.
 
-4.  Save the changes and turn on the flow.
-
+4.  Save the changes, and turn on the flow.
 
 ### See also
+
 [Create a project](create-project.md)
