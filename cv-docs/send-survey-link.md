@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "Instructions for sharing a survey by using a link"
-ms.date: 09/17/2020
+ms.date: 10/27/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Send a survey link to others
 
-If you don't have the email addresses of the people from whom you want to collect feedback, or if you don't want to use the built-in email composer for this purpose, you can easily copy a link to your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.dcv.ms/<10-digit code>`
+If you don't have the email addresses of the people from whom you want to collect feedback, or if you don't want to use the built-in email composer for this purpose, you can easily copy a link to your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`
 
 > [!NOTE]
 > - The survey link generated is a non-personalized link. If the **Only people in my organization can respond** setting is turned off in [distribution settings](distribution-settings.md), you won't be able to record the respondent's name or determine whether the respondent has submitted only one response.
