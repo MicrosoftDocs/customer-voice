@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 07/29/2020
+ms.date: 10/29/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -114,7 +114,9 @@ To create a new variable, select **New variable** from the **Personalize** list.
 
 ## Embed a survey in an email
 
-If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed survey question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Embed survey question**. The question is embedded at the cursor’s location and the email message is adjusted accordingly. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+
+![Embed question in an email](media/embed-ques-email.png "Embed question in an email")
 
 > [!NOTE]
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
