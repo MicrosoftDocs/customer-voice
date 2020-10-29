@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using Power Automate | MicrosoftDocs"
 description: "Instructions for sending a survey by using Power Automate"
-ms.date: 07/29/2020
+ms.date: 10/05/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -17,8 +17,8 @@ After creating a survey, you can send it to respondents based on a business trig
 - **Send a survey when a case is resolved in Dynamics 365**: This template sends a survey when a case is resolved in Dynamics 365.
 - **Send a survey when a lead is qualified in Dynamics 365**: This template sends a survey when a lead is qualified in Dynamics 365.
 - **Send a survey when an order is fulfilled in Dynamics 365**: This template sends a survey when an order is fulfilled in Dynamics 365.
-- **Send a survey when a button is clicked in Power Apps**: This template sends a survey to the specified list of recipients when a button is selected in Power Apps.
-- **Send a survey when a case is closed in Salesforce**: This template sends a survey when a case is closed in Salesforce.
+- **Send a survey on Power Apps button click**: This template sends a survey to the specified list of recipients when a button is selected in Power Apps.
+- **Send a survey when a work order is completed or closed in Dynamics 365**: This template sends a survey when a work order is completed or closed in Dynamics 365.
 
 **To send a survey by using Power Automate**
 
@@ -36,9 +36,9 @@ After creating a survey, you can send it to respondents based on a business trig
     > [!NOTE]
     > - The flow will use the default email template for sending emails. If you want to send email by using a specific email template, ensure that you've selected it from the **Email template** list in the [send a survey](#send-a-survey-action) action.
     > - While configuring a flow, you might see duplicate templates on the template page. To resolve this issue, navigate out of the tab, and then come back to create the flow again.
-    > - If you've added personalized data to your survey, you must specify values for it in the flow. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+    > - If you've added variables to your survey, you must specify values for it in the flow. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
-5.  Select **Create Flow**.
+5.  Select **Create**.
 
 When you send a survey by using Power Automate, a survey invitation record is created. You can associate your survey invitation and response with Common Data Service.
 
@@ -50,11 +50,14 @@ Let's say you need to send a survey every time a case is closed. You can use the
 
 Use the **Recipient details** field to associate your survey invitation and response records to the appropriate contact (the recipient). This allows sales personnel, or anyone, to see the contact record and the response of the customer. This can help them formulate their conversation with the customer accordingly.
 
+![Send a survey action](media/send-survey-action.png "Send a survey action")
+
 ### Attributes
 
 |Name|Description|
 |---|----|
 |To|The email address to send the survey invitation to. If you're entering multiple email addresses, separate them by a semicolon.<br>**Note**: The email address should be valid and should not return null.|
+|Project|The project containing a survey to be sent.|
 |Survey|The survey to be sent.<br>**Note**: You must select a survey from the list and not enter a custom value.|
 |Email template|The email template to use while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
 |Regarding|The record that associates the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** You must enter an entity logical name in this field.|
@@ -62,7 +65,7 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |||
 
 > [!NOTE]
-> If you've used personalized data placeholders in your survey, those fields will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
+> If you've used variables in your survey, they will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 The values from the **Regarding** and **Recipient details** fields are stored in the survey invitation, as shown in the following image.
 
@@ -81,5 +84,4 @@ The values from the **Regarding** and **Recipient details** fields are stored in
 [Send a survey by using email](send-survey-email.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in Power Apps](embed-survey-powerapps.md)
+[Send a survey QR code](send-survey-qrcode.md)

@@ -1,7 +1,7 @@
 ---
 title: "View survey responses report | MicrosoftDocs"
 description: "Instructions for viewing survey responses report in Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 10/01/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -36,7 +36,41 @@ You can view individual responses to each question in a survey submitted by a re
 
 ## Export survey responses
 
-To export survey responses, select **Export All** in the upper-left corner of the report. The responses are downloaded in a CSV file.
+You can export survey responses into an Excel file or a CSV file for further analysis and processing. Each question in your survey becomes a column, and each response becomes a row in the Excel or CSV file.
+
+If your survey has less than 5000 responses, the responses are exported to an Excel (.xlsx) file by default. If your survey has more than 5000 responses, you can choose to export the responses to an Excel file or a CSV file.
+
+### Survey with less than 5000 responses
+
+If there are less than 5000 responses, the survey responses are exported to an Excel (.xlsx) file. To export survey responses, select **Export** in the upper-left corner of the report. A notification is displayed in the upper-right corner when the responses are being exported and after the export is complete.
+
+![Surveys being exported to Excel](media/export-excel-notif.png "Surveys being exported to Excel")
+
+### Survey with more than 5000 responses
+
+If there are more than 5000 responses, you can choose to export responses to an Excel (.xlsx) file or a CSV file. If you choose to export responses to the Excel file, only the most recent 5000 responses are exported. To export all responses, you must choose to export responses to the CSV file.
+
+**To export survey responses**
+
+1. Select **Export** in the upper-left corner of the report. The **How do you want to export this file?** screen is displayed.
+
+2. Under **Choose a file format**, select one of the following options:
+
+    - **Excel (the most recent 5000 responses)**: Exports the most recent 5000 survey responses to an Excel file.
+
+    - **CSV**: Exports all survey responses to a CSV file.
+
+    ![Select a file format to export survey responses](media/export-file-format.png "Select a file format to export survey responses")
+
+3. Select **Export**.
+
+  A notification is displayed in the upper-right corner when the responses are being exported and after the export is complete. If you choose to export to CSV, the notification contains a link that allows you to send the CSV file to your email address.
+
+  ![Surveys being exported to CSV](media/export-csv-notif.png "Surveys being exported to CSV")
+
+  Select **Send file in email**, and confirm the email address in the **Confirm email address** dialog box.
+
+  ![Confirm email address to send CSV file](media/export-email-confirm.png "Confirm email address to send CSV file")
 
 ## Delete a survey response
 

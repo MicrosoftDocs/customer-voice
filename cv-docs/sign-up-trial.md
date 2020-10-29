@@ -1,7 +1,7 @@
 ---
 title: "Sign up for trial | MicrosoftDocs"
 description: "Instructions for signing up for Dynamics 365 Customer Voice trial."
-ms.date: 08/26/2020
+ms.date: 09/03/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -12,16 +12,17 @@ manager: shujoshi
 
 # Sign up for the Dynamics 365 Customer Voice trial
 
-Dynamics 365 Customer Voice will be generally available by end of August 2020. You can sign up for a free 30-day trial after Dynamics 365 Customer Voice is generally available. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, see [Purchase Dynamics 365 Customer Voice](purchase.md).
+You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, see [Purchase Dynamics 365 Customer Voice](purchase.md).
 
-1. Open [https://customervoice.microsoft.com](https://customervoice.microsoft.com/) in a web browser.
+1. Open [https://dynamics.microsoft.com/customer-voice/overview/](https://dynamics.microsoft.com/customer-voice/overview/) in a web browser.
 
 2. Select **Get started**.
 
 3. Enter your email address, and follow the wizard to complete the sign-up process.
 
    > [!NOTE]
-   > A work or school account is required for trying Dynamics 365 Customer Voice.
+   > - A work or school account is required for trying Dynamics 365 Customer Voice.
+   > - You can receive a total of 100 survey responses in the trial period.
 
 ## Experience for a trial or new user
 

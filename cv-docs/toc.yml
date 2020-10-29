@@ -13,6 +13,9 @@
 - name: Purchase Dynamics 365 Customer Voice
   href: purchase.md
 
+- name: Administrator settings for Dynamics 365 Customer Voice
+  href: admin-settings.md
+
 - name: Design a survey
   items:
   - name: Plan a survey
@@ -66,8 +69,6 @@
     href: send-survey-qrcode.md
   - name: Create a survey invitation
     href: create-survey-invite.md
-  - name: Embed a survey in Power Apps
-    href: embed-survey-powerapps.md
   - name: Customize the sender's email address
     href: customize-sender-email.md
   - name: View survey invitations

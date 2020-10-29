@@ -19,6 +19,11 @@
       "source_path": "cv-docs/index.md",
       "redirect_url": "help-hub",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "cv-docs/embed-survey-powerapps.md",
+      "redirect_url": "send-survey",
+      "redirect_document_id": "false"
     }
   ]
 }
