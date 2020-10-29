@@ -1,7 +1,7 @@
 ---
-title: "Send a survey from Dynamics 365 applications | MicrosoftDocs"
+title: "Send a Dynamics 365 Customer Voice survey from Dynamics 365 | MicrosoftDocs"
 description: "Instructions for sending a survey from Dynamics 365 applications"
-ms.date: 10/16/2020
+ms.date: 10/29/2020
 ms.topic: article
 ms.service: dynamics-365-customervoice
 author: sbmjais
@@ -9,19 +9,19 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Send a survey from Dynamics 365 applications
+# Send a survey from Dynamics 365
 <!--markdownlint-disable MD036-->
 **Prerequisites**
 
--   An administrator must install the **Send survey** app in your environment for you to send surveys from Dynamics 365<!--note from editor: Should this be "customer engagement applications"? I notice you use the phrase later in the topic.--> applications. If the option to send surveys isn't visible, contact your administrator.
+-   An administrator must install the **Send survey** app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
 
 -   An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow)
 
-You can send a survey to your customer from within the Dynamics 365 application interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenarios:
+You can send a survey to your customer from within the customer engagement application's interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenarios:
 
 **Scenario 1**: You've created a Power Automate flow to send a survey every time a lead is qualified. But, if you want to send a survey during the process of lead qualification, you need to go to Dynamics 365 Customer Voice and send the survey. With this capability, you can send the survey while working on the lead.
 
-**Scenario 2**: As a sales representative, you don't have access to surveys in Dynamics 365 Customer Voice. With this capability, you can send the survey from Dynamics 365 application without requiring access to Dynamics 365 Customer Voice.
+**Scenario 2**: As a sales representative, you don't have access to surveys in Dynamics 365 Customer Voice. With this capability, you can send the survey from a customer engagement application without requiring access to Dynamics 365 Customer Voice.
 
 As a salesperson, you can send a survey from the following entities:
 
@@ -32,7 +32,7 @@ As a salesperson, you can send a survey from the following entities:
 -   Case
 -   Contract
 
-You can only send surveys that are shared with you or created by you. If no surveys are shared with you, you can create a new survey (if you have permission to create a survey) and then send it to your customers. If you have Share privilege on the Dynamics 365<!-- --> Customer Voice survey entity, you can share a survey with other users or team. More information: [Share a survey](#share-a-survey)
+You can only send surveys that are shared with you or created by you. If no surveys are shared with you, you can create a new survey (if you have permission to create a survey) and then send it to your customers. If you have Share privilege on the Customer Voice survey entity, you can share a survey with other users or team. More information: [Share a survey](#share-a-survey)
 
 **To send a survey from Dynamics 365**
 
@@ -81,7 +81,7 @@ You can only send surveys that are shared with you or created by you. If no surv
 
 ## Check survey invitation status
 
-When you send a survey invitation, its status will be one of the following:<!--note from editor: "Status" doesn't have a plural form. -->
+When you send a survey invitation, its status will be one of the following:
 
 - **Sending**: The survey invitation email is being sent.
 
