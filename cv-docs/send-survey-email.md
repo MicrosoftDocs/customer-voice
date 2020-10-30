@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 10/29/2020
+ms.date: 10/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
