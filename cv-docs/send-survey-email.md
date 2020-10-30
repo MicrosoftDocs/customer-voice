@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 07/29/2020
+ms.date: 10/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -114,7 +114,9 @@ To create a new variable, select **New variable** from the **Personalize** list.
 
 ## Embed a survey in an email
 
-If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed survey question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Embed survey question**. The question is embedded at the cursor’s location and the email message is adjusted accordingly. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+
+![Embed question in an email](media/embed-ques-email.png "Embed question in an email")
 
 > [!NOTE]
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
@@ -176,6 +178,22 @@ By default, the email template is created in the default language of the survey.
 To send survey invitation in a language other than the default, select an email template and the required language, and then send the email.
 
 If you're using Power Automate to send survey invitations, specify the locale in the **Language** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
+
+## Format email messages
+
+You can format your email message by using the formatting toolbar at the bottom of the email editor. The formatting toolbar allows you to add formatting to your text, add table and images to your email message, and much more. You can also view the HTML source of your email message and modify the HTML code directly.
+
+![Email formatting toolbar](media/email-format-toolbar.png "Email formatting toolbar")
+
+**To apply formatting to your email message**
+
+- Select the text that you want to format, and then select the appropriate action on the formatting toolbar.
+
+**To view and edit the HTML code**
+
+1. Select ![Source button](media/source-button.png "Source button") on the formatting toolbar.
+
+2. On the **Source** screen, edit the HTML code, and then select **OK**.
 
 ### See also
 
