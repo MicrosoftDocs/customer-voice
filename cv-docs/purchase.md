@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "Instructions for purchasing Dynamics 365 Customer Voice and additional survey responses"
-ms.date: 08/26/2020
+ms.date: 10/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -36,6 +36,9 @@ You can purchase additional responses from the Microsoft 365 admin center.
 3. Find **Dynamics 365 Customer Voice Addl Responses**, and then select **Details**.
 
     ![Dynamics 365 Customer Voice Addl Responses tile](media/addl-responses-license.png "Dynamics 365 Customer Voice Addl Responses tile")
+
+    > [!NOTE]
+    > The license name for customers in US Government Community Cloud is **Dynamics 365 Customer Voice Addl Responses for GCC**.
 
 4. Select **Buy**.
 
@@ -81,19 +84,22 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
 
 2. In the left pane, select **Billing** > **Purchase services**.
 
-3. Find **Dynamics 365 Customer Voice Pro USL**, and then select **Details**. Dynamics 365 Customer Voice Pro USL is a free user license.
+3. Find **Dynamics 365 Customer Voice USL**, and then select **Details**. Dynamics 365 Customer Voice USL is a free user license.
 
-    ![Dynamics 365 Customer Voice Pro USL tile](media/usl-license.png "Dynamics 365 Customer Voice Pro USL tile")
+    ![Dynamics 365 Customer Voice USL tile](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
+
+    > [!NOTE]
+    > The license name for customers in US Government Community Cloud is **Dynamics 365 Customer Voice USL for GCC**.
 
 4. Select **Get now**.
 
-    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice Pro USL")
+    ![Get Dynamics 365 Customer Voice USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice USL")
 
 5. Select the number of user licenses to purchase, and complete the purchase process.
 
-    ![Purchase Dynamics 365 Customer Voice Pro USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice Pro USL")
+    ![Purchase Dynamics 365 Customer Voice USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice USL")
 
-5. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
+5. Assign the **Dynamics 365 Customer Voice USL** license to users in your organization:
 
     1. In the left pane, select **Users** > **Active users**.
 
@@ -101,7 +107,7 @@ If you need to provide access to Dynamics 365 Customer Voice for users who don't
 
     3. Go to the **Licenses and Apps** tab.
 
-    4. In the **Licenses** section, select **Dynamics 365 Customer Voice Pro USL**.
+    4. In the **Licenses** section, select **Dynamics 365 Customer Voice USL**.
 
         ![Assign the Dynamics 365 Customer Voice user license to a user](media/enable-cv-usl.png "Assign the Dynamics 365 Customer Voice user license to a user")
     
@@ -119,6 +125,9 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
     ![Dynamics 365 Customer Voice Addl Responses tile](media/addl-responses-license.png "Dynamics 365 Customer Voice Addl Responses tile")
 
+    > [!NOTE]
+    > The license name for customers in US Government Community Cloud is **Dynamics 365 Customer Voice Addl Responses for GCC**.
+
 4. Select **Buy**.
 
     ![Buy Dynamics 365 Customer Voice Addl Responses](media/addl-responses-license-buy.png "Buy Dynamics 365 Customer Voice Addl Responses")
@@ -129,21 +138,24 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
 6. In the left pane, select **Billing** > **Purchase services**.
 
-7. Find **Dynamics 365 Customer Voice Pro USL**, and then select **Details**. Dynamics 365 Customer Voice Pro USL is a free user license.
+7. Find **Dynamics 365 Customer Voice USL**, and then select **Details**. Dynamics 365 Customer Voice USL is a free user license.
 
     > [!div class=mx-imgBorder]
-    > ![Dynamics 365 Customer Voice Pro USL tile](media/usl-license.png "Dynamics 365 Customer Voice Pro USL tile")
+    > ![Dynamics 365 Customer Voice USL tile](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
+
+    > [!NOTE]
+    > The license name for customers in US Government Community Cloud is **Dynamics 365 Customer Voice USL for GCC**.
 
 8. Select **Get now**.
 
-    ![Get Dynamics 365 Customer Voice Pro USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice Pro USL")
+    ![Get Dynamics 365 Customer Voice USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice USL")
 
 9. Select the number of users to purchase, and complete the purchase process.
 
     > [!div class=mx-imgBorder]
-    > ![Purchase Dynamics 365 Customer Voice Pro USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice Pro USL")
+    > ![Purchase Dynamics 365 Customer Voice USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice USL")
 
-10. Assign the **Dynamics 365 Customer Voice Pro USL** license to users in your organization:
+10. Assign the **Dynamics 365 Customer Voice USL** license to users in your organization:
 
     1. In the left pane, select **Users** > **Active users**.
 
@@ -151,7 +163,7 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
     3. Go to the **Licenses and Apps** tab.
 
-    4. In the **Licenses** section, select **Dynamics 365 Customer Voice Pro USL**.
+    4. In the **Licenses** section, select **Dynamics 365 Customer Voice USL**.
 
         ![Assign the Dynamics 365 Customer Voice user license to a user](media/enable-cv-usl.png "Assign the Dynamics 365 Customer Voice user license to a user")
     
@@ -167,7 +179,7 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
 
 4. Go to the **Licenses and Apps** tab.
 
-5. In the **Licenses** section, clear **Dynamics 365 Customer Voice Pro USL**.
+5. In the **Licenses** section, clear **Dynamics 365 Customer Voice USL**.
 
     ![Remove the Dynamics 365 Customer Voice user license from a user](media/disable-cv-usl.png "Remove the Dynamics 365 Customer Voice user license from a user")
 
