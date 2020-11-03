@@ -66,11 +66,6 @@ If there are more than 5,000 responses, you can choose to export responses to an
 
    A notification is displayed in the upper-right corner when the responses are being exported and after the export is complete. If you choose to export to CSV, the notification contains a link that allows you to send the CSV file to your email address.
 
-
-<!-- Note that "receive" is misspelled as "recieve" in this image. Is it possible to correct that? -->
-
-
-
    ![Surveys being exported to CSV](media/export-csv-notif.png "Surveys being exported to CSV")
 
    Select **Send file in email**, and confirm the email address in the **Confirm email address** dialog box.
