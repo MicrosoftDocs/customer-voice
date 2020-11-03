@@ -44,7 +44,7 @@ The available settings are:
 
     When you turn on this setting, only the respondents who are in the same organization as the survey creator can respond to the survey. Respondents are required to sign in to open the survey.
 
-- **Anonymize responses**: Specify whether to record respondents' names, or keep them anonymous.
+- **Anonymous responses**: Specify whether to record respondents' names, or keep them anonymous.
 
     By default, this setting is turned off and the respondent's name is recorded.
 
