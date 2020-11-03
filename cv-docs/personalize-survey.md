@@ -77,10 +77,10 @@ You can also use variables in [branching rules](create-branching-rule.md), in [s
 
     The variable is added within curly braces.
 
-For example, let's say that you've created a variable named **Product** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product** from the **Variables** list. *{{First Name}}* and *{{Product Name}}* are inserted at the cursor location.
+For example, let's say that you've created a variable named **Product** and that you want to display the customer's first name and the product name in a question. Select **First Name** and **Product** from the **Variables** list. *{{First Name}}* and *{{Product}}* are inserted at the cursor location.
 
-Le    's say the question is:
-*{{First Name}}*, overall, how would you rate your experience with customer service for *{{Product Name}}*?
+Let's say the question is:
+*{{First Name}}*, overall, how would you rate your experience with customer service for *{{Product}}*?
 
 That question will look like this when a customer named Bert Hair takes the survey for a product named Contoso Sales:
     
