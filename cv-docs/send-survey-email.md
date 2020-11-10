@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 10/30/2020
+ms.date: 11/10/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -28,7 +28,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
     - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created.
-    - Uploading a CSV file by selecting **Upload contacts**. More information: [Upload contacts from a CSV file](#import-recipients)
+    - Uploading a CSV file by selecting **Upload contacts**. More information: [Upload contacts from a CSV file](#upload-contacts-from-a-csv-file)
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
@@ -49,23 +49,21 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 > - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email.md).
 
 
-<a name="import-recipients"></a>
-
 ## Upload contacts from a CSV file
 
-You can upload a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. To upload contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can upload a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Variables** panel. To upload contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
 ### Create the CSV file
 
-Provide details in the CSV file in the following order: Email address, first name, last name. To associate a survey invitation and response to an entity, you must provide the regarding entity ID and regarding entity name. To quickly get started, you can also download a CSV template.
+Provide details in the CSV file in the following order: Email address, first name, last name. If you want to specify values for variables, you can add them after the last name column in the CSV file. To quickly get started, you can also download a CSV template.
 
 **To download a CSV template**
 
 1. In the email editor, select **Upload contacts** in the **Recipients** field.
 
-2. In the **Upload contacts** panel, select **Download a template**.
+2. In the **Upload contacts** panel, select **Download template**.
 
     ![Download a CSV template to create a recipient list](media/download-csv-template.png "Download a CSV template to create a recipient list")
 
@@ -74,9 +72,28 @@ After the CSV template is downloaded, enter the required information in the foll
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
 
-To associate a survey invitation and response to an entity, add the following columns to the CSV file and enter the information:
-- **RegardingID**: ID of the entity to associate with the survey invitation and response. 
+If you've added variables to your survey, they’ll be available as separate columns in the CSV file. You can specify the values as per your requirement. 
+
+If you want to associate a survey invitation and response to an entity, you can either add the **RegardingID** and **RegardingEntityName** columns to the CSV file and enter the information or download the advanced CSV template.
+
+**To download an advanced CSV template**
+
+1.	In the email editor, select **Upload contacts** in the **Recipients** field.
+
+2.	In the **Upload contacts** panel, expand the **Advance options** section, and then select **Download advanced template**.
+
+    ![Download a advanced CSV template to create a recipient list](media/download-advance-csv-template.png "Download an advanced CSV template to create a recipient list")
+
+After the CSV template is downloaded, enter the required information in the following columns:
+
+- **Email address**: Email address of the recipient.
+- **First name**: First name of the recipient.
+- **Last name**: Last name of the recipient.
+- **locale**: Locale of the survey while embedding it in the email.
+- **RegardingID**: ID of the entity to associate with the survey invitation and response.
 - **RegardingEntityName**: Name of the entity to associate with the survey invitation and response.
+
+If you've added variables to your survey, they’ll be available as separate columns in the CSV file. You can specify the values as per your requirement. 
 
 <a name="upload-a-csv-file"></a>
 

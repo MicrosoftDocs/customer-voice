@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 10/29/2020
+ms.date: 11/10/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -48,7 +48,10 @@ The available settings are:
 
     By default, this setting is turned off and the respondent's name is recorded.
 
-    When you turn on this setting, the respondent's name isn't recorded. This is helpful when you want to collect survey responses anonymously.
+    When you turn on this setting, the respondent's first name, last name, and email aren't saved in response records by default. If you've added variables to your survey, their values also will not be stored in response records by default. This is helpful when you want to collect survey responses anonymously. A message is displayed below this option that the variables settings are enabled. You can turn on the toggle for the required variable if you want to store its value in the response record. More information: [Personalize a survey by using variables](personalize-survey.md)
+
+    ![Variables settings enabled](media/variables-settings-enabled.png "Variables settings enabled")
+
 
 - **One response per person**: Specify whether a respondent can submit only one response, or more than one.
 
