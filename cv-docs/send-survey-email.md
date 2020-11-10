@@ -28,7 +28,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
     - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created.
-    - Uploading a CSV file by selecting **Upload contacts**. More information: [Upload contacts from a CSV file](#upload-contacts-from-a-csv-file)
+    - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
@@ -49,9 +49,9 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 > - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email.md).
 
 
-## Upload contacts from a CSV file
+## Import contacts from a CSV file
 
-You can upload a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Variables** panel. To upload contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Variables** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
@@ -61,9 +61,9 @@ Provide details in the CSV file in the following order: Email address, first nam
 
 **To download a CSV template**
 
-1. In the email editor, select **Upload contacts** in the **Recipients** field.
+1. In the email editor, select **Import contacts** in the **Recipients** field.
 
-2. In the **Upload contacts** panel, select **Download template**.
+2. In the **Import contacts** panel, select **Download template**.
 
     ![Download a CSV template to create a recipient list](media/download-csv-template.png "Download a CSV template to create a recipient list")
 
@@ -78,9 +78,9 @@ If you want to associate a survey invitation and response to an entity, you can 
 
 **To download an advanced CSV template**
 
-1.	In the email editor, select **Upload contacts** in the **Recipients** field.
+1.	In the email editor, select **Import contacts** in the **Recipients** field.
 
-2.	In the **Upload contacts** panel, expand the **Advance options** section, and then select **Download advanced template**.
+2.	In the **Import contacts** panel, expand the **Advance options** section, and then select **Download advanced template**.
 
     ![Download a advanced CSV template to create a recipient list](media/download-advance-csv-template.png "Download an advanced CSV template to create a recipient list")
 
@@ -99,13 +99,21 @@ If you've added variables to your survey, they’ll be available as separate col
 
 ### Upload the CSV file
 
-1. In the email editor, select **Upload contacts** in the **Recipients** field.
+1. In the email editor, select **Import contacts** in the **Recipients** field.
 
-2. In the **Upload contacts** panel, select **Upload**.
+2. In the **Import contacts** panel, select **Upload**.
 
     ![Upload the CSV file](media/upload-csv.png "Upload the CSV file")
 
 3. Browse to and select the CSV file you want to upload.
+
+    After the file is uploaded successfully, a preview of the imported contacts is displayed in the **Import contacts** panel. 
+
+    If the imported recipient already exists as a contact in Common Data Service, and you want to update the contact information as per the CSV file, select **Update the contact information if imported recipient already exists as a contact in CDS**.
+
+    ![Preview contacts of the CSV file](media/upload-csv-preview.png "Preview contacts of the CSV file")
+
+4. Verify the information and then select **Import**.
 
 <a name="insert-survey-link"></a>
 
