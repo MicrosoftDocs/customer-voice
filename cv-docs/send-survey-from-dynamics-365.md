@@ -13,7 +13,7 @@ manager: shujoshi
 <!--markdownlint-disable MD036-->
 **Prerequisites**
 
--   An administrator must install the **Send survey** app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
+-   An administrator must install the **Send Customer Voice survey from Dynamics 365** app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
 
 -   An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow)
 
@@ -28,7 +28,7 @@ As a salesperson, you can send a survey from the following entities:
 -   Contact
 -   Opportunity
 -   Lead
--   Activity
+-   Account
 -   Case
 -   Contract
 
