@@ -128,7 +128,7 @@ When a project is created, the project creator is the owner of the project and s
 
 Only those responses and invitations that are received and created after the project was shared will be owned by the Common Data Service team.
 
-The following table shows the ownership of Dynamics 365 Customer Voice entities:
+The following table shows the ownership of data in Dynamics 365 Customer Voice entities:
 
 |Entity|User owned projects|Shared projects|
 |------------|----------|------------------|
