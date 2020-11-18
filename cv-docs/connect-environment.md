@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Connect Dynamics 365 Customer Voice with your environment
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 An environment is a space to store, manage, and share your organization's business data, apps, and flows. It also serves as a container to separate apps that might have different roles, security requirements, or target audiences. More information: [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
 In Dynamics 365 Customer Voice, all projects created by you or shared with you across environments are displayed in the **All Projects** tab. When you create a project, the project is connected to the selected environment. The survey data including invitations and responses are stored in the same environment in which the project is created. You select an environment during [project creation](create-project.md). You can copy a project within same or across environments. More information: [Manage projects](manage-projects.md)

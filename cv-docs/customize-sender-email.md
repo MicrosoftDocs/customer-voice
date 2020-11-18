@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Customize the sender's email address
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` or `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
 
 Let's say you're an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create two custom email addresses (for example, `noreply@contososuites.com` and `support@contososuites.com`) consisting of your company's domain.

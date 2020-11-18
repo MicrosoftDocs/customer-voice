@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Work with survey distribution settings
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they will have to sign in if you're only allowing people in your organization to respond. You can also define various response and notification options.
 
 **To update survey distribution settings**
