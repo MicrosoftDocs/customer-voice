@@ -42,7 +42,7 @@ You can only send surveys that are shared with you or created by you. If no surv
 
 3.  On the toolbar at the top of the page, select **Send Survey**.
 
-    If you don't have any surveys created or shared with you, select **Create new survey** to create a new survey. You'll be redirected to Dynamics 365 Customer Voice for the survey creation. More information: [Create a project](create-project.md)
+    If you don't have any surveys created or shared with you, select **+ New Survey** to create a new survey. You'll be redirected to Dynamics 365 Customer Voice for the survey creation. More information: [Create a project](create-project.md)
 
     ![Create new survey link](media/d365-create-new-survey.png "Create new survey link")
 
@@ -93,7 +93,7 @@ When you send a survey invitation, its status will be one of the following:
 
 1.  Go to **Advanced Find**.
 
-2.  In the **Look for** list, select **Customer Voice survey invitation status**.
+2.  In the **Look for** list, select **Customer Voice Processors**.
 
 3.  Add the **Status Reason** column.
 
@@ -126,9 +126,13 @@ The **Send survey on create of custom entity record** Power Automate flow is cre
 
 **To configure the Power Automate flow**
 <!--markdownlint-enable MD036-->
-1.  Go to [flow.microsoft.com](https://flow.microsoft.com/), and select **My flows** on the left pane.
+1.  Go to [flow.microsoft.com](https://flow.microsoft.com/), and select **Solutions** on the left pane.
 
-2.  Find the **Send survey on create of custom entity record** flow, and then select **Edit** on the toolbar at the top. The flow editor opens.
+2.  Find and select the **Send Customer Voice survey from Dynamics 365** solution to open it.
+
+3.  Find and select the **Send survey on create of custom entity record** flow to open it.
+
+4.  Select **Edit** on the toolbar at the top. The flow editor opens.
 
     A warning symbol `image` is displayed in the header of conditions and actions that have the connection error.
 
