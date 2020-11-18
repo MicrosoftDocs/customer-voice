@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 11/10/2020
+ms.date: 11/18/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article

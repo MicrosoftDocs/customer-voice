@@ -1,7 +1,7 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
 description: "Instructions for personalizing a survey with Dynamics 365 Customer Voice"
-ms.date: 11/10/2020
+ms.date: 11/18/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -26,20 +26,21 @@ By default, the following variables are available:
 
 1. Open the survey.
        
-2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Variables**.
+2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Personalization**.
     
-    ![Variables menu item](media/variables-button.png "Variables menu item")
+    ![Personalization menu item](media/personalization-button.png "Personalization menu item")
     
-3. In the **Variables** panel, select **Add variable**.
+3. In the **Personalization** panel, select **Add variable**.
     
 4. Enter a name and default value for the variable.
 
-    The toggle buttons under **Save value** are always turned on and you cannot turn them off. The variable’s values are saved in an individual response record.
-
-    > [!NOTE]
-    > If **Anonymous responses** is turned on under [survey distribution settings](distribution-settings.md#respondents), the toggle buttons under **Save value** are turned off by default. You can turn on the toggle for the required variable to store its value in the response record.
+    When a response record is created, the variable's values are saved in the response record.
 
     ![New variable created](media/new-survey-variable.png "New variable created")
+
+    If **Anonymous responses** is turned on under [survey distribution settings](distribution-settings.md#respondents), a new **Save value** column with the toggle buttons is displayed in the **Personalization** panel. The toggle buttons are turned off by default. You can turn on the toggle for the required variable to store its value in the response record.
+
+    ![Turn on toggle to save a variable's value](media/survey-variable-toggle.png "Turn on toggle to save a variable's value")
        
 5. To add more variables, repeat steps 3 and 4.
     
@@ -96,22 +97,22 @@ That question will look like this when a customer named Bert Hair takes the surv
 If you don't specify default values, nothing will be displayed for the variables. You can also specify the values for variables:
     
 - When sending email invitations.
-- When uploading contacts from a CSV file.
+- When importing contacts from a CSV file.
 - When configuring a flow.
 
 ### Specify values when sending email invitations
 
-You can specify default values for the variables by opening the **Customization** pane from the right-side of the page, and selecting **Survey variables**. In the **Variables** panel, specify the default values for the required variables.
+You can specify default values for the variables by opening the **Customization** pane from the right-side of the page, and selecting **Personalization**. In the **Personalization** panel, specify the default values for the required variables.
 
-### Specify values when uploading contacts from a CSV file 
+### Specify values when importing contacts from a CSV file
 
-You can specify values for the variables when uploading contacts from a CSV file. This allows you to personalize the survey as well as the survey invitation emails sent to your recipients. If a default value is specified for a variable in the **Variables** panel, the default value is overwritten with the value specified in the CSV file. In you don't specify a variable's value in the CSV file, the default variable value is used.
+You can specify values for the variables when importing contacts from a CSV file. This allows you to personalize the survey as well as the survey invitation emails sent to your recipients. If a default value is specified for a variable in the **Personalization** panel, the default value is overwritten with the value specified in the CSV file. In you don't specify a variable's value in the CSV file, the default variable value is used.
 
 Consider the following scenario.
 
 Grace is a product manager at Contoso Ltd. and she collects quarterly feedback from customers. She uses a CSV file containing customers’ names, the product they use, and the product version. Grace has created variables for product and its version and used them in the survey and the email. She can specify the values for the variables as per the customers in the CSV file. When she sends the invitation email, the survey and email are personalized as per the recipient.
 
-For information on how to upload contacts from a CSV file, see [Upload contacts from a CSV file](send-survey-email.md#upload-contacts-from-a-csv-file).
+For information on how to import contacts from a CSV file, see [Import contacts from a CSV file](send-survey-email.md#import-contacts-from-a-csv-file).
 
 ### Specify values in a flow
 

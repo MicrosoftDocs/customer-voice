@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 11/10/2020
+ms.date: 11/18/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -51,7 +51,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 ## Import contacts from a CSV file
 
-You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Variables** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
@@ -147,7 +147,7 @@ If you have added a Choice (single answer), Rating (star or smiley symbol), or N
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
 > - If you want to send an embedded survey in an email through Power Automate, you must embed the question in an email and save it as a new email template. While configuring a flow, you must select the new email template. More information: [Use email templates](#use-email-templates)
 
-If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Variables** panel, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
+If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Personalization** panel, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
 
 <a name="use-email-templates"></a>
 
