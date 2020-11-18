@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 10/29/2020
+ms.date: 11/17/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -76,9 +76,15 @@ The available settings are:
 
     ![Survey closed settings](media/survey-closed-setting.png "Survey closed settings")
 
-- **Specific time window**: Specify a time period for receiving responses. By default, this isn't selected.
+- **Specific start date**: Specify a start date and time to start receiving responses. By default, this isn't selected.
 
-    When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents, and an **End date** and **End time** when the survey will stop receiving responses.
+    When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents.
+
+    This setting is displayed only when **Accept responses** is turned on.
+        
+- **Specific end date**: Specify an end date and time to stop receiving responses. By default, this isn't selected.  
+
+    When you select this option, you can specify an **End date** and **End time** when the survey will stop receiving responses.
 
     This setting is displayed only when **Accept responses** is turned on. 
 
