@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Send a survey by using the built-in email composer
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 Dynamics 365 Customer Voice provides an easy way to send your survey to multiple people through email. By using the built-in email composer, you can send customized email invitations to your recipients and track their status.
 
 **To send a survey by using email**

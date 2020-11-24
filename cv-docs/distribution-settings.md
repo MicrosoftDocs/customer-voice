@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Work with survey distribution settings
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they will have to sign in if you're only allowing people in your organization to respond. You can also define various response and notification options.
 
 **To update survey distribution settings**
@@ -77,9 +79,15 @@ The available settings are:
 
     ![Survey closed settings](media/survey-closed-setting.png "Survey closed settings")
 
-- **Specific time window**: Specify a time period for receiving responses. By default, this isn't selected.
+- **Specific start date**: Specify a start date and time to start receiving responses. By default, this isn't selected.
 
-    When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents, and an **End date** and **End time** when the survey will stop receiving responses.
+    When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents.
+
+    This setting is displayed only when **Accept responses** is turned on.
+        
+- **Specific end date**: Specify an end date and time to stop receiving responses. By default, this isn't selected.  
+
+    When you select this option, you can specify an **End date** and **End time** when the survey will stop receiving responses.
 
     This setting is displayed only when **Accept responses** is turned on. 
 
