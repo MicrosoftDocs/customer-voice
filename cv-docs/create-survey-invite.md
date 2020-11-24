@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
 description: "Instructions for creating a survey invitation by using Power Automate"
-ms.date: 10/29/2020
+ms.date: 11/24/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -42,6 +42,7 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
     - **Recipient details**: Specify a contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field. Only a Contact record is supported in this field.
 
     > [!NOTE]
+    > - You must enter a value either in **Email** or **Recipient details** field for executing the **Create an invitation** action.
     > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields, respectively. You must also ensure that **Add respondents as Contacts** is turned on in [survey distribution settings](distribution-settings.md#respondents). If **Add respondents as Contacts** isn't turned on, the survey invitation's **To** field isn't populated. For more information about **Regarding** and **Recipient details** fields and how they're stored in the survey invitation, see [Send a survey action](send-survey-flow.md#send-a-survey-action).
     > - If you've used variables in your survey, they'll be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
