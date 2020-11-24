@@ -1,7 +1,7 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
 description: "Instructions for personalizing a survey with Dynamics 365 Customer Voice"
-ms.date: 11/18/2020
+ms.date: 11/24/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -38,7 +38,7 @@ By default, the following variables are available:
 
     ![New variable created](media/new-survey-variable.png "New variable created")
 
-    If **Anonymous responses** is turned on under [survey distribution settings](distribution-settings.md#respondents), a new **Save value** column with the toggle buttons is displayed in the **Personalization** panel. The toggle buttons are turned off by default. You can turn on the toggle for the required variable to store its value in the response record.
+    If **Anonymous responses** is turned on under [survey distribution settings](distribution-settings.md#respondents), a new **Save value** column with the toggle buttons is displayed in the **Personalization** panel. The toggle buttons are turned off by default. You can turn on the toggle for the required variables to store their value in the response record.
 
     ![Turn on toggle to save a variable's value](media/survey-variable-toggle.png "Turn on toggle to save a variable's value")
        
