@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
 description: "Instructions for creating a survey invitation by using Power Automate"
-ms.date: 11/24/2020
+ms.date: 11/25/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
