@@ -42,11 +42,11 @@ After creating a survey, you can send it to respondents based on a business trig
 
 5.  Select **Create**.
 
-When you send a survey by using Power Automate, a survey invitation record is created. You can associate your survey invitation and response with Common Data Service.
+When you send a survey by using Power Automate, a survey invitation record is created. You can associate your survey invitation and response with Microsoft Dataverse.
 
 ## Send a survey action
 
-This action sends a survey to a specified list of recipients and creates a survey invitation for each recipient. You can also associate your survey invitation and response with Common Data Service. When you create a flow from scratch, this can be achieved through the **Regarding** and **Recipient details** fields in a flow. If you choose to create a flow from a template, the **Regarding** and **Recipient details** fields are populated accordingly.
+This action sends a survey to a specified list of recipients and creates a survey invitation for each recipient. You can also associate your survey invitation and response with Dataverse. When you create a flow from scratch, this can be achieved through the **Regarding** and **Recipient details** fields in a flow. If you choose to create a flow from a template, the **Regarding** and **Recipient details** fields are populated accordingly.
 
 Let's say you need to send a survey every time a case is closed. You can use the **Regarding** field to specify the case record so that when an invitation and response are created for a particular case resolution, they're attached to that case. The case manager then can set up reports to show customer satisfaction (CSAT) scores by case, or reopen a case if the CSAT is very low.
 
