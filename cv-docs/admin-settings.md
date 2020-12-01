@@ -44,6 +44,10 @@ Use this setting to capture the names of survey responders. By default, **Record
 
 Use this setting to set an automatic scan of surveys within your organization for phishing detection. By default, **Add internal phishing protection** is selected. Clear this check box if you don't want to enable phishing scans for surveys within your organization.
 
+### Custom email
+
+Use this setting to create a custom email address for sending survey invitations to your customers. More information: [Customize the sender's email address](customize-sender-email.md)
+
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)

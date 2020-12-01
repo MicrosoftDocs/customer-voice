@@ -1,7 +1,7 @@
 ---
 title: "Customize the From address of the email | MicrosoftDocs"
 description: "Instructions for customizing the From address of the email"
-ms.date: 07/29/2020
+ms.date: 12/09/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -14,54 +14,74 @@ manager: shujoshi
 
 [!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` or `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you select an email address consisting of your company's domain. You can use the custom email address to send survey invitations to your respondents. 
+By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` email address. . The email customization feature helps you create a custom email address consisting of your company's domain. You can use then use this custom email address to send survey invitations to your customers.
 
 Let's say you're an owner of a company named Contoso Suites. The company's website is `www.contososuites.com`. You can create two custom email addresses (for example, `noreply@contososuites.com` and `support@contososuites.com`) consisting of your company's domain.
 
-**To customize the sender's email address**
+## Add custom email
 
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/support) with your admin credentials.
+1.	Sign in to [Microsoft 365 admin center](https://admin.microsoft.com/) with your work or school account.
 
-2. Select **Help + support** > **New support request**. The support request form is displayed in the right pane.
+2.	Select **Settings** > **Org settings**.
 
-3. Specify the product details as follows:
+3.	On the **Org settings** page, under the **Services** tab, select **Dynamics 365 Customer Voice**.
+ 
+4.	In the **Dynamics 365 Customer Voice** panel, select **Add custom email**.
+ 
+5.	On the **Add domain** page, enter the domain name of the email you want to create, and then select **Next**.
+ 
+6.	Create DNS records in your domain by using the values available under the **Create DNS record** section on the **Verify you own this domain** page.
+ 
+7.	After creating DNS records, select **Verify**.
 
-    - **Product**: **Dynamics 365 Customer Engagement**
-    - **Problem type**: **Forms Pro**
-    - **Environment**: Enter or select your Common Data Service environment
+8.	On the **User emails** page, enter the following information:
 
-4. Select **See solutions**.
+    - **Email**: Email address to use for sending survey invitation.
+    - **Display name**: Display name for the email user.
+    - **Add users**: Users who can use custom email for sending survey invitation.
 
-5. Select **Create a support request**, and specify details as follows:
+9.	To add more email addresses, select **Add more emails**, and provide the required information.
+ 
+10.	After adding the required email addresses, select **Next**.
 
-    - **Issue title**: Customize the From email address to send survey invitations
-    - **Issue description**: Enter your issue description, and provide the domain you want to configure for sending emails. For example, if the website is `www.contososuites.com`, you must provide `contososuites.com` as the domain.
-    - **How severe is this issue?**: Select the severity of the issue.
-
-6. Select **Next**.
-
-7. Enter your contact information, and then select **Submit**. A ticket is created with the Microsoft support team, which will contact you with the following DNS records:
-
-    - **Ownership authentication key**: Proves that your organization owns the domain.
-
-    - **Email authentication keys for DKIM**: Prove that Dynamics 365 Customer Voice is authorized to send messages that show your organization's domain name in the from-address.
-
-8.	After record creation, contact Microsoft support, and provide the following information:
-
-    - A list of email addresses you want to create, such as  noreply@contososuites.com and support@contososuites.com.
-    - A list of users who will be sending the survey invitations by using the custom email.
-
-    Based on the information provided, Microsoft support will then verify the records and create the DKIM keys for signing the emails. You'll get a confirmation from Microsoft support that the record verification is complete.
+11.	On the **Review custom email and finish** page, review the information, and select **Create policy**.
+ 
+12.	On the **New custom email created** page, a confirmation message is displayed that the custom email is created.
 
     > [!NOTE]
-    > The SLA for creating DKIM keys is minimum three to four days.
+    > In any of the above steps, you can select Save and close to save your current changes. You can come later and continue from the saved step.
+ 
+13.	Select **Done**.
 
-9.	Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/), and open the **Distribution** panel. Expand the **Email** section, and select the custom email address that you want to use for sending email.
-    
-    Use the custom email while sending the survey invitation.
+The custom email is displayed in the **Dynamics 365 Customer Voice** panel.
+  
+## Edit custom email
 
-    > [!NOTE]
-    > In Power Automate, the custom email address is picked from the survey distribution settings.
+After creating a custom email, you can edit it to change its address, display name, and modify the users allowed to use the email.
+
+1.	Sign in to [Microsoft 365 admin center](https://admin.microsoft.com/) with your work or school account.
+
+2.	Select **Settings** > **Org settings**.
+
+3.	On the **Org settings** page, under the **Services** tab, select **Dynamics 365 Customer Voice**.
+
+4.	In the **Dynamics 365 Customer Voice** panel, hover over the email address you want to edit, select the ellipsis button, and then select **Edit custom email**.
+ 
+5.	In the **Edit custom email** panel, edit the required information, and then select **Save**.
+ 
+## Delete custom email
+
+You can delete the email that is no longer required.
+
+1.	Sign in to [Microsoft 365 admin center](https://admin.microsoft.com/) with your work or school account.
+
+2.	Select **Settings** > **Org settings**.
+
+3.	On the **Org settings** page, under the **Services** tab, select **Dynamics 365 Customer Voice**.
+
+4.	In the **Dynamics 365 Customer Voice** panel, hover over the email address you want to delete, select the ellipsis button, and then select **Delete custom email**.
+ 
+5.	In the confirmation pop-up, select **Remove**.
 
 ## Example DNS records
 
@@ -80,10 +100,6 @@ Let's say you're an owner of a company named Contoso Suites. The company's websi
 ### Should the email account be a functioning account, or can it be a dummy account?
 
 The email account need not be a functioning account to send emails; however, a mailbox must be configured if the account is expected to receive replies. In most cases, the email address from which survey emails are sent is an unmonitored email account, and need not receive emails.
-
-### How long does it take for setup to be completed?
-
-It will take a minimum of three to four days for setup to be completed. After Microsoft support confirms the domain is active, you can start sending survey invitations by using the custom email.
 
 ### See also
 
