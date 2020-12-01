@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 07/29/2020
+ms.date: 11/24/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -11,6 +11,8 @@ manager: shujoshi
 ---
 
 # Send a survey by using the built-in email composer
+
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Customer Voice provides an easy way to send your survey to multiple people through email. By using the built-in email composer, you can send customized email invitations to your recipients and track their status.
 
@@ -28,7 +30,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
     - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created.
-    - Uploading a CSV file by selecting **Upload contacts**. More information: [Upload contacts from a CSV file](#import-recipients)
+    - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
@@ -49,23 +51,21 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 > - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email.md).
 
 
-<a name="import-recipients"></a>
+## Import contacts from a CSV file
 
-## Upload contacts from a CSV file
-
-You can upload a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. To upload contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
 ### Create the CSV file
 
-Provide details in the CSV file in the following order: Email address, first name, last name. To associate a survey invitation and response to an entity, you must provide the regarding entity ID and regarding entity name. To quickly get started, you can also download a CSV template.
+Provide details in the CSV file in the following order: Email address, first name, last name. If you want to specify values for variables, you can add them after the last name column in the CSV file. To quickly get started, you can also download a CSV template.
 
 **To download a CSV template**
 
-1. In the email editor, select **Upload contacts** in the **Recipients** field.
+1. In the email editor, select **Import contacts** in the **Recipients** field.
 
-2. In the **Upload contacts** panel, select **Download a template**.
+2. In the **Import contacts** panel, select **Download template**.
 
     ![Download a CSV template to create a recipient list](media/download-csv-template.png "Download a CSV template to create a recipient list")
 
@@ -74,21 +74,48 @@ After the CSV template is downloaded, enter the required information in the foll
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
 
-To associate a survey invitation and response to an entity, add the following columns to the CSV file and enter the information:
-- **RegardingID**: ID of the entity to associate with the survey invitation and response. 
+If you've added variables to your survey, they’ll be available as separate columns in the CSV file. You can specify the values as per your requirement. 
+
+If you want to associate a survey invitation and response to an entity, you can either add the **RegardingID** and **RegardingEntityName** columns to the CSV file and enter the information or download the advanced CSV template.
+
+**To download an advanced CSV template**
+
+1.	In the email editor, select **Import contacts** in the **Recipients** field.
+
+2.	In the **Import contacts** panel, expand the **Advance options** section, and then select **Download advanced template**.
+
+    ![Download a advanced CSV template to create a recipient list](media/download-advance-csv-template.png "Download an advanced CSV template to create a recipient list")
+
+After the CSV template is downloaded, enter the required information in the following columns:
+
+- **Email address**: Email address of the recipient.
+- **First name**: First name of the recipient.
+- **Last name**: Last name of the recipient.
+- **locale**: Locale of the survey while embedding it in the email.
+- **RegardingID**: ID of the entity to associate with the survey invitation and response.
 - **RegardingEntityName**: Name of the entity to associate with the survey invitation and response.
+
+If you've added variables to your survey, they’ll be available as separate columns in the CSV file. You can specify the values as per your requirement. 
 
 <a name="upload-a-csv-file"></a>
 
 ### Upload the CSV file
 
-1. In the email editor, select **Upload contacts** in the **Recipients** field.
+1. In the email editor, select **Import contacts** in the **Recipients** field.
 
-2. In the **Upload contacts** panel, select **Upload**.
+2. In the **Import contacts** panel, select **Upload**.
 
     ![Upload the CSV file](media/upload-csv.png "Upload the CSV file")
 
 3. Browse to and select the CSV file you want to upload.
+
+    After the file is uploaded successfully, a preview of the imported contacts is displayed in the **Import contacts** panel. 
+
+    If the imported recipient already exists as a contact in Common Data Service, and you want to update the contact information as per the CSV file, select **Update the contact information if imported recipient already exists as a contact in CDS**.
+
+    ![Preview contacts of the CSV file](media/upload-csv-preview.png "Preview contacts of the CSV file")
+
+4. Verify the information and then select **Import**.
 
 <a name="insert-survey-link"></a>
 
@@ -114,13 +141,15 @@ To create a new variable, select **New variable** from the **Personalize** list.
 
 ## Embed a survey in an email
 
-If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, select **Embed survey question**. When you embed a question, the text in the email message is replaced by the question. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Embed survey question**. The question is embedded at the cursor’s location and the email message is adjusted accordingly. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+
+![Embed question in an email](media/embed-ques-email.png "Embed question in an email")
 
 > [!NOTE]
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
 > - If you want to send an embedded survey in an email through Power Automate, you must embed the question in an email and save it as a new email template. While configuring a flow, you must select the new email template. More information: [Use email templates](#use-email-templates)
 
-If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Variables** panel, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
+If you've created a multilingual survey, you can use survey variables to set the default locale for displaying the survey. To set the default locale, open the **Personalization** panel, and then specify a value for the **locale** variable. The value must be a language code, for example **en** or **fr**.
 
 <a name="use-email-templates"></a>
 
@@ -177,11 +206,26 @@ To send survey invitation in a language other than the default, select an email 
 
 If you're using Power Automate to send survey invitations, specify the locale in the **Language** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
 
+## Format email messages
+
+You can format your email message by using the formatting toolbar at the bottom of the email editor. The formatting toolbar allows you to add formatting to your text, add table and images to your email message, and much more. You can also view the HTML source of your email message and modify the HTML code directly.
+
+![Email formatting toolbar](media/email-format-toolbar.png "Email formatting toolbar")
+
+**To apply formatting to your email message**
+
+- Select the text that you want to format, and then select the appropriate action on the formatting toolbar.
+
+**To view and edit the HTML code**
+
+1. Select ![Source button](media/source-button.png "Source button") on the formatting toolbar.
+
+2. On the **Source** screen, edit the HTML code, and then select **OK**.
+
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)<br>
-[Embed a survey in Power Apps](embed-survey-powerapps.md)
+[Send a survey QR code](send-survey-qrcode.md)

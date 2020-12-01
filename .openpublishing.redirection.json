@@ -19,6 +19,261 @@
       "source_path": "cv-docs/index.md",
       "redirect_url": "help-hub",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "cv-docs/embed-survey-powerapps.md",
+      "redirect_url": "send-survey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "fp-docs/index.yml",
+      "redirect_url": "/dynamics365/customer-voice/help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/get-started.md",
+      "redirect_url": "/dynamics365/customer-voice/about",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/whats-new.md",
+      "redirect_url": "/dynamics365/customer-voice/about",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/purchase.md",
+      "redirect_url": "/dynamics365/customer-voice/purchase",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/admin-settings.md",
+      "redirect_url": "/dynamics365/customer-voice/admin-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/plan-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/plan-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/create-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/create-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/create-new-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/create-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/apply-theme.md",
+      "redirect_url": "/dynamics365/customer-voice/survey-branding",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/survey-text-format.md",
+      "redirect_url": "/dynamics365/customer-voice/survey-text-format",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/preview-test-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/preview-test-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/create-branching-rule.md",
+      "redirect_url": "/dynamics365/customer-voice/create-branching-rule",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/personalize-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/personalize-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/create-classic-form.md",
+      "redirect_url": "/dynamics365/customer-voice/create-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/create-multilingual-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/create-multilingual-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/create-multipage-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/create-multipage-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/send-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/send-survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/invite-settings.md",
+      "redirect_url": "/dynamics365/customer-voice/distribution-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/send-survey-email.md",
+      "redirect_url": "/dynamics365/customer-voice/send-survey-email",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/send-survey-flow.md",
+      "redirect_url": "/dynamics365/customer-voice/send-survey-flow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/embed-web-page.md",
+      "redirect_url": "/dynamics365/customer-voice/embed-web-page",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/send-survey-link.md",
+      "redirect_url": "/dynamics365/customer-voice/send-survey-link",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/send-survey-qrcode.md",
+      "redirect_url": "/dynamics365/customer-voice/send-survey-qrcode",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/create-survey-invite.md",
+      "redirect_url": "/dynamics365/customer-voice/create-survey-invite",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/embed-survey-powerapps.md",
+      "redirect_url": "/dynamics365/customer-voice/help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/survey-incentives.md",
+      "redirect_url": "/dynamics365/customer-voice/help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/collaborate-survey.md",
+      "redirect_url": "/dynamics365/customer-voice/manage-surveys",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/share-survey-collaborate.md",
+      "redirect_url": "/dynamics365/customer-voice/manage-surveys",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/analyze-responses-invites.md",
+      "redirect_url": "/dynamics365/customer-voice/about-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/view-summary-information.md",
+      "redirect_url": "/dynamics365/customer-voice/about-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/view-details-each-question.md",
+      "redirect_url": "/dynamics365/customer-voice/survey-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/analyze-survey-invitations.md",
+      "redirect_url": "/dynamics365/customer-voice/view-survey-invite",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/analyze-survey-responses.md",
+      "redirect_url": "/dynamics365/customer-voice/survey-report",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/analyze-survey-insights.md",
+      "redirect_url": "/dynamics365/customer-voice/about-reports",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/choose-environment.md",
+      "redirect_url": "/dynamics365/customer-voice/connect-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/change-environment.md",
+      "redirect_url": "/dynamics365/customer-voice/connect-environment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/copy-survey-environment.md",
+      "redirect_url": "/dynamics365/customer-voice/manage-surveys",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/data-flow.md",
+      "redirect_url": "/dynamics365/customer-voice/data-flow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/customer-satisfaction-app.md",
+      "redirect_url": "/dynamics365/customer-voice/help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/troubleshoot.md",
+      "redirect_url": "/dynamics365/customer-voice/help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/mfp-faq.md",
+      "redirect_url": "/dynamics365/customer-voice/help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/developer-guide.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entity-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/forms-pro-reference.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entity-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/reference/entities/msfp_emailtemplate.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_emailtemplate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/reference/entities/msfp_question.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_question",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/reference/entities/msfp_questionresponse.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_questionresponse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/reference/entities/msfp_survey.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_survey",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/reference/entities/msfp_surveyinvite.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_surveyinvite",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/reference/entities/msfp_surveyresponse.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_surveyresponse",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "fp-docs/developer/reference/entities/msfp_unsubscribedrecipient.md",
+      "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_unsubscribedrecipient",
+      "redirect_document_id": false
     }
   ]
 }

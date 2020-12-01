@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Plan to create a survey
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 It's important to have a plan for creating your surveys. Here are a few things to think about when you're creating surveys:
 
 -   What's the purpose of your survey? For example, you might want to interact with your customers, promote new products or services, or measure customer satisfaction. If your goal is to measure something, what and how do you want to measure it?

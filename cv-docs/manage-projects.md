@@ -77,6 +77,8 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
 You can share your project with multiple people in your organization so they can collaborate on the structure and layout of  surveys within the project. The people with whom the project is shared become the co-owners of the shared project. The projects that are shared with you are available on the **All projects** tab. 
 
+When you share a project, a [Microsoft 365 group](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) is created in Azure Active Directory and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Azure Active Directory group. When you remove all co-owners from the project, the group is retained with you as its only member.
+
 **What can a co-owner do?**
 
 A project co-owner has the same level of permissions as the project owner. This means a co-owner can create, edit, update, delete, and share the project.
@@ -123,9 +125,9 @@ If a project contains responses, a co-owner can see all responses under **Report
 
 ## Update a project
 
-You can update a project by updating a copy of that project. The copy can reside in the same environment or a different one. By updating a copy of the project, you can make incremental changes while its survey is being sent to respondents and receiving responses, without interrupting the survey.<!--If this is wrong, please excuse. I'm trying to figure out why you wouldn't just directly edit a project in its native environment.-->
+You can update your project with the copy of the same project. The copy can reside in the same environment or a different one. By updating a copy of the project, you can make incremental changes while its survey is being sent to respondents and receiving responses, without interrupting the survey.
 
->[!NOTE]
+> [!NOTE]
 > A project can be updated only from a copy of itself, and not from any other project.
 
 The following components can be updated:
@@ -175,9 +177,28 @@ As a company policy, you can't edit surveys directly in the production environme
 
 A notification is displayed in the upper-right corner when the project is updated.
 
+### Ownership of survey data
+
+When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Common Data Service team  (of type [Azure Active Directory group](https://docs.microsoft.com/power-platform/admin/manage-teams#about-group-teams)). The Common Data Service team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
+
+Only those responses and invitations that are received and created after the project was shared will be owned by the Common Data Service team.
+
+The following table shows the ownership of data in Dynamics 365 Customer Voice entities:
+
+|Entity|User owned projects|Shared projects|
+|------------|----------|------------------|
+|Customer Voice project|Project creator|Team (Common Data Service)|
+|Customer Voice satisfaction metric|Project creator|Team (Common Data Service)|
+|Customer Voice localized survey email template|Project creator|Team (Common Data Service)|
+|Customer Voice survey|Project creator|Team (Common Data Service)|
+|Customer Voice survey email template|Project creator|Team (Common Data Service)|
+|Customer Voice survey question|Project creator|Team (Common Data Service)|
+|Customer Voice survey question response|Project creator|Team (Common Data Service)|
+||||
+
 ## Delete a project
 
-You can delete a project that you don't need anymore. Deleting a project removes its surveys, satisfaction metrics, email templates, survey response data, and satisfaction metrics data. The Power Automate flows associated with the surveys are deactivated. The deletion of a project is permanent and can't be reverted.
+You can delete a project that you don't need anymore. Deleting a project removes its surveys, satisfaction metrics, email templates, survey response data, and satisfaction metrics data. The Power Automate flows associated with the surveys are deactivated. The Microsoft 365 group, created while sharing a project, is also deleted from Azure Active Directory. The deletion of a project is permanent and can't be reverted.
 
 **To delete a project**
 
@@ -190,5 +211,5 @@ You can delete a project that you don't need anymore. Deleting a project removes
 ### See also
 
 [Create a project](create-project.md)<br>
-[Create a survey](create-survey.md)<br>
+[Create a survey](create-survey.md)<br> 
 [Manage surveys](manage-surveys.md)
