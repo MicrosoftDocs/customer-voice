@@ -29,7 +29,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
-    - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created.
+    - Entering a contact or contact list/view from Microsoft Dataverse. The contacts are populated from the environment in which your project is created.
     - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
@@ -53,7 +53,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 ## Import contacts from a CSV file
 
-You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Dataverse. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
@@ -111,7 +111,7 @@ If you've added variables to your survey, they’ll be available as separate col
 
     After the file is uploaded successfully, a preview of the imported contacts is displayed in the **Import contacts** panel. 
 
-    If the imported recipient already exists as a contact in Common Data Service, and you want to update the contact information as per the CSV file, select **Update the contact information if imported recipient already exists as a contact in CDS**.
+    If the imported recipient already exists as a contact in Dataverse, and you want to update the contact information as per the CSV file, select **Update the contact information if imported recipient already exists as a contact in CDS**.
 
     ![Preview contacts of the CSV file](media/upload-csv-preview.png "Preview contacts of the CSV file")
 
