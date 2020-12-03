@@ -157,6 +157,9 @@ If you've created a multilingual survey, you can use survey variables to set the
 
 You can use an email template&mdash;a preformatted email message&mdash;to quickly create and send email messages. If you create a survey from the blank template, **Default Template** is selected for use in an email message. If you've created a project from one of the out-of-the-box templates, the corresponding email template is selected by default.
 
+> [!IMPORTANT]
+> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft DataVerse. Refreshing Dataverse with data breaks customer voice projects and surveys on that environment. 
+
 > [!NOTE]
 > You can save a maximum of 10 email templates.
 
