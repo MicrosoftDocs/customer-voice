@@ -1,7 +1,7 @@
 ---
 title: "Send a Dynamics 365 Customer Voice survey from Dynamics 365 | MicrosoftDocs"
 description: "Instructions for sending a survey from Dynamics 365 applications"
-ms.date: 10/29/2020
+ms.date: 12/03/2020
 ms.topic: article
 ms.service: dynamics-365-customervoice
 author: sbmjais
@@ -134,9 +134,7 @@ The **Send survey on create of custom entity record** Power Automate flow is cre
 
 4.  Select **Edit** on the toolbar at the top. The flow editor opens.
 
-    A warning symbol `image` is displayed in the header of conditions and actions that have the connection error.
-
-    `image of the flow`
+    A warning symbol is displayed in the header of conditions and actions that have the connection error.
 
 3.  Select the condition or action, and then select the appropriate connection.
 
