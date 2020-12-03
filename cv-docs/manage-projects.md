@@ -124,21 +124,21 @@ If a project contains responses, a co-owner can see all responses under **Report
 
 ### Ownership of survey data
 
-When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Common Data Service team  (of type [Azure Active Directory group](https://docs.microsoft.com/power-platform/admin/manage-teams#about-group-teams)). The Common Data Service team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
+When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Azure Active Directory group](https://docs.microsoft.com/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
 
-Only those responses and invitations that are received and created after the project was shared will be owned by the Common Data Service team.
+Only those responses and invitations that are received and created after the project was shared will be owned by the Dataverse team.
 
 The following table shows the ownership of data in Dynamics 365 Customer Voice entities:
 
 |Entity|User owned projects|Shared projects|
 |------------|----------|------------------|
-|Customer Voice project|Project creator|Team (Common Data Service)|
-|Customer Voice satisfaction metric|Project creator|Team (Common Data Service)|
-|Customer Voice localized survey email template|Project creator|Team (Common Data Service)|
-|Customer Voice survey|Project creator|Team (Common Data Service)|
-|Customer Voice survey email template|Project creator|Team (Common Data Service)|
-|Customer Voice survey question|Project creator|Team (Common Data Service)|
-|Customer Voice survey question response|Project creator|Team (Common Data Service)|
+|Customer Voice project|Project creator|Team (Dataverse)|
+|Customer Voice satisfaction metric|Project creator|Team (Dataverse)|
+|Customer Voice localized survey email template|Project creator|Team (Dataverse)|
+|Customer Voice survey|Project creator|Team (Dataverse)|
+|Customer Voice survey email template|Project creator|Team (Dataverse)|
+|Customer Voice survey question|Project creator|Team (Dataverse)|
+|Customer Voice survey question response|Project creator|Team (Dataverse)|
 ||||
 
 ## Delete a project

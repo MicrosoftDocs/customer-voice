@@ -48,7 +48,7 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 - If you were using different email templates for multiple languages, you can now create multilingual email templates. More information: [Create multilingual email templates](send-survey-email.md#create-multilingual-email-templates)
 
-- Email templates are saved in your Common Data Service environment in which the survey is stored.
+- Email templates are saved in your Microsoft Dataverse environment in which the survey is stored.
 
 - When you copy a project, email templates configured for the surveys are copied to the new project. More information: [Copy a project](manage-projects.md#copy-a-project)
 
