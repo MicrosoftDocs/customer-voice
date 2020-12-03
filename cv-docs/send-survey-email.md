@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 11/24/2020
+ms.date: 12/03/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -158,7 +158,7 @@ If you've created a multilingual survey, you can use survey variables to set the
 You can use an email template&mdash;a preformatted email message&mdash;to quickly create and send email messages. If you create a survey from the blank template, **Default Template** is selected for use in an email message. If you've created a project from one of the out-of-the-box templates, the corresponding email template is selected by default.
 
 > [!IMPORTANT]
-> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft DataVerse. Refreshing Dataverse with data breaks customer voice projects and surveys on that environment. 
+> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft DataVerse. Refreshing data on Dataverse environment with another will break Customer Voice projects and surveys on the refreshed environment. 
 
 > [!NOTE]
 > You can save a maximum of 10 email templates.
