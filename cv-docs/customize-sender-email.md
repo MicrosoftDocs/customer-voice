@@ -20,40 +20,63 @@ Let's say your company is Contoso Suites, and the company's website is `www.cont
 
 ## Add custom email addresses
 
-Take the following steps to add custom email addresses:<!-- Edit note: Generally, updating "email" with "email address" because "email" usually refers to an email message instead of an address. Perhaps you could call it an account and not an address in some cases. -->
+Take the following steps to add custom email addresses:
 
 1.	Sign in to [Microsoft 365 admin center](https://admin.microsoft.com/) with your work or school account.
 
 2.	Select **Settings** > **Org settings**.
 
 3.	On the **Org settings** page, under the **Services** tab, select **Dynamics 365 Customer Voice**.
+
+  > [!div class="mx-imgBorder"]
+  > ![Select customer voice option](media/cv-select-cv-option-admin-center.png "Select customer voice option")
+
+4.	In the **Dynamics 365 Customer Voice** panel, go to the **Send surveys from a custom email address** section and select **+ Add domain**.
+
+  > [!div class="mx-imgBorder"]
+  > ![Select add domain option](media/cv-select-add-domain.png "Select add domain option")
  
-4.	In the **Dynamics 365 Customer Voice** panel, select **Add custom email**.
+5.	On the **Add domain** page, enter the domain name of the email domain you want to create in **Enter your URL**, and then select **Next**.
+
+  > [!div class="mx-imgBorder"]
+  > ![Enter the domain URL](media/cv-enter-domain-url.png "Enter the domain URL")
  
-5.	On the **Add domain** page, enter the domain name of the email domain you want to create, and then select **Next**.
+6.	Create DNS records in your domain by using the values available under the **Create DNS record** section on the **Verify you own this domain** page. More information: [Example DNS records](#example-dns-records)
+
+  > [!div class="mx-imgBorder"]
+  > ![Values to create DNS records](media/cv-create-dns-records.png "Values to create DNS records")
  
-6.	Create DNS records in your domain by using the values available under the **Create DNS record** section on the **Verify you own this domain** page.
- 
-7.	After creating DNS records, select **Verify**.<!-- Edit note: What if there is an error with verification. -->
+7.	After creating DNS records, select **Verify**.
+
+  > [!div class="mx-imgBorder"]
+  > ![Verify DNS records](media/cv-verify-dns-records.png "Verify DNS records")
+
+  >[!NOTE]
+  >If the DNS records are not created, an error is displayed specifying that the application is unable to create a key and the domain can't be created.
 
 8.	On the **User emails** page, enter the following information:
 
-    - **Email**: Email address to use for sending survey invitation.
+    - **Email address**: Email address to use for sending survey invitation.
     - **Display name**: Display name for the email user.
-    - **Add users**: Users who can use custom email addresses when sending survey invitations.
+    - **Approved users**: Users who can use custom email addresses when sending survey invitations.
 
-9.	To add more email addresses, select **Add more emails**, and then provide the required information.
+  > [!div class="mx-imgBorder"]
+  > ![Add email address information](media/cv-add-email-addressed.png "Add email address information")    
+
+  >[!NOTE]
+  >To add more email addresses, select **Add more emails**, and then provide the required information.
  
 10.	After adding the required email addresses, select **Next**.
 
-11.	On the **Review custom email and finish** page, review the information, and then select **Create policy**.
- 
-12.	On the **New custom email created** page, a confirmation message is displayed that the custom email address is created.
+11.	On the **Review and finish** page, review the entered information, and then select **Finish**.
 
-    > [!NOTE]
-    > In any of the above steps, you can select **Save and close** to save your current changes. You can come back later and continue from the saved step.
+  > [!div class="mx-imgBorder"]
+  > ![Review the information and select finish](media/cv-review-and-finish.png "Review the information and select finish")  
  
-13.	Select **Done**.
+12.	A confirmation message is displayed that the custom email address is created, select **Done**.
+
+  > [!div class="mx-imgBorder"]
+  > ![Custom email address added to customer voice](media/cv-custom-email-address-added.png "Custom email address added to customer voice")
 
 The custom email address is displayed in the **Dynamics 365 Customer Voice** panel.
   
