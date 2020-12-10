@@ -2,8 +2,7 @@
 title: "Customize the From address of the email | MicrosoftDocs"
 description: "Instructions for customizing the From address of survey emails."
 ms.date: 12/09/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -61,7 +60,7 @@ Take the following steps to add custom email addresses:
     - **Approved users**: Users who can use custom email addresses when sending survey invitations.
 
   > [!div class="mx-imgBorder"]
-  > ![Add email address information](media/cv-add-email-addressed.png "Add email address information")    
+  > ![Add email address information](media/cv-add-email-address.png "Add email address information")    
 
   >[!NOTE]
   >To add more email addresses, select **Add more emails**, and then provide the required information.
