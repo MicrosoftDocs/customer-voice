@@ -115,6 +115,11 @@ In this example screen, we're using Microsoft Azure to add the TXT name and valu
 `Host name or Alias: fpeurkey1.\_domainkey`
 `Points to address: fpeurkey1contosocom.d01.formspro.dynamics.com`
 
+In this example screen, we're using Microsoft Azure to add the CNAME alias and address:
+
+> [!div class="mx-imgBorder"]
+> ![Add CNAME alias and address in Microsoft Azure](media/cv-azure-add-cname-alias-address.png "Add CNAME alias and address in Microsoft Azure")
+
 ## Frequently asked questions
 
 ### Should the email account be a functioning account, or can it be a dummy account?
