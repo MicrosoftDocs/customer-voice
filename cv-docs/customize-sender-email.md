@@ -15,7 +15,7 @@ manager: shujoshi
 
 By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` email address. The email customization feature helps you create a custom email address based on your organization's domain. You can use then use this custom email address to send survey invitations to your customers.
 
-Let's say your company is Contoso Suites, and the company's website is `www.contososuites.com`. You could create two custom email addresses based on your company's domain, such as `noreply@contososuites.com` and `support@contososuites.com`.
+Let's say your company is Contoso Suites, and the company's website is `www.contososuites.com`. You want to create two custom email addresses based on your company's domain, such as `noreply@contososuites.com` and `support@contososuites.com`.
 
 ## Add custom email addresses
 
@@ -114,6 +114,9 @@ In this example screen, we're using Microsoft Azure to add the TXT name and valu
 
 `Host name or Alias: fpeurkey1.\_domainkey`      
 `Points to address: fpeurkey1contosocom.d01.formspro.dynamics.com`
+
+>[!NOTE]
+>You must create two CNAME records using the information provided in step 6 of [Add custom email addresses](#add-custom-email-addresses).
 
 In this example screen, we're using Microsoft Azure to add the CNAME alias and address:
 
