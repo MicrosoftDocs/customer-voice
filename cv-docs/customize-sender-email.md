@@ -100,10 +100,15 @@ You can delete custom email addresses that are no longer required.
 
 ## Example DNS records
 
-### TXT record<!-- Edit note: Perhaps we can add more detail about what we are presenting here. Is this to show the format. -->
+### TXT record
 
 `TXT name: @`
 `TXT value: msfpkey=abc123abc123abc123abc123`
+
+In this example screen, we're using Microsoft Azure to add the TXT name and value:
+
+> [!div class="mx-imgBorder"]
+> ![Add TXT name and value in Microsoft Azure](media/cv-azure-add-txt-name-value.png "Add TXT name and value in Microsoft Azure")
 
 ### CNAME record
 
