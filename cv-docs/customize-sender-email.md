@@ -102,7 +102,7 @@ You can delete custom email addresses that are no longer required.
 
 ### TXT record
 
-`TXT name: @`
+`TXT name: @`    
 `TXT value: msfpkey=abc123abc123abc123abc123`
 
 In this example screen, we're using Microsoft Azure to add the TXT name and value:
@@ -112,7 +112,7 @@ In this example screen, we're using Microsoft Azure to add the TXT name and valu
 
 ### CNAME record
 
-`Host name or Alias: fpeurkey1.\_domainkey`
+`Host name or Alias: fpeurkey1.\_domainkey`      
 `Points to address: fpeurkey1contosocom.d01.formspro.dynamics.com`
 
 In this example screen, we're using Microsoft Azure to add the CNAME alias and address:
