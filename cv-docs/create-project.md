@@ -1,7 +1,7 @@
 ---
 title: "Create a project | MicrosoftDocs"
 description: "Instructions for creating a project in Dynamics 365 Customer Voice."
-ms.date: 08/12/2020
+ms.date: 12/03/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -47,6 +47,10 @@ Dynamics 365 Customer Voice offers ready-to-use survey feedback project template
     The **Send a survey when a case is resolved in Dynamics 365** Power Automate flow is created automatically when you create a project from this template. The survey is sent to the customer when a case is resolved in Dynamics 365. To see the flow, go to [flow.microsoft.com](https://flow.microsoft.com) and select **My flows** in the left pane. The flow is created in the inactive state. You must turn on the flow to use it. You can also customize the flow as per your requirement in Power Automate and then turn on the flow to start using it.
 
 Dynamics 365 Customer Voice also includes a **Blank** template you can use to create a survey from scratch and configure it in accordance with your requirements. This template doesn't contain any preconfigured survey questions, workflows, or satisfaction metrics.
+
+> [!IMPORTANT]
+> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft DataVerse. Refreshing data on Dataverse environment with another will break Customer Voice projects and surveys on the refreshed environment. 
+
 
 ## Create a project from a template
 

@@ -61,9 +61,9 @@ The available settings are:
 
     When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymize responses** is turned on.
 
-- **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Common Data Service.
+- **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
 
-    By default, this setting is turned on, and each respondent is added as a contact in Common Data Service. This only works with surveys sent through [email](send-survey-email.md) or [survey invitation](create-survey-invite.md). If a contact already exists, it will be updated accordingly.
+    By default, this setting is turned on, and each respondent is added as a contact in Dataverse. This only works with surveys sent through [email](send-survey-email.md) or [survey invitation](create-survey-invite.md). If a contact already exists, it will be updated accordingly.
 
 ![Respondent settings](media/respondents-settings.png "Respondent settings")
 

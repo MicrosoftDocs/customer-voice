@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "Instructions for managing projects with Dynamics 365 Customer Voice"
-ms.date: 11/17/2020
+ms.date: 12/04/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -25,6 +25,7 @@ You can perform the following actions:
 - **Rename**: Rename your project title.
 - **Copy**: Create a copy of your project in the same or different environment.
 - **Share**: Share your project with other people for collaboration.
+- **Update**: Update your project with a copy of the same project.
 - **Delete**: Delete a project that you don't need anymore.
 
 ## Rename a project
@@ -122,23 +123,77 @@ If a project contains responses, a co-owner can see all responses under **Report
 
     ![Remove project access](media/project-owners.png "Remove project access")
 
+## Update a project
+
+You can update your project with the copy of the same project. The copy can reside in the same environment or a different one. By updating a copy of the project, you can make incremental changes while its survey is being sent to respondents and receiving responses, without interrupting the survey.
+
+> [!NOTE]
+> A project can be updated only from a copy of itself, and not from any other project.
+
+The following components can be updated:
+
+- Project
+    - Name
+    - Satisfaction metrics
+- Survey
+    - Title
+    - Description
+    - Name
+    - Questions and their corresponding answer options
+    - Survey customizations
+    - Survey distribution settings
+    - Email templates and their corresponding languages
+    - Power Automate flows
+
+Let's understand the update operation with the following example. 
+
+You work in a company named Contoso, and create and finalize surveys across the following environments: 
+
+- **Development**: The environment where you create and test surveys.
+
+- **Production**: The environment for live surveys, where you move finalized surveys and then share them with respondents.
+
+You've moved a customer satisfaction survey to the production environment, and want to make the following changes to it:
+
+- Add a question
+- Change the color theme
+- Add a background image
+
+As a company policy, you can't edit surveys directly in the production environment. Therefore, you create a copy of the survey in the development environment and make the required changes. You now update the survey in the production environment by using the copy that you created and updated<!--Suggested.--> in the development environment.
+
+**To update the project**
+
+1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
+
+2. On the **All projects** tab, hover over the project you want to update, select ![Project options](media/project-options.png "Project options"), and then select **Update**.
+
+    ![Select Update from the shortcut menu](media/project-update-menu.png "Select Update from the shortcut menu")
+
+3. On the **Update project** screen, select the project from which your project needs to be updated.
+
+    ![Select a project to update from](media/project-update-screen.png "Select a project to update from")
+
+4. In the confirmation dialog box, select **Confirm**.
+
+A notification is displayed in the upper-right corner when the project is updated.
+
 ### Ownership of survey data
 
-When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Common Data Service team  (of type [Azure Active Directory group](https://docs.microsoft.com/power-platform/admin/manage-teams#about-group-teams)). The Common Data Service team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
+When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Azure Active Directory group](https://docs.microsoft.com/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
 
-Only those responses and invitations that are received and created after the project was shared will be owned by the Common Data Service team.
+Only those responses and invitations that are received and created after the project was shared will be owned by the Dataverse team.
 
 The following table shows the ownership of data in Dynamics 365 Customer Voice entities:
 
 |Entity|User owned projects|Shared projects|
 |------------|----------|------------------|
-|Customer Voice project|Project creator|Team (Common Data Service)|
-|Customer Voice satisfaction metric|Project creator|Team (Common Data Service)|
-|Customer Voice localized survey email template|Project creator|Team (Common Data Service)|
-|Customer Voice survey|Project creator|Team (Common Data Service)|
-|Customer Voice survey email template|Project creator|Team (Common Data Service)|
-|Customer Voice survey question|Project creator|Team (Common Data Service)|
-|Customer Voice survey question response|Project creator|Team (Common Data Service)|
+|Customer Voice project|Project creator|Team (Dataverse)|
+|Customer Voice satisfaction metric|Project creator|Team (Dataverse)|
+|Customer Voice localized survey email template|Project creator|Team (Dataverse)|
+|Customer Voice survey|Project creator|Team (Dataverse)|
+|Customer Voice survey email template|Project creator|Team (Dataverse)|
+|Customer Voice survey question|Project creator|Team (Dataverse)|
+|Customer Voice survey question response|Project creator|Team (Dataverse)|
 ||||
 
 ## Delete a project
