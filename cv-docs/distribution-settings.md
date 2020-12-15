@@ -54,7 +54,6 @@ The available settings are:
 
     ![Variables settings enabled](media/variables-settings-enabled.png "Variables settings enabled")
 
-
 - **One response per person**: Specify whether a respondent can submit only one response, or more than one.
 
     By default, this setting is turned off and a respondent can submit more than one response. 
