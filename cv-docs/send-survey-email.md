@@ -93,7 +93,7 @@ After the CSV template is downloaded, enter the required information in the foll
 - **Email address**: Email address of the recipient.
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
-- **locale**: Locale of the survey while embedding it in the email.
+- **locale**: Language in which the survey needs to be displayed while embedding it in the email.
 - **RegardingID**: ID of the entity to associate with the survey invitation and response.
 - **RegardingEntityName**: Name of the entity to associate with the survey invitation and response.
 
