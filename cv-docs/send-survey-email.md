@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 12/03/2020
+ms.date: 12/16/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -42,7 +42,9 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 8. To select an email template, select a template from the **Template** list. More information: [Use email templates](#use-email-templates)
 
-9. When you're ready to send your survey, select **Send**.
+9. To send a multilingual survey, select a language from the **Language** list. To be able to select a language, you must first select an email template. The selected language applies to survey invitation and survey question. 
+
+10. When you're ready to send your survey, select **Send**.
 
     ![Email editor](media/email-editor.png "Email editor")
 
