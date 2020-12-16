@@ -52,7 +52,8 @@ Let's say you need to send a survey every time a case is closed. You can use the
 
 Use the **Recipient details** field to associate your survey invitation and response records to the appropriate contact (the recipient). This allows sales personnel, or anyone, to see the contact record and the response of the customer. This can help them formulate their conversation with the customer accordingly.
 
-![Send a survey action](media/send-survey-action.png "Send a survey action")
+> [!div class="mx-imgBorder"]
+> ![Send a survey action](media/send-survey-action.png "Send a survey action")
 
 ### Attributes
 
@@ -64,7 +65,7 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |Email template|The email template to use while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
 |Regarding|The record that associates the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** You must enter an entity logical name in this field.|
 |Recipient details|The contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field.<br>**Note**: Only the Contact record is supported.|
-|The fields to send to WebMerge | You can use dynamic content to set the value of project or survey. To do this, you must specify survey variables in JSON format. For example, "{"locale":"<LOCALE>","orgName":"<NAME>"}" |
+|The fields to send to WebMerge | You can use dynamic content to set the value of project or survey. To do this, you must specify survey variables in JSON format. For example, "{"locale":"\<LOCALE>","orgName":"\<NAME>"}" |
 |||
 
 > [!NOTE]
