@@ -209,7 +209,7 @@ By default, the email template is created in the default language of the survey.
 
 To send survey invitation in a language other than the default, select an email template and the required language, and then send the email.
 
-If you're using Power Automate to send survey invitations, specify the locale in the **Language** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
+If you're using Power Automate to send survey invitations, specify the language of the survey or email template in the **Locale** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
 
 ## Format email messages
 
