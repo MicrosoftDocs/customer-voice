@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 12/03/2020
+ms.date: 12/16/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -42,7 +42,9 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 8. To select an email template, select a template from the **Template** list. More information: [Use email templates](#use-email-templates)
 
-9. When you're ready to send your survey, select **Send**.
+9. To send a multilingual survey, select a language from the **Language** list. To be able to select a language, you must first select an email template. The selected language applies to survey invitation and survey question. 
+
+10. When you're ready to send your survey, select **Send**.
 
     ![Email editor](media/email-editor.png "Email editor")
 
@@ -91,7 +93,7 @@ After the CSV template is downloaded, enter the required information in the foll
 - **Email address**: Email address of the recipient.
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
-- **locale**: Locale of the survey while embedding it in the email.
+- **locale**: Language in which the survey needs to be displayed while embedding it in the email.
 - **RegardingID**: ID of the entity to associate with the survey invitation and response.
 - **RegardingEntityName**: Name of the entity to associate with the survey invitation and response.
 
@@ -207,7 +209,7 @@ By default, the email template is created in the default language of the survey.
 
 To send survey invitation in a language other than the default, select an email template and the required language, and then send the email.
 
-If you're using Power Automate to send survey invitations, specify the locale in the **Language** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
+If you're using Power Automate to send survey invitations, specify the language of the survey or email template in the **Locale** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
 
 ## Format email messages
 
