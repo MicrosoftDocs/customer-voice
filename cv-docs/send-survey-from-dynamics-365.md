@@ -17,7 +17,7 @@ manager: shujoshi
 
 - An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow).
 
-- The users must have the send survey role to share the survey through Dynamics 365 apps.
+- Users must at least have the **Survey Sender** role to send the survey through Dynamics 365 apps.
 
 You can send a survey to your customer from within the customer engagement application's interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenarios:
 
