@@ -1,7 +1,7 @@
 ---
 title: "Transition from Forms Pro | MicrosoftDocs"
 description: "Learn what data is migrated when you transition from Forms Pro to Dynamics 365 Customer Voice."
-ms.date: 10/01/2020
+ms.date: 10/30/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -11,6 +11,8 @@ manager: shujoshi
 ---
 
 # Transition from Microsoft Forms Pro to Dynamics 365 Customer Voice
+
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebranding, all your surveys from Forms Pro are moved to Dynamics 365 Customer Voice and you can perform all the actions in Dynamics 365 Customer Voice that you performed in Forms Pro. There's no impact to your existing Forms Pro surveys with the transition to Dynamics 365 Customer Voice. You'll now have new capabilities along with the new user interface. All the existing surveys will continue to receive responses. If Power Automate flows were created, they will continue to work.
 
@@ -46,7 +48,7 @@ Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebra
 
 - If you were using different email templates for multiple languages, you can now create multilingual email templates. More information: [Create multilingual email templates](send-survey-email.md#create-multilingual-email-templates)
 
-- Email templates are saved in your Common Data Service environment in which the survey is stored.
+- Email templates are saved in your Microsoft Dataverse environment in which the survey is stored.
 
 - When you copy a project, email templates configured for the surveys are copied to the new project. More information: [Copy a project](manage-projects.md#copy-a-project)
 
@@ -109,9 +111,6 @@ If you select a survey tile, you're redirected to the corresponding project in D
 **Experience for users with only a Forms license**
 
 If you have a Forms-only license and try to sign in to Forms Pro, the Forms home page is displayed.
-
-> [!NOTE]
-> If you're a customer in U.S. Government Community Cloud, you can continue to use Forms Pro. Dynamics 365 Customer Voice will be available on U.S. Government Community Cloud by end of October 2020. More information: [Dynamics 365 Customer Voice availability on U.S. Government Community Cloud](about.md#dynamics-365-customer-voice-availability-on-us-government-community-cloud)
 
 ### See also
 

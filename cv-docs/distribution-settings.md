@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 07/30/2020
+ms.date: 11/24/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -11,6 +11,8 @@ manager: shujoshi
 ---
 
 # Work with survey distribution settings
+
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they will have to sign in if you're only allowing people in your organization to respond. You can also define various response and notification options.
 
@@ -44,11 +46,13 @@ The available settings are:
 
     When you turn on this setting, only the respondents who are in the same organization as the survey creator can respond to the survey. Respondents are required to sign in to open the survey.
 
-- **Anonymize responses**: Specify whether to record respondents' names, or keep them anonymous.
+- **Anonymous responses**: Specify whether to record respondents' names, or keep them anonymous.
 
     By default, this setting is turned off and the respondent's name is recorded.
 
-    When you turn on this setting, the respondent's name isn't recorded. This is helpful when you want to collect survey responses anonymously.
+    When you turn on this setting, the respondent's first name, last name, and email aren't saved in response records by default. If you've added variables to your survey, their values also will not be stored in response records by default. This is helpful when you want to collect survey responses anonymously. A message is displayed below this option that the variables settings are enabled. You can turn on the toggle for the required variable if you want to store its value in the response record. More information: [Personalize a survey by using variables](personalize-survey.md)
+
+    ![Variables settings enabled](media/variables-settings-enabled.png "Variables settings enabled")
 
 - **One response per person**: Specify whether a respondent can submit only one response, or more than one.
 
@@ -56,9 +60,9 @@ The available settings are:
 
     When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymize responses** is turned on.
 
-- **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Common Data Service.
+- **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
 
-    By default, this setting is turned on, and each respondent is added as a contact in Common Data Service. This only works with surveys sent through [email](send-survey-email.md) or [survey invitation](create-survey-invite.md). If a contact already exists, it will be updated accordingly.
+    By default, this setting is turned on, and each respondent is added as a contact in Dataverse. This only works with surveys sent through [email](send-survey-email.md) or [survey invitation](create-survey-invite.md). If a contact already exists, it will be updated accordingly.
 
 ![Respondent settings](media/respondents-settings.png "Respondent settings")
 
@@ -74,9 +78,15 @@ The available settings are:
 
     ![Survey closed settings](media/survey-closed-setting.png "Survey closed settings")
 
-- **Specific time window**: Specify a time period for receiving responses. By default, this isn't selected.
+- **Specific start date**: Specify a start date and time to start receiving responses. By default, this isn't selected.
 
-    When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents, and an **End date** and **End time** when the survey will stop receiving responses.
+    When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents.
+
+    This setting is displayed only when **Accept responses** is turned on.
+        
+- **Specific end date**: Specify an end date and time to stop receiving responses. By default, this isn't selected.  
+
+    When you select this option, you can specify an **End date** and **End time** when the survey will stop receiving responses.
 
     This setting is displayed only when **Accept responses** is turned on. 
 
@@ -120,7 +130,7 @@ The available settings are:
 
 ## Work with personalized links
 
-Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response.
+Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response. The personalized link is a short URL in the following format: `https://<region>.microsoft.com/<10-digit code>`
 
 When you send a survey by generating a link or a QR code, the survey links aren't personalized. If the survey links aren't personalized and the **Only people in my organization can respond** setting is turned off, you won't be able to record the respondent's name or determine whether the respondent has submitted only one response.
 

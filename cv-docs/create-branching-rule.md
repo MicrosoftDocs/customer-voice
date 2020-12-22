@@ -99,7 +99,7 @@ After you've created a branching rule or a set of branching rules, you can edit,
 
 2. Select **Customization** at the right side of the page, and then select **Branching**.
 
-    [Branching rules button](media/branching-menu.png "Branching rules button")
+    ![Branching menu item](media/branching-menu.png "Branching menu item")
 
 3. A list of rules is displayed in a grid.
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
 description: "Instructions for creating a survey invitation by using Power Automate"
-ms.date: 10/05/2020
+ms.date: 11/25/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -12,7 +12,9 @@ manager: shujoshi
 
 # Create a survey invitation
 
-If you want to send a survey by using a platform other than Dynamics 365 Customer Voice&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice.
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
+If you want to send a survey by using a platform other than Dynamics 365 Customer Voice&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice. The survey invitation link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
@@ -40,7 +42,8 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
     - **Recipient details**: Specify a contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field. Only a Contact record is supported in this field.
 
     > [!NOTE]
-    > - If you want to associate your survey invitation and response with Common Data Service, you must enter values in **Regarding** and **Recipient details** fields, respectively. You must also ensure that **Add respondents as Contacts** is turned on in [survey distribution settings](distribution-settings.md#respondents). If **Add respondents as Contacts** isn't turned on, the survey invitation's **To** field isn't populated. For more information about **Regarding** and **Recipient details** fields and how they're stored in the survey invitation, see [Send a survey action](send-survey-flow.md#send-a-survey-action).
+    > - You must enter a value either in **Email** or **Recipient details** field for executing the **Create an invitation** action.
+    > - If you want to associate your survey invitation and response with Microsoft Dataverse, you must enter values in **Regarding** and **Recipient details** fields, respectively. You must also ensure that **Add respondents as Contacts** is turned on in [survey distribution settings](distribution-settings.md#respondents). If **Add respondents as Contacts** isn't turned on, the survey invitation's **To** field isn't populated. For more information about **Regarding** and **Recipient details** fields and how they're stored in the survey invitation, see [Send a survey action](send-survey-flow.md#send-a-survey-action).
     > - If you've used variables in your survey, they'll be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
 
 8. Add a new step, and then select the action to send the email. You can use providers such as Outlook, Gmail, or SMS; we've used Outlook to send the survey in this procedure.

@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Send a survey by using Power Automate
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Power Automate. The following Power Automate templates are available out of the box in Dynamics 365 Customer Voice:
 
 - **Send a survey when a case is resolved in Dynamics 365**: This template sends a survey when a case is resolved in Dynamics 365.
@@ -40,17 +42,18 @@ After creating a survey, you can send it to respondents based on a business trig
 
 5.  Select **Create**.
 
-When you send a survey by using Power Automate, a survey invitation record is created. You can associate your survey invitation and response with Common Data Service.
+When you send a survey by using Power Automate, a survey invitation record is created. You can associate your survey invitation and response with Microsoft Dataverse.
 
 ## Send a survey action
 
-This action sends a survey to a specified list of recipients and creates a survey invitation for each recipient. You can also associate your survey invitation and response with Common Data Service. When you create a flow from scratch, this can be achieved through the **Regarding** and **Recipient details** fields in a flow. If you choose to create a flow from a template, the **Regarding** and **Recipient details** fields are populated accordingly.
+This action sends a survey to a specified list of recipients and creates a survey invitation for each recipient. You can also associate your survey invitation and response with Dataverse. When you create a flow from scratch, this can be achieved through the **Regarding** and **Recipient details** fields in a flow. If you choose to create a flow from a template, the **Regarding** and **Recipient details** fields are populated accordingly.
 
 Let's say you need to send a survey every time a case is closed. You can use the **Regarding** field to specify the case record so that when an invitation and response are created for a particular case resolution, they're attached to that case. The case manager then can set up reports to show customer satisfaction (CSAT) scores by case, or reopen a case if the CSAT is very low.
 
 Use the **Recipient details** field to associate your survey invitation and response records to the appropriate contact (the recipient). This allows sales personnel, or anyone, to see the contact record and the response of the customer. This can help them formulate their conversation with the customer accordingly.
 
-![Send a survey action](media/send-survey-action.png "Send a survey action")
+> [!div class="mx-imgBorder"]
+> ![Send a survey action](media/send-survey-action.png "Send a survey action")
 
 ### Attributes
 
@@ -62,6 +65,7 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |Email template|The email template to use while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
 |Regarding|The record that associates the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** You must enter an entity logical name in this field.|
 |Recipient details|The contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field.<br>**Note**: Only the Contact record is supported.|
+|The fields to send to WebMerge | To use dynamic properties for a survey, use this field to specify survey variables in JSON format. For example, "{"locale":"\<LOCALE>","orgName":"\<NAME>"}", where <LOCALE> and <NAME> are the variable value. |
 |||
 
 > [!NOTE]

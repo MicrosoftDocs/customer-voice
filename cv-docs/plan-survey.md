@@ -12,6 +12,8 @@ manager: shujoshi
 
 # Plan to create a survey
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 It's important to have a plan for creating your surveys. Here are a few things to think about when you're creating surveys:
 
 -   What's the purpose of your survey? For example, you might want to interact with your customers, promote new products or services, or measure customer satisfaction. If your goal is to measure something, what and how do you want to measure it?
@@ -42,9 +44,9 @@ A few best practices enable you to create a meaningful survey and gather good re
 
 A few best practices enable you to create an effective high-volume survey using Customer Voice:
 
-- Make sure that you create the project in a non-default environment. Dynamics 365 Customer Voice (Default) uses the version of Common Data Service that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
+- Make sure that you create the project in a non-default environment. Dynamics 365 Customer Voice (Default) uses the version of Microsoft Dataverse that has fixed service protection limits. More information: [Service Protection API Limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits)
 
-  **Recommendation**: [Create a project](create-project.md) in your existing production Common Data Service environment, or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+  **Recommendation**: [Create a project](create-project.md) in your existing production Dataverse environment, or [create a new production environment](https://docs.microsoft.com/power-platform/admin/create-environment) from the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
 - When you're sending a non-anonymous survey, avoid sending a large number of invitations through Power Automate at the same time. Sending more than eight individual survey invitations per minute might result in processing delays.
 

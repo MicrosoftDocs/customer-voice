@@ -12,18 +12,20 @@ manager: shujoshi
 
 # Connect Dynamics 365 Customer Voice with your environment
 
+[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 An environment is a space to store, manage, and share your organization's business data, apps, and flows. It also serves as a container to separate apps that might have different roles, security requirements, or target audiences. More information: [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)
 
 In Dynamics 365 Customer Voice, all projects created by you or shared with you across environments are displayed in the **All Projects** tab. When you create a project, the project is connected to the selected environment. The survey data including invitations and responses are stored in the same environment in which the project is created. You select an environment during [project creation](create-project.md). You can copy a project within same or across environments. More information: [Manage projects](manage-projects.md)
 
 To work with projects in an environment, install the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) from Microsoft AppSource, and assign the Project Owner role to users in Dynamics 365. If you select an environment that doesn't have the Customer Voice app, an error message is displayed during project creation.
 
-When you install the Customer Voice app, an application user named Customer Voice is created automatically. This user is created to allow Customer Voice Azure service to authenticate with Common Data Service using Server-to-Server (S2S) authentication, and is primarily used for saving survey data in the environment. The user is a non-interactive and non-login system user. The user is assigned Survey Services Administrator and System Administrator roles. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](https://docs.microsoft.com/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
+When you install the Customer Voice app, an application user named Customer Voice is created automatically. This user is created to allow Customer Voice Azure service to authenticate with Microsoft Dataverse using Server-to-Server (S2S) authentication, and is primarily used for saving survey data in the environment. The user is a non-interactive and non-login system user. The user is assigned Survey Services Administrator and System Administrator roles. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](https://docs.microsoft.com/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
 
 > [!NOTE]
 > - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Customer Voice entities are already installed in these organizations.
-> - A default environment is based on Common Data Service. Before planning a large scale deployment, see [service protection API limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits). To learn more about the default environment, see [default environment](https://docs.microsoft.com/power-platform/admin/environments-overview#the-default-environment).
-> - You must not delete Customer Voice data directly from Common Data Service. If you delete any data directly from Common Data Service, it is not synchronized with Customer Voice services.
+> - A default environment is based on Dataverse. Before planning a large scale deployment, see [service protection API limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits). To learn more about the default environment, see [default environment](https://docs.microsoft.com/power-platform/admin/environments-overview#the-default-environment).
+> - You must not delete Customer Voice data directly from Dataverse. If you delete any data directly from Dataverse, it is not synchronized with Customer Voice services.
 
 ## Privileges required
 
