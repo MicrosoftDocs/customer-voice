@@ -13,9 +13,11 @@ manager: shujoshi
 <!--markdownlint-disable MD036-->
 **Prerequisites**
 
--   An administrator must install the **Send Customer Voice survey from Dynamics 365** app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
+- An administrator must install the **Send Customer Voice survey from Dynamics 365** app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
 
--   An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow)
+- An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow).
+
+- The users must have the send survey role to share the survey through Dynamics 365 apps.
 
 You can send a survey to your customer from within the customer engagement application's interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenarios:
 
@@ -93,7 +95,7 @@ When you send a survey invitation, its status will be one of the following:
 
 1.  Go to **Advanced Find**.
 
-2.  In the **Look for** list, select **Customer Voice Processors**.
+2.  In the **Look for** list, select **Customer Voice Send survey history**.
 
 3.  Add the **Status Reason** column.
 
