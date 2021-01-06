@@ -5,8 +5,8 @@ ms.date: 09/01/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: "reference"
-author: "susikka"
-ms.author: "susikka"
+author: "sbmjais"
+ms.author: "shjais"
 manager: "shujoshi"
 search.audienceType: 
   - developer

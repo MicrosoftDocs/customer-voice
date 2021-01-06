@@ -5,8 +5,8 @@ ms.date: 07/30/2020
 ms.service: 
   - crm-online
 ms.topic: "reference"
-author: "susikka"
-ms.author: "susikka"
+author: "sbmjais"
+ms.author: "shjais"
 manager: "shujoshi"
 ---
 # msfp_localizedemailtemplate Entity Reference
