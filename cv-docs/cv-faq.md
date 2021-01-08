@@ -17,3 +17,15 @@ We've compiled a list of frequently asked questions and provided brief answers t
 ## I created a guest user in Azure Active Directory, but the user is unable to access Dynamics 365 Customer Voice.
 
 Guest user access is not supported in Dynamics 365 Customer Voice. You must create a new user in your tenant and then provide access to the new user.
+
+## How is the owner of a survey response determined?
+
+A response owner is determined by the following logic:
+
+- For responses to a survey invitation, the invitation owner is set as the response owner.
+- If the survey invitation owner doesn't have sufficient privileges to own responses, or if the response is anonymous, the survey owner is set as the response owner.
+- If the account of a survey owner has been disabled or the survey owner is unable to access the application due to licensing issues, the application user is set as the response owner.
+
+## I deleted data from Microsoft Dataverse but it is visible in reports.
+
+It is recommended not to delete data directly from Microsoft Dataverse. If you delete any data directly from Microsoft Dataverse, it is not synchronized with Customer Voice services. If you want to delete any data, you must delete using the Dynamics 365 Customer Voice interface.
