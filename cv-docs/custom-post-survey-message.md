@@ -62,7 +62,7 @@ You can add formatting to the post-survey message by changing their font style, 
 
 7. To remove all branching conditions, select **Remove all conditions**.
 
-## Delete a port-survey message
+## Delete a post-survey message
 
 1. Open the survey.
 
