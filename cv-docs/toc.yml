@@ -90,6 +90,9 @@
 
 - name: Data flow in Customer Voice
   href: data-flow.md
+  
+- name: Customer Voice FAQ
+  href: cv-faq.md
 
 - name: Developer guide
   items:
