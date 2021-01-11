@@ -25,7 +25,7 @@ Dynamics 365 Customer Voice includes support for adding the following standardiz
 
 - **Sentiment**: Sentiment is a metric used to identify customer sentiment toward a product or a service. Sentiment groups the responses to a text-based question as positive, negative, or neutral.
 
-- **Customer Satisfaction (CSAT)**: CSAT is a metric used to measure the level of satisfaction customers have with a product or a service. CSAT is measured by responses to rating-type questions.  
+- **Customer Satisfaction (CSAT)**: CSAT is a metric used to measure the level of satisfaction customers have with a product or a service. CSAT is measured by responses to rating-type questions. The CSAT score is calculated on a scale of 1 to 5. If you create a question on a scale other than 1 to 5, the CSAT score is normalized as per the 1 to 5 scale. This helps in comparing various CSAT scores.
 
 Satisfaction metrics are defined at the project level. If you create a project from one of the ready-to-use project templates in Dynamics 365 Customer Voice, satisfaction metrics are already created and mapped to survey questions. However, you can add more metrics as needed. If you create a project from the **Blank** project template, you need to add satisfaction metrics and map them to the questions.
 
