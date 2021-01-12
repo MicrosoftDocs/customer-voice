@@ -54,7 +54,7 @@ If you've created a multilingual survey, you can add translations to post-survey
 
     - **the variable**: Select this option when the message is to be displayed according to a variable's value. After selecting this option, select the variable, operator, and its value.
 
-    You can add more conditions by using **and/or** operators by selecting **Add condition**.
+    You can add more conditions by using **and/or** operator by selecting **Add condition**.
 
     ![Multiple conditions added](media/message-multiple-conditions.png "Multiple conditions added")
 
