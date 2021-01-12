@@ -1,7 +1,7 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
 description: "Instructions for personalizing a survey with Dynamics 365 Customer Voice"
-ms.date: 11/24/2020
+ms.date: 01/15/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -63,6 +63,8 @@ After you've created the required variables, you can add them in the following s
 - Question subtitle
 - Section heading
 - Section description
+- Post-survey message heading
+- Post-survey message body
 
 You can also use variables in [branching rules](create-branching-rule.md), in [survey invitations sent through email](send-survey-email.md), and while [embedding a survey in a webpage](embed-web-page.md).
 
