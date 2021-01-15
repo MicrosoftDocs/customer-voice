@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
-ms.date: 11/24/2020
+ms.date: 12/16/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -29,7 +29,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
     - Entering an email address manually.
     - Entering a name, email address, or a distribution list from Azure Active Directory.
-    - Entering a contact or contact list/view from Common Data Service. The contacts are populated from the environment in which your project is created.
+    - Entering a contact or contact list/view from Microsoft Dataverse. The contacts are populated from the environment in which your project is created.
     - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
@@ -42,7 +42,9 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 8. To select an email template, select a template from the **Template** list. More information: [Use email templates](#use-email-templates)
 
-9. When you're ready to send your survey, select **Send**.
+9. To send a multilingual survey, select a language from the **Language** list. To be able to select a language, you must first select an email template. The selected language applies to survey invitation and survey question. 
+
+10. When you're ready to send your survey, select **Send**.
 
     ![Email editor](media/email-editor.png "Email editor")
 
@@ -53,7 +55,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 ## Import contacts from a CSV file
 
-You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Common Data Service. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Dataverse. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
@@ -91,7 +93,7 @@ After the CSV template is downloaded, enter the required information in the foll
 - **Email address**: Email address of the recipient.
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
-- **locale**: Locale of the survey while embedding it in the email.
+- **locale**: Language in which the survey needs to be displayed while embedding it in the email.
 - **RegardingID**: ID of the entity to associate with the survey invitation and response.
 - **RegardingEntityName**: Name of the entity to associate with the survey invitation and response.
 
@@ -111,7 +113,7 @@ If you've added variables to your survey, they’ll be available as separate col
 
     After the file is uploaded successfully, a preview of the imported contacts is displayed in the **Import contacts** panel. 
 
-    If the imported recipient already exists as a contact in Common Data Service, and you want to update the contact information as per the CSV file, select **Update the contact information if imported recipient already exists as a contact in CDS**.
+    If the imported recipient already exists as a contact in Dataverse, and you want to update the contact information as per the CSV file, select **Update the contact information if imported recipient already exists as a contact in CDS**.
 
     ![Preview contacts of the CSV file](media/upload-csv-preview.png "Preview contacts of the CSV file")
 
@@ -156,6 +158,9 @@ If you've created a multilingual survey, you can use survey variables to set the
 ## Use email templates
 
 You can use an email template&mdash;a preformatted email message&mdash;to quickly create and send email messages. If you create a survey from the blank template, **Default Template** is selected for use in an email message. If you've created a project from one of the out-of-the-box templates, the corresponding email template is selected by default.
+
+> [!IMPORTANT]
+> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft DataVerse. Refreshing data on Dataverse environment with another will break Customer Voice projects and surveys on the refreshed environment. 
 
 > [!NOTE]
 > You can save a maximum of 10 email templates.
@@ -204,7 +209,7 @@ By default, the email template is created in the default language of the survey.
 
 To send survey invitation in a language other than the default, select an email template and the required language, and then send the email.
 
-If you're using Power Automate to send survey invitations, specify the locale in the **Language** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
+If you're using Power Automate to send survey invitations, specify the language of the survey or email template in the **Locale** field. If an email template is created in the specified language, the survey invitation is sent in the specified language. Otherwise, the survey invitation is sent in the default language.
 
 ## Format email messages
 

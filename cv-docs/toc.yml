@@ -67,6 +67,8 @@
     href: send-survey-link.md
   - name: Send a survey QR code
     href: send-survey-qrcode.md
+  - name: Send a survey from Dynamics 365
+    href: send-survey-from-dynamics-365.md
   - name: Create a survey invitation
     href: create-survey-invite.md
   - name: Customize the sender's email address
@@ -88,6 +90,9 @@
 
 - name: Data flow in Customer Voice
   href: data-flow.md
+  
+- name: Customer Voice FAQ
+  href: cv-faq.md
 
 - name: Developer guide
   items:

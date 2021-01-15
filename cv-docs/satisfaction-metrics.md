@@ -1,7 +1,7 @@
 ---
 title: "Work with satisfaction metrics | MicrosoftDocs"
 description: "Instructions for working with satisfaction metrics"
-ms.date: 07/29/2020
+ms.date: 12/03/2020
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -25,9 +25,12 @@ Dynamics 365 Customer Voice includes support for adding the following standardiz
 
 - **Sentiment**: Sentiment is a metric used to identify customer sentiment toward a product or a service. Sentiment groups the responses to a text-based question as positive, negative, or neutral.
 
-- **Customer Satisfaction (CSAT)**: CSAT is a metric used to measure the level of satisfaction customers have with a product or a service. CSAT is measured by responses to rating-type questions.  
+- **Customer Satisfaction (CSAT)**: CSAT is a metric used to measure the level of satisfaction customers have with a product or a service. CSAT is measured by responses to rating-type questions. The CSAT score is calculated on a scale of 1 to 5. If you create a question on a scale other than 1 to 5, the CSAT score is normalized as per the 1 to 5 scale. This helps in comparing various CSAT scores.
 
 Satisfaction metrics are defined at the project level. If you create a project from one of the ready-to-use project templates in Dynamics 365 Customer Voice, satisfaction metrics are already created and mapped to survey questions. However, you can add more metrics as needed. If you create a project from the **Blank** project template, you need to add satisfaction metrics and map them to the questions.
+
+> [!IMPORTANT]
+> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft DataVerse. Refreshing data on Dataverse environment with another will break Customer Voice projects and surveys on the refreshed environment. 
 
 After you've received responses to your survey, a dashboard is created automatically for each set of metrics, showcasing recent scores and trends. The dashboard is available under **Reports** in the left pane. More information: [View a satisfaction metrics report](satisfaction-metrics-report.md)
 
