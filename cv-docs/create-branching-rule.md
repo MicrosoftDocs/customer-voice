@@ -52,7 +52,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 6. Select values from the **Select operator** and **Select response** lists, respectively.
 
-   You can add more conditions by using the combination of **AND**/**OR** operators by selecting **Add condition**.
+   You can add more conditions by using **AND**/**OR** operator by selecting **Add condition**.
 
     ![Branching rules multiple conditions](media/branch-multi-condition.png "Branching rules multiple conditions")
 
