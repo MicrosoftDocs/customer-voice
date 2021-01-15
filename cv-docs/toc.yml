@@ -47,7 +47,7 @@
   - name: Format a survey
     href: survey-formatting.md
   - name: Customize footer text
-    href: custom-footer-thank-you.md
+    href: custom-footer.md
   - name: Customize post-survey message
     href: custom-post-survey-message.md
   - name: Preview and test a survey
