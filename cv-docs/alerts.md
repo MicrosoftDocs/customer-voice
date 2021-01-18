@@ -272,5 +272,4 @@ You can also select multiple alerts in the grid and select **Delete** at the upp
 
 ### See also
 
-[Add and configure satisfaction metrics](satisfaction-metrics.md)<br>
-[Integrate Dynamics 365 Customer Voice with Dynamics 365 Customer Insights](ci-integration.md)
+[Add and configure satisfaction metrics](satisfaction-metrics.md)
