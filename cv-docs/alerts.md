@@ -146,6 +146,54 @@ The information displayed in the **Alert details** panel depends on the alert st
 
 ![Resolved alert details](media/resolved-alert-details.png "Resolved alert details")
 
+## Assign an alert
+
+When an alert is created, it is not assigned to anyone. You must assign it to a user to work on it. You can assign an alert to a user either from the alerts grid or the **Alert details** panel.
+
+### Assign an alert from the alerts grid
+
+1.  Open the **Alerts** report.
+
+2.  On the **Open** tab, hover over the alert you want to assign, select the ellipsis button, and then select **Assign**.
+
+3.  In the **Assign alert to** pop-up, enter the name or email address of the user to assign the alert to.
+
+    ![Assign an alert to a user](media/assign-alert-pop-up.png "Assign an alert to a user")
+
+    > [!NOTE]
+    > - Only one user can be specified at a time.
+    > - You cannot assign an alert to a distribution list.
+
+4.  Select **Assign**.
+
+    The alert is assigned to the specified user and an email is sent to the user to whom the alert is assigned.
+
+You can also select multiple alerts in the grid and select **Reassign** at the upper-right corner of the grid. In the **Assign alert to** pop-up, enter the name or email address of the user to assign the alert to, and then select **Assign**.
+
+![Assign multiple alerts](media/assign-multiple-alerts.png "Assign multiple alerts")
+
+### Assign an alert from the Alert details panel
+
+1.  Open the **Alerts** report.
+
+2.  On the **Open** tab, select the alert you want to assign.
+
+3.  In the **Alert details** panel, select **Assign**.
+
+    ![Assign an alert from Alert details panel](media/assign-single-alert.png "Assign an alert from Alert details panel")
+
+4.  In the **Assign alert to** pop-up, enter the name or email address of the user to assign the alert to.
+
+    ![Assign an alert to a user](media/assign-alert-pop-up.png "Assign an alert to a user")
+
+    > [!NOTE]
+    > - Only one user can be specified at a time.
+    > - You cannot assign an alert to a distribution list.
+
+5.  Select **Assign**.
+
+    The alert is assigned to the specified user and an email is sent to the user to whom the alert is assigned.
+
 ## Resolve an alert
 
 After you've finished working on an alert, you can mark it as resolved and add your resolution comments. You can mark an alert as resolved either from the alerts grid or the **Alert details** panel.
@@ -207,54 +255,6 @@ You can also select multiple alerts in the grid and select **Reopen** at the upp
     The alert is marked as open and moved to the **Open** tab.
 
     ![Reopen an alert from Alert details panel](media/reopen-single-alert.png "Reopen an alert from Alert details panel")
-
-## Assign an alert
-
-When an alert is created, it is not assigned to anyone. You must assign it to a user to work on it. You can assign an alert to a user either from the alerts grid or the **Alert details** panel.
-
-### Assign an alert from the alerts grid
-
-1.  Open the **Alerts** report.
-
-2.  On the **Open** tab, hover over the alert you want to assign, select the ellipsis button, and then select **Assign**.
-
-3.  In the **Assign alert to** pop-up, enter the name or email address of the user to assign the alert to.
-
-    ![Assign an alert to a user](media/assign-alert-pop-up.png "Assign an alert to a user")
-
-    > [!NOTE]
-    > - Only one user can be specified at a time.
-    > - You cannot assign an alert to a distribution list.
-
-4.  Select **Assign**.
-
-    The alert is assigned to the specified user and an email is sent to the user to whom the alert is assigned.
-
-You can also select multiple alerts in the grid and select **Reassign** at the upper-right corner of the grid. In the **Assign alert to** pop-up, enter the name or email address of the user to assign the alert to, and then select **Assign**.
-
-![Assign multiple alerts](media/assign-multiple-alerts.png "Assign multiple alerts")
-
-### Assign an alert from the Alert details panel
-
-1.  Open the **Alerts** report.
-
-2.  On the **Open** tab, select the alert you want to assign.
-
-3.  In the **Alert details** panel, select **Assign**.
-
-    ![Assign an alert from Alert details panel](media/assign-single-alert.png "Assign an alert from Alert details panel")
-
-4.  In the **Assign alert to** pop-up, enter the name or email address of the user to assign the alert to.
-
-    ![Assign an alert to a user](media/assign-alert-pop-up.png "Assign an alert to a user")
-
-    > [!NOTE]
-    > - Only one user can be specified at a time.
-    > - You cannot assign an alert to a distribution list.
-
-5.  Select **Assign**.
-
-    The alert is assigned to the specified user and an email is sent to the user to whom the alert is assigned.
 
 ## Delete an alert
 
