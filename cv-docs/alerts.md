@@ -146,10 +146,6 @@ The information displayed in the **Alert details** panel depends on the alert st
 
 ![Resolved alert details](media/resolved-alert-details.png "Resolved alert details")
 
-## View customer journey through Dynamics 365 Customer Insights
-
-If the integration between Dynamics 365 Customer Voice and Dynamics 365 Customer Insights is enabled, you can select the customer's name to view their journey. It displays the top three measures and an activity timeline containing the 10 recent actions performed by the customer. To view full profile of the customer, select **View full profile**. The customer's profile is opened in Dynamics 365 Customer Insights. For information on integrating Dynamics 365 Customer Voice and Dynamics 365 Customer Insights, see [Integrate Dynamics 365 Customer Voice with Dynamics 365 Customer Insights](ci-integration.md)
-
 ## Resolve an alert
 
 After you've finished working on an alert, you can mark it as resolved and add your resolution comments. You can mark an alert as resolved either from the alerts grid or the **Alert details** panel.
