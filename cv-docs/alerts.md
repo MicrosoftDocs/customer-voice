@@ -84,9 +84,11 @@ Alerts are displayed in the grid format with the following information:
 
 - **Name**: Name of the alert rule.
 
-Alerts that are newly created or being worked on, are displayed under the **Open** tab. The resolved alerts are displayed under the **Resolved** tab.
+Alerts that are newly created or being worked on, are displayed under the **Open** tab.
 
 ![View open alerts](media/open-alerts.png "View open alerts")
+
+The resolved alerts are displayed under the **Resolved** tab.
 
 ![View resolved alerts](media/resolved-alerts.png "View resolved alerts")
 

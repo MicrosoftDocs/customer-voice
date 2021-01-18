@@ -46,12 +46,16 @@
     href: survey-text-format.md
   - name: Format a survey
     href: survey-formatting.md
+  - name: Integrate Customer Voice with Customer Insights
+    href: ci-integration.md
   - name: Customize footer text
     href: custom-footer.md
   - name: Customize post-survey message
     href: custom-post-survey-message.md
   - name: Preview and test a survey
     href: preview-test-survey.md
+  - name: Work with alerts
+    href: alerts.md
 
 - name: Distribute a survey
   items:
