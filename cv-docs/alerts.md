@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Work with alerts in Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Instructions for working with alerts in Dynamics 365 Customer Voice"
 ms.date: 01/18/2021
