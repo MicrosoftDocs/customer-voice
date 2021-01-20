@@ -12,13 +12,15 @@ manager: shujoshi
 
 # Send a survey link to others
 
-If you don't have the email addresses of the people from whom you want to collect feedback, or if you don't want to use the built-in email composer for this purpose, you can easily copy a link to your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`
+If you don't have the email addresses of the people from whom you want to collect feedback, or if you don't want to use the built-in email composer for this purpose, you can easily copy a link to your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`.
+
+You can create a generic survey link or custom survey links. Generic survey link is a common link that can be shared with your intended audience. Custom survey links are created using survey variables and are different for a group of audience. For example, as a restaurant manager, you can create multiple survey links based on the restaurant's location. Location is a survey variable in this case. Each location is mapped to an account in Dynamics 365 and the survey responses can be mapped to respective accounts. This helps to categorize survey responses as per the survey variables.
 
 > [!NOTE]
 > - The survey link generated is a non-personalized link. If the **Only people in my organization can respond** setting is turned off in [distribution settings](distribution-settings.md), you won't be able to record the respondent's name or determine whether the respondent has submitted only one response.
 > - If you've personalized your survey by using variables, they won't be replaced with their values and the variable names will be displayed as-is.
 
-**To send a survey by using a link**
+## Create a generic link
 
 1. Open the survey, and go to the **Send** tab.
 
@@ -27,12 +29,136 @@ If you don't have the email addresses of the people from whom you want to collec
     > [!NOTE]
     > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**.
 
-3. In the **Link to your survey** pop-up window, select **Copy**.
+    The **Survey links** panel is displayed.
+
+3. In the **Copy link** section, select **Copy**.
 
     > [!div class=mx-imgBorder]
     > ![Get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")
 
     Paste the survey link to a place that's visible to your intended audience. They can select the link to access your survey.
+
+4. To download the QR code for the generic link, select **QR code**.
+
+    Share the QR code wherever your intended audience can scan it with a QR code scanner, such as on a mobile device.
+
+## Create custom links
+
+1. Open the survey, and go to the **Send** tab.
+
+2. Select **Link**.
+
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**.
+
+    The **Survey links** panel is displayed.
+
+3. In the **Custom links** section, select **Create link**.
+
+4. In the **Create link** panel, select variables to create custom links.
+
+5. Under **Add values for each variable**, add values to each of the selected variable.
+
+6. To add more values, select **Add more values**.
+
+7. After you enter all the values, select **Create**.
+
+    The custom links are created based on the selected variables and displayed in the **Survey links** panel.
+
+8. To copy a link, hover over the link, and then select `copy icon`.
+
+9. To export all links, select **Export**.
+
+10. To download QR code for a custom link, hover over the link, select the ellipsis button, and then select **Download QR code**.
+
+## Create custom links by using a CSV file
+
+You can create custom links in bulk by uploading a CSV file. You can also associate survey responses to an entity by specifying regarding entity details.
+
+1. Open the survey, and go to the **Send** tab.
+
+2. Select **Link**.
+
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**.
+
+    The **Survey links** panel is displayed.
+
+3. In the **Custom links** section, select **Create link**.
+
+4. In the **Create link** panel, select variables to create custom links.
+
+5. Expand the **Advanced options** section, and select **Download template**.
+
+    The selected variables are available as separate columns in the CSV file. Specify the values as per your requirement. If you want to associate a survey response to an entity, you can add the **RegardingID** and **RegardingEntityName** columns to the CSV file and enter the information.
+
+6. After you create the CSV file, go to the **Create link** panel, expand the **Advanced options** section, and then select **Upload**.
+
+7. Browse to and select the CSV file you want to upload.
+
+8. Select **Create**.
+
+    After the file is uploaded successfully, links are created, and displayed in the **Survey links** panel.
+
+9. To copy a link, hover over the link, and then select `copy icon`.
+
+10. To export all links, select **Export**.
+
+11. To download QR code for a custom link, hover over the link, select the ellipsis button, and then select **Download QR code**.
+
+## Edit a custom link
+
+1. Open the survey, and go to the **Send** tab.
+
+2. Select **Link**.
+
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**.
+
+    Custom links are displayed in the **Survey links** panel.
+
+3. Hover over the link you want to edit, select the ellipsis button, and then select **Edit**.
+
+4. Edit the values for variables as required.
+
+5. Select `tick mark image` to save the changes.
+
+6. To discard the changes, select `cross mark image`.
+
+## Delete a custom link
+
+1. Open the survey, and go to the **Send** tab.
+
+2. Select **Link**.
+
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**.
+
+    Custom links are displayed in the **Survey links** panel.
+
+3. Hover over the link you want to edit, select the ellipsis button, and then select **Delete**.
+
+4. In the confirmation message, select **Delete**.
+
+## Filter custom links
+
+After you've created custom links, you can filter them by survey variable values. Survey variables are shown as the column headers.
+
+1. Open the survey, and go to the **Send** tab.
+
+2. Select **Link**.
+
+    > [!NOTE]
+    > If you've sent your survey through email once, the invitation summary is displayed. To get your survey's link, select **Resend** > **Link**.
+
+    Custom links are displayed in the **Survey links** panel.
+
+3. Select the down arrow of the column header and then select **Filter by**.
+
+4. Select values from the list or search for a particular value.
+
+    The links are filtered as per the selected values.
+
 
 ### See also
 
