@@ -1,7 +1,7 @@
 ---
 title: "View survey responses report | MicrosoftDocs"
 description: "Instructions for viewing survey responses report in Dynamics 365 Customer Voice."
-ms.date: 01/25/2021
+ms.date: 01/27/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -34,14 +34,14 @@ You can view individual responses to each question in a survey submitted by a re
 
     ![Response details](media/individual-response.png "Response details")
 
-5. To search for a respondent, enter the respondent's name in the **Search** field. 
+5. To search for a respondent, enter the respondent's name or email in the **Search** field. 
 
     ![Search for a respondent](media/search-respondent.png "Search for a respondent")
 
 
 ## Filter data in charts
 
-You can filter data in the charts by using the **All days** filter available above the charts. Select 7 days, 28 days, 90 days, or a custom date range from the filter.
+You can filter data in the charts by using the **All days** filter available above the charts. Select 7 days, 28 days, 90 days, or a custom date range from the filter. Note that you can specify a custom date range for a maximum of 90 days.
 
 ## Export survey responses
 
