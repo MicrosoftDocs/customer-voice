@@ -1,7 +1,7 @@
 ---
 title: "Work with alerts in Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Instructions for working with alerts in Dynamics 365 Customer Voice"
-ms.date: 01/18/2021
+ms.date: 01/29/2021
 ms.topic: article
 ms.service: dynamics-365-customervoice
 author: sbmjais
@@ -11,9 +11,9 @@ manager: shujoshi
 
 # Work with alerts
 
-Alerts are the follow-up activities that are created based on the defined alert rules. Alert rules are defined on satisfaction metrics. Alerts are created based on the satisfaction metrics received in survey responses.<!--note from editor: Suggested, so as not to imply the metrics receive responses.--> For example, you can create an alert rule to create an alert whenever the Net Promoter Score (NPS) satisfaction metric for a survey response goes below a threshold. More information: [Create an alert rule](#create-an-alert-rule)
+Alerts are the follow-up activities that are created based on the defined alert rules. Alert rules are defined on satisfaction metrics. Alerts are created based on the values of satisfaction metrics in survey responses. For example, you can create an alert rule to create an alert whenever the Net Promoter Score (NPS) satisfaction metric for a survey response goes below a threshold. More information: [Create an alert rule](#create-an-alert-rule)
 
-Alerts are created at the project level. They help you close the loop with customers by prompting you to take appropriate action based on the feedback that customers provide.<!--note from editor: Suggested, so we don't imply that the alerts themselves close the loop with customers.-->
+Alerts are created at the project level. They help you close the loop with customers by prompting you to take appropriate action based on the feedback that customers provide.
 
 You can view and manage alerts from the **Alerts** report. The report is available under **Reports** on the left pane. More information: [View and manage alerts](#manage-alert-rules)
 
@@ -23,7 +23,7 @@ Alerts are created based on the satisfaction metric values. You can create an al
 
 1.  Open the project.
 
-2.  On the left pane, expand **Reports**, and then select **Alerts**.<!--note from editor: Edit okay? It looks like this is how UI behaves - that is, the commands under **Reports** are hidden until you expand it? Also, note that "on the left pane" is from the Writing Style Guide. I only discovered this recently.-->
+2.  On the left pane, select **Alerts** under the **Reports** section.
 
 3.  On the toolbar at the top of the page, select **Create alert rule**.
 
@@ -47,15 +47,15 @@ After you've created alert rules, you can view and edit the rules, or delete the
 
 1.  Open the project.
 
-2.  On the left pane, expand **Reports**, and then select **Alerts**.
+2.  On the left pane, select **Alerts** under the **Reports** section.
 
 3.  On the toolbar at the top of the page, select **View alert rules**.
 
-    Alert rules are displayed in the **View alert rules** panel.<!--note from editor: You don't need this sentence.-->
+    Alert rules are displayed in the **View alert rules** panel.
 
     ![View alert rules](media/view-alert-rules.png "View alert rules")
 
-4.  To view an alert rule, expand it.<!--note from editor: Edit okay? I'm not sure what "corresponding" means here.-->
+4.  To view an alert rule, expand it.
 
 5.  To edit an alert rule, do the following:
 
@@ -71,7 +71,7 @@ After you've created alert rules, you can view and edit the rules, or delete the
 
 ## View and manage alerts
 
-An alerts report is created for a project as soon as you start creating alerts.<!--note from editor: Suggested, to avoid implying that alerts "get created" by default or automatically. A person has to intentionally create them, right?--> To view alerts, select **Alerts** under **Reports** on the left pane.
+An alerts report is created for a project as alerts start getting created. To view alerts, select **Alerts** under **Reports** on the left pane.
 
 Alerts are displayed in the grid format with the following information:
 
@@ -165,7 +165,7 @@ When an alert is created, it isn't assigned to anyone. You must assign it to a u
 
 4.  Select **Assign**.
 
-The alert is assigned to the specified user, and an email is sent to the user to whom the alert is assigned.<!--note from editor: I un-indented this sentence because it describes the culmination of the whole procedure, not just the last step.-->
+The alert is assigned to the specified user, and an email is sent to the user to whom the alert is assigned.
 
 You can also select multiple alerts in the grid, and then select **Reassign** in the upper-right corner of the grid. In the **Assign alert to** pop-up window, enter the name or email address of the user to assign the alert to, and then select **Assign**.
 
@@ -257,7 +257,7 @@ The alert is marked as open and moved to the **Open** tab.
 
 ## Delete an alert
 
-You can delete an alert that isn't required anymore. You can only delete an alert by using the alerts grid.<!--note from editor: Suggested.-->
+You can delete an alert that isn't required anymore. You can only delete an alert by using the alerts grid.
 
 1.  Open the **Alerts** report.
 
