@@ -94,7 +94,10 @@
 
 - name: Data flow in Customer Voice
   href: data-flow.md
-  
+
+- name: Cookies in Dynamics 365 Customer Voice
+  href: cookie.md
+
 - name: Customer Voice FAQ
   href: cv-faq.md
 
