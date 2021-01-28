@@ -14,7 +14,7 @@ manager: shujoshi
 
 A cookie is a small file sent from the web site to visitor's device by the browser. A single web session may use multiple cookies.
 
-Dynamics 365 Customer Voice also use cookies to store information for various purposes. The following table describes the cookies that Dynamics 365 Customer Voice uses.
+Dynamics 365 Customer Voice also use cookies to store information for various purposes. The following table describes the cookies that Dynamics 365 Customer Voice uses, and their lifetime.
 
 | Cookie name | Description | Lifetime |
 |-------------|-------------|----------|
