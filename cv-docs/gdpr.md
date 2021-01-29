@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Voice GDPR compliance | MicrosoftDocs"
 description: "Know how Dynamics 365 Customer Voice complies with GDPR."
-ms.date: 12/04/2020
+ms.date: 01/29/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
