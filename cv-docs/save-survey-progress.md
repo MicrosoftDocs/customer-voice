@@ -11,15 +11,15 @@ manager: shujoshi
 ---
 
 # Save a survey in progress
-<!--note from editor: Edit to the H1 suggested. I know the UI uses the phrase "save survey progress", but it's more natural phrasing to say it's a "survey in progress" that we're saving, rather than saving the progress itself.-->
-When a respondent starts a survey, they can either complete it in one go or in multiple sittings. When respondents complete a survey in multiple sittings, they begin the survey and then close it. Their responses are saved, so when they reopen the survey, those responses are retrieved and the survey starts again from where they left off. The responses that are saved temporarily until the survey is submitted are known as *paused responses*.<!--note from editor: Edits suggested, to cut down a bit on repetition and also to introduce the idea that "multiple sittings" means that the survey is closed once or twice before it's finished.-->
+
+When a respondent starts a survey, they can either complete it in one go or in multiple sittings. When respondents complete a survey in multiple sittings, they begin the survey and then close it. Their responses are saved, so when they reopen the survey, those responses are retrieved and the survey starts again from where they left off. The responses that are saved temporarily until the survey is submitted are known as *paused responses*.
 
 Paused responses are available for 28 days from the date when a respondent opens the survey. A respondent can return to the survey and submit the responses within 28 days. Paused responses are available across web browsers and devices. This means that a respondent can open a survey on their computer's web browser and later complete it from the browser on their mobile device. The most recent data is retrieved and shown to the respondent. After a response is submitted, it can't be edited.
 
 > [!NOTE]
 > - The survey progress is saved only for the surveys sent through personalized links. More information: [Work with personalized links](distribution-settings.md#work-with-personalized-links)
 > - Paused responses aren't available in Dynamics 365 Customer Voice until they're submitted. They'll be available in reports only after a respondent submits the survey.
-> - Paused responses are deleted if the survey author changes the structure of the survey after the invitation is sent, for example by adding or deleting questions, or changing their order.<!--note from editor: Suggested.-->
+> - Paused responses are deleted if the survey author changes the structure of the survey after the invitation is sent, for example by adding or deleting questions, or changing their order.
 
 ## Survey author experience
 
@@ -31,7 +31,7 @@ You've sent a product feedback survey through a personalized link to your custom
 
 **Scenario 1**: Henry opens the survey in his computer's web browser, answers the first two questions, and then closes the survey without submitting it. A few days later, he opens the survey on his mobile device. The survey starts from where he left off. Henry modifies his response to the earlier questions, answers the remaining questions, and then submits the survey. Responses are sent to Dynamics 365 Customer Voice.
 
-**Scenario 2**: Henry opens the survey, answers all the questions, and then submits the survey. He reopens the survey from the invitation link. One of the following occurs:<!--note from editor: Suggested.-->
+**Scenario 2**: Henry opens the survey, answers all the questions, and then submits the survey. He reopens the survey from the invitation link. One of the following occurs:
 
 - If **One response per person** is turned off, Henry can submit another response for the same survey.
 - If **One response per person** is turned on, Henry sees a message that a response has already been submitted.
