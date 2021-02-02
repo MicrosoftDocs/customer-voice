@@ -123,7 +123,7 @@ After adding translations for the required languages in your survey, you can edi
 
 When you create a multilingual survey, you can use the **locale** survey variable to set the default language for displaying the survey. You must use the language codes as provided in the following table:
 
-| Language Code  | Language                                         |
+| Language code  | Language                                         |
 |----------------|--------------------------------------------------|
 | af             | Afrikaans                                        |
 | am-et          | Amharic                                          |
