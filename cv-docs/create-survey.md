@@ -65,7 +65,7 @@ By default, a question doesn't have to be answered by respondents. If you want t
 You can add an image, such as logo, to your survey header. When you add an image to the survey header, it's displayed in the upper-left corner of the survey. The image must be within the following parameters:
 - Maximum file size: 5 MB. 
 - Supported formats: BMP, GIF, JPEG, and PNG.
-- Resolution: Less than 800 x 600 (width x height)
+- Maximum resolution: 800 x 600 (width x height)
 - Aspect ratio: 4:3
 
 **To add an image to a survey header**
