@@ -1,7 +1,7 @@
 ---
 title: "Add branding to a survey | MicrosoftDocs"
 description: "Instructions for adding branding to a survey created with Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 02/03/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -58,7 +58,12 @@ You can also change font style, font size, and the color of the text for individ
 
 ## Background
 
-You can select a background image for the survey.
+You can select a background image for the survey. The image must be within the following parameters:
+- Maximum file size: 5 MB. 
+- Supported formats: BMP, GIF, JPEG, and PNG.
+- Maximum resolution: 4000 x 3000 (width x height)
+- Aspect ratio: 4:3
+
 
 **To upload a background image**
 
