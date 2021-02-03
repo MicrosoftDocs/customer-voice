@@ -1,7 +1,7 @@
 ---
 title: "Save survey progress | MicrosoftDocs"
 description: "Instructions for saving a survey's progress in Dynamics 365 Customer Voice."
-ms.date: 01/15/2021
+ms.date: 02/03/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
