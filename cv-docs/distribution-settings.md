@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 01/15/2021
+ms.date: 02/03/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -63,6 +63,12 @@ The available settings are:
 - **Save invited participants as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
 
     By default, this setting is turned on, and each respondent is added as a contact in Dataverse. This only works with surveys sent through [email](send-survey-email.md) or [survey invitation](create-survey-invite.md). If a contact already exists, it will be updated accordingly.
+
+- **Save survey progress**: Specify whether a survey in progress should be saved and a respondent be able to complete a survey in multiple sittings. By default, this setting is turned off and the data is collected from scratch every time a survey is opened.
+
+    If you want to save a survey in progress, turn on this setting. More information: [Save survey progress](save-survey-progress.md)
+
+    This setting is disabled when the [**Shuffle questions**](survey-formatting.md#shuffle-questions) setting is turned on, and vice versa.
 
 ![Respondent settings](media/respondents-settings.png "Respondent settings")
 
