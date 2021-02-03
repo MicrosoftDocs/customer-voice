@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 Customer Voice with your environment | MicrosoftDocs"
 description: "Learn about connecting Dynamics 365 Customer Voice with your environment"
-ms.date: 07/29/2020
+ms.date: 01/15/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -20,7 +20,7 @@ In Dynamics 365 Customer Voice, all projects created by you or shared with you a
 
 To work with projects in an environment, install the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) from Microsoft AppSource, and assign the Project Owner role to users in Dynamics 365. If you select an environment that doesn't have the Customer Voice app, an error message is displayed during project creation.
 
-When you install the Customer Voice app, an application user named Customer Voice is created automatically. This user is created to allow Customer Voice Azure service to authenticate with Microsoft Dataverse using Server-to-Server (S2S) authentication, and is primarily used for saving survey data in the environment. The user is a non-interactive and non-login system user. The user is assigned Survey Services Administrator and System Administrator roles. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](https://docs.microsoft.com/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
+When you install the Customer Voice app, an application user named Customer Voice is created automatically. The email address of application user is `enterprisesurveyappuser@contoso.com`. This user is created to allow Customer Voice Azure service to authenticate with Microsoft Dataverse using Server-to-Server (S2S) authentication, and is primarily used for saving survey data in the environment. The user is a non-interactive and non-login system user. The user is assigned Survey Services Administrator and System Administrator roles. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](https://docs.microsoft.com/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
 
 > [!NOTE]
 > - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Customer Voice entities are already installed in these organizations.
@@ -38,25 +38,23 @@ If you've created a custom security role and want to use it as a project owner, 
 
 A required privilege is denoted by ![Required](media/required-icon.png "Required").
 
-An optional privilege is denoted by ![Optional](media/optional-icon.png "Optional").
-
 If you provide the optional privileges, additional actions can be performed by the user who is assigned the custom role. For example, the Read privilege is required for the Contact entity and is used to associate invitations with a specific contact. Other privileges, such as Create and Write, are optional. If you provide Create and Write privileges, a user can perform these operations on a contact. If you provide only the Read privilege, and you want a particular user to perform create and write operations also on a contact, you can provide Create and Write privileges to the user through other security roles.
 
-|Entity                            |Create   |Read     |Write    |Delete   |Append   |Append To|Assign |Share   |
-|----------------------------------|---------|---------|---------|---------|---------|--------|--------|--------|
-|Customer Voice project      |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Customer Voice satisfaction metric    |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Customer Voice localized survey email template     |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Customer Voice survey                  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Customer Voice survey email template   |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Customer Voice survey question         |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Customer Voice survey question response|![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Customer Voice unsubscribed recipient  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Activity                          |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-|Contact                           |![Optional](media/optional-icon.png "Optional") |![Required](media/required-icon.png "Required") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional") |![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|![Optional](media/optional-icon.png "Optional")|
-||||||||||
+|Entity                            |Create   |Read     |Write    |Delete   |Append   |
+|----------------------------------|---------|---------|---------|---------|---------|
+|Customer Voice project      |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
+|Customer Voice satisfaction metric    |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
+|Customer Voice localized survey email template     |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
+|Customer Voice survey                  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
+|Customer Voice survey email template   |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
+|Customer Voice survey question         |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
+|Customer Voice survey question response|![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | 
+|Customer Voice unsubscribed recipient  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |  |  |
+|Activity                          |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |  |![Required](media/required-icon.png "Required") | | | |
+|Contact                           |  |![Required](media/required-icon.png "Required") |  |  |  |
+|||||||
 
 ### See also
 
 [Create a project](create-project.md)<br>
-[Manage projects](manage-projects.md)<br>
+[Manage projects](manage-projects.md)
