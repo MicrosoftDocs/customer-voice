@@ -1,7 +1,7 @@
 ---
 title: "Send a Dynamics 365 Customer Voice survey from Dynamics 365 | MicrosoftDocs"
 description: "Instructions for sending a survey from Dynamics 365 applications"
-ms.date: 12/03/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.service: dynamics-365-customervoice
 author: sbmjais
@@ -13,7 +13,7 @@ manager: shujoshi
 <!--markdownlint-disable MD036-->
 **Prerequisites**
 
-- An administrator must install the **Send Customer Voice survey from Dynamics 365** app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
+- An administrator must install the [Send Customer Voice survey from Dynamics 365](https://appsource.microsoft.com/product/dynamics-365/msfp.customervoicedistribution?tab=DetailsAndSupport) app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
 
 - An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow).
 
