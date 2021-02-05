@@ -83,7 +83,7 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
 
 ## Purchase Dynamics 365 Customer Voice for users without a Dynamics 365 enterprise license
 
-If you don't have a Dynamics 365 enterprise license, you must purchase a Dynamics 365 Customer Voice license. The Dynamics 365 Customer Voice license includes 2,000 responses per month. You can purchase additional responses in bundles of $100 for 1,000 responses per month.
+If you don't have a Dynamics 365 enterprise license, you must purchase a Dynamics 365 Customer Voice license. The Dynamics 365 Customer Voice license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month.
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
