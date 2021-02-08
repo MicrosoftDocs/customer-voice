@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "Instructions for purchasing Dynamics 365 Customer Voice and additional survey responses"
-ms.date: 02/05/2021
+ms.date: 02/08/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -17,8 +17,7 @@ Dynamics 365 Customer Voice is included with select Microsoft Dynamics 365 subsc
 The Dynamics 365 Customer Voice license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
 - For a Dynamics 365 enterprise licensed tenant, 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 1,000 responses per month.
-- For a user without a Dynamics 365 enterprise license, you must purchase a Dynamics 365 enterprise license in bundles of $200 for 2,000 responses per month.
-- For a Microsoft 365 licensed customer, there are no free responses included. The customer has to purchase responses in bundles of $100 for 1,000 responses per month.
+- For a user without a Dynamics 365 enterprise license, there are no free responses included. The customer must purchase a Dynamics 365 Customer Voice license in bundles of $200 for 2,000 responses per month.
 
 ## Enable Dynamics 365 Customer Voice for users with Dynamics 365 enterprise licenses
 
@@ -56,7 +55,9 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
 
 ## Purchase Dynamics 365 Customer Voice for users without a Dynamics 365 enterprise license
 
-If you don't have a Dynamics 365 enterprise license, you must purchase a Dynamics 365 Customer Voice license. The Dynamics 365 Customer Voice license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month.
+If you don't have a Dynamics 365 enterprise license, you must first purchase a Dynamics 365 Customer Voice license. The Dynamics 365 Customer Voice license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month.
+
+### Purchase the Dynamics 365 Customer Voice license
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -77,47 +78,13 @@ If you don't have a Dynamics 365 enterprise license, you must purchase a Dynamic
 
     ![Purchase Dynamics 365 Customer Voice](media/cv-license-purchase.png "Purchase Dynamics 365 Customer Voice")
 
-5. Assign the **Dynamics 365 Customer Voice** license to users in your organization:
+### Purchase the Dynamics 365 Customer Voice USL license
 
-    1. In the left pane, select **Users** > **Active users**.
+After you purchase the Dynamics 365 Customer Voice license, you must purchase the Dynamics 365 Customer Voice USL license and assign it to the users in your organization. Dynamics 365 Customer Voice USL is a free user license.
 
-    2. Open the user record to which you need to add a Dynamics 365 Customer Voice license.
+1. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Billing** > **Purchase services** in the left pane.
 
-    3. Go to the **Licenses and Apps** tab.
-
-    4. In the **Licenses** section, select **Dynamics 365 Customer Voice**.
-
-        ![Assign the Dynamics 365 Customer Voice user license to a user](media/enable-cv.png "Assign the Dynamics 365 Customer Voice user license to a user")
-    
-    5. Select **Save changes**.
-
-If the responses included with the license are exhausted, you can purchase additional responses as mentioned in the [Purchase additional responses](#purchase-additional-responses) section.
-
-### Disable Dynamics 365 Customer Voice for a user
-
-1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
-
-2. In the left pane, select **Users** > **Active users**.
-
-3. Open the user record for which you need to disable Dynamics 365 Customer Voice.
-
-4. Go to the **Licenses and Apps** tab.
-
-5. In the **Licenses** section, clear **Dynamics 365 Customer Voice**.
-
-    ![Remove the Dynamics 365 Customer Voice license from a user](media/disable-cv.png "Remove the Dynamics 365 Customer Voice license from a user")
-
-6. Select **Save changes**.
-
-## Purchase Dynamics 365 Customer Voice for users in a Microsoft 365 tenant
-
-If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynamics 365 Customer Voice, follow these steps to purchase Dynamics 365 Customer Voice:
-
-1. [Purchase additional responses](#purchase-additional-responses) .
-
-2. In the [Microsoft 365 admin center](https://admin.microsoft.com/), select **Billing** > **Purchase services** in the left pane.
-
-3. Find **Dynamics 365 Customer Voice USL**, and then select **Details**. Dynamics 365 Customer Voice USL is a free user license.
+2. Find **Dynamics 365 Customer Voice USL**, and then select **Details**.
 
     > [!div class=mx-imgBorder]
     > ![Dynamics 365 Customer Voice USL tile](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
@@ -125,16 +92,16 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
     > [!NOTE]
     > The license name for customers in US Government Community Cloud is **Dynamics 365 Customer Voice USL for GCC**.
 
-4. Select **Get now**.
+3. Select **Get now**.
 
     ![Get Dynamics 365 Customer Voice USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice USL")
 
-5. Select the number of users to purchase, and complete the purchase process.
+4. Select the number of users to purchase, and complete the purchase process.
 
     > [!div class=mx-imgBorder]
     > ![Purchase Dynamics 365 Customer Voice USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice USL")
 
-6. Assign the **Dynamics 365 Customer Voice USL** license to users in your organization:
+5. Assign the **Dynamics 365 Customer Voice USL** license to users in your organization:
 
     1. In the left pane, select **Users** > **Active users**.
 
@@ -147,6 +114,8 @@ If your tenant doesn't have Dynamics 365 enterprise licenses that include Dynami
         ![Assign the Dynamics 365 Customer Voice user license to a user](media/enable-cv-usl.png "Assign the Dynamics 365 Customer Voice user license to a user")
     
     5. Select **Save changes**.
+
+If the responses included with the license are exhausted, you can purchase additional responses as mentioned in the [Purchase additional responses](#purchase-additional-responses) section.
 
 ### Disable Dynamics 365 Customer Voice for a user
 
