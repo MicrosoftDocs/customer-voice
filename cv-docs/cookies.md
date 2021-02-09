@@ -18,14 +18,14 @@ Dynamics 365 Customer Voice also use cookies to store information for various pu
 
 | Cookie name | Description | Lifetime |
 |-------------|-------------|----------|
-| AADNonce.forms | Saves user consent to save information on logging in. | Session |
-| DcLcid  | <ul><li>Transfers input information from one page to the next. For example, for long surveys or online orders.</li><li> Saves explicitly requested short term customizations. For example, saving preferences, language, location, and so on.</li><li>Saves unrequested or long term customizations. For example, saving preferences, language, location, and so on.</li><li>Spreads the load on the website evenly, so that the site remains accessible always.</li></ul>  | 90 days |
+| AADNonce.forms | Unique identifier of one authentication session to prevent replay. | Session |
+| DcLcid  | <ul><li> Saves explicitly requested short term customizations. For example, saving preferences, language, location, and so on.</li><li>Saves unrequested or long term customizations. For example, saving preferences, language, location, and so on.</li></ul>  | 90 days |
 | MS0 | Stores the session identification cookie. | 90 days |
 | MSFPC  | Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose.   | 1 year |
-|  MUID  | Stores anonymous visitor ID. Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose. | 1 year |
+|  MUID  | Used to identify different anonymous users. Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose. | 1 year |
 | _RequestVerificationToken  | Used by the [antiforgery](https://docs.microsoft.com/dotnet/api/system.web.helpers.antiforgeryconfig.cookiename) system.  | Session |
-| AADAuth.forms | Saves user consent to save information on logging in. | 90 days |
-| AADAuthCode.forms | Saves user consent to save information on logging in. | 90 days |
-| AADSID.forms | Saves user consent to save information on logging in.  | 90 days |
-| AADState.forms | Saves user consent to save information on logging in. | 90 days |
+| AADAuth.forms | Azure Active Directory authentication token. | 90 days |
+| AADAuthCode.forms | An authentication code used to redeem Azure Active Directory authentication token. | 90 days |
+| AADSID.forms | Azure Active Directory authentication session ID.  | 90 days |
+| AADState.forms | Authentication state to indicate whether user is authenticated. | 90 days |
 ||||
