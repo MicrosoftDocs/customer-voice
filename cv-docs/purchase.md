@@ -17,7 +17,7 @@ Dynamics 365 Customer Voice is included with Dynamics 365 Sales Enterprise, Dyna
 The Dynamics 365 Customer Voice license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
 - For a Dynamics 365 enterprise licensed tenant, 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 1,000 responses per month.
-- For a user without a Dynamics 365 enterprise license, there are no free responses included. The customer must first purchase a Dynamics 365 Customer Voice license. The Dynamics 365 Customer Voice license gives you 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month.
+- For an organization without a Dynamics 365 enterprise license, you must first purchase Dynamics 365 Customer Voice for 2000 response per month, and may purchase additional responses in bundles of $100 for 1,000 responses per month.
 
 ## Enable Dynamics 365 Customer Voice for users with Dynamics 365 enterprise licenses
 
