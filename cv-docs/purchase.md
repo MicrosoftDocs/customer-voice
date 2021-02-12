@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Purchase Dynamics 365 Customer Voice
 
-Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise products such as Dynamics 365 Sales Enterprise and Dynamics 365 Customer Service Enterprise. Other Dynamics 365 customers can purchase Dynamics 365 Customer Voice separately. For a complete list of select Dynamics 365 enterprise products, see [Dynamics 365 Customer Voice pricing](https://dynamics.microsoft.com/customer-voice/pricing/)
+Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise products such as Dynamics 365 Sales Enterprise and Dynamics 365 Customer Service Enterprise. If you have other Dynamics 365 products or don't have a Dynamics 365 subscription, you may purchase Dynamics 365 Customer Voice separately. For a complete list of select Dynamics 365 enterprise products, see [Dynamics 365 Customer Voice pricing](https://dynamics.microsoft.com/customer-voice/pricing/)
 
 The Dynamics 365 Customer Voice license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
