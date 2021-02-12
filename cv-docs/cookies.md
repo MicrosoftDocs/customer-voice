@@ -1,7 +1,7 @@
 ---
 title: "Cookies in Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Know the cookies used by Dynamics 365 Customer Voice"
-ms.date: 01/28/2021
+ms.date: 02/12/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
