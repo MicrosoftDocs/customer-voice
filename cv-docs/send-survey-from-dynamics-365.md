@@ -1,7 +1,7 @@
 ---
 title: "Send a Dynamics 365 Customer Voice survey from Dynamics 365 | MicrosoftDocs"
 description: "Instructions for sending a survey from Dynamics 365 applications"
-ms.date: 02/05/2021
+ms.date: 02/12/2021
 ms.topic: article
 ms.service: dynamics-365-customervoice
 author: sbmjais
@@ -43,6 +43,8 @@ You can only send surveys that are shared with you or created by you. If no surv
 2.  From the list of records, open a record.
 
 3.  On the toolbar at the top of the page, select **Send Survey**.
+
+    ![Send Survey button](media/send-survey-button.png "Send Survey button")
 
     If you don't have any surveys created or shared with you, select **+ New Survey** to create a new survey. You'll be redirected to Dynamics 365 Customer Voice for the survey creation. More information: [Create a project](create-project.md)
 
