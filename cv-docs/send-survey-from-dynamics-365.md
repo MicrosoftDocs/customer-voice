@@ -44,6 +44,8 @@ You can only send surveys that are shared with you or created by you. If no surv
 
 3.  On the toolbar at the top of the page, select **Send Survey**.
 
+    ![Send Survey button](media/send-survey-button.png "Send Survey button")
+
     If you don't have any surveys created or shared with you, select **+ New Survey** to create a new survey. You'll be redirected to Dynamics 365 Customer Voice for the survey creation. More information: [Create a project](create-project.md)
 
     ![Create new survey link](media/d365-create-new-survey.png "Create new survey link")
