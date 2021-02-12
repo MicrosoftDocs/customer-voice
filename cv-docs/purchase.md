@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "Instructions for purchasing Dynamics 365 Customer Voice and additional survey responses"
-ms.date: 02/08/2021
+ms.date: 02/12/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Purchase Dynamics 365 Customer Voice
 
-Dynamics 365 Customer Voice is included with Dynamics 365 Sales Enterprise, Dynamics 365 Customer Service Enterprise, Dynamics 365 Field Service, Dynamics 365 Marketing, Dynamics 365 Human Resources, Dynamics 365 Project Service Automation, Dynamics 365 Operations, and Dynamics 365 Relationship Sales. Other Dynamics 365 customers can purchase Dynamics 365 Customer Voice separately.
+Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise products such as Dynamics 365 Sales Enterprise and Dynamics 365 Customer Service Enterprise. Other Dynamics 365 customers can purchase Dynamics 365 Customer Voice separately. For a complete list of select Dynamics 365 enterprise products, see [Dynamics 365 Customer Voice pricing](https://dynamics.microsoft.com/customer-voice/pricing/)
 
 The Dynamics 365 Customer Voice license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
@@ -41,11 +41,8 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
     - Microsoft Dynamics 365 Customer Voice for Customer Service Enterprise
     - Microsoft Dynamics 365 Customer Voice for Field Service
     - Microsoft Dynamics 365 Customer Voice for Marketing
-    - Microsoft Dynamics 365 Customer Voice for Talent
-    - Microsoft Dynamics 365 Customer Voice for Project Service Automation
-    - Microsoft Dynamics 365 Customer Voice for Customer Engagement Plan
-    - Microsoft Dynamics 365 Customer Voice for Operations
-    - Microsoft Dynamics 365 Customer Voice for Relationship Sales
+    - Microsoft Dynamics 365 Customer Voice for Human Resources
+    - Microsoft Dynamics 365 Customer Voice for Project Operations
 
     ![Disable Dynamics 365 Customer Voice for a user](media/disable-cv-user.png "Disable Dynamics 365 Customer Voice for a user")
 
