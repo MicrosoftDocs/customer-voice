@@ -19,7 +19,7 @@ Dynamics 365 Customer Voice also use cookies to store information for various pu
 | Cookie name | Description | Lifetime |
 |-------------|-------------|----------|
 | AADNonce.forms | Unique identifier of one authentication session to prevent replay. | Session |
-| DcLcid  | <ul><li> Saves explicitly requested short term customizations. For example, saving preferences, language, location, and so on.</li><li>Saves unrequested or long term customizations. For example, saving preferences, language, location, and so on.</li></ul>  | 90 days |
+| DcLcid  | Saves explicitly requested short term customizations. For example, saving preferences, language, location, and so on. | 90 days |
 | MS0 | Stores the session identification cookie. | 90 days |
 | MSFPC  | Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose.   | 1 year |
 |  MUID  | Used to identify different anonymous users. Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose. | 1 year |
