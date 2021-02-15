@@ -117,3 +117,6 @@ You can customize your survey in the following ways:
 [Create a project](create-project.md)<br>
 [Manage surveys](manage-surveys.md)<br>
 [Manage projects](manage-projects.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

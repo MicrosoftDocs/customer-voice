@@ -272,3 +272,6 @@ You can also select multiple alerts in the grid, and then select **Delete** in t
 ### See also
 
 [Add and configure satisfaction metrics](satisfaction-metrics.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

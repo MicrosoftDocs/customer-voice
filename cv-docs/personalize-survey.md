@@ -138,3 +138,6 @@ To    specify values for variables in a flow:
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)<br>
 [Add formatting to survey elements](survey-text-format.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

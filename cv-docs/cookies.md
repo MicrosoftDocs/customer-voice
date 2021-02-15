@@ -29,3 +29,6 @@ Dynamics 365 Customer Voice also use cookies to store information for various pu
 | AADSID.forms | Azure Active Directory authentication session ID.  | 90 days |
 | AADState.forms | Authentication state to indicate whether user is authenticated. | 90 days |
 ||||
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ You can add formatting to the footer text by changing their font style, font siz
 [Create a survey](create-survey.md)<br>
 [Manage surveys](manage-surveys.md)<br>
 [Manage projects](manage-projects.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

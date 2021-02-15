@@ -43,3 +43,5 @@ A QR code for your survey contains a direct link to your survey. You can include
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

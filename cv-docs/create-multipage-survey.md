@@ -55,3 +55,6 @@ After adding the required sections in your survey, you can duplicate, remove, or
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

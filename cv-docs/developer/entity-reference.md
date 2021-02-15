@@ -44,3 +44,6 @@ Following is a simplified version of the entity relationship diagram of Dynamics
 ### See also
 
 [Entity reference for Microsoft Dynamics 365](/dynamics365/customer-engagement/developer/about-entity-reference)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
