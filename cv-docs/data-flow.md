@@ -37,3 +37,6 @@ The following processes are shown in the data flow diagram:
 [Create a survey](create-survey.md)<br>
 [Send a survey](send-survey.md)<br>
 [About reports](about-reports.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

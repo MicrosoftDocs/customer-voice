@@ -86,3 +86,6 @@ After you've created the satisfaction metrics you need, you can edit their detai
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)<br>
 [Add formatting to survey elements](survey-text-format.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

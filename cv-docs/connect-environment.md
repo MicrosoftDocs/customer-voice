@@ -58,3 +58,5 @@ If you provide the optional privileges, additional actions can be performed by t
 
 [Create a project](create-project.md)<br>
 [Manage projects](manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

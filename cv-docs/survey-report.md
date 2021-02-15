@@ -89,3 +89,6 @@ You can delete a response you don't need anymore. To delete a survey response, o
 
 [About reports](about-reports.md)<br>
 [View a satisfaction metrics report](satisfaction-metrics-report.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

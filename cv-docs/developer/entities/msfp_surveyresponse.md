@@ -1980,3 +1980,6 @@ See msfp_surveyinvite Entity [msfp_msfp_surveyinvite_msfp_surveyresponse_surveyi
 [About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
 [Programming reference for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
 [Web API reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

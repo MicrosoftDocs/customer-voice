@@ -25,3 +25,6 @@ If you've created satisfaction metrics in your survey, a dashboard is created au
 [View a satisfaction metrics report](satisfaction-metrics-report.md)<br>
 [View a survey response report](survey-report.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Specify whether the questions in a survey should be shuffled. By default, this s
 [Create multilingual survey](create-multilingual-survey.md)<br>
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to survey elements](survey-text-format.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

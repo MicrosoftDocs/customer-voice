@@ -41,3 +41,6 @@ You've sent a product feedback survey through a personalized link to your custom
 [Work with survey distribution settings](distribution-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

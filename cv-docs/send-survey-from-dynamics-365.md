@@ -147,3 +147,6 @@ The **Send survey on create of custom entity record** Power Automate flow is cre
 ### See also
 
 [Create a project](create-project.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

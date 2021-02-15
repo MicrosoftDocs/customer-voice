@@ -38,3 +38,6 @@ Before you send a survey to respondents, you must preview it. Previewing ensures
 [Format text in a survey](survey-text-format.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

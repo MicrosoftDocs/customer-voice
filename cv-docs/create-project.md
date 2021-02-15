@@ -105,3 +105,6 @@ The project will be created with an empty survey. You can now add questions and 
 [Create a survey](create-survey.md)<br>
 [Manage surveys](manage-surveys.md)<br>
 [Manage projects](manage-projects.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
