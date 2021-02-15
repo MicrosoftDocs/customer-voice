@@ -92,3 +92,6 @@ The preceding method calls the `renderSurvey` function and passes the required v
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -213,3 +213,6 @@ You can delete a project that you don't need anymore. Deleting a project removes
 [Create a project](create-project.md)<br>
 [Create a survey](create-survey.md)<br> 
 [Manage surveys](manage-surveys.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

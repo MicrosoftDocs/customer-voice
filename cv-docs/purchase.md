@@ -185,3 +185,6 @@ In this example, suppose you have 5,000 responses remaining at the end of the ye
 [Create a survey](create-survey.md)<br>
 [Send a survey to get responses](send-survey.md)<br>
 [Analyze reports](about-reports.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

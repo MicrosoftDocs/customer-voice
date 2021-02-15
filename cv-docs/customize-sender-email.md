@@ -137,3 +137,6 @@ The email account need not be a functioning account to send emails; however, a m
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

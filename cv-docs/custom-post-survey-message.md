@@ -80,3 +80,6 @@ If you've created a multilingual survey, you can add translations to post-survey
 [Create a survey](create-survey.md)<br>
 [Manage surveys](manage-surveys.md)<br>
 [Manage projects](manage-projects.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

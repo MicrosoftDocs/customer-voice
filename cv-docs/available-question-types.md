@@ -119,3 +119,6 @@ A Net Promoter Score type question asks a respondent to rate the likelihood of t
 
 [Create a survey](create-survey.md)<br>
 [Manage surveys](manage-surveys.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
