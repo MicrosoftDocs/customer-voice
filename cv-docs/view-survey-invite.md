@@ -18,19 +18,21 @@ The following survey invitation statistics are displayed in the upper part of th
 
 - **Total invites**: Displays the total number of survey invitations sent.
 
-- **Responses**: Displays the total number of recipients who responded to the survey invitations.
+- **Responded**: Displays the total number of recipients who responded to the survey invitations.
 
-- **Not responded**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:
+- **Unsubscribed**: Displays the total number of recipients who have unsubscribed from receiving survey-related emails.
+
+- **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
+
+- **Pending responses**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:
 
     - **Unread**: The survey invitation email wasn't read.
 
     - **Read**: The survey invitation email was read or opened.
 
-    - **Opened**: The survey was opened, but hasn't been completed yet.
+    - **Incomplete**: The survey was opened, but hasn't been completed yet.
 
-- **Unsubscribed**: Displays the total number of recipients who have unsubscribed from receiving survey-related emails.
-
-- **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
+        You can send the reminder emails to the recipients for completing the survey. Reminder emails can be sent either manually or automatically. More information: [Send survey reminders](send-survey-reminders.md)
 
 ![Survey invitation report](media/invite-report.png "Survey invitation report")
 
@@ -43,6 +45,24 @@ You can view details of an invitation statistic by selecting **Details** in the 
 The details are displayed in a panel on the right side of the page.
 
 ![Survey invitation details displayed in a panel](media/total-invites.png "Survey invitation details displayed in a panel")
+
+To search for a recipient, enter the recipient's name or email in the **Search** field. The data is filtered to show results matching the search term.
+
+![Search for a recipient](media/search-recipient.png "Search for a recipient")
+
+By default, the **Total invites** tile displays details for all statistics. You can view details for a specific statistic by selecting the **All** filter in the **Search** field, and then selecting the required option.
+
+![Filter invitation details](media/filter-invite-details.png "Filter invitation details")
+
+For example, the following image shows details for the failed invitations.
+
+![Failed invitation details](media/failed-invite-details.png "Failed invitation details")
+
+## Filter invitation details
+
+You can filter data in the invitation report by using the **Recent invites** filter available above the **Pending responses** tile. Select Last month, Last 3 months, or a custom month range from the filter.
+
+![Filter invitation details](media/filter-invite.png "Filter invitation details")
 
 ## Export invitation details
 
