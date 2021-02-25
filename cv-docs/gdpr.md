@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Voice GDPR compliance | MicrosoftDocs"
 description: "Know how Dynamics 365 Customer Voice complies with GDPR."
-ms.date: 01/29/2021
+ms.date: 02/25/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Dynamics 365 Customer Voice GDPR compliance
 
-The European Union (EU) General Data Protection Regulation (GDPR) gives rights to people (known in the regulation as data subjects) to manage the personal data that's been collected by an employer or other type of agency or organization (known as the data controller or just controller). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. Microsoft is committed to helping business customers to be GDPR compliant and Dynamics 365 Customer Voice is GDPR compliant.
+The European Union (EU) General Data Protection Regulation (GDPR) gives rights to people (known in the regulation as data subjects) to manage the personal data that's been collected by a corporation or other types organizations, including employers (known as the data controller or just controller). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. Microsoft is committed to helping business customers to be GDPR compliant and Dynamics 365 Customer Voice is GDPR compliant.
 
 Dynamics 365 Customer Voice allows licensed users to capture feedback swiftly across different channels with personalized surveys and helps track customer metrics that are important. The survey questions, invitations, satisfaction metrics defined, responses from end users are all in the direct control of administrators and end users. Microsoft processes data on behalf of customers to provide the requested service as set forth in our [Online Services Terms](https://go.microsoft.com/fwlink/?LinkID=734008). Administrators can set policies that control this information independent of the user account lifecycle for which Dynamics 365 Customer Voice license is associated with.
 
