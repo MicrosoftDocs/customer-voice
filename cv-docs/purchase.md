@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "Instructions for purchasing Dynamics 365 Customer Voice and additional survey responses"
-ms.date: 02/23/2021
+ms.date: 03/03/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -17,7 +17,7 @@ Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise prod
 The Dynamics 365 Customer Voice license is based on the number of survey responses received per month. The capacity is measured at the tenant level.
 
 - For a Dynamics 365 enterprise licensed tenant, 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 1,000 responses per month.
-- For an organization without a Dynamics 365 enterprise license, you must first purchase Dynamics 365 Customer Voice for 2000 responses per month, and may purchase additional responses in bundles of $100 for 1,000 responses per month.
+- For an organization without a Dynamics 365 enterprise license, you must first purchase at least one Dynamics 365 Customer Voice license for 2000 responses per month, and may purchase additional responses in bundles of $100 for 1,000 responses per month.
 
 ## Enable Dynamics 365 Customer Voice for users with Dynamics 365 enterprise licenses
 
@@ -50,7 +50,7 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
 
 ## Purchase Dynamics 365 Customer Voice for users without a Dynamics 365 enterprise license
 
-If you don't have select Dynamics 365 enterprise products, you must first purchase at least one Dynamics 365 Customer Voice license. The Dynamics 365 Customer Voice license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month. You must also purchase the free **Dynamics 365 Customer Voice USL** license equal to the number of users who need access to Dynamics 365 Customer Voice.
+If you don't have select Dynamics 365 enterprise products, you must first purchase at least one **Dynamics 365 Customer Voice** license. The **Dynamics 365 Customer Voice** license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month. You must also purchase the free **Dynamics 365 Customer Voice USL** license equal to the number of users who need access to Dynamics 365 Customer Voice.
 
 ### Purchase the Dynamics 365 Customer Voice license
 
@@ -72,7 +72,7 @@ If you don't have select Dynamics 365 enterprise products, you must first purcha
 
 ### Purchase the Dynamics 365 Customer Voice USL license
 
-After you purchase the Dynamics 365 Customer Voice license, you must purchase the Dynamics 365 Customer Voice USL license and assign it to the users in your organization. Dynamics 365 Customer Voice USL is a free user license.
+After you purchase the **Dynamics 365 Customer Voice** license, you must purchase the **Dynamics 365 Customer Voice USL** license and assign it to the users in your organization. The **Dynamics 365 Customer Voice USL** license is a free user license.
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -171,7 +171,14 @@ In this example, suppose you have 5,000 responses remaining at the end of the ye
 
 ## Purchase Dynamics 365 Customer Voice for customers in US Government Community Cloud
 
-You must work with the Microsoft account team or a qualified partner to place an order for Dynamics 365 Customer Voice for customers in US Government Community Cloud.
+For a Dynamics 365 enterprise licensed tenant in US Government Community Cloud (GCC), 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 1,000 responses per month. The license name to purchase additional responses is **Dynamics 365 Customer Voice Add-On for GCC**.
+
+For an organization in GCC without a Dynamics 365 enterprise license, you must first purchase at least one **Dynamics 365 Customer Voice for GCC** license. The **Dynamics 365 Customer Voice for GCC** license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month. You must also purchase the free **Dynamics 365 Customer Voice USL for GCC** license equal to the number of users who need access to Dynamics 365 Customer Voice.
+
+To purchase Dynamics 365 Customer Voice for customers in GCC, you must work with the Microsoft account team or a qualified partner to place an order.
+
+> [!NOTE]
+> Dynamics 365 Customer Voice is not available for trial in GCC.
 
 ### See also
 
