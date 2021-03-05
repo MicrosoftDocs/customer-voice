@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "Instructions for purchasing Dynamics 365 Customer Voice and additional survey responses"
-ms.date: 03/03/2021
+ms.date: 03/08/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -62,13 +62,11 @@ If you don't have select Dynamics 365 enterprise products, you must first purcha
 
     ![Dynamics 365 Customer Voice tile](media/cv-license.png "Dynamics 365 Customer Voice tile")
 
-4. Select **Buy**.
+4. From the **Select license quantity** box, select or enter the number of licenses to purchase. 
+
+5. Select **Buy**, and complete the purchase process.
 
     ![Buy Dynamics 365 Customer Voice](media/cv-license-buy.png "Buy Dynamics 365 Customer Voice")
-
-5. Select the number of user licenses to purchase, and complete the purchase process.
-
-    ![Purchase Dynamics 365 Customer Voice](media/cv-license-purchase.png "Purchase Dynamics 365 Customer Voice")
 
 ### Purchase the Dynamics 365 Customer Voice USL license
 
@@ -80,17 +78,13 @@ After you purchase the **Dynamics 365 Customer Voice** license, you must purchas
 
 3. Find **Dynamics 365 Customer Voice USL**, and then select **Details**.
 
-    > [!div class=mx-imgBorder]
-    > ![Dynamics 365 Customer Voice USL tile](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
+    ![Dynamics 365 Customer Voice USL tile](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
 
-4. Select **Get now**.
+4. From the **Select license quantity** box, select or enter the number of licenses to purchase.
 
-    ![Get Dynamics 365 Customer Voice USL](media/usl-license-get.png "Get Dynamics 365 Customer Voice USL")
+5. Select **Buy**, and complete the purchase process.
 
-5. Select the number of user licenses to purchase, and complete the purchase process.
-
-    > [!div class=mx-imgBorder]
-    > ![Purchase Dynamics 365 Customer Voice USL](media/usl-license-purchase.png "Purchase Dynamics 365 Customer Voice USL")
+    ![Buy Dynamics 365 Customer Voice USL](media/usl-license-get.png "Buy Dynamics 365 Customer Voice USL")
 
 6. Assign the **Dynamics 365 Customer Voice USL** license to users in your organization:
 
@@ -132,11 +126,7 @@ You can purchase additional responses from the Microsoft 365 admin center.
 
 2. In the left pane, select **Billing** > **Purchase services**.
 
-3. Scroll to the bottom of the page, and select **Add-ons**.
-
-    ![Add on licenses](media/add-on-licenses.png "Add on licenses")
-
-3. Find **Dynamics 365 Customer Voice Add-On Dynamics 365 Customer Voice Addl Responses**, and then select **Details**.
+3. Find **Dynamics 365 Customer Additional Responses Dynamics 365 Customer Voice Addl Responses**, and then select **Details**.
 
     ![Dynamics 365 Customer Voice Addl Responses tile](media/addl-responses-license.png "Dynamics 365 Customer Voice Addl Responses tile")
 
