@@ -42,14 +42,14 @@ A survey's score is calculated with the help of following components:
 
 The score of a question response is calculated by multiplying weight with the point value. All the scores are added to generate a survey-level score.
 
-You can apply survey scoring logic to the following question types:
+Dynamics 365 Customer Voice allows you to apply survey scoring logic to the following question types:
 
 - Net Promoter Score (NPS): 
 - Rating (Number, Star, and Smiley): 
 - Single choice question (radio button and drop down): 
 - Likert: 
 
-Dynamics 365 Customer Voice allows you to select questions in a survey for which the score needs to be calculated. The **Custom score** satisfaction metric holds the value of survey score. After you've received responses to your survey, you can [view the satisfaction metrics report](satisfaction-metrics-report.md) to see the survey score showcasing the average score and trend over a period of time.
+You can select questions in a survey for which the score needs to be calculated. The **Custom score** satisfaction metric holds the value of survey score. After you've received responses to your survey, you can [view the satisfaction metrics report](satisfaction-metrics-report.md) to see the survey score showcasing the average score and trend over a period of time.
 
 
 
