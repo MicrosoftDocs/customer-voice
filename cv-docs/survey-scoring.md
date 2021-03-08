@@ -14,7 +14,7 @@ manager: shujoshi
 
 Survey scoring allows you to assign a point value to individual answer options. Point values are added to generate a survey-level score for each survey response. A survey with point values assigned to answer options is known as a scored survey. You can use scored surveys to measure your respondent's overall satisfaction level. For example, a scored survey can help you get a better picture on customer service, agent's performance, and so on.
 
-For example, as an healthcare provider, you have created a survey to measure the psychological distress of your patients by using Kessler 5 Distress Scale. The survey consists of five questions with the following answer options:
+For example, as a healthcare provider, you have created a survey to measure the psychological distress of your patients by using Kessler 5 Distress Scale. The survey consists of five questions with the following answer options:
 
 - None of the time 
 - A little of the time 
@@ -42,9 +42,9 @@ A survey's score is calculated with the help of following components:
 
   By default, the value of weight for all questions is 1.
 
-- **Point**: Point is the value assigned to individual answer options.The maximum point you can assign to an answer option is 100.
+- **Point**: Point is the value assigned to individual answer options. The maximum point you can assign to an answer option is 100.
 
-  By default, the point values are assigned in the ascending order of the the answer options.
+  By default, the point values are assigned in the ascending order of the answer options.
 
 The score of a question response is calculated by multiplying weight with the point value. All the question response scores are added to generate a survey-level score.
 
@@ -102,7 +102,7 @@ After you've created a **Custom Score** satisfaction metric, you can edit its de
 
 2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Satisfaction metrics**.
 
-3. Expand the **Custom Score** and then update the name and description as required.
+3. Expand the **Custom Score** metric and then update the name and description as required.
 
 4. If required, change the questions used in calculating the survey score.
 
