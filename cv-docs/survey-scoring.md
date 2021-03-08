@@ -88,6 +88,8 @@ You can select questions in a survey for which the score needs to be calculated.
 
 6. In the **Edit Score** panel, select a base score for the survey, assign weight for each question, and assign point values for each answer option.
 
+   ![Add base score, weights, and point values](media/custom-score-metric-values.png "Add base score, weights, and point values")
+
 7. Select the back arrow at the top left of the **Edit Score** panel.
 
 8. In the **Satisfaction metrics** panel, select **Save**.
@@ -110,3 +112,7 @@ After you've created a **Custom Score** satisfaction metric, you can edit its de
 
 7. In the **Satisfaction metrics** panel, select **Save**.
 
+### See also
+
+[Add and configure satisfaction metrics](satisfaction-metrics.md)   
+[View satisfaction metrics report](satisfaction-metrics-report.md)
