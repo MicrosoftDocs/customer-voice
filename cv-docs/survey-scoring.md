@@ -62,6 +62,8 @@ A few organizations provide the **Not applicable** answer option to the single c
 
 You can select questions in a survey for which the score needs to be calculated. The **Custom score** satisfaction metric holds the value of survey score. After you've received responses to your survey, you can [view the satisfaction metrics report](satisfaction-metrics-report.md) to see the survey score showcasing the average score and trend over a period of time.
 
+![Custom score report](media/custom-score-report.png "Custom score report")
+
 ## Add scoring to a survey
 
 1. Open the survey.
