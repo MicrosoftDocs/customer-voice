@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "Instructions for purchasing Dynamics 365 Customer Voice and additional survey responses"
-ms.date: 03/08/2021
+ms.date: 03/09/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
