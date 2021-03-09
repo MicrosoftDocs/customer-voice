@@ -136,7 +136,6 @@ You can purchase additional responses from the Microsoft 365 admin center.
 
 5. Select the number of add-on licenses to purchase, and complete the purchase process. The purchased capacities are added on top of the available responses per month.
 
-    ![Purchase Dynamics 365 Customer Voice Addl Responses](media/addl-responses-license-purchase.png "Purchase Dynamics 365 Customer Voice Addl Responses")
 
 ## Response capacity consumption
 
