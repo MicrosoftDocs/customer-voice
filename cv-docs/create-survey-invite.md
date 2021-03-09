@@ -18,7 +18,7 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
-2. Start to create a flow from scratch. More information: [Create a flow in Power Automate](https://docs.microsoft.com/flow/get-started-logic-flow)
+2. Start to create a flow from scratch. More information: [Create a flow in Power Automate](/flow/get-started-logic-flow)
 
 3. In the flow editor, add a trigger to start your flow.
 
