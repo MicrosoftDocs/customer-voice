@@ -1,0 +1,86 @@
+---
+title: "Customize header of a survey | MicrosoftDocs"
+description: "Instructions for customizing header of a survey created with Dynamics 365 Customer Voice."
+ms.date: 03/09/2021
+ms.service: 
+  - dynamics-365-customervoice
+ms.topic: article
+author: sbmjais
+ms.author: shjais
+manager: shujoshi
+---
+
+# Customize survey header
+
+You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image, and logo as per your requirement. Also, you can turn off the header, if it is not required.
+
+## Turn off survey header
+
+1. Open the survey in which you want to turn off survey header.
+
+2. Hover over the survey header, and then turn off the **Header** toggle at the top right corner.
+
+## Change header text alignment
+
+You can change the alignment of header in the combination of the horizontal and vertical alignments. In horizontal alignment, you can choose the text to be either left, center, or right aligned. In vertical alignment, you choose the text to be either top, middle, or bottom aligned. So, you can align you can align the header text in nine different alignments.
+
+1. Open the survey in which you want to change the alignment of survey header text.
+
+2. Hover over the text to see the alignment toolbar.
+
+3. Select an alignment combination.
+
+## Change header style
+
+1. Open the survey in which you want to change header style.
+
+2. Hover over the survey header to see the toolbar.
+
+3. Select **Style**.
+
+4. In the **Choose a style** panel, select one of the pre-defined styles. The survey theme is also updated as the header style.
+
+## Change theme color of survey
+
+You can select a color to apply to various survey elements such as the survey header, question area, background, footer, and buttons. This lets you customize the look and feel of your survey so it better matches your company's brand. You can also change the survey's theme while changing your survey's branding. More information: [Add branding to a survey](survey-branding.md)
+
+1. Open the survey in which you want to change its theme.
+
+2. Hover over the survey header to see the toolbar.
+
+3. Select **Theme color**.
+
+4. Choose a color from the color picker or enter a hexadecimal code in the **HEX #** field.
+
+## Add background image to survey header
+
+You can select a background image for the survey header either from the images provided out of the box or upload an image from your device. If you upload an image from your device, the image must be within the following parameters:
+
+- Maximum file size: 5 MB. 
+- Supported formats: BMP, GIF, JPEG, and PNG.
+- Maximum resolution: 800 x 600 (width x height)
+- Aspect ratio: 4:3
+
+**To add a background image**
+
+1. Open the survey in which you want to add background image to its header.
+
+2. Hover over the survey header to see the toolbar.
+
+3. Select **Image**.
+
+4. In the **Add image** panel, select one of the images provided out of the box or upload an image from your device.
+
+### Change focal point of background image
+
+## Add logo to survey header
+
+1. Open the survey in which you want to add logo to its header.
+
+2. Hover over the survey header to see the toolbar.
+
+3. Select **Logo**.
+
+4. Find and select the logo by using your file browser.
+
+### Edit logo in survey header
