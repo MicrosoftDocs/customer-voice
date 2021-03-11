@@ -16,13 +16,15 @@ You can customize the header of your survey to match your company's branding. Th
 
 ## Turn off survey header
 
+<!-- why turn off header -->
+
 1. Open the survey in which you want to turn off survey header.
 
 2. Hover over the survey header, and then turn off the **Header** toggle at the top right corner.
 
 ## Change header text alignment
 
-You can change the alignment of header in the combination of the horizontal and vertical alignments. In horizontal alignment, you can choose the text to be either left, center, or right aligned. In vertical alignment, you choose the text to be either top, middle, or bottom aligned. So, you can align you can align the header text in nine different alignments.
+You can change the alignment of header text in the combination of the horizontal and vertical alignments. In horizontal alignment, you can choose the text to be either left, center, or right aligned. In vertical alignment, you choose the text to be either top, middle, or bottom aligned. So, you can align you can align the header text in nine different alignments.
 
 1. Open the survey in which you want to change the alignment of survey header text.
 
@@ -73,6 +75,18 @@ You can select a background image for the survey header either from the images p
 
 ### Change focal point of background image
 
+After you add a background image, only that portion of the image is visible that fits in the header area. You can change the focal point to move the image to adjust which portion should be visible.
+
+1. Open the survey in which you want to change focal point of the background image.
+
+2. Hover over the survey header to see the toolbar.
+
+3. Select **Focal point**.
+
+4. Drag and adjust the image.
+
+5. Select **Focal point** at the top left corner to exit the focal point adjustment.
+
 ## Add logo to survey header
 
 1. Open the survey in which you want to add logo to its header.
@@ -83,4 +97,23 @@ You can select a background image for the survey header either from the images p
 
 4. Find and select the logo by using your file browser.
 
-### Edit logo in survey header
+After you've added a logo to the survey header, you can:
+
+- Change the logo size
+- Change the logo alignment
+- Replace the logo
+- Add alt text to the logo
+- Delete the logo
+
+### Change the logo size
+
+<!-- what's the pixel size of small, medium, and large? Do we need to mention? -->
+
+### Change the logo alignment
+
+### Replace the logo
+
+### Add alt text to the logo
+
+### Delete the logo
+
