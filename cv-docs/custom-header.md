@@ -34,13 +34,15 @@ You can change the alignment of header text in the combination of the horizontal
 
 ## Change header style
 
+By default, the header is displayed in a simple style. Dynamics 365 Customer Voice provides a few pre-defined styles you can choose from. The style consists of a background image and a default text alignment. When you select a style, survey's theme is also updated accordingly. However, after applying a style, you can change the background image, text alignment, and theme color.
+
 1. Open the survey in which you want to change header style.
 
 2. Hover over the survey header to see the toolbar.
 
 3. Select **Style**.
 
-4. In the **Choose a style** panel, select one of the pre-defined styles. The survey theme is also updated as the header style.
+4. In the **Choose a style** panel, select one of the pre-defined styles.
 
 ## Change theme color of survey
 
@@ -89,6 +91,10 @@ After you add a background image, only that portion of the image is visible that
 
 ## Add logo to survey header
 
+You can add your company's logo in the header to reflect your company's brand and make the survey look authentic.
+
+<!-- What's the logo image limitations? -->
+
 1. Open the survey in which you want to add logo to its header.
 
 2. Hover over the survey header to see the toolbar.
@@ -107,13 +113,45 @@ After you've added a logo to the survey header, you can:
 
 ### Change the logo size
 
+By default, the logo added is of the medium size. You can change its size to either small or large. When you add a logo, the text alignment is adjusted accordingly.
+
 <!-- what's the pixel size of small, medium, and large? Do we need to mention? -->
+
+1. Hover over the logo to see the toolbar.
+
+2. Select **Medium** and then select the logo size from the list.
 
 ### Change the logo alignment
 
+You can change the alignment of logo in the combination of the horizontal and vertical alignments. In horizontal alignment, you can choose the logo to be either left, center, or right aligned. In vertical alignment, you choose the logo to be either top, middle, or bottom aligned. So, you can align you can align the logo in nine different alignments.
+
+1. Hover over the logo to see the toolbar.
+
+2. From the alignment options, select an alignment combination.
+
 ### Replace the logo
+
+1. Hover over the logo to see the toolbar.
+
+2. Select the ellipsis button, and then select **Replace logo**.
+
+3. Find and select the logo by using your file browser.
 
 ### Add alt text to the logo
 
+Alt text (alternative text) allows screen readers to read a description of your image out loud.
+
+1. Hover over the logo to see the toolbar.
+
+2. Select the ellipsis button, and then select **Edit alt text**.
+
+3. In the **Edit alt text** dialog box, enter a description of the logo in the field provided.
+
+4. Select **Add**.
+
 ### Delete the logo
+
+1. Hover over the logo to see the toolbar.
+
+2. Select the ellipsis button, and then select **Delete**.
 
