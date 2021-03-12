@@ -1,7 +1,7 @@
 ---
 title: "Customize header of a survey | MicrosoftDocs"
 description: "Instructions for customizing header of a survey created with Dynamics 365 Customer Voice."
-ms.date: 03/09/2021
+ms.date: 03/12/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -171,6 +171,8 @@ Alt text (alternative text) allows screen readers to read a description of your 
 
 2. Select the ellipsis button, and then select **Edit alt text**.
 
+    ![Logo alt text](media/logo-alt-text.png "Logo alt text")
+
 3. In the **Edit alt text** dialog box, enter a description of the logo in the field provided.
 
 4. Select **Add**.
@@ -180,4 +182,6 @@ Alt text (alternative text) allows screen readers to read a description of your 
 1. Hover over the logo to see the toolbar.
 
 2. Select the ellipsis button, and then select **Delete**.
+
+    ![Logo delete](media/logo-delete.png "Logo delete")
 
