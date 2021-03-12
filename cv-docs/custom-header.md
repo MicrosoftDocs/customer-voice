@@ -16,11 +16,13 @@ You can customize the header of your survey to match your company's branding. Th
 
 ## Turn off survey header
 
-<!-- why turn off header -->
+By default, the survey header is displayed. You can turn it off when not needed. For example, when embed a survey on a web page, you might not want to show the header at all.
 
 1. Open the survey in which you want to turn off survey header.
 
 2. Hover over the survey header, and then turn off the **Header** toggle at the top right corner.
+
+    ![Turn off header](media/header-off-toggle.png "Turn off header")
 
 ## Change header text alignment
 
@@ -29,6 +31,8 @@ You can change the alignment of header text in the combination of the horizontal
 1. Open the survey in which you want to change the alignment of survey header text.
 
 2. Hover over the text to see the alignment toolbar.
+
+    ![Header text alignment](media/header-text-align.png "Header text alignment")
 
 3. Select an alignment combination.
 
@@ -42,7 +46,11 @@ By default, the header is displayed in a simple style. Dynamics 365 Customer Voi
 
 3. Select **Style**.
 
+    ![Select Style from header toolbar](media/header-style.png "Select Style from header toolbar")
+
 4. In the **Choose a style** panel, select one of the pre-defined styles.
+
+    ![Choose a style for header](media/header-choose-style.png "Choose a style for header")
 
 ## Change theme color of survey
 
@@ -54,7 +62,11 @@ You can select a color to apply to various survey elements such as the survey he
 
 3. Select **Theme color**.
 
+    ![Select Theme color from header toolbar](media/header-theme-color.png "Select Theme color from header toolbar")
+
 4. Choose a color from the color picker or enter a hexadecimal code in the **HEX #** field.
+
+    ![Theme color picker](media/header-theme-color-picker.png "Theme color picker")
 
 ## Add background image to survey header
 
@@ -73,7 +85,15 @@ You can select a background image for the survey header either from the images p
 
 3. Select **Image**.
 
+    ![Select Image from header toolbar](media/header-image.png "Select Image from header toolbar")
+
 4. In the **Add image** panel, select one of the images provided out of the box or upload an image from your device.
+
+    ![Choose a background image for header](media/header-choose-image.png "Choose a background image for header")
+
+    The image is added to the survey header.
+
+    ![Background image added to header](media/header-background-image.png "Background image added to header")
 
 ### Change focal point of background image
 
@@ -85,15 +105,24 @@ After you add a background image, only that portion of the image is visible that
 
 3. Select **Focal point**.
 
+    ![Select Focal point from header toolbar](media/header-focal-point.png "Select Focal point from header toolbar")
+
 4. Drag and adjust the image.
 
 5. Select **Focal point** at the top left corner to exit the focal point adjustment.
 
+    ![Exit focal point adjustment](media/header-focal-point-exit.png "Exit focal point adjustment")
+
 ## Add logo to survey header
 
-You can add your company's logo in the header to reflect your company's brand and make the survey look authentic.
+You can add your company's logo in the header to reflect your company's brand and make the survey look authentic. The logo must be within the following parameters:
 
-<!-- What's the logo image limitations? -->
+- Maximum file size: 5 MB. 
+- Supported formats: BMP, GIF, JPEG, and PNG.
+- Maximum resolution: 800 x 600 (width x height)
+- Aspect ratio: 4:3
+
+**To add logo to survey header**
 
 1. Open the survey in which you want to add logo to its header.
 
@@ -101,13 +130,14 @@ You can add your company's logo in the header to reflect your company's brand an
 
 3. Select **Logo**.
 
+   ![Select Logo from header toolbar](media/header-logo.png "Select Logo from header toolbar")
+
 4. Find and select the logo by using your file browser.
 
 After you've added a logo to the survey header, you can:
 
 - Change the logo size
 - Change the logo alignment
-- Replace the logo
 - Add alt text to the logo
 - Delete the logo
 
@@ -115,11 +145,13 @@ After you've added a logo to the survey header, you can:
 
 By default, the logo added is of the medium size. You can change its size to either small or large. When you add a logo, the text alignment is adjusted accordingly.
 
-<!-- what's the pixel size of small, medium, and large? Do we need to mention? -->
-
 1. Hover over the logo to see the toolbar.
 
+    ![Logo toolbar](media/logo-toolbar.png "Logo toolbar")
+
 2. Select **Medium** and then select the logo size from the list.
+
+    ![Change logo size](media/logo-size-change.png "Change logo size")
 
 ### Change the logo alignment
 
@@ -129,13 +161,7 @@ You can change the alignment of logo in the combination of the horizontal and ve
 
 2. From the alignment options, select an alignment combination.
 
-### Replace the logo
-
-1. Hover over the logo to see the toolbar.
-
-2. Select the ellipsis button, and then select **Replace logo**.
-
-3. Find and select the logo by using your file browser.
+    ![Logo alignment options](media/logo-alignment.png "Logo alignment options")
 
 ### Add alt text to the logo
 
