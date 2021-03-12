@@ -136,10 +136,10 @@ You can add your company's logo in the header to reflect your company's brand an
 
 After you've added a logo to the survey header, you can:
 
-- Change the logo size
-- Change the logo alignment
-- Add alt text to the logo
-- Delete the logo
+- [Change the logo size](#change-the-logo-size)
+- [Change the logo alignment](#change-the-logo-alignment)
+- [Add alt text to the logo](#add-alt-text-to-the-logo)
+- [Delete the logo](#delete-the-logo)
 
 ### Change the logo size
 
