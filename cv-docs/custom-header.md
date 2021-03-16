@@ -10,6 +10,11 @@ ms.author: shjais
 manager: shujoshi
 ---
 
+
+<!-- In lines 177 and 181, the image shows the toolbar saying "Add alt text" but the step says it is "Edit alt text." Which is correct? -->
+
+
+
 # Customize survey header
 
 You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image, and logo as per your requirement. Also, you can turn off the header if it is not required.
@@ -26,7 +31,7 @@ By default, the survey header is displayed. You can turn it off when not needed.
 
 ## Change header text alignment
 
-You can change the alignment of header text in the combination of the horizontal and vertical alignments. In horizontal alignment, you can choose the text to be either left, center, or right aligned. In vertical alignment, you choose the text to be either top, middle, or bottom aligned. So, you can align you can align the header text in nine different alignments.
+You can change the alignment of header text in the combination of the horizontal and vertical alignments. In the horizontal alignment, you can choose the text to be aligned either to the left, center, or right. In the vertical alignment, you can choose the text to be aligned either at the top, middle, or bottom. So, you can position the header text in nine different alignments.
 
 1. Open the survey in which you want to change the alignment of survey header text.
 
@@ -38,33 +43,33 @@ You can change the alignment of header text in the combination of the horizontal
 
 ## Change header style
 
-By default, the header is displayed in a simple style. Dynamics 365 Customer Voice provides a few pre-defined styles you can choose from. The style consists of a background image and a default text alignment. When you select a style, survey's theme is also updated accordingly. However, after applying a style, you can change the background image, text alignment, and theme color.
+By default, the header is displayed in a simple style. Dynamics 365 Customer Voice provides a few predefined styles you can choose from. The styles consist of a background image and a default text alignment. When you select a style, the survey's theme is also updated accordingly. However, after applying a style, you can change the background image, text alignment, and theme color.
 
-1. Open the survey in which you want to change header style.
+1. Open the survey in which you want to change the header style.
 
 2. Hover over the survey header to see the toolbar.
 
 3. Select **Style**.
 
-    ![Select Style from header toolbar](media/header-style.png "Select Style from header toolbar")
+    ![Select Style from the header toolbar](media/header-style.png "Select Style from the header toolbar")
 
-4. In the **Choose a style** panel, select one of the pre-defined styles.
+4. In the **Choose a style** panel, select one of the predefined styles.
 
-    ![Choose a style for header](media/header-choose-style.png "Choose a style for header")
+    ![Choose a style for the header](media/header-choose-style.png "Choose a style for the header")
 
 ## Change theme color of survey
 
 You can select a color to apply to various survey elements such as the survey header, question area, background, footer, and buttons. This lets you customize the look and feel of your survey so it better matches your company's brand. You can also change the survey's theme while changing your survey's branding. More information: [Add branding to a survey](survey-branding.md)
 
-1. Open the survey in which you want to change its theme.
+1. Open the survey in which you want to change the theme.
 
 2. Hover over the survey header to see the toolbar.
 
 3. Select **Theme color**.
 
-    ![Select Theme color from header toolbar](media/header-theme-color.png "Select Theme color from header toolbar")
+    ![Select Theme color from the header toolbar](media/header-theme-color.png "Select Theme color from the header toolbar")
 
-4. Choose a color from the color picker or enter a hexadecimal code in the **HEX #** field.
+4. Choose a color from the color picker or enter a hexadecimal code in the **HEX#** field.
 
     ![Theme color picker](media/header-theme-color-picker.png "Theme color picker")
 
@@ -72,32 +77,32 @@ You can select a color to apply to various survey elements such as the survey he
 
 You can select a background image for the survey header either from the images provided out of the box or upload an image from your device. If you upload an image from your device, the image must be within the following parameters:
 
-- Maximum file size: 5 MB. 
-- Supported formats: BMP, GIF, JPEG, and PNG.
+- Maximum file size: 5 MB 
+- Supported formats: BMP, GIF, JPEG, and PNG
 - Maximum resolution: 800 x 600 (width x height)
 - Aspect ratio: 4:3
 
 **To add a background image**
 
-1. Open the survey in which you want to add background image to its header.
+1. Open the survey in which you want to add a background image to the header.
 
 2. Hover over the survey header to see the toolbar.
 
 3. Select **Image**.
 
-    ![Select Image from header toolbar](media/header-image.png "Select Image from header toolbar")
+    ![Select Image from the header toolbar](media/header-image.png "Select Image from the header toolbar")
 
 4. In the **Add image** panel, select one of the images provided out of the box or upload an image from your device.
 
-    ![Choose a background image for header](media/header-choose-image.png "Choose a background image for header")
+    ![Choose a background image for the header](media/header-choose-image.png "Choose a background image for the header")
 
     The image is added to the survey header.
 
-    ![Background image added to header](media/header-background-image.png "Background image added to header")
+    ![Background image added to the header](media/header-background-image.png "Background image added to the header")
 
 ### Change focal point of background image
 
-After you add a background image, only that portion of the image is visible that fits in the header area. You can change the focal point to move the image to adjust which portion should be visible.
+After you add a background image, the only portion of the image that is visible is what fits in the header area. You can change the focal point to adjust which portion of the image should be visible.
 
 1. Open the survey in which you want to change focal point of the background image.
 
@@ -105,11 +110,11 @@ After you add a background image, only that portion of the image is visible that
 
 3. Select **Focal point**.
 
-    ![Select Focal point from header toolbar](media/header-focal-point.png "Select Focal point from header toolbar")
+    ![Select Focal point from the header toolbar](media/header-focal-point.png "Select Focal point from the header toolbar")
 
 4. Drag and adjust the image.
 
-5. Select **Focal point** at the top left corner to exit the focal point adjustment.
+5. Select **Focal point** in the upper left corner to exit the focal point adjustment.
 
     ![Exit focal point adjustment](media/header-focal-point-exit.png "Exit focal point adjustment")
 
@@ -117,20 +122,20 @@ After you add a background image, only that portion of the image is visible that
 
 You can add your company's logo in the header to reflect your company's brand and make the survey look authentic. The logo must be within the following parameters:
 
-- Maximum file size: 5 MB. 
-- Supported formats: BMP, GIF, JPEG, and PNG.
+- Maximum file size: 5 MB 
+- Supported formats: BMP, GIF, JPEG, and PNG
 - Maximum resolution: 800 x 600 (width x height)
 - Aspect ratio: 4:3
 
-**To add logo to survey header**
+**To add a logo to a survey header**
 
-1. Open the survey in which you want to add logo to its header.
+1. Open the survey in which you want to add a logo to its header.
 
 2. Hover over the survey header to see the toolbar.
 
 3. Select **Logo**.
 
-   ![Select Logo from header toolbar](media/header-logo.png "Select Logo from header toolbar")
+   ![Select Logo from the header toolbar](media/header-logo.png "Select Logo from the header toolbar")
 
 4. Find and select the logo by using your file browser.
 
@@ -143,7 +148,7 @@ After you've added a logo to the survey header, you can:
 
 ### Change the logo size
 
-By default, the logo added is of the medium size. You can change its size to either small or large. When you add a logo, the text alignment is adjusted accordingly.
+By default, the logo added is medium size. You can change its size to either small or large. When you add a logo, the text alignment is adjusted accordingly.
 
 1. Hover over the logo to see the toolbar.
 
@@ -155,7 +160,7 @@ By default, the logo added is of the medium size. You can change its size to eit
 
 ### Change the logo alignment
 
-You can change the alignment of logo in the combination of the horizontal and vertical alignments. In horizontal alignment, you can choose the logo to be either left, center, or right aligned. In vertical alignment, you choose the logo to be either top, middle, or bottom aligned. So, you can align you can align the logo in nine different alignments.
+You can change the alignment of a logo in the combination of the horizontal and vertical alignments. In the horizontal alignment, you can choose the logo to be aligned either to the left, center, or right. In the vertical alignment, you choose the logo to be aligned either to the top, middle, or bottom. So, you can position the logo in nine different alignments.
 
 1. Hover over the logo to see the toolbar.
 
