@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Survey scoring
 
-Survey scoring allows you to assign a point value to individual answer options. Point values are added to generate a survey-level score for each survey response. A survey with point values assigned to answer options is known as a scored survey. You can use scored surveys to measure your respondent's overall satisfaction level. For example, a scored survey can help you get a better picture on customer service, agent's performance, and so on.
+Survey scoring allows you to assign a point value to individual answer options. Point values are added to generate a survey-level score for each survey response. A survey with point values assigned to answer options is known as a scored survey. You can use scored surveys to measure your respondent's overall satisfaction level. A scored survey can help you get a better picture of customer service, agent performance, and so on.
 
 For example, as a healthcare provider, you have created a survey to measure the psychological distress of your patients by using Kessler 5 Distress Scale. The survey consists of five questions with the following answer options:
 
@@ -32,9 +32,9 @@ A point value is attached to each answer option as follows:
 
 From this survey, a total score out of 25 can be calculated. A score of 5 through 11 indicates that a person is well or  experiencing only mild distress. A score of 12 through 25 indicates that a person is experiencing moderate to high distress. 
 
-A survey's score is calculated with the help of following components:
+A survey's score is calculated with the help of the following components:
 
-- **Base score**: Base score is the number of points the survey is scored from. Each question will be normalized to fit within this score. You can select a base of 5, 10, or 100.
+- **Base score**: This is the number of points the survey is scored from. Each question will be normalized to fit within this score. You can select a base of 5, 10, or 100.
 
   By default, the base score of a survey is set to 10.
 
