@@ -38,7 +38,7 @@ A survey's score is calculated with the help of the following components:
 
   By default, the base score of a survey is set to 10.
 
-- **Weight**: Weight allows you to measure the importance of a particular question higher or lower than the other question. For example, let's say you have a survey asking for customer's feedback regarding the food delivery service. There are three questions that ask about the timeliness of the service, packaging of the food, and quality of the food. In this example, the quality of food is more important than the packaging of food. Therefore, a higher weight will be assigned to the question about quality, thereby giving a more accurate and relevant result.
+- **Weight**: Weight allows you to measure the importance of a particular question higher or lower than other questions. For example, let's say you have a survey asking for customer feedback regarding the food delivery service. There are three questions that ask about the timeliness of the service, packaging of the food, and quality of the food. In this example, the quality of food is more important than the packaging of food. Therefore, a higher weight will be assigned to the question about quality, giving a more accurate and relevant result.
 
   By default, the value of weight for all questions is 1.
 
@@ -60,7 +60,7 @@ Dynamics 365 Customer Voice allows you to apply survey scoring logic to the foll
 
 A few organizations provide the **Not applicable** answer option to the single choice and Likert questions. An option to the **Not applicable** answer option is available in the survey designer for single choice and Likert questions. This option is added as the last option for the questions. If a respondent selects the **Not applicable** answer option, the score is not calculated for that question.
 
-You can select questions in a survey for which the score needs to be calculated. The **Custom score** satisfaction metric holds the value of survey score. After you've received responses to your survey, you can [view the satisfaction metrics report](satisfaction-metrics-report.md) to see the survey score showcasing the average score and trend over a period of time.
+You can select questions in a survey for which the score needs to be calculated. The **Custom score** satisfaction metric holds the value of the survey score. After you've received responses to your survey, you can [view the satisfaction metrics report](satisfaction-metrics-report.md) to see the survey score showcasing the average score and trend over a period of time.
 
 ![Custom score report](media/custom-score-report.png "Custom score report")
 
@@ -92,13 +92,13 @@ You can select questions in a survey for which the score needs to be calculated.
 
    ![Add base score, weights, and point values](media/custom-score-metric-values.png "Add base score, weights, and point values")
 
-7. Select the back arrow at the top left of the **Edit Score** panel.
+7. Select the back arrow at the upper left of the **Edit Score** panel.
 
 8. In the **Satisfaction metrics** panel, select **Save**.
 
 ## Edit scoring of a survey
 
-After you've created a **Custom Score** satisfaction metric, you can edit its details, change the questions used in calculating the survey score, base score for the survey, weight for each question, and point values for each answer option. You can also delete the ones that you don't need.
+After you've created a **Custom Score** satisfaction metric, you can edit its details. You can change the questions used in calculating the survey score, the base score for the survey, the weight for each question, and the point values for each answer option. You can also delete the ones that you don't need.
 
 1. Open the survey.
 
@@ -110,11 +110,11 @@ After you've created a **Custom Score** satisfaction metric, you can edit its de
 
 5. Select **Edit Score** and change the survey scoring logic as required.
 
-6. Select the back arrow at the top left of the **Edit Score** panel.
+6. Select the back arrow at the upper left of the **Edit Score** panel.
 
 7. In the **Satisfaction metrics** panel, select **Save**.
 
 ### See also
 
-[Add and configure satisfaction metrics](satisfaction-metrics.md)   
+[Add and configure satisfaction metrics](satisfaction-metrics.md)<br>
 [View satisfaction metrics report](satisfaction-metrics-report.md)
