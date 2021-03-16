@@ -11,7 +11,7 @@ manager: shujoshi
 ---
 
 
-<!-- In lines 177 and 181, the image shows the toolbar saying "Add alt text" but the step says it is "Edit alt text." Which is correct? -->
+<!-- In lines 177 and 181, the step says it is "Edit alt text," but the image shows the toolbar saying "Add alt text." Which is correct? -->
 
 
 
