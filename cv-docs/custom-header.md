@@ -12,15 +12,15 @@ manager: shujoshi
 
 # Customize survey header
 
-You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image, and logo as per your requirement. Also, you can turn off the header, if it is not required.
+You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image, and logo as per your requirement. Also, you can turn off the header if it is not required.
 
 ## Turn off survey header
 
-By default, the survey header is displayed. You can turn it off when not needed. For example, when embed a survey on a web page, you might not want to show the header at all.
+By default, the survey header is displayed. You can turn it off when not needed. For example, when you embed a survey on a web page, you might not want to show the header at all.
 
-1. Open the survey in which you want to turn off survey header.
+1. Open the survey in which you want to turn off the survey header.
 
-2. Hover over the survey header, and then turn off the **Header** toggle at the top right corner.
+2. Hover over the survey header, and then turn off the **Header** toggle in the upper right corner.
 
     ![Turn off header](media/header-off-toggle.png "Turn off header")
 
