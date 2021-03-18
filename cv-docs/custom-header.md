@@ -1,7 +1,7 @@
 ---
 title: "Customize header of a survey | MicrosoftDocs"
 description: "Instructions for customizing the header of a survey created with Dynamics 365 Customer Voice."
-ms.date: 03/17/2021
+ms.date: 03/18/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -25,21 +25,9 @@ By default, the survey header is displayed. You can turn it off when not needed.
 
     ![Turn off header](media/header-off-toggle.png "Turn off header")
 
-## Change header text alignment
-
-You can change the alignment of header text in the combination of the horizontal and vertical alignments. In the horizontal alignment, you can choose the text to be aligned either to the left, center, or right. In the vertical alignment, you can choose the text to be aligned either at the top, middle, or bottom. So, you can position the header text in nine different alignments.
-
-1. Open the survey in which you want to change the alignment of survey header text.
-
-2. Hover over the text to see the alignment toolbar.
-
-    ![Header text alignment](media/header-text-align.png "Header text alignment")
-
-3. Select an alignment combination.
-
 ## Change header style
 
-By default, the header is displayed in a simple style. Dynamics 365 Customer Voice provides a few predefined styles you can choose from. The styles consist of a background image and a default text alignment. When you select a style, the survey's theme is also updated accordingly. However, after applying a style, you can change the background image, text alignment, and theme color.
+By default, the header is displayed in a simple style. Dynamics 365 Customer Voice provides a few predefined styles you can choose from. The styles consist of a background image and a default text alignment. When you select a style, the survey's theme is also updated accordingly. However, after applying a style, you can change the background image, text alignment, and theme color. You can also [change the focal point of the background image](#change-focal-point-of-background-image) in the header.
 
 1. Open the survey in which you want to change the header style.
 
@@ -53,21 +41,17 @@ By default, the header is displayed in a simple style. Dynamics 365 Customer Voi
 
     ![Choose a style for the header](media/header-choose-style.png "Choose a style for the header")
 
-## Change theme color of survey
+## Change header text alignment
 
-You can select a color to apply to various survey elements such as the survey header, question area, background, footer, and buttons. This lets you customize the look and feel of your survey so it better matches your company's brand. You can also change the survey's theme while changing your survey's branding. More information: [Add branding to a survey](survey-branding.md)
+You can change the alignment of header text in the combination of the horizontal and vertical alignments. In the horizontal alignment, you can choose the text to be aligned either to the left, center, or right. In the vertical alignment, you can choose the text to be aligned either at the top, middle, or bottom. So, you can position the header text in nine different alignments.
 
-1. Open the survey in which you want to change the theme.
+1. Open the survey in which you want to change the alignment of survey header text.
 
-2. Hover over the survey header to see the toolbar.
+2. Hover over the text to see the alignment toolbar.
 
-3. Select **Theme color**.
+    ![Header text alignment](media/header-text-align.png "Header text alignment")
 
-    ![Select Theme color from the header toolbar](media/header-theme-color.png "Select Theme color from the header toolbar")
-
-4. Choose a color from the color picker or enter a hexadecimal code in the **HEX#** field.
-
-    ![Theme color picker](media/header-theme-color-picker.png "Theme color picker")
+3. Select an alignment combination.
 
 ## Add background image to survey header
 
@@ -77,6 +61,8 @@ You can select a background image for the survey header either from the images p
 - Supported formats: BMP, GIF, JPEG, and PNG
 - Maximum resolution: 800 x 600 (width x height)
 - Aspect ratio: 4:3
+
+When you add a background image, the survey's theme is also updated accordingly.
 
 **To add a background image**
 
@@ -96,9 +82,9 @@ You can select a background image for the survey header either from the images p
 
     ![Background image added to the header](media/header-background-image.png "Background image added to the header")
 
-### Change focal point of background image
+## Change focal point of background image
 
-After you add a background image, the only portion of the image that is visible is what fits in the header area. You can change the focal point to adjust which portion of the image should be visible.
+When you select a style or add a background image, the only portion of the image that is visible is what fits in the header area. You can change the focal point to adjust which portion of the image should be visible.
 
 1. Open the survey in which you want to change focal point of the background image.
 
@@ -113,6 +99,22 @@ After you add a background image, the only portion of the image that is visible 
 5. Select **Focal point** in the upper left corner to exit the focal point adjustment.
 
     ![Exit focal point adjustment](media/header-focal-point-exit.png "Exit focal point adjustment")
+
+## Change theme color of survey
+
+You can select a color to apply to various survey elements such as the survey header, question area, background, footer, and buttons. This lets you customize the look and feel of your survey so it better matches your company's brand. You can also change the survey's theme while changing your survey's branding. More information: [Add branding to a survey](survey-branding.md)
+
+1. Open the survey in which you want to change the theme.
+
+2. Hover over the survey header to see the toolbar.
+
+3. Select **Theme color**.
+
+    ![Select Theme color from the header toolbar](media/header-theme-color.png "Select Theme color from the header toolbar")
+
+4. Choose a color from the color picker or enter a hexadecimal code in the **HEX#** field.
+
+    ![Theme color picker](media/header-theme-color-picker.png "Theme color picker")
 
 ## Add logo to survey header
 
