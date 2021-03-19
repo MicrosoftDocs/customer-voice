@@ -1,7 +1,7 @@
 ---
 title: "Customize header of a survey | MicrosoftDocs"
 description: "Instructions for customizing the header of a survey created with Dynamics 365 Customer Voice."
-ms.date: 03/18/2021
+ms.date: 03/19/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -38,6 +38,9 @@ By default, the header is displayed in a simple style. Dynamics 365 Customer Voi
     ![Select Style from the header toolbar](media/header-style.png "Select Style from the header toolbar")
 
 4. In the **Choose a style** panel, select one of the predefined styles.
+
+    > [!NOTE]
+    > The **Compact** style has the least header height as compared to other styles. You cannot add a background image to the survey header when you select this style.
 
     ![Choose a style for the header](media/header-choose-style.png "Choose a style for the header")
 
@@ -82,9 +85,25 @@ When you add a background image, the survey's theme is also updated accordingly.
 
     ![Background image added to the header](media/header-background-image.png "Background image added to the header")
 
+### Replace or reset background image
+
+After you add a background image to the survey header, you can either replace it with another image or reset it to remove the image. When you reset the image, only the image is removed; the survey's theme stays as it is as it was updated while adding the image.
+
+1. Open the survey in which you want to replace or reset the header's background image.
+
+2. Hover over the survey header to see the toolbar.
+
+3. Select **Image**.
+
+4. In the **Add image** panel, hover over the uploaded image.
+
+5. To replace the image, select **Replace image**, and then select a new image.
+
+6. To reset the image, select **Reset**.
+
 ## Change focal point of background image
 
-When you select a style or add a background image, the only portion of the image that is visible is what fits in the header area. You can change the focal point to adjust which portion of the image should be visible.
+When you select a style or add a background image, the only portion of the image that is visible is what fits in the header area. You can change the focal point to adjust which portion of the image should be visible. After you set the focal point of the image, you should preview the survey and check how the survey header will look on a mobile device. 
 
 1. Open the survey in which you want to change focal point of the background image.
 
@@ -188,3 +207,12 @@ Alt text (alternative text) allows screen readers to read a description of your 
 
     ![Logo delete](media/logo-delete.png "Logo delete")
 
+## Undo changes
+
+You can undo up to 10 of your last changes in survey header. To undo a change, hover over the survey header, and then select **Undo** on the header toolbar.
+
+![Undo a change](media/header-undo.png "Undo a change")
+
+### See also
+
+[Add branding to a survey](survey-branding.md)
