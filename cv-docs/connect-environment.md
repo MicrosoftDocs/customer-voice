@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 Customer Voice with your environment | MicrosoftDocs"
 description: "Learn about connecting Dynamics 365 Customer Voice with your environment"
-ms.date: 01/15/2021
+ms.date: 03/23/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -40,18 +40,18 @@ A required privilege is denoted by ![Required](media/required-icon.png "Required
 
 If you provide the optional privileges, additional actions can be performed by the user who is assigned the custom role. For example, the Read privilege is required for the Contact entity and is used to associate invitations with a specific contact. Other privileges, such as Create and Write, are optional. If you provide Create and Write privileges, a user can perform these operations on a contact. If you provide only the Read privilege, and you want a particular user to perform create and write operations also on a contact, you can provide Create and Write privileges to the user through other security roles.
 
-|Entity                            |Create   |Read     |Write    |Delete   |Append   |
-|----------------------------------|---------|---------|---------|---------|---------|
-|Customer Voice project      |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
-|Customer Voice satisfaction metric    |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
-|Customer Voice localized survey email template     |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
-|Customer Voice survey                  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
-|Customer Voice survey email template   |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
-|Customer Voice survey question         |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |
-|Customer Voice survey question response|![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | 
-|Customer Voice unsubscribed recipient  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |  |  |
-|Activity                          |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |  |![Required](media/required-icon.png "Required") | | | |
-|Contact                           |  |![Required](media/required-icon.png "Required") |  |  |  |
+|Entity                            |Create   |Read     |Write    |Delete   |Append   |Append To|
+|----------------------------------|---------|---------|---------|---------|---------|---------|
+|Customer Voice project      |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
+|Customer Voice satisfaction metric    |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
+|Customer Voice localized survey email template     |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
+|Customer Voice survey                  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
+|Customer Voice survey email template   |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
+|Customer Voice survey question         |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
+|Customer Voice survey question response|![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |  |
+|Customer Voice unsubscribed recipient  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |  | 
+|Activity                          |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |  |![Required](media/required-icon.png "Required") | ![Required](media/required-icon.png "Required")| 
+|Contact                           |  |![Required](media/required-icon.png "Required") |  |
 |||||||
 
 ### See also
