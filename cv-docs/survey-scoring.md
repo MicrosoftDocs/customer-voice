@@ -1,7 +1,7 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Instructions for adding scoring to a survey created with Dynamics 365 Customer Voice."
-ms.date: 03/17/2021
+ms.date: 03/24/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -14,23 +14,23 @@ manager: shujoshi
 
 Survey scoring allows you to assign a point value to individual answer options. Point values are added to generate a survey-level score for each survey response. A survey with point values assigned to answer options is known as a scored survey. You can use scored surveys to measure your respondent's overall satisfaction level. A scored survey can help you get a better picture of customer service, agent performance, and so on.
 
-For example, as a healthcare provider, you have created a survey to measure the psychological distress of your patients by using Kessler 5 Distress Scale. The survey consists of five questions with the following answer options:
+For example, as a service provider company, you have created a survey to measure the performance of your customer service agents. The survey consists of five questions with the following answer options:
 
-- None of the time 
-- A little of the time 
-- Some of the time 
-- Most of the time 
-- All of the time 
+- Very dissatisfied 
+- Dissatisfied 
+- Neutral 
+- Satisfied 
+- Very satisfied 
 
 A point value is attached to each answer option as follows: 
 
-- None of the time = 1
-- A little of the time = 2
-- Some of the time = 3
-- Most of the time = 4
-- All of the time = 5
+- Very dissatisfied = 1
+- Dissatisfied = 2
+- Neutral = 3
+- Satisfied = 4
+- Very satisfied = 5
 
-From this survey, a total score out of 25 can be calculated. A score of 5 through 11 indicates that a person is well or  experiencing only mild distress. A score of 12 through 25 indicates that a person is experiencing moderate to high distress. 
+From this survey, a total score out of 25 can be calculated. A score of 5 through 10 indicates that a customer service agent's performance needs to be improved. A score of 11 through 20 indicates that a customer service agent's performance is up to the mark. A score above 20 indicates that a customer service agent's performance is exceeding expectations.
 
 A survey's score is calculated with the help of the following components:
 
@@ -46,19 +46,17 @@ A survey's score is calculated with the help of the following components:
 
   By default, the point values are assigned in the ascending order of the answer options.
 
-The score of a question response is calculated by multiplying weight with the point value. All the question response scores are added to generate a survey-level score.
+The score of a question response is calculated by multiplying weight with the normalized point value. All the question response scores are added to generate a survey-level score.
 
 Dynamics 365 Customer Voice allows you to apply survey scoring logic to the following question types:
 
-- **Net Promoter Score (NPS)**: You can add weight and update the point values, if required. The point value of the selected response will be multiplied by the weight to generate the question score.
+- **Net Promoter Score (NPS)**: You can add weight and update the point values, if required. The normalized point value of the selected response will be multiplied by the weight to generate the question score.
 
-- **Rating (Number, Star, and Smiley)**: You can add weight and update the point values, if required. The point value of the selected response will be multiplied by the weight to generate the question score.
+- **Rating (Number, Star, and Smiley)**: You can add weight and update the point values, if required. The normalized point value of the selected response will be multiplied by the weight to generate the question score.
 
-- **Single choice question (radio button and drop down)**: You can add weight and define the scoring order (ascending or descending). The point value for each answer option depends on the order of the answer option in the survey. For example, if there are five answer options and they are in ascending order, option 1 will have point value of 1, option 2 will have point value of 2, and so on. If the answer options are in descending order, option 1 will have point value of 5, option 2 will have point value of 4, and so on. The point value of the selected response will be multiplied by the weight to generate the question score. 
+- **Single choice question (radio button and drop down)**: You can add weight and define the scoring order (ascending or descending). The point value for each answer option depends on the order of the answer option in the survey. For example, if there are five answer options and they are in ascending order, option 1 will have point value of 1, option 2 will have point value of 2, and so on. If the answer options are in descending order, option 1 will have point value of 5, option 2 will have point value of 4, and so on. The normalized point value of the selected response will be multiplied by the weight to generate the question score. 
 
 - **Likert**: You can add weight to each of the statements in a question of type Likert. The scoring order and point values are defined in the same way as in the single choice question. The point value of the selected response will be multiplied by the weight to generate the question score.
-
-A few organizations provide the **Not applicable** answer option to the single choice and Likert questions. An option to the **Not applicable** answer option is available in the survey designer for single choice and Likert questions. This option is added as the last option for the questions. If a respondent selects the **Not applicable** answer option, the score is not calculated for that question.
 
 You can select questions in a survey for which the score needs to be calculated. The **Custom score** satisfaction metric holds the value of the survey score. After you've received responses to your survey, you can [view the satisfaction metrics report](satisfaction-metrics-report.md) to see the survey score showcasing the average score and trend over a period of time.
 
