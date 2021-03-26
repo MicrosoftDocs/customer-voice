@@ -47,3 +47,5 @@ Use this setting to set an automatic scan of surveys within your organization fo
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

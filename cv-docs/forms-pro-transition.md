@@ -118,3 +118,6 @@ If you have a Forms-only license and try to sign in to Forms Pro, the Forms home
 [Create a survey](create-survey.md)<br>
 [Send a survey](send-survey.md)<br>
 [About reports](about-reports.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

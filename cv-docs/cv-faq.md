@@ -29,3 +29,6 @@ A response owner is determined by the following logic:
 ## I deleted data from Microsoft Dataverse but it is visible in reports.
 
 It is recommended not to delete data directly from Microsoft Dataverse. If you delete any data directly from Microsoft Dataverse, it is not synchronized with Customer Voice services. If you want to delete any data, you must delete using the Dynamics 365 Customer Voice interface.
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

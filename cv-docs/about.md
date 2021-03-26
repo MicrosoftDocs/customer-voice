@@ -1,7 +1,7 @@
 ---
 title: "Get started | MicrosoftDocs"
 description: "Get started with Dynamics 365 Customer Voice."
-ms.date: 10/30/2020
+ms.date: 02/26/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -26,7 +26,7 @@ Two other tabs are available in Dynamics 365 Customer Voice&mdash;**Home** and *
 
 The dependency services used by Dynamics 365 Customer Voice are available on US Government Community Cloud (GCC). Dynamics 365 Customer Voice is built on top of Microsoft Forms, so the [limitations of Microsoft Forms features on GCC](https://support.office.com/article/microsoft-forms-features-for-u-s-government-community-cloud-gcc-gcc-high-and-dod-environments-5cbd407a-eef7-431e-8e3a-eb666eab4b4c?ui=en-US&rs=en-US&ad=US) hold true. In addition to those, note the following difference in functionality for Dynamics 365 Customer Voice on GCC:
 
-- Dynamics 365 Customer Voice on GCC uses your Microsoft Exchange mailbox to send the survey. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+- Dynamics 365 Customer Voice on GCC uses your organization's Microsoft Exchange mailbox to send the survey. Exchange mailbox has limitation on the number of emails that can be sent by a user. For information about Exchange mailbox limits, see [Exchange Online limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
 > As a GCC customer, you must either have a Dynamics 365 enterprise license or a Microsoft 365 license.
@@ -35,3 +35,6 @@ The dependency services used by Dynamics 365 Customer Voice are available on US 
 
 [Sign up for the Dynamics 365 Customer Voice trial](sign-up-trial.md)<br>
 [Transition from Microsoft Forms Pro to Dynamics 365 Customer Voice](forms-pro-transition.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

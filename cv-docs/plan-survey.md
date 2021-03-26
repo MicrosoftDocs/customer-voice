@@ -99,3 +99,6 @@ Dynamics 365 Customer Voice has a limit on the number of surveys you can create,
 [Create a project](create-project.md)<br>
 [Send a survey to get responses](send-survey.md) <br>
 [Connect Dynamics 365 Customer Voice with your environment](connect-environment.md)<br>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -55,3 +55,6 @@ In the following illustration, custom formatting has been applied to the survey 
 [Create multilingual survey](create-multilingual-survey.md)<br>
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

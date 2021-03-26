@@ -66,3 +66,6 @@ manager: shujoshi
 </tr>
 
 </table>
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,6 +52,8 @@
     href: custom-post-survey-message.md
   - name: Preview and test a survey
     href: preview-test-survey.md
+  - name: Save a survey in progress
+    href: save-survey-progress.md
   - name: Work with alerts
     href: alerts.md
 
@@ -98,6 +100,9 @@
 - name: Dynamics 365 Customer Voice GDPR compliance
   href: gdpr.md
   
+- name: Cookies in Dynamics 365 Customer Voice
+  href: cookies.md
+
 - name: Customer Voice FAQ
   href: cv-faq.md
 
