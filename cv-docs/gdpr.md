@@ -12,15 +12,15 @@ manager: shujoshi
 
 # Dynamics 365 Customer Voice GDPR compliance
 
-The European Union (EU) General Data Protection Regulation (GDPR) gives rights to people (known in the regulation as data subjects) to manage the personal data that's been collected by a corporation or other types organizations, including employers (known as the data controller or just controller). Personal data is defined very broadly under the GDPR as any data that relates to an identified or identifiable natural person. Microsoft is committed to helping business customers to be GDPR compliant and Dynamics 365 Customer Voice is GDPR compliant.
+The European Union (EU) General Data Protection Regulation (GDPR) gives rights to people (known in the regulation as data subjects) to manage the personal data that's been collected by a corporation or other types organizations, including employers (known as the data controller or just controller). Personal data is defined broadly under the GDPR as any data that relates to an identified or identifiable natural person. Microsoft is committed to helping business customers to be GDPR compliant and Dynamics 365 Customer Voice is GDPR compliant.
 
-Dynamics 365 Customer Voice allows licensed users to capture feedback swiftly across different channels with personalized surveys and helps track customer metrics that are important. The survey questions, invitations, satisfaction metrics defined, responses from end users are all in the direct control of administrators and end users. Microsoft processes data on behalf of customers to provide the requested service as set forth in our [Online Services Terms](https://go.microsoft.com/fwlink/?LinkID=734008). Administrators can set policies that control this information independent of the user account lifecycle for which Dynamics 365 Customer Voice license is associated with.
+Dynamics 365 Customer Voice allows licensed users to capture feedback swiftly across different channels with personalized surveys. It also helps to track customer metrics that are important. The survey questions, invitations, satisfaction metrics defined, responses from end users are all in the direct control of administrators and end users. Microsoft processes data on behalf of customers to provide the requested service as set forth in our [Online Services Terms](https://go.microsoft.com/fwlink/?LinkID=734008). Administrators can set policies that control this information independent of the user account lifecycle for which Dynamics 365 Customer Voice license is associated with.
 
-The in-app functionality in Dynamics 365 Customer Voice enables to [discover](#discover), [access](#access), [export](#export) and [delete](#delete) personal data.
+The in-app functionality in Dynamics 365 Customer Voice enables to [discover](#discover), [access](#access), [export](#export), and [delete](#delete) personal data.
 
 ## Discover
 
-Licensed users of Dynamics 365 Customer Voice must log in to https://customervoice.microsoft.com and select **All Projects** to see the list of all projects that they have created or have collaborated with other users within the tenant. To determine whether Dynamics 365 Customer Voice has personal data for the DSR, you can ask the Data Subject to search his list to determine which users ("Customer Voice Project Owners") have sent the survey to the Data Subject. You can then ask the project owners to share the response page link so that you can view it and further determine whether it is material to your DSR.
+Licensed users of Dynamics 365 Customer Voice must sign in to https://customervoice.microsoft.com and select **All Projects** to see the list of all projects that they have created or have collaborated with other users within the tenant. To determine whether Dynamics 365 Customer Voice has personal data for the DSR, you can ask the Data Subject to search his list to determine which users ("Customer Voice Project Owners") have sent the survey to the Data Subject. You can then ask the project owners to share the response page link so that you can view it and further determine whether it is material to your DSR.
 
 ## Access
 
@@ -44,11 +44,11 @@ To export responses, go to the survey report, and select **Export all** in the u
 
 ### Where is the data stored for Dynamics 365 Customer Voice?
 
-Dynamics 365 Customer Voice has two data stores, the primary data store is on servers in the United States, with the exception of data for European-based tenants. The data for European-based tenants is stored on servers in Europe. The secondary data store is in the respective Microsoft Dataverse environment location. For more details on Dataverse, see [Resources to manage GDPR Compliance](https://docs.microsoft.com/power-platform/admin/wp-compliance-data-privacy#resources-to-manage-gdpr-compliance).
+Dynamics 365 Customer Voice has two data stores, the primary data store is on servers in the United States, with the exception of data for European-based tenants. The data for European-based tenants is stored on servers in Europe. The secondary data store is in the respective Microsoft Dataverse environment location. For more information about Dataverse, see [Resources to manage GDPR Compliance](https://docs.microsoft.com/power-platform/admin/wp-compliance-data-privacy#resources-to-manage-gdpr-compliance).
 
 ### How do I restrict access to Dynamics 365 Customer Voice?
 
-Microsoft 365 administrators can turn off Dynamics 365 Customer Voice USL for users by going to the **User Management** tab in Microsoft 365 Admin Center. See [Disable Dynamics 365 Customer Voice for a user](purchase.md#disable-dynamics-365-customer-voice-for-a-user) for Dynamics 365 subscription and [Disable Dynamics 365 Customer Voice for a user](purchase.md#disable-dynamics-365-customer-voice-for-a-user-1) for standalone Dynamics 365 Customer Voice subscription for more details. 
+Microsoft 365 administrators can turn off Dynamics 365 Customer Voice USL for users by going to the **User Management** tab in Microsoft 365 Admin Center. For more information about disabling Dynamics 365 Customer Voice for a user with enterprise licenses, see [Disable Dynamics 365 Customer Voice for a user with enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user). For more information about disabling Dynamics 365 Customer Voice for a user without enterprise licenses [Disable Dynamics 365 Customer Voice for a user without enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user-1). 
  
 ### The original owner of a survey is no longer with the organization and/or their Dynamics 365 Customer Voice license has been removed. What happens to the data that is associated with the surveys they created?
 
