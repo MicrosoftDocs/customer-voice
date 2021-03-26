@@ -31,7 +31,7 @@ You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After th
 
 ## Experience for a trial or new user
 
-Dynamics 365 Customer Voice uses a Microsoft Dataverse environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionality isn't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionality becomes available. More information: [What is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](https://docs.microsoft.com/power-platform/admin/environments-overview)
+Dynamics 365 Customer Voice uses a Microsoft Dataverse environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionality isn't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionality becomes available. More information: [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
 
 This section lists all the functionality that will be restricted until an environment is provisioned. The restricted experience applies:
 
