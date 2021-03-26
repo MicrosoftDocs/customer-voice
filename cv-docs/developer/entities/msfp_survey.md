@@ -961,9 +961,9 @@ See msfp_project Entity [msfp_msfp_project_msfp_survey_project](msfp_project.md#
 
 ### See also
 
-[About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
-[Programming reference for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
-[Web API reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
+[About the Entity Reference](/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
+[Programming reference for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
+[Web API reference](/dynamics365/customer-engagement/web-api/about)<br />
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

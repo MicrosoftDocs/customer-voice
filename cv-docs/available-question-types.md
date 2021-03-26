@@ -52,7 +52,7 @@ You can accept multiple lines of text for your question by turning on the **Long
 
 ### Add restrictions in text-based questions
 
-You can add restrictions to the kind of answers you'll accept from your respondents to a text-based question. For example, you can restrict their answers to be a number, an email address, or a string in a predefined format (based on a [regular expression](https://docs.microsoft.com/dotnet/standard/base-types/regular-expression-language-quick-reference)) such as a booking ID.
+You can add restrictions to the kind of answers you'll accept from your respondents to a text-based question. For example, you can restrict their answers to be a number, an email address, or a string in a predefined format (based on a [regular expression](/dotnet/standard/base-types/regular-expression-language-quick-reference)) such as a booking ID.
 
 1. In the text-based question, select **More settings for question** (...), and then select **Restrictions**.
 2. Select one of the following options from the **Restrictions** list:

@@ -97,6 +97,9 @@
 - name: Data flow in Customer Voice
   href: data-flow.md
 
+- name: Dynamics 365 Customer Voice GDPR compliance
+  href: gdpr.md
+  
 - name: Cookies in Dynamics 365 Customer Voice
   href: cookies.md
 
