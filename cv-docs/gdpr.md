@@ -20,7 +20,7 @@ The in-app functionality in Dynamics 365 Customer Voice enables to [discover](#d
 
 ## Discover
 
-Licensed users of Dynamics 365 Customer Voice must sign in to https://customervoice.microsoft.com and select **All Projects** to see the list of all projects that they have created or have collaborated with other users within the tenant. To determine whether Dynamics 365 Customer Voice has personal data for the DSR, you can ask the Data Subject to search his list to determine which users ("Customer Voice Project Owners") have sent the survey to the Data Subject. You can then ask the project owners to share the response page link so that you can view it and further determine whether it is material to your DSR.
+Licensed users of Dynamics 365 Customer Voice must sign in to https://customervoice.microsoft.com and select **All Projects** to see the list of all projects that they have created or have collaborated with other users within the tenant. To determine whether Dynamics 365 Customer Voice has personal data for the Data Subject Request (DSR), you can ask the Data Subject to search his list to determine which users ("Customer Voice Project Owners") have sent the survey to the Data Subject. You can then ask the project owners to share the response page link so that you can view it and further determine whether it is relevant to your DSR.
 
 ## Access
 
@@ -28,7 +28,7 @@ After the relevant surveys are found, you can access the responses of the survey
 
 ## Delete
 
-A project or survey can be permanently deleted by its owner. To honor a DSR to "forget me" and to delete a survey in its entirety, go to the **All projects** tab, hover over the project you want to delete, select the ellipsis button, and then select **Delete**. Once a project is deleted, all surveys and their questions, invitations, and responses are deleted permanently. If a project consists of more than one survey, open the project, hover over the survey to be deleted, select the ellipsis button, and then select **Delete**. Once a survey is deleted, all the survey questions,  invitations, and responses for the survey are deleted permanently. 
+A project or survey can be permanently deleted by its owner. To honor the "forget me" request by a DSR and to delete a survey in its entirety, go to the **All projects** tab, hover over the project you want to delete, select the ellipsis button, and then select **Delete**. Once a project is deleted, all surveys and their questions, invitations, and responses are deleted permanently. If a project consists of more than one survey, open the project, hover over the survey to be deleted, select the ellipsis button, and then select **Delete**. Once a survey is deleted, all the survey questions,  invitations, and responses for the survey are deleted permanently. 
 
 ## Export
 
@@ -48,7 +48,7 @@ Dynamics 365 Customer Voice has two data stores, the primary data store is on se
 
 ### How do I restrict access to Dynamics 365 Customer Voice?
 
-Microsoft 365 administrators can turn off Dynamics 365 Customer Voice USL for users by going to the **User Management** tab in Microsoft 365 Admin Center. For more information about disabling Dynamics 365 Customer Voice for a user with enterprise licenses, see [Disable Dynamics 365 Customer Voice for a user with enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user). For more information about disabling Dynamics 365 Customer Voice for a user without enterprise licenses [Disable Dynamics 365 Customer Voice for a user without enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user-1). 
+Microsoft 365 administrators can turn off Dynamics 365 Customer Voice USL for users by going to **User Management** in Microsoft 365 Admin Center. For information about disabling Dynamics 365 Customer Voice for a user with enterprise licenses, see [Disable Dynamics 365 Customer Voice for a user with enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user). For information about disabling Dynamics 365 Customer Voice for a user without enterprise licenses [Disable Dynamics 365 Customer Voice for a user without enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user-1). 
  
 ### The original owner of a survey is no longer with the organization and/or their Dynamics 365 Customer Voice license has been removed. What happens to the data that is associated with the surveys they created?
 
