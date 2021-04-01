@@ -23,7 +23,7 @@ Dynamics 365 Customer Voice also use cookies to store information for various pu
 | MS0 | Stores the session identification cookie. | 90 days |
 | MSFPC  | Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose.   | 1 year |
 |  MUID  | Used to identify different anonymous users. Critical service cookie to analyze service usage anonymously and aggregated for statistical purpose. | 1 year |
-| _RequestVerificationToken  | Used by the [antiforgery](https://docs.microsoft.com/dotnet/api/system.web.helpers.antiforgeryconfig.cookiename) system.  | Session |
+| _RequestVerificationToken  | Used by the [antiforgery](/dotnet/api/system.web.helpers.antiforgeryconfig.cookiename) system.  | Session |
 | AADAuth.forms | Azure Active Directory authentication token. | 90 days |
 | AADAuthCode.forms | An authentication code used to redeem Azure Active Directory authentication token. | 90 days |
 | AADSID.forms | Azure Active Directory authentication session ID.  | 90 days |
