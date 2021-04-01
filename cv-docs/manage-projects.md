@@ -2,8 +2,7 @@
 title: "Manage projects | MicrosoftDocs"
 description: "Instructions for managing projects with Dynamics 365 Customer Voice"
 ms.date: 12/04/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
