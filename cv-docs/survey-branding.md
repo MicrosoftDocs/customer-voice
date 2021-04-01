@@ -2,8 +2,7 @@
 title: "Add branding to a survey | MicrosoftDocs"
 description: "Instructions for adding branding to a survey created with Dynamics 365 Customer Voice."
 ms.date: 04/01/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
