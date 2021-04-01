@@ -1,7 +1,7 @@
 ---
 title: "Add branding to a survey | MicrosoftDocs"
 description: "Instructions for adding branding to a survey created with Dynamics 365 Customer Voice."
-ms.date: 02/03/2021
+ms.date: 04/01/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -27,6 +27,9 @@ You can customize the appearance of your survey to match your company's branding
    ![Branding panel](media/branding-panel.png "Branding panel")
 
 3. Update the branding options, as described in the following sections.
+
+> [!NOTE]
+> You can now edit the header directly on the survey. Try adding a new style or background image to your header design by selecting the appropriate link in the **Branding** panel. 
 
 ## Theme color
 

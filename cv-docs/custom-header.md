@@ -1,7 +1,7 @@
 ---
 title: "Customize header of a survey | MicrosoftDocs"
 description: "Instructions for customizing the header of a survey created with Dynamics 365 Customer Voice."
-ms.date: 03/19/2021
+ms.date: 04/01/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
@@ -13,7 +13,7 @@ manager: shujoshi
 
 # Customize survey header
 
-You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image, and logo as per your requirement. Also, you can turn off the header if it is not required.
+You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image in the header, and logo as per your requirement. Also, you can turn off the header if it is not required.
 
 ## Turn off survey header
 
@@ -89,6 +89,9 @@ When you add a background image, the survey's theme is also updated accordingly.
 
 After you add a background image to the survey header, you can either replace it with another image or reset it to remove the image. When you reset the image, only the image is removed; the survey's theme stays as it is as it was updated while adding the image.
 
+> [!NOTE]
+> For out of the box images, you can only reset the image.
+
 1. Open the survey in which you want to replace or reset the header's background image.
 
 2. Hover over the survey header to see the toolbar.
@@ -104,6 +107,9 @@ After you add a background image to the survey header, you can either replace it
 ## Change focal point of background image
 
 When you select a style or add a background image, the only portion of the image that is visible is what fits in the header area. You can change the focal point to adjust which portion of the image should be visible. After you set the focal point of the image, you should preview the survey and check how the survey header will look on a mobile device. 
+
+> [!NOTE]
+> It is recommended that you should preview the survey and check how the survey header will look on a desktop and mobile device after setting the focal point. This ensures that the header image is displayed properly in both desktop and mobile device.
 
 1. Open the survey in which you want to change focal point of the background image.
 
@@ -196,6 +202,8 @@ Alt text (alternative text) allows screen readers to read a description of your 
     ![Logo alt text](media/logo-alt-text.png "Logo alt text")
 
 3. In the **Add alt text** dialog box, enter a description of the logo in the field provided.
+
+    ![Add alt text to the logo](media/logo-alt-text-add.png "Add alt text to the logo")
 
 4. Select **Add**.
 
