@@ -100,11 +100,16 @@ After you add a background image to the survey header, you can either replace it
 
 3. Select **Image**.
 
+    ![Select Image from the header toolbar](media/header-image.png "Select Image from the header toolbar")
+
 4. In the **Add image** panel, hover over the uploaded image.
 
 5. To replace the image, select **Replace image**, and then select a new image.
 
-6. To reset the image, select **Reset**.
+    ![Replace image in the header](media/header-replace-image.png "Replace image in the header")
+
+6. To reset the image, select **Reset** ![Reset image in the header](media/header-reset-image.png "Reset image in the header").
+
 
 ## Change focal point of background image
 
