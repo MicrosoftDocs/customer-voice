@@ -2,8 +2,7 @@
 title: "Personalize a survey | MicrosoftDocs"
 description: "Instructions for personalizing a survey with Dynamics 365 Customer Voice"
 ms.date: 01/15/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
