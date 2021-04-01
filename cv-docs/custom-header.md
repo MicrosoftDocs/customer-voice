@@ -12,6 +12,9 @@ manager: shujoshi
 
 # Customize survey header
 
+> [!NOTE]
+> This feature is being rolled out in phases and will be available in all geographical regions by April 07, 2021.
+
 You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image in the header, and logo as per your requirement. Also, you can turn off the header if it is not required.
 
 ## Turn off survey header
