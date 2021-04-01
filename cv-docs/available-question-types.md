@@ -2,8 +2,7 @@
 title: "Question types available | MicrosoftDocs"
 description: "Know about the available question types in Dynamics 365 Customer Voice"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

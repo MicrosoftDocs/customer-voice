@@ -2,8 +2,7 @@
 title: "Send a survey to your respondents | MicrosoftDocs"
 description: "Instructions for sending a survey to your respondents"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
