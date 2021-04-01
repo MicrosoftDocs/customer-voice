@@ -46,6 +46,8 @@
     href: survey-text-format.md
   - name: Format a survey
     href: survey-formatting.md
+  - name: Customize survey header
+    href: custom-header.md 
   - name: Customize footer text
     href: custom-footer.md
   - name: Customize post-survey message

@@ -2,8 +2,7 @@
 title: "Entity Reference for Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Reference documentation for the entities of Microsoft Dynamics 365 Customer Voice."
 ms.date: 09/01/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"
@@ -13,8 +12,7 @@ search.audienceType:
 search.app: 
   - PowerApps
   - D365CE
-search.appverid:
-  - FPR160
+search.appverid: FPR160
 ---
 
 # Entity Reference for Dynamics 365 Customer Voice

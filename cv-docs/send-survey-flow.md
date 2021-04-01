@@ -2,8 +2,7 @@
 title: "Send a survey by using Power Automate | MicrosoftDocs"
 description: "Instructions for sending a survey by using Power Automate"
 ms.date: 10/05/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
