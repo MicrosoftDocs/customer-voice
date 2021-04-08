@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "Instructions for sharing a survey by using a link"
-ms.date: 02/21/2021
+ms.date: 04/08/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
