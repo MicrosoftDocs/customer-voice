@@ -1,6 +1,6 @@
 ---
 title: "Connect Dynamics 365 Customer Voice with your environment | MicrosoftDocs"
-description: "Learn about connecting Dynamics 365 Customer Voice with your environment"
+description: "An environment is a space to store, manage, and share business data. This topic explains how to connect Dynamics 365 Customer Voice with your environment."
 ms.date: 03/26/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article

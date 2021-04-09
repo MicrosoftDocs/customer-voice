@@ -1,6 +1,6 @@
 ---
 title: "Plan a survey | MicrosoftDocs"
-description: "Instructions for planning a survey with Customer Voice"
+description: "It's important to have a plan for creating your surveys. This topic explains how to plan a survey with Customer Voice."
 ms.date: 09/10/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article

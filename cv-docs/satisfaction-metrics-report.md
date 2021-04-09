@@ -1,6 +1,6 @@
 ---
 title: "View satisfaction metrics report | MicrosoftDocs"
-description: "Learn about satisfaction metrics report in Dynamics 365 Customer Voice."
+description: "This topic explains how to use the satisfaction metrics dashboard to see recent scores and trends of satisfaction metrics in Dynamics 365 Customer Voice."
 ms.date: 07/29/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article
