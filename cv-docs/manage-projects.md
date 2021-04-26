@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "Instructions for managing projects with Dynamics 365 Customer Voice"
-ms.date: 12/04/2020
+ms.date: 04/26/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -142,7 +142,6 @@ The following components can be updated:
     - Survey customizations
     - Survey distribution settings
     - Email templates and their corresponding languages
-    - Power Automate flows
 
 Let's understand the update operation with the following example. 
 
