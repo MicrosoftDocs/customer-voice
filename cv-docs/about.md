@@ -29,7 +29,7 @@ The dependency services used by Dynamics 365 Customer Voice are available on US 
 
 > [!NOTE]
 > - As a GCC customer, you must either have a Dynamics 365 enterprise license or a Microsoft 365 license.
-> - GCC customers requiring FedRamp certification of the services, the URL to access customer voice is [http://customervoice.microsoft.us](http://customervoice.microsoft.us).
+> - GCC customers requiring FedRamp certification of the services, the URL to access customer voice is [https://customervoice.microsoft.us](https://customervoice.microsoft.us).
 
 ### See also
 
