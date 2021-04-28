@@ -1,7 +1,7 @@
 ---
 title: "Get started | MicrosoftDocs"
 description: "Get started with Dynamics 365 Customer Voice."
-ms.date: 02/26/2021
+ms.date: 04/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -28,7 +28,8 @@ The dependency services used by Dynamics 365 Customer Voice are available on US 
 - Dynamics 365 Customer Voice on GCC uses your organization's Microsoft Exchange mailbox to send the survey. Exchange mailbox has limitation on the number of emails that can be sent by a user. For information about Exchange mailbox limits, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
 > [!NOTE]
-> As a GCC customer, you must either have a Dynamics 365 enterprise license or a Microsoft 365 license.
+> - As a GCC customer, you must either have a Dynamics 365 enterprise license or a Microsoft 365 license.
+> - GCC customers requiring FedRamp certification of the services, the URL to access customer voice is [http://customervoice.microsoft.us](http://customervoice.microsoft.us).
 
 ### See also
 
