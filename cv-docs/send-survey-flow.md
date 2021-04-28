@@ -2,8 +2,7 @@
 title: "Send a survey by using Power Automate | MicrosoftDocs"
 description: "Instructions for sending a survey by using Power Automate"
 ms.date: 10/05/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -31,9 +30,9 @@ After creating a survey, you can send it to respondents based on a business trig
     > [!NOTE]
     > If you've sent your survey through email once, the invitation summary is displayed. To send your survey by using Power Automate, select **Resend** > **Automate**.
 
-3.  To configure a built-in flow, select a template. More information: [Create a flow from a template in Power Automate](https://docs.microsoft.com/flow/get-started-logic-template)
+3.  To configure a built-in flow, select a template. More information: [Create a flow from a template in Power Automate](/flow/get-started-logic-template)
 
-5.  To create a flow from scratch, select **Create from blank**. More information: [Create a flow in Power Automate](https://docs.microsoft.com/flow/get-started-logic-flow)
+5.  To create a flow from scratch, select **Create from blank**. More information: [Create a flow in Power Automate](/flow/get-started-logic-flow)
 
     > [!NOTE]
     > - The flow will use the default email template for sending emails. If you want to send email by using a specific email template, ensure that you've selected it from the **Email template** list in the [send a survey](#send-a-survey-action) action.
