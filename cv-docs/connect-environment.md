@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 Customer Voice with your environment | MicrosoftDocs"
 description: "Learn about connecting Dynamics 365 Customer Voice with your environment"
-ms.date: 04/08/2021
+ms.date: 04/28/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article

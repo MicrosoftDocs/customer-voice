@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Frequently asked questions in Dynamics 365 Customer Voice"
-ms.date: 03/19/2021
+ms.date: 04/28/2021
 ms.service: 
   - dynamics-365-customervoice
 ms.topic: article
