@@ -55,7 +55,6 @@ This section lists all the functionality that will be restricted until an enviro
 
 - Only for the default environment.
 - Only for the trial users and the users who purchase Dynamics 365 Customer Voice through Web Direct.
-- Only when you sign in for the first time before an environment is provisioned.
 
 **What can you do while an environment is getting provisioned?**
 
