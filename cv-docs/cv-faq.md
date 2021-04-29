@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Frequently asked questions in Dynamics 365 Customer Voice"
-ms.date: 01/11/2021
+ms.date: 04/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -28,6 +28,10 @@ A response owner is determined by the following logic:
 ## I deleted data from Microsoft Dataverse but it is visible in reports.
 
 It is recommended not to delete data directly from Microsoft Dataverse. If you delete any data directly from Microsoft Dataverse, it is not synchronized with Customer Voice services. If you want to delete any data, you must delete using the Dynamics 365 Customer Voice interface.
+
+## Why does the application user require the System Administrator role?
+
+The application user requires the System Administrator role to associate survey invites and responses to any of the entities, including custom entities.
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
