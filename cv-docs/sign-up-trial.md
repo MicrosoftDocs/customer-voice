@@ -40,7 +40,7 @@ You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After th
 6. In the **You're all set** step, do one of the following:
 
    - Enter usernames of your co-workers to send invitations for trying Dynamics 365 Customer Voice, and then select **Send invitations**. The invitations will be sent and you are redirected to the Dynamics 365 Customer Voice home page.
-   - Select **Skip & go to Dynamics 365 Customer Voice** to skip sending the invitations and directly to the Dynamics 365 Customer Voice home page.
+   - Select **Skip & go to Dynamics 365 Customer Voice** to skip sending the invitations and directly go to the Dynamics 365 Customer Voice home page.
 
    ![Send invitations and login to Dynamics 365 Customer Voice](media/trial-setup-4.png "Send invitations and login to Dynamics 365 Customer Voice")
 
