@@ -101,6 +101,9 @@
 
 - name: Dynamics 365 Customer Voice GDPR compliance
   href: gdpr.md
+
+- name: Integrate Customer Voice with Customer Service
+  href: integrate-cv-cs.md
   
 - name: Cookies in Dynamics 365 Customer Voice
   href: cookies.md
