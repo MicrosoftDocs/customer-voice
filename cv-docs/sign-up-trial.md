@@ -1,5 +1,5 @@
 ---
-title: "Sign up for trial | MicrosoftDocs"
+title: "Sign up for a trial | MicrosoftDocs"
 description: "Instructions for signing up for Dynamics 365 Customer Voice trial."
 ms.date: 04/29/2021
 ms.service: dynamics-365-customervoice
@@ -13,10 +13,10 @@ manager: shujoshi
 
 [!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, see [Purchase Dynamics 365 Customer Voice](purchase.md).
+You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
 
 > [!NOTE]
-> Dynamics 365 Customer Voice is not available for trial in US Government Community Cloud.
+> Dynamics 365 Customer Voice isn't available for trial in US Government Community Cloud.
 
 1. Open [https://dynamics.microsoft.com/customer-voice/overview/](https://dynamics.microsoft.com/customer-voice/overview/) in a web browser.
 
@@ -39,10 +39,10 @@ You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After th
 
 6. In the **You're all set** step, do one of the following:
 
-   - Enter usernames of your co-workers to send invitations for trying Dynamics 365 Customer Voice, and then select **Send invitations**. The invitations will be sent and you are redirected to the Dynamics 365 Customer Voice home page.
-   - Select **Skip & go to Dynamics 365 Customer Voice** to skip sending the invitations and directly go to the Dynamics 365 Customer Voice home page.
+   - Enter usernames of your co-workers to send invitations for trying Dynamics 365 Customer Voice, and then select **Send invitations**. The invitations will be sent, and you'll be redirected to the Dynamics 365 Customer Voice home page.
+   - Select **Skip & go to Dynamics 365 Customer Voice** to skip sending the invitations and go directly to the Dynamics 365 Customer Voice home page.
 
-   ![Send invitations and login to Dynamics 365 Customer Voice](media/trial-setup-4.png "Send invitations and login to Dynamics 365 Customer Voice")
+   ![Send invitations and sign in to Dynamics 365 Customer Voice](media/trial-setup-4.png "Send invitations and sign in to Dynamics 365 Customer Voice")
 
    > [!NOTE]
    > You can receive a total of 100 survey responses in the trial period.
@@ -51,10 +51,10 @@ You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After th
 
 Dynamics 365 Customer Voice uses a Microsoft Dataverse environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionality isn't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionality becomes available. More information: [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
 
-This section lists all the functionality that will be restricted until an environment is provisioned. The restricted experience applies:
+This section lists all the functionality that will be restricted until an environment is provisioned. These restrictions apply:
 
 - Only for the default environment.
-- Only for the trial users and the users who purchase Dynamics 365 Customer Voice through Web Direct.
+- Only for the trial users and the users who purchase Dynamics 365 Customer Voice through Web Direct.<!--note from editor: What is "Web Direct"? I don't find it in our style guides or on the web in relation to our products, but it sounds like something we perhaps should add.-->
 
 **What can you do while an environment is getting provisioned?**
 
@@ -65,8 +65,8 @@ This section lists all the functionality that will be restricted until an enviro
 - View reports (as read-only).
 - Select links such as content, videos, and blogs on the **Home** tab.
 
-**What are you unable to do while an environment is getting provisioned?**
-
+**What can't you do while an environment is getting provisioned?**
+<!--note from editor: Edit to the heading is suggested, just to be parallel.-->
 - Send your surveys through email or Power Automate.
 - Choose or modify email templates.
 - Submit responses while previewing a survey.
