@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a trial | MicrosoftDocs"
 description: "Instructions for signing up for Dynamics 365 Customer Voice trial."
-ms.date: 04/29/2021
+ms.date: 05/04/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -66,7 +66,7 @@ This section lists all the functionality that will be restricted until an enviro
 - Select links such as content, videos, and blogs on the **Home** tab.
 
 **What can't you do while an environment is getting provisioned?**
-<!--note from editor: Edit to the heading is suggested, just to be parallel.-->
+
 - Send your surveys through email or Power Automate.
 - Choose or modify email templates.
 - Submit responses while previewing a survey.
