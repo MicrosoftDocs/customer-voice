@@ -54,7 +54,7 @@ Dynamics 365 Customer Voice uses a Microsoft Dataverse environment to store and 
 This section lists all the functionality that will be restricted until an environment is provisioned. These restrictions apply:
 
 - Only for the default environment.
-- Only for the trial users and the users who purchase Dynamics 365 Customer Voice through Web Direct.<!--note from editor: What is "Web Direct"? I don't find it in our style guides or on the web in relation to our products, but it sounds like something we perhaps should add.-->
+- Only for the trial users and the users who purchase Dynamics 365 Customer Voice through Microsoft 365 admin center.
 
 **What can you do while an environment is getting provisioned?**
 
