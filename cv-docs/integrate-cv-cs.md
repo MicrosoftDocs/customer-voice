@@ -1,7 +1,7 @@
 ---
 title: "Integrate Dynamics 365 Customer Voice with Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Instructions for integrating Dynamics 365 Customer Voice with Dynamics 365 Customer Service"
-ms.date: 04/28/2021
+ms.date: 05/04/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
