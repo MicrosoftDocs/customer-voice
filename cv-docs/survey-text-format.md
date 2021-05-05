@@ -2,8 +2,7 @@
 title: "Format text in a survey | MicrosoftDocs"
 description: "Instructions for formatting text in a survey created with Dynamics 365 Customer Voice"
 ms.date: 01/08/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -55,3 +54,6 @@ In the following illustration, custom formatting has been applied to the survey 
 [Create multilingual survey](create-multilingual-survey.md)<br>
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

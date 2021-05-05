@@ -1,9 +1,8 @@
 ---
 title: "Create a multilingual survey | MicrosoftDocs"
 description: "Instructions for creating a multilingual survey with Dynamics 365 Customer Voice"
-ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 02/02/2021
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -123,105 +122,92 @@ After adding translations for the required languages in your survey, you can edi
 
 When you create a multilingual survey, you can use the **locale** survey variable to set the default language for displaying the survey. You must use the language codes as provided in the following table:
 
-|     Language code           |     Language                                   |
-|---------------------------|------------------------------------------------|
-|         af                |      Afrikaans                                 |
-|           am-et           |      አማርኛ (ኢትዮጵያ)                        |
-|           ar              |      العربية                                   |
-|           as-in           |      অসমীয়া (ভাৰত)                       |
-|           az-latn-az      |      azərbaycan (Azərbaycan)             |
-|           be              |      Беларуская                                |
-|           bg              |      български                                 |
-|           bn-bd           |      বাংলা (বাংলাদেশ)                    |
-|           bn-in           |      বাংলা (ভারত)                        |
-|           bs-latn-ba      |      bosanski (Bosna i   Hercegovina)    |
-|         ca                |      català                                    |
-|         ca-es-valencia    |      valencià   (Espanya)                |
-|         cs                |      čeština                                   |
-|         cy-gb             |      Cymraeg (Y Deyrnas   Unedig)        |
-|         da                |      dansk                                     |
-|         de                |      Deutsch                                   |
-|           el              |      Ελληνικά                                  |
-|           en-gb           |      English (United   Kingdom)          |
-|         en-us             |      English (United   States)           |
-|         es                |      español                                   |
-|           es-mx           |      español (México)                    |
-|           et              |      eesti                                     |
-|           eu              |      euskara                                   |
-|           fa              |      فارسی                                     |
-|           fi              |      suomi                                     |
-|           fil-ph          |      Filipino   (Pilipinas)              |
-|         fr                |      français                                  |
-|         fr-ca             |      français   (Canada)                 |
-|         ga-ie             |      Gaeilge (Éire)                      |
-|           gd              |      Gàidhlig                                  |
-|           gl              |      galego                                    |
-|           gu              |      ગુજરાતી                                    |
-|           ha-latn-ng      |      Hausa   (Najeriya)                  |
-|         he                |      עברית                                     |
-|         hi                |      हिन्दी                                     |
-|         hr                |      hrvatski                                  |
-|         hu                |      magyar                                    |
-|         hy                |      Հայերեն                                   |
-|         id                |      Indonesia                                 |
-|         is                |      íslenska                                  |
-|         it                |      italiano                                  |
-|           ja              |      日本語                                    |
-|           ka              |      ქართული                                   |
-|           kk              |      қазақ тілі                                |
-|           km-kh           |      ភាសាខ្មែរ (កម្ពុជា)                    |
-|           kn              |      ಕನ್ನಡ                                      |
-|           ko              |      한국어                                    |
-|           kok             |      कोंकणी                                     |
-|           ky              |      Кыргыз                                    |
-|           lb-lu           |      Lëtzebuergesch (Lëtzebuerg)         |
-|           lo              |      ລາວ                                       |
-|           lt              |      lietuvių                                  |
-|           lv              |      latviešu                                  |
-|           mi-nz           |      te reo Māori (Aotearoa)             |
-|           mk              |      македонски                                |
-|           ml              |      മലയാളം                                    |
-|           mn              |      монгол                                    |
-|           mr              |      मराठी                                     |
-|           ms              |      Melayu                                    |
-|           mt-mt           |      Malti (Malta)                       |
-|           nb-no           |      norsk bokmål (Norge)                |
-|           ne-np           |      नेपाली (नेपाल)                        |
-|           nl              |      Nederlands                                |
-|           nn-no           |      nynorsk (Noreg)                     |
-|           or-in           |      ଓଡ଼ିଆ (ଭାରତ)                          |
-|           pa              |      ਪੰਜਾਬੀ                                     |
-|           pl              |      polski                                    |
-|           prs-af          |      درى (افغانستان)\u200F                     |
-|           pt-br           |      português (Brasil)                  |
-|           pt-pt           |      português (Portugal)                |
-|           quz-pe          |      Runasimi (Perú)                     |
-|           ro              |      română                                    |
-|           ru              |      русский                                   |
-|           sd-arab-pk      |      سنڌي (پاکستان)\u200F                      |
-|           si-lk           |      සිංහල (ශ්‍රී   ලංකාව)                   |
-|           sk              |      slovenčina                                |
-|           sl              |      slovenščina                               |
-|           sq              |      shqip                                     |
-|           sr-cyrl-ba      |      српски (Босна и Херцеговина)        |
-|           sr-cyrl-rs      |      српски (Србија)                     |
-|           sr-latn-rs      |      srpski (Srbija)                     |
-|           sv              |      svenska                                   |
-|           sw              |      Kiswahili                                 |
-|           ta              |      தமிழ்                                      |
-|           te              |      తెలుగు                                     |
-|           th              |      ไทย                                       |
-|           tk-tm           |      Türkmen dili (Türkmenistan)         |
-|           tr              |      Türkçe                                    |
-|           tt              |      Татар                                     |
-|           ug              |      ئۇيغۇرچە                                  |
-|           uk              |      українська                                |
-|           ur              |      اُردو                                      |
-|           uz-latn-uz      |      o‘zbek (Oʻzbekiston)                |
-|           vi              |      Tiếng Việt                                |
-|           zh-cn           |      中文（中国）                        |
-|           zh-hk           |      中文（香港特別行政區）              |
-|           zh-tw           |      中文（台灣）                        |
+| Language code  | Language                                         |
+|----------------|--------------------------------------------------|
+| af             | Afrikaans                                        |
+| am-et          | Amharic                                          |
+| ar             | Arabic                                           |
+| as-in          | Assamese - India                                 |
+| az-latn-az     | Azerbaijani - Latin script                       |
+| bg             | Bulgarian                                        |
+| bn-in          | Bangla - India                                   |
+| bs-latn-ba     | Bosnian - Latin, Bosnia & Herzegovina            |
+| ca             | Catalan                                          |
+| ca-es-valencia | Catalan - Valencia                               |
+| cs             | Czech                                            |
+| cy-gb          | Welsh                                            |
+| da             | Danish                                           |
+| de             | German                                           |
+| el             | Greek                                            |
+| en-gb          | English - UK                                     |
+| en-us          | English - US                                     |
+| es             | Spanish - Spain, International Sort              |
+| es-mx          | Spanish - Mexico                                 |
+| et             | Estonian                                         |
+| eu             | Basque                                           |
+| fa             | Farsi                                            |
+| fi             | Finnish                                          |
+| fil-ph         | Filipino                                         |
+| fr             | French - France                                  |
+| fr-ca          | French - Canada                                  |
+| ga-ie          | Irish - Ireland                                  |
+| gd             | Gaelic - Scotland                                |
+| gl             | Galician                                         |
+| gu             | Gujarati                                         |
+| he             | Hebrew                                           |
+| hi             | Hindi                                            |
+| hr             | Croatian                                         |
+| hu             | Hungarian                                        |
+| id             | Indonesian                                       |
+| is             | Icelandic                                        |
+| it             | Italian                                          |
+| ja             | Japanese                                         |
+| ka             | Georgian                                         |
+| kk             | Kazakh                                           |
+| km-kh          | Khmer                                            |
+| kn             | Kannada                                          |
+| ko             | Korean                                           |
+| kok            | Konkhani                                         |
+| lb-lu          | Luxembourg - Luxembourgish                       |
+| lo             | Lao                                              |
+| lt             | Lithuanian                                       |
+| lv             | Latvian                                          |
+| mi-nz          | Maori - New Zealand                              |
+| mk             | Macedonian (FYROM)                               |
+| ml             | Malayalam                                        |
+| mr             | Marathi                                          |
+| ms             | Malay                                            |
+| mt-mt          | Maltese - Malta                                  |
+| nb-no          | Bokmål - Norway                                  |
+| ne-np          | Nepal - Nepali                                   |
+| nl             | Dutch                                            |
+| nn-no          | Nynorsk - Norway                                 |
+| or-in          | Oriya - India                                    |
+| pa             | Punjabi                                          |
+| pl             | Polish                                           |
+| pt-br          | Portuguese - Brazil                              |
+| pt-pt          | Portuguese                                       |
+| quz-pe         | Quechua - Peru                                   |
+| ro             | Romanian                                         |
+| ru             | Russian                                          |
+| sk             | Slovak                                           |
+| sl             | Slovenian                                        |
+| sq             | Albanian                                         |
+| sr-cyrl-ba     | Serbian (Cyrillic script) - Bosnia & Herzegovina |
+| sr-cyrl-rs     | Serbian (Cyrillic script) - Serbia               |
+| sr-latn-rs     | Serbian (Latin script) - Serbia                  |
+| sv             | Swedish                                          |
+| ta             | Tamil - India                                    |
+| te             | Telugu                                           |
+| th             | Thai                                             |
+| tk-tm          | Turkmen (Latin script)                           |
+| tr             | Turkish                                          |
+| ug             | Uyghur                                           |
+| uk             | Ukrainian                                        |
+| ur             | Urdu                                             |
+| vi             | Vietnamese                                       |
+| zh             | Chinese (traditional)                            |
+| zh-cn          | Chinese (simplified)                             |
 |||
 
 
@@ -233,3 +219,6 @@ When you create a multilingual survey, you can use the **locale** survey variabl
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)<br>
 [Add formatting to survey elements](survey-text-format.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

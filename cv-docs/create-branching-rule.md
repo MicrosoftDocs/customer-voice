@@ -2,8 +2,7 @@
 title: "Create a branching rule for a survey | MicrosoftDocs"
 description: "Instructions for creating a branching rule for a survey with Dynamics 365 Customer Voice"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -119,3 +118,6 @@ After you've created a branching rule or a set of branching rules, you can edit,
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)<br>
 [Add formatting to survey elements](survey-text-format.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

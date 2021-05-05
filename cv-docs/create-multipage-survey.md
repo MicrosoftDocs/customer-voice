@@ -2,8 +2,7 @@
 title: "Create a multiple-page survey | MicrosoftDocs"
 description: "Instructions for using sections to create a multiple-page survey with Dynamics 365 Customer Voice"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -55,3 +54,6 @@ After adding the required sections in your survey, you can duplicate, remove, or
 [Personalize a survey](personalize-survey.md)<br>
 [Format text in a survey](survey-text-format.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

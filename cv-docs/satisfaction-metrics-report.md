@@ -1,9 +1,8 @@
 ---
 title: "View satisfaction metrics report | MicrosoftDocs"
 description: "Learn about satisfaction metrics report in Dynamics 365 Customer Voice."
-ms.date: 03/10/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 05/05/2021
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -41,3 +40,5 @@ You can filter data in the charts by using the following filters:
 [About reports](about-reports.md)<br>
 [View a survey response report](survey-report.md)<br>
 [Add and configure satisfaction metrics](satisfaction-metrics.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -57,7 +57,8 @@
       "extendBreadcrumb": true,
       "searchScope": [
         "Customer Voice"
-      ]
+      ],
+      "recommendations": "true"
     },
     "fileMetadata": {},
     "template": [],

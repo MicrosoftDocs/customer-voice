@@ -2,8 +2,7 @@
 title: "Send a survey to your respondents | MicrosoftDocs"
 description: "Instructions for sending a survey to your respondents"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -34,3 +33,6 @@ In this section, you'll learn how to:
 - [Send a survey link to others](send-survey-link.md)  
 - [Send a survey QR code](send-survey-qrcode.md)  
 - [Create a survey invitation](create-survey-invite.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

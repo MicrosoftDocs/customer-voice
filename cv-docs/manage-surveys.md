@@ -2,8 +2,7 @@
 title: "Manage surveys | MicrosoftDocs"
 description: "Instructions for managing surveys with Dynamics 365 Customer Voice"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -116,3 +115,5 @@ To share a survey, open the survey, and select **Share** on the toolbar at the t
 [Create a project](create-project.md)<br>
 [Create a survey](create-survey.md)<br>
 [Manage projects](manage-projects.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

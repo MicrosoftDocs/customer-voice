@@ -2,8 +2,7 @@
 title: "Add custom footer text | MicrosoftDocs"
 description: "Instructions for adding custom footer text in a survey created with Dynamics 365 Customer Voice."
 ms.date: 01/15/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -36,3 +35,6 @@ You can add formatting to the footer text by changing their font style, font siz
 [Create a survey](create-survey.md)<br>
 [Manage surveys](manage-surveys.md)<br>
 [Manage projects](manage-projects.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
