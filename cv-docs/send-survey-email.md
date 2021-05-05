@@ -2,8 +2,7 @@
 title: "Send a survey by using email | MicrosoftDocs"
 description: "Instructions for sending a survey by using email"
 ms.date: 12/16/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -234,3 +233,6 @@ You can format your email message by using the formatting toolbar at the bottom 
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

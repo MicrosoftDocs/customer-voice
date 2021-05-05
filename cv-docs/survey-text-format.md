@@ -1,9 +1,8 @@
 ---
 title: "Format text in a survey | MicrosoftDocs"
 description: "Instructions for formatting text in a survey created with Dynamics 365 Customer Voice"
-ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 01/08/2020
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -21,7 +20,7 @@ You can customize the look of your survey by changing the font style, font size,
 - Question options
 - Section heading
 - Section description
-- Thank-you message
+- Post-survey message
 - Footer text
 - Labels for Net Promoter Score and Rating questions
 - Statements for Likert questions
@@ -45,7 +44,7 @@ In the following illustration, custom formatting has been applied to the survey 
 ![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
 
 > [!NOTE]
-> To format the thank-you message and footer text, you must first turn on **Customize message**, select the message or text, and then use the formatting toolbar. More information: [Customize footer and thank-you messages](custom-footer-thank-you.md)
+> To format the footer text, you must first turn on **Customize message**, select the text, and then use the formatting toolbar. More information: [Customize footer text](custom-footer.md)
 
 ### See also
 
@@ -55,3 +54,6 @@ In the following illustration, custom formatting has been applied to the survey 
 [Create multilingual survey](create-multilingual-survey.md)<br>
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

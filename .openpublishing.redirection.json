@@ -274,6 +274,11 @@
       "source_path": "fp-docs/developer/reference/entities/msfp_unsubscribedrecipient.md",
       "redirect_url": "/dynamics365/customer-voice/developer/entities/msfp_unsubscribedrecipient",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "cv-docs/custom-footer-thank-you.md",
+      "redirect_url": "custom-footer",
+      "redirect_document_id": false
     }
   ]
 }

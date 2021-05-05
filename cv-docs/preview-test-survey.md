@@ -2,8 +2,7 @@
 title: "Preview and test a survey | MicrosoftDocs"
 description: "Instructions for previewing and testing a survey"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -38,3 +37,6 @@ Before you send a survey to respondents, you must preview it. Previewing ensures
 [Format text in a survey](survey-text-format.md)<br>
 [Create a multilingual survey](create-multilingual-survey.md)<br>
 [Create a multiple-page survey](create-multipage-survey.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

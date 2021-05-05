@@ -1,9 +1,8 @@
 ---
 title: "Add branding to a survey | MicrosoftDocs"
 description: "Instructions for adding branding to a survey created with Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 04/01/2021
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -27,6 +26,9 @@ You can customize the appearance of your survey to match your company's branding
    ![Branding panel](media/branding-panel.png "Branding panel")
 
 3. Update the branding options, as described in the following sections.
+
+> [!NOTE]
+> You can now edit the header directly on the survey. Try adding a new style or background image to your header design by selecting the appropriate link in the **Branding** panel. 
 
 ## Theme color
 
@@ -58,7 +60,12 @@ You can also change font style, font size, and the color of the text for individ
 
 ## Background
 
-You can select a background image for the survey.
+You can select a background image for the survey. The image must be within the following parameters:
+- Maximum file size: 5 MB. 
+- Supported formats: BMP, GIF, JPEG, and PNG.
+- Maximum resolution: 4000 x 3000 (width x height)
+- Aspect ratio: 4:3
+
 
 **To upload a background image**
 
@@ -80,3 +87,6 @@ You can select a background image for the survey.
 [Create multilingual survey](create-multilingual-survey.md)<br>
 [Add formatting to your survey](survey-formatting.md)<br>
 [Add formatting to survey elements](survey-text-format.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

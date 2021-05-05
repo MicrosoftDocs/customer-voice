@@ -2,8 +2,7 @@
 title: "msfp_surveyresponse Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyresponse entity."
 ms.date: 07/30/2020
-ms.service: 
-  - crm-online
+ms.service: crm-online
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"
@@ -1977,6 +1976,9 @@ See msfp_surveyinvite Entity [msfp_msfp_surveyinvite_msfp_surveyresponse_surveyi
 
 ### See also
 
-[About the Entity Reference](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
-[Programming reference for Dynamics 365 Customer Engagement (on-premises)](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
-[Web API reference](https://docs.microsoft.com/dynamics365/customer-engagement/web-api/about)<br />
+[About the Entity Reference](/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
+[Programming reference for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
+[Web API reference](/dynamics365/customer-engagement/web-api/about)<br />
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

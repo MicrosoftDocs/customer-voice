@@ -2,8 +2,7 @@
 title: "Work with satisfaction metrics | MicrosoftDocs"
 description: "Instructions for working with satisfaction metrics"
 ms.date: 12/03/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -86,3 +85,6 @@ After you've created the satisfaction metrics you need, you can edit their detai
 [Add branding to your survey](survey-branding.md)<br>
 [Add formatting to your survey](survey-formatting.md)<br>
 [Add formatting to survey elements](survey-text-format.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

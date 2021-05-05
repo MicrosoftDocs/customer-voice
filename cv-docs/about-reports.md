@@ -2,8 +2,7 @@
 title: "About reports | MicrosoftDocs"
 description: "Learn about reports in Dynamics 365 Customer Voice."
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -25,3 +24,6 @@ If you've created satisfaction metrics in your survey, a dashboard is created au
 [View a satisfaction metrics report](satisfaction-metrics-report.md)<br>
 [View a survey response report](survey-report.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

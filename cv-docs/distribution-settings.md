@@ -1,9 +1,8 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
-ms.date: 11/24/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 02/03/2021
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -30,7 +29,7 @@ After you've created a survey, you can select distribution settings to control r
 
 3. Update the settings as described in the following sections.
 
-## Respondents
+## Participants
 
 You can select the options to define who can respond to a survey, whether to anonymize responses, and more.
 
@@ -58,15 +57,21 @@ The available settings are:
 
     By default, this setting is turned off and a respondent can submit more than one response. 
 
-    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymize responses** is turned on.
+    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymous responses** is turned on.
 
-- **Add respondents as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
+- **Save invited participants as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
 
     By default, this setting is turned on, and each respondent is added as a contact in Dataverse. This only works with surveys sent through [email](send-survey-email.md) or [survey invitation](create-survey-invite.md). If a contact already exists, it will be updated accordingly.
 
+- **Save survey progress**: Specify whether a survey in progress should be saved and a respondent be able to complete a survey in multiple sittings. By default, this setting is turned off and the data is collected from scratch every time a survey is opened.
+
+    If you want to save a survey in progress, turn on this setting. More information: [Save survey progress](save-survey-progress.md)
+
+    This setting is disabled when the [**Shuffle questions**](survey-formatting.md#shuffle-questions) setting is turned on, and vice versa.
+
 ![Respondent settings](media/respondents-settings.png "Respondent settings")
 
-## Response restrictions
+## Responses
 
 You can select whether your survey is open for receiving responses, and also specify a time period when to start and stop receiving responses.
 
@@ -78,7 +83,7 @@ The available settings are:
 
     ![Survey closed settings](media/survey-closed-setting.png "Survey closed settings")
 
-- **Specific start date**: Specify a start date and time to start receiving responses. By default, this isn't selected.
+- **Select when the survey will be available**: Specify a start date and time to start receiving responses. By default, this isn't selected.
 
     When you select this option, you can specify a **Start date** and **Start time** when the survey will be open for respondents.
 
@@ -98,15 +103,15 @@ The available settings are:
 
 ![Response restrictions settings](media/response-restrictions-settings.png "Response restrictions settings")
 
-## Link expirations
+## Availability
 
 You can specify the number of days your survey will be open after you send the survey invitation.
 
 The available setting is:
 
-- **Block responses for older links**: Specify whether to block responses from older personalized links. By default, this setting is turned off.
+- **Disable survey links**: Specify whether to block responses from older personalized links. By default, this setting is turned off.
 
-    If you want to block responses, turn on this setting and enter a number of days in the **Disable links older than** field. By default, the value is set to 30. You can enter a lower value or up to the maximum of 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
+    If you want to block responses, turn on this setting and enter a number of days in the **Disable after** field. By default, the value is set to 30. You can enter a lower value or up to the maximum of 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
 
 ![Link expirations settings](media/link-expiration-setting.png "Link expirations settings")
 
@@ -120,11 +125,11 @@ You can set response notification options for the sender in addition to the resp
 
 The available settings are:
 
-- **Send email receipt to all recipients**: Specify whether respondents should receive an email confirmation of their responses. This setting is enabled only when **Only people in my organization can respond** is turned on and **Anonymize responses** is turned off. By default, this setting is turned off.
+- **Send confirmation email to respondents**: Specify whether respondents should receive an email confirmation of their responses. This setting is enabled only when **Only people in my organization can respond** is turned on and **Anonymous responses** is turned off. By default, this setting is turned off.
 
     When you turn on this setting, your respondents will see the option **Send me an email receipt of my responses** after completing a survey. After submitting responses, respondents will then receive a confirmation email, which includes a thank-you message and link to view their responses.
 
-- **Receive email notifications for every response**: Specify whether you need an email notification whenever a response is submitted. By default, this setting is turned off.
+- **Receive an email when a survey is submitted**: Specify whether you need an email notification whenever a response is submitted. By default, this setting is turned off.
 
 ![Notifications settings](media/notifications-setting.png "Notifications settings")
 
@@ -141,3 +146,6 @@ When you send a survey by generating a link or a QR code, the survey links aren'
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

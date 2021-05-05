@@ -2,8 +2,7 @@
 title: "View survey invitations report | MicrosoftDocs"
 description: "Instructions for viewing survey invitations report"
 ms.date: 07/29/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -75,3 +74,6 @@ You can delete a survey invitation that you don't need anymore. To delete a surv
 [Send a survey to get responses](send-survey.md)<br>
 [Work with survey distribution settings](distribution-settings.md)<br>
 [Send a survey by using email](send-survey-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

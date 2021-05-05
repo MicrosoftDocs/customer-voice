@@ -1,9 +1,8 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "Instructions for managing projects with Dynamics 365 Customer Voice"
-ms.date: 12/04/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 04/28/2021
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -77,7 +76,7 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
 You can share your project with multiple people in your organization so they can collaborate on the structure and layout of  surveys within the project. The people with whom the project is shared become the co-owners of the shared project. The projects that are shared with you are available on the **All projects** tab. 
 
-When you share a project, a [Microsoft 365 group](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) is created in Azure Active Directory and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Azure Active Directory group. When you remove all co-owners from the project, the group is retained with you as its only member.
+When you share a project, a [Microsoft 365 group](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) is created in Azure Active Directory and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Azure Active Directory group. When you remove all co-owners from the project, the group is retained with you as its only member.
 
 **What can a co-owner do?**
 
@@ -143,7 +142,6 @@ The following components can be updated:
     - Survey customizations
     - Survey distribution settings
     - Email templates and their corresponding languages
-    - Power Automate flows
 
 Let's understand the update operation with the following example. 
 
@@ -179,7 +177,7 @@ A notification is displayed in the upper-right corner when the project is update
 
 ### Ownership of survey data
 
-When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Azure Active Directory group](https://docs.microsoft.com/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
+When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
 
 Only those responses and invitations that are received and created after the project was shared will be owned by the Dataverse team.
 
@@ -213,3 +211,6 @@ You can delete a project that you don't need anymore. Deleting a project removes
 [Create a project](create-project.md)<br>
 [Create a survey](create-survey.md)<br> 
 [Manage surveys](manage-surveys.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

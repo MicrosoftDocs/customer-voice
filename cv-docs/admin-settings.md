@@ -2,8 +2,7 @@
 title: "Administrator settings | MicrosoftDocs"
 description: "Learn about administrator settings available for Dynamics 365 Customer Voice."
 ms.date: 09/10/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -38,7 +37,7 @@ Following are the available administrator settings.
 
 ### Record names of people in your org
 
-Use this setting to capture the names of survey responders. By default, **Record names by default** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Select who can respond to a survey](distribution-settings.md#respondents)
+Use this setting to capture the names of survey responders. By default, **Record names by default** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Select who can respond to a survey](distribution-settings.md#participants)
 
 ### Phishing protection
 
@@ -47,3 +46,5 @@ Use this setting to set an automatic scan of surveys within your organization fo
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

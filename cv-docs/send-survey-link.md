@@ -2,8 +2,7 @@
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "Instructions for sharing a survey by using a link"
 ms.date: 05/05/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -169,3 +168,6 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey QR code](send-survey-qrcode.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

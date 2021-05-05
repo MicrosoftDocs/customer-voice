@@ -46,10 +46,18 @@
     href: survey-text-format.md
   - name: Format a survey
     href: survey-formatting.md
-  - name: Customize footer text and thank-you message
-    href: custom-footer-thank-you.md
+  - name: Customize survey header
+    href: custom-header.md 
+  - name: Customize footer text
+    href: custom-footer.md
+  - name: Customize post-survey message
+    href: custom-post-survey-message.md
   - name: Preview and test a survey
     href: preview-test-survey.md
+  - name: Save a survey in progress
+    href: save-survey-progress.md
+  - name: Work with alerts
+    href: alerts.md
 
 - name: Distribute a survey
   items:
@@ -90,7 +98,16 @@
 
 - name: Data flow in Customer Voice
   href: data-flow.md
+
+- name: Dynamics 365 Customer Voice GDPR compliance
+  href: gdpr.md
+
+- name: Integrate Customer Voice with Customer Service
+  href: integrate-cv-cs.md
   
+- name: Cookies in Dynamics 365 Customer Voice
+  href: cookies.md
+
 - name: Customer Voice FAQ
   href: cv-faq.md
 

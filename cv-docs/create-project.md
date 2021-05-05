@@ -2,8 +2,7 @@
 title: "Create a project | MicrosoftDocs"
 description: "Instructions for creating a project in Dynamics 365 Customer Voice."
 ms.date: 12/03/2020
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -105,3 +104,6 @@ The project will be created with an empty survey. You can now add questions and 
 [Create a survey](create-survey.md)<br>
 [Manage surveys](manage-surveys.md)<br>
 [Manage projects](manage-projects.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
