@@ -57,7 +57,7 @@ The available settings are:
 
     By default, this setting is turned off and a respondent can submit more than one response. 
 
-    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymous responses** is turned on.
+    When you turn on this setting, a respondent can submit only one response per invitation. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymous responses** is turned on.
 
 - **Save invited participants as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
 
