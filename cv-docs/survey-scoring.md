@@ -1,9 +1,8 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Instructions for adding scoring to a survey created with Dynamics 365 Customer Voice."
-ms.date: 03/24/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 05/05/2021
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -30,7 +29,7 @@ A point value is attached to each answer option as follows:
 - Satisfied = 4
 - Very satisfied = 5
 
-From this survey, a total score out of 25 can be calculated. A score of 5 through 10 indicates that a customer service agent's performance needs to be improved. A score of 11 through 20 indicates that a customer service agent's performance is up to the mark. A score above 20 indicates that a customer service agent's performance is exceeding expectations.
+From this survey, the total score will be calculated as weighted average of the normalized question level values.
 
 A survey's score is calculated with the help of the following components:
 
