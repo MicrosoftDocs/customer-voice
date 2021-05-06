@@ -29,7 +29,7 @@ A point value is attached to each answer option as follows:
 - Satisfied = 4
 - Very satisfied = 5
 
-From this survey, the total score will be calculated as weighted average of the normalized question level values.
+From this survey, the total score is calculated as weighted average of the normalized question level values.
 
 A survey's score is calculated with the help of the following components:
 
