@@ -2,8 +2,7 @@
 title: "Survey distribution settings | MicrosoftDocs"
 description: "Instructions for updating survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey and other survey response options"
 ms.date: 02/03/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -58,7 +57,7 @@ The available settings are:
 
     By default, this setting is turned off and a respondent can submit more than one response. 
 
-    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymize responses** is turned on.
+    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymous responses** is turned on.
 
 - **Save invited participants as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
 

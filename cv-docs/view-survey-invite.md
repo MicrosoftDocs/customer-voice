@@ -1,9 +1,8 @@
 ---
 title: "View survey invitations report | MicrosoftDocs"
 description: "Instructions for viewing survey invitations report"
-ms.date: 03/16/2021
-ms.service: 
-  - dynamics-365-customervoice
+ms.date: 05/05/2021
+ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
