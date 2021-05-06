@@ -1,7 +1,7 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Instructions for adding scoring to a survey created with Dynamics 365 Customer Voice."
-ms.date: 05/05/2021
+ms.date: 05/06/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
