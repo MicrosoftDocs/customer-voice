@@ -1,7 +1,7 @@
 ---
 title: "View satisfaction metrics report | MicrosoftDocs"
 description: "Learn about satisfaction metrics report in Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 05/06/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -22,6 +22,8 @@ The following charts are displayed for the metrics:
 - **Sentiment**: A pie chart shows the distribution of positive, neutral, and negative sentiments for the metric. The stacked column chart toward the right of the pie chart shows the distribution of positive, neutral, and negative sentiment for the selected time period.
 
 - **CSAT**: A meter chart shows the score for the metric. The area chart toward the right of the meter chart shows the trend of CSAT scores for the selected time period.
+
+- **Custom score**: A meter chart shows the score for the metric. The area chart toward the right of the meter chart shows the trend of custom scores for the selected time period.
 
 ![Satisfaction metrics report](media/metrics-report.png "Satisfaction metrics report")
 
