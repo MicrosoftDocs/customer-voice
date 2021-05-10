@@ -75,7 +75,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 
 9. To export all links, select **Export**. The links are downloaded in an Excel file.
 
-10. To download QR code for a custom link, hover over the link, select the ellipsis button (...), and then select **Download QR code**.
+10. To download QR code for a custom link, hover over the link, select the ellipsis button, and then select **Download QR code**.
 
     ![Download QR code for a custom link](media/survey-custom-link-qr.png "Download QR code for a custom link")
 
