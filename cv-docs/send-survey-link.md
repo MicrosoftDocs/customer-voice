@@ -34,7 +34,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 
     ![Get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")
 
-    Paste the survey link to a place that's visible to your intended audience. They can select the link to access your survey.
+    Paste the survey link in a place that's visible to your intended audience. They can select the link to access your survey.
 
 4. To download the QR code for the generic link, select **QR code**.
 
@@ -57,7 +57,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 
 4. In the **Create link** panel, select variables to create custom links.
 
-5. Under **Add values for each variable**, add values to each of the selected variable.
+5. Under **Add values for each variable**, add values to each of the selected variables.
 
 6. To add more values, select **Add more values**.
 
@@ -75,7 +75,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 
 9. To export all links, select **Export**. The links are downloaded in an Excel file.
 
-10. To download QR code for a custom link, hover over the link, select the ellipsis button, and then select **Download QR code**.
+10. To download QR code for a custom link, hover over the link, select the ellipsis button (...), and then select **Download QR code**.
 
     ![Download QR code for a custom link](media/survey-custom-link-qr.png "Download QR code for a custom link")
 
