@@ -141,11 +141,11 @@ When you send a survey by generating a link or a QR code, the survey links aren'
 
 ### See also
 
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

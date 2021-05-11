@@ -1,22 +1,13 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "Instructions for sharing a survey by using a link"
-ms.date: 05/05/2021
+ms.date: 05/11/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-
-<!-- from editor: There are four instances here that say to "select the ellipsis button." But the ellipses are vertical, not the conventional horiontal dots. I searched the style guide, which says:
-When an ellipsis button is used to represent an overflow menu, use the following tooltips:
-Use More actions when the ellipsis button reveals a list of available actions (verbs).
-Use More options when the ellipsis button reveals a list of nouns, or when it reveals a mix of nouns and actions (verbs).
-If an overflow menu appears in a table, the three dots in the ellipsis are stacked vertically.
-(https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&topicid=39594)
-This led to a discussion with my fellow editors. So I'm proposing to say "select **More actions** (three dots)". -->
-
 
 # Send a survey link to others
 
