@@ -38,7 +38,7 @@ You've sent a product feedback survey through a personalized link to your custom
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)
 
 

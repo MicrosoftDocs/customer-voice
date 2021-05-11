@@ -84,10 +84,10 @@ The values from the **Regarding** and **Recipient details** fields are stored in
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
