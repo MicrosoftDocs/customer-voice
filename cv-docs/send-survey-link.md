@@ -9,15 +9,24 @@ ms.author: shjais
 manager: shujoshi
 ---
 
+<!-- from editor: There are four instances here that say to "select the ellipsis button." But the ellipses are vertical, not the conventional horiontal dots. I searched the style guide, which says:
+When an ellipsis button is used to represent an overflow menu, use the following tooltips:
+Use More actions when the ellipsis button reveals a list of available actions (verbs).
+Use More options when the ellipsis button reveals a list of nouns, or when it reveals a mix of nouns and actions (verbs).
+If an overflow menu appears in a table, the three dots in the ellipsis are stacked vertically.
+(https://styleguides.azurewebsites.net/StyleGuide/Read?id=2696&topicid=39594)
+This led to a discussion with my fellow editors. So I'm proposing to say "select **More actions** (three dots)". -->
+
+
 # Send a survey link to others
 
-If you want to collect feedback from recipients using a common survey link or if you want to send email outside of Dynamics 365 Customer Voice, you can create a link for your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`.
+If you want to collect feedback from recipients using a common survey link, or if you want to send email outside of Dynamics 365 Customer Voice, you can create a link for your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be distributed easily by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`.
 
-You can create a generic survey link or custom survey links. Generic survey link is a common link that can be shared with your intended audience. Custom survey links are created using survey variables and are different for a group of audience. For example, as a restaurant manager, you can create multiple survey links based on the restaurant's location. Location is defined as a survey variable in this case. This helps to categorize survey responses as per the Location survey variable. If each location is mapped to an account in Dynamics 365, the survey responses are mapped as activities to respective accounts.
+You can create a generic survey link or custom survey links. A generic survey link is a common link that you can share with your intended audience. Custom survey links are created using survey variables and are different for an audience group. For example, as a restaurant manager, you can create multiple survey links based on the restaurant's location. Location is defined as a survey variable in this case. This helps to categorize survey responses as per the Location survey variable. If each location is mapped to an account in Dynamics 365, the survey responses are mapped as activities to respective accounts.
 
 > [!NOTE]
 > - The survey link generated is a non-personalized link. If the **Only people in my organization can respond** setting is turned off in [distribution settings](distribution-settings.md), you won't be able to record the respondent's name or determine whether the respondent has submitted only one response. More information: [Work with personalized links](distribution-settings.md#work-with-personalized-links)
-> - If you've personalized your survey by using variables, they won't be replaced with their values and the variable names will be displayed as-is.
+> - If you've personalized your survey by using variables, they won't be replaced with their values and the variable names will be displayed as they are.
 
 ## Create a generic link
 
@@ -34,7 +43,7 @@ You can create a generic survey link or custom survey links. Generic survey link
 
     ![Get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")
 
-    Paste the survey link to a place that's visible to your intended audience. They can select the link to access your survey.
+    Paste the survey link in a place that's visible to your intended audience. They can select the link to access your survey.
 
 4. To download the QR code for the generic link, select **QR code**.
 
@@ -57,7 +66,7 @@ You can create a generic survey link or custom survey links. Generic survey link
 
 4. In the **Create link** panel, select variables to create custom links.
 
-5. Under **Add values for each variable**, add values to each of the selected variable.
+5. Under **Add values for each variable**, add values to each of the selected variables.
 
 6. To add more values, select **Add more values**.
 
@@ -75,7 +84,7 @@ You can create a generic survey link or custom survey links. Generic survey link
 
 9. To export all links, select **Export**. The links are downloaded in an Excel file.
 
-10. To download QR code for a custom link, hover over the link, select the ellipsis button, and then select **Download QR code**.
+10. To download QR code for a custom link, hover over the link, select **More actions** (three dots), and then select **Download QR code**.
 
     ![Download QR code for a custom link](media/survey-custom-link-qr.png "Download QR code for a custom link")
 
@@ -118,7 +127,7 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
 10. To export all links, select **Export**.
 
-11. To download QR code for a custom link, hover over the link, select the ellipsis button, and then select **Download QR code**.
+11. To download QR code for a custom link, hover over the link, select **More actions** (three dots), and then select **Download QR code**.
 
 ## Edit a custom link
 
@@ -131,7 +140,7 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
     Custom links are displayed in the **Survey links** panel.
 
-3. Hover over the link you want to edit, select the ellipsis button, and then select **Edit**.
+3. Hover over the link you want to edit, select **More actions** (three dots), and then select **Edit**.
 
     ![Edit a custom link](media/survey-custom-link-edit.png "Edit a custom link")
 
@@ -141,7 +150,7 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
 5. Select ![Save the changes](media/tick-icon.png "Save the changes") to save the changes.
 
-6. To discard the changes, select ![Discard the changes](media/cross-icon.png "Discard the changes").
+6. Select ![Discard the changes](media/cross-icon.png "Discard the changes") to discard the changes.
 
 ## Delete a custom link
 
@@ -154,7 +163,7 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
     Custom links are displayed in the **Survey links** panel.
 
-3. Hover over the link you want to edit, select the ellipsis button, and then select **Delete**.
+3. Hover over the link you want to edit, select **More actions** (three dots), and then select **Delete**.
 
     ![Delete a custom link](media/survey-custom-link-delete.png "Delete a custom link")
 
@@ -164,10 +173,10 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
