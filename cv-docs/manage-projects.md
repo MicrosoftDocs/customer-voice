@@ -122,6 +122,25 @@ If a project contains responses, a co-owner can see all responses under **Report
 
     ![Remove project access](media/project-owners.png "Remove project access")
 
+### Ownership of survey data
+
+When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
+
+Only those responses and invitations that are received and created after the project was shared will be owned by the Dataverse team.
+
+The following table shows the ownership of data in Dynamics 365 Customer Voice entities:
+
+|Entity|User owned projects|Shared projects|
+|------------|----------|------------------|
+|Customer Voice project|Project creator|Team (Dataverse)|
+|Customer Voice satisfaction metric|Project creator|Team (Dataverse)|
+|Customer Voice localized survey email template|Project creator|Team (Dataverse)|
+|Customer Voice survey|Project creator|Team (Dataverse)|
+|Customer Voice survey email template|Project creator|Team (Dataverse)|
+|Customer Voice survey question|Project creator|Team (Dataverse)|
+|Customer Voice survey question response|Project creator|Team (Dataverse)|
+||||
+
 ## Update a project
 
 You can update your project with the copy of the same project. The copy can reside in the same environment or a different one. By updating a copy of the project, you can make incremental changes while its survey is being sent to respondents and receiving responses, without interrupting the survey.
@@ -174,25 +193,6 @@ As a company policy, you can't edit surveys directly in the production environme
 4. In the confirmation dialog box, select **Confirm**.
 
 A notification is displayed in the upper-right corner when the project is updated.
-
-### Ownership of survey data
-
-When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
-
-Only those responses and invitations that are received and created after the project was shared will be owned by the Dataverse team.
-
-The following table shows the ownership of data in Dynamics 365 Customer Voice entities:
-
-|Entity|User owned projects|Shared projects|
-|------------|----------|------------------|
-|Customer Voice project|Project creator|Team (Dataverse)|
-|Customer Voice satisfaction metric|Project creator|Team (Dataverse)|
-|Customer Voice localized survey email template|Project creator|Team (Dataverse)|
-|Customer Voice survey|Project creator|Team (Dataverse)|
-|Customer Voice survey email template|Project creator|Team (Dataverse)|
-|Customer Voice survey question|Project creator|Team (Dataverse)|
-|Customer Voice survey question response|Project creator|Team (Dataverse)|
-||||
 
 ## Delete a project
 
