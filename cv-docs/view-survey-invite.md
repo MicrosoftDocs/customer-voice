@@ -1,6 +1,6 @@
 ---
 title: "View survey invitations report | MicrosoftDocs"
-description: "Instructions for viewing survey invitations report"
+description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
 ms.date: 07/29/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article

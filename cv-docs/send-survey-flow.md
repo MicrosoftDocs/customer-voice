@@ -1,6 +1,6 @@
 ---
 title: "Send a survey by using Power Automate | MicrosoftDocs"
-description: "Instructions for sending a survey by using Power Automate"
+description: "You can send a survey to respondents based on a business trigger such as resolution of a case. This topic explains how to send a survey by using Power Automate."
 ms.date: 10/05/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article

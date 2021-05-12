@@ -1,6 +1,6 @@
 ---
 title: "Send a Dynamics 365 Customer Voice survey from Dynamics 365 | MicrosoftDocs"
-description: "Instructions for sending a survey from Dynamics 365 applications"
+description: "This topic explains how to send a survey to your customer from within the customer engagement application's interface."
 ms.date: 02/12/2021
 ms.topic: article
 ms.service: dynamics-365-customervoice
