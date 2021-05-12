@@ -1,7 +1,7 @@
 ---
 title: "Embed a survey in a webpage | MicrosoftDocs"
 description: "This topic explains how to embed your survey in a webpage by pasting the survey's embed code into your webpage's source code."
-ms.date: 07/29/2020
+ms.date: 04/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -18,6 +18,9 @@ You can embed your survey in a webpage by pasting the survey's embed code into y
 - **Pop-up window**: Displays the survey in a pop-up window based on the respondent's action.
 
 - **Button**: Displays the survey when a button is selected. By default, the button name is **Provide feedback**.
+
+> [!NOTE]
+> When embedding a survey in a webpage, ensure that **Only people in my organization can respond setting** is turned off in [survey distribution settings](distribution-settings.md#participants).
 
 If you've created variables, they'll be used to capture your respondent's information and the context in which the response was provided, and store that data in the survey response. You can also create new variables, if you need. If the appropriate values aren't passed to variables in the embed code, the default values will be used.
 
@@ -87,10 +90,10 @@ The preceding method calls the `renderSurvey` function and passes the required v
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

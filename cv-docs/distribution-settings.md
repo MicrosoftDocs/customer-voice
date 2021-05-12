@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "This topic explains how to use survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey."
-ms.date: 02/03/2021
+ms.date: 05/06/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -57,7 +57,7 @@ The available settings are:
 
     By default, this setting is turned off and a respondent can submit more than one response. 
 
-    When you turn on this setting, a respondent can submit only one response. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymize responses** is turned on.
+    When you turn on this setting, a respondent can submit only one response per invitation. This setting is disabled when **Only people in my organization can respond** is turned off and **Anonymous responses** is turned on.
 
 - **Save invited participants as Contacts**: Specify whether the respondent should be added as a contact in Microsoft Dataverse.
 
@@ -137,15 +137,21 @@ The available settings are:
 
 Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response. The personalized link is a short URL in the following format: `https://<region>.microsoft.com/<10-digit code>`
 
-When you send a survey by generating a link or a QR code, the survey links aren't personalized. If the survey links aren't personalized and the **Only people in my organization can respond** setting is turned off, you won't be able to record the respondent's name or determine whether the respondent has submitted only one response.
+When you send a survey by generating a link or a QR code, the survey links aren't personalized. If the survey links aren't personalized:
+
+- You won't be able to record the respondent's name if the **Only people in my organization can respond** setting is turned off.
+- You won't be able to determine whether the respondent has submitted only one response if the **One response per person** setting is turned on.
+
+If you want to limit one response per person for non-personalized links, you must turn on **Only people in my organization can respond** and **One response per person** settings.
+
 
 ### See also
 
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Create a survey | MicrosoftDocs"
 description: "A survey is created automatically when you create a project. This topic explains how to create a survey in Dynamics 365 Customer Voice."
-ms.date: 02/03/2021
+ms.date: 05/05/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -59,23 +59,9 @@ By default, a question doesn't have to be answered by respondents. If you want t
 
 ![Mark a question as required](media/ques-required.png "Mark a question as required")
 
-## Add an image to a survey header
+## Customize survey header
 
-You can add an image, such as logo, to your survey header. When you add an image to the survey header, it's displayed in the upper-left corner of the survey. The image must be within the following parameters:
-- Maximum file size: 5 MB. 
-- Supported formats: BMP, GIF, JPEG, and PNG.
-- Maximum resolution: 800 x 600 (width x height)
-- Aspect ratio: 4:3
-
-**To add an image to a survey header**
-
-1. Open the survey in which you want to add an image, and then select the survey header.
-
-2. Select **Insert image** ![Insert image](media/insert-image.png "Insert image") on the right side of the header.
-
-3. In the **Insert logo** panel, select **Upload**.
-
-4. Find and select the image by using your file browser, and then upload it.
+You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. More information: [Customize survey header](custom-header.md)
 
 ## Add a media to a question
 

@@ -1,7 +1,7 @@
 ---
 title: "Connect Dynamics 365 Customer Voice with your environment | MicrosoftDocs"
 description: "An environment is a space to store, manage, and share business data. This topic explains how to connect Dynamics 365 Customer Voice with your environment."
-ms.date: 03/26/2021
+ms.date: 04/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -19,7 +19,7 @@ In Dynamics 365 Customer Voice, all projects created by you or shared with you a
 
 To work with projects in an environment, install the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) from Microsoft AppSource, and assign the Project Owner role to users in Dynamics 365. If you select an environment that doesn't have the Customer Voice app, an error message is displayed during project creation.
 
-When you install the Customer Voice app, an application user named Customer Voice is created automatically. The email address of application user is `enterprisesurveyappuser@contoso.com`. This user is created to allow Customer Voice Azure service to authenticate with Microsoft Dataverse using Server-to-Server (S2S) authentication, and is primarily used for saving survey data in the environment. The user is a non-interactive and non-login system user. The user is assigned Survey Services Administrator and System Administrator roles. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
+When you install the Customer Voice app, an application user named Customer Voice is created automatically. The email address of application user is `enterprisesurveyappuser@contoso.com`. This user is created to allow Customer Voice Azure service to authenticate with Microsoft Dataverse using Server-to-Server (S2S) authentication, and is primarily used for saving survey data in the environment. The user is a non-interactive and non-login system user. The user is assigned the System Administrator role. More information on S2S authentication: [Build web applications using Server-to-Server (S2S) authentication](https://docs.microsoft.com/powerapps/developer/common-data-service/build-web-applications-server-server-s2s-authentication)
 
 > [!NOTE]
 > - If you have organizations for Dynamics 365 Sales, Customer Service, Marketing, and Talent, Customer Voice entities are already installed in these organizations.

@@ -58,6 +58,8 @@
     href: save-survey-progress.md
   - name: Work with alerts
     href: alerts.md
+  - name: Add scoring to a survey
+    href: survey-scoring.md
 
 - name: Distribute a survey
   items:
@@ -101,6 +103,9 @@
 
 - name: Dynamics 365 Customer Voice GDPR compliance
   href: gdpr.md
+
+- name: Integrate Customer Voice with Customer Service
+  href: integrate-cv-cs.md
   
 - name: Cookies in Dynamics 365 Customer Voice
   href: cookies.md

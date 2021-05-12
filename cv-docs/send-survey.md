@@ -27,11 +27,11 @@ Respondents can submit responses by using a desktop or mobile web browser. You c
 In this section, you'll learn how to:
 
 - [Work with survey distribution settings](distribution-settings.md)
-- [Send a survey by using email](send-survey-email.md)  
+- [Send a survey by using the built-in email composer](send-survey-email.md)  
 - [Send a survey by using Power Automate](send-survey-flow.md)  
 - [Embed a survey in a webpage](embed-web-page.md)  
 - [Send a survey link to others](send-survey-link.md)  
-- [Send a survey QR code](send-survey-qrcode.md)  
+- [Send a survey by using QR code](send-survey-qrcode.md)  
 - [Create a survey invitation](create-survey-invite.md)
 
 
