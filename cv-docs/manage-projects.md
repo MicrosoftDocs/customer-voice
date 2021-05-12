@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "Instructions for managing projects with Dynamics 365 Customer Voice"
-ms.date: 04/28/2021
+ms.date: 05/12/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -76,7 +76,7 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
 You can share your project with multiple people in your organization so they can collaborate on the structure and layout of  surveys within the project. The people with whom the project is shared become the co-owners of the shared project. The projects that are shared with you are available on the **All projects** tab. 
 
-When you share a project, a [Microsoft 365 group](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) is created in Azure Active Directory and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Azure Active Directory group. When you remove all co-owners from the project, the group is retained with you as its only member.
+When you share a project, a [Microsoft 365 group](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) is created in Azure Active Directory and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Azure Active Directory group. When you remove all co-owners from the project, the group is retained with you as its only member. When a Microsoft 365 group is created, a Microsoft Dataverse team (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)) is created. The Dataverse team is assigned the ownership of the project and survey data.
 
 **What can a co-owner do?**
 
@@ -92,7 +92,7 @@ A project co-owner has the same level of permissions as the project owner. This 
 
 **How are the responses shared?**
 
-If a project contains responses, a co-owner can see all responses under **Reports** in the left pane. In the Customer Voice survey responses entity, only those responses that are received after the project was shared will be shared with co-owners.
+If a project contains responses, a co-owner can see all responses under **Reports** in the left pane. In the Customer Voice survey responses entity, only those responses that are received after the project was shared will be shared with co-owners. Projects and surveys are owned by the Microsoft Dataverse team (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)). Only those responses that are received after the project is shared will be owned by the Dataverse team. Old responses will continue to be owned by the project owner.
 
 **To share a project**
 
