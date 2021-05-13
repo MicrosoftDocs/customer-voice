@@ -1,6 +1,6 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
-description: "Instructions for adding scoring to a survey created with Dynamics 365 Customer Voice."
+description: "Survey scoring allows you to assign a point value to individual answer options. This topic explains how to add scoring to a survey."
 ms.date: 05/06/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
