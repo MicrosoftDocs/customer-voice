@@ -1,6 +1,6 @@
 ---
 title: "Work with satisfaction metrics | MicrosoftDocs"
-description: "Instructions for working with satisfaction metrics"
+description: "This topic explains how to add satisfaction metrics and map them to survey questions in Dynamics 365 Customer Voice."
 ms.date: 05/06/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article

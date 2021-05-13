@@ -1,6 +1,6 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
-description: "Instructions for personalizing a survey with Dynamics 365 Customer Voice"
+description: "You can personalize a survey by automatically inserting custom information in it. This topic explains how to personalize a survey by using variables."
 ms.date: 01/15/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: "Manage surveys | MicrosoftDocs"
-description: "Instructions for managing surveys with Dynamics 365 Customer Voice"
+description: "After you've created one or more surveys within a project in Dynamics 365 Customer Voice, learn how to manage them."
 ms.date: 07/29/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article

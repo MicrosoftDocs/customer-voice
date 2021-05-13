@@ -1,6 +1,6 @@
 ---
-title: "Customize the From address of the email | MicrosoftDocs"
-description: "Instructions for customizing the From address of survey emails."
+title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
+description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
 ms.date: 12/09/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article
