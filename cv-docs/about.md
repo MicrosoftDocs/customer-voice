@@ -4,6 +4,7 @@ description: "Dynamics 365 Customer Voice is an enterprise feedback management a
 ms.date: 04/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
+ms.custom: intro-internal
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
