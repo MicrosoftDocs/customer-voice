@@ -1,6 +1,6 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
-description: "Instructions for creating a survey invitation by using Power Automate"
+description: "You can create a survey invitation link that can be distributed by using the platform of your choice."
 ms.date: 11/25/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article
