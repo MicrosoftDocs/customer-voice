@@ -142,7 +142,7 @@ To create a new variable, select **New variable** from the **Personalized variab
 
 ## Embed a survey in an email
 
-If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Insert** > **First question of the survey**. The question is embedded at the cursor's location and the email message is adjusted accordingly. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Insert** > **First question of the survey**. The question is embedded at the cursor's location and the email message is adjusted accordingly. When a respondent selects an option to answer the question, the whole survey is opened in a web browser and the respondent can continue with completing the survey.
 
 ![Embed question in an email](media/embed-ques-email.png "Embed question in an email")
 
