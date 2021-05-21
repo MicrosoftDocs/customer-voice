@@ -37,7 +37,7 @@ Following are the available administrator settings.
 
 ### Record names of people in your org
 
-Use this setting to capture the names of survey responders. By default, **Record names by default** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Select who can respond to a survey](distribution-settings.md#participants)
+Use this setting to capture the names of survey respondents. By default, **Record names by default** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Select who can respond to a survey](distribution-settings.md#participants)
 
 ### Phishing protection
 

@@ -63,7 +63,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
     - **Show**: Select a question to be displayed based on the response to a question.
     - **Hide**: Select a question to be hidden based on the response to a question.
-    - **Navigate to**: Select the target to which a responder should be navigated.
+    - **Navigate to**: Select the target to which a respondent should be navigated.
 
    ![Select an action for true condition](media/branch-true-select-action.png "Select an action for a true condition")
 
@@ -73,7 +73,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
     - If you select **Navigate to** as the action, you can choose one of the following targets:
 
-      - **Question**: Skip to a question based on the response to a question. The questions between the source and target questions are hidden from the responder.
+      - **Question**: Skip to a question based on the response to a question. The questions between the source and target questions are hidden from the respondent.
       - **End of survey**: End the survey based on the response to a question.
       - **Chained survey**: Open a different survey, created by you, based on the response to a question.
       - **URL**: Open a website based on the response to a question. You must add `http://` to the URL for it to work properly.
