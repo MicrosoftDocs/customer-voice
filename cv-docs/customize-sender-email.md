@@ -1,7 +1,7 @@
 ---
 title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
 description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
-ms.date: 12/09/2020
+ms.date: 05/25/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -115,13 +115,16 @@ In this example screen, we're using Microsoft Azure to add the TXT name and valu
 `Host name or Alias: fpeurkey1.\_domainkey`      
 `Points to address: fpeurkey1contosocom.d01.formspro.dynamics.com`
 
->[!NOTE]
->You must create two CNAME records using the information provided in step 6 of [Add custom email addresses](#add-custom-email-addresses).
+> [!NOTE]
+> You must create two CNAME records using the information provided in step 6 of [Add custom email addresses](#add-custom-email-addresses).
 
 In this example screen, we're using Microsoft Azure to add the CNAME alias and address:
 
 > [!div class="mx-imgBorder"]
 > ![Add CNAME alias and address in Microsoft Azure](media/cv-azure-add-cname-alias-address.png "Add CNAME alias and address in Microsoft Azure")
+
+> [!IMPORTANT]
+> Ensure that the domain name is not duplicated while creating a CNAME record. The domain name is added automatically to the record. For example, in the following image, adding the domain in the **Name** field will result in an incorrect record and lead to the failure of domain verification.
 
 ## Frequently asked questions
 
