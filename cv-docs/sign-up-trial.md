@@ -11,13 +11,10 @@ manager: shujoshi
 
 # Sign up for a free trial
 
-[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Customer Voice offers a free 30-day trial. After a quick setup, you will have access to many of the app's key features. After the trial period ends, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
 
 > [!NOTE]
-> - Dynamics 365 Customer Voice isn't available for trial in US Government Community Cloud.
-> - You can receive a total of 100 survey responses in the trial period.
+> Dynamics 365 Customer Voice isn't available for trial in US Government Community Cloud.
 
 **To sign up for the trial**
 
