@@ -1,7 +1,7 @@
 ---
-title: "Sign up for trial | MicrosoftDocs"
+title: "Sign up for a free trial | MicrosoftDocs"
 description: "You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. This topic explains how to sign up for Dynamics 365 Customer Voice trial."
-ms.date: 05/04/2021
+ms.date: 06/02/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -9,43 +9,24 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Sign up for the Dynamics 365 Customer Voice trial
+# Sign up for a free trial
 
 [!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
-You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. After the trial period, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
+Dynamics 365 Customer Voice offers a free 30-day trial. After a quick setup, you will have access to many of the app's key features. After the trial period ends, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
 
 > [!NOTE]
-> Dynamics 365 Customer Voice isn't available for trial in US Government Community Cloud.
+> - Dynamics 365 Customer Voice isn't available for trial in US Government Community Cloud.
+> - You can receive a total of 100 survey responses in the trial period.
 
-1. Open [https://dynamics.microsoft.com/customer-voice/overview/](https://dynamics.microsoft.com/customer-voice/overview/) in a web browser.
+## Set up the trial
 
-2. Select **Get started**.
+1. Go to [https://dynamics.microsoft.com/customer-voice/overview/](https://dynamics.microsoft.com/customer-voice/overview/) and select **Get started**.
 
-3. In the **Let's set up your account** step, enter your email address, and then select **Next**.
+2. Follow the onscreen guidance to enter your work or school email address, and your contact information.
 
-   ![Enter work or school email address](media/trial-setup-1.png "Enter work or school email address")
+   The trial will take a few moments to set up, then you will be ready to start using Dynamics 365 Customer Voice.
 
-   > [!NOTE]
-   > A work or school account is required for trying Dynamics 365 Customer Voice.
-
-4. Select **Yes**.
-
-   ![Select Yes to proceed](media/trial-setup-2.png "Select Yes to proceed")
-
-5. In the **Create your account** step, enter your personal details, create a password, and enter the verification code sent to the email address entered in the **Let's set up your account** step. After entering the details, select **Next**.
-
-   ![Enter personal details](media/trial-setup-3.png "Enter personal details")
-
-6. In the **You're all set** step, do one of the following:
-
-   - Enter usernames of your co-workers to send invitations for trying Dynamics 365 Customer Voice, and then select **Send invitations**. The invitations will be sent, and you'll be redirected to the Dynamics 365 Customer Voice home page.
-   - Select **Skip & go to Dynamics 365 Customer Voice** to skip sending the invitations and go directly to the Dynamics 365 Customer Voice home page.
-
-   ![Send invitations and sign in to Dynamics 365 Customer Voice](media/trial-setup-4.png "Send invitations and sign in to Dynamics 365 Customer Voice")
-
-   > [!NOTE]
-   > You can receive a total of 100 survey responses in the trial period.
 
 ## Experience for a trial or new user
 
@@ -73,12 +54,21 @@ This section lists all the functionality that will be restricted until an enviro
 - Configure satisfaction metrics.
 - Perform actions such as copy, delete, or rename projects and surveys.
 
-### See also
+## What to try
 
-[Create a project](create-project.md)<br>
-[Create a survey](create-survey.md)<br>
-[Send a survey](send-survey.md)<br>
-[About reports](about-reports.md)
+The trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
+
+- [Get started](about.md)
+- [Create a project](create-project.md)
+- [Create a survey](create-survey.md)
+- [Send a survey to get responses](send-survey.md)
+- [View reports](about-reports.md)
+
+## Additional resources
+
+- [Explore training on Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=customer-voice&resource_type=learning%20path)
+- [Trial FAQ](trial-faq.yml)
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
