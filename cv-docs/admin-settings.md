@@ -45,7 +45,7 @@ This setting is available under the **Security** tab. Use this setting to set an
 
 ### Collect names
 
-This setting is available under the **Security** tab. Use this setting to capture the names of survey respondents. By default, **Collect names** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Select who can respond to a survey](distribution-settings.md#participants)
+This setting is available under the **Security** tab. Use this setting to capture the names of survey respondents. By default, **Collect names** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Participants](distribution-settings.md#participants)
 
 
 ### See also
