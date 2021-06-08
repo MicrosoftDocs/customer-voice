@@ -35,13 +35,18 @@ As an administrator, you can control various settings such as recording the name
 
 Following are the available administrator settings.
 
-### Record names of people in your org
+### Use a custom email address
 
-Use this setting to capture the names of survey respondents. By default, **Record names by default** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Select who can respond to a survey](distribution-settings.md#participants)
+This setting is available under the **Distribution** tab. Use this setting to create a custom email address for sending survey invitations to your customers. More information: [Customize the sender's email address](customize-sender-email.md)
 
-### Phishing protection
+### Prevent phishing attempts
 
-Use this setting to set an automatic scan of surveys within your organization for phishing detection. By default, **Add internal phishing protection** is selected. Clear this check box if you don't want to enable phishing scans for surveys within your organization.
+This setting is available under the **Security** tab. Use this setting to set an automatic scan of surveys within your organization for phishing detection. By default, **Prevent phishing attempts** is selected. Clear this check box if you don't want to enable phishing scans for surveys within your organization.
+
+### Collect names
+
+This setting is available under the **Security** tab. Use this setting to capture the names of survey respondents. By default, **Collect names** is selected. Clear this check box if you want survey responses within your organization to remain anonymous. However, you can enable or disable this setting within individual surveys also. More information: [Participants](distribution-settings.md#participants)
+
 
 ### See also
 
