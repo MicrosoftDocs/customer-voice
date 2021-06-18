@@ -3,7 +3,7 @@ title: "Trial FAQ"
 description: "Solutions to common questions related to trial setup and management."
 author: sbmjais
 ms.author: shjais
-ms.date: 06/02/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.service: dynamics-365-customervoice
 ms.custom: template-trial-faq
@@ -31,9 +31,6 @@ You can receive a total of 100 survey responses in the trial period.
 This app is a cloud-based service that does not require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements)
 
 
-## How do I sign up for the trial without a Microsoft 365 tenant?
-
-
 ## How can I add more users to a trial?
 
 To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit.
@@ -42,5 +39,5 @@ To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com
 
 You cannot extend the trial. After the trial period ends, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
 
-## How can I cancel the trial?
+
 
