@@ -1,5 +1,5 @@
 ---
-title: "Sign up for a free Dynamics 365 Customer Voice trial | MicrosoftDocs"
+title: "Sign up for a free trial - Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "You can sign up for a free 30-day trial of Dynamics 365 Customer Voice. This topic explains how to sign up for Dynamics 365 Customer Voice trial."
 ms.date: 06/30/2021
 ms.service: dynamics-365-customervoice
