@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
 description: "You can create a survey invitation link that can be distributed by using the platform of your choice."
-ms.date: 11/25/2020
+ms.date: 06/22/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -14,6 +14,10 @@ manager: shujoshi
 [!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 If you want to send a survey by using a platform other than Dynamics 365 Customer Voice&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice. The survey invitation link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`
+
+> [!NOTE]
+> - If you enter an incorrect email address while creating a survey invitation link, the email address is not validated.
+> - You can't update the survey invitation once it is created. If some update is required, you must recreate the invitation link.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
