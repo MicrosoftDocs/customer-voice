@@ -17,7 +17,7 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
 
 > [!NOTE]
 > - If you enter an incorrect email address while creating a survey invitation link, the email address is not validated.
-> - You can't update the survey invitation once it is created. If some update is required, you must recreate the invitation link.
+> - You can't update the survey invitation once it is created. If some update is required, you must create a new invitation link.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
