@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using Power Automate | MicrosoftDocs"
 description: "You can send a survey to respondents based on a business trigger such as resolution of a case. This topic explains how to send a survey by using Power Automate."
-ms.date: 10/05/2020
+ms.date: 06/24/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -62,7 +62,7 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |Project|The project containing a survey to be sent.|
 |Survey|The survey to be sent.<br>**Note**: You must select a survey from the list and not enter a custom value.|
 |Email template|The email template to use while sending the invitation.<br>**Note**: You must select an email template from the list and not enter a custom value.|
-|Regarding|The record that associates the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** You must enter an entity logical name in this field.|
+|Regarding|The record that associates the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** <ul><li>You must enter a table's logical name in this field.</li><li>Only tables that are marked for collaboration in activities are supported. For example, the Task table is not supported. </li>|
 |Recipient details|The contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field.<br>**Note**: Only the Contact record is supported.|
 |The fields to send to WebMerge | To use dynamic properties for a survey, use this field to specify survey variables in JSON format. For example, "{"locale":"\<LOCALE>","orgName":"\<NAME>"}", where <LOCALE> and <NAME> are the variable value. |
 |||
