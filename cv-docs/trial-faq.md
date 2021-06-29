@@ -60,7 +60,7 @@ You can receive a total of 100 survey responses in the trial period.
 
 ### Is the free trial available in all geographical regions?
 
-Yes, the free trial is available in all geographical regions. However, the free trial isn't available in the US Government Community Cloud.
+Yes, the free trial is available in all geographical regions except the US Government Community Cloud.
 
 ### Is the free trial available in all supported languages?
 
