@@ -18,9 +18,9 @@ Dynamics 365 Customer Voice offers a free 30-day trial. After a quick setup, you
 
 **To sign up for the trial**:
 
-1. Go to the [trial overview page](https://dynamics.microsoft.com/customer-voice/overview/) and select the **Get started** button.
+1. Go to the [trial overview page](https://dynamics.microsoft.com/customer-voice/overview/) and select **Try for free** .
 
-2. Follow the onscreen guidance to enter [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and your contact information.
+2. Follow the onscreen guidance to enter your work or school email address, and your contact information.
 
    The trial takes a few moments to load, then you can start using the app.
 

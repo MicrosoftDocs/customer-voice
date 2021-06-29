@@ -26,6 +26,10 @@ This app is a cloud-based service that does not require special software other t
 
 ## Trial app
 
+### What is the URL for my trial app?
+
+The URL for the trial app is [https://customervoice.microsoft.com/](https://customervoice.microsoft.com/).
+
 ### How do I add more users to a trial?
 
 To add users, go to the [Microsoft 365 admin center](https://admin.microsoft.com) using the trial admin account. Follow the [admin center guidance](/microsoft-365/admin/add-users/add-users) to add users up to the trial license limit.
@@ -38,7 +42,7 @@ You cannot extend the trial. After the trial period ends, you'll need a paid lic
 
 ### Can I convert the trial to a paid license?
 
-Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing page](https://dynamics.microsoft.com/pricing/) for more information on pricing and purchasing.
+Yes, you can purchase licenses through direct, credit card purchase at [Microsoft 365 admin center](https://admin.microsoft.com). Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing page](https://dynamics.microsoft.com/pricing/) for more information on pricing and purchasing.
 
 ## Dynamics 365 Customer Voice - specific questions
 
@@ -54,13 +58,13 @@ You can access all the functionalities during the trial period. However, when th
 
 You can receive a total of 100 survey responses in the trial period.
 
-### Is the free trial available in all supported geographical regions?
+### Is the free trial available in all geographical regions?
 
-Yes, the free trial is available in all supported geographical regions. For a list of supported geographical regions, see  
+Yes, the free trial is available in all geographical regions. However, the free trial isn't available in the US Government Community Cloud.
 
 ### Is the free trial available in all supported languages?
 
-Yes, the free trial is available in all supported languages. For a list of supported languages, see 
+Yes, the free trial is available in all supported languages. For a list of supported languages, see the [Supported languages](/powerapps/maker/portals/configure/enable-multiple-language-support#supported-languages) section.
 
 ### See also
 
