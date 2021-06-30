@@ -11,19 +11,18 @@ manager: shujoshi
 
 # Sign up for a free trial
 
-Dynamics 365 Customer Voice offers a free 30-day trial. After a quick setup, you will have access to many of the app's key features. After the trial period ends, you'll need a paid license to continue using Dynamics 365 Customer Voice. For information on purchasing Dynamics 365 Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
+Dynamics 365 Customer Voice offers a free 30-day trial. After a quick sign-up, you'll have access to many of the app's key features. After the trial period ends, you'll need a paid license to continue using Customer Voice. For information on purchasing Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
 
 > [!NOTE]
 > The Dynamics 365 Customer Voice trial isn't available in the US Government Community Cloud.
 
 **To sign up for the trial**:
 
-1. Go to the [trial overview page](https://dynamics.microsoft.com/customer-voice/overview/) and select **Try for free** .
+1. Go to the [trial overview page](https://dynamics.microsoft.com/customer-voice/overview/) and select **Try for free**.
 
 2. Follow the onscreen guidance to enter your work or school email address, and your contact information.
 
    The trial takes a few moments to load, then you can start using the app.
-
 
 ## Experience for a trial or new user
 
@@ -53,7 +52,7 @@ This section lists all the functionality that will be restricted until an enviro
 
 ## What to try
 
-The trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
+Your trial environment includes many of the same features as the paid version. The links below guide you through some of the key features.
 
 - [Get started](about.md)
 - [Create a project](create-project.md)
@@ -65,7 +64,5 @@ The trial environment includes many of the same features as the paid version. Th
 
 - [Explore training on Microsoft Learn](/learn/browse/?expanded=dynamics-365&products=customer-voice&resource_type=learning%20path)
 - [Trial FAQ](trial-faq.md)
-
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
