@@ -9,12 +9,12 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Sign up for a free trial
+# Sign up for a free Dynamics 365 Customer Voice trial
 
-Dynamics 365 Customer Voice offers a free 30-day trial. After a quick sign-up, you'll have access to many of the app's key features. After the trial period ends, you'll need a paid license to continue using Customer Voice. For information on purchasing Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
+Customer Voice offers a free 30-day trial. After a quick sign-up, you'll have access to many of the app's key features. After the trial period ends, you'll need a paid license to continue using Customer Voice. For information on purchasing Customer Voice licenses, go to [Purchase Dynamics 365 Customer Voice](purchase.md).
 
 > [!NOTE]
-> The Dynamics 365 Customer Voice trial isn't available in the US Government Community Cloud.
+> The Customer Voice trial isn't available in the US Government Community Cloud.
 
 **To sign up for the trial**:
 
@@ -26,7 +26,7 @@ Dynamics 365 Customer Voice offers a free 30-day trial. After a quick sign-up, y
 
 ## Experience for a trial or new user
 
-Dynamics 365 Customer Voice uses a Microsoft Dataverse environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionalities aren't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionalities become available. More information: [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
+Customer Voice uses a Microsoft Dataverse environment to store and manage data. Provisioning an environment typically takes 15 to 60 minutes to complete. While an environment is getting provisioned, some functionalities aren't available, but you can perform minimal operations and explore the product. After the environment is provisioned, all functionalities become available. More information: [What is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro) and [Environments overview](/power-platform/admin/environments-overview)
 
 This section lists all the functionality that will be restricted until an environment is provisioned. These restrictions apply:
 
