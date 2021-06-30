@@ -10,11 +10,11 @@ ms.custom: template-trial-faq
 manager: shujoshi
 ---
 
-# Trial FAQ
+# Dynamics 365 Customer Voice trial FAQ
 
-The following is a list of frequently asked questions about the Dynamics 365 Customer Voice free product trial. It provides brief answers to help you get to your information quickly.
+The following is a list of frequently asked questions about the Customer Voice free product trial. It provides brief answers to help you get to your information quickly.
 
-## Signup
+## Sign-up
 
 ### Which email address I should use to sign up?
 
