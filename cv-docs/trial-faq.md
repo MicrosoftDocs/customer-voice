@@ -12,7 +12,7 @@ manager: shujoshi
 
 # Trial FAQ
 
-We've compiled a list of frequently asked questions about the free product trial of Dynamics 365 Customer Voice and provided brief answers to help you get to your information quickly.
+The following is a list of frequently asked questions about the Dynamics 365 Customer Voice free product trial. It provides brief answers to help you get to your information quickly.
 
 ## Signup
 
@@ -22,7 +22,7 @@ You must use either your work or school email address to sign up for the product
 
 ### What are the system requirements for the trial?
 
-This app is a cloud-based service that does not require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements)
+This app is a cloud-based service that does not require special software other than an up-to-date web browser, though some restrictions apply. [Learn more about web application requirements](/power-platform/admin/web-application-requirements).
 
 ## Trial app
 
