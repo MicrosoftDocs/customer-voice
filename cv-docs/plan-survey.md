@@ -1,7 +1,7 @@
 ---
 title: "Plan a survey | MicrosoftDocs"
-description: "Instructions for planning a survey with Customer Voice"
-ms.date: 09/10/2020
+description: "It's important to have a plan for creating your surveys. This topic explains how to plan a survey with Customer Voice."
+ms.date: 06/10/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -50,7 +50,7 @@ A few best practices enable you to create an effective high-volume survey using 
 - When you're sending a non-anonymous survey, avoid sending a large number of invitations through Power Automate at the same time. Sending more than eight individual survey invitations per minute might result in processing delays.
 
   **Recommendations:**
-  - To send a large batch of invitations at once, use email. More information: [Send a survey by using email](send-survey-email.md) 
+  - To send a large batch of invitations at once, use email. More information: [Send a survey by using the built-in email composer](send-survey-email.md) 
   - Customize the sender's email address to help recipients identify the survey with your company and improve the survey response rate. More information: [Customize sender email address](customize-sender-email.md)
 
 - When using Power Automate to automate survey response processing or follow-up, be sure to create the workflow by using the account that has the capacity to run the projected workflow volume.
@@ -83,8 +83,8 @@ When a survey is blocked automatically, the administrator receives a daily notif
 
 Dynamics 365 Customer Voice has a limit on the number of surveys you can create, number of questions you can add per survey, and number of responses a survey can receive. The limits are:
 
-- Number of surveys that can be created by a user: 200 (including forms and quizzes if you have Microsoft Forms license)
-- Number of questions allowed per survey: 100
+- Number of surveys that can be created by a user: 400
+- Number of questions allowed per survey: 200
 - Number of responses a survey can receive: 500,000
 - Number of characters allowed per response for a single question: 4,000
 - Number of characters allowed for total responses per survey: 16,000

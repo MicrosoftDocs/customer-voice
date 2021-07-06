@@ -1,6 +1,6 @@
 ---
 title: "Customize header of a survey | MicrosoftDocs"
-description: "Instructions for customizing the header of a survey created with Dynamics 365 Customer Voice."
+description: "This topic explains how to customize the header of a survey created with Dynamics 365 Customer Voice."
 ms.date: 04/01/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
@@ -11,9 +11,6 @@ manager: shujoshi
 
 
 # Customize survey header
-
-> [!NOTE]
-> This feature is being rolled out in phases and will be available in all geographical regions by April 07, 2021.
 
 You can customize the header of your survey to match your company's branding. This includes changing the style, theme color, background image, and adding a logo. You can change the alignment of the survey's header text, background image in the header, and logo as per your requirement. Also, you can turn off the header if it is not required.
 

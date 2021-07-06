@@ -1,6 +1,6 @@
 ---
 title: "Embed a survey in a webpage | MicrosoftDocs"
-description: "Instructions for embedding a survey in a webpage"
+description: "This topic explains how to embed your survey in a webpage by pasting the survey's embed code into your webpage's source code."
 ms.date: 04/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
@@ -90,10 +90,10 @@ The preceding method calls the `renderSurvey` function and passes the required v
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

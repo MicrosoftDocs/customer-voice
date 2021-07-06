@@ -1,6 +1,6 @@
 ---
 title: "Format text in a survey | MicrosoftDocs"
-description: "Instructions for formatting text in a survey created with Dynamics 365 Customer Voice"
+description: "This topic explains how to format text in a survey and customize the look of the survey by changing the font style, font size, and color of the text."
 ms.date: 01/08/2020
 ms.service: dynamics-365-customervoice
 ms.topic: article

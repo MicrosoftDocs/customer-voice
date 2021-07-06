@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
-description: "Instructions for sending a survey by using email"
-ms.date: 12/16/2020
+description: "This topic explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
+ms.date: 05/21/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -134,15 +134,15 @@ You can configure your email message to include a link that allows a respondent 
 
 ## Personalize the survey email
 
-You can use variables to personalize your survey email&mdash;for example, you can add the respondent's first name. Place the cursor where you want the name to appear, select **Personalize**, and then select **First Name** from the list. A placeholder is added at the cursor location. The first name of the respondent is automatically inserted when the email is sent. All variables created in a survey are displayed in the **Personalize** list.
+You can use variables to personalize your survey's email subject and email message&mdash;for example, you can add the respondent's first name to the email subject and the email message. Place the cursor where you want the name to appear, select **Insert** > **Personalized variables**, and then select **First Name** from the list. A placeholder is added at the cursor location. The first name of the respondent is automatically inserted when the email is sent. All variables created in a survey are displayed in the **Personalized variables** list.
 
-To create a new variable, select **New variable** from the **Personalize** list. If default values haven't been defined for survey variables, nothing is displayed for the variables. For more information about creating variables and providing values for them, see [Personalize a survey](personalize-survey.md).
+To create a new variable, select **New variable** from the **Personalized variables** list. If default values haven't been defined for survey variables, nothing is displayed for the variables. For more information about creating variables and providing values for them, see [Personalize a survey](personalize-survey.md).
 
 <a name="embed-survey-in-an-email"></a>
 
 ## Embed a survey in an email
 
-If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Embed survey question**. The question is embedded at the cursor’s location and the email message is adjusted accordingly. When a responder selects an option to answer the question, the whole survey is opened in a web browser and the responder can continue with completing the survey.
+If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Insert** > **First question of the survey**. The question is embedded at the cursor's location and the email message is adjusted accordingly. When a respondent selects an option to answer the question, the whole survey is opened in a web browser and the respondent can continue with completing the survey.
 
 ![Embed question in an email](media/embed-ques-email.png "Embed question in an email")
 
@@ -168,7 +168,7 @@ You can use an email template&mdash;a preformatted email message&mdash;to quickl
 
 1. In the email editor, select **Template** > **Create new**.
 
-2. In the **Create new template** dialog box, enter a name for the template.
+2. In the **Create new template** dialog box, enter a name for the template, and then select **Add**.
 
 3. From the **Template** list, select the newly created template.
 
@@ -180,7 +180,7 @@ You can import an email template from other surveys in the same or a different p
 
 1. In the email editor, select **Template** > **Import from** > **Surveys**.
 
-2. Select a either the current project or any other project, select the survey, and then select **Next**.
+2. Select either the current project or any other project, and then select the survey from which you want to import an email template.
 
 3. Select a template, and then select **Import**.
 
@@ -196,9 +196,9 @@ If you've been transitioned from Forms Pro, your email templates from Forms Pro 
 
 By default, the email template is created in the default language of the survey. If you've added languages to your survey, you can create email template in those languages, and send email in the customer preferred languages. This creates versions of an email template in the selected languages.
 
-1. In the email editor, select **Language** > **Add language**.
+1. In the email editor, select **Language** > **Choose language**.
 
-2. Select the languages in which you want to create email template.
+2. Select the languages in which you want to create email template, and then select **Add**.
 
 3. From the **Language** list, select a language, and update the email message in the selected language.
 
@@ -232,7 +232,7 @@ You can format your email message by using the formatting toolbar at the bottom 
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

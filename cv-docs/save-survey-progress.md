@@ -1,6 +1,6 @@
 ---
 title: "Save survey progress | MicrosoftDocs"
-description: "Instructions for saving a survey's progress in Dynamics 365 Customer Voice."
+description: "This topic explains how to save a survey's progress and enable a user to complete a survey in multiple sittings."
 ms.date: 02/03/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
@@ -38,7 +38,7 @@ You've sent a product feedback survey through a personalized link to your custom
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)
 
 

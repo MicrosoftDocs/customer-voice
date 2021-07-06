@@ -1,7 +1,7 @@
 ---
-title: "Customize the From address of the email | MicrosoftDocs"
-description: "Instructions for customizing the From address of survey emails."
-ms.date: 12/09/2020
+title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
+description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
+ms.date: 06/07/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -29,9 +29,7 @@ Take the following steps to add custom email addresses:
     > [!div class="mx-imgBorder"]
     > ![Select customer voice option](media/cv-select-cv-option-admin-center.png "Select customer voice option")
 
-4.	In the **Dynamics 365 Customer Voice** panel, go to the **Send surveys from a custom email address** section and select **+ Add domain**.    
-    > [!div class="mx-imgBorder"]
-    > ![Select add domain option](media/cv-select-add-domain.png "Select add domain option")
+4.	In the **Dynamics 365 Customer Voice** panel, under the **Distribution** tab, select **+ Add domain**.    
  
 5.	On the **Add domain** page, enter the domain name of the email domain you want to create in **Enter your URL**, and then select **Next**.     
     > [!div class="mx-imgBorder"]
@@ -115,13 +113,17 @@ In this example screen, we're using Microsoft Azure to add the TXT name and valu
 `Host name or Alias: fpeurkey1.\_domainkey`      
 `Points to address: fpeurkey1contosocom.d01.formspro.dynamics.com`
 
->[!NOTE]
->You must create two CNAME records using the information provided in step 6 of [Add custom email addresses](#add-custom-email-addresses).
+> [!NOTE]
+> You must create two CNAME records using the information provided in step 6 of [Add custom email addresses](#add-custom-email-addresses).
 
 In this example screen, we're using Microsoft Azure to add the CNAME alias and address:
 
 > [!div class="mx-imgBorder"]
 > ![Add CNAME alias and address in Microsoft Azure](media/cv-azure-add-cname-alias-address.png "Add CNAME alias and address in Microsoft Azure")
+
+> [!IMPORTANT]
+> Ensure that the domain name is not duplicated while creating a CNAME record. The domain name is added automatically to the record. For example, in the following image, adding the domain in the **Name** field will result in an incorrect record and lead to the failure of domain verification.
+> ![Incorrect CNAME record with domain name](media/wrong-cname-record.png "Incorrect CNAME record with domain name")
 
 ## Frequently asked questions
 
@@ -132,11 +134,11 @@ The email account need not be a functioning account to send emails; however, a m
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

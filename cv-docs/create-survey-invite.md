@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
-description: "Instructions for creating a survey invitation by using Power Automate"
-ms.date: 11/25/2020
+description: "You can create a survey invitation link that can be distributed by using the platform of your choice."
+ms.date: 06/24/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -14,6 +14,10 @@ manager: shujoshi
 [!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
 
 If you want to send a survey by using a platform other than Dynamics 365 Customer Voice&mdash;such as Outlook, Gmail, or SMS&mdash;you can create a survey invitation by using Power Automate. The survey invitation creates a personalized link that can be distributed by using the platform of your choice. The survey invitation link will be a short URL that can be easily distributed by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`
+
+> [!NOTE]
+> - When you create a survey invitation, the email address is considered as-is, and is not validated for correctness.
+> - Once you create a survey invitation, it can't be updated. If some update is required, you must create a new invitation link.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
@@ -62,11 +66,11 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
 ### See also
 
 [Work with survey distribution settings](distribution-settings.md)<br>
-[Send a survey by using email](send-survey-email.md)<br>
+[Send a survey by using the built-in email composer](send-survey-email.md)<br>
 [Send a survey by using Power Automate](send-survey-flow.md)<br>
 [Embed a survey in a webpage](embed-web-page.md)<br>
 [Send a survey link to others](send-survey-link.md)<br>
-[Send a survey QR code](send-survey-qrcode.md)
+[Send a survey by using QR code](send-survey-qrcode.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
