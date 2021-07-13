@@ -37,7 +37,7 @@ Alerts are created based on the satisfaction metric values. You can create an al
     - **Condition**: Select a condition and its value from the respective
         lists. An alert will be created whenever this condition is true.
 
-    ![Create a new alert rule](media/create-alert-rule-panel.png "Create a new alert rule")
+    ![Create a new alert rule.](media/create-alert-rule-panel.png "Create a new alert rule")
 
 5.  Select **Save**.
 
@@ -53,7 +53,7 @@ After you've created alert rules, you can view and edit the rules, or delete the
 
     Alert rules are displayed in the **View alert rules** panel.
 
-    ![View alert rules](media/view-alert-rules.png "View alert rules")
+    ![View alert rules.](media/view-alert-rules.png "View alert rules")
 
 4.  To view an alert rule, expand it.
 
@@ -85,11 +85,11 @@ Alerts are displayed in the grid format with the following information:
 
 Alerts that are newly created, or currently being worked, on are displayed on the **Open** tab.
 
-![View open alerts](media/open-alerts.png "View open alerts")
+![View open alerts.](media/open-alerts.png "View open alerts")
 
 The resolved alerts are displayed on the **Resolved** tab.
 
-![View resolved alerts](media/resolved-alerts.png "View resolved alerts")
+![View resolved alerts.](media/resolved-alerts.png "View resolved alerts")
 
 You can perform the following actions for each alert:
 
@@ -109,7 +109,7 @@ To perform an action, hover over an alert, select the ellipsis button, and then 
 
 You can also perform bulk actions by selecting multiple alerts and selecting an action from the upper-right corner of the grid. You can select a maximum of 100 alerts. The actions differ for the open and resolved alerts.
 
-![Select multiple alerts](media/select-alerts.png "Select multiple alerts")
+![Select multiple alerts.](media/select-alerts.png "Select multiple alerts")
 
 ### Sort alerts
 
@@ -117,7 +117,7 @@ You can sort alerts by selecting any of the column headers. By default, alerts a
 
 ### Filter alerts
 
-You can filter the list of alerts by selecting the **Filter** ![Filter icon](media/filter-icon.png "Filter icon") icon in the **Alerts** report. In the **Filter** panel, select one or more of the following filter criteria, and then select **Apply**:
+You can filter the list of alerts by selecting the **Filter** ![Filter icon.](media/filter-icon.png "Filter icon") icon in the **Alerts** report. In the **Filter** panel, select one or more of the following filter criteria, and then select **Apply**:
 
 - **Alert name**: The name of the alert rule.
 
@@ -125,7 +125,7 @@ You can filter the list of alerts by selecting the **Filter** ![Filter icon](med
 
 - **Surveys**: The surveys for which alerts are generated.
 
-![Filter panel](media/filter-panel.png "Filter panel")
+![Filter panel.](media/filter-panel.png "Filter panel")
 
 To remove the filter selections, select **Clear all** in the **Filter** panel.
 
@@ -141,9 +141,9 @@ You can view details of an alert by selecting it in the **Alerts** report. When 
 
 The information displayed in the **Alert details** panel depends on the alert state: open or resolved.
 
-![Open alert details](media/open-alert-details.png "Open alert details")
+![Open alert details.](media/open-alert-details.png "Open alert details")
 
-![Resolved alert details](media/resolved-alert-details.png "Resolved alert details")
+![Resolved alert details.](media/resolved-alert-details.png "Resolved alert details")
 
 ## Assign an alert
 
@@ -157,7 +157,7 @@ When an alert is created, it isn't assigned to anyone. You must assign it to a u
 
 3.  In the **Assign alert to**  window, enter the name or email address of the user to assign the alert to.
 
-    ![Assign an alert to a user](media/assign-alert-pop-up.png "Assign an alert to a user")
+    ![Assign an alert to a user.](media/assign-alert-pop-up.png "Assign an alert to a user")
 
     > [!NOTE]
     > - Only one user can be specified at a time.
@@ -169,7 +169,7 @@ The alert is assigned to the specified user, and an email is sent to the user to
 
 You can also select multiple alerts in the grid, and then select **Reassign** in the upper-right corner of the grid. In the **Assign alert to** pop-up window, enter the name or email address of the user to assign the alert to, and then select **Assign**.
 
-![Assign multiple alerts](media/assign-multiple-alerts.png "Assign multiple alerts")
+![Assign multiple alerts.](media/assign-multiple-alerts.png "Assign multiple alerts")
 
 ### Assign an alert from the Alert details panel
 
@@ -179,11 +179,11 @@ You can also select multiple alerts in the grid, and then select **Reassign** in
 
 3.  In the **Alert details** panel, select **Assign**.
 
-    ![Assign an alert from the Alert details panel](media/assign-single-alert.png "Assign an alert from the Alert details panel")
+    ![Assign an alert from the Alert details panel.](media/assign-single-alert.png "Assign an alert from the Alert details panel")
 
 4.  In the **Assign alert to** pop-up window, enter the name or email address of the user to assign the alert to.
 
-    ![Assign an alert to a user](media/assign-alert-pop-up.png "Assign an alert to a user")
+    ![Assign an alert to a user.](media/assign-alert-pop-up.png "Assign an alert to a user")
 
     > [!NOTE]
     > - Only one user can be specified at a time.
@@ -209,7 +209,7 @@ The alert is marked as resolved and moved to the **Resolved** tab.
 
 You can also select multiple alerts in the grid, and then select **Resolve** in the upper-right corner of the grid.
 
-![Resolve multiple alerts](media/resolve-multiple-alerts.png "Resolve multiple alerts")
+![Resolve multiple alerts.](media/resolve-multiple-alerts.png "Resolve multiple alerts")
 
 ### Resolve an alert from the Alert details panel
 
@@ -219,13 +219,13 @@ You can also select multiple alerts in the grid, and then select **Resolve** in 
 
 3.  In the **Alert details** panel, select **Resolve**.
 
-    ![Resolve an alert from Alert details panel](media/resolve-single-alert.png "Resolve an alert from Alert details panel")
+    ![Resolve an alert from Alert details panel.](media/resolve-single-alert.png "Resolve an alert from Alert details panel")
 
 4.  In the **Resolve alert** panel, enter your comments in the **Comments** box, and then select **Resolve**.
 
 The alert is marked as resolved and moved to the **Resolved** tab.
 
-![Resolve alert panel](media/resolve-alert-panel.png "Resolve alert panel")
+![Resolve alert panel.](media/resolve-alert-panel.png "Resolve alert panel")
 
 ## Reopen an alert
 
@@ -241,7 +241,7 @@ The alert is marked as open and moved to the **Open** tab.
 
 You can also select multiple alerts in the grid, and then select **Reopen** in the upper-right corner of the grid.
 
-![Reopen multiple alerts](media/reopen-multiple-alerts.png "Reopen multiple alerts")
+![Reopen multiple alerts.](media/reopen-multiple-alerts.png "Reopen multiple alerts")
 
 ### Reopen an alert from the Alert details panel
 
@@ -253,7 +253,7 @@ You can also select multiple alerts in the grid, and then select **Reopen** in t
 
 The alert is marked as open and moved to the **Open** tab.
 
-![Reopen an alert from the Alert details panel](media/reopen-single-alert.png "Reopen an alert from the Alert details panel")
+![Reopen an alert from the Alert details panel.](media/reopen-single-alert.png "Reopen an alert from the Alert details panel")
 
 ## Delete an alert
 
@@ -267,7 +267,7 @@ You can delete an alert that isn't required anymore. You can only delete an aler
 
 You can also select multiple alerts in the grid, and then select **Delete** in the upper-right corner of the grid. In the confirmation message, select **Delete**.
 
-![Delete multiple alerts](media/delete-multiple-alerts.png "Delete multiple alerts")
+![Delete multiple alerts.](media/delete-multiple-alerts.png "Delete multiple alerts")
 
 ### See also
 

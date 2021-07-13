@@ -13,7 +13,7 @@ manager: shujoshi
 
 A survey response record is created after a respondent (tracked and anonymous) submits a survey. To see survey responses, open the project, and select the survey name in the **Reports** section in the left pane. A graphical representation of the responses is displayed.
 
-![Survey reports](media/survey-report.png "Survey reports")
+![Survey reports.](media/survey-report.png "Survey reports")
 
 ## View individual responses
 
@@ -27,15 +27,15 @@ You can view individual responses to each question in a survey submitted by a re
 
 3. Select **Respondents** at the right side of the page. The respondents are displayed in the **Respondents** panel.
 
-    ![Respondents panel](media/respondents-panel.png "Respondents panel")
+    ![Respondents panel.](media/respondents-panel.png "Respondents panel")
 
 4. Double-click a respondent's name to see their response.
 
-    ![Response details](media/individual-response.png "Response details")
+    ![Response details.](media/individual-response.png "Response details")
 
 5. To search for a respondent, enter the respondent's name or email in the **Search** field. 
 
-    ![Search for a respondent](media/search-respondent.png "Search for a respondent")
+    ![Search for a respondent.](media/search-respondent.png "Search for a respondent")
 
 
 ## Filter data in charts
@@ -52,7 +52,7 @@ If your survey has less than 5,000 responses, the responses are exported to an E
 
 If there are less than 5,000 responses, the survey responses are exported to an Excel (.xlsx) file. To export survey responses, select **Export** in the upper-left corner of the report. A notification is displayed in the upper-right corner when the responses are being exported and after the export is complete.
 
-![Surveys being exported to Excel](media/export-excel-notif.png "Surveys being exported to Excel")
+![Surveys being exported to Excel.](media/export-excel-notif.png "Surveys being exported to Excel")
 
 ### Survey with more than 5,000 responses
 
@@ -68,17 +68,17 @@ If there are more than 5,000 responses, you can choose to export responses to an
 
     - **CSV**: Exports all survey responses to a CSV file.
 
-    ![Select a file format to export survey responses](media/export-file-format.png "Select a file format to export survey responses")
+    ![Select a file format to export survey responses.](media/export-file-format.png "Select a file format to export survey responses")
 
 3. Select **Export**.
 
    A notification is displayed in the upper-right corner when the responses are being exported and after the export is complete. If you choose to export to CSV, the notification contains a link that allows you to send the CSV file to your email address.
 
-   ![Surveys being exported to CSV](media/export-csv-notif.png "Surveys being exported to CSV")
+   ![Surveys being exported to CSV.](media/export-csv-notif.png "Surveys being exported to CSV")
 
    Select **Send file in email**, and confirm the email address in the **Confirm email address** dialog box.
 
-   ![Confirm email address to send CSV file](media/export-email-confirm.png "Confirm email address to send CSV file")
+   ![Confirm email address to send CSV file.](media/export-email-confirm.png "Confirm email address to send CSV file")
 
 ## Delete a survey response
 

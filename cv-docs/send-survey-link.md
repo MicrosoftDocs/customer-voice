@@ -32,7 +32,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 
 3. In the **Copy link** section, select **Copy**.
 
-    ![Get the survey link for sharing](media/survey-link.png "Get the survey link for sharing")
+    ![Get the survey link for sharing.](media/survey-link.png "Get the survey link for sharing")
 
     Paste the survey link in a place that's visible to your intended audience. They can select the link to access your survey.
 
@@ -53,7 +53,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 
 3. In the **Custom links** section, select **Create link**.
 
-    ![Create a custom link for the survey](media/survey-custom-link.png "Create a custom link for the survey")
+    ![Create a custom link for the survey.](media/survey-custom-link.png "Create a custom link for the survey")
 
 4. In the **Create link** panel, select variables to create custom links.
 
@@ -63,21 +63,21 @@ You can create a generic survey link or custom survey links. A generic survey li
 
 7. After you enter all the values, select **Create**.
 
-    ![Create custom links for the survey](media/survey-custom-link-create.png "Create custom links for the survey")
+    ![Create custom links for the survey.](media/survey-custom-link-create.png "Create custom links for the survey")
 
     The custom links are created based on the selected variables and displayed in the **Survey links** panel.
 
-    ![Custom links created for the survey](media/survey-custom-links-created.png "Custom links created for the survey")
+    ![Custom links created for the survey.](media/survey-custom-links-created.png "Custom links created for the survey")
 
-8. To copy a link, hover over the link, and then select ![Copy icon](media/custom-link-copy-icon.png "Copy icon").
+8. To copy a link, hover over the link, and then select ![Copy icon.](media/custom-link-copy-icon.png "Copy icon").
 
-    ![Copy a custom link](media/survey-custom-link-copy.png "Copy a custom link")
+    ![Copy a custom link.](media/survey-custom-link-copy.png "Copy a custom link")
 
 9. To export all links, select **Export**. The links are downloaded in an Excel file.
 
 10. To download QR code for a custom link, hover over the link, select **More actions** (three dots), and then select **Download QR code**.
 
-    ![Download QR code for a custom link](media/survey-custom-link-qr.png "Download QR code for a custom link")
+    ![Download QR code for a custom link.](media/survey-custom-link-qr.png "Download QR code for a custom link")
 
 ## Create custom links by using a CSV file
 
@@ -94,7 +94,7 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
 3. In the **Custom links** section, select **Create link**.
 
-    ![Create a custom link for the survey](media/survey-custom-link.png "Create a custom link for the survey")
+    ![Create a custom link for the survey.](media/survey-custom-link.png "Create a custom link for the survey")
 
 4. In the **Create link** panel, select variables to create custom links.
 
@@ -102,19 +102,19 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
     The selected variables are available as separate columns in the CSV file. Specify the values as per your requirement. If you want to associate a survey response to an entity, you can add the **RegardingID** and **RegardingEntityName** columns to the CSV file and enter the information.
 
-    ![Download a template to create custom links for the survey](media/survey-custom-link-template.png "Download a template to create custom links for the survey")
+    ![Download a template to create custom links for the survey.](media/survey-custom-link-template.png "Download a template to create custom links for the survey")
 
 6. After you create the CSV file, go to the **Create link** panel, expand the **Advanced options** section, and then select **Upload**.
 
 7. Browse to and select the CSV file you want to upload. The values from the CSV file are populated under **Add values for each variable**.
 
-    ![Values populated from CSV file](media/custom-link-csv-values.png "Values populated from CSV file")
+    ![Values populated from CSV file.](media/custom-link-csv-values.png "Values populated from CSV file")
 
 8. Select **Create**.
 
     After the file is uploaded successfully, links are created, and displayed in the **Survey links** panel.
 
-9. To copy a link, hover over the link, and then select ![Copy icon](media/custom-link-copy-icon.png "Copy icon").
+9. To copy a link, hover over the link, and then select ![Copy icon.](media/custom-link-copy-icon.png "Copy icon").
 
 10. To export all links, select **Export**.
 
@@ -133,15 +133,15 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
 3. Hover over the link you want to edit, select **More actions** (three dots), and then select **Edit**.
 
-    ![Edit a custom link](media/survey-custom-link-edit.png "Edit a custom link")
+    ![Edit a custom link.](media/survey-custom-link-edit.png "Edit a custom link")
 
 4. Edit the values for variables as required.
 
-    ![Edit values for a custom link](media/survey-custom-link-edit-values.png "Edit values for a custom link")
+    ![Edit values for a custom link.](media/survey-custom-link-edit-values.png "Edit values for a custom link")
 
-5. Select ![Save the changes](media/tick-icon.png "Save the changes") to save the changes.
+5. Select ![Save the changes.](media/tick-icon.png "Save the changes") to save the changes.
 
-6. Select ![Discard the changes](media/cross-icon.png "Discard the changes") to discard the changes.
+6. Select ![Discard the changes.](media/cross-icon.png "Discard the changes") to discard the changes.
 
 ## Delete a custom link
 
@@ -156,7 +156,7 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
 3. Hover over the link you want to edit, select **More actions** (three dots), and then select **Delete**.
 
-    ![Delete a custom link](media/survey-custom-link-delete.png "Delete a custom link")
+    ![Delete a custom link.](media/survey-custom-link-delete.png "Delete a custom link")
 
 4. In the confirmation message, select **Delete**.
 

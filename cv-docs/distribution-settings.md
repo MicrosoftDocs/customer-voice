@@ -21,11 +21,11 @@ After you've created a survey, you can select distribution settings to control r
 
 2. On the **Send** tab, select **Customization** at the right side of the page, and then select **Distribution settings**.
 
-    ![Distribution settings](media/distribution-settings-button.png "Distribution settings")
+    ![Distribution settings.](media/distribution-settings-button.png "Distribution settings")
 
     The **Distribution** panel is displayed.
 
-    ![Distribution panel](media/distribution-panel.png "Distribution panel")
+    ![Distribution panel.](media/distribution-panel.png "Distribution panel")
 
 3. Update the settings as described in the following sections.
 
@@ -51,7 +51,7 @@ The available settings are:
 
     When you turn on this setting, the respondent's first name, last name, and email aren't saved in response records by default. If you've added variables to your survey, their values also will not be stored in response records by default. This is helpful when you want to collect survey responses anonymously. A message is displayed below this option that the variables settings are enabled. You can turn on the toggle for the required variable if you want to store its value in the response record. More information: [Personalize a survey by using variables](personalize-survey.md)
 
-    ![Variables settings enabled](media/variables-settings-enabled.png "Variables settings enabled")
+    ![Variables settings enabled.](media/variables-settings-enabled.png "Variables settings enabled")
 
 - **One response per person**: Specify whether a respondent can submit only one response, or more than one.
 
@@ -69,7 +69,7 @@ The available settings are:
 
     This setting is disabled when the [**Shuffle questions**](survey-formatting.md#shuffle-questions) setting is turned on, and vice versa.
 
-![Respondent settings](media/respondents-settings.png "Respondent settings")
+![Respondent settings.](media/respondents-settings.png "Respondent settings")
 
 ## Responses
 
@@ -81,7 +81,7 @@ The available settings are:
 
     If you want to stop receiving responses, turn off this setting and enter a message in the **Message to recipients** field. The message you enter will be shown to respondents when they open the survey.
 
-    ![Survey closed settings](media/survey-closed-setting.png "Survey closed settings")
+    ![Survey closed settings.](media/survey-closed-setting.png "Survey closed settings")
 
 - **Select when the survey will be available**: Specify a start date and time to start receiving responses. By default, this isn't selected.
 
@@ -101,7 +101,7 @@ The available settings are:
 
     This setting is displayed only when **Accept responses** is turned on.
 
-![Response restrictions settings](media/response-restrictions-settings.png "Response restrictions settings")
+![Response restrictions settings.](media/response-restrictions-settings.png "Response restrictions settings")
 
 ## Availability
 
@@ -113,7 +113,7 @@ The available setting is:
 
     If you want to block responses, turn on this setting and enter a number of days in the **Disable after** field. By default, the value is set to 30. You can enter a lower value or up to the maximum of 1,095. Respondents can use the personalized link to complete the survey from the date they receive the invitation until the specified number of days have passed.
 
-![Link expirations settings](media/link-expiration-setting.png "Link expirations settings")
+![Link expirations settings.](media/link-expiration-setting.png "Link expirations settings")
 
 ## Email
 
@@ -131,7 +131,7 @@ The available settings are:
 
 - **Receive an email when a survey is submitted**: Specify whether you need an email notification whenever a response is submitted. By default, this setting is turned off.
 
-![Notifications settings](media/notifications-setting.png "Notifications settings")
+![Notifications settings.](media/notifications-setting.png "Notifications settings")
 
 ## Work with personalized links
 

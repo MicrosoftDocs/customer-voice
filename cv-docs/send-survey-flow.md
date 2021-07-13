@@ -52,7 +52,7 @@ Let's say you need to send a survey every time a case is closed. You can use the
 Use the **Recipient details** field to associate your survey invitation and response records to the appropriate contact (the recipient). This allows sales personnel, or anyone, to see the contact record and the response of the customer. This can help them formulate their conversation with the customer accordingly.
 
 > [!div class="mx-imgBorder"]
-> ![Send a survey action](media/send-survey-action.png "Send a survey action")
+> ![Send a survey action.](media/send-survey-action.png "Send a survey action")
 
 ### Attributes
 
@@ -73,13 +73,13 @@ Use the **Recipient details** field to associate your survey invitation and resp
 The values from the **Regarding** and **Recipient details** fields are stored in the survey invitation, as shown in the following image.
 
 > [!div class=mx-imgBorder]
-> ![Survey invitation record](media/survey-invite.png "Survey invitation record")  
+> ![Survey invitation record.](media/survey-invite.png "Survey invitation record")  
 
 > [!NOTE]
 > The **To** field isn't displayed by default on the form. You must go to **Advanced Find**, search for the invitation, and then add the required columns to see their values.
 >
 > [!div class=mx-imgBorder]
-> ![Search survey invite using Advanced Find](media/survey-invite-adv-find.png "Search survey invitation using Advanced Find") 
+> ![Search survey invite using Advanced Find.](media/survey-invite-adv-find.png "Search survey invitation using Advanced Find") 
 
 ### See also
 

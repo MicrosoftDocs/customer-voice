@@ -27,7 +27,7 @@ If you've created variables, they'll be used to capture your respondent's inform
 The values of variables in a response are displayed on the **Personalized data** tab in a survey response.
 
 > [!div class=mx-imgBorder]
-> ![Survey variables in a survey response](media/response-personal-data.png "Survey variables in a survey response")
+> ![Survey variables in a survey response.](media/response-personal-data.png "Survey variables in a survey response")
 
 **To embed your survey**
 
@@ -50,7 +50,7 @@ The values of variables in a response are displayed on the **Personalized data**
 5.  Select **Copy**, and then paste the embed code into a webpage to embed your survey. You must then update the webpage's source code to render the survey on the webpage. For information about how to update the source code, see [Update a webpage's source code](#update-a-webpages-source-code).  
 
     > [!div class=mx-imgBorder]
-    > ![embed a survey in a webpage](media/survey-embed.png "Embed a survey in a webpage")  
+    > ![embed a survey in a webpage.](media/survey-embed.png "Embed a survey in a webpage")  
 
 ## Update a webpage's source code
 
