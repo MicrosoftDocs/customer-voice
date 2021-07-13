@@ -59,19 +59,19 @@ Creating a project from a template helps you quickly get started with little or 
 
 2. On the **All projects** tab, select **New project**.
 
-    ![New project button](media/new-project-button.png "New project button") 
+    ![New project button.](media/new-project-button.png "New project button") 
 
      The **Project template** page is displayed with the available project templates.
 
-     ![Available project templates](media/project-templates.png "Available project templates") 
+     ![Available project templates.](media/project-templates.png "Available project templates") 
 
-3. To see the survey questions in a project template, hover over the template, and then select **Preview** ![Preview](media/preview-icon.png).
+3. To see the survey questions in a project template, hover over the template, and then select **Preview** ![Preview.](media/preview-icon.png).
 
 4. Select the required project template, and then select **Next**.
 
 5. On the **Survey location** page, select an environment to create the project in. To see all environments, select **See all environments**.
 
-    ![Select a survey location](media/survey-location.png "Select a survey location")
+    ![Select a survey location.](media/survey-location.png "Select a survey location")
 
 6. In the **All environments** window, select the environment you want, and then select **Select and close**.
 

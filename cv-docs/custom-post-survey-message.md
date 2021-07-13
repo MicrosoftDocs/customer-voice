@@ -27,11 +27,11 @@ If you've created a multilingual survey, you can add translations to post-survey
 
 3. In the **Post-survey message** section, select the default message.
 
-    ![Select the default post-survey message](media/select-default-message.png "Select the default post-survey message")
+    ![Select the default post-survey message.](media/select-default-message.png "Select the default post-survey message")
 
 4. Update the text in the **Heading** and **Message** fields.
 
-    ![Update the default post-survey message](media/update-default-message.png "Update the default post-survey message")
+    ![Update the default post-survey message.](media/update-default-message.png "Update the default post-survey message")
 
 5. To revert your changes to the default text, select **Reset**.
 
@@ -43,7 +43,7 @@ If you've created a multilingual survey, you can add translations to post-survey
 
 3. In the **Post-survey message** section, select **Add Message**.
 
-    ![Add a new post-survey message](media/select-add-message.png "Add a new post-survey message")
+    ![Add a new post-survey message.](media/select-add-message.png "Add a new post-survey message")
 
 4. Add text in the **Heading** and **Message** fields.
 
@@ -55,7 +55,7 @@ If you've created a multilingual survey, you can add translations to post-survey
 
     You can add more conditions that use either the **and** or **or** operator by selecting **Add condition**.
 
-    ![Multiple conditions added](media/message-multiple-conditions.png "Multiple conditions added")
+    ![Multiple conditions added.](media/message-multiple-conditions.png "Multiple conditions added")
 
 6. To remove a branching condition, hover over the condition, and then select **Remove**.
 
@@ -71,7 +71,7 @@ If you've created a multilingual survey, you can add translations to post-survey
 
 4. Select **Delete message**.
 
-    ![Delete the message](media/delete-message.png "Delete the message")
+    ![Delete the message.](media/delete-message.png "Delete the message")
 
 ### See also
 

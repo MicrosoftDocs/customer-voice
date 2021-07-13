@@ -21,11 +21,11 @@ As an administrator, you can control various settings such as recording the name
 
 3. On the **Org settings** page, under the **Services** tab, select **Dynamics 365 Customer Voice**.
 
-    ![Select Dynamics 365 Customer Voice on the Services tab](media/select-customer-voice.png "Select Dynamics 365 Customer Voice on the Services tab") 
+    ![Select Dynamics 365 Customer Voice on the Services tab.](media/select-customer-voice.png "Select Dynamics 365 Customer Voice on the Services tab") 
 
    The **Dynamics 365 Customer Voice** panel is displayed.
 
-    ![Dynamics 365 Customer Voice settings panel](media/customer-voice-admin-settings.png "Dynamics 365 Customer Voice settings panel")
+    ![Dynamics 365 Customer Voice settings panel.](media/customer-voice-admin-settings.png "Dynamics 365 Customer Voice settings panel")
 
 4. Update the settings as described in the following section.
 

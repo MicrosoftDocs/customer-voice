@@ -38,7 +38,7 @@ The survey, along with its customizations, is copied as a new survey.
 
 1. Open the project that includes the survey you want to copy.
 
-2. Hover over the survey, select the ellipsis button ![Survey options](media/project-options.png "Survey options"), and then select **Copy**.
+2. Hover over the survey, select the ellipsis button ![Survey options.](media/project-options.png "Survey options"), and then select **Copy**.
 
     The **Copy to** screen is displayed.
 
@@ -46,11 +46,11 @@ The survey, along with its customizations, is copied as a new survey.
 
    - To copy your survey in the same project you're currently working in, select the project listed in the **Current project** section.
 
-     ![Copy your survey in the same project](media/copy-survey-current.png "Copy your survey in the same project")
+     ![Copy your survey in the same project.](media/copy-survey-current.png "Copy your survey in the same project")
 
    - To copy your survey to a different project, select a project listed in the **Recent projects** section, or expand **All Projects** and select a project.
 
-     ![Copy your survey to a different project](media/copy-survey-other.png "Copy your survey to a different project")
+     ![Copy your survey to a different project.](media/copy-survey-other.png "Copy your survey to a different project")
 
 4. Select **Copy**. A notification is displayed in the upper-right corner when the project is copied successfully.
 
@@ -70,11 +70,11 @@ Satisfaction metrics aren't moved to the destination project. Satisfaction metri
 
 1. Open the project from which you want to move the survey.
 
-2. Hover over the survey, select ![Survey options](media/project-options.png "Survey options"), and then select **Move**.
+2. Hover over the survey, select ![Survey options.](media/project-options.png "Survey options"), and then select **Move**.
 
 3. In the **Move** screen, select a project listed in the **Recent projects** section, or expand **All Projects** and select a project.
 
-    ![Move your survey to a different project](media/move-survey.png "Move your survey to a different project")
+    ![Move your survey to a different project.](media/move-survey.png "Move your survey to a different project")
 
 4. Select **Move**. A notification is displayed in the upper-right corner when the survey is moved successfully.
 
@@ -82,9 +82,9 @@ Satisfaction metrics aren't moved to the destination project. Satisfaction metri
 
 1. Open the project that includes the survey you want to rename.
 
-2. Hover over the survey, select ![Survey options](media/project-options.png "Survey options"), and then select **Rename**.
+2. Hover over the survey, select ![Survey options.](media/project-options.png "Survey options"), and then select **Rename**.
 
-    ![Rename your survey](media/rename-survey.png "Rename your survey")
+    ![Rename your survey.](media/rename-survey.png "Rename your survey")
 
 3. In the **Rename your survey** dialog box, enter a new name, and then select **Rename**.
 
@@ -100,7 +100,7 @@ If a satisfaction metric is mapped to the questions of the survey being deleted,
 
 1. Open the project that includes the survey you want to delete.
 
-2. Hover over the survey to be deleted, select ![Survey options](media/project-options.png "Survey options"), and then select **Delete**.
+2. Hover over the survey to be deleted, select ![Survey options.](media/project-options.png "Survey options"), and then select **Delete**.
 
 3. In the confirmation dialog box, select **Delete**.
 

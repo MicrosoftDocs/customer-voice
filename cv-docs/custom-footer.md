@@ -23,11 +23,11 @@ You can add formatting to the footer text by changing their font style, font siz
 
 3. Turn on the **Customize message** toggle in the **Footer** section.
 
-    ![Turn on the customization of footer text](media/custom-footer-thank-you-off.png "Turn on the customization of footer text") 
+    ![Turn on the customization of footer text.](media/custom-footer-thank-you-off.png "Turn on the customization of footer text") 
 
 4. Enter the text you want for the footer text. If required, add formatting to the text.
 
-    ![Updated footer text](media/custom-footer-thank-you-on.png "Updated footer text")
+    ![Updated footer text.](media/custom-footer-thank-you-on.png "Updated footer text")
 
 ### See also
 

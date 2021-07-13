@@ -31,17 +31,17 @@ The following survey invitation statistics are displayed in the upper part of th
 
 - **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
 
-![Survey invitation report](media/invite-report.png "Survey invitation report")
+![Survey invitation report.](media/invite-report.png "Survey invitation report")
 
 ## View invitation details
 
 You can view details of an invitation statistic by selecting **Details** in the upper-right corner of the statistic tile. For example, if you want to see details about the total number of invitations, select **Details** on the **Total invites** tile.
 
-![Survey invitation details button](media/invite-details.png "Survey invitation details button")
+![Survey invitation details button.](media/invite-details.png "Survey invitation details button")
 
 The details are displayed in a panel on the right side of the page.
 
-![Survey invitation details displayed in a panel](media/total-invites.png "Survey invitation details displayed in a panel")
+![Survey invitation details displayed in a panel.](media/total-invites.png "Survey invitation details displayed in a panel")
 
 ## Export invitation details
 
@@ -49,9 +49,9 @@ You can export invitation details to a CSV file either from the statistic tile o
 
 **To export invitation details from the statistic tile**
 
-1. In the statistic tile, select the vertical ellipsis ![ellipsis](media/project-options.png "ellipsis"), and then select **Export**.
+1. In the statistic tile, select the vertical ellipsis ![ellipsis.](media/project-options.png "ellipsis"), and then select **Export**.
 
-    ![Survey invitation export button](media/export-invites-tile.png "Survey invitation export button")
+    ![Survey invitation export button.](media/export-invites-tile.png "Survey invitation export button")
 
 2. In the confirmation dialog box, select **Export**.
 
@@ -59,7 +59,7 @@ You can export invitation details to a CSV file either from the statistic tile o
 
 1. In the invitation details panel, select **Export**.
 
-    ![Survey invitation export from the invitation details panel](media/export-invites-panel.png "Survey invitation export from the invitation details panel")
+    ![Survey invitation export from the invitation details panel.](media/export-invites-panel.png "Survey invitation export from the invitation details panel")
 
 2. In the confirmation dialog box, select **Export**.
 
@@ -67,7 +67,7 @@ You can export invitation details to a CSV file either from the statistic tile o
 
 You can delete a survey invitation that you don't need anymore. To delete a survey invitation, go to the invitation details panel, hover over the invitation, and then select **Delete**. Select **Delete** in the confirmation message.
 
-![Delete a survey invitation from the invitation details panel](media/delete-invite.png "Delete a survey invitation from the invitation details panel")
+![Delete a survey invitation from the invitation details panel.](media/delete-invite.png "Delete a survey invitation from the invitation details panel")
 
 ### See also
 

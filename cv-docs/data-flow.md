@@ -15,7 +15,7 @@ manager: shujoshi
 
 The following data flow diagram provides a visual representation of the flow of information (data) across Customer Voice services and Microsoft Dataverse. It also provides visual information about inputs and outputs of entities and processes. The data in the Customer Voice services area is stored in Microsoft managed storage in North America or Europe, and is encrypted by using Microsoft-managed keys. The data in the Dataverse area is stored in users' Dataverse organizations in the local datacenter.
 
-![Data flow diagram for Customer Voice](media/dfd.png "Data flow diagram for Customer Voice")
+![Data flow diagram for Customer Voice.](media/dfd.png "Data flow diagram for Customer Voice")
 
 The following processes are shown in the data flow diagram:
 
