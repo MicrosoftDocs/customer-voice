@@ -37,11 +37,11 @@ You can customize the look of your survey by changing the font style, font size,
 
 3. Choose formatting for your survey text.
 
-   ![Apply text formatting](media/text-format.png "Apply text formatting")
+   ![Apply text formatting.](media/text-format.png "Apply text formatting")
 
 In the following illustration, custom formatting has been applied to the survey title, description, and questions.
 
-![Formatting applied to a survey](media/survey-text-format.png "Formatting applied to a survey")
+![Formatting applied to a survey.](media/survey-text-format.png "Formatting applied to a survey")
 
 > [!NOTE]
 > To format the footer text, you must first turn on **Customize message**, select the text, and then use the formatting toolbar. More information: [Customize footer text](custom-footer.md)

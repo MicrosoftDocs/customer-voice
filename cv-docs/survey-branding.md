@@ -19,11 +19,11 @@ You can customize the appearance of your survey to match your company's branding
 
 2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Branding**.
 
-   ![Branding menu item](media/branding-button.png "Branding menu item")
+   ![Branding menu item.](media/branding-button.png "Branding menu item")
 
    The **Branding** panel is displayed.
 
-   ![Branding panel](media/branding-panel.png "Branding panel")
+   ![Branding panel.](media/branding-panel.png "Branding panel")
 
 3. Update the branding options, as described in the following sections.
 
@@ -38,11 +38,11 @@ You can select a color to apply to various survey elements such as the survey he
 
   - Select the default color to open the color picker, and then choose a color.
 
-    ![Choose a color from the color picker](media/color-picker.png "Choose a color from the color picker")
+    ![Choose a color from the color picker.](media/color-picker.png "Choose a color from the color picker")
 
   - Enter a hexadecimal code in the **HEX #** field.
 
-    ![Enter a hexadecimal code](media/hex-code.png "Enter a hexadecimal code")
+    ![Enter a hexadecimal code.](media/hex-code.png "Enter a hexadecimal code")
 
 ## Fonts
 
@@ -54,7 +54,7 @@ You can select a font to apply to the survey header and body elements.
 
   - **Body font** is applied to questions, answer options, button labels, header text, and footer text. By default, the body font is Segoe UI.
 
-  ![Choose fonts for your survey](media/theme-fonts.png "Choose fonts for your survey")
+  ![Choose fonts for your survey.](media/theme-fonts.png "Choose fonts for your survey")
 
 You can also change font style, font size, and the color of the text for individual elements of the survey. More information: [Format text in a survey](survey-text-format.md)
 
@@ -71,13 +71,13 @@ You can select a background image for the survey. The image must be within the f
 
 - Expand the **Background** section, and then select **Upload**. You can choose an image from your local drive or OneDrive.
 
-  ![Upload background image](media/upload-background-image.png "Upload background image")
+  ![Upload background image.](media/upload-background-image.png "Upload background image")
 
 **To remove an existing background image**
 
 - Expand the **Background** section, and then select **Remove**.
 
-  ![Remove background image](media/remove-background-image.png "Remove background image")
+  ![Remove background image.](media/remove-background-image.png "Remove background image")
 
 ### See also
 

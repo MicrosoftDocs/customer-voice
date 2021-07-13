@@ -19,11 +19,11 @@ Formatting controls the general look and feel of your survey. This includes show
 
 2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Formatting**.
 
-    ![Formatting menu item](media/formatting-button.png "Formatting menu item")
+    ![Formatting menu item.](media/formatting-button.png "Formatting menu item")
 
     The **Formatting** panel is displayed.
 
-    ![Formatting panel](media/formatting-panel.png "Formatting panel")
+    ![Formatting panel.](media/formatting-panel.png "Formatting panel")
 
 3. Update the formatting options as described in the following sections.
 
@@ -35,7 +35,7 @@ By default, this setting is turned on for multiple-page surveys and the progress
 
 When turned on, the progress bar is displayed to the right side of the buttons on the survey.
 
-![Progress bar on a survey](media/progress-bar.png "Progress bar on a survey")
+![Progress bar on a survey.](media/progress-bar.png "Progress bar on a survey")
 
 ## Question number
 

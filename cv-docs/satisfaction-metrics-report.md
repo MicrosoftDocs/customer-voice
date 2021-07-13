@@ -25,7 +25,7 @@ The following charts are displayed for the metrics:
 
 - **Custom score**: A meter chart shows the score for the metric. The area chart toward the right of the meter chart shows the trend of custom scores for the selected time period.
 
-![Satisfaction metrics report](media/metrics-report.png "Satisfaction metrics report")
+![Satisfaction metrics report.](media/metrics-report.png "Satisfaction metrics report")
 
 ## Filter data in charts
 

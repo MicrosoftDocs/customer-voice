@@ -59,7 +59,7 @@ Dynamics 365 Customer Voice allows you to apply survey scoring logic to the foll
 
 You can select questions in a survey for which the score needs to be calculated. The **Custom score** satisfaction metric holds the value of the survey score. After you've received responses to your survey, you can [view the satisfaction metrics report](satisfaction-metrics-report.md) to see the survey score showcasing the average score and trend over a period of time.
 
-![Custom score report](media/custom-score-report.png "Custom score report")
+![Custom score report.](media/custom-score-report.png "Custom score report")
 
 ## Add scoring to a survey
 
@@ -67,11 +67,11 @@ You can select questions in a survey for which the score needs to be calculated.
 
 2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Satisfaction metrics**.
 
-    ![Satisfaction metrics menu item](media/satisfaction-metrics-button.png "Satisfaction metrics menu item")
+    ![Satisfaction metrics menu item.](media/satisfaction-metrics-button.png "Satisfaction metrics menu item")
 
 3. In the **Satisfaction metrics** panel, select **Add metrics**, and then select **Custom Score**.
 
-    ![Add Custom Score satisfaction metric](media/custom-score-metric.png "Add Custom Score satisfaction metric")
+    ![Add Custom Score satisfaction metric.](media/custom-score-metric.png "Add Custom Score satisfaction metric")
   
 4. Enter the following information:
 
@@ -81,13 +81,13 @@ You can select questions in a survey for which the score needs to be calculated.
 
     - **<survey_name> question**: Choose the questions you want to map to the satisfaction metric.
 
-      ![Add Custom Score satisfaction metric details](media/custom-score-metric-fields.png "Add Custom Score satisfaction metric details")
+      ![Add Custom Score satisfaction metric details.](media/custom-score-metric-fields.png "Add Custom Score satisfaction metric details")
 
 5. Select **Edit Score**.
 
 6. In the **Edit Score** panel, select a base score for the survey, assign weight for each question, and assign point values for each answer option.
 
-   ![Add base score, weights, and point values](media/custom-score-metric-values.png "Add base score, weights, and point values")
+   ![Add base score, weights, and point values.](media/custom-score-metric-values.png "Add base score, weights, and point values")
 
 7. Select the back arrow at the upper left of the **Edit Score** panel.
 

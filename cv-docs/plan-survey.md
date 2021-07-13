@@ -67,7 +67,7 @@ In Dynamics 365 Customer Voice, we've enabled automated machine reviews to proac
 
 If you suspect a survey you've received is attempting to collect passwords or other sensitive information, report it to help prevent yours and other's private information from getting compromised. Below the **Submit** button at the bottom of the suspected survey, select **Report abuse**.
 
-![Report abuse link](media/report-abuse-link.png "Report abuse link")
+![Report abuse link.](media/report-abuse-link.png "Report abuse link")
 
 You can be diligent about protecting yourself from phishing by never providing personal information, such as passwords, in any survey. You can also report online fraud.
 

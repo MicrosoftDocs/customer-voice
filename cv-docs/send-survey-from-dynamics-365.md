@@ -44,15 +44,15 @@ You can only send surveys that are shared with you or created by you. If no surv
 
 3.  On the toolbar at the top of the page, select **Send Survey**.
 
-    ![Send Survey button](media/send-survey-button.png "Send Survey button")
+    ![Send Survey button.](media/send-survey-button.png "Send Survey button")
 
     If you don't have any surveys created or shared with you, select **+ New Survey** to create a new survey. You'll be redirected to Dynamics 365 Customer Voice for the survey creation. More information: [Create a project](create-project.md)
 
-    ![Create new survey link](media/d365-create-new-survey.png "Create new survey link")
+    ![Create new survey link.](media/d365-create-new-survey.png "Create new survey link")
 
     If you have surveys created or shared with you, you'll be provided with a list of surveys.
 
-    ![New survey button](media/d365-new-survey-button.png "New survey button")
+    ![New survey button.](media/d365-new-survey-button.png "New survey button")
 
     If you don't want to send a survey from the available list of surveys, you can create a new survey by selecting **+ New Survey**. You'll be redirected to Dynamics 365 Customer Voice for the survey creation. More information: [Create a project](create-project.md)
 
@@ -65,7 +65,7 @@ You can only send surveys that are shared with you or created by you. If no surv
 
 6.  To share the survey, see [Share a survey](#share-a-survey).
 
-    ![Choose a survey to send](media/d365-choose-survey.png "Choose a survey to send")
+    ![Choose a survey to send.](media/d365-choose-survey.png "Choose a survey to send")
 
 7.  Select **Next**.
 
@@ -79,7 +79,7 @@ You can only send surveys that are shared with you or created by you. If no surv
 
     If you've used variables in your survey, they'll be displayed as fields and you can specify their values accordingly.
 
-    ![Enter details to send the survey](media/d365-enter-details.png "Enter details to send the survey")
+    ![Enter details to send the survey.](media/d365-enter-details.png "Enter details to send the survey")
 
 9.  Select **Send**.
 
@@ -103,7 +103,7 @@ When you send a survey invitation, its status will be one of the following:
 
 4.  Select **Results**. A list of survey invitations is displayed with their corresponding status.
 
-    ![Check survey invitation status](media/d365-check-survey-invite-status.png "Check survey invitation status")
+    ![Check survey invitation status.](media/d365-check-survey-invite-status.png "Check survey invitation status")
 
 ## Share a survey
 
@@ -113,14 +113,14 @@ If you have Share privilege on the Dynamics 365 Customer Voice survey entity, yo
 
 2.  Select **Share**.
 
-    ![Select a survey to send](media/d365-choose-survey.png "Select a survey to send")
+    ![Select a survey to send.](media/d365-choose-survey.png "Select a survey to send")
 
     > [!NOTE]
     > If you don't have permission to share surveys, the **Share** button is not displayed.
 
 3.  In the **Share customer voice survey** dialog box, add the users or team you want.
 
-    ![Add users to share a survey with](media/d365-add-users-share-survey.png "Add users to share a survey with")
+    ![Add users to share a survey with.](media/d365-add-users-share-survey.png "Add users to share a survey with")
 
 4.  Select **Share**.
 

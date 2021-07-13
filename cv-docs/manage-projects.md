@@ -31,11 +31,11 @@ You can perform the following actions:
 
 1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
-2. On the **All projects** tab, hover over the project you want to rename, select vertical ellipsis ![Project options](media/project-options.png "Project options"), and then select **Rename**.
+2. On the **All projects** tab, hover over the project you want to rename, select vertical ellipsis ![Project options.](media/project-options.png "Project options"), and then select **Rename**.
 
 3. In the **Rename Project** dialog box, enter a new name, and then select **Rename**.
 
-    ![Rename a project](media/rename-project.png "Rename a project")
+    ![Rename a project.](media/rename-project.png "Rename a project")
 
 ## Copy a project
 
@@ -56,7 +56,7 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
 1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
-2. On the **All projects** tab, hover over the project you want to copy, select ![Project options](media/project-options.png "Project options"), and then select **Copy**.
+2. On the **All projects** tab, hover over the project you want to copy, select ![Project options.](media/project-options.png "Project options"), and then select **Copy**.
 
     The **Copy project to** screen is displayed.
 
@@ -64,11 +64,11 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
    - To copy your project in the same environment you're currently working in, select the environment listed under **Current location**.
 
-      ![Copy your project in the same environment](media/copy-project-current.png "Copy your project in the same environment")
+      ![Copy your project in the same environment.](media/copy-project-current.png "Copy your project in the same environment")
 
    - To copy your project to a different environment, expand **All locations**, and then select an environment.
 
-      ![Copy your project to a different environment](media/copy-project-other.png "Copy your project to a different environment")
+      ![Copy your project to a different environment.](media/copy-project-other.png "Copy your project to a different environment")
 
 5. After selecting an environment, select **Copy**. A notification is displayed in the upper-right corner when the project is copied to the selected location.
 
@@ -98,11 +98,11 @@ If a project contains responses, a co-owner can see all responses under **Report
 
 1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
-2. On the **All projects** tab, hover over the project you want to share, select ![Project options](media/project-options.png "Project options"), and then select **Share**.
+2. On the **All projects** tab, hover over the project you want to share, select ![Project options.](media/project-options.png "Project options"), and then select **Share**.
 
 3. In the **Share** panel, on the **Share** tab, select the name of the user from the **Share with** list. You can select multiple users.
 
-    ![Share a project](media/share-project.png "Share a project")
+    ![Share a project.](media/share-project.png "Share a project")
 
    (Optional: Include a message to send the co-owners.)
 
@@ -110,17 +110,17 @@ If a project contains responses, a co-owner can see all responses under **Report
 
     The co-owners are displayed on the **Access** tab.
 
-    ![Owners of a project](media/project-owners.png "Owners of a project")
+    ![Owners of a project.](media/project-owners.png "Owners of a project")
 
 **To remove a co-owner from a project**
 
 1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
-2. On the **All projects** tab, hover over the project from which you want to remove a co-owner, select ![Project options](media/project-options.png "Project options"), and then select **Share**.
+2. On the **All projects** tab, hover over the project from which you want to remove a co-owner, select ![Project options.](media/project-options.png "Project options"), and then select **Share**.
 
 3. In the **Share** panel, go to the **Access** tab, and then select **Remove access** for the user you want to remove.
 
-    ![Remove project access](media/project-owners.png "Remove project access")
+    ![Remove project access.](media/project-owners.png "Remove project access")
 
 ### Ownership of survey data
 
@@ -182,13 +182,13 @@ As a company policy, you can't edit surveys directly in the production environme
 
 1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
-2. On the **All projects** tab, hover over the project you want to update, select ![Project options](media/project-options.png "Project options"), and then select **Update**.
+2. On the **All projects** tab, hover over the project you want to update, select ![Project options.](media/project-options.png "Project options"), and then select **Update**.
 
-    ![Select Update from the shortcut menu](media/project-update-menu.png "Select Update from the shortcut menu")
+    ![Select Update from the shortcut menu.](media/project-update-menu.png "Select Update from the shortcut menu")
 
 3. On the **Update project** screen, select the project from which your project needs to be updated.
 
-    ![Select a project to update from](media/project-update-screen.png "Select a project to update from")
+    ![Select a project to update from.](media/project-update-screen.png "Select a project to update from")
 
 4. In the confirmation dialog box, select **Confirm**.
 
@@ -202,7 +202,7 @@ You can delete a project that you don't need anymore. Deleting a project removes
 
 1. Sign in to [Dynamics 365 Customer Voice](https://customervoice.microsoft.com/).
 
-2. On the **All projects** tab, hover over the project you want to delete, select ![Project options](media/project-options.png "Project options"), and then select **Delete**.
+2. On the **All projects** tab, hover over the project you want to delete, select ![Project options.](media/project-options.png "Project options"), and then select **Delete**.
 
 3. In the confirmation dialog box, select **Delete**.
 

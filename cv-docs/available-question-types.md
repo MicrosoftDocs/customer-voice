@@ -21,17 +21,17 @@ A Choice type question gives respondents a list of answers to choose from. You c
 
 By default, a choice question accepts a single answer. Respondents choose one answer from the list by selecting a radio button.
 
-![A single-answer question, showing a list of choices with one radio button selected](media/ques-radio-button.png "A single-answer question, showing a list of choices with one radio button selected")
+![A single-answer question, showing a list of choices with one radio button selected.](media/ques-radio-button.png "A single-answer question, showing a list of choices with one radio button selected")
 
 In single-answer questions, you can also display the list of answers in a drop-down list rather than radio buttons. Select **More settings for question** (...), and then select **Drop-down**.
 
-![A drop-down question, showing a single answer selected in the drop-down list box](media/ques-drop-down.png "A drop-down question, showing a single answer selected in the drop-down list box") 
+![A drop-down question, showing a single answer selected in the drop-down list box.](media/ques-drop-down.png "A drop-down question, showing a single answer selected in the drop-down list box") 
 
 **Multiple-answer question**
 
 You can accept multiple answers for your question by turning on the **Multiple answers** toggle. Respondents choose one or more answers from the list by selecting one or more check boxes.
 
-![A multiple-answer question, showing a list of choices with check boxes](media/ques-check-box.png "A multiple-answer question, showing a list of choices with check boxes")
+![A multiple-answer question, showing a list of choices with check boxes.](media/ques-check-box.png "A multiple-answer question, showing a list of choices with check boxes")
 
 ## Text
 
@@ -41,13 +41,13 @@ A Text type question can accept a short (one-line) answer or a long (multiple-li
 
 By default, a text question accepts a short answer.
 
-![A short-answer question displays a one-line text box](media/ques-short-answer.png "A short-answer question displays a one-line text box")
+![A short-answer question displays a one-line text box.](media/ques-short-answer.png "A short-answer question displays a one-line text box")
 
 **Long-answer question**
 
 You can accept multiple lines of text for your question by turning on the **Long answer** toggle.
 
-!["A long-answer question displays a multiple-line text box"](media/ques-long-answer.png "A long-answer question displays a multiple-line text box")
+!["A long-answer question displays a multiple-line text box."](media/ques-long-answer.png "A long-answer question displays a multiple-line text box")
 
 ### Add restrictions in text-based questions
 
@@ -70,31 +70,31 @@ By default, the star symbol is selected. To change the symbol, select it from th
   
 Star and smiley rating questions with five levels are shown in the following images. 
 
-![Example of a star rating question with five stars selected](media/ques-rating-star.png "Example of a star rating question with five stars selected") 
+![Example of a star rating question with five stars selected.](media/ques-rating-star.png "Example of a star rating question with five stars selected") 
 
-![Example of a smiley rating with the happiest face selected](media/ques-rating-smiley.png "Example of a smiley rating with the happiest face selected") 
+![Example of a smiley rating with the happiest face selected.](media/ques-rating-smiley.png "Example of a smiley rating with the happiest face selected") 
 
 For ratings questions that use numbers or stars, you can add labels for the numbers or stars by selecting **More settings for question** (...), and then selecting **Label**. A number rating question with labels is shown in the following image.
 
-![Example of a number rating question with labels](media/ques-rating-number.png "Example of a number rating question with labels")
+![Example of a number rating question with labels.](media/ques-rating-number.png "Example of a number rating question with labels")
 
 ## Date
 
 A Date type question displays a calendar and asks the respondent to select a date.
 
-![Example of a date question with a date selected](media/ques-date.png "Example of a date question with a date selected")
+![Example of a date question with a date selected.](media/ques-date.png "Example of a date question with a date selected")
 
 ## Ranking
 
 A Ranking type question asks a respondent to rank items by arranging them in the order of the respondent's preference.
 
-![Example of a ranking question](media/ques-ranking.png "Example of a ranking question")
+![Example of a ranking question.](media/ques-ranking.png "Example of a ranking question")
 
 ## Likert
 
 A Likert type question displays a list of single-answer questions and a rating scale for the answers, so a respondent can select a value from the scale to answer each question.
 
-![An example Likert question that asks a respondent how satisfied they are with various aspects of a support call](media/ques-likert.png "An example Likert question that asks a respondent how satisfied they are with various aspects of a support call")
+![An example Likert question that asks a respondent how satisfied they are with various aspects of a support call.](media/ques-likert.png "An example Likert question that asks a respondent how satisfied they are with various aspects of a support call")
 
 ## File upload
 
@@ -102,17 +102,17 @@ A File upload&ndash;type question asks a respondent to upload a file. You can se
 
 If you want to restrict the file types that can be uploaded, select **More settings for question** (...), and then select **File type**. For example, you can restrict candidates to upload their resumes in Word or PDF format only.
 
-![Configuring the File upload question](media/config-upload.png "Configuring the File upload question")
+![Configuring the File upload question.](media/config-upload.png "Configuring the File upload question")
 
 Respondents will see the question as shown in the following image.
 
-![An example File upload question that asks a respondent to upload a resume](media/ques-upload.png "An example File upload question that asks a respondent to upload a resume")
+![An example File upload question that asks a respondent to upload a resume.](media/ques-upload.png "An example File upload question that asks a respondent to upload a resume")
 
 ## Net Promoter Score
 
 A Net Promoter Score type question asks a respondent to rate the likelihood of their recommending a product or service to a friend.
 
-![A Net Promoter Score question asks how likely the respondent is to give their recommendation](media/ques-nps.png "A Net Promoter Score question asks how likely the respondent is to give their recommendation")
+![A Net Promoter Score question asks how likely the respondent is to give their recommendation.](media/ques-nps.png "A Net Promoter Score question asks how likely the respondent is to give their recommendation")
 
 ### See also
 

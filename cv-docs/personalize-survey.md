@@ -27,7 +27,7 @@ By default, the following variables are available:
        
 2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Personalization**.
     
-    ![Personalization menu item](media/personalization-button.png "Personalization menu item")
+    ![Personalization menu item.](media/personalization-button.png "Personalization menu item")
     
 3. In the **Personalization** panel, select **Add variable**.
     
@@ -35,11 +35,11 @@ By default, the following variables are available:
 
     When a response record is created, the variable's values are saved in the response record.
 
-    ![New variable created](media/new-survey-variable.png "New variable created")
+    ![New variable created.](media/new-survey-variable.png "New variable created")
 
     If **Anonymous responses** is turned on under [survey distribution settings](distribution-settings.md#participants), a new **Save value** column with the toggle buttons is displayed in the **Personalization** panel. The toggle buttons are turned off by default. You can turn on the toggle for the required variables to store their value in the response record.
 
-    ![Turn on toggle to save a variable's value](media/survey-variable-toggle.png "Turn on toggle to save a variable's value")
+    ![Turn on toggle to save a variable's value.](media/survey-variable-toggle.png "Turn on toggle to save a variable's value")
        
 5. To add more variables, repeat steps 3 and 4.
     
@@ -80,7 +80,7 @@ You can also use variables in [branching rules](create-branching-rule.md), in [s
 
 4. From the **Variables** list in the formatting toolbar, select the variable you want to add.
 
-    ![Add variables](media/add-variable.png "Add variables")
+    ![Add variables.](media/add-variable.png "Add variables")
 
     The variable is added within curly braces.
 
