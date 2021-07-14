@@ -1,7 +1,7 @@
 ---
 title: "Manage surveys | MicrosoftDocs"
 description: "After you've created one or more surveys within a project in Dynamics 365 Customer Voice, learn how to manage them."
-ms.date: 07/29/2020
+ms.date: 07/14/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -56,7 +56,10 @@ The survey, along with its customizations, is copied as a new survey.
 
 ## Move a survey
 
-You can move a survey to a different project in the same environment. This helps you group similar surveys in one project.
+You can move a survey to a different project in the same environment. This helps you group similar surveys in one project. Note that you can move a survey to another project only if the another project is owned by you.
+
+> [!NOTE]
+> If a project has only one survey and you move the survey, the project is deleted after the survey is moved.
 
 **What's moved with the survey?**
 
@@ -75,6 +78,9 @@ Satisfaction metrics aren't moved to the destination project. Satisfaction metri
 3. In the **Move** screen, select a project listed in the **Recent projects** section, or expand **All Projects** and select a project.
 
     ![Move your survey to a different project.](media/move-survey.png "Move your survey to a different project")
+    
+    > [!NOTE]
+    > If you don't have another project with you as its owner, the project list is not displayed and the **Move** button is disabled.
 
 4. Select **Move**. A notification is displayed in the upper-right corner when the survey is moved successfully.
 
