@@ -56,10 +56,11 @@ The survey, along with its customizations, is copied as a new survey.
 
 ## Move a survey
 
-You can move a survey to a different project in the same environment. This helps you group similar surveys in one project. Note that you can move a survey to another project only if the another project is owned by you.
+You can move a survey to a different project in the same environment. This helps you group similar surveys in one project.
 
 > [!NOTE]
-> If a project has only one survey and you move the survey, the project is deleted after the survey is moved.
+> - You can move a survey to another project only if the another project is owned by you.
+> - If a project has only one survey and you move the survey, the project is deleted after the survey is moved.
 
 **What's moved with the survey?**
 
