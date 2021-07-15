@@ -60,7 +60,7 @@ You can move a survey to a different project in the same environment. This helps
 
 > [!NOTE]
 > - You can move a survey from one project to another project only if both the source and target projects have the same owners.
-> - If a project has only one survey and you move the survey to a different project, the original project is deleted after the survey is successfully moved.
+> - If a project has only one survey and you move the survey to a different project, the source project is deleted after the survey is successfully moved.
 
 **What's moved with the survey?**
 
