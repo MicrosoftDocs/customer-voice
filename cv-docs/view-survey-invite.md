@@ -1,14 +1,14 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 07/06/2021
+ms.date: 07/15/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-<!--note from editor: Note the edit to the title - it can't be the same as the H1.-->
+
 # View a survey invitations report
 
 A survey invitation record is created for each survey email that's sent, either manually or with Power Automate. The survey invitations associated with a survey are available on the **Send** tab.
