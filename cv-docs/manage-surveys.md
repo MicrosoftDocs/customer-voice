@@ -81,7 +81,7 @@ Satisfaction metrics aren't moved to the destination project. Satisfaction metri
     ![Move your survey to a different project.](media/move-survey.png "Move your survey to a different project")
     
     > [!NOTE]
-    > If you don't have another project with you as its owner, the project list is not displayed and the **Move** button is disabled.
+    > If you aren't the owner of any other project, the project list isn't displayed and the **Move** button is disabled.
 
 4. Select **Move**. A notification is displayed in the upper-right corner when the survey is moved successfully.
 
