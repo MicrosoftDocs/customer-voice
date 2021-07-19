@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 07/15/2021
+ms.date: 07/19/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -19,19 +19,17 @@ The following survey invitation statistics are displayed in the upper part of th
 
 - **Responded**: Displays the total number of recipients who responded to the survey invitations.
 
-- **Unsubscribed**: Displays the total number of recipients who have unsubscribed from receiving survey-related emails.
-
-- **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
-
-- **Pending responses**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:
+- **Not responded**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:
 
     - **Unread**: The survey invitation email wasn't read.
 
     - **Read**: The survey invitation email was read or opened.
 
-    - **Incomplete**: The survey was opened, but hasn't been completed yet.
+    - **Opened**: The survey was opened, but hasn't been completed yet.
 
-        You can send emails to remind recipients to complete the survey. Reminder emails can be sent either manually or automatically. More information: [Send survey reminders](send-survey-reminders.md)
+- **Unsubscribed**: Displays the total number of recipients who have unsubscribed from receiving survey-related emails.
+
+- **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
 
 ![Screenshot of a survey invitation report.](media/invite-report.png "Survey invitation report")
 
