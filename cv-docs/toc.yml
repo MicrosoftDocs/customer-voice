@@ -121,8 +121,14 @@
     items:
     - name: Overview
       href: developer/entity-reference.md
+    - name: msfp_alert
+      href: developer/entities/msfp_alert.md
+    - name: msfp_alertrule
+      href: developer/entities/msfp_alertrule.md
     - name: msfp_emailtemplate
       href: developer/entities/msfp_emailtemplate.md
+    - name: msfp_fileresponse
+      href: developer/entities/msfp_fileresponse.md
     - name: msfp_localizedemailtemplate
       href: developer/entities/msfp_localizedemailtemplate.md
     - name: msfp_project
@@ -137,7 +143,13 @@
       href: developer/entities/msfp_survey.md
     - name: msfp_surveyinvite
       href: developer/entities/msfp_surveyinvite.md
+    - name: msfp_surveyreminder
+      href: developer/entities/msfp_surveyreminder.md
     - name: msfp_surveyresponse
       href: developer/entities/msfp_surveyresponse.md
     - name: msfp_unsubscribedrecipient
       href: developer/entities/msfp_unsubscribedrecipient.md
+
+
+
+
