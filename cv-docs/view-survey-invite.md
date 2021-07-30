@@ -68,7 +68,7 @@ You can export invitation details to a CSV file either from the statistic tile o
 <!--markdownlint-disable MD036-->
 **To export invitation details from the statistic tile**
 
-1. In the statistic tile, select the vertical ellipsis ![ellipsis](media/project-options.png "ellipsis"), and then select **Export**.
+1. In the statistic tile, select the vertical ellipsis ![ellipsis.](media/project-options.png "ellipsis"), and then select **Export**.
 
     ![Screenshot showing the Export command in a statistic tile.](media/export-invites-tile.png "Survey invitation export button")
 

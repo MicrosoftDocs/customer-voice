@@ -89,21 +89,21 @@ The transition experience differs based on the product license you have. This se
 
 If you have only a Forms Pro license and try to sign in to Forms Pro using the [https://forms.office.com](https://forms.office.com) URL, the following message is displayed until August 30, 2020, with a link to go to Dynamics 365 Customer Voice.
 
-![Message about Forms Pro surveys being accessible from Dynamics 365 Customer Voice](media/formsProErrorBefore.png "Message about Forms Pro surveys being accessible from Dynamics 365 Customer Voice") 
+![Message about Forms Pro surveys being accessible from Dynamics 365 Customer Voice.](media/formsProErrorBefore.png "Message about Forms Pro surveys being accessible from Dynamics 365 Customer Voice") 
 
 After August 30, 2020, the following message will be displayed:
 
-![Forms Pro account not enabled error](media/formsProErrorAfter.png "Forms Pro account not enabled error") 
+![Forms Pro account not enabled error.](media/formsProErrorAfter.png "Forms Pro account not enabled error") 
 
 **Experience for users with both Forms and Forms Pro licenses**
 
 If you have licenses for both Forms and Forms Pro, and have created surveys in Forms Pro, you're redirected to the Forms home page. You can choose to go to Dynamics 365 Customer Voice or stay in Forms until August 30, 2020. However, you won't be able to switch to Forms Pro from Forms.
 
-![Message about Forms Pro being moved to Dynamics 365 Customer Voice](media/forms-pro-move-message.png "Message about Forms Pro being moved to Dynamics 365 Customer Voice") 
+![Message about Forms Pro being moved to Dynamics 365 Customer Voice.](media/forms-pro-move-message.png "Message about Forms Pro being moved to Dynamics 365 Customer Voice") 
 
 If you choose to stay in Forms, the following message is displayed at the top of the page, stating that your Forms Pro surveys are available in Dynamics 365 Customer Voice and won't be available through Forms after August 30, 2020.
 
-![Message bar with the information that Forms Pro is now Dynamics 365 Customer Voice](media/forms-pro-move-message-bar.png "Message bar with the information that Forms Pro is now Dynamics 365 Customer Voice") 
+![Message bar with the information that Forms Pro is now Dynamics 365 Customer Voice.](media/forms-pro-move-message-bar.png "Message bar with the information that Forms Pro is now Dynamics 365 Customer Voice") 
 
 If you select a survey tile, you're redirected to the corresponding project in Dynamics 365 Customer Voice. After August 30, 2020, Forms Pro survey tiles will be removed and only forms and quizzes will be available.
 

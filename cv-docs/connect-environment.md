@@ -35,13 +35,13 @@ When you install the Customer Voice app, an application user named Customer Voic
 
 If you've created a custom security role and want to use it as a project owner, ensure that the custom role has User permission on the entities used by Customer Voice. The following table shows the required and optional privileges for the entities.
 
-A required privilege is denoted by ![Required](media/required-icon.png "Required").
+A required privilege is denoted by ![Required.](media/required-icon.png "Required").
 
 If you provide the optional privileges, additional actions can be performed by the user who is assigned the custom role. For example, the Read privilege is required for the Contact entity and is used to associate invitations with a specific contact. Other privileges, such as Create and Write, are optional. If you provide Create and Write privileges, a user can perform these operations on a contact. If you provide only the Read privilege, and you want a particular user to perform create and write operations also on a contact, you can provide Create and Write privileges to the user through other security roles.
 
 |Entity                            |Create   |Read     |Write    |Delete   |Append   |Append To|
 |----------------------------------|---------|---------|---------|---------|---------|---------|
-|Customer Voice project      |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
+|Customer Voice project      |![Required.](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
 |Customer Voice satisfaction metric    |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
 |Customer Voice localized survey email template     |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |
 |Customer Voice survey                  |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") |![Required](media/required-icon.png "Required") | |

@@ -45,7 +45,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 10. When you're ready to send your survey, select **Send**.
 
-    ![Email editor](media/email-editor.png "Email editor")
+    ![Email editor.](media/email-editor.png "Email editor")
 
 > [!NOTE]
 > - You can send a survey invitation to a maximum of 10,000 recipients.
@@ -68,7 +68,7 @@ Provide details in the CSV file in the following order: Email address, first nam
 
 2. In the **Import contacts** panel, select **Download template**.
 
-    ![Download a CSV template to create a recipient list](media/download-csv-template.png "Download a CSV template to create a recipient list")
+    ![Download a CSV template to create a recipient list.](media/download-csv-template.png "Download a CSV template to create a recipient list")
 
 After the CSV template is downloaded, enter the required information in the following columns:
 - **Email address**: Email address of the recipient.
@@ -85,7 +85,7 @@ If you want to associate a survey invitation and response to an entity, you can 
 
 2.	In the **Import contacts** panel, expand the **Advance options** section, and then select **Download advanced template**.
 
-    ![Download a advanced CSV template to create a recipient list](media/download-advance-csv-template.png "Download an advanced CSV template to create a recipient list")
+    ![Download a advanced CSV template to create a recipient list.](media/download-advance-csv-template.png "Download an advanced CSV template to create a recipient list")
 
 After the CSV template is downloaded, enter the required information in the following columns:
 
@@ -106,7 +106,7 @@ If you've added variables to your survey, they’ll be available as separate col
 
 2. In the **Import contacts** panel, select **Upload**.
 
-    ![Upload the CSV file](media/upload-csv.png "Upload the CSV file")
+    ![Upload the CSV file.](media/upload-csv.png "Upload the CSV file")
 
 3. Browse to and select the CSV file you want to upload.
 
@@ -114,7 +114,7 @@ If you've added variables to your survey, they’ll be available as separate col
 
     If the imported recipient already exists as a contact in Dataverse, and you want to update the contact information as per the CSV file, select **Update the contact information if imported recipient already exists as a contact in CDS**.
 
-    ![Preview contacts of the CSV file](media/upload-csv-preview.png "Preview contacts of the CSV file")
+    ![Preview contacts of the CSV file.](media/upload-csv-preview.png "Preview contacts of the CSV file")
 
 4. Verify the information and then select **Import**.
 
@@ -144,7 +144,7 @@ To create a new variable, select **New variable** from the **Personalized variab
 
 If you have added a Choice (single answer), Rating (star or smiley symbol), or Net Promoter Score question as the first question in your survey, you can embed it in your email message. To embed the question, place the cursor where you want to embed the question, and then select **Insert** > **First question of the survey**. The question is embedded at the cursor's location and the email message is adjusted accordingly. When a respondent selects an option to answer the question, the whole survey is opened in a web browser and the respondent can continue with completing the survey.
 
-![Embed question in an email](media/embed-ques-email.png "Embed question in an email")
+![Embed question in an email.](media/embed-ques-email.png "Embed question in an email")
 
 > [!NOTE]
 > - You can't embed a question in an email if you've enabled question shuffling in the survey.
@@ -214,7 +214,7 @@ If you're using Power Automate to send survey invitations, specify the language 
 
 You can format your email message by using the formatting toolbar at the bottom of the email editor. The formatting toolbar allows you to add formatting to your text, add table and images to your email message, and much more. You can also view the HTML source of your email message and modify the HTML code directly.
 
-![Email formatting toolbar](media/email-format-toolbar.png "Email formatting toolbar")
+![Email formatting toolbar.](media/email-format-toolbar.png "Email formatting toolbar")
 
 **To apply formatting to your email message**
 
@@ -222,7 +222,7 @@ You can format your email message by using the formatting toolbar at the bottom 
 
 **To view and edit the HTML code**
 
-1. Select ![Source button](media/source-button.png "Source button") on the formatting toolbar.
+1. Select ![Source button.](media/source-button.png "Source button") on the formatting toolbar.
 
 2. On the **Source** screen, edit the HTML code, and then select **OK**.
 

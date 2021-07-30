@@ -31,7 +31,7 @@ A QR code for your survey contains a direct link to your survey. You can include
 3. In the **Download a QR code** pop-up window, select **Download**.
 
     > [!div class=mx-imgBorder]
-    > ![Get the survey QR code for sharing](media/survey-qrcode.png "Get the survey QR code for sharing")
+    > ![Get the survey QR code for sharing.](media/survey-qrcode.png "Get the survey QR code for sharing")
 
     Share the QR code wherever your intended audience can scan it with a QR code scanner, such as on a mobile device.
 

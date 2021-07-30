@@ -21,37 +21,37 @@ You can send a survey automatically to customers as soon as a case is resolved i
 
 3.	On the **Send** tab, select **Automation**.
 
-    ![Select Automation to create a flow](media/select-automation.png "Select Automation to create a flow")
+    ![Select Automation to create a flow.](media/select-automation.png "Select Automation to create a flow")
 
 4.	On the **Choose a template or create your own** screen, select **Send a survey when a case is resolved in Dynamics 365**.
 
-    ![Select an Automation template](media/select-automation-template.png "Select an Automation template")
+    ![Select an Automation template.](media/select-automation-template.png "Select an Automation template")
 
 5.	Verify the connection details, and select **Continue**.
 
-    ![Verify the connection details](media/verify-connection.png "Verify the connection details")
+    ![Verify the connection details.](media/verify-connection.png "Verify the connection details")
 
 6.	Select **Create**.
 
-    ![Create the flow](media/create-flow.png "Create the flow")
+    ![Create the flow.](media/create-flow.png "Create the flow")
 
 7.	Go to Dynamics 365 Customer Service and resolve a case. More information: [resolve a case](/customer-service/customer-service-hub-user-guide-resolve-cancel-reassign-a-case)
 
 The survey is automatically sent to the contact or account linked with the case. The survey sent to the survey is visible as a record on the case's timeline.
 
-![Survey invitation on the case's timeline](media/survey-case-timeline.png "Survey invitation on the case's timeline")
+![Survey invitation on the case's timeline.](media/survey-case-timeline.png "Survey invitation on the case's timeline")
 
 When the customer submits a response to the survey, the response record is visible as a record on the case's timeline.
 
-![Survey response on the case's timeline](media/survey-response-case-timeline.png "Survey response on the case's timeline")
+![Survey response on the case's timeline.](media/survey-response-case-timeline.png "Survey response on the case's timeline")
 
 To see response details, hover over the response record on the timeline, and then select **Open Record**.
 
-![See survey response details](media/response-details-timeline.png "See survey response details")
+![See survey response details.](media/response-details-timeline.png "See survey response details")
 
 The response detail is displayed in the Dynamics 365 Customer Voice survey response entity form.
 
-![See survey response details in Dynamics 365](media/response-record-crm.png "See survey response details in Dynamics 365")
+![See survey response details in Dynamics 365.](media/response-record-crm.png "See survey response details in Dynamics 365")
 
 ### See also
 

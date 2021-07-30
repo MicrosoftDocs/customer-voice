@@ -29,11 +29,11 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
 
 5. In search results, select **Dynamics 365 Customer Voice**.
 
-    ![Select the Dynamics 365 Customer Voice connector](media/search-connector.png "Select the Dynamics 365 Customer Voice connector")  
+    ![Select the Dynamics 365 Customer Voice connector.](media/search-connector.png "Select the Dynamics 365 Customer Voice connector")  
 
 6. Select the **Create an invitation** action.
 
-    ![Select Create an invitation action](media/select-flow-action.png "Select Create an invitation action")  
+    ![Select Create an invitation action.](media/select-flow-action.png "Select Create an invitation action")  
 
 7. In the **Create an invitation** action, enter or select the following information:
 
@@ -59,7 +59,7 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
 
   After entering the required details, the flow looks as shown in the following image:
 
-   ![Survey invitation flow](media/survey-invite-flow.png "Survey invitation flow")
+   ![Survey invitation flow.](media/survey-invite-flow.png "Survey invitation flow")
 
   The flow runs in accordance with the configured trigger, and then sends the survey.
 

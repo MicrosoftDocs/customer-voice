@@ -21,11 +21,11 @@ Before you send a survey to respondents, you must preview it. Previewing ensures
 
 3. To test your survey, enter responses for the questions in preview mode, and then select **Submit**.
 
-    ![Preview a survey on a computer](media/preview-survey-computer.png "Preview a survey on a computer")
+    ![Preview a survey on a computer.](media/preview-survey-computer.png "Preview a survey on a computer")
 
 4. To see how your survey will look on a mobile device, select **Mobile**.
 
-    ![Preview a survey on a mobile device](media/preview-survey-mobile.png "Preview a survey on a mobile device")
+    ![Preview a survey on a mobile device.](media/preview-survey-mobile.png "Preview a survey on a mobile device")
 
 5. After previewing and testing your survey, select **Back** in the upper-left corner of the page.
 
