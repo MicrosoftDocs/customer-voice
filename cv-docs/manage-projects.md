@@ -180,7 +180,7 @@ You've moved a customer satisfaction survey to the production environment, and w
 As a company policy, you can't edit surveys directly in the production environment. Therefore, you create a copy of the survey in the development environment and make the required changes. You now update the survey in the production environment by using the copy that you created and updated in the development environment.
 
 > [!NOTE]
-> If a project is available only in the destination environment, but not in the source environment, the project in the destination environment will be deleted when you perform the update action. For example, if you create a project in the production environment, it will be deleted when you try to update it.
+> If a survey is available only in the destination environment, but not in the source environment, the survey in the destination environment will be deleted when you perform the update action. For example, if the source project has two surveys (S1 and S2) and the target project has three surveys (S1, S2, and S3), S3 will be deleted when you update the target project.
 
 **To update the project**
 
