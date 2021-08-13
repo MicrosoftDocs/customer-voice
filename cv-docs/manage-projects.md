@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 05/12/2020
+ms.date: 08/13/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -148,6 +148,7 @@ You can update your project with the copy of the same project. The copy can resi
 > [!NOTE]
 > A project can be updated only from a copy of itself, and not from any other project.
 
+
 The following components can be updated:
 
 - Project
@@ -176,7 +177,10 @@ You've moved a customer satisfaction survey to the production environment, and w
 - Change the color theme
 - Add a background image
 
-As a company policy, you can't edit surveys directly in the production environment. Therefore, you create a copy of the survey in the development environment and make the required changes. You now update the survey in the production environment by using the copy that you created and updated<!--Suggested.--> in the development environment.
+As a company policy, you can't edit surveys directly in the production environment. Therefore, you create a copy of the survey in the development environment and make the required changes. You now update the survey in the production environment by using the copy that you created and updated in the development environment.
+
+> [!NOTE]
+> If a survey is available only in the target environment, but not in the source environment, the survey in the target environment will be deleted when you perform the update action on the target project. For example, if the source project has two surveys (S1 and S2) and the target project has three surveys (S1, S2, and S3), S3 will be deleted when you update the target project with the source project.
 
 **To update the project**
 
