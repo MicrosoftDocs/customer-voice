@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Create a multilingual survey
 
-A survey created in Dynamics 365 Customer Voice can be translated to multiple languages. Once you setup the translations for the survey, a respondent can choose to take the survey in the language of their choice. This helps you increase your customer base and allows respondents to take the survey in their preferred language. A survey having translations in multiple languages is known as a multilingual survey. 
+A survey created in Dynamics 365 Customer Voice can be translated to multiple languages. Once you setup the translations for the survey, a respondent can choose to take the survey in the language of their choice. This helps you increase your customer base and allows respondents to take the survey in their preferred language. A survey having translations in multiple languages is known as a multilingual survey.
 
 To create a multilingual survey, you must first add the languages and then add translations for each of the added language. 
 
