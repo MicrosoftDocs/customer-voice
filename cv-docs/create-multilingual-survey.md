@@ -165,7 +165,7 @@ Default language is the language in which the survey is loaded if no explicit lo
 Let's assume, you use the Dynamics 365 Customer Voice application in English locale. When you create a survey, English is set as the default language for the survey. However, a majority of your survey respondents are from France, so you can change the default language from English to French.
 
 > [!NOTE]
-> The survey gets loaded in the default language only as a last resort – in case if the user is using a browser language which is different from the available languages and if there is no explicit locale variable passed via the URL. 
+> The survey gets loaded in the default language only as a last resort – in case if the user is using a browser language which is different from the available languages and if there is no explicit locale variable passed through the URL. 
 
 You can change the default language for your survey from the **Languages** panel. Note that you can change the default language only when multiple languages are added to the survey.
 
@@ -255,24 +255,24 @@ You can add up to 90 languages per survey. This consists of a total of out of th
 
 ### How does Customer Voice decide which language to show to a particular respondent?
 
-If you are sending a personalized survey invitation via email or Power Automate, you can define the locale code using the out of the box variable per invitation.
+If you are sending a personalized survey invitation through email or Power Automate, you can define the locale code using the out of the box variable per invitation.
 
 Let's say, your customer Milton's locale code in your backend CRM system contact record is set to “ar”. You can pass that as a parameter in your personalized invitation. This will ensure that the survey loads by default in Arabic for Milton.
 
-You can also pass the locale parameters via excel per contact.
+You can also pass the locale parameters per contact by using a CSV file . More information: [Import contacts from a CSV file](send-survey-email.md#import-contacts-from-a-csv-file)
 
-If you are not sending survey invitation via a personalized invitation link, and you know that all the respondents to your anonymous survey must see the survey in Arabic. In this case, you can have an explicit **lang=ar** parameter added to the anonymous URL of the survey. This will ensure that the survey loads in the Arabic language for all the respondents.
+If you are not sending survey invitation through a personalized invitation link, and you know that all the respondents to your anonymous survey must see the survey in Arabic. In this case, you can have an explicit **lang=ar** parameter added to the anonymous URL of the survey. This will ensure that the survey loads in the Arabic language for all the respondents.
 
 If you don't pass the value of the **lang** parameter in the URL, the survey loads in the browser language of the respondent.
 
 So, the order of priority is:
 
-1. The **locale** variable defined for personalized invitations sent via Power Automate or Email
+1. The **locale** variable defined for personalized invitations sent through Power Automate or Email
 2. The **lang** parameter defined in the URL 
 3. Browser language of the respondent
 4. Fallback language of the survey (in case the browser language is not setup in the survey)
 
-### Which should I use for setting up translation strings? Uploading files via Excel or directly updating from the application's interface?
+### Which should I use for setting up translation strings? Uploading files through Excel or directly updating from the application's interface?
 
 If you have a large number of languages added to your survey, and you need to get the translation strings verified from a translation team, you can upload the translations in the Excel file.
 
