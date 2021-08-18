@@ -15,7 +15,7 @@ A survey created in Dynamics 365 Customer Voice can be translated to multiple la
 
 To create a multilingual survey, you must first add the languages and then add translations for each of the added language. 
 
-When you create a multilingual survey, you can also allow respondents to choose their preferred language from the language selector at the upper-right corner of the survey. More information: [Allow respondents to change survey language](#allow-respondents-to-change-survey-language)
+When you create a multilingual survey, you can also allow or restrict respondents to choose their preferred language from the language selector at the upper-right corner of the survey. More information: [Restrict respondents to change survey language](#restrict-respondents-to-change-survey-language)
 
 ![Select a language for the survey.](media/select-survey-lang.png "Select a language for the survey") 
 
@@ -39,7 +39,7 @@ Additional languages are the languages in which a survey can be rendered in addi
 
 - **Out of the box languages**: These languages can be selected from a list of languages supported in Dynamics 365. These languages can be added, edited, and deleted from the Dynamics 365 Customer Voice interface. The system strings are translated automatically. More information: [Add additional languages](#add-additional-languages)
 
-- **Custom languages**: These are the languages that are not included in the list of Dynamics 365 supported languages. You can define a language's display name and code. Custom languages can be added, edited, and deleted from the Dynamics 365 Customer Voice interface. The system strings are not translated automatically and are visible in the survey's default language. More information: [Add custom languages](#add-custom-languages)
+- **Custom languages**: These are the languages that are not included in the list of Dynamics 365 supported languages. You can define a language's display name and code. Custom languages can be added, edited, and deleted from the Dynamics 365 Customer Voice interface. The system strings are not translated automatically and are visible in the survey's default language.
 
 
 ## Add additional languages
