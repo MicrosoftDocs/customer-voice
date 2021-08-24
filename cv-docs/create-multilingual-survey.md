@@ -28,10 +28,10 @@ To create a multilingual survey, you must first add a language (additional or cu
 
 ### Root language
 
-Root language is the language in which the survey is originally created. For example, if you are using the Dynamics 365 Customer Voice application in French locale, and are creating all your surveys in French locale – that is your _root language_. In short, the language you see in the designer is the root language of the survey. The root language is automatically set as the default language for the respondent. The default language can be selected from a list of languages supported in Dynamics 365. You can change it as per your requirement. More information: [Change the default language](#change-the-default-language)
+Root language is the language in which the survey is originally created. For example, if you are using the Dynamics 365 Customer Voice application in French, and are creating all your surveys in French – that is your _root language_. In short, the language you see in the designer is the root language of the survey. The root language is automatically set as the default language for the respondent. The default language can be selected from a list of languages supported in Dynamics 365. You can change it as per your requirement. More information: [Change the default language](#change-the-default-language)
 
 > [!NOTE]
-> The root language cannot be changed for the survey. For example, let's assume you have used the Dynamics 365 Customer Voice application in German locale and created your root survey in German locale. Then, you decided to use the Dynamics 365 Customer voice application in English locale. While all the other parts of the application will be displayed in English, the original survey text will continue to be in German. You cannot remove the root language of the survey unless you explicitly delete the survey.
+> The root language cannot be changed for the survey. For example, let's assume you have used the Dynamics 365 Customer Voice application in German and created your root survey in German. Then, you decided to use the Dynamics 365 Customer voice application in English locale. While all the other parts of the application will be displayed in English, the original survey text will continue to be in German. You cannot remove the root language of the survey unless you explicitly delete the survey.
 
 ### Additional languages
 
@@ -89,7 +89,7 @@ Once you've completed the setup of your survey in the root language, you can add
 
 > [!NOTE]
 > - The language code you enter is validated against the existing list. You cannot have two languages defined with the same language code for the survey.
-> - You can add up to 90 languages per survey.
+> - You can add up to 86 languages per survey.
 
 
 ### Step 2: Add translations
