@@ -162,7 +162,7 @@ If you've created a multilingual survey, you can choose if your respondents can 
 
 Default language is the language in which the survey is loaded if no explicit locale variable is passed or if the respondent is using the web browser in a language for which you have not added a translation.
 
-Let's assume, you use the Dynamics 365 Customer Voice application in English locale. When you create a survey, English is set as the default language for the survey. However, a majority of your survey respondents are from France, so you can change the default language from English to French.
+Let's assume, you use the Dynamics 365 Customer Voice application in English. When you create a survey, English is set as the default language for the survey. However, a majority of your survey respondents are from France, so you can change the default language from English to French.
 
 > [!NOTE]
 > The survey gets loaded in the default language only as a last resort – in case if the user is using a browser language which is different from the available languages and if there is no explicit locale variable passed through the URL. 
@@ -251,7 +251,7 @@ When you create a multilingual survey, you can use the **locale** survey variabl
 
 ### How many languages can be added to a survey?
 
-You can add up to 90 languages per survey. This consists of a total of out of the box and custom languages.
+You can add up to 86 languages per survey. This consists of a total of out of the box and custom languages.
 
 ### How does Customer Voice decide which language to show to a particular respondent?
 
