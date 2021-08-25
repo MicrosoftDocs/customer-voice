@@ -41,7 +41,12 @@ A survey can be rendered in one of the following types of languages in addition 
 
 - **Custom languages**: These languages aren't included in the list of Dynamics 365 supported languages. You can add, edit, and delete a custom language by using the Dynamics 365 Customer Voice interface. You define the display name and code for a custom language. System strings won't be translated automatically and will be visible in the survey's default language.
 
-Adding these languages is described in the following section.
+### Fallback language
+
+The *fallback language* is a language in which a survey is rendered if translation for the survey is not available. The fallback language transition is handled internally by the system, and the response page is automatically rendered in the available fallback language.
+
+For example, the respondent's web browser language is set to Mexican Spanish (es-MX). However, es-MX language code is not supported in Dynamics 365. But, you've added translations in International Spanish. In this case, the survey is automatically loaded in International Spanish (which is the fallback language for Mexican Spanish).
+
 
 ## Add additional languages
 
@@ -250,12 +255,12 @@ When you create a multilingual survey, you can use the **locale** survey variabl
 
 ## Frequently asked questions
 
-### How many languages can be added to a survey?
+#### How many languages can be added to a survey?
 
 You can add up to 86 languages per survey. These can be a combination of out-of-the-box and custom languages.
 
 
-### How does Dynamics 365 Customer Voice decide which language to show to a particular respondent?
+#### How does Dynamics 365 Customer Voice decide which language to show to a particular respondent?
 
 If you're sending a personalized survey invitation through email or Power Automate, you can define the language code by using the out-of-the-box **locale** variable for each invitation.
 
@@ -271,20 +276,20 @@ So, the order of priority is:
 
 1. The **locale** variable or the **lang** parameter. The **locale** variable is defined for personalized invitations sent through Power Automate or email. The **lang** parameter is defined in the URL.
 3. The browser language the respondent is using
-4. The fallback language of the survey (in case the browser language is not set up in the survey)
+4. The fallback language of the survey (in case the browser language is not set up in the survey) 
 5. Default language of the survey.
 
-### Which should I use for setting up translation strings&mdash;uploading files through Excel or directly updating from the application's interface?
+#### Which should I use for setting up translation strings&mdash;uploading files through Excel or directly updating from the application's interface?
 
 If you've added a large number of languages to your survey and you need to get the translation strings verified by a translation team, you can upload the translations in the Excel file.
 
 If your survey has only a few languages and the translated strings are readily available, you can use the application's interface to set up the translated strings.
 
-### When should I set up the translation?
+#### When should I set up the translation?
 
 We recommend that you start setting up translation strings only after you've completely set up the survey in its root language. This will make updating the translation strings more manageable and easier to maintain.
 
-### What happens to email templates?
+#### What happens to email templates?
 
 You'll need to set up localized templates for every language you want to add to the survey. After you add the languages you want to the survey, you can choose them from the **Language** list. You can then create separate email templates for all the languages you added. More information: [Create multilingual email templates](send-survey-email.md#create-multilingual-email-templates)
 
