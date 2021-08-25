@@ -45,7 +45,7 @@ A survey can be rendered in one of the following types of languages in addition 
 
 The *fallback language* is a language in which a survey is rendered if translation for the survey is not available. The fallback language transition is handled internally by the system, and the response page is automatically rendered in the available fallback language.
 
-For example, the respondent's web browser language is set to Mexican Spanish (es-MX). However, es-MX language code is not supported in Dynamics 365. But, you've added translations in International Spanish. In this case, the survey is automatically loaded in International Spanish (which is the fallback language for Mexican Spanish).
+For example, the respondent's web browser language is set to Mexican Spanish (es-MX). But, you've added translations in International Spanish. In this case, the survey is automatically loaded in International Spanish (which is the fallback language for Mexican Spanish).
 
 
 ## Add additional languages
