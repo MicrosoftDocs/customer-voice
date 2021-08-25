@@ -1,7 +1,7 @@
 ---
 title: "Create a multilingual survey | MicrosoftDocs"
 description: "You can add multiple languages and their translations to a survey. This topic explains how to create a multilingual survey with Dynamics 365 Customer Voice."
-ms.date: 08/16/2021
+ms.date: 08/25/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -11,11 +11,11 @@ manager: shujoshi
 
 # Create a multilingual survey
 
-A survey created in Dynamics 365 Customer Voice can be translated to multiple languages. After you set up the translations for the survey, respondents can take the survey in the language of their choice. This helps you increase your customer base by presenting the survey in a respondent's preferred language.<!--note from editor: Suggested.--> A survey having translations in multiple languages is known as a *multilingual survey*.
+A survey created in Dynamics 365 Customer Voice can be translated to multiple languages. After you set up the translations for the survey, respondents can take the survey in the language of their choice. This helps you increase your customer base by presenting the survey in a respondent's preferred language. A survey having translations in multiple languages is known as a *multilingual survey*.
 
-To create a multilingual survey, you must first add the languages and then add translations for each language you added.<!--note from editor: Suggested. If you don't like, it should be "for each of the added languages."--> 
+To create a multilingual survey, you must first add the languages and then add translations for each language you added.
 
-When you create a multilingual survey, you can let respondents choose their preferred language from the language selector in the upper-right corner of the survey. Alternatively, you can restrict them from changing the language of the survey. More information: [Restrict respondents from changing the survey language](#restrict-respondents-to-change-survey-language)<!--note from editor: Suggested, here and throughout. "Restrict to" evokes the sense of "restrict" as "confine within physical limits."-->
+When you create a multilingual survey, you can let respondents choose their preferred language from the language selector in the upper-right corner of the survey. Alternatively, you can restrict them from changing the language of the survey. More information: [Restrict respondents from changing the survey language](#restrict-respondents-to-change-survey-language)
 
 ![Select a language for the survey.](media/select-survey-lang.png "Select a language for the survey") 
 
@@ -28,10 +28,10 @@ To create a multilingual survey, you must first add a language (additional or cu
 
 ### Root language
 
-The *root language* is the language in which the survey was originally created. For example, if you're using Dynamics 365 Customer Voice in French and you're creating all your surveys in French, that's your root language—in short, the language you see in the designer. The root language is automatically set as the default language for the respondent, but you can change this by selecting a different default language from the list of languages supported in Dynamics 365. For more information, go to [Change the default language](#change-the-default-language) later in this topic.<!--note from editor: Suggested.-->
+The *root language* is the language in which the survey was originally created. For example, if you're using Dynamics 365 Customer Voice in French and you're creating all your surveys in French, that's your root language—in short, the language you see in the designer. The root language is automatically set as the default language for the respondent, but you can change this by selecting a different default language from the list of languages supported in Dynamics 365. For more information, go to [Change the default language](#change-the-default-language) later in this topic.
 
 > [!NOTE]
-> The root language for a survey can't be changed. For example, let's assume you've used Dynamics 365 Customer Voice in German and created your survey<!--note from editor: Edit okay? You haven't defined "root survey."--> in German. Then you decide to use Dynamics 365 Customer Voice in an English locale. While all the other parts of the application will be displayed in English, the original survey text will continue to be displayed in German. <!--note from editor: Recommend deleting the following sentence unless you really think it will be helpful. It seems so odd to me, like saying "you can only change this by destroying the whole thing."  You can't remove the root language of the survey unless you explicitly delete the survey.-->
+> The root language for a survey can't be changed. For example, let's assume you've used Dynamics 365 Customer Voice in German and created your survey in German. Then you decide to use Dynamics 365 Customer Voice in English. While all the other parts of the application will be displayed in English, the original survey text will continue to be displayed in German. You can't remove the root language of the survey unless you explicitly delete the survey.
 
 ### Additional languages
 
@@ -65,11 +65,8 @@ After you've completed the setup of your survey in its root language, you can ad
 
     > [!NOTE]
     > You can select multiple languages by selecting the checkboxes next to each language.
-<!--note from editor: I suggest deleting this next sentence because it implies that you either add an OOTB language ~or~ a custom language, when I believe you can add both kinds.
-    If you don't find the language in the list of out-of-the-box languages, you can add custom languages.
--->
 
-5. To add a custom language<!--note from editor: Suggested. I know this isn't usually a good way to introduce a step, but I think it helps in this case. It's a good procedure! It's just kind of complex.-->, in the **Languages** panel, select **Add language**, and then select **Add another language**.
+5. To add a custom language, in the **Languages** panel, select **Add language**, and then select **Add another language**.
 
    ![Add a custom language in a survey.](media/add-custom-lang.png "Add a custom language in a survey")
 
@@ -77,7 +74,7 @@ After you've completed the setup of your survey in its root language, you can ad
 
 7. In the **Enter code** field, enter the code of the custom language. 
 
-   Let's say you want to add the **Spanish (Mexico)** language to your survey. You searched in the languages list and found only **Spanish (Spain, International Sort)**. In this case, you must manually add **Spanish (Mexico)**<!--note from editor: The screenshot shows a space in this phrase --> to the languages list. You'll define the display name as **Spanish (Mexico)** and the language code as **es-MX**.
+   Let's say you want to add the **Spanish (Mexico)** language to your survey. You searched in the languages list and found only **Spanish (Spain, International Sort)**. In this case, you must manually add **Spanish (Mexico)** to the languages list. You'll define the display name as **Spanish (Mexico)** and the language code as **es-MX**.
 
    ![Custom language being added to a survey.](media/add-custom-lang-1.png "Custom language being added to a survey")
 
@@ -85,12 +82,11 @@ After you've completed the setup of your survey in its root language, you can ad
 
 9. Repeat steps 5 through 8 to add more custom languages.
 
-The added languages are displayed in the panel along with their language codes<!--note from editor: I think these are properly "language codes."-->. You can use these codes in the **locale** variable when you send personalized survey invitations.
+The added languages are displayed in the panel along with their language codes. You can use these codes in the **locale** variable when you send personalized survey invitations.
 
 ![Languages added for the survey.](media/lang-added.png "Languages added for the survey.")
 
 > [!NOTE]
->
 > - The language code you enter is validated against the existing list. You can't have two languages defined with the same language code for the survey.
 > - You can add up to 86 languages per survey.
 
@@ -100,31 +96,10 @@ The added languages are displayed in the panel along with their language codes<!
 
 After adding the out-of-the-box languages and any custom languages, you can choose from two options for adding translations:
 
+- Translate individual languages from the Dynamics 365 Customer Voice interface
 - Translate all languages in bulk, by using the Excel file
 
-- Translate individual languages from the Dynamics 365 Customer Voice interface
-
-#### Option 1: Translate all languages in bulk
-
-1. In the **Languages** panel, expand **Advanced options**, and then select **Download template** to download an Excel file containing strings in the primary language and columns for each of the selected languages. For example, **de** for German or **fr-FR** for French (France).<!--note from editor: I find this line confusing. Is the Excel file going to include all the languages shown in the screenshot? If so, I think this should mention them all.-->
-
-    ![Download an Excel file to edit all languages.](media/download-excel.png "Download an Excel file to edit all languages.")
-
-2. Open the Excel file and add translations for each language in its respective column.
-
-3. After adding translations for all languages in the Excel file, go to the **Languages** panel, expand **Advanced options**, and then select **Upload**.
-
-4. Browse to and select the Excel file in which you have added translations.
-<!--note from editor: I moved the verification step into a separate section because otherwise we have two identical images. Also, it seems like a good third step to take.-->
-
-> [!NOTE]
->
-> - The first column in the Excel file contains strings in the primary language and isn't editable.
-> - You must ensure that a translation for each string is provided in the Excel file.
-> - We recommend that you download the latest Excel file every time you add or edit translations. This ensures that the latest strings and languages are available.
-> - We recommend that you _not_ make a copy of the Excel file and add strings to it, or change the file name extension. These actions might result in upload failure.
-
-#### Option 2: Translate individual languages
+#### Option 1: Translate individual languages
 
 1. In the **Languages** panel, select the language for which you want to add translations.
 
@@ -138,6 +113,23 @@ After adding the out-of-the-box languages and any custom languages, you can choo
 
 4. Repeat steps 1 through 3 to add translations for other languages.
 
+#### Option 2: Translate all languages in bulk
+
+1. In the **Languages** panel, expand **Advanced options**, and then select **Download template** to download an Excel file containing strings in the primary language and columns for each of the selected languages. For example, **da** for Danish, **de** for German, **fr-FR** for French (France), and **es-MX** for Spanish (Mexico).
+
+    ![Download an Excel file to edit all languages.](media/download-excel.png "Download an Excel file to edit all languages.")
+
+2. Open the Excel file and add translations for each language in its respective column.
+
+3. After adding translations for all languages in the Excel file, go to the **Languages** panel, expand **Advanced options**, and then select **Upload**.
+
+4. Browse to and select the Excel file in which you have added translations.
+
+> [!NOTE]
+> - The first column in the Excel file contains strings in the primary language and isn't editable.
+> - You must ensure that a translation for each string is provided in the Excel file.
+> - We recommend that you download the latest Excel file every time you add or edit translations. This ensures that the latest strings and languages are available.
+> - We recommend that you _not_ make a copy of the Excel file and add strings to it, or change the file name extension. These actions might result in upload failure.
 
 ### Step 3. Verify translations
 
@@ -149,7 +141,7 @@ After uploading the Excel file or adding your own translations, you can preview 
 
 ## Restrict respondents from changing the survey language
 
-If you've created a multilingual survey, you can decide whether your respondents can select the language they prefer (which is the default setting) or view the survey in the language selected for them through their browser language setting or locale variable.<!--note from editor: Suggested.-->
+If you've created a multilingual survey, you can decide whether your respondents can select the language they prefer (which is the default setting) or view the survey in the language selected for them through their browser language setting or locale variable.
 
 **To restrict respondents from changing their survey language**
 
@@ -201,8 +193,8 @@ After adding translations for the languages you want in your survey, you can edi
 
    - To delete a language, hover over the language, select **...**, and then select **Delete**.
 
-     >[!IMPORTANT]
-     >After you delete a language, you can't retrieve any of the strings that have already been translated.<!--note from editor: Edit okay?-->
+     > [!IMPORTANT]
+     > After you delete a language, you can't retrieve any of the strings that have already been translated.
 
 ## Language codes to use in the survey variable
 
@@ -265,7 +257,7 @@ You can add up to 86 languages per survey. These can be a combination of out-of-
 
 ### How does Dynamics 365 Customer Voice decide which language to show to a particular respondent?
 
-If you're sending a personalized survey invitation through email or Power Automate, you can define the language code by using the out-of-the-box locale variable for each invitation.<!--note from editor: Edit okay?-->
+If you're sending a personalized survey invitation through email or Power Automate, you can define the language code by using the out-of-the-box **locale** variable for each invitation.
 
 Let's say the language code in the contact record for your customer, Milton, is set to **ar** in your back-end CRM system. You can pass that as a parameter in your personalized invitation. This will ensure that the survey is loaded by default in Arabic for Milton.
 
@@ -277,20 +269,20 @@ If you don't pass the value of the **lang** parameter in the URL, the survey wil
 
 So, the order of priority is:
 
-1. The **locale** variable defined for personalized invitations sent through Power Automate or email
-2. The **lang** parameter defined in the URL 
+1. The **locale** variable or the **lang** parameter. The **locale** variable is defined for personalized invitations sent through Power Automate or email. The **lang** parameter is defined in the URL.
 3. The browser language the respondent is using
-4. The fallback language of the survey (in case the browser language is not set up in the survey)<!--note from editor: Will the reader understand what this means, or should it be covered a bit more?-->
+4. The fallback language of the survey (in case the browser language is not set up in the survey)
+5. Default language of the survey.
 
 ### Which should I use for setting up translation strings&mdash;uploading files through Excel or directly updating from the application's interface?
 
 If you've added a large number of languages to your survey and you need to get the translation strings verified by a translation team, you can upload the translations in the Excel file.
 
-If your survey has only a few languages and the translated strings are readily available, you can use the application's interface to set up<!--note from editor: Suggested, to echo the question. If the question is really about updating, should it say "Which should I use for updating translation strings..."?--> the translated strings.
+If your survey has only a few languages and the translated strings are readily available, you can use the application's interface to set up the translated strings.
 
 ### When should I set up the translation?
 
-We recommend that you start setting up<!--note from editor: Suggested again, to echo the question. "Updating" seems better used to indicate that the strings already exist but are being changed.--> translation strings only after you've completely set up the survey in its root language. This will make updating the translation strings more manageable and easier to maintain.
+We recommend that you start setting up translation strings only after you've completely set up the survey in its root language. This will make updating the translation strings more manageable and easier to maintain.
 
 ### What happens to email templates?
 
