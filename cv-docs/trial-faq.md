@@ -3,8 +3,8 @@ title: "Trial FAQ - Dynamics 365 Customer Voice | Microsoft Docs"
 description: "Solutions to common questions related to trial setup and management."
 author: sbmjais
 ms.author: shjais
-ms.date: 06/30/2021
-ms.topic: article
+ms.date: 08/31/2021
+ms.topic: get-started
 ms.service: dynamics-365-customervoice
 ms.custom: template-trial-faq
 manager: shujoshi
