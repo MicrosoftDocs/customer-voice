@@ -99,7 +99,7 @@ You can delete custom email addresses that are no longer required.
 
 4.	In the **Dynamics 365 Customer Voice** panel, hover over the domain that contains the email address that you want to delete, select the ellipsis button, and then select **Edit**.
  
-5.	On the **Add Email addresses** page, select the delete icon for the email you want to delete, and then select **Next**.
+5.	On the **Add Email addresses** page, select ![Delete the email address.](media/blue-cross-icon.png "Delete the email address") for the email you want to delete, and then select **Next**.
 
 6.	On the **Review and finish** page, review the information, and then select **Finish**.
 
