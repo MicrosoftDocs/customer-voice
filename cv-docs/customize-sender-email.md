@@ -1,7 +1,7 @@
 ---
 title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
 description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
-ms.date: 06/07/2021
+ms.date: 09/17/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -16,6 +16,9 @@ manager: shujoshi
 By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` email address. The email customization feature helps you create a custom email address based on your organization's domain. You can use then use this custom email address to send survey invitations to your customers.
 
 Let's say your company is Contoso Suites, and the company's website is `www.contososuites.com`. You want to create two custom email addresses based on your company's domain, such as `noreply@contososuites.com` and `support@contososuites.com`.
+
+> [!NOTE]
+> Only tenant administrators can add custom email addresses. If you want to send survey invitations from a custom email address, contact your tenant administrator to add it.
 
 ## Add custom email addresses
 
@@ -35,7 +38,7 @@ Take the following steps to add custom email addresses:
     > [!div class="mx-imgBorder"]
     > ![Enter the domain URL.](media/cv-enter-domain-url.png "Enter the domain URL")
  
-6.	Create DNS records in your domain by using the values available under the **Create DNS record** section on the **Verify you own this domain** page. More information: [Example DNS records](#example-dns-records).    
+6.	Create DNS records in your domain by using the values available under the **Create DNS record** section on the **Verify your domain** page. More information: [Example DNS records](#example-dns-records).    
     > [!div class="mx-imgBorder"]
     > ![Values to create DNS records.](media/cv-create-dns-records.png "Values to create DNS records")
  
@@ -46,7 +49,7 @@ Take the following steps to add custom email addresses:
     >[!NOTE]
     >If the DNS records are not created, an error is displayed specifying that the application is unable to create a key and the domain can't be created.
 
-8.	On the **User emails** page, enter the following information:    
+8.	On the **Add Email addresses** page, enter the following information:    
     - **Email address**: Email address to use for sending survey invitation.
     - **Display name**: Display name for the email user.
     - **Approved users**: Users who can use custom email addresses when sending survey invitations.     
@@ -78,9 +81,11 @@ After creating a custom email address, you can edit it to change its address, di
 
 3.	On the **Org settings** page, under the **Services** tab, select **Dynamics 365 Customer Voice**.
 
-4.	In the **Dynamics 365 Customer Voice** panel, hover over the email address you want to edit, select the ellipsis button, and then select **Edit custom email**.
+4.	In the **Dynamics 365 Customer Voice** panel, hover over the domain that contains the email address you want to edit, select the ellipsis button, and then select **Edit**.
  
-5.	In the **Edit custom email** panel, edit the required information, and then select **Save**.
+5.	On the **Add Email addresses** page, edit the required information, and then select **Next**.
+
+6.	On the **Review and finish** page, review the entered information, and then select **Finish**.
  
 ## Delete custom email addresses
 
@@ -92,9 +97,11 @@ You can delete custom email addresses that are no longer required.
 
 3.	On the **Org settings** page, under the **Services** tab, select **Dynamics 365 Customer Voice**.
 
-4.	In the **Dynamics 365 Customer Voice** panel, hover over the email address that you want to delete, select the ellipsis button, and then select **Delete custom email**.
+4.	In the **Dynamics 365 Customer Voice** panel, hover over the domain that contains the email address that you want to delete, select the ellipsis button, and then select **Edit**.
  
-5.	In the confirmation dialog box, select **Remove**.
+5.	On the **Add Email addresses** page, select ![Delete the email address.](media/blue-cross-icon.png "Delete the email address") for the email you want to delete, and then select **Next**.
+
+6.	On the **Review and finish** page, review the information, and then select **Finish**.
 
 ## Example DNS records
 
