@@ -14,7 +14,7 @@ manager: shujoshi
 A survey response record is created after a respondent (tracked and anonymous) submits a survey. To see survey responses, open the project, and select the survey name in the **Reports** section in the left pane. A graphical representation of the responses is displayed. The total number of responses received is displayed at the top-left corner of the report.
 
 > [!NOTE]
-> The total number of responses displayed on this report includes responses received through all mediums such as link, QR code, and email invitations. This count will be different from the value displayed on the **Responded** tile in the [survey invitation report](view-survey-invite.md).
+> The total number of responses displayed on this report includes responses received through all mediums such as link, QR code, and email invitations. This count will be different from the value displayed on the **Responded** tile in the [survey invitations report](view-survey-invite.md).
 
 ![Survey reports.](media/survey-report.png "Survey reports")
 
