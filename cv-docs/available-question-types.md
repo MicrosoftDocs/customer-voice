@@ -101,7 +101,7 @@ A Likert type question displays a list of single-answer questions and a rating s
 A File upload&ndash;type question asks a respondent to upload a file. You can select the number of files (up to 10) that can be uploaded and the maximum file size of each uploaded file (up to 1 GB). You can also select the type of files that can be uploaded.
 
 > [!NOTE]
-> The File upload question is not available to add when the survey is shared externally. To enable the File upload question, change the distribution settings to "Only people in my organisation can respond"
+> You cannot add a File upload type question to a survey when the survey is shared externally. In this case, the File upload type question is disabled. To enable the File upload type question, turn on the **Only people in my organization can respond** toggle under survey distribution settings. More information: [Work with survey distribution settings](distribution-settings.md#participants)
 
 If you want to restrict the file types that can be uploaded, select **More settings for question** (...), and then select **File type**. For example, you can restrict candidates to upload their resumes in Word or PDF format only.
 

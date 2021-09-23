@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 07/30/2021
+ms.date: 09/23/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -17,7 +17,10 @@ The following survey invitation statistics are displayed in the upper part of th
 
 - **Total invites**: Displays the total number of survey invitations sent.
 
-- **Responded**: Displays the total number of recipients who responded to the survey invitations.
+- **Responded**: Displays the total number of recipients who responded to the survey invitations. 
+    
+    > [!NOTE] 
+    > The value displayed in this tile does not include responses received through mediums other than email invitation. The value will be different from the number of total responses displayed on the [survey response report](survey-report.md), as it includes responses received through all mediums.
 
 - **Not responded**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:
 
