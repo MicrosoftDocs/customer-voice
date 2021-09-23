@@ -1,7 +1,7 @@
 ---
 title: "Question types available | MicrosoftDocs"
 description: "You can create a survey by using a variety of question types. Use this topic to learn about the available question types in Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 09/23/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -99,6 +99,9 @@ A Likert type question displays a list of single-answer questions and a rating s
 ## File upload
 
 A File upload&ndash;type question asks a respondent to upload a file. You can select the number of files (up to 10) that can be uploaded and the maximum file size of each uploaded file (up to 1 GB). You can also select the type of files that can be uploaded.
+
+> [!NOTE]
+> The File upload question is not available to add when the survey is shared externally. To enable the File upload question, change the distribution settings to "Only people in my organisation can respond"
 
 If you want to restrict the file types that can be uploaded, select **More settings for question** (...), and then select **File type**. For example, you can restrict candidates to upload their resumes in Word or PDF format only.
 
