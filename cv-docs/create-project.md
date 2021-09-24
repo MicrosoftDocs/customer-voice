@@ -48,7 +48,7 @@ Dynamics 365 Customer Voice offers ready-to-use survey feedback project template
 Dynamics 365 Customer Voice also includes a **Blank** template you can use to create a survey from scratch and configure it in accordance with your requirements. This template doesn't contain any preconfigured survey questions, workflows, or satisfaction metrics.
 
 > [!IMPORTANT]
-> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft DataVerse. Refreshing data on Dataverse environment with another will break Customer Voice projects and surveys on the refreshed environment. 
+> Projects, email templates, and satisfaction metrics are primarily based out of Microsoft Dataverse. Refreshing data on Dataverse environment with another will break Customer Voice projects and surveys on the refreshed environment. 
 
 
 ## Create a project from a template
