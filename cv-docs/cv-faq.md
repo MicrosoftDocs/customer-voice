@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 04/28/2021
+ms.date: 09/24/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -32,6 +32,10 @@ It is recommended not to delete data directly from Microsoft Dataverse. If you d
 ## Why does the application user require the System Administrator role?
 
 The application user requires the System Administrator role to associate survey invites and responses to any of the entities, including custom entities.
+
+## What happens if the project owner leaves the organization?
+
+If the project owner leaves the organization, the project will be deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) and use the copied project.
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
