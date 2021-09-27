@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "This topic explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
-ms.date: 05/21/2021
+ms.date: 09/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -30,6 +30,9 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
     - Entering a name, email address, or a distribution list from Azure Active Directory.
     - Entering a contact or contact list/view from Microsoft Dataverse. The contacts are populated from the environment in which your project is created.
     - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
+
+    > [!NOTE]
+    > For the distribution lists to listed in the **Recipients** field, ensure that the setting **MailEnabled** is set to true and **Security Enabled** is set to false.
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
