@@ -32,7 +32,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
     - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
 
     > [!NOTE]
-    > For the distribution lists to listed in the **Recipients** field, ensure that the setting **MailEnabled** is set to true and **Security Enabled** is set to false.
+    > For the distribution lists to be listed in the **Recipients** field, ensure that the setting **MailEnabled** is set to true and **Security Enabled** is set to false.
 
 4. To insert the survey link into your email message, see [Insert a survey link](#insert-survey-link).  
 
