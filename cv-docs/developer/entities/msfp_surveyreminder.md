@@ -1,7 +1,7 @@
 ---
 title: "msfp_surveyreminder entity reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyreminder entity."
-ms.date: 07/26/2021
+ms.date: 09/28/2021
 ms.service: crm-online
 ms.topic: "reference"
 author: "sbmjais"

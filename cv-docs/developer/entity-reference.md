@@ -1,7 +1,7 @@
 ---
 title: "Entity Reference for Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Reference documentation for the entities of Microsoft Dynamics 365 Customer Voice."
-ms.date: 09/01/2020
+ms.date: 09/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: "reference"
 author: "sbmjais"
@@ -29,7 +29,6 @@ Following is a simplified version of the entity relationship diagram of Dynamics
 |Entity name|Description|
 |------|------|
 |[msfp_emailtemplate](entities/msfp_emailtemplate.md)|Template for an email message that contains the survey invitation link.|
-|[msfp_fileresponse](entities/msfp_fileresponse.md)|Response to a file upload question.|
 |[msfp_localizedemailtemplate](entities/msfp_localizedemailtemplate.md)|Stores localized data for email templates.|
 |[msfp_question](entities/msfp_question.md)|Question in a survey to collect feedback.|
 |[msfp_questionresponse](entities/msfp_questionresponse.md)|Response to a question in a survey.|
