@@ -1,7 +1,7 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Survey scoring allows you to assign a point value to individual answer options. This topic explains how to add scoring to a survey."
-ms.date: 05/06/2021
+ms.date: 09/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -37,7 +37,7 @@ A survey's score is calculated with the help of the following components:
 
   By default, the base score of a survey is set to 10.
 
-- **Weight**: Weight allows you to measure the importance of a particular question higher or lower than other questions. For example, let's say you have a survey asking for customer feedback regarding the food delivery service. There are three questions that ask about the timeliness of the service, packaging of the food, and quality of the food. In this example, the quality of food is more important than the packaging of food. Therefore, a higher weight will be assigned to the question about quality, giving a more accurate and relevant result.
+- **Weight**: Weight allows you to measure the importance of a particular question higher or lower than other questions. For more important questions, you should provide a higher value. The final score will be a weighted average of the questions in the score. For example, let's say you have a survey asking for customer feedback regarding the food delivery service. There are three questions that ask about the timeliness of the service, packaging of the food, and quality of the food. In this example, the quality of food is more important than the packaging of food. Therefore, a higher weight should be assigned to the question about quality, giving a more accurate and relevant result.
 
   By default, the value of weight for all questions is 1.
 
