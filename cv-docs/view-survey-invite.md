@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 07/30/2021
+ms.date: 09/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -17,7 +17,11 @@ The following survey invitation statistics are displayed in the upper part of th
 
 - **Total invites**: Displays the total number of survey invitations sent.
 
-- **Responded**: Displays the total number of recipients who responded to the survey invitations.
+- **Responded**: Displays the total number of recipients who responded to the survey invitations. 
+    
+    > [!NOTE] 
+    > - The value displayed in this tile does not include responses received through mediums other than email invitation. The value will be different from the number of total responses displayed on the [survey response report](survey-report.md), as it includes responses received through all mediums.
+    > - If you [apply a filter](#filter-invitation-details), it is applied on the total number of invitations sent. For example, you've sent 20 invitations last month, but received 10 responses in the last month and 10 responses in the current month. If you apply the filter for the last month, the number of responses will be displayed as 20, as they are the responses received for the invitations sent in the last month. However, the number of responses for the last month will be displayed as 10 in the survey response report, as it shows the responses received in the selected time period.
 
 - **Not responded**: Displays the total number of recipients who haven't responded to the survey invitations. A pie chart is displayed that shows the distribution of survey invitations by status:
 
@@ -57,7 +61,7 @@ For example, the following image shows details for the failed invitations.
 
 ## Filter invitation details
 
-You can filter data in the invitation report by using the **Recent invites** filter available above the **Pending responses** tile. Select **Last month**, **Last 3 months**, or select **Custom** and create the range of months that you're interested in.
+You can filter data in the invitation report by using the **Recent invites** filter. Select **Last month**, **Last 3 months**, or select **Custom** and create the range of months that you're interested in.
 
 ![Screenshot of the Recent invites filter.](media/filter-invite.png "Filter invitation details")
 
