@@ -127,8 +127,6 @@
       href: developer/entities/msfp_alertrule.md
     - name: msfp_emailtemplate
       href: developer/entities/msfp_emailtemplate.md
-    - name: msfp_fileresponse
-      href: developer/entities/msfp_fileresponse.md
     - name: msfp_localizedemailtemplate
       href: developer/entities/msfp_localizedemailtemplate.md
     - name: msfp_project
