@@ -1,7 +1,7 @@
 ---
 title: "msfp_alertrule entity reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_alertrule entity."
-ms.date: 09/28/2021
+ms.date: 10/01/2021
 ms.service: crm-online
 ms.topic: "reference"
 author: "sbmjais"
@@ -10,6 +10,7 @@ manager: "shujoshi"
 ---
 # msfp_alertrule entity reference
 
+Rule for creating alerts in Customer Voice.
 
 **Added by**: Dynamics 365 Customer Voice Solution
 
