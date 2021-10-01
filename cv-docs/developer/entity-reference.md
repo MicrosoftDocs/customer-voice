@@ -28,6 +28,8 @@ Following is a simplified version of the entity relationship diagram of Dynamics
 
 |Entity name|Description|
 |------|------|
+|[msfp_alert](entities/msfp_alert.md)|Alerts created in Customer Voice.|
+|[msfp_alertrule](entities/msfp_alertrule.md)|Rule for creating alerts in Customer Voice.|
 |[msfp_emailtemplate](entities/msfp_emailtemplate.md)|Template for an email message that contains the survey invitation link.|
 |[msfp_localizedemailtemplate](entities/msfp_localizedemailtemplate.md)|Stores localized data for email templates.|
 |[msfp_question](entities/msfp_question.md)|Question in a survey to collect feedback.|
