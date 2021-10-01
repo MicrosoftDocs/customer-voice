@@ -1,7 +1,7 @@
 ---
 title: "msfp_alert entity reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_alert entity."
-ms.date: 09/28/2021
+ms.date: 10/01/2021
 ms.service: crm-online
 ms.topic: "reference"
 author: "sbmjais"
@@ -11,6 +11,7 @@ manager: "shujoshi"
 
 # msfp_alert entity reference
 
+Alerts created in Customer Voice.
 
 **Added by**: Dynamics 365 Customer Voice Solution
 
