@@ -1,7 +1,7 @@
 ---
 title: "msfp_emailtemplate Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_emailtemplate entity."
-ms.date: 07/30/2020
+ms.date: 10/01/2021
 ms.service: crm-online
 ms.topic: "reference"
 author: "sbmjais"
@@ -840,6 +840,21 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 ### <a name="BKMK_msfp_msfp_survey_msfp_emailtemplate_surveyid"></a> msfp_msfp_survey_msfp_emailtemplate_surveyid
 
 See msfp_survey Entity [msfp_msfp_survey_msfp_emailtemplate_surveyid](msfp_survey.md#BKMK_msfp_msfp_survey_msfp_emailtemplate_surveyid) One-To-Many relationship.
+
+
+### <a name="BKMK_msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate"></a> msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate
+
+Same as msfp_surveyreminder table [msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate](msfp_surveyreminder.md#BKMK_msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate) Many-To-One relationship.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msfp_surveyreminder|
+|ReferencingAttribute|msfp_emailtemplate|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 ### See also
 

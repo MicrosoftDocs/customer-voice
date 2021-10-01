@@ -1,7 +1,7 @@
 ---
 title: "msfp_surveyreminder entity reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyreminder entity."
-ms.date: 09/28/2021
+ms.date: 10/01/2021
 ms.service: crm-online
 ms.topic: "reference"
 author: "sbmjais"
@@ -751,6 +751,6 @@ See msfp_emailtemplate Table [msfp_msfp_emailtemplate_msfp_surveyreminder_emailt
 
 ### See also
 
-[About the table reference](../about-entity-reference.md)<br />
+[About the Entity Reference](/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msfp_surveyreminder?text=msfp_surveyreminder EntityType" />
