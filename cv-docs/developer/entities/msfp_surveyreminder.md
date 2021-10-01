@@ -1,6 +1,6 @@
 ---
-title: "msfp_emailtemplate Entity Reference | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msfp_emailtemplate entity."
+title: "msfp_surveyreminder entity reference | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msfp_surveyreminder entity."
 ms.date: 10/01/2021
 ms.service: crm-online
 ms.topic: "reference"
@@ -8,55 +8,70 @@ author: "sbmjais"
 ms.author: "shjais"
 manager: "shujoshi"
 ---
-# msfp_emailtemplate Entity Reference
 
-Template for an email message that contains the survey invitation link.
+# msfp_surveyreminder entity reference
+
+Email reminders for surveys created in Customer Voice.
 
 **Added by**: Dynamics 365 Customer Voice Solution
 
-## Entity Properties
+
+## Properties
 
 |Property|Value|
 |--------|-----|
-|CollectionSchemaName|msfp_emailtemplates|
-|DisplayCollectionName|Customer Voice survey email templates|
-|DisplayName|Customer Voice survey email template|
-|EntitySetName|msfp_emailtemplates|
+|CollectionSchemaName|msfp_surveyreminders|
+|DisplayCollectionName|Customer Voice survey reminders|
+|DisplayName|Customer Voice survey reminder|
+|EntitySetName|msfp_surveyreminders|
 |IsBPFEntity|False|
-|LogicalCollectionName|msfp_emailtemplates|
-|LogicalName|msfp_emailtemplate|
+|LogicalCollectionName|msfp_surveyreminders|
+|LogicalName|msfp_surveyreminder|
 |OwnershipType|UserOwned|
-|PrimaryIdAttribute|msfp_emailtemplateid|
+|PrimaryIdAttribute|msfp_surveyreminderid|
 |PrimaryNameAttribute|msfp_name|
-|SchemaName|msfp_emailtemplate|
+|SchemaName|msfp_surveyreminder|
 
-<a name="writable-attributes"></a>	
+<a name="writable-attributes"></a>
 
-## Writable attributes	
+## Writable columns/attributes
 
-These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.	
+These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
-- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)	
-- [msfp_Candelete](#BKMK_msfp_Candelete)	
-- [msfp_Canedit](#BKMK_msfp_Canedit)	
-- [msfp_Canrename](#BKMK_msfp_Canrename)	
-- [msfp_emailtemplatebody](#BKMK_msfp_emailtemplatebody)	
-- [msfp_emailtemplateId](#BKMK_msfp_emailtemplateId)	
-- [msfp_emailtemplatesubject](#BKMK_msfp_emailtemplatesubject)	
-- [msfp_language](#BKMK_msfp_language)	
-- [msfp_name](#BKMK_msfp_name)	
-- [msfp_sourcesurveyidentifier](#BKMK_msfp_sourcesurveyidentifier)	
-- [msfp_survey](#BKMK_msfp_survey)	
-- [msfp_tags](#BKMK_msfp_tags)	
-- [msfp_templatetype](#BKMK_msfp_templatetype)	
-- [msfp_version](#BKMK_msfp_version)	
-- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)	
-- [OwnerId](#BKMK_OwnerId)	
-- [OwnerIdType](#BKMK_OwnerIdType)	
-- [statecode](#BKMK_statecode)	
-- [statuscode](#BKMK_statuscode)	
-- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)	
+- [CreatedOn](#BKMK_CreatedOn)
+- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [msfp_description](#BKMK_msfp_description)
+- [msfp_emailtemplate](#BKMK_msfp_emailtemplate)
+- [msfp_name](#BKMK_msfp_name)
+- [msfp_properties](#BKMK_msfp_properties)
+- [msfp_scheduleddate](#BKMK_msfp_scheduleddate)
+- [msfp_status](#BKMK_msfp_status)
+- [msfp_survey](#BKMK_msfp_survey)
+- [msfp_surveyreminderId](#BKMK_msfp_surveyreminderId)
+- [msfp_type](#BKMK_msfp_type)
+- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
+- [OwnerId](#BKMK_OwnerId)
+- [OwnerIdType](#BKMK_OwnerIdType)
+- [statecode](#BKMK_statecode)
+- [statuscode](#BKMK_statuscode)
+- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
 - [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
+
+
+### <a name="BKMK_CreatedOn"></a> CreatedOn
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the survey reminder was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
+
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
@@ -75,233 +90,146 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Type|Integer|
 
 
-### <a name="BKMK_msfp_Candelete"></a> msfp_Candelete
+### <a name="BKMK_msfp_description"></a> msfp_description
 
 |Property|Value|
 |--------|-----|
-|Description|Specifies if the email template can be deleted.|
-|DisplayName|Is deletable|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msfp_candelete|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msfp_Candelete Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msfp_Canedit"></a> msfp_Canedit
-
-|Property|Value|
-|--------|-----|
-|Description|Specifies if the email template can be edited.|
-|DisplayName|Is editable|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msfp_canedit|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msfp_Canedit Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msfp_Canrename"></a> msfp_Canrename
-
-|Property|Value|
-|--------|-----|
-|Description|Specifies if the email template can be renamed.|
-|DisplayName|Is renamable|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msfp_canrename|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### msfp_Canrename Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
-
-
-### <a name="BKMK_msfp_emailtemplatebody"></a> msfp_emailtemplatebody
-
-|Property|Value|
-|--------|-----|
-|Description|Stores body of the email template.|
-|DisplayName|Email template body|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msfp_emailtemplatebody|
-|MaxLength|1000000|
-|RequiredLevel|None|
-|Type|Memo|
-
-
-### <a name="BKMK_msfp_emailtemplateId"></a> msfp_emailtemplateId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for entity instances|
-|DisplayName|Survey email template|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|msfp_emailtemplateid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_msfp_emailtemplatesubject"></a> msfp_emailtemplatesubject
-
-|Property|Value|
-|--------|-----|
-|Description|Stores subject of the email template.|
-|DisplayName|Email template subject|
+|Description|Description of the survey reminder.|
+|DisplayName|Description|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msfp_emailtemplatesubject|
-|MaxLength|1000|
+|LogicalName|msfp_description|
+|MaxLength|2000|
 |RequiredLevel|None|
 |Type|String|
 
 
-### <a name="BKMK_msfp_language"></a> msfp_language
+### <a name="BKMK_msfp_emailtemplate"></a> msfp_emailtemplate
 
 |Property|Value|
 |--------|-----|
-|Description|Language of the email message template|
-|DisplayName|Language|
-|FormatName|Text|
-|IsLocalizable|False|
+|Description|Email template used in the survey reminder.|
+|DisplayName|Email template|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msfp_language|
-|MaxLength|400|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|msfp_emailtemplate|
+|RequiredLevel|ApplicationRequired|
+|Targets|msfp_emailtemplate|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msfp_name"></a> msfp_name
 
 |Property|Value|
 |--------|-----|
-|Description|The name of the custom entity.|
+|Description|Name of the survey reminder.|
 |DisplayName|Name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msfp_name|
-|MaxLength|250|
+|MaxLength|100|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
-### <a name="BKMK_msfp_sourcesurveyidentifier"></a> msfp_sourcesurveyidentifier
+### <a name="BKMK_msfp_properties"></a> msfp_properties
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for the survey in the source application.|
-|DisplayName|Source survey identifier|
-|FormatName|Text|
+|Description|Properties of the survey reminder.|
+|DisplayName|Properties|
+|Format|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msfp_sourcesurveyidentifier|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|LogicalName|msfp_properties|
+|MaxLength|1000000|
+|RequiredLevel|ApplicationRequired|
+|Type|Memo|
+
+
+### <a name="BKMK_msfp_scheduleddate"></a> msfp_scheduleddate
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time for which the survey reminder is scheduled to be sent.|
+|DisplayName|Scheduled date|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_scheduleddate|
+|RequiredLevel|ApplicationRequired|
+|Type|DateTime|
+
+
+### <a name="BKMK_msfp_status"></a> msfp_status
+
+|Property|Value|
+|--------|-----|
+|Description|Status of the survey reminder.|
+|DisplayName|Reminder Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msfp_status|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msfp_status Choices/Options
+
+|Value|Label|
+|-----|-----|
+|647390000|Active|
+|647390001|Completed|
+|647390002|Failed|
+
 
 
 ### <a name="BKMK_msfp_survey"></a> msfp_survey
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier for Customer Voice survey associated with Customer Voice survey email template.|
-|DisplayName|survey email template|
+|Description|Survey for which the reminder was created.|
+|DisplayName|Survey|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msfp_survey|
-|RequiredLevel|None|
+|RequiredLevel|ApplicationRequired|
 |Targets|msfp_survey|
 |Type|Lookup|
 
 
-### <a name="BKMK_msfp_tags"></a> msfp_tags
+### <a name="BKMK_msfp_surveyreminderId"></a> msfp_surveyreminderId
 
 |Property|Value|
 |--------|-----|
-|Description|Stores tags added to the email template.|
-|DisplayName|Tags|
+|Description|Unique identifier for entity instances|
+|DisplayName|Customer Voice survey reminder|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msfp_surveyreminderid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msfp_type"></a> msfp_type
+
+|Property|Value|
+|--------|-----|
+|Description|Type of the survey reminder.|
+|DisplayName|Type|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msfp_tags|
-|MaxLength|1000|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msfp_templatetype"></a> msfp_templatetype
-
-|Property|Value|
-|--------|-----|
-|Description|Determines the type of template.|
-|DisplayName|Template type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msfp_templatetype|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### msfp_templatetype Options
-
-|Value|Label|
-|-----|-----|
-|647390000|User|
-|647390001|Survey|
-
-
-
-### <a name="BKMK_msfp_version"></a> msfp_version
-
-|Property|Value|
-|--------|-----|
-|Description|Version of the email message template|
-|DisplayName|Version|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msfp_version|
-|MaxLength|400|
-|RequiredLevel|None|
+|LogicalName|msfp_type|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
 |Type|String|
 
 
@@ -356,7 +284,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Status of the Survey email template|
+|Description|Status of the Customer Voice survey reminder|
 |DisplayName|Status|
 |IsValidForCreate|False|
 |IsValidForForm|True|
@@ -365,7 +293,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|SystemRequired|
 |Type|State|
 
-#### statecode Options
+#### statecode Choices/Options
 
 |Value|Label|DefaultStatus|InvariantName|
 |-----|-----|-------------|-------------|
@@ -378,7 +306,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for the status of the Survey email template|
+|Description|Reason for the status of the Customer Voice survey reminder|
 |DisplayName|Status Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -386,7 +314,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|None|
 |Type|Status|
 
-#### statuscode Options
+#### statuscode Choices/Options
 
 |Value|Label|State|
 |-----|-----|-----|
@@ -428,14 +356,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 <a name="read-only-attributes"></a>
 
-## Read-only attributes
+## Read-only columns/attributes
 
-These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
+These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
-- [CreatedOn](#BKMK_CreatedOn)
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
@@ -446,6 +373,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msfp_emailtemplateName](#BKMK_msfp_emailtemplateName)
 - [msfp_surveyName](#BKMK_msfp_surveyName)
 - [OwnerIdName](#BKMK_OwnerIdName)
 - [OwnerIdYomiName](#BKMK_OwnerIdYomiName)
@@ -505,21 +433,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |MaxLength|100|
 |RequiredLevel|SystemRequired|
 |Type|String|
-
-
-### <a name="BKMK_CreatedOn"></a> CreatedOn
-
-|Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the record was created.|
-|DisplayName|Created On|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|createdon|
-|RequiredLevel|None|
-|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
@@ -693,6 +606,22 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |Type|String|
 
 
+### <a name="BKMK_msfp_emailtemplateName"></a> msfp_emailtemplateName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msfp_emailtemplatename|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msfp_surveyName"></a> msfp_surveyName
 
 |Property|Value|
@@ -809,58 +738,19 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 |RequiredLevel|None|
 |Type|BigInt|
 
-<a name="onetomany"></a>
-
-## One-To-Many Relationships
-
-Listed by **SchemaName**.
-
-
-### <a name="BKMK_msfp_msfp_emailtemplate_msfp_localizedemailtem"></a> msfp_msfp_emailtemplate_msfp_localizedemailtem
-
-Same as msfp_localizedemailtemplate entity [msfp_msfp_emailtemplate_msfp_localizedemailtem](msfp_localizedemailtemplate.md#BKMK_msfp_msfp_emailtemplate_msfp_localizedemailtem) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msfp_localizedemailtemplate|
-|ReferencingAttribute|msfp_emailtemplateid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msfp_msfp_emailtemplate_msfp_localizedemailtem|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
-
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
-
-
-### <a name="BKMK_msfp_msfp_survey_msfp_emailtemplate_surveyid"></a> msfp_msfp_survey_msfp_emailtemplate_surveyid
-
-See msfp_survey Entity [msfp_msfp_survey_msfp_emailtemplate_surveyid](msfp_survey.md#BKMK_msfp_msfp_survey_msfp_emailtemplate_surveyid) One-To-Many relationship.
+Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate"></a> msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate
 
-Same as msfp_surveyreminder table [msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate](msfp_surveyreminder.md#BKMK_msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate) Many-To-One relationship.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|msfp_surveyreminder|
-|ReferencingAttribute|msfp_emailtemplate|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+See msfp_emailtemplate Table [msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate](msfp_emailtemplate.md#BKMK_msfp_msfp_emailtemplate_msfp_surveyreminder_emailtemplate) One-To-Many relationship.
 
 ### See also
 
 [About the Entity Reference](/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
-[Programming reference for Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/developer/programming-reference)<br />
-[Web API reference](/dynamics365/customer-engagement/web-api/about)<br />
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
+<xref href="Microsoft.Dynamics.CRM.msfp_surveyreminder?text=msfp_surveyreminder EntityType" />
