@@ -1,7 +1,7 @@
 ---
 title: "Entity Reference for Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Reference documentation for the entities of Microsoft Dynamics 365 Customer Voice."
-ms.date: 10/01/2021
+ms.date: 10/12/2021
 ms.service: dynamics-365-customervoice
 ms.topic: "reference"
 author: "sbmjais"
@@ -36,7 +36,7 @@ Following is a simplified version of the entity relationship diagram of Dynamics
 |[msfp_questionresponse](entities/msfp_questionresponse.md)|Response to a question in a survey.|
 |[msfp_survey](entities/msfp_survey.md)|Set of questions to collect feedback.|
 |[msfp_surveyinvite](entities/msfp_surveyinvite.md)|Activity that tracks a survey invitation sent to a person.|
-|[msfp_surveyreminder](entities/msfp_surveyinvite.md)|Email reminders for surveys created in Customer Voice.|
+|[msfp_surveyreminder](entities/msfp_surveyreminder.md)|Email reminders for surveys created in Customer Voice.|
 |[msfp_surveyresponse](entities/msfp_surveyresponse.md)|Response to a survey.|
 |[msfp_project](entities/msfp_project.md)|Set of surveys to collect feedback.|
 |[msfp_unsubscribedrecipient](entities/msfp_unsubscribedrecipient.md)|Email address of an unsubscribed respondent.|
