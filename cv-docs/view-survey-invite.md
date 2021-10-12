@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 09/28/2021
+ms.date: 10/12/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -31,9 +31,7 @@ The following survey invitation statistics are displayed in the upper part of th
 
     - **Opened**: The survey was opened, but hasn't been completed yet.
 
-- **Unsubscribed**: Displays the total number of recipients who have unsubscribed from receiving survey-related emails.
-
-- **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
+- **Not sent**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
 
 ![Screenshot of a survey invitation report.](media/invite-report.png "Survey invitation report")
 
