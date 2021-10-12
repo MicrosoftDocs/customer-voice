@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
 description: "You can create a survey invitation link that can be distributed by using the platform of your choice."
-ms.date: 06/24/2021
+ms.date: 10/12/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -18,6 +18,7 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
 > [!NOTE]
 > - When you create a survey invitation, the email address is considered as-is, and is not validated for correctness.
 > - Once you create a survey invitation, it can't be updated. If some update is required, you must create a new invitation link.
+> - The output of this action will be InviteId, InviteUrl, and UnsubscribeUrl.
 
 1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
 
