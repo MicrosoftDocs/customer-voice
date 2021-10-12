@@ -31,7 +31,7 @@ The following survey invitation statistics are displayed in the upper part of th
 
     - **Opened**: The survey was opened, but hasn't been completed yet.
 
-- **Failed**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
+- **Not sent**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
 
 ![Screenshot of a survey invitation report.](media/invite-report.png "Survey invitation report")
 
