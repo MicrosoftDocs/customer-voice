@@ -1,7 +1,7 @@
 ---
 title: "Work with alerts in Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Alerts are follow-up activities that are created based on the defined alert rules. This topic explains how to work with alerts in Dynamics 365 Customer Voice."
-ms.date: 01/29/2021
+ms.date: 10/18/2021
 ms.topic: article
 ms.service: dynamics-365-customervoice
 author: sbmjais
@@ -165,7 +165,7 @@ When an alert is created, it isn't assigned to anyone. You must assign it to a u
 
 4.  Select **Assign**.
 
-The alert is assigned to the specified user, and an email is sent to the user to whom the alert is assigned.
+The alert is assigned to the specified user.
 
 You can also select multiple alerts in the grid, and then select **Reassign** in the upper-right corner of the grid. In the **Assign alert to** pop-up window, enter the name or email address of the user to assign the alert to, and then select **Assign**.
 
@@ -191,7 +191,7 @@ You can also select multiple alerts in the grid, and then select **Reassign** in
 
 5.  Select **Assign**.
 
-The alert is assigned to the specified user, and an email is sent to the user to whom the alert is assigned.
+The alert is assigned to the specified user.
 
 ## Resolve an alert
 
