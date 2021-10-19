@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using Power Automate | MicrosoftDocs"
 description: "You can send a survey to respondents based on a business trigger such as resolution of a case. This topic explains how to send a survey by using Power Automate."
-ms.date: 09/28/2021
+ms.date: 10/19/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -53,6 +53,9 @@ Use the **Recipient details** field to associate your survey invitation and resp
 
 > [!div class="mx-imgBorder"]
 > ![Send a survey action.](media/send-survey-action.png "Send a survey action")
+
+> [!NOTE]
+> The output of this action doesn't return any result. Instead, a survey is sent to the specified list of recipients.
 
 ### Attributes
 
