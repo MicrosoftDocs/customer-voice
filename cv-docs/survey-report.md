@@ -1,7 +1,7 @@
 ---
 title: "View survey responses report | MicrosoftDocs"
 description: "This topic explains how to view a survey response report in Dynamics 365 Customer Voice after a respondent (tracked and anonymous) submits a survey."
-ms.date: 09/28/2021
+ms.date: 10/25/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -14,7 +14,8 @@ manager: shujoshi
 A survey response record is created after a respondent (tracked and anonymous) submits a survey. To see survey responses, open the project, and select the survey name in the **Reports** section in the left pane. A graphical representation of the responses is displayed. The total number of responses received is displayed at the top-left corner of the report.
 
 > [!NOTE]
-> The total number of responses displayed on this report includes responses received through all mediums such as link, QR code, and email invitations. This count will be different from the value displayed on the **Responded** tile in the [survey invitations report](view-survey-invite.md).
+> - The total number of responses displayed on this report includes responses received through all mediums such as link, QR code, and email invitations. This count will be different from the value displayed on the **Responded** tile in the [survey invitations report](view-survey-invite.md).
+> - If you add new questions after receiving responses to a survey, the newly added questions will be visible in the response report as unanswered.
 
 ![Survey reports.](media/survey-report.png "Survey reports")
 
