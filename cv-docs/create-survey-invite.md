@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
 description: "You can create a survey invitation link that can be distributed by using the platform of your choice."
-ms.date: 10/19/2021
+ms.date: 10/28/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -42,7 +42,10 @@ If you want to send a survey by using a platform other than Dynamics 365 Custome
     - **Survey**: Select the survey to be sent.
     - **Email**: Enter the recipient's email address.
     - **Subject**: Enter the subject of the survey invitation.
-    - **Regarding**: Specify a record to associate the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. You must enter an entity logical name in this field.
+    - **Regarding**: Specify a record to associate the survey invitation and response. This value is stored in the survey invitation's **Regarding** field.
+        > [!NOTE]
+        > - You must enter a table's logical name in this field. For example, if you want to associate the Case table, you must enter _incident_, as it is the logical name of the Case table. Similarly, if you create a custom table with its display name as _Custom Table_ and its logical name as _new\_customtable_, you must enter _new\_customtable_ in this field.
+        > - Only tables that are marked for collaboration in activities are supported. For example, the Task table is not supported.
     - **Recipient details**: Specify a contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field. Only a Contact record is supported in this field.
 
     > [!NOTE]
