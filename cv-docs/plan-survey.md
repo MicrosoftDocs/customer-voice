@@ -84,7 +84,7 @@ When a survey is blocked automatically, the administrator receives a daily notif
 Dynamics 365 Customer Voice has a limit on the number of surveys you can create, number of questions you can add per survey, and number of responses a survey can receive. The limits are:
 
 - Number of surveys that can be created by a user: 400
-  > [!NOTE
+  > [!NOTE]
   > It is recommended not to create more than 10 surveys, as the more number of surveys will have an impact on the performance of aggregated reporting, copy operation, and so on.
 - Number of questions allowed per survey: 200
 - Number of responses a survey can receive: 500,000
