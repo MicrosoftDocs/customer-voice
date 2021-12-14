@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 09/24/2021
+ms.date: 12/14/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -36,6 +36,31 @@ The application user requires the System Administrator role to associate survey 
 ## What happens if the project owner leaves the organization?
 
 If the project owner leaves the organization, the project will be deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) and use the copied project.
+
+## I deleted the old surveys and survey responses, and want to update values in the satisfaction metrics report accordingly.
+
+This is an unsupported scenario. Deleting old surveys and survey responses will not update values in the satisfaction metrics report.
+
+## I want to delete multiple responses from the Dynamics 365 Customer Voice interface.
+
+Deleting multiple responses from the Dynamics 365 Customer Voice interface is not supported.
+
+## I restored Microsoft Dataverse and want Dynamics 365 Customer Voice and survey responses to work with it.
+
+This is an unsupported scenario.
+
+## How can I share my new feature requirements or ideas?
+
+You can share your new feature requirements or ideas on the [Customer Voice Ideas](http://aka.ms/customervoiceideas) page.
+
+## I configured the flow for survey response but it is getting triggered for each question response.
+
+Ensure that the flow is configured correctly. While selecting the table name during flow configuration, select **Customer Voice survey responses**.
+
+## Respondents are getting the "The maximum number of people have already responded to the form" error when trying to submit the responses.
+
+Delete the older responses as the survey response limit is reached. Alternatively, a new survey can be created if old responses cannot be deleted. The maximum number of responses a survey can receive is 500,000. The maximum response limit can be increased to a higher limit of 5 million on request.
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
