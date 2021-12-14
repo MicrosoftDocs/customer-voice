@@ -51,7 +51,7 @@ This is an unsupported scenario.
 
 ## How can I share my new feature requirements or ideas?
 
-You can share your new feature requirements or ideas on the [Customer Voice Ideas](http://aka.ms/customervoiceideas) page.
+You can share your new feature requirements or ideas on the [Customer Voice Ideas](https://aka.ms/customervoiceideas) page.
 
 ## I configured the flow for survey response but it is getting triggered for each question response.
 
