@@ -57,6 +57,8 @@ You can share your new feature requirements or ideas on the [Customer Voice Idea
 
 Ensure that the flow is configured correctly. While selecting the table name during flow configuration, select **Customer Voice survey responses**.
 
+![Flow configuration for survey response in Customer Voice.](media/response-flow-config.png "Flow configuration for survey response in Customer Voice")
+
 ## Respondents are getting the "The maximum number of people have already responded to the form" error when trying to submit the responses.
 
 Delete the older responses as the survey response limit is reached. Alternatively, a new survey can be created if old responses cannot be deleted. The maximum number of responses a survey can receive is 500,000. The maximum response limit can be increased to a higher limit of 5 million on request.
