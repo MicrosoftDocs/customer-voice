@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 12/14/2021
+ms.date: 12/20/2021
 ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
@@ -49,20 +49,9 @@ Deleting multiple responses from the Dynamics 365 Customer Voice interface is no
 
 This is an unsupported scenario.
 
-## How can I share my new feature requirements or ideas?
+## How can I share new feature requirements or ideas?
 
 You can share your new feature requirements or ideas on the [Customer Voice Ideas](https://aka.ms/customervoiceideas) page.
-
-## I configured the flow for survey response but it is getting triggered for each question response.
-
-Ensure that the flow is configured correctly. While selecting the table name during flow configuration, select **Customer Voice survey responses**.
-
-![Flow configuration for survey response in Customer Voice.](media/response-flow-config.png "Flow configuration for survey response in Customer Voice")
-
-## Respondents are getting the "The maximum number of people have already responded to the form" error when trying to submit the responses.
-
-Delete the older responses as the survey response limit is reached. Alternatively, a new survey can be created if old responses cannot be deleted. The maximum number of responses a survey can receive is 500,000. The maximum response limit can be increased to a higher limit of 5 million on request.
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
