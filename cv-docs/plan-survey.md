@@ -85,7 +85,7 @@ Dynamics 365 Customer Voice has a limit on the number of surveys you can create,
 
 - Number of surveys that can be created by a user: 400
   > [!NOTE]
-  > It is recommended not to create more than 10 surveys per project, as the more number of surveys will have an impact on the performance of aggregated reporting, copy operation, and so on.
+  > We recommended not to create more than 10 surveys per project, as the more number of surveys will have an impact on the performance of aggregated reporting, copy operation, and so on.
 - Number of questions allowed per survey: 200
 - Number of responses a survey can receive: 500,000
 - Number of characters allowed per response for a single question: 4,000
