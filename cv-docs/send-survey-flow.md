@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Send a survey by using Power Automate
 
-[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 
 After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Power Automate. The following Power Automate templates are available out of the box in Dynamics 365 Customer Voice:
 
