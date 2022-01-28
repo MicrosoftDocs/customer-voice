@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Plan to create a survey
 
-[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 
 It's important to have a plan for creating your surveys. Here are a few things to think about when you're creating surveys:
 
