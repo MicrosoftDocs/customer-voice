@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Connect Dynamics 365 Customer Voice with your environment
 
-[!INCLUDE[cc-data-platform-banner](includes/cc-data-platform-banner.md)]
+
 
 An environment is a space to store, manage, and share your organization's business data, apps, and flows. It also serves as a container to separate apps that might have different roles, security requirements, or target audiences. More information: [Environments overview](/power-platform/admin/environments-overview)
 
