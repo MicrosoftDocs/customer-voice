@@ -62,7 +62,7 @@
     },
     "fileMetadata": {
       "ms.service": {
-        "**.*": "aibuilder"
+        "**.*": "dynamics-365-customervoice"
       }
     },
     "template": [],
