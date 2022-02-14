@@ -61,7 +61,9 @@
       "recommendations": "true"
     },
     "fileMetadata": {
-      "ms.service": "dynamics-365-customervoice"
+      "ms.service": {
+        "**.*": "aibuilder"
+      }
     },
     "template": [],
     "dest": "customer-voice",
