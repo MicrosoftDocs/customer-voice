@@ -2,7 +2,6 @@
 title: "Embed a survey in a webpage | MicrosoftDocs"
 description: "This topic explains how to embed your survey in a webpage by pasting the survey's embed code into your webpage's source code."
 ms.date: 04/28/2021
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

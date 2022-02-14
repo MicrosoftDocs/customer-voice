@@ -2,7 +2,6 @@
 title: "Help resources for Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "This topic serves as a starting point for browsing the help content for Dynamics 365 Customer Voice."
 ms.date: 07/29/2020
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

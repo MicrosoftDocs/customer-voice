@@ -60,7 +60,9 @@
       ],
       "recommendations": "true"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "ms.service": "dynamics-365-customervoice"
+    },
     "template": [],
     "dest": "customer-voice",
     "markdownEngineName": "markdig"

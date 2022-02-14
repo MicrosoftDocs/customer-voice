@@ -2,7 +2,6 @@
 title: "Send a survey by using email | MicrosoftDocs"
 description: "This topic explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
 ms.date: 09/28/2021
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

@@ -2,7 +2,6 @@
 title: "msfp_satisfactionmetric Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_satisfactionmetric entity."
 ms.date: 07/29/2020
-ms.service: crm-online
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"

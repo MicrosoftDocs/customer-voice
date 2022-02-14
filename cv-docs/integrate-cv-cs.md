@@ -2,7 +2,6 @@
 title: "Integrate Dynamics 365 Customer Voice with Dynamics 365 Customer Service | MicrosoftDocs"
 description: "This topic explains how to integrate Dynamics 365 Customer Voice with Dynamics 365 Customer Service and send a survey automatically to customers on case resolution."
 ms.date: 05/04/2021
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
