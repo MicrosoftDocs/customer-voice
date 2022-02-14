@@ -2,7 +2,6 @@
 title: "Add a custom post-survey message | MicrosoftDocs"
 description: "This topic explains how to add a custom post-survey message in a survey created with Dynamics 365 Customer Voice."
 ms.date: 01/29/2021
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

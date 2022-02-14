@@ -5,7 +5,6 @@ author: sbmjais
 ms.author: shjais
 ms.date: 08/31/2021
 ms.topic: get-started
-ms.service: dynamics-365-customervoice
 ms.custom: template-trial-faq
 manager: shujoshi
 ---

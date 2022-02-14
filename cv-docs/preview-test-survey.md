@@ -2,7 +2,6 @@
 title: "Preview and test a survey | MicrosoftDocs"
 description: "You must preview and test a survey before sending it to your respondents. This topic explains how to preview and test a survey."
 ms.date: 07/29/2020
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
