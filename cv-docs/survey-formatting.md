@@ -2,7 +2,6 @@
 title: "Add formatting to a survey | MicrosoftDocs"
 description: "This topic explains how to add formatting to a survey and control the general look and feel of your survey."
 ms.date: 07/29/2020
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

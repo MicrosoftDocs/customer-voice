@@ -2,7 +2,6 @@
 title: "Question types available | MicrosoftDocs"
 description: "You can create a survey by using a variety of question types. Use this topic to learn about the available question types in Dynamics 365 Customer Voice."
 ms.date: 09/28/2021
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais

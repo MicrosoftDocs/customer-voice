@@ -2,7 +2,6 @@
 title: "Administrator settings | MicrosoftDocs"
 description: "You can control various administrator settings such as recording the names of people in your organization and protecting surveys from phishing."
 ms.date: 09/10/2020
-ms.service: dynamics-365-customervoice
 ms.topic: article
 author: sbmjais
 ms.author: shjais
