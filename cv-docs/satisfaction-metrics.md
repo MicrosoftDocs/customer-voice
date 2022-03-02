@@ -1,7 +1,7 @@
 ---
 title: "Work with satisfaction metrics | MicrosoftDocs"
 description: "This topic explains how to add satisfaction metrics and map them to survey questions in Dynamics 365 Customer Voice."
-ms.date: 05/06/2021
+ms.date: 03/02/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -21,7 +21,10 @@ Dynamics 365 Customer Voice includes support for adding the following standardiz
 
   NPS is calculated by subtracting the percentage of detractors from the percentage of promoters. The score is a number that can range from &ndash;100 to 100.
 
-- **Sentiment**: Sentiment is a metric used to identify customer sentiment toward a product or a service. Sentiment groups the responses to a text-based question as positive, negative, or neutral.
+- **Sentiment**: Sentiment is a metric used to identify customer sentiment toward a product or a service. Sentiment groups the responses to a text-based question as positive, negative, or neutral. 
+
+    > [!NOTE]
+    > Only a limited number of languages are supported for sentiment analysis. To know about the supported languages, see [What languages are supported for sentiment analysis?](cv-faq.md#what-languages-are-supported-for-sentiment-analysis).
 
 - **Customer Satisfaction (CSAT)**: CSAT is a metric used to measure the level of satisfaction customers have with a product or a service. CSAT is measured by responses to rating-type questions. The CSAT score is calculated on a scale of 1 to 5. If you create a question on a scale other than 1 to 5, the CSAT score is normalized as per the 1 to 5 scale. This helps in comparing various CSAT scores.
 

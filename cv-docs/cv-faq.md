@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 01/28/2022
+ms.date: 03/02/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -35,6 +35,33 @@ The application user requires the System Administrator role to associate survey 
 ## What happens if the project owner leaves the organization?
 
 If the project owner leaves the organization, the project will be deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) and use the copied project.
+
+## What languages are supported for sentiment analysis?
+
+Dynamics 365 Customer Voice supports the following languages for sentiment analysis:
+
+|     Language                 |     Language code    |
+|------------------------------|------------------------|
+|     Chinese                  |     zh                 |
+|     Chinese-Simplified       |     zh-hans            |
+|     Chinese-Traditional      |     zh-hant            |
+|     Dutch                    |     nl                 |
+|     English                  |     en                 |
+|     French                   |     fr                 |
+|     German                   |     de                 |
+|     Hindi                    |     hi                 |
+|     Italian                  |     it                 |
+|     Japanese                 |     ja                 |
+|     Korean                   |     ko                 |
+|     Norwegian (Bokmål)       |     no                 |
+|     Portuguese (Brazil)      |     pt-BR              |
+|     Portuguese (Portugal)    |     pt-PT              |
+|     Portuguese               |     pt                 |
+|     Spanish                  |     es                 |
+|     Turkish                  |     tr                 |
+|||
+
+Survey responses received in languages other than the ones specified above are considered as English and sent to the cognitive services for further processing. In this case, the accuracy would be impacted.
 
 ## I deleted the old surveys and survey responses, and want to update values in the satisfaction metrics report accordingly.
 
