@@ -63,6 +63,103 @@ Dynamics 365 Customer Voice supports the following languages for sentiment analy
 
 Survey responses received in languages other than the ones specified above are considered as English and sent to the cognitive services for further processing. In this case, the accuracy would be impacted.
 
+## How can I change the ownership of satisfaction metrics and alerts from owner to a team?
+
+### Assign the satisfaction metric record from owner to a team
+
+1. Sign in to [Power Apps](https://make.powerapps.com/) with a user that has access to Dynamics 365 records.
+
+2. Select **Settings** > **Advanced settings**.
+
+    :::image type="content" source="media/advanced-settings-pa.png" alt-text="Go to advanced settings in Power Apps":::
+
+3. Select **Advanced Find** on the command bar at the top.
+
+    :::image type="content" source="media/advanced-find.png" alt-text="Go to advanced find":::
+
+4. In the **Look for** list, select **Customer Voice satisfaction metric**.
+
+5. In the **Select** list, select **Project**.
+
+6. Select **Enter value**, then browser and select the name of the project.
+
+    :::image type="content" source="media/advanced-find-window-sm.png" alt-text="Advanced find filter values for satisfaction metrics":::
+
+7. Select **Results**. A list of all satisfaction metrics associated to the project is displayed.
+
+8. Select the records whose ownership needs to be changed, and then select **Assign Customer Voice Satisfaction metric**.
+ 
+    :::image type="content" source="media/advanced-find-results-sm.png" alt-text="Advanced find result for satisfaction metrics":::
+
+9. In the **Assign Customer Voice satisfaction metric** window, select the **Assign to** field to change its value to **User or team**.
+
+10. In the **User or to** field, browse and select the team to which ownership needs to be transferred.
+
+    :::image type="content" source="media/assign-window-sm.png" alt-text="Assign the selected satisfaction metrics to a team":::
+
+    > [!NOTE]   
+    > To know how to find a team, see [How to find a team?](#how-to-find-a-team).
+
+11. Select **Assign**.
+
+### Assign the alert record from owner to a team
+
+1. Sign in to [Power Apps](https://make.powerapps.com/) with a user that has access to Dynamics 365 records.
+
+2. Select **Settings** > **Advanced settings**.
+
+    :::image type="content" source="media/advanced-settings-pa.png" alt-text="Go to advanced settings in Power Apps":::
+
+3. Select **Advanced Find** on the command bar at the top.
+
+    :::image type="content" source="media/advanced-find.png" alt-text="Go to advanced find":::
+
+4. In the **Look for** list, select **Customer Voice alert**.
+
+5. In the **Select** list, select **Project**.
+
+6. Select **Enter value**, then browser and select the name of the project.
+
+7. Add the **Owner** column.
+
+    :::image type="content" source="media/advanced-find-window-alert.png" alt-text="Advanced find filter values for alerts":::
+
+8. Select **Results**. A list of all alerts associated to the project is displayed.
+
+9. Select the records whose ownership needs to be changed, and then select **Assign Customer Voice alert**.
+
+    :::image type="content" source="media/advanced-find-results-alert.png" alt-text="Advanced find result for alerts":::
+
+10. In the **Assign to Team or User** window, select the **Assign to** field to change its value to **User or team**.
+
+11. In the **User or to** field, browse and select the team to which ownership needs to be transferred.
+
+    :::image type="content" source="media/assign-window-alert.png" alt-text="Assign the selected alerts to a team":::
+
+12. Select **Assign**.
+ 
+### How to find a team?
+
+1. In the **Assign to Team or User** window, select the **Assign to** field to change its value to **User or team**.
+
+2. Hover over the **User or to** field, and select the **Select a value** icon.
+ 
+    :::image type="content" source="media/find-team.png" alt-text="Find a team":::
+
+3. In the list, select **Look Up More Records**.
+
+    :::image type="content" source="media/find-team-lookup.png" alt-text="Lookup more records":::
+
+4. In the **Lookup Record** window, enter or select the following values:
+    - **Look for**: Team
+    - **Look in**: All AAD office Group Teams
+    - **Search**: Name of the team.
+    - Select the **Search** icon next to this field.
+
+    :::image type="content" source="media/find-team-lookup-record-window.png" alt-text="Lookup Record window":::
+
+5. From the search results, select a team, and then select **Add**.
+
 ## I deleted the old surveys and survey responses, and want to update values in the satisfaction metrics report accordingly.
 
 This is an unsupported scenario. Deleting old surveys and survey responses will not update values in the satisfaction metrics report.
