@@ -93,7 +93,7 @@ Survey responses received in languages other than the ones specified above are c
 
 9. In the **Assign Customer Voice satisfaction metric** window, select the **Assign to** field to change its value to **User or team**.
 
-10. In the **User or to** field, browse and select the team to which ownership needs to be transferred.
+10. In the **User or team** field, browse and select the team to which ownership needs to be transferred.
 
     :::image type="content" source="media/assign-window-sm.png" alt-text="Assign the selected satisfaction metrics to a team":::
 
@@ -132,7 +132,7 @@ Survey responses received in languages other than the ones specified above are c
 
 10. In the **Assign to Team or User** window, select the **Assign to** field to change its value to **User or team**.
 
-11. In the **User or to** field, browse and select the team to which ownership needs to be transferred.
+11. In the **User or team** field, browse and select the team to which ownership needs to be transferred.
 
     :::image type="content" source="media/assign-window-alert.png" alt-text="Assign the selected alerts to a team":::
 
@@ -142,7 +142,7 @@ Survey responses received in languages other than the ones specified above are c
 
 1. In the **Assign to Team or User** window, select the **Assign to** field to change its value to **User or team**.
 
-2. Hover over the **User or to** field, and select the **Select a value** icon.
+2. Hover over the **User or team** field, and select the **Select a value** icon.
  
     :::image type="content" source="media/find-team.png" alt-text="Find a team":::
 
