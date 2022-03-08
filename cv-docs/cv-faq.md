@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 03/02/2022
+ms.date: 03/08/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
