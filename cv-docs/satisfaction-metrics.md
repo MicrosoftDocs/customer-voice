@@ -77,7 +77,7 @@ After you've created the satisfaction metrics you need, you can edit their detai
 
 4. Select **Save**.
 
-5. To delete a metric, hover over the metric, and then select **Delete**.
+5. To delete a metric, hover over the metric, and then select the trash can icon. If you do not see the trash can icon, it may be hidden. Hover your cursor in the space to the left of the carat used to expand/collapse the metric and click.
 
 6. In the confirmation message that appears, select **Delete** to continue with the deletion.
 
