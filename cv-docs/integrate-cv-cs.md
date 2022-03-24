@@ -34,7 +34,7 @@ You can send a survey automatically to customers as soon as a case is resolved i
 
     ![Create the flow.](media/create-flow.png "Create the flow")
 
-7.	Go to Dynamics 365 Customer Service and resolve a case. More information: [resolve a case](/customer-service/customer-service-hub-user-guide-resolve-cancel-reassign-a-case)
+7.	Go to Dynamics 365 Customer Service and resolve a case. More information: [resolve a case](/dynamics365/customer-service/customer-service-hub-user-guide-resolve-cancel-reassign-a-case)
 
 The survey is automatically sent to the contact or account linked with the case. The survey sent to the survey is visible as a record on the case's timeline.
 
