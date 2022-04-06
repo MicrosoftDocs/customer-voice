@@ -67,7 +67,6 @@ Use the **Recipient details** field to associate your survey invitation and resp
 |Regarding|The record that associates the survey invitation and response. This value is stored in the survey invitation's **Regarding** field. <br> **Note:** <ul><li>You must enter a table's logical name in this field. For example, if you want to associate the Case table, you must enter _incident_, as it is the logical name of the Case table. Similarly, if you create a custom table with its display name as _Custom Table_ and its logical name as _new\_customtable_, you must enter _new\_customtable_ in this field.</li><li>Only tables that are marked for collaboration in activities are supported. For example, the Task table is not supported. </li>|
 |Recipient details|The contact to associate your survey invitation and response records with. This value is stored in the survey invitation's **To** field.<br>**Note**: Only the Contact record is supported.|
 |The fields to send to WebMerge | To use dynamic properties for a survey, use this field to specify survey variables in JSON format. For example, `"{"locale":"<LOCALE>","orgName":"<NAME>"}"`, where <LOCALE> and <NAME> are the variable value. |
-|||
 
 > [!NOTE]
 > If you've used variables in your survey, they will be visible in this action and you can specify the values accordingly. More information: [Specify values in a flow](personalize-survey.md#specify-values-in-a-flow)
