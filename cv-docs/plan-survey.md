@@ -1,7 +1,7 @@
 ---
 title: "Plan a survey | MicrosoftDocs"
 description: "It's important to have a plan for creating your surveys. This topic explains how to plan a survey with Customer Voice."
-ms.date: 03/24/2022
+ms.date: 04/08/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
