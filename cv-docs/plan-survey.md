@@ -94,7 +94,7 @@ Dynamics 365 Customer Voice has a limit on the number of surveys you can create,
 > [!NOTE]
 > - For the **Likert** question type, each option counts as a single question.
 > - A response is defined as a response to an entire survey, and not to the individual questions within the survey. When a respondent completes a survey and submits it, it is counted as one response. For example, if a survey contains 10 questions and all of the questions are answered by five respondents, the survey will count as having five responses.
-> - 200,000 characters is the maximum allowed for total responses per survey. For example, if a survey contains five text questions, and the respondent has already reached the 200,000- character limit by the fourth question, they won't be able to provide a response for the fifth question.
+> - The maximum characters allowed for total responses per survey is 200,000. For example, if a survey contains five text questions, and the respondent has already reached the 200,000- character limit by the fourth question, they won't be able to provide a response for the fifth question.
 
 ### See also
 
