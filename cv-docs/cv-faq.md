@@ -172,6 +172,10 @@ Deleting multiple responses from the Dynamics 365 Customer Voice interface is no
 
 This is an unsupported scenario.
 
+## I migrated my Microsoft Dataverse environment from one tenant to other, but I don't see my projects when I login to Dynamics 365 Customer Voice in the new tenant.
+
+Tenant to tenant migration is not supported for Dynamics 365 Customer Voice.
+
 ## How can I share new feature requirements or ideas?
 
 You can share your new feature requirements or ideas on the [Customer Voice Ideas](https://aka.ms/customervoiceideas) page.
