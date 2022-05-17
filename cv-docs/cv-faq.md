@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 03/08/2022
+ms.date: 05/16/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -171,6 +171,10 @@ Deleting multiple responses from the Dynamics 365 Customer Voice interface is no
 ## I restored Microsoft Dataverse and want Dynamics 365 Customer Voice and survey responses to work with it.
 
 This is an unsupported scenario.
+
+## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I login to Dynamics 365 Customer Voice in the new tenant.
+
+Tenant to tenant migration is not supported for Dynamics 365 Customer Voice.
 
 ## How can I share new feature requirements or ideas?
 
