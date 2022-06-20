@@ -1,7 +1,7 @@
 ---
 title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
 description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
-ms.date: 11/09/2021
+ms.date: 20/06/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -17,7 +17,8 @@ By default, surveys are sent from the `surveys@email.customervoice.microsoft.com
 Let's say your company is Contoso Suites, and the company's website is `www.contososuites.com`. You want to create two custom email addresses based on your company's domain, such as `noreply@contososuites.com` and `support@contososuites.com`.
 
 > [!NOTE]
-> Only tenant administrators can add custom email addresses. If you want to send survey invitations from a custom email address, contact your tenant administrator to add it.
+> - Only tenant administrators can add custom email addresses. If you want to send survey invitations from a custom email address, contact your tenant administrator to add it.
+> - The capability to customize sender's email address is not available in US Government Community Cloud.
 
 ## Add custom email addresses
 
