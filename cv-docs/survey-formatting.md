@@ -1,7 +1,7 @@
 ---
 title: "Add formatting to a survey | MicrosoftDocs"
 description: "This topic explains how to add formatting to a survey and control the general look and feel of your survey."
-ms.date: 07/29/2020
+ms.date: 06/24/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -28,7 +28,7 @@ Formatting controls the general look and feel of your survey. This includes show
 
 ## Progress bar
 
-A progress bar shows your respondents the percentage of pages that they've navigated to or viewed so far. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the adjusted completion percentage. The progress bar is displayed only if there are two or more pages in the survey.
+A progress bar helps your respondents to see the number of pages that they've navigated to or viewed so far out of the total number of pages in a survey. It gives them an idea of how far they've come and how far they have to go. The progress bar takes into account all pages in the survey. If pages have been skipped due to a branching rule, the progress bar shows the skipped pages as complete. The progress bar is displayed only if there are two or more pages in the survey.
 
 By default, this setting is turned on for multiple-page surveys and the progress bar is displayed. For a single-page survey, this setting is turned off.
 
