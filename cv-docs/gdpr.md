@@ -46,7 +46,7 @@ Dynamics 365 Customer Voice has two data stores, the primary data store is on se
 
 ### Is the data stored for Dynamics 365 Customer Voice protected with Customer Lockbox?
 
-The data stored in the Power Platform environment is protected with Power Platform Customer Lockbox. For more information about Customer Lockbox, see [Securely access customer data using Customer Lockbox in Power Platform](https://docs.microsoft.com/power-platform/admin/about-lockbox).
+The data stored in the Power Platform environment is protected with Power Platform Customer Lockbox. For more information about Customer Lockbox, see [Securely access customer data using Customer Lockbox in Power Platform](/power-platform/admin/about-lockbox).
 
 ### How do I restrict access to Dynamics 365 Customer Voice?
 
