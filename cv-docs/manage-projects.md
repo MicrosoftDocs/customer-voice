@@ -199,7 +199,7 @@ A notification is displayed in the upper-right corner when the project is update
 
 ## Delete a project
 
-You can delete a project that you don't need anymore. Deleting a project removes its surveys, satisfaction metrics, email templates, survey response data, and satisfaction metrics data. The Power Automate flows associated with the surveys are deactivated. The Microsoft 365 group, created while sharing a project, is also deleted from Azure Active Directory. The deletion of a project is permanent and can't be reverted.
+You can delete a project that you don't need anymore. Deleting a project removes its surveys, satisfaction metrics, email templates, survey response data, and satisfaction metrics data. The Power Automate flows associated with the surveys are deactivated. The deletion of a project is permanent and can't be reverted.
 
 **To delete a project**
 
