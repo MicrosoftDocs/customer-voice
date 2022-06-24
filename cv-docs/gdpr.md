@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Voice GDPR compliance | MicrosoftDocs"
 description: "Use this topic to know how Dynamics 365 Customer Voice complies with General Data Protection Regulation (GDPR)."
-ms.date: 03/26/2021
+ms.date: 06/24/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -42,7 +42,11 @@ To export responses, go to the survey report, and select **Export all** in the u
 
 ### Where is the data stored for Dynamics 365 Customer Voice?
 
-Dynamics 365 Customer Voice has two data stores, the primary data store is on servers in the United States, with the exception of data for European-based tenants. The data for European-based tenants is stored on servers in Europe. The secondary data store is in the respective Microsoft Dataverse environment location. For more information about Dataverse, see [Resources to manage GDPR Compliance](/power-platform/admin/wp-compliance-data-privacy#resources-to-manage-gdpr-compliance).
+Dynamics 365 Customer Voice has two data stores, the primary data store is on servers in the United States, with the exception of data for European-based tenants. The data for European-based tenants is stored on servers in Europe. The secondary data store is in the respective Power Platform environment location. For more information about Dataverse, see [Resources to manage GDPR Compliance](/power-platform/admin/wp-compliance-data-privacy#resources-to-manage-gdpr-compliance).
+
+### Is the data stored for Dynamics 365 Customer Voice protected with Customer Lockbox?
+
+The data stored in the Power Platform environment is protected with Power Platform Customer Lockbox. For more information about Customer Lockbox, see [Securely access customer data using Customer Lockbox in Power Platform](/power-platform/admin/about-lockbox).
 
 ### How do I restrict access to Dynamics 365 Customer Voice?
 
