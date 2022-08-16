@@ -61,6 +61,9 @@ For example, for the question **How likely is it that you would recommend us to 
 
 8. Select **Add action** to add the response action.
 
+    > [!NOTE]
+    > You can create a maximum of 10 actions to be triggered when the defined condition is true.
+
 9. In the **Select action** list, choose one of the following actions:
 
     - **Show**: Select a question to be displayed based on the response to a question.
@@ -85,6 +88,9 @@ For example, for the question **How likely is it that you would recommend us to 
     ![Branching rules true action.](media/branch-true-action.png "Branching rules true action")
 
 12. Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.
+
+    > [!NOTE]
+    > You can create a maximum of 10 actions to be triggered when the defined condition is false.
 
     ![Branching rules false action.](media/branch-false-action.png "Branching rules false action")
 
