@@ -1,7 +1,7 @@
 ---
 title: "Create a branching rule for a survey | MicrosoftDocs"
 description: "Branching rules allow you to customize the flow of your survey. This topic explains how to create branching rules for a survey with Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 08/16/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -36,6 +36,9 @@ For example, for the question **How likely is it that you would recommend us to 
 
 4. In the **Primary rule condition(s)** area, select **Add condition** to add a response condition.
 
+    > [!NOTE]
+    > You can create a maximum of 10 conditions.
+
 5. In the first list, choose whether you want to create a rule on a question or a survey variable.
 
     ![Select Question or Survey variable.](media/select-ques-var.png "Select Question or Survey variable")
@@ -57,6 +60,9 @@ For example, for the question **How likely is it that you would recommend us to 
 7. Select **Add "If true"** to add the action that will be triggered when the defined condition meets the criteria.
 
 8. Select **Add action** to add the response action.
+
+    > [!NOTE]
+    > You can create a maximum of 10 actions to be triggered when the defined condition is true.
 
 9. In the **Select action** list, choose one of the following actions:
 
@@ -82,6 +88,9 @@ For example, for the question **How likely is it that you would recommend us to 
     ![Branching rules true action.](media/branch-true-action.png "Branching rules true action")
 
 12. Select **Add "If false"** to add the action that's triggered when the defined condition doesn't meet the criteria. Then follow steps 8 through 11.
+
+    > [!NOTE]
+    > You can create a maximum of 10 actions to be triggered when the defined condition is false.
 
     ![Branching rules false action.](media/branch-false-action.png "Branching rules false action")
 
