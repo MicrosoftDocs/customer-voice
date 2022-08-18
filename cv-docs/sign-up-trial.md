@@ -63,7 +63,7 @@ Your trial environment includes many of the same features as the paid version. T
 ## Additional resources
 
 - [Dynamics 365 Customer Voice free trial sign up page](https://dynamics.microsoft.com/customer-voice/survey-tools/free-trial)
-- [Explore learning paths and modules for Customer Voice](/learn/browse/?expanded=dynamics-365&products=customer-voice&resource_type=learning%20path)
+- [Explore learning paths for Customer Voice](/learn/browse/?expanded=dynamics-365&products=customer-voice&resource_type=learning%20path)
 - [Trial FAQ](trial-faq.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
