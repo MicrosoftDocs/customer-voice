@@ -1,7 +1,7 @@
 ---
 title: "Save survey progress | MicrosoftDocs"
 description: "This topic explains how to save a survey's progress and enable a user to complete a survey in multiple sittings."
-ms.date: 02/03/2021
+ms.date: 09/21/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -18,6 +18,7 @@ Paused responses are available for 28 days from the date when a respondent opens
 > - The survey progress is saved only for the surveys sent through personalized links. More information: [Work with personalized links](distribution-settings.md#work-with-personalized-links)
 > - Paused responses aren't available in Dynamics 365 Customer Voice until they're submitted. They'll be available in reports only after a respondent submits the survey.
 > - Paused responses are deleted if the survey author changes the structure of the survey after the invitation is sent, for example by adding or deleting questions, or changing their order.
+> - The capability to save a survey in progress is not available for surveys that are migrated from Microsoft Forms Pro to Dynamics 365 Customer Voice.
 
 ## Survey author experience
 
