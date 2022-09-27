@@ -34,7 +34,9 @@ If the status of an email is shown as **Failed**, hover over the status to see t
     - Cache hard bounced
     - Email blocked by suppression
     - Email failed due to unknown error
+
 - **Bounce category**: Displays the bounce category of the email. For information about email bounce categories, see [Email bounce categories](/dynamics365/marketing/email-bounce-categories).
+
 - **Bounce details**: Displays the error message as received from the destination email server.
 
 This helps you to understand the actual reason for the survey not reaching the intended recipients. This information enables you to create effective survey reports and come up with a relevant plan for scheduling reminders and follow-ups.
