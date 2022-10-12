@@ -96,6 +96,8 @@
     href: satisfaction-metrics-report.md
   - name: View survey response report
     href: survey-report.md
+  - name: View email delivery status
+    href: view-email-status.md
 
 - name: Connect Customer Voice with your environment
   href: connect-environment.md
