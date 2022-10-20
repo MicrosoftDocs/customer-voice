@@ -10,11 +10,11 @@ manager: shujoshi
 
 # View email delivery status
 
-A survey invitation record is created for each survey email you send either through the built-in email editor or with Power Automate. You can view the invitations that are associated with a survey on the **Send** tab. The [survey invitations report](view-survey-invite.md) shows statistics and details about the invitations, including:
+Power Automate and the built-in email editor create a survey invitation record for each survey email you send. You can view the invitations that are associated with a survey on the **Send** tab. The [survey invitations report](view-survey-invite.md) shows statistics and details about the invitations, including:
 
-- **Recipient**: The name and email address of the recipient
-- **Status**: The status of the invitation email, either queued, failed, or sent
-- **Created on**: The date on which the invitation was sent
+- **Recipient**: The name and email address of the recipient.
+- **Status**: The status of the invitation email, either queued, failed, or sent.
+- **Created on**: The date on which the invitation was sent.
 
 If the status of an invitation email is **Failed**, hover over the status to view the following information:
 
@@ -34,15 +34,15 @@ If the status of an invitation email is **Failed**, hover over the status to vie
   - Email blocked by suppression
   - Email failed due to unknown error
 
-- **Bounce category**: The email's [bounce category](/dynamics365/marketing/email-bounce-categories)
+- **Bounce category**: The email's [bounce category](/dynamics365/marketing/email-bounce-categories).
 
-- **Bounce details**: The error message received from the destination email server
+- **Bounce details**: The error message received from the destination email server.
 
-In the following example, the survey invitation failed because the mailbox isn't accepting email:
+In the following example, the survey invitation failed because the mailbox isn't accepting the email:
 
 :::image type="content" source="media/email-status.png" alt-text="Screenshot of the survey invitations report, showing that an invitation failed because the mailbox is inactive.":::
 
-This information helps you to understand the reason the survey didn't reach the intended recipients. With it, you can create effective survey reports and schedule reminders and follow-ups.
+This information helps you to understand the reason the survey didn't reach the intended recipients. You can use this information to create effective survey reports and schedule reminders, and follow-ups.
 
 ### See also
 
