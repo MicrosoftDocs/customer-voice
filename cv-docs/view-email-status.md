@@ -1,7 +1,7 @@
 ---
 title: Email delivery status
 description: Learn how to view the survey email delivery status and understand the reason if the delivery failed.
-ms.date: 10/19/2022
+ms.date: 10/28/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # View email delivery status
 
-Power Automate and the built-in email editor create a survey invitation record for each survey email you send. You can view the invitations that are associated with a survey on the **Send** tab. The [survey invitations report](view-survey-invite.md) shows statistics and details about the invitations, including:
+A survey invitation record is created for each survey email that's sent, either through built-in email editor or with Power Automate. You can view the invitations that are associated with a survey on the **Send** tab. The [survey invitations report](view-survey-invite.md) shows statistics and details about the invitations, including:
 
 - **Recipient**: The name and email address of the recipient.
 - **Status**: The status of the invitation email, either queued, failed, or sent.
