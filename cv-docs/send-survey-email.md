@@ -96,7 +96,7 @@ After the CSV template is downloaded, enter the required information in the foll
 - **Email address**: Email address of the recipient.
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
-- **locale**: Language in which the survey needs to be displayed. This does not change the language of the first question embedded survey in the email. When the survey is opened by clicking its link, it is displayed in the language specified in the locale column.
+- **locale**: Language in which the survey needs to be displayed. When the survey is opened by clicking its link, it is displayed in the language specified in the locale column. This does not change the language of the first question embedded survey in the email.
 - **RegardingID**: ID of the entity record (GUID) to associate with the survey invitation and response.
 - **RegardingEntityName**: Logical name of the entity to associate with the survey invitation and response.
 
