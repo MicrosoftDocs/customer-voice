@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "This topic explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
-ms.date: 09/28/2021
+ms.date: 09/30/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -97,8 +97,8 @@ After the CSV template is downloaded, enter the required information in the foll
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
 - **locale**: Language in which the survey needs to be displayed while embedding it in the email.
-- **RegardingID**: ID of the entity to associate with the survey invitation and response.
-- **RegardingEntityName**: Name of the entity to associate with the survey invitation and response.
+- **RegardingID**: ID of the entity record (GUID) to associate with the survey invitation and response.
+- **RegardingEntityName**: Logical name of the entity to associate with the survey invitation and response.
 
 If you've added variables to your survey, they’ll be available as separate columns in the CSV file. You can specify the values as per your requirement. 
 
