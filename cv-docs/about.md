@@ -33,7 +33,6 @@ The dependency services used by Dynamics 365 Customer Voice are available on US 
 
 ### See also
 
-[Sign up for the Dynamics 365 Customer Voice trial](sign-up-trial.md)<br>
 [Transition from Microsoft Forms Pro to Dynamics 365 Customer Voice](forms-pro-transition.md)
 
 
