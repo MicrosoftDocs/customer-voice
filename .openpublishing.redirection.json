@@ -279,6 +279,16 @@
       "source_path": "cv-docs/custom-footer-thank-you.md",
       "redirect_url": "custom-footer",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "cv-docs/sign-up-trial.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "cv-docs/trial-faq.md",
+      "redirect_url": "help-hub",
+      "redirect_document_id": false
     }
   ]
 }
