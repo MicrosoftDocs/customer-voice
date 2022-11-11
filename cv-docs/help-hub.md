@@ -18,7 +18,6 @@ manager: shujoshi
 <h2>Get started</h2>
 
 <li><a href="about.md" data-raw-source="[About Customer Voice](about.md)">About Customer Voice</a></li>
-<li><a href="sign-up-trial.md" data-raw-source="[Sign up for the trial](sign-up-trial.md)">Sign up for the trial</a></li>
 <li><a href="forms-pro-transition.md" data-raw-source="[Transition from Forms Pro](forms-pro-transition.md)">Transition from Forms Pro</a></li>
 </td>
 
