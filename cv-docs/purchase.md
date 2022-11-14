@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "This topic explains how to purchase Dynamics 365 Customer Voice licenses and additional survey responses."
-ms.date: 03/09/2021
+ms.date: 11/11/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -164,8 +164,6 @@ For an organization in GCC without a Dynamics 365 enterprise license, you must f
 
 To purchase Dynamics 365 Customer Voice for customers in GCC, you must work with the Microsoft account team or a qualified partner to place an order.
 
-> [!NOTE]
-> Dynamics 365 Customer Voice is not available for trial in GCC.
 
 ### See also
 
