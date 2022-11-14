@@ -1,7 +1,7 @@
 ---
 title: "Help resources for Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "This topic serves as a starting point for browsing the help content for Dynamics 365 Customer Voice."
-ms.date: 07/29/2020
+ms.date: 11/11/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -18,7 +18,6 @@ manager: shujoshi
 <h2>Get started</h2>
 
 <li><a href="about.md" data-raw-source="[About Customer Voice](about.md)">About Customer Voice</a></li>
-<li><a href="sign-up-trial.md" data-raw-source="[Sign up for the trial](sign-up-trial.md)">Sign up for the trial</a></li>
 <li><a href="forms-pro-transition.md" data-raw-source="[Transition from Forms Pro](forms-pro-transition.md)">Transition from Forms Pro</a></li>
 </td>
 
