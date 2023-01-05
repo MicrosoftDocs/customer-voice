@@ -178,7 +178,7 @@ Tenant to tenant migration is not supported for Dynamics 365 Customer Voice.
 
 ## Should I use Microsoft Forms connector for Customer Voice surveys in Power Automate flow?
 
-It is not recommended to use [Microsoft forms connector](https://learn.microsoft.com/connectors/microsoftforms/) for Customer Voice surveys. The flow might not run properly. You must only use [Customer Voice connectors](https://learn.microsoft.com/connectors/microsoftformspro/) and [Dataverse connectors](https://learn.microsoft.com/power-automate/dataverse/overview) while creating flows for Customer Voice surveys.
+It is not recommended to use [Microsoft forms connector](/connectors/microsoftforms/) for Customer Voice surveys. The flow might not run properly. You must only use [Customer Voice connectors](/connectors/microsoftformspro/) and [Dataverse connectors](/power-automate/dataverse/overview) while creating flows for Customer Voice surveys.
 
 ## How can I share new feature requirements or ideas?
 
