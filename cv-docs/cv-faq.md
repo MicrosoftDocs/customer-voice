@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 05/16/2022
+ms.date: 01/05/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -175,6 +175,10 @@ This is an unsupported scenario.
 ## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I login to Dynamics 365 Customer Voice in the new tenant.
 
 Tenant to tenant migration is not supported for Dynamics 365 Customer Voice.
+
+## Should I use Microsoft Forms connector for Customer Voice surveys in Power Automate flow?
+
+It is not recommended to use [Microsoft forms connector](/connectors/microsoftforms/) for Customer Voice surveys. The flow might not run properly. You must only use [Customer Voice connectors](/connectors/microsoftformspro/) and [Dataverse connectors](/power-automate/dataverse/overview) while creating flows for Customer Voice surveys.
 
 ## How can I share new feature requirements or ideas?
 
