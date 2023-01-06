@@ -16,7 +16,7 @@ Let's say your company is Contoso Suites, and the company's website is `www.cont
 
 > [!NOTE]
 > - Only tenant administrators can add custom email addresses. If you want to send survey invitations from a custom email address, contact your tenant administrator to add it.
-> - In US Government Community Cloud, emails are sent from the logged-in user's account.
+> - In US Government Community Cloud, emails are sent from the logged in user's account.
 > - The capability to customize sender's email address is not available in US Government Community Cloud.
 
 ## Add custom email addresses
