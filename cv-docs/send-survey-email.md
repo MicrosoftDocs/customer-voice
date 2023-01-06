@@ -13,7 +13,7 @@ manager: shujoshi
 Dynamics 365 Customer Voice provides an easy way to send your survey to multiple people through email. By using the built-in email composer, you can send customized email invitations to your recipients and track their status.
 
 > [!NOTE]
->  In US Government Community Cloud, emails are sent from logged-in user's account.
+>  In US Government Community Cloud, emails are sent from the logged-in user's account.
 
 **To send a survey by using email**
 

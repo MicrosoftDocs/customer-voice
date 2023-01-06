@@ -19,7 +19,7 @@ After creating a survey, you can send it to respondents based on a business trig
 - **Send a survey when a work order is completed or closed in Dynamics 365**: This template sends a survey when a work order is completed or closed in Dynamics 365.
  
 > [!NOTE]
-> In US Government Community Cloud, emails are sent from logged-in user's account.
+> In US Government Community Cloud, emails are sent from the logged-in user's account.
 
 **To send a survey by using Power Automate**
 
