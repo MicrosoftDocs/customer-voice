@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using Power Automate | MicrosoftDocs"
 description: "You can send a survey to respondents based on a business trigger such as resolution of a case. This topic explains how to send a survey by using Power Automate."
-ms.date: 10/19/2021
+ms.date: 01/06/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -10,8 +10,6 @@ manager: shujoshi
 
 # Send a survey by using Power Automate
 
-
-
 After creating a survey, you can send it to respondents based on a business trigger&#8212;resolution of a case or fulfillment of an order, for example. You can either select a built-in template or create a flow from scratch by using Power Automate. The following Power Automate templates are available out of the box in Dynamics 365 Customer Voice:
 
 - **Send a survey when a case is resolved in Dynamics 365**: This template sends a survey when a case is resolved in Dynamics 365.
@@ -19,6 +17,9 @@ After creating a survey, you can send it to respondents based on a business trig
 - **Send a survey when an order is fulfilled in Dynamics 365**: This template sends a survey when an order is fulfilled in Dynamics 365.
 - **Send a survey on Power Apps button click**: This template sends a survey to the specified list of recipients when a button is selected in Power Apps.
 - **Send a survey when a work order is completed or closed in Dynamics 365**: This template sends a survey when a work order is completed or closed in Dynamics 365.
+ 
+> [!NOTE]
+> In US Government Community Cloud, emails are sent from logged-in user's account.
 
 **To send a survey by using Power Automate**
 
