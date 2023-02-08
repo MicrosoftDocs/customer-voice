@@ -180,9 +180,9 @@ Tenant to tenant migration is not supported for Dynamics 365 Customer Voice.
 
 It is not recommended to use [Microsoft forms connector](/connectors/microsoftforms/) for Customer Voice surveys. The flow might not run properly. You must only use [Customer Voice connectors](/connectors/microsoftformspro/) and [Dataverse connectors](/power-automate/dataverse/overview) while creating flows for Customer Voice surveys.
 
-## I added unicode while designing a survey but it is not rendered properly.
+## I added unicode character while designing a survey but it is not rendered properly.
 
-Manually adding unicode is not supported in Dynamics 365 Customer Voice. For example, if you add unicode in a question and survey title, it will not be rendered properly.
+Manually adding unicode character is not supported in Dynamics 365 Customer Voice. For example, if you add unicode character in a question and survey title, it will not be rendered properly.
 
 ## How can I share new feature requirements or ideas?
 
