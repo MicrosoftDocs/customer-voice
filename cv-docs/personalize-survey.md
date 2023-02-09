@@ -110,7 +110,7 @@ You can specify values for the variables when importing contacts from a CSV file
 
 Consider the following scenario.
 
-Grace is a product manager at Contoso Ltd. and she collects quarterly feedback from customers. She uses a CSV file containing customers’ names, the product they use, and the product version. Grace has created variables for product and its version and used them in the survey and the email. She can specify the values for the variables as per the customers in the CSV file. When she sends the invitation email, the survey and email are personalized as per the recipient.
+A product manager at Contoso Ltd. collects quarterly feedback from customers. The manager uses a CSV file containing customers’ names, the product the customer uses, and the product version. The manager has created variables for product and its version and used them in the survey and the email. They can specify the values for the variables as per the customers in the CSV file. When the manager sends the invitation email, the survey and email are personalized as per the recipient.
 
 For information on how to import contacts from a CSV file, see [Import contacts from a CSV file](send-survey-email.md#import-contacts-from-a-csv-file).
 
