@@ -18,7 +18,7 @@ The in-app functionality in Dynamics 365 Customer Voice enables to [discover](#d
 
 ## Discover
 
-Licensed users of Dynamics 365 Customer Voice must sign in to https://customervoice.microsoft.com and select **All Projects** to see the list of all projects that they have created or have collaborated with other users within the tenant. To determine whether Dynamics 365 Customer Voice has personal data for the Data Subject Request (DSR), you can ask the Data Subject to search his list to determine which users ("Customer Voice Project Owners") have sent the survey to the Data Subject. You can then ask the project owners to share the response page link so that you can view it and further determine whether it is relevant to your DSR.
+Licensed users of Dynamics 365 Customer Voice must sign in to https://customervoice.microsoft.com and select **All Projects** to see the list of all projects that they have created or have collaborated with other users within the tenant. To determine whether Dynamics 365 Customer Voice has personal data for the Data Subject Request (DSR), you can ask the Data Subject to search their list to determine which users ("Customer Voice Project Owners") have sent the survey to the Data Subject. You can then ask the project owners to share the response page link so that you can view it and further determine whether it is relevant to your DSR.
 
 ## Access
 
