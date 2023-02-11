@@ -28,9 +28,9 @@ By default, this feature is turned off and a survey in progress isn't saved. As 
 
 You've sent a product feedback survey through a personalized link to your customer named Henry. The survey contains four questions. Let's understand Henry's experience through the following scenarios:
 
-**Scenario 1**: Henry opens the survey in his computer's web browser, answers the first two questions, and then closes the survey without submitting it. A few days later, he opens the survey on his mobile device. The survey starts from where he left off. Henry modifies his response to the earlier questions, answers the remaining questions, and then submits the survey. Responses are sent to Dynamics 365 Customer Voice.
+**Scenario 1**: Henry opens the survey in a computer's web browser, answers the first two questions, and then closes the survey without submitting it. A few days later, Henry opens the survey on a mobile device. The survey starts from where Henry left off. Henry modifies the response to the earlier questions, answers the remaining questions, and then submits the survey. Responses are sent to Dynamics 365 Customer Voice.
 
-**Scenario 2**: Henry opens the survey, answers all the questions, and then submits the survey. He reopens the survey from the invitation link. One of the following occurs:
+**Scenario 2**: Henry opens the survey, answers all the questions, and then submits the survey. Henry reopens the survey from the invitation link. One of the following occurs:
 
 - If **One response per person** is turned off, Henry can submit another response for the same survey.
 - If **One response per person** is turned on, Henry sees a message that a response has already been submitted.
