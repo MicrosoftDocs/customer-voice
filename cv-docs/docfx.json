@@ -58,6 +58,9 @@
       "searchScope": [
         "Customer Voice"
       ],
+      "search.app": [
+        "customervoice-docs"
+      ],
       "recommendations": "true"
     },
     "fileMetadata": {
