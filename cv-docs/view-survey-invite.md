@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 10/12/2021
+ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -59,6 +59,9 @@ For example, the following image shows details for the failed invitations.
 ## Filter invitation details
 
 You can filter data in the invitation report by using the **Recent invites** filter. Select **Last month**, **Last 3 months**, or select **Custom** and create the range of months that you're interested in.
+
+> [!NOTE]
+> The invites are stored in UTC time. When you select a filter, the invites are filtered based on the UTC time. Hence, you might see a difference in the number of invites displayed as per your time zone.
 
 ![Screenshot of the Recent invites filter.](media/filter-invite.png "Filter invitation details")
 
