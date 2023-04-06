@@ -5,7 +5,6 @@ ms.date: 09/10/2020
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Administrator settings for Dynamics 365 Customer Voice

@@ -5,7 +5,6 @@ ms.date: 02/12/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Send a survey from Dynamics 365

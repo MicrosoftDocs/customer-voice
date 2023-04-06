@@ -5,7 +5,6 @@ ms.date: 07/15/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Manage surveys

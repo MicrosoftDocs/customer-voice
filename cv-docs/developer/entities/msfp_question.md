@@ -5,7 +5,6 @@ ms.date: 07/29/2020
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"
-manager: "shujoshi"
 ---
 # msfp_question Entity Reference
 

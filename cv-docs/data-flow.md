@@ -5,7 +5,6 @@ ms.date: 07/29/2020
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Data flow in Dynamics 365 Customer Voice

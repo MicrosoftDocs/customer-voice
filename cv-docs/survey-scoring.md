@@ -5,7 +5,6 @@ ms.date: 09/28/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Survey scoring

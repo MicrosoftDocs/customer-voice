@@ -5,7 +5,6 @@ ms.date: 05/11/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Send a survey link to others
