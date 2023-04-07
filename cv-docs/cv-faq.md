@@ -5,7 +5,6 @@ ms.date: 02/08/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Dynamics 365 Customer Voice FAQ

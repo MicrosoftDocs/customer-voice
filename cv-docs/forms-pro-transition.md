@@ -5,7 +5,6 @@ ms.date: 10/30/2020
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Transition from Microsoft Forms Pro to Dynamics 365 Customer Voice

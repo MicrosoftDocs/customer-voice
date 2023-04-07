@@ -5,7 +5,6 @@ ms.date: 05/06/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # View a satisfaction metrics report

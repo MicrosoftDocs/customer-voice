@@ -5,13 +5,8 @@ ms.date: 10/12/2021
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"
-manager: "shujoshi"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
-search.appverid: FPR160
 ---
 
 # Entity Reference for Dynamics 365 Customer Voice

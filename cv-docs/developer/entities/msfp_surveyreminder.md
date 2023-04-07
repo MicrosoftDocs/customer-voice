@@ -5,7 +5,6 @@ ms.date: 10/01/2021
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"
-manager: "shujoshi"
 ---
 
 # msfp_surveyreminder entity reference

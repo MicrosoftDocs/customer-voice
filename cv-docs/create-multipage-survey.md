@@ -5,7 +5,6 @@ ms.date: 07/29/2020
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Create a multiple-page survey

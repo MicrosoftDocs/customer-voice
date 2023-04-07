@@ -5,7 +5,6 @@ ms.date: 04/28/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Connect Dynamics 365 Customer Voice with your environment

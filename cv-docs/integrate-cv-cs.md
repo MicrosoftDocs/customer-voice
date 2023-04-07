@@ -5,7 +5,6 @@ ms.date: 05/04/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Integrate Dynamics 365 Customer Voice with Dynamics 365 Customer Service

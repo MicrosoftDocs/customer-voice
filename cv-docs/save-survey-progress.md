@@ -5,7 +5,6 @@ ms.date: 09/21/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Save a survey in progress

@@ -5,7 +5,6 @@ ms.date: 11/11/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Help resources for Dynamics 365 Customer Voice

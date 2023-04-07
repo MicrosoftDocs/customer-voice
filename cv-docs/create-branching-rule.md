@@ -5,7 +5,6 @@ ms.date: 08/16/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Create a branching rule

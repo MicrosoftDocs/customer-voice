@@ -5,7 +5,6 @@ ms.date: 01/06/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Customize the sender's email address
