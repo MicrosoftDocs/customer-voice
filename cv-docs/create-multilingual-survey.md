@@ -5,7 +5,6 @@ ms.date: 08/25/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Create a multilingual survey

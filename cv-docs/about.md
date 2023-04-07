@@ -6,7 +6,6 @@ ms.topic: overview
 
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Overview of Dynamics 365 Customer Voice

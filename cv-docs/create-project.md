@@ -5,7 +5,6 @@ ms.date: 12/03/2020
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Create a project

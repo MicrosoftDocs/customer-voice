@@ -5,7 +5,6 @@ ms.date: 01/29/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Customize the post-survey message

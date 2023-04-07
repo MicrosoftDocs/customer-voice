@@ -5,7 +5,6 @@ ms.date: 10/18/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Work with alerts

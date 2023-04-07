@@ -5,7 +5,6 @@ ms.date: 10/28/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # View email delivery status

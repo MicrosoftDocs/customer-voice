@@ -5,7 +5,6 @@ ms.date: 06/24/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Dynamics 365 Customer Voice GDPR compliance

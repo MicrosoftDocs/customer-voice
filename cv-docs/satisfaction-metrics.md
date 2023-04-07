@@ -5,7 +5,6 @@ ms.date: 03/02/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
-manager: shujoshi
 ---
 
 # Add and configure satisfaction metrics
