@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "This topic explains how to create a generic survey link and custom survey links by using variables and share the survey with your customers."
-ms.date: 05/11/2021
+ms.date: 04/10/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -16,6 +16,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 > [!NOTE]
 > - The survey link generated is a non-personalized link. If the **Only people in my organization can respond** setting is turned off in [distribution settings](distribution-settings.md), you won't be able to record the respondent's name or determine whether the respondent has submitted only one response. More information: [Work with personalized links](distribution-settings.md#work-with-personalized-links)
 > - If you've personalized your survey by using variables, they won't be replaced with their values and the variable names will be displayed as they are.
+> - You can create a maximum of 10000 custom links.
 
 ## Create a generic link
 
