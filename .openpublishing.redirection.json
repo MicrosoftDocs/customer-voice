@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "cv-docs/gdpr.md",
+      "redirect_url": "privacy",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "fp-docs/administer.md",
       "redirect_url": "get-started",
       "redirect_document_id": "false"
