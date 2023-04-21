@@ -3,7 +3,7 @@
 
 - name: Get started with Customer Voice
   items:
-  - name: Overview  
+  - name: Overview
     href: about.md
   - name: Transition from Forms Pro
     href: forms-pro-transition.md
@@ -45,7 +45,7 @@
   - name: Format a survey
     href: survey-formatting.md
   - name: Customize survey header
-    href: custom-header.md 
+    href: custom-header.md
   - name: Customize footer text
     href: custom-footer.md
   - name: Customize post-survey message
@@ -101,12 +101,12 @@
 - name: Data flow in Customer Voice
   href: data-flow.md
 
-- name: Dynamics 365 Customer Voice GDPR compliance
-  href: gdpr.md
+- name: Dynamics 365 Customer Voice privacy compliance
+  href: privacy.md
 
 - name: Integrate Customer Voice with Customer Service
   href: integrate-cv-cs.md
-  
+
 - name: Cookies in Dynamics 365 Customer Voice
   href: cookies.md
 
@@ -145,7 +145,3 @@
       href: developer/entities/msfp_surveyresponse.md
     - name: msfp_unsubscribedrecipient
       href: developer/entities/msfp_unsubscribedrecipient.md
-
-
-
-
