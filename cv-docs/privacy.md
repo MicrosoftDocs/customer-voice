@@ -9,11 +9,11 @@ ms.author: shjais
 
 # Dynamics 365 Customer Voice privacy compliance
 
-[!INCLUDE [gdpr-intro](~/../msft-shared-content/privacy-includes/gdpr-intro.md)]
+[!INCLUDE [gdpr-intro](~/../shared-content/shared/privacy-includes/gdpr-intro.md)]
 
 Dynamics 365 Customer Voice includes features to [discover](#discover), [access](#access), [export](#export), and [delete](#delete) a user's personal data.
 
-[!INCLUDE [gdpr-dsr-delete-export-note](~/../msft-shared-content/privacy-includes/gdpr-dsr-delete-export-note.md)]
+[!INCLUDE [gdpr-dsr-delete-export-note](~/../shared-content/shared/privacy-includes/gdpr-dsr-delete-export-note.md)]
 
 ## Discover
 
