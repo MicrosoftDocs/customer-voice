@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 03/31/2023
+ms.date: 05/23/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -28,6 +28,9 @@ The following survey invitation statistics are displayed in the upper part of th
     - **Read**: The survey invitation email was read or opened.
 
     - **Opened**: The survey was opened, but hasn't been completed yet.
+    
+    > [!NOTE]
+    > When an email is sent, the recipient's mailbox server might have security policies due to which the email is scanned before it's delivered to the recipient's inbox. This might result in the email being marked as **Read** or **Opened** even if the recipient hasn't opened the email.
 
 - **Not sent**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
 

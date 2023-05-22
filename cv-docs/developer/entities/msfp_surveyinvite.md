@@ -1,7 +1,7 @@
 ---
 title: "msfp_surveyinvite Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyinvite entity."
-ms.date: 07/29/2020
+ms.date: 05/23/2023
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"
@@ -558,17 +558,17 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### msfp_invitestatus Options
 
-|Value|Label|
-|-----|-----|
-|647390000|Queued|
-|647390001|UnSubscribed|
-|647390002|Sent|
-|647390003|Responded|
-|647390004|Failed|
-|647390005|Created|
-|647390006|Read|
-|647390007|Started|
-|647390008|Delayed|
+|Value|Label|Description|
+|-----|-----|-----------|
+|647390000|Queued|Email is initiated but not yet sent.|
+|647390001|UnSubscribed|Recipient has unsubscribed from Customer Voice invites.|
+|647390002|Sent|Email is sent to recipient.|
+|647390003|Responded|Recipient has responded to the survey.|
+|647390004|Failed|Email failed to send.|
+|647390005|Created|Survey invite is created.|
+|647390006|Read|Recipient has either read or opened the survey invitation email.|
+|647390007|Started|Recipient has opened the survey but not yet submitted the responses.|
+
 
 
 
