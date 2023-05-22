@@ -117,6 +117,8 @@ The available setting is:
 
 You can select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list. More information: [Customize the sender's email address](customize-sender-email.md)
 
+:::image type="content" source="../cv-docs/media/custom-email.png" alt-text="Select a custom email.":::
+
 ## Notifications
 
 You can set response notification options for the sender in addition to the respondent.
