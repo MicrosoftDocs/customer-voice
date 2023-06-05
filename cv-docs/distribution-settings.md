@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "This topic explains how to use survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey."
-ms.date: 05/06/2021
+ms.date: 05/23/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -116,6 +116,8 @@ The available setting is:
 ## Email
 
 You can select the custom email address that you want to use for sending email. After you've set up a custom email, select it from the **Sender** list. More information: [Customize the sender's email address](customize-sender-email.md)
+
+:::image type="content" source="../cv-docs/media/custom-email.png" alt-text="Select a custom email.":::
 
 ## Notifications
 
