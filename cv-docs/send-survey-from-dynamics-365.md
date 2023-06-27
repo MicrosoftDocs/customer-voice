@@ -17,7 +17,7 @@ ms.author: shjais
 
 - Users must at least have the **Survey Sender** role to send the survey through Dynamics 365 apps.
 
-You can send a survey to your customer from within the customer engagement application's interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenarios:
+You can send a survey to your customer from within the customer engagement application's interface. This helps you to send a survey at the right time in the customer's journey. Let's consider the following scenario:
 
 As a sales representative, you don't have access to surveys in Dynamics 365 Customer Voice. With this capability, you can send the survey from a customer engagement application without requiring access to Dynamics 365 Customer Voice.
 
