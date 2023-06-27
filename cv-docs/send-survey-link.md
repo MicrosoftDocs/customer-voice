@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "This topic explains how to create a generic survey link and custom survey links by using variables and share the survey with your customers."
-ms.date: 04/10/2023
+ms.date: 06/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -57,6 +57,9 @@ You can create a generic survey link or custom survey links. A generic survey li
 4. In the **Create link** panel, select variables to create custom links.
 
 5. Under **Add values for each variable**, add values to each of the selected variables.
+
+    > [!NOTE]
+    > You must avoid the following special characters while adding values for variables: #, %, &, \, ', and <.
 
 6. To add more values, select **Add more values**.
 
