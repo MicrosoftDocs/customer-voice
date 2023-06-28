@@ -50,7 +50,7 @@ By default, the following variables are available:
 > - Don't use variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
 > - Variables are replaced with the specified default values when sending a survey invitation.
 > - You can define a maximum of 15 variables in a survey.
-> - The maximum lenght of a personalized variable data (including variable name and value) is 1600 characters.
+> - The maximum length of a personalized variable data (including variable name and value) is 1600 characters.
 
 ## Add variables in a survey
 
