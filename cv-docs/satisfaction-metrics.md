@@ -23,7 +23,8 @@ Dynamics 365 Customer Voice includes support for adding the following standardiz
 - **Sentiment**: Sentiment is a metric used to identify customer sentiment toward a product or a service. Sentiment groups the responses to a text-based question as positive, negative, or neutral. 
 
     > [!NOTE]
-    > Only a limited number of languages are supported for sentiment analysis. To know about the supported languages, see [What languages are supported for sentiment analysis?](cv-faq.md#what-languages-are-supported-for-sentiment-analysis).
+    > - Only a limited number of languages are supported for sentiment analysis. To know about the supported languages, see [What languages are supported for sentiment analysis?](cv-faq.md#what-languages-are-supported-for-sentiment-analysis).
+    > - To learn about responsible AI use, see [Transparency note for Sentiment Analysis](/legal/cognitive-services/language-service/transparency-note-sentiment-analysis).
 
 - **Customer Satisfaction (CSAT)**: CSAT is a metric used to measure the level of satisfaction customers have with a product or a service. CSAT is measured by responses to rating-type questions. The CSAT score is calculated on a scale of 1 to 5. If you create a question on a scale other than 1 to 5, the CSAT score is normalized as per the 1 to 5 scale. This helps in comparing various CSAT scores.
 
