@@ -1,7 +1,7 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
 description: "You can personalize a survey by automatically inserting custom information in it. This topic explains how to personalize a survey by using variables."
-ms.date: 01/15/2021
+ms.date: 06/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -50,6 +50,7 @@ By default, the following variables are available:
 > - Don't use variables if you plan to send a survey anonymously. The variables won't be replaced with actual data in an anonymous survey.
 > - Variables are replaced with the specified default values when sending a survey invitation.
 > - You can define a maximum of 15 variables in a survey.
+> - The maximum length of personalized variable data (including variable name and value) is 1600 characters.
 
 ## Add variables in a survey
 
