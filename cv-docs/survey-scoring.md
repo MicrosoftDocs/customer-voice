@@ -1,7 +1,7 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Survey scoring allows you to assign a point value to individual answer options. This topic explains how to add scoring to a survey."
-ms.date: 09/28/2021
+ms.date: 08/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -44,6 +44,8 @@ A survey's score is calculated with the help of the following components:
   By default, the point values are assigned in the ascending order of the answer options.
 
 The score of a question response is calculated by multiplying weight with the normalized point value. All the question response scores are added to generate a survey-level score.
+
+For information on how a survey score is calculated, see [Survey score calculation](#survey-score-calculation).
 
 Dynamics 365 Customer Voice allows you to apply survey scoring logic to the following question types:
 
@@ -131,7 +133,7 @@ Let's understand the survey score calculation with the help of following example
 
 You've created a survey containing one rating question with 10 stars. A user has responded to the survey with 4 stars. The custom score configuration is as follows:
 
-`image`
+:::image type="content" source="media/custom-score-example1.png" alt-text="Custom score example with one question.":::
 
 From the above configuration and the response of the user, values of the components are as follows:
 
@@ -152,7 +154,7 @@ Therefore, score of the survey is 33.3.
 
 You've created a survey containing one rating question with 5 stars and one single-choice question with 5 options. A user has responded to the survey with 4 stars and option 2. The custom score configuration is as follows: 
 
-`image`
+:::image type="content" source="media/custom-score-example2.png" alt-text="Custom score example with two questions.":::
 
 From the above configuration and the response of the user, values of the components are as follows:
 
@@ -170,14 +172,14 @@ From the above configuration and the response of the user, values of the compone
 - MinValue = 1
 - MaxValue = 2
 
-Scores of the question responses is calculated as follows:
+Scores of the question responses are calculated as follows:
 
-Question 1: Rating question
+**Question 1: Rating question**
 
 - Normalized value = ((4 – 1)*100) / (5 – 1) = 75
 - Question score (q1) = 75 * 4 = 300
 
-Question 2: Single choice question
+**Question 2: Single choice question**
 
 - Normalized value = ((2 – 1)*100) / (2 – 1) = 100
 - Question score (q2) = 100 * 3 = 300

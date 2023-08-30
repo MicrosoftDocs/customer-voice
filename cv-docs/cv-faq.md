@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 08/24/2023
+ms.date: 08/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -185,7 +185,7 @@ Manually adding unicode character is not supported in Dynamics 365 Customer Voic
 
 ## Why projects are not visible while creating a flow in Power Automate?
 
-If you've created projects in Dynamics 365 Customer Voice and shared all the projects with other users, the projects will not be visible while creating a flow in Power Automate. You must create at least one project that is not shared with other users. After the new project is created, all the projects (user owned and shared) will be visible while creating a flow in Power Automate. It takes up to 24 hours for the projects to be visible in Power Automate.
+If you've created projects in Dynamics 365 Customer Voice and shared all the projects with other users, the projects will not be visible while creating a flow in Power Automate. You must create at least one project that is not shared with other users. After the new project is created, all the projects (user owned and shared) will be visible while creating a flow in Power Automate. It takes 5 minutes for the projects to be visible in Power Automate.
 
 ## How can I share new feature requirements or ideas?
 
