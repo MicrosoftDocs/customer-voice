@@ -1,7 +1,7 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Survey scoring allows you to assign a point value to individual answer options. This topic explains how to add scoring to a survey."
-ms.date: 09/28/2021
+ms.date: 08/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -44,6 +44,8 @@ A survey's score is calculated with the help of the following components:
   By default, the point values are assigned in the ascending order of the answer options.
 
 The score of a question response is calculated by multiplying weight with the normalized point value. All the question response scores are added to generate a survey-level score.
+
+For information on how a survey score is calculated, see [Survey score calculation](#survey-score-calculation).
 
 Dynamics 365 Customer Voice allows you to apply survey scoring logic to the following question types:
 
@@ -108,6 +110,88 @@ After you've created a **Custom Score** satisfaction metric, you can edit its de
 6. Select the back arrow at the upper left of the **Edit Score** panel.
 
 7. In the **Satisfaction metrics** panel, select **Save**.
+
+## Survey score calculation
+
+The score of a survey is calculated with the help of following components: base score, weight, and point values. Using these components, the score of a question response is calculated as follows:
+
+1. Normalized point value is calculated as follows: `Normalized value = ((ResponseValue - MinValue.) * 100) / (Max value – Min Value)`
+
+    where
+    - `ResponseValue` is the point value of the response received for the question
+    - `Min Value` is the minimum point value of the question and 
+    - `Max Value` is the maximum point value of the question
+
+
+1. Using the normalized point value, score of a question response is calculated as follows: `Question score = Normalized value * Weight of the question`
+
+1. Using the `Normalized value` and `Question score`, final value of custom score is calculated as follows: `Final value = (Sum of question scores) / (Sum of weights assigned to questions)`
+
+Let's understand the survey score calculation with the help of following examples:
+
+### Example 1
+
+You've created a survey containing one rating question with 10 stars. A user has responded to the survey with 4 stars. The custom score configuration is as follows:
+
+:::image type="content" source="media/custom-score-example1.png" alt-text="Custom score example with one question.":::
+
+From the above configuration and the response of the user, values of the components are as follows:
+
+- Weight = 4
+- Response value = 4
+- MinValue = 1
+- MaxValue = 10
+
+The score of the question response is calculated as follows:
+
+- Normalized value = ((4 – 1)*100) / (10 – 1) = 33.3
+- Question score = 33.3 * 4 = 133.3
+- Final value = 133.3 / 4 = 33.3
+
+Therefore, score of the survey is 33.3.
+
+:::image type="content" source="media/custom-score-result1.png" alt-text="Custom score result with one question.":::
+
+### Example 2
+
+You've created a survey containing one rating question with 5 stars and one single-choice question with 5 options. A user has responded to the survey with 4 stars and option 2. The custom score configuration is as follows: 
+
+:::image type="content" source="media/custom-score-example2.png" alt-text="Custom score example with two questions.":::
+
+From the above configuration and the response of the user, values of the components are as follows:
+
+**Question 1: Rating question**
+
+- Weight = 4
+- Response value = 4
+- MinValue = 1
+- MaxValue = 5
+ 
+**Question 2: Single choice question**
+
+- Weight = 3
+- Response value = 2
+- MinValue = 1
+- MaxValue = 2
+
+Scores of the question responses are calculated as follows:
+
+**Question 1: Rating question**
+
+- Normalized value = ((4 – 1)*100) / (5 – 1) = 75
+- Question score (q1) = 75 * 4 = 300
+
+**Question 2: Single choice question**
+
+- Normalized value = ((2 – 1)*100) / (2 – 1) = 100
+- Question score (q2) = 100 * 3 = 300
+
+
+Final value = (300 + 300) / (4 + 3) = 85.7
+
+Therefore, score of the survey is 85.7.
+
+:::image type="content" source="media/custom-score-result2.png" alt-text="Custom score result with two questions.":::
 
 ### See also
 
