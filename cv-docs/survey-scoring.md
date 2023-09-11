@@ -150,6 +150,8 @@ The score of the question response is calculated as follows:
 
 Therefore, score of the survey is 33.3.
 
+:::image type="content" source="media/custom-score-result1.png" alt-text="Custom score result with one question.":::
+
 ### Example 2
 
 You've created a survey containing one rating question with 5 stars and one single-choice question with 5 options. A user has responded to the survey with 4 stars and option 2. The custom score configuration is as follows: 
@@ -188,6 +190,8 @@ Scores of the question responses are calculated as follows:
 Final value = (300 + 300) / (4 + 3) = 85.7
 
 Therefore, score of the survey is 85.7.
+
+:::image type="content" source="media/custom-score-result2.png" alt-text="Custom score result with two questions.":::
 
 ### See also
 
