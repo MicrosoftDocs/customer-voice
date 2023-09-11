@@ -1,6 +1,6 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
-description: "Use this topic to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
+description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
 ms.date: 08/31/2023
 ms.topic: article
 author: sbmjais
@@ -13,7 +13,7 @@ We've compiled a list of frequently asked questions and provided brief answers t
 
 ## I created a guest user in Azure Active Directory, but the user is unable to access Dynamics 365 Customer Voice.
 
-Guest user access is not supported in Dynamics 365 Customer Voice. You must create a new user in your tenant and then provide access to the new user.
+Guest user access isn't supported in Dynamics 365 Customer Voice. You must create a new user in your tenant and then provide access to the new user.
 
 ## How is the owner of a survey response determined?
 
@@ -23,9 +23,9 @@ A response owner is determined by the following logic:
 - If the survey invitation owner doesn't have sufficient privileges to own responses, or if the response is anonymous, the survey owner is set as the response owner.
 - If the account of a survey owner has been disabled or the survey owner is unable to access the application due to licensing issues, the application user is set as the response owner.
 
-## I deleted data from Microsoft Dataverse but it is visible in reports.
+## I deleted data from Microsoft Dataverse but it's visible in reports.
 
-It is recommended not to delete data directly from Microsoft Dataverse. If you delete any data directly from Microsoft Dataverse, it is not synchronized with Customer Voice services. If you want to delete any data, you must delete using the Dynamics 365 Customer Voice interface.
+It's recommended not to delete data directly from Microsoft Dataverse. If you delete any data directly from Microsoft Dataverse, it isn't synchronized with Customer Voice services. If you want to delete any data, you must delete using the Dynamics 365 Customer Voice interface.
 
 ## Why does the application user require the System Administrator role?
 
@@ -33,7 +33,7 @@ The application user requires the System Administrator role to associate survey 
 
 ## What happens if the project owner leaves the organization?
 
-If the project owner leaves the organization, the project will be deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) and use the copied project.
+If the project owner leaves the organization, the project is deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) and use the copied project.
 
 ## What languages are supported for sentiment analysis?
 
@@ -161,31 +161,31 @@ Survey responses received in languages other than the ones specified above are c
 
 ## I deleted the old surveys and survey responses, and want to update values in the satisfaction metrics report accordingly.
 
-This is an unsupported scenario. Deleting old surveys and survey responses will not update values in the satisfaction metrics report.
+This is an unsupported scenario. Deleting old surveys and survey responses won't update values in the satisfaction metrics report.
 
 ## I want to delete multiple responses from the Dynamics 365 Customer Voice interface.
 
-Deleting multiple responses from the Dynamics 365 Customer Voice interface is not supported.
+Deleting multiple responses from the Dynamics 365 Customer Voice interface isn't supported.
 
 ## I restored Microsoft Dataverse and want Dynamics 365 Customer Voice and survey responses to work with it.
 
 This is an unsupported scenario.
 
-## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I login to Dynamics 365 Customer Voice in the new tenant.
+## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I log in to Dynamics 365 Customer Voice in the new tenant.
 
-Tenant to tenant migration is not supported for Dynamics 365 Customer Voice.
+Tenant to tenant migration isn't supported for Dynamics 365 Customer Voice.
 
 ## Should I use Microsoft Forms connector for Customer Voice surveys in Power Automate flow?
 
-It is not recommended to use [Microsoft forms connector](/connectors/microsoftforms/) for Customer Voice surveys. The flow might not run properly. You must only use [Customer Voice connectors](/connectors/microsoftformspro/) and [Dataverse connectors](/power-automate/dataverse/overview) while creating flows for Customer Voice surveys.
+It isn't recommended to use [Microsoft forms connector](/connectors/microsoftforms/) for Customer Voice surveys. The flow might not run properly. You must only use [Customer Voice connectors](/connectors/microsoftformspro/) and [Dataverse connectors](/power-automate/dataverse/overview) while creating flows for Customer Voice surveys.
 
-## I added unicode character while designing a survey but it is not rendered properly.
+## I added unicode character while designing a survey but it isn't rendered properly.
 
-Manually adding unicode character is not supported in Dynamics 365 Customer Voice. For example, if you add unicode character in a question and survey title, it will not be rendered properly.
+Manually adding unicode character isn't supported in Dynamics 365 Customer Voice. For example, if you add unicode character in a question and survey title, it will not be rendered properly.
 
-## Why projects are not visible while creating a flow in Power Automate?
+## Why projects aren't visible while creating a flow in Power Automate?
 
-If you've created projects in Dynamics 365 Customer Voice and shared all the projects with other users, the projects will not be visible while creating a flow in Power Automate. You must create at least one project that is not shared with other users. After the new project is created, all the projects (user owned and shared) will be visible while creating a flow in Power Automate. It takes 5 minutes for the projects to be visible in Power Automate.
+If you've created projects in Dynamics 365 Customer Voice and shared all the projects with other users, the projects won't be visible while creating a flow in Power Automate. You must create at least one project that isn't shared with other users. After the new project is created, all the projects (user owned and shared) will be visible while creating a flow in Power Automate. It takes 5 minutes for the projects to be visible in Power Automate.
 
 ## How can I share new feature requirements or ideas?
 
