@@ -49,7 +49,7 @@ The data stored in the Power Platform environment is protected with Power Platfo
 
 ### How do I restrict access to Dynamics 365 Customer Voice?
 
-Microsoft 365 administrators can turn off Dynamics 365 Customer Voice USL in **User Management** in the Microsoft 365 admin center. [Disable Dynamics 365 Customer Voice for a user with enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user). [Disable Dynamics 365 Customer Voice for a user without enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user-1). 
+Microsoft 365 administrators can turn off Dynamics 365 Customer Voice USL in **User Management** in the Microsoft 365 admin center. [Disable Dynamics 365 Customer Voice for a user with enterprise licenses](purchase.md#disable-dynamics-365-customer-voice-for-a-user).
  
 ### The original owner of a survey is no longer with the organization and/or their Dynamics 365 Customer Voice license has been removed. What happens to the data that is associated with the surveys they created?
 
