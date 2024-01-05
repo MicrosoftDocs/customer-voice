@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "This topic explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
-ms.date: 01/06/2023
+ms.date: 01/05/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -12,7 +12,8 @@ ms.author: shjais
 Dynamics 365 Customer Voice provides an easy way to send your survey to multiple people through email. By using the built-in email composer, you can send customized email invitations to your recipients and track their status.
 
 > [!NOTE]
->  In US Government Community Cloud, emails are sent from the logged in user's account.
+> - In US Government Community Cloud, emails are sent from the logged in user's account.
+> - If you are sending email using the default domain, you can send a maximum of 10,000 emails per day. If you are using a [custom domain](customize-sender-email.md), there is no limit on the number of emails you can send per day.
 
 **To send a survey by using email**
 
