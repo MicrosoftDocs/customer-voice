@@ -11,7 +11,7 @@ ms.author: shjais
 
 We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.
 
-## I created a guest user in Azure Active Directory, but the user is unable to access Dynamics 365 Customer Voice.
+## I created a guest user in Microsoft Entra ID, but the user is unable to access Dynamics 365 Customer Voice.
 
 Guest user access isn't supported in Dynamics 365 Customer Voice. You must create a new user in your tenant and then provide access to the new user.
 
@@ -171,7 +171,7 @@ Deleting multiple responses from the Dynamics 365 Customer Voice interface isn't
 
 This is an unsupported scenario.
 
-## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I log in to Dynamics 365 Customer Voice in the new tenant.
+## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I sign in to Dynamics 365 Customer Voice in the new tenant.
 
 Tenant to tenant migration isn't supported for Dynamics 365 Customer Voice.
 

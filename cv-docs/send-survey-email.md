@@ -1,6 +1,6 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
-description: "This topic explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
+description: "This article explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
 ms.date: 01/08/2024
 ms.topic: article
 author: sbmjais
@@ -27,7 +27,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 3. In the **Recipients** field, enter the recipient's name or email address. You can populate the **Recipients** field by using any of the following methods:
 
     - Entering an email address manually.
-    - Entering a name, email address, or a distribution list from Azure Active Directory.
+    - Entering a name, email address, or a distribution list from Microsoft Entra ID.
     - Entering a contact or contact list/view from Microsoft Dataverse. The contacts are populated from the environment in which your project is created.
     - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
 
@@ -59,7 +59,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 
 ## Import contacts from a CSV file
 
-You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Dataverse. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file) and then [upload the CSV file](#upload-a-csv-file).
+You can import a maximum of 10,000 contacts by using a CSV file. You can also use this file to associate a survey invitation and response to an entity in Dataverse. You can also specify values for the variables added in the **Personalization** panel. To import contacts, you must first [create the CSV file](#create-a-csv-file), and then [upload the CSV file](#upload-a-csv-file).
 
 <a name="create-a-csv-file"></a>
 
@@ -97,7 +97,7 @@ After the CSV template is downloaded, enter the required information in the foll
 - **Email address**: Email address of the recipient.
 - **First name**: First name of the recipient.
 - **Last name**: Last name of the recipient.
-- **locale**: Language in which the survey needs to be displayed. When the survey is opened by clicking its link, it is displayed in the language specified in the locale column. This does not change the language of the first question of survey embedded in the email.
+- **locale**: Language in which the survey needs to be displayed. When the survey is opened by clicking its link, it's displayed in the language specified in the locale column. This doesn't change the language of the first question of survey embedded in the email.
 - **RegardingID**: ID of the entity record (GUID) to associate with the survey invitation and response.
 - **RegardingEntityName**: Logical name of the entity to associate with the survey invitation and response.
 
