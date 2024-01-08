@@ -1,7 +1,7 @@
 ---
 title: "Cookies in Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "A cookie is a small file sent from the web site to visitor's device by the browser. This topic explains about the cookies used by Dynamics 365 Customer Voice."
-ms.date: 01/05/2024
+ms.date: 01/08/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -26,7 +26,7 @@ Dynamics 365 Customer Voice also use cookies to store information for various pu
 | AADSID.forms | Azure Active Directory authentication session ID.  | 90 days |
 | AADState.forms | Authentication state to indicate whether user is authenticated. | 90 days |
 | FormsWebSessionId | Saves login data for the session and tracks required data to run the service. | 1 month |
-| mc1 | Used internally for telemetry purposes. |  |
+| mc1 | Used internally for telemetry purposes. | 1 year |
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a survey invitation by using Power Automate | MicrosoftDocs"
 description: "You can create a survey invitation link that can be distributed by using the platform of your choice."
-ms.date: 01/05/2024
+ms.date: 01/08/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
