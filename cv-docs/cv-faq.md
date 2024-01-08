@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 08/31/2023
+ms.date: 01/08/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -11,7 +11,7 @@ ms.author: shjais
 
 We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.
 
-## I created a guest user in Azure Active Directory, but the user is unable to access Dynamics 365 Customer Voice.
+## I created a guest user in Microsoft Entra ID, but the user is unable to access Dynamics 365 Customer Voice.
 
 Guest user access isn't supported in Dynamics 365 Customer Voice. You must create a new user in your tenant and then provide access to the new user.
 
@@ -171,7 +171,7 @@ Deleting multiple responses from the Dynamics 365 Customer Voice interface isn't
 
 This is an unsupported scenario.
 
-## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I log in to Dynamics 365 Customer Voice in the new tenant.
+## I migrated my Microsoft Dataverse environment from one tenant to another, but I don't see my existing projects when I sign in to Dynamics 365 Customer Voice in the new tenant.
 
 Tenant to tenant migration isn't supported for Dynamics 365 Customer Voice.
 
@@ -186,6 +186,16 @@ Manually adding unicode character isn't supported in Dynamics 365 Customer Voice
 ## Why projects aren't visible while creating a flow in Power Automate?
 
 If you've created projects in Dynamics 365 Customer Voice and shared all the projects with other users, the projects won't be visible while creating a flow in Power Automate. You must create at least one project that isn't shared with other users. After the new project is created, all the projects (user owned and shared) will be visible while creating a flow in Power Automate. It takes 5 minutes for the projects to be visible in Power Automate.
+
+## Why a flow retries to send a survey invitation?
+
+A flow retries to send a survey invitation after the original request times out or fails. The retry policy works with HTTP action and handles the following status codes: 408, 429, and 5xx. The flow retries for the specified number of times and interval. 
+
+## How can I customize the privacy statement?
+
+Privacy statement can be customized by administrators from the Azure portal. In the Azure portal, open Microsoft Entra ID, and then select the **Properties** tab. In the **Properties** tab, enter the link to the privacy statement in the **Privacy statement URL** field. 
+
+:::image type="content" source="media/customize-privacy-statement.png" alt-text="Screenshot showing customized privacy statement URL.":::
 
 ## How can I share new feature requirements or ideas?
 
