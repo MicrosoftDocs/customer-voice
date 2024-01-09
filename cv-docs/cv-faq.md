@@ -189,7 +189,7 @@ If you've created projects in Dynamics 365 Customer Voice and shared all the pro
 
 ## Can I see responses submitted through the Report abuse link?
 
-The responses submitted through the **Report abuse** link can only be seen by Microsoft. Neither the respondent nor the survey owner can see the responses submitted through the **Report abuse** link. The response helps Microsoft to identify if someone is misusing a survey for phishing or any illegal activities.
+The responses submitted through the **Report abuse** link can only be seen by Microsoft. Neither the respondent nor the survey owner can see them. The responses help Microsoft to identify if someone is misusing a survey for phishing or any illegal activities.
 
 ## Can I remove the Report abuse link from a survey?
 
