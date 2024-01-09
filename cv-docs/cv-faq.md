@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 01/08/2024
+ms.date: 01/09/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -186,6 +186,14 @@ Manually adding unicode character isn't supported in Dynamics 365 Customer Voice
 ## Why projects aren't visible while creating a flow in Power Automate?
 
 If you've created projects in Dynamics 365 Customer Voice and shared all the projects with other users, the projects won't be visible while creating a flow in Power Automate. You must create at least one project that isn't shared with other users. After the new project is created, all the projects (user owned and shared) will be visible while creating a flow in Power Automate. It takes 5 minutes for the projects to be visible in Power Automate.
+
+## Can I see responses submitted through the Report abuse link?
+
+The responses submitted through the **Report abuse** link can only be seen by Microsoft. Neither the respondent nor the survey owner can see them. The responses help Microsoft to identify if someone is misusing a survey for phishing or any illegal activities.
+
+## Can I remove the Report abuse link from a survey?
+
+No, the **Report abuse** link can't be removed from a survey.
 
 ## Why a flow retries to send a survey invitation?
 
