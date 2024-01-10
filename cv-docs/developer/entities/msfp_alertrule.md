@@ -688,4 +688,3 @@ Same as msfp_alert table [msfp_msfp_alertrule_msfp_alert_alertrule](msfp_alert.m
 
 [About the Entity Reference](/dynamics365/customerengagement/on-premises/developer/about-entity-reference)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msfp_alertrule?text=msfp_alertrule EntityType" />

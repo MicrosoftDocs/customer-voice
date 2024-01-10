@@ -74,7 +74,7 @@ Survey response data and satisfaction metrics data aren't copied to the new proj
 
 You can share your project with multiple people in your organization so they can collaborate on the structure and layout of  surveys within the project. The people with whom the project is shared become the co-owners of the shared project. The projects that are shared with you are available on the **All projects** tab. 
 
-When you share a project, a [Microsoft 365 group](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) is created in Azure Active Directory and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Azure Active Directory group. When you remove all co-owners from the project, the group is retained with you as its only member. When a Microsoft 365 group is created, a Microsoft Dataverse team (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)) is created. The Dataverse team is assigned the ownership of the project and survey data.
+When you share a project, a [Microsoft 365 group](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) is created in Microsoft Entra ID and the project co-owners are added as members of the group. When you remove a co-owner from the project, the co-owner is removed from the Microsoft Entra ID group. When you remove all co-owners from the project, the group is retained with you as its only member. When a Microsoft 365 group is created, a Microsoft Dataverse team (of type [Microsoft Entra ID group](/power-platform/admin/manage-teams#about-group-teams)) is created. The Dataverse team is assigned the ownership of the project and survey data.
 
 **What can a co-owner do?**
 
@@ -90,7 +90,7 @@ A project co-owner has the same level of permissions as the project owner. This 
 
 **How are the responses shared?**
 
-If a project contains responses, a co-owner can see all responses under **Reports** in the left pane. In the Customer Voice survey responses entity, only those responses that are received after the project was shared will be shared with co-owners. Projects and surveys are owned by the Microsoft Dataverse team (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)). Only those responses that are received after the project is shared will be owned by the Dataverse team. Old responses will continue to be owned by the project owner.
+If a project contains responses, a co-owner can see all responses under **Reports** in the left pane. In the Customer Voice survey responses entity, only those responses that are received after the project was shared will be shared with co-owners. Projects and surveys are owned by the Microsoft Dataverse team (of type [Microsoft Entra ID group](/power-platform/admin/manage-teams#about-group-teams)). Only those responses that are received after the project is shared will be owned by the Dataverse team. Old responses will continue to be owned by the project owner.
 
 **To share a project**
 
@@ -122,7 +122,7 @@ If a project contains responses, a co-owner can see all responses under **Report
 
 ### Ownership of survey data
 
-When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Azure Active Directory group](/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
+When a project is created, the project creator is the owner of the project and survey data (responses and invitations). When a project is shared, the owner of the project and survey data (responses and invitations) is the Microsoft Dataverse team  (of type [Microsoft Entra ID group](/power-platform/admin/manage-teams#about-group-teams)). The Dataverse team will be assigned the Project Owner security role and will be an owner team. More information: [Use access teams and owner teams to collaborate and share information](/dynamics365/customerengagement/on-premises/developer/use-access-teams-owner-teams-collaborate-share-information)
 
 Only those responses and invitations that are received and created after the project was shared will be owned by the Dataverse team.
 
