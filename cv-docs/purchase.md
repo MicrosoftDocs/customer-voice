@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "This topic explains how to purchase Dynamics 365 Customer Voice licenses and additional survey responses."
-ms.date: 10/19/2023
+ms.date: 02/19/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,7 +9,7 @@ ms.author: shjais
 
 # Purchase Dynamics 365 Customer Voice
 
-Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise products such as Dynamics 365 Sales Enterprise and Dynamics 365 Customer Service Enterprise. For a complete list of select Dynamics 365 enterprise products, see [Dynamics 365 Customer Voice pricing](https://dynamics.microsoft.com/customer-voice/pricing/)
+Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise products such as Dynamics 365 Sales Enterprise and Dynamics 365 Customer Service Enterprise.
 
 The Dynamics 365 Customer Voice license is based on the number of survey responses received per month. The capacity is measured at the tenant level. For a Dynamics 365 enterprise licensed tenant, 2,000 responses are free and the customer can choose to purchase additional responses in bundles of $100 for 1,000 responses per month.
 
