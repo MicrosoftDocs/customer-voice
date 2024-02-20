@@ -1,6 +1,6 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
-description: "This topic explains how to purchase Dynamics 365 Customer Voice licenses and additional survey responses."
+description: "This article explains how to purchase Dynamics 365 Customer Voice licenses and additional survey responses."
 ms.date: 02/19/2024
 ms.topic: article
 author: sbmjais
@@ -46,7 +46,7 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
 
 ## Response capacity consumption
 
-One additional license, Dynamics 365 Customer Voice Addl Responses, costs $100 and allows you to receive 1,000 responses per month at a tenant level. This means that everyone in the tenant can use a total of 1,000 responses. You can purchase the licenses in bundles of $100 as required. So if you purchase one Dynamics 365 Customer Voice Addl Responses license (for a bill amount of $1,200), you'll get 12,000 responses (12 &times; 1,000) annually. If you purchase two licenses of $100 each per month for a year (for a bill amount of $2,400), you'll get 24,000 responses (12 &times; 2,000) annually.
+One additional license, Dynamics 365 Customer Voice Addl Responses, costs $100 and allows you to receive 1,000 responses per month at a tenant level. This means that everyone in the tenant can use a total of 1,000 responses. You can purchase the licenses in bundles of $100 as required. So if you purchase one Dynamics 365 Customer Voice Addl Responses license (for a bill amount of $1,200), you'll get 12,000 responses (12 &times; 1,000) annually. If you purchase two licenses of $100 each per month for a year (for a bill amount of $2,400), you get 24,000 responses (12 &times; 2,000) annually.
 
 You can pay for the licenses by using either of the payment modes: monthly or yearly. Regardless of the payment mode, the response capacity is calculated annually.
 
@@ -61,7 +61,7 @@ If you have any unused responses remaining in a year, those responses won't be c
 
 Let's understand this with the following example:
 
-You purchase an additional license of $100 per month for a year (for a bill amount of $1,200). You'll get 12,000 responses (12 &times; 1,000) annually. If you exhaust all 12,000 responses in the tenth month from the date of purchase, Dynamics 365 Customer Voice will stop receiving new responses and won't allow new surveys to be created. As soon as your administrator purchases additional responses, you'll start receiving responses and be able to create new surveys.
+You purchase an additional license of $100 per month for a year (for a bill amount of $1,200). You get 12,000 responses (12 &times; 1,000) annually. If you exhaust all 12,000 responses in the tenth month from the date of purchase, Dynamics 365 Customer Voice stops receiving new responses and won't allow new surveys to be created. As soon as your administrator purchases additional responses, you start receiving responses and be able to create new surveys.
 
 In this example, suppose you have 5,000 responses remaining at the end of the year. Those responses won't be carried forward to the next year.
 
