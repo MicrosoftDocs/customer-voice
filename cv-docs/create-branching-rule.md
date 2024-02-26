@@ -1,7 +1,7 @@
 ---
 title: "Create a branching rule for a survey | MicrosoftDocs"
 description: "Branching rules allow you to customize the flow of your survey. This topic explains how to create branching rules for a survey with Dynamics 365 Customer Voice."
-ms.date: 08/16/2022
+ms.date: 02/26/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -19,11 +19,11 @@ For example, for the question **How likely is it that you would recommend us to 
 
 1. Open the survey.
 
-2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Branching**.
+2. On the **Design** tab, select **Customization** at the right side of the page, and then select **Advanced logic**.
 
    ![Branching menu item.](media/branching-menu.png "Branching menu item")
 
-    If you haven't created any rules yet, the following message is displayed. Select **Customize**.
+    If you haven't created any rules yet, the following message is displayed. Select **Use advanced logic**.
 
     ![Customize survey flow button.](media/customize-survey-flow-button.png "Customize survey flow button") 
 
@@ -73,11 +73,12 @@ For example, for the question **How likely is it that you would recommend us to 
 
 10. In the **Select target** list, choose a target for the selected action:
 
-    - If you select **Show** or **Hide** as the action, you can select **Question** as the target.
+    - If you select **Show** or **Hide** as the action, you can select **Question** or **Section** as the target.
 
     - If you select **Navigate to** as the action, you can choose one of the following targets:
 
       - **Question**: Skip to a question based on the response to a question. The questions between the source and target questions are hidden from the respondent.
+      - **Section**: Skip to a section based on the response to a question. The questions between the source and target sections are hidden from the respondent.
       - **End of survey**: End the survey based on the response to a question.
       - **Chained survey**: Open a different survey, created by you, based on the response to a question.
       - **URL**: Open a website based on the response to a question. You must add `http://` to the URL for it to work properly.
