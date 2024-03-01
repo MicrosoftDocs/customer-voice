@@ -38,9 +38,6 @@
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-FormsPro",
       "titleSuffix": "Microsoft Forms Pro",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/forms-pro",
-      "feedback_product_url": "https://microsoftforms.uservoice.com/forums/386451-welcome-to-microsoft-forms-suggestion-box?category_id=357997", 
       "contributors_to_exclude": [
         "buck1ey",
         "bishalgoswami",
