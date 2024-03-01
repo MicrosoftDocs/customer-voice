@@ -41,8 +41,7 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/customer-voice",
+      "feedback_system": "Standard",
       "feedback_product_url": "https://experience.dynamics.com/ideas/categories/?forum=4d8e57a3-52c5-ea11-a812-000d3a579c34&forumName=Dynamics%20365%20Customer%20Voice",
       "contributors_to_exclude": [
         "buck1ey",
