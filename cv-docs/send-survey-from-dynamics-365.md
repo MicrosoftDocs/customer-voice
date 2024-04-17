@@ -80,7 +80,7 @@ You can only send surveys that are shared with you or created by you. If no surv
 9.  Select **Send**.
 
 > [!NOTE]
-> Regarding field is populated only for Account, Contact, and Lead entities.
+> The **Regarding** field is populated only for Account, Contact, and Lead entities.
 
 ## Check survey invitation status
 
