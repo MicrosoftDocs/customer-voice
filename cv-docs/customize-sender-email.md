@@ -106,7 +106,7 @@ You can delete custom email addresses that are no longer required.
 Here's an example of a DNS record. The DNS records are used to verify the domain and enable sending survey invitations from the custom email address.
 
 > [!NOTE]
-> If the domain is not getting verified, open any open-source DNS lookup tool and check if CNAME and TXT records are published. If the records are not published, you need to add respective records in your DNS zone which is not found.
+> If the domain is not getting verified, open any open-source DNS lookup tool and check if CNAME and TXT records are published. If any of the records are not published, you need to add those records in your DNS zone.
 
 ### TXT record
 
