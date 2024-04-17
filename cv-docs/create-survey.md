@@ -1,7 +1,7 @@
 ---
 title: "Create a survey | MicrosoftDocs"
 description: "A survey is created automatically when you create a project. This topic explains how to create a survey in Dynamics 365 Customer Voice."
-ms.date: 05/05/2021
+ms.date: 04/17/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -48,6 +48,9 @@ A survey is created automatically when you create a project (either from out-of-
 ## Set visibility of a question
 
 By default, every question in a survey is visible to respondents. You can choose to hide a question by default, and then show it based on logic that you define by creating a branching rule. To hide a question from being displayed in a survey, select the question, and then turn off the **Visible** toggle.
+
+> [!NOTE]
+> The **Visible** toggle is visible only when you have at least one advanced branching rule defined in the survey.
 
 ![Set visibility of a question.](media/ques-visibility.png "Set visibility of a question")
 

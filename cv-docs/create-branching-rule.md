@@ -104,7 +104,7 @@ After you've created a branching rule or a set of branching rules, you can edit,
 
 1. Open the survey.
 
-2. Select **Customization** at the right side of the page, and then select **Branching**.
+2. Select **Customization** at the right side of the page, and then select **Advanced logic**.
 
     ![Branching menu item.](media/branching-menu.png "Branching menu item")
 

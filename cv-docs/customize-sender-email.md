@@ -1,7 +1,7 @@
 ---
 title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
 description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
-ms.date: 01/06/2023
+ms.date: 04/17/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -102,6 +102,11 @@ You can delete custom email addresses that are no longer required.
 6.	On the **Review and finish** page, review the information, and then select **Finish**.
 
 ## Example DNS records
+
+Here's an example of a DNS record. The DNS records are used to verify the domain and enable sending survey invitations from the custom email address.
+
+> [!NOTE]
+> If the domain is not getting verified, open any open-source DNS lookup tool and check if CNAME and TXT records are published. If the records are not published, you need to add respective records in your DNS zone which is not found.
 
 ### TXT record
 

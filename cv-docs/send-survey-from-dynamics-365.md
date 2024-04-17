@@ -1,7 +1,7 @@
 ---
 title: "Send a Dynamics 365 Customer Voice survey from Dynamics 365 | MicrosoftDocs"
 description: "This topic explains how to send a survey to your customer from within the customer engagement application's interface."
-ms.date: 06/27/2023
+ms.date: 04/17/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -78,6 +78,9 @@ You can only send surveys that are shared with you or created by you. If no surv
     ![Enter details to send the survey.](media/d365-enter-details.png "Enter details to send the survey")
 
 9.  Select **Send**.
+
+> [!NOTE]
+> Regarding field is populated only for Account, Contact, and Lead entities.
 
 ## Check survey invitation status
 

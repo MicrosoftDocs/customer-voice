@@ -1,7 +1,7 @@
 ---
 title: "Customize header of a survey | MicrosoftDocs"
 description: "This topic explains how to customize the header of a survey created with Dynamics 365 Customer Voice."
-ms.date: 04/01/2021
+ms.date: 04/17/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -58,7 +58,7 @@ You can change the alignment of header text in the combination of the horizontal
 You can select a background image for the survey header either from the images provided out of the box or upload an image from your device. If you upload an image from your device, the image must be within the following parameters:
 
 - Maximum file size: 5 MB 
-- Supported formats: BMP, GIF, JPEG, and PNG
+- Supported formats: BMP, JPEG, and PNG
 - Maximum resolution: 800 x 600 (width x height)
 - Aspect ratio: 4:3
 

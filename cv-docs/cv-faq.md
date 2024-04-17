@@ -205,6 +205,35 @@ Privacy statement can be customized by administrators from the Azure portal. In 
 
 :::image type="content" source="media/customize-privacy-statement.png" alt-text="Screenshot showing customized privacy statement URL.":::
 
+## Can I transfer the ownership of a project from a user who has left the organization or will leave soon?
+
+No, transferring the ownership of a project is not supported currently. You must create a copy of the project and share it with other users. Ensure that the newly copied project is used going forward.
+
+## How are satisfaction metrics values aggregated in a report?
+
+Satisfaction metrics values are aggregated based on the time filter selected in the report. The values are aggregated as follows:
+
+- By six hours, if the value selected in the filter is less than or equal to two days.
+- By 24 hours, if the value selected in the filter is less that or equal to seven days (Last 7 days).
+- By week, if the value selected in the filter is more than two days but less than 30 days (All days or Last 28 days).
+- By month, if the value selected in the filter is more than 30 days (Last 90 days).
+
+## What P99 or average latency for data synchronization between Dynamics 365 Customer Voice and Microsoft Dataverse?
+
+There's no official latency for data synchronization. Data is synchronized from Dynamics 365 Customer Voice to Microsoft Dataverse in an asynchronous manner. 
+
+## Why the Forms connector shows warm data lock error?
+
+When responses for a form reach 65,000, the form gets locked for archiving data to cold storage and the Forms connector shows a warm data lock error. It is recommended to use [Dataverse connectors](/power-automate/dataverse/overview) instead of the Forms connector.
+
+## Is there any impact on the performance of Customer Voice when moving the organization to a different datacenter?
+
+There's no impact on the performance of Customer Voice when moving the organization to a different datacenter as long as the organization ID and organization name remain the same.
+
+## In which business unit is team created after sharing a project?
+
+When a project is shared with a team, the team is created in the root business unit (BU). We recommend not to change anything manually in the organization directly.
+
 ## How can I share new feature requirements or ideas?
 
 You can share your new feature requirements or ideas on the [Customer Voice Ideas](https://aka.ms/customervoiceideas) page.
