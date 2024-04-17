@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 01/09/2024
+ms.date: 04/17/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -33,7 +33,7 @@ The application user requires the System Administrator role to associate survey 
 
 ## What happens if the project owner leaves the organization?
 
-If the project owner leaves the organization, the project is deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) and use the copied project.
+If the project owner leaves the organization, the project is deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) before user leaves the organization and use the copied project.
 
 ## What languages are supported for sentiment analysis?
 
