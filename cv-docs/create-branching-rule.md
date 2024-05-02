@@ -1,7 +1,7 @@
 ---
 title: "Create a branching rule for a survey | MicrosoftDocs"
 description: "Branching rules allow you to customize the flow of your survey. This topic explains how to create branching rules for a survey with Dynamics 365 Customer Voice."
-ms.date: 02/26/2024
+ms.date: 05/02/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -104,7 +104,7 @@ After you've created a branching rule or a set of branching rules, you can edit,
 
 1. Open the survey.
 
-2. Select **Customization** at the right side of the page, and then select **Branching**.
+2. Select **Customization** at the right side of the page, and then select **Advanced logic**.
 
     ![Branching menu item.](media/branching-menu.png "Branching menu item")
 
