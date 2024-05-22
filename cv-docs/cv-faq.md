@@ -28,6 +28,7 @@ A response owner is determined by the following logic:
 Starting from May 1, 2024, the short URL domain has changed from `https://<region>.microsoft.com` to `https://<region>.dcv.ms`.
 
 **What will happen to the existing short URLs?**
+
 This change only impacts the short URLs generated after May 1, 2024; existing short URLs with `https://<region>.microsoft.com` domain, created before May 1, will continue to work.
 
 **What do I need to do if I'm using short URLs in my surveys?**
