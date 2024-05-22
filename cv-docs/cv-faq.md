@@ -23,6 +23,24 @@ A response owner is determined by the following logic:
 - If the survey invitation owner doesn't have sufficient privileges to own responses, or if the response is anonymous, the survey owner is set as the response owner.
 - If the account of a survey owner has been disabled or the survey owner is unable to access the application due to licensing issues, the application user is set as the response owner.
 
+## What has changed in the short URL domain for surveys?
+
+Starting from May 1, 2024, the short URL domain has changed from `https://<region>.microsoft.com/<10-digit code>` to `https://<region>.dcv.ms/<10-digit code>`. This change only impacts the short URLs generated after May 1, 2024; existing short URLs with `https://<region>.microsoft.com/<10-digit code>)`, created before May 1, will continue to work.
+
+### What do I need to do if I'm using short URLs in my surveys?
+
+Reach out to your IT team and check if your network firewall or email security systems requires you to allow new URLs. If yes, you need to add the new domain `dcv.ms` to your allow list immediately. If you do not have any such restrictions, you don't have to take any action. You can continue to create and send survey links as usual. 
+
+### What will NOT be impacted by this short url change? 
+
+The following services will not be impacted by this change:
+
+- The main link customervoice.microsoft.com 
+- The default domains for sending emails (surveys@email.formspro.microsoft.com) 
+- The custom domains for sending emails
+- Old Short URLs
+- Old QR codes 
+
 ## I deleted data from Microsoft Dataverse but it's visible in reports.
 
 It's recommended not to delete data directly from Microsoft Dataverse. If you delete any data directly from Microsoft Dataverse, it isn't synchronized with Customer Voice services. If you want to delete any data, you must delete using the Dynamics 365 Customer Voice interface.

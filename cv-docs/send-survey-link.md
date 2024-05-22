@@ -11,6 +11,9 @@ ms.author: shjais
 
 If you want to collect feedback from recipients using a common survey link, or if you want to send email outside of Dynamics 365 Customer Voice, you can create a link for your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be distributed easily by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.microsoft.com/<10-digit code>`.
 
+> [!NOTE]
+> Starting from May 1, 2024, the short URL domain has changed from `https://<region>.microsoft.com/<10-digit code>` to `https://<region>.dcv.ms/<10-digit code>`. This change only impacts the short URLs generated after May 1, 2024; existing short URLs with `https://<region>.microsoft.com/<10-digit code>)` will continue to work. For more information, see [the FAQ](cv-faq.md#what-has-changed-in-the-short-url-domain-for-surveys).
+
 You can create a generic survey link or custom survey links. A generic survey link is a common link that you can share with your intended audience. Custom survey links are created using survey variables and are different for an audience group. For example, as a restaurant manager, you can create multiple survey links based on the restaurant's location. Location is defined as a survey variable in this case. This helps to categorize survey responses as per the Location survey variable. If each location is mapped to an account in Dynamics 365, the survey responses are mapped as activities to respective accounts.
 
 > [!NOTE]
