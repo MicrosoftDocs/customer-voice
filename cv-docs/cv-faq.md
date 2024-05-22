@@ -31,7 +31,7 @@ Starting from May 1, 2024, the short URL domain has changed from `https://<regio
 
 Reach out to your IT team and check if your network firewall or email security systems requires you to allow new URLs. If yes, you need to add the new domain `dcv.ms` to your allow list immediately. If you do not have any such restrictions, you don't have to take any action. You can continue to create and send survey links as usual. 
 
-### What will NOT be impacted by this short url change? 
+**What will NOT be impacted by this short url change?**
 
 The following services will not be impacted by this change:
 
