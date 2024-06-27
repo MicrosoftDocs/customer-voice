@@ -1,7 +1,7 @@
 ---
 title: "Format text in a survey | MicrosoftDocs"
 description: "This topic explains how to format text in a survey and customize the look of the survey by changing the font style, font size, and color of the text."
-ms.date: 01/08/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
