@@ -1,7 +1,7 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
 description: "You can personalize a survey by automatically inserting custom information in it. This topic explains how to personalize a survey by using variables."
-ms.date: 06/27/2023
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
