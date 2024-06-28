@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 05/02/2024
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -56,6 +56,12 @@ The application user requires the System Administrator role to associate survey 
 ## What happens if the project owner leaves the organization?
 
 If the project owner leaves the organization, the project is deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) before user leaves the organization and use the copied project.
+
+When a user is deleted, it is considered as a soft delete for 30 days. After 30 days, the user is hard deleted. This activity takes place in Microsoft Entra ID. Once the account of the survey owner is hard deleted, the survey is deleted automatically from Dynamics 365 Customer Voice but the data is retained in Microsoft Dataverse till the retention policy is met. If the user is only deactivated, the survey is not deleted but operations will fail. If a project has surveys with owners who are active, the project appears in the list of projects on the Dynamics 365 Customer Voice interface.
+
+## The original owner of a survey is no longer with the organization and/or their Customer Voice license has been removed. What happens to the data associated with the survey?
+
+All account-related data is deleted 30 days after the account is deleted from Microsoft Entra ID.
 
 ## What languages are supported for sentiment analysis?
 
@@ -231,6 +237,10 @@ Privacy statement can be customized by administrators from the Azure portal. In 
 
 No, transferring the ownership of a project is not supported currently. You must create a copy of the project and share it with other users. Ensure that the newly copied project is used going forward.
 
+## Can I restore a deleted project?
+
+No, restoring a deleted project is not supported currently. 
+
 ## How are satisfaction metrics values aggregated in a report?
 
 Satisfaction metrics values are aggregated based on the time filter selected in the report. The values are aggregated as follows:
@@ -239,6 +249,10 @@ Satisfaction metrics values are aggregated based on the time filter selected in 
 - By 24 hours, if the value selected in the filter is less that or equal to seven days (Last 7 days).
 - By week, if the value selected in the filter is more than two days but less than 30 days (All days or Last 28 days).
 - By month, if the value selected in the filter is more than 30 days (Last 90 days).
+
+## Why can't I create alerts for custom score satisfaction metrics?
+
+Alerts can't be created for custom score satisfaction metrics. It's the limitation of the product.
 
 ## What P99 or average latency for data synchronization between Dynamics 365 Customer Voice and Microsoft Dataverse?
 

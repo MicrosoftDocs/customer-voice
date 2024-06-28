@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 06/24/2022
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -31,9 +31,7 @@ You can perform the following actions:
 
 2. On the **All projects** tab, hover over the project you want to rename, select vertical ellipsis ![Project options.](media/project-options.png "Project options"), and then select **Rename**.
 
-3. In the **Rename Project** dialog box, enter a new name, and then select **Rename**.
-
-    ![Rename a project.](media/rename-project.png "Rename a project")
+3. In the **Rename your project** dialog box, enter a new name, and then select **Rename**.
 
 ## Copy a project
 
