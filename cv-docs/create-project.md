@@ -1,7 +1,7 @@
 ---
 title: "Create a project | MicrosoftDocs"
 description: "A project consists of components such as surveys and satisfaction metrics. This topic explains how to create a project in Dynamics 365 Customer Voice."
-ms.date: 12/03/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais

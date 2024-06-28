@@ -1,7 +1,7 @@
 ---
 title: "Create a multilingual survey | MicrosoftDocs"
 description: "You can add multiple languages and their translations to a survey. This topic explains how to create a multilingual survey with Dynamics 365 Customer Voice."
-ms.date: 08/25/2021
+ms.date: 06/27/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
