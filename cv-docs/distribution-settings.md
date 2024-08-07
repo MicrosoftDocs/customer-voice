@@ -1,7 +1,7 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "This topic explains how to use survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey."
-ms.date: 05/23/2023
+ms.date: 08/07/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -11,7 +11,7 @@ ms.author: shjais
 
 
 
-After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they will have to sign in if you're only allowing people in your organization to respond. You can also define various response and notification options.
+After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they have to sign in if you're only allowing people in your organization to respond. You can also define various response and notification options.
 
 **To update survey distribution settings**
 
@@ -31,7 +31,7 @@ After you've created a survey, you can select distribution settings to control r
 
 You can select the options to define who can respond to a survey, whether to anonymize responses, and more.
 
-Consider a scenario where you've created a survey to collect customer feedback when a support case is resolved. In this scenario, you'll want feedback from the people outside your organization.
+Consider a scenario where you've created a survey to collect customer feedback when a support case is resolved. In this scenario, you want feedback from the people outside your organization.
 
 Let's consider another scenario where you've created a survey to collect feedback about an internal organization event. In this case, you'll only want feedback from the people in your organization.
 
@@ -47,7 +47,7 @@ The available settings are:
 
     By default, this setting is turned off and the respondent's name is recorded.
 
-    When you turn on this setting, the respondent's first name, last name, and email aren't saved in response records by default. If you've added variables to your survey, their values also will not be stored in response records by default. This is helpful when you want to collect survey responses anonymously. A message is displayed below this option that the variables settings are enabled. You can turn on the toggle for the required variable if you want to store its value in the response record. More information: [Personalize a survey by using variables](personalize-survey.md)
+    When you turn on this setting, the respondent's first name, last name, and email aren't saved in response records by default. If you've added variables to your survey, their values also won't be stored in response records by default. This is helpful when you want to collect survey responses anonymously. A message is displayed below this option that the variables settings are enabled. You can turn on the toggle for the required variable if you want to store its value in the response record. More information: [Personalize a survey by using variables](personalize-survey.md)
 
     ![Variables settings enabled.](media/variables-settings-enabled.png "Variables settings enabled")
 
