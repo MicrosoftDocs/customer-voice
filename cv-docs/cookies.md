@@ -1,7 +1,7 @@
 ---
 title: "Cookies in Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "A cookie is a small file sent from the web site to visitor's device by the browser. This article explains about the cookies used by Dynamics 365 Customer Voice."
-ms.date: 01/08/2024
+ms.date: 08/12/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
