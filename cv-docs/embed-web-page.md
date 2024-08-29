@@ -1,7 +1,7 @@
 ---
 title: "Embed a survey in a webpage | MicrosoftDocs"
 description: "This topic explains how to embed your survey in a webpage by pasting the survey's embed code into your webpage's source code."
-ms.date: 04/28/2021
+ms.date: 08/29/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -31,7 +31,7 @@ The values of variables in a response are displayed on the **Personalized data**
 
 1.  Open the survey you want to embed and go to the **Send** tab.
 
-2.  Select **Embed**.
+2.  Select **Embed code**.
 
 3.  Under **Choose an embed format**, select one of the following options:
 
