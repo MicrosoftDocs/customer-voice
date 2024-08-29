@@ -31,7 +31,7 @@ The values of variables in a response are displayed on the **Personalized data**
 
 1.  Open the survey you want to embed and go to the **Send** tab.
 
-2.  Select **Embed**.
+2.  Select **Embed code**.
 
 3.  Under **Choose an embed format**, select one of the following options:
 
