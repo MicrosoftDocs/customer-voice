@@ -1,7 +1,7 @@
 ---
 title: "View survey responses report | MicrosoftDocs"
 description: "This topic explains how to view a survey response report in Dynamics 365 Customer Voice after a respondent (tracked and anonymous) submits a survey."
-ms.date: 10/28/2021
+ms.date: 08/29/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais

@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "This topic explains how to create a generic survey link and custom survey links by using variables and share the survey with your customers."
-ms.date: 06/27/2023
+ms.date: 08/29/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,7 +9,7 @@ ms.author: shjais
 
 # Send a survey link to others
 
-If you want to collect feedback from recipients using a common survey link, or if you want to send email outside of Dynamics 365 Customer Voice, you can create a link for your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link will be a short URL that can be distributed easily by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL will be in the following format: `https://<region>.dcv.ms/<10-digit code>`.
+If you want to collect feedback from recipients using a common survey link, or if you want to send email outside of Dynamics 365 Customer Voice, you can create a link for your survey. You can then send your survey by pasting the link in an email, on a webpage, or in any mode of communication you want to use. The recipients can select the link and complete the survey. The survey link is a short URL that can be distributed easily by the platforms that have a lower character limit (for example, SMS or Twitter). The short URL is in the following format: `https://<region>.dcv.ms/<10-digit code>`.
 
 > [!NOTE]
 > Starting from May 1, 2024, the short URL domain has changed from `https://<region>.microsoft.com` to `https://<region>.dcv.ms`. This change only impacts the short URLs generated after May 1, 2024; existing short URLs with `https://<region>.microsoft.com`  domain will continue to work. For more information, see [the FAQ](cv-faq.md#what-has-changed-in-the-short-url-domain-for-surveys).

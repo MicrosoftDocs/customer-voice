@@ -1,7 +1,7 @@
 ---
 title: Email delivery status
 description: Learn how to view the survey email delivery status and understand the reason if the delivery failed.
-ms.date: 10/28/2022
+ms.date: 08/29/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
