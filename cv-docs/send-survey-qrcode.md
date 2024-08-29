@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using QR code | MicrosoftDocs"
 description: "This topic explains how to generate a QR code for a survey created in Dynamics 365 Customer Voice and then send it to your customers."
-ms.date: 08/07/2024
+ms.date: 08/29/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais

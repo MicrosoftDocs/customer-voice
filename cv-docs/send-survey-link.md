@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "This topic explains how to create a generic survey link and custom survey links by using variables and share the survey with your customers."
-ms.date: 08/07/2024
+ms.date: 08/29/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -14,7 +14,7 @@ If you want to collect feedback from recipients using a common survey link, or i
 > [!NOTE]
 > Starting from May 1, 2024, the short URL domain has changed from `https://<region>.microsoft.com` to `https://<region>.dcv.ms`. This change only impacts the short URLs generated after May 1, 2024; existing short URLs with `https://<region>.microsoft.com`  domain will continue to work. For more information, see [the FAQ](cv-faq.md#what-has-changed-in-the-short-url-domain-for-surveys).
 
-You can create a generic survey link or custom survey links. A generic survey link is a common link that you can share with your intended audience. Custom survey links are created using survey variables and are different for an audience group. For example, as a restaurant manager, you can create multiple surveys links based on the restaurant's location. Location is defined as a survey variable in this case. This helps to categorize survey responses as per the Location survey variable. If each location is mapped to an account in Dynamics 365, the survey responses are mapped as activities to respective accounts.
+You can create a generic survey link or custom survey links. A generic survey link is a common link that you can share with your intended audience. Custom survey links are created using survey variables and are different for an audience group. For example, as a restaurant manager, you can create multiple survey links based on the restaurant's location. Location is defined as a survey variable in this case. This helps to categorize survey responses as per the Location survey variable. If each location is mapped to an account in Dynamics 365, the survey responses are mapped as activities to respective accounts.
 
 > [!NOTE]
 > - The survey link generated is a non-personalized link. If the **Only people in my organization can respond** setting is turned off in [distribution settings](distribution-settings.md), you won't be able to record the respondent's name or determine whether the respondent has submitted only one response. More information: [Work with personalized links](distribution-settings.md#work-with-personalized-links)
