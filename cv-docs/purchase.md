@@ -55,8 +55,6 @@ If you don't have select Dynamics 365 enterprise products, you must first purcha
 
 3. Find **Dynamics 365 Customer Voice**, and then select **Details**.
 
-    ![Dynamics 365 Customer Voice tile.](media/cv-license.png "Dynamics 365 Customer Voice tile")
-
 4. From the **Select license quantity** box, select or enter the number of licenses to purchase. 
 
 5. Select **Buy**, and complete the purchase process.
@@ -72,8 +70,6 @@ After you purchase the **Dynamics 365 Customer Voice** license, you must purchas
 2. In the left pane, select **Billing** > **Purchase services**.
 
 3. Find **Dynamics 365 Customer Voice USL**, and then select **Details**.
-
-    ![Dynamics 365 Customer Voice USL tile.](media/usl-license.png "Dynamics 365 Customer Voice USL tile")
 
 4. From the **Select license quantity** box, select or enter the number of licenses to purchase.
 
@@ -109,8 +105,6 @@ If the responses included with the license are exhausted, you can purchase addit
 
 5. In the **Licenses** section, clear **Dynamics 365 Customer Voice USL**.
 
-    ![Remove the Dynamics 365 Customer Voice user license from a user.](media/disable-cv-usl.png "Remove the Dynamics 365 Customer Voice user license from a user")
-
 6. Select **Save changes**.
 
 ## Purchase additional responses
@@ -121,15 +115,13 @@ You can purchase additional responses from the Microsoft 365 admin center.
 
 2. In the left pane, select **Billing** > **Purchase services**.
 
-3. Find **Dynamics 365 Customer Additional Responses Dynamics 365 Customer Voice Addl Responses**, and then select **Details**.
+3. Find **Dynamics 365 Customer Additional Responses**, and then select **Details**.
 
-    ![Dynamics 365 Customer Voice Addl Responses tile.](media/addl-responses-license.png "Dynamics 365 Customer Voice Addl Responses tile")
+4. From the **Select license quantity** box, select or enter the number of licenses to purchase.
 
-4. Select **Buy**.
+5. Select **Buy**, and complete the purchase process.
 
-    ![Buy Dynamics 365 Customer Voice Addl Responses.](media/addl-responses-license-buy.png "Buy Dynamics 365 Customer Voice Addl Responses")
-
-5. Select the number of add-on licenses to purchase, and complete the purchase process. The purchased capacities are added on top of the available responses per month.
+    The purchased capacities are added on top of the available responses per month.
 
 
 ## Response capacity consumption
