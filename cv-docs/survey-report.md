@@ -1,7 +1,7 @@
 ---
 title: "View survey responses report | MicrosoftDocs"
 description: "This topic explains how to view a survey response report in Dynamics 365 Customer Voice after a respondent (tracked and anonymous) submits a survey."
-ms.date: 08/29/2024
+ms.date: 12/17/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -82,9 +82,14 @@ If there are more than 5,000 responses, you can choose to export responses to an
 
    ![Confirm email address to send CSV file.](media/export-email-confirm.png "Confirm email address to send CSV file")
 
-## Delete a survey response
+## Deleting Survey Responses  
+ 
+To delete a single survey response Open the **Respondents** panel on the right side Perform one of the following actions.  
+     - Select a response in the panel and click **Delete**.  
+     - Double-click a response to open it, then click **Delete**.  
 
-You can delete a response you don't need anymore. To delete a survey response, open the individual survey response from the **Respondents** panel, and then select **Delete**.
+To delete multiple survey responses Open the **Respondents** panel on the right side Select multiple responses Click **Delete**.
+
 
 ### See also
 
