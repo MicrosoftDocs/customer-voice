@@ -1,7 +1,7 @@
 ---
 title: "Create a multilingual survey | MicrosoftDocs"
 description: "You can add multiple languages and their translations to a survey. This topic explains how to create a multilingual survey with Dynamics 365 Customer Voice."
-ms.date: 06/27/2024
+ms.date: 12/17/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -77,7 +77,7 @@ After you've completed the setup of your survey in its root language, you can ad
 
 7. In the **Enter code** field, enter the code of the custom language. 
 
-   Let's say you want to add the **Spanish (Mexico)** language to your survey. You searched in the languages list and found only **Spanish (Spain, International Sort)**. In this case, you must manually add **Spanish (Mexico)** to the languages list. You'll define the display name as **Spanish (Mexico)** and the language code as **es-MX**.
+   Let's say you want to add the **Spanish (Mexico)** language to your survey. You searched in the languages list and found only **Spanish (Spain, International Sort)**. In this case, you must manually add **Spanish (Mexico)** to the languages list. You define the display name as **Spanish (Mexico)** and the language code as **es-MX**.
 
    ![Custom language being added to a survey.](media/add-custom-lang-1.png "Custom language being added to a survey")
 
@@ -163,12 +163,12 @@ If you've created a multilingual survey, you can decide whether your respondents
 
 The default language is the language in which the survey is loaded if no explicit locale variable is passed or if the respondent is using their web browser in a language for which you haven't added a translation.
 
-Let's assume you use the Dynamics 365 Customer Voice application in English. When you create a survey, English is set as the default language for the survey. However, a majority of your survey respondents are from France, so you want to change the default language from English to French.
+Let's assume you use the Dynamics 365 Customer Voice application in English. When you create a survey, English is set as the default language for the survey. However, most of your survey respondents are from France, so you want to change the default language from English to French.
 
 > [!NOTE]
 > The survey will be loaded in the default language only as a last resort&mdash;in a case where the respondent is using a browser language that's different from the available languages and no explicit locale variable has been passed through the URL. 
 
-You can change the default language for your survey from the **Languages** panel. Note that you can change the default language only when multiple languages have been added to the survey.
+You can change the default language for your survey from the **Languages** panel. You can change the default language only when multiple languages have been added to the survey.
 
 **To change the default language for a survey**
 
@@ -262,9 +262,9 @@ You can add up to 86 languages per survey. These can be a combination of out-of-
 
 If you're sending a personalized survey invitation through email or Power Automate, you can define the language code by using the out-of-the-box **locale** variable for each invitation.
 
-Let's say the language code in the contact record for your customer, Milton, is set to **ar** in your back-end CRM system. You can pass that as a parameter in your personalized invitation. This will ensure that the survey is loaded by default in Arabic for Milton.
+Let's say the language code in the contact record for your customer, Milton, is set to **ar** in your back-end CRM system. You can pass that as a parameter in your personalized invitation. This ensures that the survey is loaded by default in Arabic for Milton.
 
-You can also pass the locale parameters for each contact by using a CSV file . More information: [Import contacts from a CSV file](send-survey-email.md#import-contacts-from-a-csv-file)
+You can also pass the locale parameters for each contact by using a CSV file. More information: [Import contacts from a CSV file](send-survey-email.md#import-contacts-from-a-csv-file)
 
 Let's say that you aren't sending survey invitations through a personalized invitation link, and you know that all the respondents to your anonymous survey must see the survey in Arabic. In this case, you can add an explicit **lang=ar** parameter to the anonymous URL of the survey. This ensures that the survey will be loaded in the Arabic language for all respondents.
 
