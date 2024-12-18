@@ -86,11 +86,11 @@ If there are more than 5,000 responses, you can choose to export responses to an
 
 You can delete survey responses you don't need anymore.
 
-To delete a single survey response, open the **Respondents** panel on the right side and perform one of the following actions:  
-     - Select a response in the panel and select **Delete**.  
-     - Double-click a response to open it, then select **Delete**.  
+To delete a single survey response, open the **Respondents** panel on the right side, and perform one of the following actions:  
+- Select a response in the panel and then select **Delete**.  
+- Double-click a response to open it, and then select **Delete**.  
 
-To delete multiple survey responses, open the **Respondents** panel on the right side, select multiple responses select **Delete**.
+To delete multiple survey responses, open the **Respondents** panel on the right side, select multiple responses, and then select **Delete**.
 
 
 ### See also
