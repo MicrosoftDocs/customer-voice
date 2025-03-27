@@ -174,8 +174,6 @@ The aggregated score and scaled value are calculated as follows:
 
 Therefore, survey level score is 3.33.
 
-`image of the score in the satisfaction metrics report`
-
 ### Example 2
 
 You've created a survey containing one rating question with 5 stars and one single-choice question with 5 options. A user has responded to the survey with 4 stars and option 2. The custom score configuration is as follows: 
@@ -224,8 +222,6 @@ The aggregated score and scaled value are calculated as follows:
 
 Therefore, survey level score is 4.3.
 
-`image of the score in the satisfaction metrics report`
-
 ### Example 3
 
 You've created a survey containing one NPS question. Two users have responded to the survey with 5 and 10 respectively. The custom score configuration is as follows:
@@ -264,6 +260,8 @@ Scores of the question responses are calculated as follows:
 - Question score (q2) = 100 * 1 = 100
 - Final value = 100 / 1 = 100
 
+:::image type="content" source="media/custom-score-result3.png" alt-text="Custom score result with two responses to NPS question.":::
+
 The aggregated score and scaled value are calculated as follows:
 
 - Aggregated score = (50 + 100) / 2 = 75
@@ -271,7 +269,9 @@ The aggregated score and scaled value are calculated as follows:
 
 Therefore, survey level score is 75.
 
-`image of the score in the satisfaction metrics report`
+From the above three custom score examples, the satisfaction metrics report displays the scaled value as 3.33, 4.3, and 75 respectively. 
+
+:::image type="content" source="media/custom-score-examples-report.png" alt-text="Scaled value in satisfaction metrics report.":::
 
 
 ### See also
