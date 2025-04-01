@@ -1,7 +1,7 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Survey scoring allows you to assign a point value to individual answer options. This topic explains how to add scoring to a survey."
-ms.date: 03/27/2025
+ms.date: 04/01/2025
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -131,17 +131,16 @@ The score of a survey is calculated with the help of following components: base 
 
 1. Using the `Final value`, the `Aggregated score` is calculated as follows: `Aggregated score = Sum (Final value of responses) / Count of responses`
 
-1. Using the `Aggregated score` and `Base score`, the survey level custom score is calculated as follows: `Scaled value = (Aggregated score / 100) * (Scale Max – Scale Min) + Scale Min` 
+1. Using the `Aggregated score` and `Base score`, the survey level custom score is calculated as follows: `Scaled value = (Aggregated score / 100) * Scale Max` 
 
     where
     - `Scale Max` is the value of the base score
-    - `Scale Min` is the minimum value of the scale in graph. By default, the value of Scale Min is 0.
     - `Aggregated value` is the value obtained from the previous step.
 
     The `Scaled value` is scaled between 0 and value of the base score. By default, the value of base score is 10.  
 
     > [!NOTE]
-    > The `Scaled value` is the value that is displayed in the satisfaction metrics report. The range of the score depends on the value of base score that further scales the Aggregated score between 0 and the value of base score.
+    > The `Scaled value` is the value that is displayed in the satisfaction metrics report. The range of the score depends on the value of base score that further scales the Aggregated score between 0 and the value of base score. The scaled value is rounded to one decimal place.
 
 Let's understand the survey level score calculation with the help of following examples:
 
@@ -170,7 +169,7 @@ Therefore, score of the Customer Voice survey response is 33.3.
 
 The aggregated score and scaled value are calculated as follows:
 - Aggregated score = 33.3/1 = 33.3
-- Scaled value = (33.3 / 100) * (10 – 0) + 0 = 3.33
+- Scaled value = (33.3 / 100) * 10 = 3.33
 
 Therefore, survey level score is 3.33.
 
@@ -218,7 +217,7 @@ Therefore, score of the Customer Voice survey response is 85.7.
 
 The aggregated score and scaled value are calculated as follows:
 - Aggregated score = 85.7/1 = 85.7
-- Scaled value = (85.7 / 100) * (5 – 0) + 0 = 4.3
+- Scaled value = (85.7 / 100) * 5 = 4.3
 
 Therefore, survey level score is 4.3.
 
@@ -265,7 +264,7 @@ Scores of the question responses are calculated as follows:
 The aggregated score and scaled value are calculated as follows:
 
 - Aggregated score = (50 + 100) / 2 = 75
-- Scaled value = (75 / 100) * (100 – 0) + 0 = 75
+- Scaled value = (75 / 100) * 100 = 75
 
 Therefore, survey level score is 75.
 
