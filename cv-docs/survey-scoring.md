@@ -1,7 +1,7 @@
 ---
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Survey scoring allows you to assign a point value to individual answer options. This topic explains how to add scoring to a survey."
-ms.date: 06/27/2024
+ms.date: 04/01/2025
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -115,7 +115,7 @@ After you've created a **Custom Score** satisfaction metric, you can edit its de
 
 The score of a survey is calculated with the help of following components: base score, weight, and point values. Using these components, the score of a question response is calculated as follows:
 
-1. Normalized point value is calculated as follows: `Normalized value = ((ResponseValue - MinValue.) * 100) / (Max value – Min Value)`
+1. Normalized point value is calculated as follows: `Normalized value = ((ResponseValue - MinValue.) * 100) / (Max Value – Min Value)`
 
     where
     - `ResponseValue` is the point value of the response received for the question
@@ -127,7 +127,22 @@ The score of a survey is calculated with the help of following components: base 
 
 1. Using the `Normalized value` and `Question score`, final value of custom score is calculated as follows: `Final value = (Sum of question scores) / (Sum of weights assigned to questions)`
 
-Let's understand the survey score calculation with the help of following examples:
+    The final value in Dataverse is referred as the custom score for a particular Customer Voice survey response.
+
+1. Using the `Final value`, the `Aggregated score` is calculated as follows: `Aggregated score = Sum (Final value of responses) / Count of responses`
+
+1. Using the `Aggregated score` and `Base score`, the survey level custom score is calculated as follows: `Scaled value = (Aggregated score / 100) * Scale Max` 
+
+    where
+    - `Scale Max` is the value of the base score
+    - `Aggregated value` is the value obtained from the previous step.
+
+    The `Scaled value` is scaled between 0 and value of the base score. By default, the value of base score is 10.  
+
+    > [!NOTE]
+    > The `Scaled value` is the value that is displayed in the satisfaction metrics report. The range of the score depends on the value of base score that further scales the Aggregated score between 0 and the value of base score. The scaled value is rounded to one decimal place.
+
+Let's understand the survey level score calculation with the help of following examples:
 
 ### Example 1
 
@@ -148,9 +163,15 @@ The score of the question response is calculated as follows:
 - Question score = 33.3 * 4 = 133.3
 - Final value = 133.3 / 4 = 33.3
 
-Therefore, score of the survey is 33.3.
+Therefore, score of the Customer Voice survey response is 33.3.
 
 :::image type="content" source="media/custom-score-result1.png" alt-text="Custom score result with one question.":::
+
+The aggregated score and scaled value are calculated as follows:
+- Aggregated score = 33.3/1 = 33.3
+- Scaled value = (33.3 / 100) * 10 = 3.33
+
+Therefore, survey level score is 3.33.
 
 ### Example 2
 
@@ -166,6 +187,7 @@ From the above configuration and the response of the user, values of the compone
 - Response value = 4
 - MinValue = 1
 - MaxValue = 5
+- Base score = 5
  
 **Question 2: Single choice question**
 
@@ -189,9 +211,67 @@ Scores of the question responses are calculated as follows:
 
 Final value = (300 + 300) / (4 + 3) = 85.7
 
-Therefore, score of the survey is 85.7.
+Therefore, score of the Customer Voice survey response is 85.7.
 
 :::image type="content" source="media/custom-score-result2.png" alt-text="Custom score result with two questions.":::
+
+The aggregated score and scaled value are calculated as follows:
+- Aggregated score = 85.7/1 = 85.7
+- Scaled value = (85.7 / 100) * 5 = 4.3
+
+Therefore, survey level score is 4.3.
+
+### Example 3
+
+You've created a survey containing one NPS question. Two users have responded to the survey with 5 and 10 respectively. The custom score configuration is as follows:
+
+:::image type="content" source="media/custom-score-example3.png" alt-text="Custom score example with NPS question.":::
+
+From the above configuration and the response of the users, values of the components are as follows:
+
+**Response 1**
+
+- Weight = 1 
+- Response value = 5   
+- MinValue = 0 
+- MaxValue = 10 
+- Base Score = 100 
+
+**Response 2**
+
+- Weight = 1
+- Response value = 10
+- MinValue = 0
+- MaxValue = 10
+- Base Score = 100
+
+Scores of the question responses are calculated as follows:
+
+**Response 1**
+
+- Normalized value = ((5 – 0)*100) / (10 – 0) = 50
+- Question score (q1) = 50 * 1 = 50
+- Final value = 50 / 1 = 50
+
+**Response 2**
+
+- Normalized value = ((10 – 0)*100) / (10 – 0) = 100
+- Question score (q2) = 100 * 1 = 100
+- Final value = 100 / 1 = 100
+
+:::image type="content" source="media/custom-score-result3.png" alt-text="Custom score result with two responses to NPS question.":::
+
+The aggregated score and scaled value are calculated as follows:
+
+- Aggregated score = (50 + 100) / 2 = 75
+- Scaled value = (75 / 100) * 100 = 75
+
+Therefore, survey level score is 75.
+
+From the above three custom score examples, the satisfaction metrics report displays the scaled value as 3.33, 4.3, and 75 respectively. 
+
+:::image type="content" source="media/custom-score-examples-report.png" alt-text="Scaled value in satisfaction metrics report.":::
+
 
 ### See also
 
