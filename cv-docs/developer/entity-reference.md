@@ -36,9 +36,5 @@ Following is a simplified version of the entity relationship diagram of Dynamics
 |[msfp_unsubscribedrecipient](entities/msfp_unsubscribedrecipient.md)|Email address of an unsubscribed respondent.|
 |[msfp_satisfactionmetric](entities/msfp_satisfactionmetric.md)|Satisfaction metric defined for a project.|
 
-### See also
-
-[Entity reference for Microsoft Dynamics 365](/dynamics365/customer-engagement/developer/about-entity-reference)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
