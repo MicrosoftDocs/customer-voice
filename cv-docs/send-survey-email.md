@@ -27,7 +27,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 3. In the **Recipients** field, enter the recipient's name or email address. You can populate the **Recipients** field by using any of the following methods:
 
     - Entering an email address manually.
-    - Entering a name, email address, or a distribution group from Microsoft Entra ID. Ensure that you select the distribution group from the list of suggestions. 
+    - Entering a name, email address, or a distribution group from Microsoft Entra ID. Ensure that you select the distribution group from the list of suggestions, otherwise, the email won't be sent to the group. 
     - Entering a contact or contact list/view from Microsoft Dataverse. The contacts are populated from the environment in which your project is created.
     - Importing a CSV file by selecting **Import contacts**. More information: [Import contacts from a CSV file](#import-contacts-from-a-csv-file)
 
