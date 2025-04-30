@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 06/27/2024
+ms.date: 04/30/2025
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -269,6 +269,11 @@ There's no impact on the performance of Customer Voice when moving the organizat
 ## In which business unit is team created after sharing a project?
 
 When a project is shared with a team, the team is created in the root business unit (BU). We recommend not to change anything manually in the organization directly.
+
+## Why can't I see personalization variables in Create an Invitation and Send a Survey Power Automate connectors?
+
+[Perosnalization variables](personalize-survey.md) are not available in non-Open API Power Automate flows. It is recommended to create a new flow that is based on Open API by default. To check if your flow is non-Open API, see if there's Peek code on an action and if you see the API Connection value instead of Open API Connection in Kind field, it's a non-Open API flow.
+
 
 ## How can I share new feature requirements or ideas?
 
