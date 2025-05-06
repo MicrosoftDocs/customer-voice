@@ -2,7 +2,7 @@
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
 ms.date: 08/29/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---

@@ -2,7 +2,7 @@
 title: "Save survey progress | MicrosoftDocs"
 description: "This topic explains how to save a survey's progress and enable a user to complete a survey in multiple sittings."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---
