@@ -2,7 +2,7 @@
 title: "Data flow | MicrosoftDocs"
 description: "This topic explains about the flow of data in Dynamics 365 Customer Voice by using a data flow diagram."
 ms.date: 08/29/2024
-ms.topic: article
+ms.topic: concept-article
 author: sbmjais
 ms.author: shjais
 ---

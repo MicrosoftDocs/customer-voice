@@ -2,7 +2,7 @@
 title: "Create a branching rule for a survey | MicrosoftDocs"
 description: "Branching rules allow you to customize the flow of your survey. This topic explains how to create branching rules for a survey with Dynamics 365 Customer Voice."
 ms.date: 05/02/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---
