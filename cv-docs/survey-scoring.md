@@ -2,7 +2,7 @@
 title: "Add scoring to a survey | MicrosoftDocs"
 description: "Survey scoring allows you to assign a point value to individual answer options. This topic explains how to add scoring to a survey."
 ms.date: 04/01/2025
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---

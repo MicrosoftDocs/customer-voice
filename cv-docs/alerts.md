@@ -2,7 +2,7 @@
 title: "Work with alerts in Dynamics 365 Customer Voice | MicrosoftDocs"
 description: "Alerts are follow-up activities that are created based on the defined alert rules. This topic explains how to work with alerts in Dynamics 365 Customer Voice."
 ms.date: 06/24/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---

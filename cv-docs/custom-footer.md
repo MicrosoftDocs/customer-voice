@@ -2,7 +2,7 @@
 title: "Add custom footer text | MicrosoftDocs"
 description: "This topic explains how to add custom footer text in a survey created with Dynamics 365 Customer Voice."
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---
