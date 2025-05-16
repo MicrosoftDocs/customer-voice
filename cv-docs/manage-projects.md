@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 06/27/2024
+ms.date: 05/16/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -197,6 +197,9 @@ A notification is displayed in the upper-right corner when the project is update
 ## Delete a project
 
 You can delete a project that you don't need anymore. Deleting a project removes its surveys, satisfaction metrics, email templates, survey response data, and satisfaction metrics data. The Power Automate flows associated with the surveys are deactivated. The deletion of a project is permanent and can't be reverted.
+
+> [!NOTE]
+> If a project contains surveys that are created by other co-owners, the project can be deleted only after the surveys are deleted by the respective co-owners. 
 
 **To delete a project**
 

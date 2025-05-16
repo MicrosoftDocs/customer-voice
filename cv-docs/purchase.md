@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "This topic explains how to purchase Dynamics 365 Customer Voice licenses and additional survey responses."
-ms.date: 11/25/2024
+ms.date: 05/16/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Purchase Dynamics 365 Customer Voice
 
-Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise products. For a complete list of select Dynamics 365 enterprise products, go to [Dynamics 365 Customer Voice pricing](https://dynamics.microsoft.com/customer-voice/pricing/).
+Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise products. For a complete list of select Dynamics 365 enterprise products, go to [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 If you have other Dynamics 365 products or don't have a Dynamics 365 subscription, you may purchase Dynamics 365 Customer Voice separately.
 
