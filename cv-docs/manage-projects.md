@@ -159,7 +159,7 @@ The following components can be updated:
     - Email templates and their corresponding languages
 
 > [!NOTE]
-> When you update a project, existing email templates of the surveys are not updated. Instead, duplicate email templates are created for each template in the source survey. For example, there are two projects P1 and P1-copy. There are two surveys S1 and S2 in the project. Survey S2 contains email templates ET1 and ET2. When you update project P1 with project P1-copy, the email templates ET1 and ET2 are not updated. Instead, two new email templates ET1 and ET2 are created in the project P1.
+> When you update a project, existing email templates of the surveys are not updated. Instead, duplicate email templates are created for each template in the source survey. For example, there are two projects P1 and P1-copy. There are two surveys S1 and S2 in the project. Survey S2 contains an email template ET1. When you update project P1 with project P1-copy, the email template ET1 is not updated. Instead, a duplicate email template ET1 is created in the project P1. The duplicate email template is selected by default.
 
 Let's understand the update operation with the following example. 
 
