@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 05/29/2025
+ms.date: 05/30/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -159,7 +159,7 @@ The following components can be updated:
     - Email templates and their corresponding languages
 
 > [!NOTE]
-> When you update a project, existing email templates of the surveys are not updated. Instead, duplicate email templates are created for each template in the source survey. 
+> When you update a project, existing email templates of the surveys are not updated. Instead, duplicate email templates are created for each template in the source survey. For example, there are two projects P1 and P1-copy. There are two surveys S1 and S2 in the project. Survey S2 contains email templates ET1 and ET2. When you update project P1 with project P1-copy, the email templates ET1 and ET2 are not updated. Instead, two new email templates ET1 and ET2 are created in the project P1.
 
 Let's understand the update operation with the following example. 
 
