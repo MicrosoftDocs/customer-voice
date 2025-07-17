@@ -5,6 +5,7 @@ ms.date: 05/04/2021
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Integrate Dynamics 365 Customer Voice with Dynamics 365 Customer Service

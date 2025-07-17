@@ -5,6 +5,7 @@ ms.date: 05/02/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Send a survey from Dynamics 365

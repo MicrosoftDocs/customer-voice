@@ -7,6 +7,7 @@ author: "sbmjais"
 ms.author: "shjais"
 search.audienceType: 
   - developer
+ms.custom: sfi-image-nochange
 ---
 
 # Entity Reference for Dynamics 365 Customer Voice

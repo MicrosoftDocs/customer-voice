@@ -5,6 +5,7 @@ ms.date: 04/30/2025
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Dynamics 365 Customer Voice FAQ
