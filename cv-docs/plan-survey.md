@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: concept-article
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Plan to create a survey

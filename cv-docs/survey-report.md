@@ -5,6 +5,7 @@ ms.date: 12/18/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # View a survey response report
