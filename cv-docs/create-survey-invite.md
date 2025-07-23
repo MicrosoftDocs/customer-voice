@@ -5,6 +5,7 @@ ms.date: 01/08/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Create a survey invitation

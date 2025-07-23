@@ -5,6 +5,7 @@ ms.date: 05/16/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.custom: sfi-image-nochange
 ---
 
 # Customize the sender's email address
