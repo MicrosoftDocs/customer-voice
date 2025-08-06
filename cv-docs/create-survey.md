@@ -46,7 +46,7 @@ A survey is created automatically when you create a project (either from out-of-
 7. To delete a question, select it, and then select **Delete question** ![Delete a question.](media/delete-ques.png "Delete a question").
 
     > [!NOTE]
-    > The deletion of a question is permanent and can't be reverted.
+    > Once you delete a question, it can't be restored.
 
 ## Set visibility of a question
 
