@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "This topic explains how to create a generic survey link and custom survey links by using variables and share the survey with your customers."
-ms.date: 08/29/2024
+ms.date: 11/19/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -86,7 +86,7 @@ You can create a generic survey link or custom survey links. A generic survey li
 
 ## Create custom links by using a CSV file
 
-You can create custom links in bulk by uploading a CSV file. You can also associate survey responses to an entity by specifying regarding entity details.
+You can create custom links in bulk by uploading a CSV file.
 
 1. Open the survey, and go to the **Send** tab.
 
@@ -105,7 +105,7 @@ You can create custom links in bulk by uploading a CSV file. You can also associ
 
 5. Expand the **Advanced options** section, and select **Download template**.
 
-    The selected variables are available as separate columns in the CSV file. Specify the values as per your requirement. If you want to associate a survey response to an entity, you can add the **RegardingID** and **RegardingEntityName** columns to the CSV file and enter the information.
+    The selected variables are available as separate columns in the CSV file. Specify the values as per your requirement.
 
     ![Download a template to create custom links for the survey.](media/survey-custom-link-template.png "Download a template to create custom links for the survey")
 
