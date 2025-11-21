@@ -1,7 +1,7 @@
 ---
 title: "Add formatting to a survey | MicrosoftDocs"
 description: "This topic explains how to add formatting to a survey and control the general look and feel of your survey."
-ms.date: 06/27/2024
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais

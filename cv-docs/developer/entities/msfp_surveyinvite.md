@@ -1,7 +1,7 @@
 ---
 title: "msfp_surveyinvite Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyinvite entity."
-ms.date: 05/23/2023
+ms.date: 11/21/2025
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"

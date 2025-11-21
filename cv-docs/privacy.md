@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Customer Voice privacy compliance
 description: Learn how Dynamics 365 Customer Voice complies with privacy laws and regulations.
-ms.date: 08/29/2024
+ms.date: 11/21/2025
 ms.topic: concept-article
 author: sbmjais
 ms.author: shjais

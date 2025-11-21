@@ -1,7 +1,7 @@
 ---
 title: "Add branding to a survey | MicrosoftDocs"
 description: "This topic explains how to add branding to a survey and customize the appearance of your survey to match your company's branding."
-ms.date: 06/27/2024
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
