@@ -1,7 +1,7 @@
 ---
 title: "msfp_surveyinvite Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_surveyinvite entity."
-ms.date: 05/23/2023
+ms.date: 11/21/2025
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"
@@ -117,7 +117,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ActivityId"></a> ActivityId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -179,7 +179,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_BCC"></a> BCC
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -189,13 +189,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|bcc|
 |RequiredLevel|None|
-|Targets|account,contact,systemuser|
+|Targets|account, contact, systemuser|
 |Type|PartyList|
 
 
 ### <a name="BKMK_CC"></a> CC
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -205,7 +205,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|cc|
 |RequiredLevel|None|
-|Targets|account,contact,systemuser|
+|Targets|account, contact, systemuser|
 |Type|PartyList|
 
 
@@ -233,7 +233,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Customers"></a> Customers
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -290,7 +290,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|The message id of activity which is returned from Exchange Server.|
+|Description|The message id of activity that is returned from Exchange Server.|
 |DisplayName|Exchange Item ID|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -320,7 +320,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_From"></a> From
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -330,7 +330,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|from|
 |RequiredLevel|None|
-|Targets|account,contact,systemuser|
+|Targets|account, contact, systemuser|
 |Type|PartyList|
 
 
@@ -422,7 +422,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_LastOnHoldTime"></a> LastOnHoldTime
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -722,7 +722,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OptionalAttendees"></a> OptionalAttendees
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -732,13 +732,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|optionalattendees|
 |RequiredLevel|None|
-|Targets|account,contact,knowledgearticle,queue,systemuser,unresolvedaddress|
+|Targets|account, contact,knowledgearticle,queue,systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
 ### <a name="BKMK_Organizer"></a> Organizer
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -770,7 +770,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -786,7 +786,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -801,7 +801,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Partners"></a> Partners
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -811,7 +811,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|partners|
 |RequiredLevel|None|
-|Targets|account,contact|
+|Targets|account, contact|
 |Type|PartyList|
 
 
@@ -839,7 +839,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ProcessId"></a> ProcessId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -854,7 +854,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -864,13 +864,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,contact,interactionforemail,knowledgearticle,knowledgebaserecord|
+|Targets|account, contact,interactionforemail,knowledgearticle,knowledgebaserecord|
 |Type|Lookup|
 
 
 ### <a name="BKMK_RegardingObjectIdName"></a> RegardingObjectIdName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -888,7 +888,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_RegardingObjectIdYomiName"></a> RegardingObjectIdYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -906,7 +906,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_RegardingObjectTypeCode"></a> RegardingObjectTypeCode
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -921,7 +921,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_RequiredAttendees"></a> RequiredAttendees
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -931,13 +931,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|requiredattendees|
 |RequiredLevel|None|
-|Targets|account,contact,knowledgearticle,queue,systemuser,unresolvedaddress|
+|Targets|account, contact,knowledgearticle,queue,systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
 ### <a name="BKMK_Resources"></a> Resources
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -999,7 +999,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_SLAId"></a> SLAId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1030,7 +1030,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_StageId"></a> StageId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1124,7 +1124,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_To"></a> To
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1134,13 +1134,13 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|to|
 |RequiredLevel|None|
-|Targets|account,contact,systemuser|
+|Targets|account, contact, systemuser|
 |Type|PartyList|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1156,7 +1156,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TraversedPath"></a> TraversedPath
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1246,7 +1246,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1262,7 +1262,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1280,7 +1280,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1313,7 +1313,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1329,7 +1329,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1347,7 +1347,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1380,7 +1380,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1445,7 +1445,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1461,7 +1461,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1479,7 +1479,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1512,7 +1512,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1528,7 +1528,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1546,7 +1546,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1580,7 +1580,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1598,7 +1598,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1616,7 +1616,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1634,7 +1634,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1650,7 +1650,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1666,7 +1666,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1697,7 +1697,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_SenderMailboxId"></a> SenderMailboxId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1713,7 +1713,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_SenderMailboxIdName"></a> SenderMailboxIdName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1759,7 +1759,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_SLAInvokedId"></a> SLAInvokedId
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1775,7 +1775,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_SLAInvokedIdName"></a> SLAInvokedIdName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1793,7 +1793,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_SLAName"></a> SLAName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1811,7 +1811,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|
@@ -1829,7 +1829,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Added by**: Active Solution Solution
+**Added by**: Active Solution
 
 |Property|Value|
 |--------|-----|

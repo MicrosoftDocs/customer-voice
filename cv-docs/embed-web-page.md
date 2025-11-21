@@ -1,7 +1,7 @@
 ---
 title: "Embed a survey in a webpage | MicrosoftDocs"
 description: "This topic explains how to embed your survey in a webpage by pasting the survey's embed code into your webpage's source code."
-ms.date: 08/29/2024
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais

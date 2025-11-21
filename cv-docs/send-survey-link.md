@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "This topic explains how to create a generic survey link and custom survey links by using variables and share the survey with your customers."
-ms.date: 11/19/2025
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais

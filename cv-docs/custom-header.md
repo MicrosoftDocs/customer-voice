@@ -1,7 +1,7 @@
 ---
 title: "Customize header of a survey | MicrosoftDocs"
 description: "This topic explains how to customize the header of a survey created with Dynamics 365 Customer Voice."
-ms.date: 05/02/2024
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais

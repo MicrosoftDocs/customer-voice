@@ -1,7 +1,7 @@
 ---
 title: "Administrator settings | MicrosoftDocs"
 description: "You can control various administrator settings such as recording the names of people in your organization and protecting surveys from phishing."
-ms.date: 09/10/2020
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
