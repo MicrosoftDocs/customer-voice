@@ -243,7 +243,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|customers|
 |RequiredLevel|None|
-|Targets|account, contact|
+|Targets|account,contact|
 |Type|PartyList|
 
 
@@ -330,7 +330,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|from|
 |RequiredLevel|None|
-|Targets|account, contact,systemuser|
+|Targets|account, contact, systemuser|
 |Type|PartyList|
 
 
@@ -1134,7 +1134,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |IsValidForRead|True|
 |LogicalName|to|
 |RequiredLevel|None|
-|Targets|account, contact,systemuser|
+|Targets|account, contact, systemuser|
 |Type|PartyList|
 
 
