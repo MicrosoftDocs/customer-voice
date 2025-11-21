@@ -1,7 +1,7 @@
 ---
 title: "Send a survey to your respondents | MicrosoftDocs"
 description: "Use this topic to learn about various methods available in Dynamics 365 Customer Voice for sending a survey to your respondents."
-ms.date: 08/29/2024
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais

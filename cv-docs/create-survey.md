@@ -1,7 +1,7 @@
 ---
 title: "Create a survey | MicrosoftDocs"
 description: "A survey is created automatically when you create a project. This topic explains how to create a survey in Dynamics 365 Customer Voice."
-ms.date: 08/05/2025
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais

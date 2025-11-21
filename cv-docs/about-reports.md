@@ -1,7 +1,7 @@
 ---
 title: "About reports | MicrosoftDocs"
 description: "This topic explains how to view and analyze survey results by using reports in Dynamics 365 Customer Voice."
-ms.date: 08/29/2024
+ms.date: 11/21/2025
 ms.topic: concept-article
 author: sbmjais
 ms.author: shjais

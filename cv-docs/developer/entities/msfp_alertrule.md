@@ -1,7 +1,7 @@
 ---
 title: "msfp_alertrule entity reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_alertrule entity."
-ms.date: 10/01/2021
+ms.date: 11/21/2025
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"

@@ -1,7 +1,7 @@
 ---
 title: "Get started | MicrosoftDocs"
 description: "Dynamics 365 Customer Voice is an enterprise feedback management application. This topic helps you to get started with Dynamics 365 Customer Voice."
-ms.date: 06/27/2024
+ms.date: 11/21/2025
 ms.topic: overview
 author: sbmjais
 ms.author: shjais

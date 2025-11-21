@@ -1,7 +1,7 @@
 ---
 title: "msfp_project Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msfp_project entity."
-ms.date: 07/30/2020
+ms.date: 11/21/2025
 ms.topic: "reference"
 author: "sbmjais"
 ms.author: "shjais"

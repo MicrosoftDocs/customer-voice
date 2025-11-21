@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 05/30/2025
+ms.date: 11/21/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
