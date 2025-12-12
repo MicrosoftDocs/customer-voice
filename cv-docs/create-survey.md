@@ -85,7 +85,7 @@ You can add an image or video to a question in your survey. This helps your resp
 
 5. To add a video, select **Video**.
 
-    1. Enter the URL of the video hosted on Microsoft Stream or YouTube.
+    1. Enter the URL of the video hosted on Microsoft OneDrive or YouTube.
     
     2. Select **Add**.
 
