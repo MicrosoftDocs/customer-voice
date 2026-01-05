@@ -276,6 +276,15 @@ When a project is shared with a team, the team is created in the root business u
 [Perosnalization variables](personalize-survey.md) are not available in non-Open API Power Automate flows. It is recommended to create a new flow that is based on Open API by default. To check if your flow is non-Open API, see if there's Peek code on an action and if you see the API Connection value instead of Open API Connection in Kind field, it's a non-Open API flow.
 
 
+## Why do invite counts differ between the Send tab and exported data?
+
+The invite count shown on the [**Total invites** card](view-survey-invite.md) in the **Send** tab may differ from the count in [exported data](view-survey-invite.md#export-invitation-details) because they use different data sources:
+
+- **Exported data**: Generated directly from Microsoft Dataverse and reflects the actual invite records created. This data is accurate and complete, and you can verify it through exports or Advanced Find.
+- **Send tab**: Displays a summarized dashboard view for quick reference. During periods of high activity or when sending a large number of invites simultaneously, this view may not fully align with historical data.
+
+As a result, you may notice differences between the invite count shown on the [**Total invites** card](view-survey-invite.md) in the **Send** tab and the [exported](view-survey-invite.md#export-invitation-details) counts across multiple projects or surveys. However, the exported Dataverse data is always accurate and complete.
+
 ## How can I share new feature requirements or ideas?
 
 You can share your new feature requirements or ideas on the [Customer Voice Ideas](https://aka.ms/customervoiceideas) page.
