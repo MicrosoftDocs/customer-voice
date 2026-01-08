@@ -14,7 +14,7 @@ ms.author: shjais
 Microsoft Forms Pro is rebranded as Dynamics 365 Customer Voice. With this rebranding, all your surveys from Forms Pro are moved to Dynamics 365 Customer Voice and you can perform all the actions in Dynamics 365 Customer Voice that you performed in Forms Pro. There's no impact to your existing Forms Pro surveys with the transition to Dynamics 365 Customer Voice. You'll now have new capabilities along with the new user interface. All the existing surveys will continue to receive responses. If Power Automate flows were created, they will continue to work.
 
 > [!NOTE]
-> - To use Dynamics 365 Customer Voice, the [Dynamics 365 Customer Voice app](https://appsource.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) version 2.0.0.3 or the latest must be installed in your environment. Ask your tenant administrator to install the app from Microsoft AppSource.
+> - To use Dynamics 365 Customer Voice, the [Dynamics 365 Customer Voice app](https://marketplace.microsoft.com/product/dynamics-365/mscrm.shimla?tab=Overview) (formerly called Microsoft Forms Pro) version 2.0.0.3 or the latest must be installed in your environment. Ask your tenant administrator to install the app from Microsoft Marketplace.
 
 ## What happens to Forms Pro surveys?
 
