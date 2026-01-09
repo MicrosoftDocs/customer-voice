@@ -12,7 +12,7 @@ ms.custom: sfi-image-nochange
 <!--markdownlint-disable MD036-->
 **Prerequisites**
 
-- An administrator must install the [Send Customer Voice survey from Dynamics 365](https://appsource.microsoft.com/product/dynamics-365/msfp.customervoicedistribution?tab=DetailsAndSupport) app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
+- An administrator must install the [Send Customer Voice survey from Dynamics 365](https://marketplace.microsoft.com/product/dynamics-365/msfp.customervoicedistribution?tab=DetailsAndSupport) app in your environment for you to send surveys from customer engagement applications. If the option to send surveys isn't visible, contact your administrator.
 
 - An administrator must configure the Power Automate flow to send surveys. More information: [Configure the Power Automate flow](#configure-the-power-automate-flow).
 
