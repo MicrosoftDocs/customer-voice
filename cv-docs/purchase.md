@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "This topic explains how to purchase Dynamics 365 Customer Voice licenses and additional survey responses."
-ms.date: 11/21/2025
+ms.date: 02/11/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -14,13 +14,13 @@ Dynamics 365 Customer Voice is included with select Dynamics 365 enterprise prod
 
 If you have other Dynamics 365 products or don't have a Dynamics 365 subscription, you may purchase Dynamics 365 Customer Voice separately.
 
-## Enable Dynamics 365 Customer Voice for users with Dynamics 365 enterprise licenses
+## Enable Dynamics 365 Customer Voice for users with Dynamics 365 enterprise products
 
-A tenant with select Dynamics 365 enterprise licenses assigned has 2,000 responses per month included at the tenant level (irrespective of how many seats the tenant has). If the free responses are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month as mentioned in the [Purchase additional responses](#purchase-additional-responses) section.
+A tenant with select Dynamics 365 enterprise products assigned has 2,000 responses per month included at the tenant level (irrespective of how many seats the tenant has). If the free responses are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month as mentioned in the [Purchase additional responses](#purchase-additional-responses) section.
 
 ### Disable Dynamics 365 Customer Voice for a user
 
-Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 enterprise license assigned. If you want to disable Dynamics 365 Customer Voice for a user:
+Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 enterprise product license assigned. If you want to disable Dynamics 365 Customer Voice for a user:
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -43,11 +43,11 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
 
 6. Select **Save changes**.
 
-## Purchase Dynamics 365 Customer Voice for users without a Dynamics 365 enterprise license
+## Purchase Dynamics 365 Customer Voice for users without a Dynamics 365 enterprise product
 
-If you don't have select Dynamics 365 enterprise products, you must first purchase and assign at least one **Dynamics 365 Customer Voice** license. The **Dynamics 365 Customer Voice** license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month. You must also purchase and assign the free **Dynamics 365 Customer Voice USL** license equal to the number of users who need access to Dynamics 365 Customer Voice.
+If you don't have select Dynamics 365 enterprise products, you must first purchase and assign at least one license for Dynamics 365 Customer Voice. The license includes 2,000 responses per month. If the responses included with the license are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month. You must also purchase and assign the free User Subscription License (USL) equal to the number of users who need access to Dynamics 365 Customer Voice.
 
-### Purchase the Dynamics 365 Customer Voice license
+### Purchase the license for Dynamics 365 Customer Voice
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -73,9 +73,9 @@ If you don't have select Dynamics 365 enterprise products, you must first purcha
     
     5. Select **Save changes**.
 
-### Purchase the Dynamics 365 Customer Voice USL license
+### Purchase the User Subscription License (USL)
 
-After you purchase the **Dynamics 365 Customer Voice** license, you must purchase the **Dynamics 365 Customer Voice USL** license and assign it to the users in your organization. The **Dynamics 365 Customer Voice USL** license is a free user license.
+After you purchase the license for Dynamics 365 Customer Voice, you must purchase the User Subscription License (USL) and assign it to the users in your organization. The User Subscription License (USL) is a free user license.
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
@@ -138,9 +138,9 @@ You can purchase additional responses from the Microsoft 365 admin center.
 
 ## Response capacity consumption
 
-The Dynamics 365 Customer Voice license is based on the number of survey responses received per month. The capacity is measured at the tenant level. The tenant administrator must purchase additional responses to ensure business continuity and avoid possible disruptions to the service after the number of survey responses exceeds the purchased response capacity.
+The license for Dynamics 365 Customer Voice is based on the number of survey responses received per month. The capacity is measured at the tenant level. The tenant administrator must purchase additional responses to ensure business continuity and avoid possible disruptions to the service after the number of survey responses exceeds the purchased response capacity.
 
-One additional license, Dynamics 365 Customer Voice Addl Responses, costs $100 and allows you to receive 1,000 responses per month at a tenant level. This means that everyone in the tenant can use a total of 1,000 responses. You can purchase the licenses in bundles of $100 as required. So if you purchase one Dynamics 365 Customer Voice Addl Responses license (for a bill amount of $1,200), you'll get 12,000 responses (12 &times; 1,000) annually. If you purchase two licenses of $100 each per month for a year (for a bill amount of $2,400), you'll get 24,000 responses (12 &times; 2,000) annually.
+One license for additional responses costs $100 and allows you to receive 1,000 responses per month at a tenant level. This means that everyone in the tenant can use a total of 1,000 responses. You can purchase the licenses in bundles of $100 as required. So if you purchase one license for additional responses (for a bill amount of $1,200), you'll get 12,000 responses (12 &times; 1,000) annually. If you purchase two licenses for additional responses of $100 each per month for a year (for a bill amount of $2,400), you'll get 24,000 responses (12 &times; 2,000) annually.
 
 You can pay for the licenses by using either of the payment modes: monthly or yearly. Regardless of the payment mode, the response capacity is calculated annually.
 

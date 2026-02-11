@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 11/21/2025
+ms.date: 02/11/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -178,7 +178,7 @@ You've moved a customer satisfaction survey to the production environment, and w
 As a company policy, you can't edit surveys directly in the production environment. Therefore, you create a copy of the survey in the development environment and make the required changes. You now update the survey in the production environment by using the copy that you created and updated in the development environment.
 
 > [!NOTE]
-> If a survey is available only in the target environment, but not in the source environment, the survey in the target environment will be deleted when you perform the update action on the target project. For example, if the source project has two surveys (S1 and S2) and the target project has three surveys (S1, S2, and S3), S3 will be deleted when you update the target project with the source project.
+> If a survey is available only in the target environment, but not in the source environment, the survey in the target environment will be deleted when you perform the update action on the target project. For example, if the source project has two surveys (S1 and S2) and the target project has three surveys (S1, S2, and S3), S3 will be deleted when you update the target project with the source project. When S3 is deleted, all its associated data, such as survey responses and survey invitations are deleted.
 
 **To update the project**
 
