@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 01/05/2026
+ms.date: 02/11/2026
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
@@ -284,6 +284,33 @@ The invite count shown on the [**Total invites** card](view-survey-invite.md) in
 - **Send tab**: Displays a summarized dashboard view for quick reference. During periods of high activity or when sending a large number of invites simultaneously, this view may not fully align with historical data.
 
 As a result, you may notice differences between the invite count shown on the [**Total invites** card](view-survey-invite.md) in the **Send** tab and the [exported](view-survey-invite.md#export-invitation-details) counts across multiple projects or surveys. However, the exported Dataverse data is always accurate and complete.
+
+## I have an enterprise license assigned by my tenant admin that includes Dynamics 365 Customer Voice, but I still get the error "Your account is not enabled for Dynamics 365 Customer Voice." Why?
+
+Having an enterprise license assigned doesn't automatically grant access to Dynamics 365 Customer Voice. The Customer Voice app must also be explicitly enabled for your user account. Ask your tenant administrator to enable the Customer Voice app for your account.
+
+## As a user, how can I check if the Customer Voice app is enabled for my account?
+
+To verify whether the Customer Voice app is enabled for your account:
+
+1. Sign in to the [Azure portal](https://portal.azure.com).
+2. On the Home page, select **Users**.
+3. Search for and select your user account.
+4. In the left pane, select **Licenses**.
+5. Select the enterprise license that includes Dynamics 365 Customer Voice.
+6. In the list of apps included with the license, verify that **Dynamics 365 Customer Voice** is selected.
+
+## As a tenant administrator, how do I enable the Customer Voice app for a user?
+
+To enable the Customer Voice app for a user:
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com).
+2. Go to **Users** > **Active users**.
+3. Search for and select the user record.
+4. Select the **Licenses and apps** tab.
+5. Select the license that includes Dynamics 365 Customer Voice.
+6. Expand **Apps** and select **Dynamics 365 Customer Voice** to enable it for the user.
+7. Select **Save changes**.
 
 ## How can I share new feature requirements or ideas?
 
