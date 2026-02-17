@@ -1,7 +1,7 @@
 ---
 title: "Purchase Dynamics 365 Customer Voice and additional license | MicrosoftDocs"
 description: "This topic explains how to purchase Dynamics 365 Customer Voice licenses and additional survey responses."
-ms.date: 02/11/2026
+ms.date: 02/17/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -38,6 +38,9 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
     - Microsoft Dynamics 365 Customer Voice for Field Service
     - Microsoft Dynamics 365 Customer Voice for Marketing
     - Microsoft Dynamics 365 Customer Voice for Human Resources
+
+    > [!NOTE]
+    > If you have Dynamics 365 Customer Insights, you must also also purchase the free User Subscription License (USL) for Dynamics 365 Customer Voice equal to the number of users who need access to Dynamics 365 Customer Voice, and assign it to the users. 
 
     ![Disable Dynamics 365 Customer Voice for a user.](media/disable-cv-user.png "Disable Dynamics 365 Customer Voice for a user")
 
