@@ -40,7 +40,7 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
     - Microsoft Dynamics 365 Customer Voice for Human Resources
 
     > [!NOTE]
-    > If you have Dynamics 365 Customer Insights, you must also also purchase the free User Subscription License (USL) for Dynamics 365 Customer Voice equal to the number of users who need access to Dynamics 365 Customer Voice, and assign it to the users. 
+    > If you have Dynamics 365 Customer Insights, you must also [purchase the free User Subscription License (USL)](#purchase-the-user-subscription-license-usl) for Dynamics 365 Customer Voice equal to the number of users who need access to Dynamics 365 Customer Voice, and assign it to the users. 
 
     ![Disable Dynamics 365 Customer Voice for a user.](media/disable-cv-user.png "Disable Dynamics 365 Customer Voice for a user")
 
