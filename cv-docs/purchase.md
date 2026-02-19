@@ -18,6 +18,9 @@ If you have other Dynamics 365 products or don't have a Dynamics 365 subscriptio
 
 A tenant with select Dynamics 365 enterprise products assigned has 2,000 responses per month included at the tenant level (irrespective of how many seats the tenant has). If the free responses are exhausted, you can purchase additional responses in bundles of $100 for 1,000 responses per month as mentioned in the [Purchase additional responses](#purchase-additional-responses) section.
 
+> [!NOTE]
+> If your organization has Dynamics 365 Customer Insights, you must also [purchase the free User Subscription License (USL)](#purchase-the-user-subscription-license-usl) for Dynamics 365 Customer Voice. You need one license for each user who requires access to Dynamics 365 Customer Voice, and you must assign it to those users. 
+
 ### Disable Dynamics 365 Customer Voice for a user
 
 Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 enterprise product license assigned. If you want to disable Dynamics 365 Customer Voice for a user:
@@ -38,9 +41,6 @@ Dynamics 365 Customer Voice is available to all users who have a Dynamics 365 en
     - Microsoft Dynamics 365 Customer Voice for Field Service
     - Microsoft Dynamics 365 Customer Voice for Marketing
     - Microsoft Dynamics 365 Customer Voice for Human Resources
-
-    > [!NOTE]
-    > If your organization has Dynamics 365 Customer Insights, you must also [purchase the free User Subscription License (USL)](#purchase-the-user-subscription-license-usl) for Dynamics 365 Customer Voice. You need one license for each user who requires access to Dynamics 365 Customer Voice, and you must assign it to those users. 
 
     ![Disable Dynamics 365 Customer Voice for a user.](media/disable-cv-user.png "Disable Dynamics 365 Customer Voice for a user")
 
