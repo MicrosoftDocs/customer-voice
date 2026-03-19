@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 02/11/2026
+ms.date: 03/19/2026
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
@@ -49,6 +49,10 @@ The following services will not be impacted by this change:
 ## I deleted data from Microsoft Dataverse but it's visible in reports.
 
 It's recommended not to delete data directly from Microsoft Dataverse. If you delete any data directly from Microsoft Dataverse, it isn't synchronized with Customer Voice services. If you want to delete any data, you must delete using the Dynamics 365 Customer Voice interface.
+
+## I deleted a question in Dynamics 365 Customer Voice, but I can still see it in Dataverse. Is this expected?
+
+Yes. When a question is deleted from the Dynamics 365 Customer Voice interface, it isn't permanently removed from Microsoft Dataverse. Instead, the question record is moved to the **Inactive Questions** view. By default, Dynamics 365 Customer Voice shows only active questions, so deleted questions aren't visible in the application UI. Question records are permanently deleted only when the associated survey is deleted.
 
 ## Why does the application user require the System Administrator role?
 
