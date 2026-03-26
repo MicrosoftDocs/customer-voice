@@ -1,7 +1,7 @@
 ---
 title: "Share a survey by using a survey link | MicrosoftDocs"
 description: "This topic explains how to create a generic survey link and custom survey links by using variables and share the survey with your customers."
-ms.date: 11/21/2025
+ms.date: 03/26/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -62,7 +62,8 @@ You can create a generic survey link or custom survey links. A generic survey li
 5. Under **Add values for each variable**, add values to each of the selected variables.
 
     > [!NOTE]
-    > Do not use the following special characters while adding values for variables: #, %, &, \\, ', and <.
+    > - Do not use the following special characters while adding values for variables: #, %, &, \\, ', and <.
+    > - Custom survey links pass variables as URL parameters, so the variable values are visible to respondents. If you don't want to include variables in the URL, use other distribution options such as [email](send-survey-email.md) or the [Send a survey](send-survey-flow.md#send-a-survey-action) and [Create an invitation](create-survey-invite.md) actions in Power Automate.
 
 6. To add more values, select **Add more values**.
 

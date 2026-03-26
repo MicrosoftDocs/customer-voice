@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 03/19/2026
+ms.date: 03/26/2026
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
@@ -275,9 +275,26 @@ There's no impact on the performance of Customer Voice when moving the organizat
 
 When a project is shared with a team, the team is created in the root business unit (BU). We recommend not to change anything manually in the organization directly.
 
+## What should I do if I am unable to see members in the Access tab, or if the Access tab displays a "Loading error. Please try reloading this page" message for a shared project?
+
+If the **Access** tab doesn't show members, or if it displays the message **Loading error. Please try reloading this page**, the Microsoft Entra ID group associated with the shared project might have been deleted.
+
+When the group is deleted, it first enters a soft-deleted state. During this period, the group no longer functions, but it can still be restored within 30 days.
+
+To check whether the group can be restored:
+
+1. Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com/).
+2. Go to **Groups** > **Deleted groups**.
+3. Search for the group associated with the shared project. Groups created for Customer Voice projects use the format `<ProjectName>_CVOwners_<ProjectID>`.
+4. Enter `<ProjectName>_CVOwners` in the search box to narrow the results. For example, `HealthService_CVOwners`.
+5. From the search results, select the group that matches the format `<ProjectName>_CVOwners_<ProjectID>`.
+6. Select **Restore group**.
+
+After the group is restored, the members should appear again in the project's **Share** panel > **Access** tab.
+
 ## Why can't I see personalization variables in Create an Invitation and Send a Survey Power Automate connectors?
 
-[Perosnalization variables](personalize-survey.md) are not available in non-Open API Power Automate flows. It is recommended to create a new flow that is based on Open API by default. To check if your flow is non-Open API, see if there's Peek code on an action and if you see the API Connection value instead of Open API Connection in Kind field, it's a non-Open API flow.
+[Personalization variables](personalize-survey.md) are not available in non-Open API Power Automate flows. It is recommended to create a new flow that is based on Open API by default. To check if your flow is non-Open API, see if there's Peek code on an action and if you see the API Connection value instead of Open API Connection in Kind field, it's a non-Open API flow.
 
 
 ## Why do invite counts differ between the Send tab and exported data?
