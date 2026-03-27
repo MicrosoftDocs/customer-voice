@@ -275,9 +275,9 @@ There's no impact on the performance of Customer Voice when moving the organizat
 
 When a project is shared with a team, the team is created in the root business unit (BU). We recommend not to change anything manually in the organization directly.
 
-## What should I do if I am unable to see members in the Access tab, or if the Access tab displays a "Loading error. Please try reloading this page" message for a shared project?
+## What should I do if I am unable to see members in the Access tab or it displays an error message for a shared project?
 
-If the **Access** tab doesn't show members, or if it displays the message **Loading error. Please try reloading this page**, the Microsoft Entra ID group associated with the shared project might have been deleted.
+If the **Access** tab doesn't show members or it displays the message **Loading error. Please try reloading this page**, the Microsoft Entra ID group associated with the shared project might have been deleted.
 
 When the group is deleted, it first enters a soft-deleted state. During this period, the group no longer functions, but it can still be restored within 30 days.
 
