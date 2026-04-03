@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 11/21/2025
+ms.date: 04/03/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -35,6 +35,9 @@ The following survey invitation statistics are displayed in the upper part of th
 - **Not sent**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
 
 ![Screenshot of a survey invitation report.](media/invite-report.png "Survey invitation report")
+
+> [!NOTE]
+> The **Unsubscribed** count shows survey invites that weren't sent because the recipients were unsubscribed at the time the invites were sent. This count is historical and doesn't change if a recipient subscribes again later. Re-subscribing affects only future invites and doesn't update past invite records.
 
 ## View invitation details
 
