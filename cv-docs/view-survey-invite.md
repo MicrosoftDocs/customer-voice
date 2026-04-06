@@ -37,7 +37,7 @@ The following survey invitation statistics are displayed in the upper part of th
 ![Screenshot of a survey invitation report.](media/invite-report.png "Survey invitation report")
 
 > [!NOTE]
-> The **Unsubscribed** count shows survey invites that weren't sent because the recipients were unsubscribed at the time the invites were sent. This count is historical and doesn't change if a recipient subscribes again later. Re-subscribing affects only future invites and doesn't update past invite records.
+> The **Unsubscribed** count shows the number of survey invites that weren't sent because the recipients were unsubscribed at the time the invites were sent. This count is historical and doesn't change if a recipient subscribes again later. Re-subscribing affects only future invites and doesn't update past invite records.
 
 ## View invitation details
 
