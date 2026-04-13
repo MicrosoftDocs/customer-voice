@@ -1,15 +1,13 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "This topic explains how to use survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey."
-ms.date: 11/21/2025
+ms.date: 04/13/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---
 
 # Work with survey distribution settings
-
-
 
 After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they have to sign in if you're only allowing people in your organization to respond. You can also define various response and notification options.
 
