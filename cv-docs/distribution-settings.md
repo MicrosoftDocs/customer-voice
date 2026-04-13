@@ -1,15 +1,13 @@
 ---
 title: "Survey distribution settings | MicrosoftDocs"
 description: "This topic explains how to use survey distribution settings in Dynamics 365 Customer Voice to control who can respond to your survey."
-ms.date: 11/21/2025
+ms.date: 04/13/2025
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
 ---
 
 # Work with survey distribution settings
-
-
 
 After you've created a survey, you can select distribution settings to control responses to your survey. You can choose to allow anyone to respond to the survey, or only people in your organization. If anyone can take the survey, respondents won't have to sign in, whereas they have to sign in if you're only allowing people in your organization to respond. You can also define various response and notification options.
 
@@ -48,6 +46,9 @@ The available settings are:
     By default, this setting is turned off and the respondent's name is recorded.
 
     When you turn on this setting, the respondent's first name, last name, and email aren't saved in response records by default. If you've added variables to your survey, their values also won't be stored in response records by default. This is helpful when you want to collect survey responses anonymously. A message is displayed below this option that the variables settings are enabled. You can turn on the toggle for the required variable if you want to store its value in the response record. More information: [Personalize a survey by using variables](personalize-survey.md)
+
+    > [!IMPORTANT]
+    > If you share a survey by using a generic or custom survey link (a non-personalized link), responses are always recorded as anonymous, regardless of this setting.
 
     ![Variables settings enabled.](media/variables-settings-enabled.png "Variables settings enabled")
 
@@ -137,12 +138,17 @@ The available settings are:
 
 Personalized survey links or trackable links are generated when a survey is sent by using the built-in email composer and Power Automate. A survey link is unique to its recipient, and helps to record the respondent's name and/or whether the respondent can submit only one response. The personalized link is a short URL in the following format: `https://<region>.microsoft.com/<10-digit code>`
 
-When you send a survey by generating a link or a QR code, the survey links aren't personalized. If the survey links aren't personalized:
+Whether respondent details are captured depends on how the survey is distributed:
 
-- You won't be able to record the respondent's name if the **Only people in my organization can respond** setting is turned off.
-- You won't be able to determine whether the respondent has submitted only one response if the **One response per person** setting is turned on.
+- **Survey sent by email**: When a survey is sent by using the [built-in email composer](send-survey-email.md) or [Power Automate with recipient mapping](send-survey-flow.md), each recipient gets a personalized link. Responses are non-anonymous by default, and respondent details are available in Customer Voice and Microsoft Dataverse (unless you turn on **Anonymous responses**).
 
-If you want to limit one response per person for non-personalized links, you must turn on **Only people in my organization can respond** and **One response per person** settings.
+- **Survey shared by generic or custom link**: When a survey is shared by using [a survey link](send-survey-link.md) (for example, through chat, manual copy, or external channels), the link isn't personalized. Responses submitted through non-personalized links are always recorded as anonymous, regardless of the **Anonymous responses** setting.
+
+    When survey links aren't personalized:
+    - You can't record the respondent's name if the **Only people in my organization can respond** setting is turned off.
+    - You can't determine whether a respondent has submitted only one response if **One response per person** is turned on.
+
+    If you want to limit one response per person for non-personalized links, you must turn on **Only people in my organization can respond** and **One response per person** settings.
 
 
 ### See also
