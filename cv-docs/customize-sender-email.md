@@ -1,7 +1,7 @@
 ---
 title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
 description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
-ms.date: 11/21/2025
+ms.date: 04/29/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -10,13 +10,12 @@ ms.custom: sfi-image-nochange
 
 # Customize the sender's email address
 
-By default, surveys are sent from the `surveys@email.customervoice.microsoft.com` email address. The email customization feature helps you create a custom email address based on your organization's domain. You can then use this custom email address to send survey invitations to your customers.
+By default, surveys are sent from the `surveys@email.formspro.microsoft.com` email address. The email customization feature helps you create a custom email address based on your organization's domain. You can then use this custom email address to send survey invitations to your customers.
 
 Let's say your company is Contoso Suites, and the company's website is `www.contososuites.com`. You want to create two custom email addresses based on your company's domain, such as `noreply@contososuites.com` and `support@contososuites.com`.
 
 > [!NOTE]
 > - Only tenant administrators can add custom email addresses. If you want to send survey invitations from a custom email address, contact your tenant administrator to add it.
-> - In US Government Community Cloud, emails are sent from the logged in user's account.
 > - The capability to customize sender's email address is not available in US Government Community Cloud.
 > - Ensure that your Customer Voice environment is set up successfully before you verify the domain while adding a custom email address. To confirm that your environment is set up successfully, the message `You can start building as soon as Dynamics 365 setup is complete. We'll let you know as soon as it's done.` should not be displayed on the survey design page.
 
