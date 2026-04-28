@@ -1,7 +1,7 @@
 ---
 title: "Get started | MicrosoftDocs"
 description: "Dynamics 365 Customer Voice is an enterprise feedback management application. This topic helps you to get started with Dynamics 365 Customer Voice."
-ms.date: 11/21/2025
+ms.date: 04/28/2026
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
@@ -19,9 +19,7 @@ The **All projects** tab displays a list of the projects you created, and is whe
 
 ## Dynamics 365 Customer Voice availability on US Government Community Cloud
 
-The dependency services used by Dynamics 365 Customer Voice are available on US Government Community Cloud (GCC). Dynamics 365 Customer Voice is built on top of Microsoft Forms, so the [limitations of Microsoft Forms features on GCC](https://support.office.com/article/microsoft-forms-features-for-u-s-government-community-cloud-gcc-gcc-high-and-dod-environments-5cbd407a-eef7-431e-8e3a-eb666eab4b4c?ui=en-US&rs=en-US&ad=US) hold true. In addition to those, note the following difference in functionality for Dynamics 365 Customer Voice on GCC:
-
-- Dynamics 365 Customer Voice on GCC uses your organization's Microsoft Exchange mailbox to send the survey. Exchange mailbox has limitation on the number of emails that can be sent by a user. For information about Exchange mailbox limits, see [Exchange Online limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+The dependency services used by Dynamics 365 Customer Voice are available on US Government Community Cloud (GCC). Dynamics 365 Customer Voice is built on top of Microsoft Forms, so the [limitations of Microsoft Forms features on GCC](https://support.office.com/article/microsoft-forms-features-for-u-s-government-community-cloud-gcc-gcc-high-and-dod-environments-5cbd407a-eef7-431e-8e3a-eb666eab4b4c?ui=en-US&rs=en-US&ad=US) hold true.
 
 > [!NOTE]
 > - As a GCC customer, you must either have a Dynamics 365 enterprise license or a Microsoft 365 license.
