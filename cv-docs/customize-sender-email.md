@@ -1,7 +1,7 @@
 ---
 title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
 description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
-ms.date: 04/29/2026
+ms.date: 04/28/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
