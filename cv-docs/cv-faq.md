@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 03/26/2026
+ms.date: 05/06/2026
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
@@ -332,6 +332,14 @@ To enable the Customer Voice app for a user:
 5. Select the license that includes Dynamics 365 Customer Voice.
 6. Expand **Apps** and select **Dynamics 365 Customer Voice** to enable it for the user.
 7. Select **Save changes**.
+
+## Why are some Dynamics 365 Customer Voice tables not visible in the security role editor?
+
+Some Customer Voice tables—such as **Survey response**, **Survey invite**, and **Alert** are activity entities in Microsoft Dataverse. Activity entities don't appear as individual entries in the security role editor; instead, they inherit their access privileges from the **Activity** table.
+
+To manage permissions for these tables, configure the **Activity** table privileges in your security role. The updated privileges automatically apply to all Activity entities, including Customer Voice tables.
+
+For more information, see [Activity table (Microsoft Dataverse)](/power-apps/developer/data-platform/activity-entities).
 
 ## How can I share new feature requirements or ideas?
 

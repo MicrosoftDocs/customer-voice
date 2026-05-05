@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 02/11/2026
+ms.date: 05/06/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -117,6 +117,9 @@ If a project contains responses, a co-owner can see all responses under **Report
 3. In the **Share** panel, go to the **Access** tab, and then select **Remove access** for the user you want to remove.
 
     ![Remove project access.](media/project-owners.png "Remove project access")
+
+> [!NOTE]
+> If a co-owner has created one or more surveys in the project, the **Remove access** button is hidden for that user on the **Access** tab. To remove such a co-owner, the co-owner must first delete all surveys they created in the project. Once those surveys are removed, the **Remove access** button becomes visible again and the project owner can remove their access. This behavior prevents orphaning surveys and their associated response data.
 
 ### Ownership of survey data
 
