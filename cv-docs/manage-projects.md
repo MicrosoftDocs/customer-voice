@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 05/06/2026
+ms.date: 05/15/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -107,6 +107,9 @@ If a project contains responses, a co-owner can see all responses under **Report
     The co-owners are displayed on the **Access** tab.
 
     ![Owners of a project.](media/project-owners.png "Owners of a project")
+
+> [!NOTE]
+> Do not add or remove users directly from the Microsoft Entra ID group or Dataverse team associated with a Customer Voice project, as this can cause backend permission mismatches and lead to access failures. To add or remove users, you must use the **Share** option in Dynamics 365 Customer Voice. If you have already made changes in the Microsoft Entra ID group or Dataverse team, and are experiencing access issues, revert those modifications, and then use the **Share** option to manage access.
 
 **To remove a co-owner from a project**
 
