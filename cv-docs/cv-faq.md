@@ -60,9 +60,18 @@ The application user requires the System Administrator role to associate survey 
 
 ## What happens if the project owner leaves the organization?
 
-If the project owner leaves the organization, the project is deleted once the user is removed from the organization. If the project was shared by the user before leaving the organization, the existing user, with whom the project is shared, must create a [copy of the project](manage-projects.md#copy-a-project) before user leaves the organization and use the copied project.
+When a project owner leaves the organization, their surveys are deleted after their account is permanently removed from Microsoft Entra ID.
 
-When a user is deleted, it is considered as a soft delete for 30 days. After 30 days, the user is hard deleted. This activity takes place in Microsoft Entra ID. Once the account of the survey owner is hard deleted, the survey is deleted automatically from Dynamics 365 Customer Voice and all other project owners also lose access to that survey. Survey response data is retained in Microsoft Dataverse until the retention policy is met. If the user is only deactivated, the survey is not deleted but operations will fail. If a project has surveys with owners who are active, the project appears in the list of projects on the Dynamics 365 Customer Voice interface. Before the survey owner leaves, another project owner should [create a copy of the project](manage-projects.md#copy-a-project) to preserve the surveys. We recommend creating surveys using a service account to prevent disruption when individual users leave the organization.
+User deletion in Microsoft Entra ID is a two-stage process:
+
+- **Soft delete (0–30 days)**: The account is disabled but not yet permanently removed.
+- **Hard delete (after 30 days)**: The account is permanently deleted.
+
+Once the account is hard deleted, all associated surveys are automatically deleted from Dynamics 365 Customer Voice, and all other project owners lose access. Survey response data is retained in Microsoft Dataverse until the applicable retention policy expires.
+
+If the account is only deactivated rather than deleted, surveys remain intact but operations will fail. As long as other project co-owners have active accounts, the project continues to appear in the Dynamics 365 Customer Voice interface.
+
+Before the owner leaves, another project owner or a user the project was shared with should [create a copy of the project](manage-projects.md#copy-a-project) to preserve the surveys. We recommend using a service account to create surveys to avoid disruption when individual users leave the organization.
 
 ## The original owner of a survey is no longer with the organization and/or their Customer Voice license has been removed. What happens to the data associated with the survey?
 
