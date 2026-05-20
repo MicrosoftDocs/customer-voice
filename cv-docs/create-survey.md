@@ -1,7 +1,7 @@
 ---
 title: "Create a survey | MicrosoftDocs"
 description: "A survey is created automatically when you create a project. This topic explains how to create a survey in Dynamics 365 Customer Voice."
-ms.date: 11/21/2025
+ms.date: 05/20/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -10,6 +10,10 @@ ms.author: shjais
 # Create a survey
 
 A survey is created automatically when you create a project (either from out-of-the-box templates or blank). You can also create a survey within a project. After it's created, you can add&mdash;or edit&mdash;questions and customize the survey the way you want. More information: [Create a project](create-project.md)
+
+> [!IMPORTANT]
+> - We recommend using a service account to create and own surveys to prevent disruption when individual users leave the organization. The surveys created by a service account will continue to function untill the service account is active, even if the individual who created the survey leaves the organization. This ensures continuity in managing surveys and projects without any disruption.
+> - If a service account is not available, share the project with other user before leaving the organization. The user with whom the project is shared will become the new owner of the project and continue to manage the project and surveys. 
 
 ## Create a survey within a project
 

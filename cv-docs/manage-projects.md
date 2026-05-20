@@ -143,6 +143,13 @@ The following table shows the ownership of data in Dynamics 365 Customer Voice e
 |Customer Voice survey question response|Project creator|Team (Dataverse)|
 ||||
 
+> [!IMPORTANT]
+> When a survey or project owner's account is deleted from Microsoft Entra ID, it is soft deleted for 30 days. After 30 days, the account is hard deleted.
+> - If the deleted user was a **survey owner**, the survey is automatically deleted and all other project owners lose access to that survey. Survey response data is retained in Microsoft Dataverse until the retention policy is met. If the account is only deactivated and not deleted, the survey is not deleted but operations on it will fail.
+> - If the deleted user was a **project owner**, the project is deleted. However, if the project contains surveys owned by other active users, the project may still appear in the project list.
+>
+> Before the owner leaves, another project owner should [create a copy of the project](manage-projects.md#copy-a-project) to preserve the surveys and retain full access. We recommend using a service account to create and own surveys and projects to prevent disruption when individual users leave the organization.
+
 ## Update a project
 
 You can update your project with the copy of the same project. The copy can reside in the same environment or a different one. By updating a copy of the project, you can make incremental changes while its survey is being sent to respondents and receiving responses, without interrupting the survey.
