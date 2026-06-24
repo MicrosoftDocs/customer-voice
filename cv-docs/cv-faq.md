@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 05/06/2026
+ms.date: 06/24/2026
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
@@ -304,6 +304,18 @@ After the group is restored, the members should appear again in the project's **
 ## Why can't I see personalization variables in Create an Invitation and Send a Survey Power Automate connectors?
 
 [Personalization variables](personalize-survey.md) are not available in non-Open API Power Automate flows. It is recommended to create a new flow that is based on Open API by default. To check if your flow is non-Open API, see if there's Peek code on an action and if you see the API Connection value instead of Open API Connection in Kind field, it's a non-Open API flow.
+
+## Why are Customer Voice survey variables not available in emails sent through Customer Insights - Journeys?
+
+Customer Voice survey variables aren't available when surveys are sent directly through Customer Insights - Journeys. This is by design.
+
+When the email is processed, Customer Insights - Journeys requests only a personalized survey invitation URL from Customer Voice. It doesn't read or access the survey variables defined in the survey, so those variables can't be populated in the email designer.
+
+If you need to use survey variables, use this approach:
+
+1. Generate the survey invitation outside the journey (for example, by using Power Automate).
+2. Populate the survey variables during invitation creation.
+3. Pass the resulting personalized survey URL into Customer Insights - Journeys and use that URL in the email content.
 
 
 ## Why do invite counts differ between the Send tab and exported data?

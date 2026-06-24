@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "This article explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
-ms.date: 04/28/2026
+ms.date: 06/24/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -55,7 +55,10 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 > [!NOTE]
 > - You can send a survey invitation to a maximum of 10,000 recipients.
 > - To customize the **From** address of the email, see [Customize the sender's email address](customize-sender-email.md).
-
+> - The value shown in the **From** field is based on the sender selected in **Distribution settings** > **Email** > **Sender**.
+>   - If the default Customer Voice sender is selected (for example, `surveys@email.formspro.microsoft.com`), the **From** field shows the signed-in user's display name.
+>   - If a tenant-configured custom domain sender is selected (for example, `noreply@contoso.com`), the **From** field shows the configured sender email address.
+> - The **Sender** field is read-only and only lists sender addresses configured at the tenant level.
 
 ## Import contacts from a CSV file
 
