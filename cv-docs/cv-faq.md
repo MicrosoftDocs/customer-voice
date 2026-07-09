@@ -362,6 +362,10 @@ To manage permissions for these tables, configure the **Activity** table privile
 
 For more information, see [Activity table (Microsoft Dataverse)](/power-apps/developer/data-platform/activity-entities).
 
+## Why can't I open the survey response submission page in my browser after enabling the Data plane protection (Preview) feature in Tenant restrictions v2?
+
+If you enable the Data plane protection (Preview) feature in Tenant restrictions v2, the Dynamics 365 Customer Voice survey response submission page won't open in the browser. There's currently no estimated timeline for a fix.
+
 ## How can I share new feature requirements or ideas?
 
 You can share your new feature requirements or ideas on the [Customer Voice Ideas](https://aka.ms/customervoiceideas) page.
