@@ -1,7 +1,7 @@
 ---
 title: "Create a multiple-page survey | MicrosoftDocs"
 description: "This topic explains how to use sections to create a multiple-page survey with Dynamics 365 Customer Voice."
-ms.date: 11/21/2025
+ms.date: 09/01/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -18,7 +18,7 @@ When you create a survey, the survey is created on a single page by default. You
 
 1.	Open the survey.
 
-2.	Select **Add new**, select **More** (...), and then select **Section**.
+2.	Select **Add new**, select **More question types**, and then select **Section**.
 
     ![Section button.](media/section-button.png "Section button")
 
