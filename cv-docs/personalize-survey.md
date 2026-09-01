@@ -1,7 +1,7 @@
 ---
 title: "Personalize a survey | MicrosoftDocs"
 description: "You can personalize a survey by automatically inserting custom information in it. This topic explains how to personalize a survey by using variables."
-ms.date: 11/21/2025
+ms.date: 09/01/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -116,17 +116,17 @@ For information on how to import contacts from a CSV file, see [Import contacts 
 
 ### Specify values in a flow
 
-To    specify values for variables in a flow:
+To specify values for variables in a flow:
 
-1.    While configuring a flow, select **Edit in advanced mode**.
+1. Create or open a Power Automate flow.
+2. Add the **Send a survey** action from Dynamics 365 Customer Voice.
+3. Select the **Project**, **Survey**, and **Email template**.
+4. Expand **Advanced parameters** in the **Send a survey** action.
 
-2. Go to the step that sends the survey, and expand it.
+    The available survey variables (for example, **First Name**, **Last Name**, **locale**, and any custom variables created in the survey) appear automatically.
 
-3.    Select **Show advanced options**.
-
-4. Specify the values for variables.
-
-5. Save the changes.
+1. Enter static values or map **Dynamic Content** to the required variables.
+1. Save the flow.
 
 ### See also
     
