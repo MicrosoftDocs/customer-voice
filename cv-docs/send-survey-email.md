@@ -1,7 +1,7 @@
 ---
 title: "Send a survey by using email | MicrosoftDocs"
 description: "This article explains how to send a survey by using the built-in email composer in Dynamics 365 Customer Voice."
-ms.date: 06/24/2026
+ms.date: 09/24/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -14,6 +14,7 @@ Dynamics 365 Customer Voice provides an easy way to send your survey to multiple
 > [!NOTE]
 > - By default, surveys are sent from the `surveys@email.formspro.microsoft.com` email address. If you want to customize the sender's email address, see [Customize the sender's email address](customize-sender-email.md).
 > - If you are sending email using the default domain, you can send a maximum of 10,000 emails per day. If you are using a [custom domain](customize-sender-email.md), you can send a maximum of 50,000 emails per day.
+> - Customer Voice uses a pixel-tracking mechanism in survey invitation emails to determine whether the invitations are read or unread.
 
 **To send a survey by using email**
 
