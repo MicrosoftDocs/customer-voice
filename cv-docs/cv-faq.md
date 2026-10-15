@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 06/24/2026
+ms.date: 10/13/2026
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
@@ -250,6 +250,9 @@ Privacy statement can be customized by administrators from the Azure portal. In 
 ## Can I transfer the ownership of a project from a user who has left the organization or will leave soon?
 
 No, transferring the ownership of a project is not supported currently. You must create a copy of the project and share it with other users. Ensure that the newly copied project is used going forward.
+
+> [!NOTE]
+> Reassigning Dataverse records owned by a user who left the organization doesn't transfer ownership of a Customer Voice project or restore access to an inaccessible project. Changes to Dataverse record ownership aren't reflected in the Customer Voice user interface. Don't modify or reassign Dataverse records as a workaround to transfer project ownership or restore project access.
 
 ## Can I restore a deleted project?
 
