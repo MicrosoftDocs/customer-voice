@@ -1,7 +1,7 @@
 ---
 title: "Report on survey invitations | MicrosoftDocs"
 description: "A survey invitation record is created for each survey email that's sent. This topic explains how to view the survey invitations report."
-ms.date: 09/24/2026
+ms.date: 10/19/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -30,7 +30,7 @@ The following survey invitation statistics are displayed in the upper part of th
     - **Opened**: The survey was opened, but hasn't been completed yet.
     
     > [!NOTE]
-    > - Customer Voice uses a pixel-tracking mechanism in survey invitation emails to determine whether the invitations are read or unread.
+    > - Customer Voice uses pixel tracking in survey invitation emails to determine whether the invitations are read or unread. Pixel tracking is enabled at the sender's tenant level. To disable pixel tracking, contact Microsoft Support.
     > - When you send an email, the recipient's mailbox server might have security policies that scan the email before delivering it to the recipient's inbox. These policies might result in the email being marked as **Read** or **Opened** even if the recipient didn't open the email.
 
 - **Not sent**: Displays the total number of survey invitations that weren't delivered to recipients due to an incorrect email address or other error.
