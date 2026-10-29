@@ -1,7 +1,7 @@
 ---
 title: "Customize the sender's email address to send survey invitations | MicrosoftDocs"
 description: "Survey invitations are sent from a default email address. This topic explains how to customize the sender's email address for sending survey invitations."
-ms.date: 04/28/2026
+ms.date: 10/29/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -69,6 +69,30 @@ Take the following steps to add custom email addresses:
     > ![Custom email address added to customer voice.](media/cv-custom-email-address-added.png "Custom email address added to customer voice")
 
 The custom email address is displayed in the **Dynamics 365 Customer Voice** panel.
+
+### Troubleshoot missing DNS record values when adding a custom domain
+
+If DNS record values don't appear under **Create DNS record** on the **Verify your domain** page, use the following steps to retry domain setup:
+
+1. Confirm that your Dynamics 365 Customer Voice environment setup is complete. Open the survey design page and check that the following message no longer appears:
+
+   > You can start building as soon as Dynamics 365 setup is complete. We'll let you know as soon as it's done.
+
+   If the message still appears, wait for setup to finish before you retry.
+
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/) with your work or school account. You must be a tenant administrator.
+
+1. Go to **Settings** > **Org settings**.
+
+1. On the **Services** tab, select **Dynamics 365 Customer Voice**.
+
+1. On the **Distribution** tab, check whether an entry for the same domain already exists. If the entry is in **Pending Verification** and its DNS record values aren't displayed, remove that domain entry.
+
+1. Select **+ Add domain**, enter the domain name, and then select **Next**.
+
+1. On the **Verify your domain** page, use the values under **Create DNS record** to create the required DNS records, and then select **Verify**. For guidance, see [Example DNS records](#example-dns-records).
+
+If the DNS record values still don't appear, [contact Microsoft Support](/power-platform/admin/get-help-support) for further investigation. Include a description of the issue and any relevant browser errors in your support request. Support might request a network trace to help diagnose the issue.
   
 ## Edit custom email addresses
 

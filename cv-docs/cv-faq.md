@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions | MicrosoftDocs"
 description: "Use this article to know about the frequently asked questions and their answers in Dynamics 365 Customer Voice."
-ms.date: 10/13/2026
+ms.date: 10/29/2026
 ms.topic: faq
 author: sbmjais
 ms.author: shjais
@@ -368,6 +368,37 @@ For more information, see [Activity table (Microsoft Dataverse)](/power-apps/dev
 ## Why can't I open the survey response submission page in my browser after enabling the Data plane protection (Preview) feature in Tenant restrictions v2?
 
 If you enable the Data plane protection (Preview) feature in Tenant restrictions v2, the Dynamics 365 Customer Voice survey response submission page won't open in the browser. There's currently no estimated timeline for a fix.
+
+## Why are my requests being throttled in Dynamics 365 Customer Voice?
+
+Dynamics 365 Customer Voice uses throttling to help protect service stability when a high volume of requests is generated within a short period. The limits apply at the tenant level, not to individual users.
+
+The following request limits apply:
+
+| Time period | Request limit per tenant |
+|-------------|--------------------------|
+| 2 minutes | 600 requests |
+| 30 minutes | 1,200 requests |
+
+When either limit is exceeded, Customer Voice requests might be temporarily throttled.
+
+If you encounter throttling, review the frequency and volume of Customer Voice operations across your tenant, including automated operations such as sending large numbers of survey invitations. Reduce the request rate and spread operations over time to stay within both limits.
+
+If your business scenario requires higher request limits, [contact Microsoft Support](/power-platform/admin/get-help-support) to request a review by the Customer Voice product team. An increase is subject to review and isn't guaranteed.
+
+## How does Dynamics 365 Customer Voice response capacity work, and how can I track usage?
+
+Tenants with eligible Dynamics 365 enterprise products receive 2,000 Customer Voice responses per month. This capacity is shared across the tenant, regardless of the number of licensed users. It isn't a per-user entitlement.
+
+Response capacity is calculated annually. Unused responses don't carry over to the next year or accumulate across years.
+
+To monitor usage, keep the following in mind:
+
+- **Capacity visibility**: Microsoft admin portals don't currently provide a single view that combines entitled, consumed, remaining, and accrued response capacity.
+- **Usage tracking**: Use Customer Voice survey response data in Microsoft Dataverse to track consumption. You can build Power BI reports or dashboards to monitor usage and estimate remaining capacity based on your licensed entitlement. Because capacity is shared across the tenant, include response data from all relevant environments in your estimate.
+- **Capacity alerts**: Customer Voice doesn't currently provide alerts when you're approaching the response capacity limit.
+
+For more information about eligible products, capacity consumption, and purchasing additional responses, see [Purchase Dynamics 365 Customer Voice](purchase.md).
 
 ## How can I share new feature requirements or ideas?
 
