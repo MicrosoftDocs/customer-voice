@@ -1,7 +1,7 @@
 ---
 title: "Manage projects | MicrosoftDocs"
 description: "All the created and shared projects are available under All projects. This topic explains how to manage projects created with Dynamics 365 Customer Voice."
-ms.date: 05/15/2026
+ms.date: 10/29/2026
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
@@ -149,6 +149,41 @@ The following table shows the ownership of data in Dynamics 365 Customer Voice e
 > - If the deleted user was a **project owner**, the project is deleted. However, if the project contains surveys owned by other active users, the project may still appear in the project list.
 >
 > Before the owner leaves, another project owner should [create a copy of the project](manage-projects.md#copy-a-project) to preserve the surveys and retain full access. We recommend using a service account to create and own surveys and projects to prevent disruption when individual users leave the organization.
+
+### Troubleshoot issues with the Share operation
+
+#### Symptoms
+
+When you select **Share** for a project in Dynamics 365 Customer Voice, the **Share** panel might fail to load. A network trace might also show an HTTP 500 (Internal Server Error) response with a generic message, such as the following example:
+
+```json
+{
+  "error": {
+    "code": "InternalServerError",
+    "message": "The requested resource could not be found or one or more associated reference objects are unavailable."
+  }
+}
+```
+
+#### Cause
+
+This issue can occur if the group associated with the project is deleted. The error message alone doesn't confirm that the group is deleted.
+
+#### Resolution
+
+1. [Contact Microsoft Support](/power-platform/admin/get-help-support) for help with Dynamics 365 Customer Voice. Include the following details in your support request:
+
+   - Project owner's Microsoft Entra ID user object ID.
+   - Affected user's display name and email address.
+   - Tenant ID.
+   - Microsoft Dataverse organization ID (CDS ID).
+   - Microsoft Dataverse organization URL (CDS URL).
+   - Environment ID.
+   - Project ID.
+
+   The support team investigates the issue. If the group is deleted, the Customer Voice team restores the group associated with the project.
+
+2. After support confirms that the group is restored, sign in to Dynamics 365 Customer Voice again and retry the **Share** operation.
 
 ## Update a project
 
